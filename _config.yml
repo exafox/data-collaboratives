@@ -45,8 +45,14 @@ contentful:
         destination: ./source/_data/contentful/spaces # Optional - Defaults to _data/contentful/spaces
 
 page_gen:
-  - data: 'cases.datacollaborative'
+  - data: 'contentful.spaces.cases.datacollaborative'
     template: 'case_template'
     name: 'caseStudy'
     dir: 'cases'
     # extension: 'html'
+  - data: 'contentful.spaces.cases.canvasPhases'
+    template: 'canvas_template'
+    name: 'phaseTitle'
+    dir: 'canvas'
+
+array: []
