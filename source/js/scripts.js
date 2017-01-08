@@ -74,5 +74,17 @@ $(document).ready(function () {
         ]
     });
 
+    $('.title-slider').slick({
+      dots: false,
+      infinite: false,
+      speed: 300,
+      arrows: false,
+      focusOnSelect: true,
+      swipeToSlide: true,
+      slidesToShow: 1,
+      centerMode: true,
+      variableWidth: true
+    });
+
     
 }); // doc.ready

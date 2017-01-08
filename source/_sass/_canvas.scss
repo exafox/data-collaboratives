@@ -1,6 +1,131 @@
 .canvas-page {
   .top-section {
-    padding-bottom: 60px;
-    h1 {text-transform: uppercase;}
+    padding-top: 140px;
+    padding-bottom: 30px;
+  }
+
+  .phase-title {
+    // width: 100%;
+    // overflow: hidden;
+    
+    h1 {
+      font-size: 2rem;
+      text-transform: uppercase;
+      font-weight: 300;
+
+      span {
+        display: inline-block;
+        margin: 0 20px;
+        opacity: .6;
+        cursor: pointer;
+        transition: all .3s;
+        line-height: .7;
+
+        em {
+          display: block;
+          font-size: 1rem;
+          line-height: 1.6;
+          font-style: normal;
+          opacity: .6;
+        }
+
+        &:focus { outline: 0; }
+        &:hover { opacity: 1; }
+      }
+
+      .slick-current {
+        font-weight: 100;
+        opacity: 1;
+        transform: scale(1.8);
+        transform-origin: bottom;
+        transition: all .3s;
+        margin: 0 7rem;
+
+        em {
+          font-weight: 500;
+        }
+      }
+
+      .slick-list,
+      .slick-track { overflow: visible; }
+    }
+  }
+}
+
+.phase-intro {
+  font-size: 1.6rem;
+  background-color: darken($main-color, 2);
+  font-weight: 300;
+  color: darken($main-color, 20);
+  line-height: 1.4;
+  text-align: center;
+}
+
+.canvas-step {
+  &__section {
+    margin-top: 40px;
+  }
+
+  &__title {
+    font-size: 1.6rem;
+    margin: 0;
+    font-weight: 300;
+    text-transform: capitalize !important;
+  }
+
+  &__step-number {
+    display: block;
+    font-size: 1.3rem;
+    margin: 0;
+    font-weight: 800 !important
+  }
+
+  &__section-title {
+    text-align: right;
+    margin: 0;
+
+    font-size: 1.1rem;
+    font-weight: 800;
+    margin-right: 30px;
+    color: rgba(black, .5);
+  }
+
+  &__content {
+    font-size: 1.2rem;
+
+    *:first-child { margin-top: 0; } // Vertically aligns content with section-title
+
+    ul, ol {
+      padding-left: 0;
+      list-style: none;
+    }
+
+    li {
+      padding: 3px 5px;
+      border-bottom: 1px solid rgba(black, .1);
+      &:first-of-type { border-top: 1px solid rgba(black, .1); }
+    }
+
+    a {
+      text-decoration: none;
+      color: darken($main-color, 10);
+
+      &:hover {
+        background-color: rgba($main-color, .2);
+      }
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
   }
 }

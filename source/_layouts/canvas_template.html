@@ -6,45 +6,98 @@ layout: default
 <div class="canvas-page">
 
   <div class="top-section top-section--yellow">
-    <h1>{{ page.phaseTitle }}</h1>
+    <!-- <h1>{{ page.phaseTitle }}</h1> -->
+    <div class="phase-title">
+      <h1 class="title-slider"><span><em>Phase 1</em> demand</span><span><em>Phase 2</em> supply</span><span><em>Phase 3</em> collaboration</span><span><em>Phase 4</em> design</span><span><em>Phase 5</em> implementation</span><span><em>Phase 6</em> communication</span><span><em>Phase 7</em> learning</span><span><em>Phase 8</em> iteration</span></h1>
+    </div>
   </div>
-  <div class="page-section">
-    <div class="row align-center">
-      <div class="large-12 column">
+  <div class="page-section phase-intro">
+    <div class="row align-center expanded">
+      <div class="large-11 column">
         {{ page.phaseDescription | markdownify }}
       </div>
     </div>
   </div>
 
   {% for phaseStep in page.phaseSteps %}
-  <div class="page-section">
-    <div class="row">
-      <div class="large-12 column">
-        <h3>{{ phaseStep.stepTitle | markdownify }}</h3>
-
-          <h4>Discussion</h4>
-          {{ phaseStep.discussion | markdownify }}
-
-          <h4>Questions and Considerations</h4>
-          {{ phaseStep.questions | markdownify}}
-
-          <h4>Enablers</h4>
-          {{ phaseStep.enablers | markdownify}}
-
-          <h4>Examples</h4>
-          {{ phaseStep.examples | markdownify}}
-
-          <h4>Resources</h4>
-          {{ phaseStep.resources | markdownify }}
-
+  <div class="cavas-step">
+    <div class="divider">
+      <div class="row">
+        <div class="large-8 large-offset-4 column">
+          <h3 class="canvas-step__title"><span class="canvas-step__step-number" >step {{ forloop.index }}</span>{{ phaseStep.stepTitle}}</h3>
+        </div>
       </div>
+    </div>
+
+    <div class="page-section">
+      
+      {% if phaseStep.discussion %}
+      <div class="canvas-step__section">
+        <div class="row">
+          <div class="large-4 column">
+            <h4 class="canvas-step__section-title">Discussion</h4>
+          </div>
+          <div class="large-8 column">
+            <div class="canvas-step__content">
+              <div class="canvas-step__content">{{ phaseStep.discussion | markdownify }}</div>
+            </div>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+
+      {% if phaseStep.questions %}
+      <div class="canvas-step__section">
+        <div class="row">
+          <div class="large-4 column">
+            <h4 class="canvas-step__section-title">Questions & Considerations</h4>
+          </div>
+          <div class="large-8 column">
+            <div class="canvas-step__content">{{ phaseStep.questions | markdownify}}</div>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+
+      {% if phaseStep.enablers %}
+      <div class="canvas-step__section">
+        <div class="row">
+          <div class="large-4 column">
+            <h4 class="canvas-step__section-title">Enablers</h4>
+          </div>
+          <div class="large-8 column">
+            <div class="canvas-step__content">{{ phaseStep.enablers | markdownify}}</div>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+       
+      {% if phaseStep.examples %}
+      <div class="canvas-step__section">
+        <div class="row">
+          <div class="large-4 column">
+            <h4 class="canvas-step__section-title">Examples</h4>
+          </div>
+          <div class="large-8 column">
+            <div class="canvas-step__content">{{ phaseStep.examples | markdownify}}</div>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+
+      {% if phaseStep.resources %}
+      <div class="canvas-step__section">
+        <div class="row">
+          <div class="large-4 column">
+            <h4 class="canvas-step__section-title">Resources</h4>
+          </div>
+          <div class="large-8 column">
+            <div class="canvas-step__content">{{ phaseStep.resources | markdownify }}</div>
+          </div>
+        </div>
+      </div>
+      {% endif %}
+
     </div>
   </div>
   {% endfor %}
-
-  <!-- Adding links to each phase of the canvas -->
- {% assign canvas = site.data.contentful.spaces.cases.canvasPhases %}
-   {% for phase in canvas %}
-    <span><a href="{{phase.phaseTitle | slugify }}.html"> {{ phase.phaseTitle }}</a></span> 
-  {% endfor %}
-</div>
