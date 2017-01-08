@@ -4,7 +4,7 @@
   &__header {
     background-size: cover;
     background-position: center;
-    height: 40vh;
+    height: 42vh;
     position: relative;
 
     &:after {
@@ -49,11 +49,13 @@
       font-size: 1.2rem;
       font-weight: 400;
       color: white;
+
       @include breakpoint($small-only) {
         font-size: 1rem;
       }
 
       span {
+        margin-bottom: 5px;
         border: 1px solid white;
         padding: 7px 17px;
         background-color: rgba(black, .1);

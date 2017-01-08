@@ -112,3 +112,15 @@ layout: default
   .top-section {margin-top: 50px;}
   .top-bar {background-color: #e5c810;}
 </style>
+
+{% assign number = page.dataType | size  %}
+
+{% if number > 3 %}
+  <style media="screen">
+    .case-page__header { height: 55vh;}
+    h2 {
+      padding-right: 10%;
+      padding-left: 10%;
+    }
+  </style>
+{% endif %}
