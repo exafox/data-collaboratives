@@ -8,43 +8,23 @@ title: Events | Data Collaboratives
     <h2 class="top-section__list-header">Events</h2>
   </div>
 
+  {% assign events = site.data.contentful.spaces.cases.events | sort: 'eventDate')%}
+  {% assign currentDate = site.time %}
+  <!-- {% assign upcomingEventsArray = array.site %}
+  {% assign pastEventsArray = array.site %} -->
+
   <section class="events-panels">
 
     <div class="row expanded align-center">
 
       <div class="large-6 column events-panels__first">
+
         <h5>Upcoming Events</h5>
-      </div>
-
-      <div class="large-6 column events-panels__second">
-        <h5>Past Events</h5>
-      </div>
-    </div>
-
-  </section>
-
-  <div class="page-section">
-    {% assign events = site.data.contentful.spaces.cases.events | sort: 'eventDate')%}
-    {% assign currentDate = site.time %}
-    {% assign upcomingEventsArray = array.site %}
-    {% assign pastEventsArray = array.site %}
-
-
-    {% for event in events %}
-    <div class="row">
-      <div class="columns">
+        {% for event in events %}
         {% assign eventDate = event.eventDate  %}
 
-        {% if eventDate < currentDate %}
-          {% assign pastEventsArray = pastEventsArray | push: event %}
-          "NOW"
-
-        {% else if eventDate >= currentDate %}
-          {% assign upcomingEventsArray = upcomingEventsArray | push: event %}
-          "NOT NOW"
-        {% endif %}
-
-
+        {% if eventDate >= currentDate %}
+        <div class="individual-event">
           <h4>{{event.eventName}}</h4>
           <p>Date: {{event.eventDate | date: "%A, %B %d, %Y" }}</p>
 
@@ -59,19 +39,45 @@ title: Events | Data Collaboratives
           {% if event.eventDescription %}
           <p>Description: {{event.eventDescription | markdownify }}</p>
           {% endif %}
-
+        </div>
+        {% endif %}
+        {% endfor %}
       </div>
-    </div>
-    {% endfor %}
 
-    {% for item in upcomingEventsArray %}
+      <div class="large-6 column events-panels__second">
+        <h5>Past Events</h5>
+        {% for event in events %}
+        {% assign eventDate = event.eventDate  %}
+        {% if eventDate < currentDate %}
+        <div class="individual-event">
+          <h4>{{event.eventName}}</h4>
+          <p>Date: {{event.eventDate | date: "%A, %B %d, %Y" }}</p>
+
+          {% if event.url %}
+            <a href="{{event.url}}">Go to website</a>
+          {% endif %}
+
+          <p>Location: {{event.location}}</p>
+          {% if event.conferenceType %}
+            <p>Type: {{event.conferenceType}}</p>
+          {% endif %}
+          {% if event.eventDescription %}
+          <p>Description: {{event.eventDescription | markdownify }}</p>
+          {% endif %}
+        </div>
+        {% endif %}
+        {% endfor %}
+        </div>
+    </div>
+
+  </section>
+
+
+    <!-- {% for item in upcomingEventsArray %}
       {{item.eventName}}
-      <!-- {% for hello in item %}
-        {{hello.eventName}}
-      {% endfor %} -->
     {% else %}
       The collection is empty.
-    {% endfor %}
+    {% endfor %} -->
 
   </div>
 </div>
