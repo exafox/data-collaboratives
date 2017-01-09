@@ -9,4 +9,11 @@ $(document).ready(function() {
     $(phaseTarget).show();
   });
 
+  // Canvas arrows
+  $('.title-slider').on("afterChange", function() {
+    var phaseTarget = $(this).find('.slick-current').attr('data-target');
+    $('.phase-wrapper').hide();
+    $(phaseTarget).show();
+  });
+
 });
