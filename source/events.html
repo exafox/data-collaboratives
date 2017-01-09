@@ -8,27 +8,29 @@ title: Events | Data Collaboratives
     <h2 class="top-section__list-header">Events</h2>
   </div>
 
-  {% assign events = site.data.contentful.spaces.cases.events | sort: 'eventDate')%}
+  {% assign events = site.data.contentful.spaces.cases.events | sort: 'eventDate' )%}
   {% assign currentDate = site.time %}
   <!-- {% assign upcomingEventsArray = array.site %}
   {% assign pastEventsArray = array.site %} -->
 
   <section class="events-panels">
-
     <div class="row expanded align-center">
-
       <div class="large-6 column events-panels__first">
 
-        <h5>Upcoming Events</h5>
+        <h4>Upcoming Events</h4>
         {% for event in events %}
         {% assign eventDate = event.eventDate  %}
 
         {% if eventDate >= currentDate %}
         <div class="individual-event">
-          <h4>{{event.eventName}}</h4>
-          <p>Date: {{event.eventDate | date: "%A, %B %d, %Y" }}</p>
+          <h5 class="js-open-modal"><a href="#">{{event.eventName}}</a></h5>
 
-          {% if event.url %}
+
+          <p>{{event.eventDate | date: "%A, %B %d, %Y" }}</p>
+
+          {% include events-modal.html %}
+
+          <!-- {% if event.url %}
             <a href="{{event.url}}">Go to website</a>
           {% endif %}
 
@@ -38,22 +40,25 @@ title: Events | Data Collaboratives
           {% endif %}
           {% if event.eventDescription %}
           <p>Description: {{event.eventDescription | markdownify }}</p>
-          {% endif %}
+          {% endif %} -->
         </div>
+
         {% endif %}
+
         {% endfor %}
+
       </div>
 
       <div class="large-6 column events-panels__second">
-        <h5>Past Events</h5>
-        {% for event in events %}
+        <h4>Past Events</h4>
+        {% for event in events reversed %}
         {% assign eventDate = event.eventDate  %}
         {% if eventDate < currentDate %}
         <div class="individual-event">
-          <h4>{{event.eventName}}</h4>
-          <p>Date: {{event.eventDate | date: "%A, %B %d, %Y" }}</p>
+          <h5>{{event.eventName}}</h5>
+          <p>{{event.eventDate | date: "%A, %B %d, %Y" }}</p>
 
-          {% if event.url %}
+          <!-- {% if event.url %}
             <a href="{{event.url}}">Go to website</a>
           {% endif %}
 
@@ -63,7 +68,7 @@ title: Events | Data Collaboratives
           {% endif %}
           {% if event.eventDescription %}
           <p>Description: {{event.eventDescription | markdownify }}</p>
-          {% endif %}
+          {% endif %} -->
         </div>
         {% endif %}
         {% endfor %}
@@ -78,6 +83,8 @@ title: Events | Data Collaboratives
     {% else %}
       The collection is empty.
     {% endfor %} -->
+
+
 
   </div>
 </div>

@@ -1229,75 +1229,8 @@ canvasPhases:
   phaseSteps:
   - sys:
       id: 24I8V51vBSsquokqCE6Gkg
-    stepTitle: __Step 1:__ Define the problem to be solved - TEST
-    discussion: Gaining a clear sense of the problem you are seeking to solve is an
-      essential first step in establishing a successful data collaborative. While
-      defining the problem space might seem like a straightforward proposition, achieving
-      the level of precision needed a well-targeted data collaborative requires an
-      in-depth assessment of the problem space.
-    questions: "1. Describe issue to be addressed\n2. Identify the beneficiaries \n3.
-      Articulate why it matters\n4. Note any assumptions\n5. Explore current work
-      to address the problem (internally and externally)"
-    examples: |-
-      - [Telefónica’s Smart Steps](http://dynamicinsights.telefonica.com/488/smart-steps-2) – an intelligence product enabling organizations to use fully anonymized and aggregated mobile network data to measure and compare the movements of crowds – has generated deeper insights about the link between human movement and the spread of infectious diseases.
-
-      - [The Namibia National Vector-borne Diseases Control Programme (NVDCP)](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3927223/) used CDR data from telecommunications provider MTC Namibia, in combination with national surveillance data and satellite imagery, in order to analyze movement patterns for over a million people and map areas of malaria prevalence and risk. The results of the study helped the NVDCP in Namibia improve their targeting of malaria interventions to communities most at risk.
-
-      - Trusted Intermediary: South Africa-based telecom MTN makes anonymized call records available to researchers through a trusted intermediary, Real Impacts Analytics — a data analytics firm that provides guided and predictive analytics solutions.
-      - Prizes or Challenges: In Ivory Coast and Senegal, Orange Telecom hosted a global challenge that allowed researchers to use anonymized, aggregated data to help solve various development problems, including those related to transportation, health, and agriculture.
-
-      - Research Partnership: Yelp shares its data on neighborhood businesses with 30 universities for researchers to build tools and discover meaningful value in the data. Using shared data on Yelp businesses in the San Francisco Bay Area, an academic research team from U.C. Berkeley used a probabilistic model for natural language processing to detect subtopics across a dataset of over 200,000 Yelp business reviews. Their research uncovered correlations between positive ratings and service quality, giving business owners evidence for improving their services.
-    enablers: |2-
-
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-    resources: |-
-      - [Problem Definition Worksheet – Knowledge Co-Creation Portal, Multi-Stakeholder Partnerships](http://www.mspguide.org/tool/problem-definition-worksheet)
-      - [Community Toolbox – Defining and Analyzing the Problem](http://ctb.ku.edu/en/table-of-contents/analyze/analyze-community-problems-and-solutions/define-analyze-problem/main)
-      - [GovLab Public Problem Solving Canvas](http://canvas.govlabacademy.org/)
   - sys:
       id: 4qgOOMrb72kmCOESgQWMCA
-    stepTitle: 'Step 2: Define the value proposition of the data collaborative'
-    discussion: Research and practice in data collaboratives point to a number of
-      societal benefits arising from the cross-sector sharing of data. After clearly
-      defining the problem that a data collaborative will serve to address, organizers
-      should look to gain specificity on the specific benefit a data collaborative
-      could offer.
-    questions: |
-      What is the intended societal benefit of the data collaborative:
-      - Accurate, real-time monitoring of situations?
-      - Agile governance in policy making and public service delivery?
-      - Evidence-based problem solving and decision making?
-      - Improved anticipatory mechanisms for problems and opportunities?
-      - Wider variety of problem solvers working collaboratively to solve complex problems?
-    examples: |
-      [Telefónica’s Smart Steps](http://dynamicinsights.telefonica.com/488/smart-steps-2) – an intelligence product enabling organizations to use fully anonymized and aggregated mobile network data to measure and compare the movements of crowds – has generated deeper insights about the link between human movement and the spread of infectious diseases.
-
-      [The Namibia National Vector-borne Diseases Control Programme (NVDCP)](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3927223/) used CDR data from telecommunications provider MTC Namibia, in combination with national surveillance data and satellite imagery, in order to analyze movement patterns for over a million people and map areas of malaria prevalence and risk. The results of the study helped the NVDCP in Namibia improve their targeting of malaria interventions to communities most at risk.
-
-      [Grameenphone](http://www.ehs.unu.edu/article/read/press-note-new-project-uses-mobile-data-to-understand-climate), the leading telecommunications provider in Bangladesh, shares its mobile call data records to understand climate impacts by mapping population flows before and after extreme weather events. The Mobile Data, Environmental Extremes and Population (MDEEP) Project is a partnership between the United Nations University Institute for Environment and Human Security (UNU-EHS), the International Centre for Climate Change and Development (ICCCAD), Flowminder.org, and Telenor Group.
-    enablers: |-
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-    resources: |-
-      - [Data Collaboratives: Sharing Public Data in Private Hands for Social Good](http://www.forbes.com/sites/bethsimonenoveck/2015/09/24/private-data-sharing-for-public-good/#499f139365bb)
-      - [4 Steps To Building A Compelling Value Proposition](http://www.forbes.com/sites/michaelskok/2013/06/14/4-steps-to-building-a-compelling-value-proposition/#12ba9c7e1f2c)
-      - [Useful Value Proposition Examples (and How to Create a Good One)](http://conversionxl.com/value-proposition-examples-how-to-create/)
 - sys:
     id: 6pBkSIqXTi0GGkoIkCyYuY
   phaseTitle: 'Phase 1: Demand'
@@ -1308,75 +1241,8 @@ canvasPhases:
   phaseSteps:
   - sys:
       id: 24I8V51vBSsquokqCE6Gkg
-    stepTitle: __Step 1:__ Define the problem to be solved - TEST
-    discussion: Gaining a clear sense of the problem you are seeking to solve is an
-      essential first step in establishing a successful data collaborative. While
-      defining the problem space might seem like a straightforward proposition, achieving
-      the level of precision needed a well-targeted data collaborative requires an
-      in-depth assessment of the problem space.
-    questions: "1. Describe issue to be addressed\n2. Identify the beneficiaries \n3.
-      Articulate why it matters\n4. Note any assumptions\n5. Explore current work
-      to address the problem (internally and externally)"
-    examples: |-
-      - [Telefónica’s Smart Steps](http://dynamicinsights.telefonica.com/488/smart-steps-2) – an intelligence product enabling organizations to use fully anonymized and aggregated mobile network data to measure and compare the movements of crowds – has generated deeper insights about the link between human movement and the spread of infectious diseases.
-
-      - [The Namibia National Vector-borne Diseases Control Programme (NVDCP)](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3927223/) used CDR data from telecommunications provider MTC Namibia, in combination with national surveillance data and satellite imagery, in order to analyze movement patterns for over a million people and map areas of malaria prevalence and risk. The results of the study helped the NVDCP in Namibia improve their targeting of malaria interventions to communities most at risk.
-
-      - Trusted Intermediary: South Africa-based telecom MTN makes anonymized call records available to researchers through a trusted intermediary, Real Impacts Analytics — a data analytics firm that provides guided and predictive analytics solutions.
-      - Prizes or Challenges: In Ivory Coast and Senegal, Orange Telecom hosted a global challenge that allowed researchers to use anonymized, aggregated data to help solve various development problems, including those related to transportation, health, and agriculture.
-
-      - Research Partnership: Yelp shares its data on neighborhood businesses with 30 universities for researchers to build tools and discover meaningful value in the data. Using shared data on Yelp businesses in the San Francisco Bay Area, an academic research team from U.C. Berkeley used a probabilistic model for natural language processing to detect subtopics across a dataset of over 200,000 Yelp business reviews. Their research uncovered correlations between positive ratings and service quality, giving business owners evidence for improving their services.
-    enablers: |2-
-
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-    resources: |-
-      - [Problem Definition Worksheet – Knowledge Co-Creation Portal, Multi-Stakeholder Partnerships](http://www.mspguide.org/tool/problem-definition-worksheet)
-      - [Community Toolbox – Defining and Analyzing the Problem](http://ctb.ku.edu/en/table-of-contents/analyze/analyze-community-problems-and-solutions/define-analyze-problem/main)
-      - [GovLab Public Problem Solving Canvas](http://canvas.govlabacademy.org/)
   - sys:
       id: 4qgOOMrb72kmCOESgQWMCA
-    stepTitle: 'Step 2: Define the value proposition of the data collaborative'
-    discussion: Research and practice in data collaboratives point to a number of
-      societal benefits arising from the cross-sector sharing of data. After clearly
-      defining the problem that a data collaborative will serve to address, organizers
-      should look to gain specificity on the specific benefit a data collaborative
-      could offer.
-    questions: |
-      What is the intended societal benefit of the data collaborative:
-      - Accurate, real-time monitoring of situations?
-      - Agile governance in policy making and public service delivery?
-      - Evidence-based problem solving and decision making?
-      - Improved anticipatory mechanisms for problems and opportunities?
-      - Wider variety of problem solvers working collaboratively to solve complex problems?
-    examples: |
-      [Telefónica’s Smart Steps](http://dynamicinsights.telefonica.com/488/smart-steps-2) – an intelligence product enabling organizations to use fully anonymized and aggregated mobile network data to measure and compare the movements of crowds – has generated deeper insights about the link between human movement and the spread of infectious diseases.
-
-      [The Namibia National Vector-borne Diseases Control Programme (NVDCP)](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3927223/) used CDR data from telecommunications provider MTC Namibia, in combination with national surveillance data and satellite imagery, in order to analyze movement patterns for over a million people and map areas of malaria prevalence and risk. The results of the study helped the NVDCP in Namibia improve their targeting of malaria interventions to communities most at risk.
-
-      [Grameenphone](http://www.ehs.unu.edu/article/read/press-note-new-project-uses-mobile-data-to-understand-climate), the leading telecommunications provider in Bangladesh, shares its mobile call data records to understand climate impacts by mapping population flows before and after extreme weather events. The Mobile Data, Environmental Extremes and Population (MDEEP) Project is a partnership between the United Nations University Institute for Environment and Human Security (UNU-EHS), the International Centre for Climate Change and Development (ICCCAD), Flowminder.org, and Telenor Group.
-    enablers: |-
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-    resources: |-
-      - [Data Collaboratives: Sharing Public Data in Private Hands for Social Good](http://www.forbes.com/sites/bethsimonenoveck/2015/09/24/private-data-sharing-for-public-good/#499f139365bb)
-      - [4 Steps To Building A Compelling Value Proposition](http://www.forbes.com/sites/michaelskok/2013/06/14/4-steps-to-building-a-compelling-value-proposition/#12ba9c7e1f2c)
-      - [Useful Value Proposition Examples (and How to Create a Good One)](http://conversionxl.com/value-proposition-examples-how-to-create/)
 - sys:
     id: NjeB5YTNKK4GCM80AMUqK
   phaseTitle: 'Phase 2: Supply'
@@ -1388,43 +1254,8 @@ canvasPhases:
   phaseSteps:
   - sys:
       id: 1ZgIPV6IvGQYmmogW6Yyio
-    stepTitle: '__Step 3:__ Expertise: Data Science and Organizational Competency'
-    discussion: "Cross-sector data sharing requires not only the bringing together
-      or \ndiverse datasets, but also collaboration between people and organizations
-      with different skills and institutional norms. An upfront understanding of how
-      human and institutional capacity and cultures either do or do not mesh can help
-      to define optimal roles and responsibilities and identify capacity gaps that
-      need to be filled (through additional partnerships or other mechanisms)."
-    questions: "- Internal\n\n  1. Evaluate and review internal capacity \n  2. Build
-      high-level internal support\n  3. Identify internal data literacy and human
-      capital \n  4. Collect and share examples of how other organizations have leveraged
-      data\n\n- External \n  1. Which entities could provide additional competencies
-      (data science and otherwise)?\n"
-    examples: |+
-      - [World Bank Skillfinder](http://www.thegovlab.org/static/files/smarterstate/skillfinder.pdf) – an internal expert and talent network
-
-
-    resources: |-
-      - [Network of Innovators](http://networkofinnovators.org) skill-sharing platform
-      - [A Comprehensive Review of Skills Required for Data Scientist Jobs](http://www.dataversity.net/comprehensive-review-skills-required-data-scientist-jobs/)
-      - [9 Must-Have Skills You Need to Become a Data Scientist](http://www.kdnuggets.com/2014/11/9-must-have-skills-data-scientist.html)
   - sys:
       id: 4RTzlCVrugKGeGsseIAIsi
-    stepTitle: __Step 4:__ Data Supply
-    discussion: 'In many ways, data collaboratives are means for filling gaps in existing
-      institutional data supplies. In order to fill such gaps, organizers should conduct
-      an upfront audit of both the existing internal data supply and the potential
-      supply of data existing in other sectors. Such an audit can help inform and
-      prioritize outreach to external data holders and ensure that newly accessible
-      datasets are well-positioned for filling the most important data gaps. '
-    questions: |
-      - Internal: Conduct due diligence research and a data audit
-        1. What data currently exists that will be useful in addressing the problem?
-        2. What are the data gaps that slow progress toward addressing the problem?
-
-      - External: Map the potential supply side based on identified gaps
-        1. What data do you already have (develop a data inventory)?
-        2. Which entities (whether private, governmental or nongovernmental) possess and could provide the needed data?
 - sys:
     id: 1QKsroy8Igeo6ukEQCOeCC
   phaseTitle: 'Phase 5: Implementation - TEST'
@@ -1435,75 +1266,8 @@ canvasPhases:
   phaseSteps:
   - sys:
       id: 24I8V51vBSsquokqCE6Gkg
-    stepTitle: __Step 1:__ Define the problem to be solved - TEST
-    discussion: Gaining a clear sense of the problem you are seeking to solve is an
-      essential first step in establishing a successful data collaborative. While
-      defining the problem space might seem like a straightforward proposition, achieving
-      the level of precision needed a well-targeted data collaborative requires an
-      in-depth assessment of the problem space.
-    questions: "1. Describe issue to be addressed\n2. Identify the beneficiaries \n3.
-      Articulate why it matters\n4. Note any assumptions\n5. Explore current work
-      to address the problem (internally and externally)"
-    examples: |-
-      - [Telefónica’s Smart Steps](http://dynamicinsights.telefonica.com/488/smart-steps-2) – an intelligence product enabling organizations to use fully anonymized and aggregated mobile network data to measure and compare the movements of crowds – has generated deeper insights about the link between human movement and the spread of infectious diseases.
-
-      - [The Namibia National Vector-borne Diseases Control Programme (NVDCP)](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3927223/) used CDR data from telecommunications provider MTC Namibia, in combination with national surveillance data and satellite imagery, in order to analyze movement patterns for over a million people and map areas of malaria prevalence and risk. The results of the study helped the NVDCP in Namibia improve their targeting of malaria interventions to communities most at risk.
-
-      - Trusted Intermediary: South Africa-based telecom MTN makes anonymized call records available to researchers through a trusted intermediary, Real Impacts Analytics — a data analytics firm that provides guided and predictive analytics solutions.
-      - Prizes or Challenges: In Ivory Coast and Senegal, Orange Telecom hosted a global challenge that allowed researchers to use anonymized, aggregated data to help solve various development problems, including those related to transportation, health, and agriculture.
-
-      - Research Partnership: Yelp shares its data on neighborhood businesses with 30 universities for researchers to build tools and discover meaningful value in the data. Using shared data on Yelp businesses in the San Francisco Bay Area, an academic research team from U.C. Berkeley used a probabilistic model for natural language processing to detect subtopics across a dataset of over 200,000 Yelp business reviews. Their research uncovered correlations between positive ratings and service quality, giving business owners evidence for improving their services.
-    enablers: |2-
-
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-    resources: |-
-      - [Problem Definition Worksheet – Knowledge Co-Creation Portal, Multi-Stakeholder Partnerships](http://www.mspguide.org/tool/problem-definition-worksheet)
-      - [Community Toolbox – Defining and Analyzing the Problem](http://ctb.ku.edu/en/table-of-contents/analyze/analyze-community-problems-and-solutions/define-analyze-problem/main)
-      - [GovLab Public Problem Solving Canvas](http://canvas.govlabacademy.org/)
   - sys:
       id: 4qgOOMrb72kmCOESgQWMCA
-    stepTitle: 'Step 2: Define the value proposition of the data collaborative'
-    discussion: Research and practice in data collaboratives point to a number of
-      societal benefits arising from the cross-sector sharing of data. After clearly
-      defining the problem that a data collaborative will serve to address, organizers
-      should look to gain specificity on the specific benefit a data collaborative
-      could offer.
-    questions: |
-      What is the intended societal benefit of the data collaborative:
-      - Accurate, real-time monitoring of situations?
-      - Agile governance in policy making and public service delivery?
-      - Evidence-based problem solving and decision making?
-      - Improved anticipatory mechanisms for problems and opportunities?
-      - Wider variety of problem solvers working collaboratively to solve complex problems?
-    examples: |
-      [Telefónica’s Smart Steps](http://dynamicinsights.telefonica.com/488/smart-steps-2) – an intelligence product enabling organizations to use fully anonymized and aggregated mobile network data to measure and compare the movements of crowds – has generated deeper insights about the link between human movement and the spread of infectious diseases.
-
-      [The Namibia National Vector-borne Diseases Control Programme (NVDCP)](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3927223/) used CDR data from telecommunications provider MTC Namibia, in combination with national surveillance data and satellite imagery, in order to analyze movement patterns for over a million people and map areas of malaria prevalence and risk. The results of the study helped the NVDCP in Namibia improve their targeting of malaria interventions to communities most at risk.
-
-      [Grameenphone](http://www.ehs.unu.edu/article/read/press-note-new-project-uses-mobile-data-to-understand-climate), the leading telecommunications provider in Bangladesh, shares its mobile call data records to understand climate impacts by mapping population flows before and after extreme weather events. The Mobile Data, Environmental Extremes and Population (MDEEP) Project is a partnership between the United Nations University Institute for Environment and Human Security (UNU-EHS), the International Centre for Climate Change and Development (ICCCAD), Flowminder.org, and Telenor Group.
-    enablers: |-
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-    resources: |-
-      - [Data Collaboratives: Sharing Public Data in Private Hands for Social Good](http://www.forbes.com/sites/bethsimonenoveck/2015/09/24/private-data-sharing-for-public-good/#499f139365bb)
-      - [4 Steps To Building A Compelling Value Proposition](http://www.forbes.com/sites/michaelskok/2013/06/14/4-steps-to-building-a-compelling-value-proposition/#12ba9c7e1f2c)
-      - [Useful Value Proposition Examples (and How to Create a Good One)](http://conversionxl.com/value-proposition-examples-how-to-create/)
 - sys:
     id: 3gDZ15Y11YAmCwGiEkuk80
   phaseTitle: 'Phase 3: Collaboration - TEST'
@@ -1514,75 +1278,8 @@ canvasPhases:
   phaseSteps:
   - sys:
       id: 24I8V51vBSsquokqCE6Gkg
-    stepTitle: __Step 1:__ Define the problem to be solved - TEST
-    discussion: Gaining a clear sense of the problem you are seeking to solve is an
-      essential first step in establishing a successful data collaborative. While
-      defining the problem space might seem like a straightforward proposition, achieving
-      the level of precision needed a well-targeted data collaborative requires an
-      in-depth assessment of the problem space.
-    questions: "1. Describe issue to be addressed\n2. Identify the beneficiaries \n3.
-      Articulate why it matters\n4. Note any assumptions\n5. Explore current work
-      to address the problem (internally and externally)"
-    examples: |-
-      - [Telefónica’s Smart Steps](http://dynamicinsights.telefonica.com/488/smart-steps-2) – an intelligence product enabling organizations to use fully anonymized and aggregated mobile network data to measure and compare the movements of crowds – has generated deeper insights about the link between human movement and the spread of infectious diseases.
-
-      - [The Namibia National Vector-borne Diseases Control Programme (NVDCP)](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3927223/) used CDR data from telecommunications provider MTC Namibia, in combination with national surveillance data and satellite imagery, in order to analyze movement patterns for over a million people and map areas of malaria prevalence and risk. The results of the study helped the NVDCP in Namibia improve their targeting of malaria interventions to communities most at risk.
-
-      - Trusted Intermediary: South Africa-based telecom MTN makes anonymized call records available to researchers through a trusted intermediary, Real Impacts Analytics — a data analytics firm that provides guided and predictive analytics solutions.
-      - Prizes or Challenges: In Ivory Coast and Senegal, Orange Telecom hosted a global challenge that allowed researchers to use anonymized, aggregated data to help solve various development problems, including those related to transportation, health, and agriculture.
-
-      - Research Partnership: Yelp shares its data on neighborhood businesses with 30 universities for researchers to build tools and discover meaningful value in the data. Using shared data on Yelp businesses in the San Francisco Bay Area, an academic research team from U.C. Berkeley used a probabilistic model for natural language processing to detect subtopics across a dataset of over 200,000 Yelp business reviews. Their research uncovered correlations between positive ratings and service quality, giving business owners evidence for improving their services.
-    enablers: |2-
-
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-    resources: |-
-      - [Problem Definition Worksheet – Knowledge Co-Creation Portal, Multi-Stakeholder Partnerships](http://www.mspguide.org/tool/problem-definition-worksheet)
-      - [Community Toolbox – Defining and Analyzing the Problem](http://ctb.ku.edu/en/table-of-contents/analyze/analyze-community-problems-and-solutions/define-analyze-problem/main)
-      - [GovLab Public Problem Solving Canvas](http://canvas.govlabacademy.org/)
   - sys:
       id: 4qgOOMrb72kmCOESgQWMCA
-    stepTitle: 'Step 2: Define the value proposition of the data collaborative'
-    discussion: Research and practice in data collaboratives point to a number of
-      societal benefits arising from the cross-sector sharing of data. After clearly
-      defining the problem that a data collaborative will serve to address, organizers
-      should look to gain specificity on the specific benefit a data collaborative
-      could offer.
-    questions: |
-      What is the intended societal benefit of the data collaborative:
-      - Accurate, real-time monitoring of situations?
-      - Agile governance in policy making and public service delivery?
-      - Evidence-based problem solving and decision making?
-      - Improved anticipatory mechanisms for problems and opportunities?
-      - Wider variety of problem solvers working collaboratively to solve complex problems?
-    examples: |
-      [Telefónica’s Smart Steps](http://dynamicinsights.telefonica.com/488/smart-steps-2) – an intelligence product enabling organizations to use fully anonymized and aggregated mobile network data to measure and compare the movements of crowds – has generated deeper insights about the link between human movement and the spread of infectious diseases.
-
-      [The Namibia National Vector-borne Diseases Control Programme (NVDCP)](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3927223/) used CDR data from telecommunications provider MTC Namibia, in combination with national surveillance data and satellite imagery, in order to analyze movement patterns for over a million people and map areas of malaria prevalence and risk. The results of the study helped the NVDCP in Namibia improve their targeting of malaria interventions to communities most at risk.
-
-      [Grameenphone](http://www.ehs.unu.edu/article/read/press-note-new-project-uses-mobile-data-to-understand-climate), the leading telecommunications provider in Bangladesh, shares its mobile call data records to understand climate impacts by mapping population flows before and after extreme weather events. The Mobile Data, Environmental Extremes and Population (MDEEP) Project is a partnership between the United Nations University Institute for Environment and Human Security (UNU-EHS), the International Centre for Climate Change and Development (ICCCAD), Flowminder.org, and Telenor Group.
-    enablers: |-
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-    resources: |-
-      - [Data Collaboratives: Sharing Public Data in Private Hands for Social Good](http://www.forbes.com/sites/bethsimonenoveck/2015/09/24/private-data-sharing-for-public-good/#499f139365bb)
-      - [4 Steps To Building A Compelling Value Proposition](http://www.forbes.com/sites/michaelskok/2013/06/14/4-steps-to-building-a-compelling-value-proposition/#12ba9c7e1f2c)
-      - [Useful Value Proposition Examples (and How to Create a Good One)](http://conversionxl.com/value-proposition-examples-how-to-create/)
 - sys:
     id: 5nElVXSyk086cuUWamQ624
   phaseTitle: 'Phase 4: Design - TEST'
@@ -1593,75 +1290,8 @@ canvasPhases:
   phaseSteps:
   - sys:
       id: 24I8V51vBSsquokqCE6Gkg
-    stepTitle: __Step 1:__ Define the problem to be solved - TEST
-    discussion: Gaining a clear sense of the problem you are seeking to solve is an
-      essential first step in establishing a successful data collaborative. While
-      defining the problem space might seem like a straightforward proposition, achieving
-      the level of precision needed a well-targeted data collaborative requires an
-      in-depth assessment of the problem space.
-    questions: "1. Describe issue to be addressed\n2. Identify the beneficiaries \n3.
-      Articulate why it matters\n4. Note any assumptions\n5. Explore current work
-      to address the problem (internally and externally)"
-    examples: |-
-      - [Telefónica’s Smart Steps](http://dynamicinsights.telefonica.com/488/smart-steps-2) – an intelligence product enabling organizations to use fully anonymized and aggregated mobile network data to measure and compare the movements of crowds – has generated deeper insights about the link between human movement and the spread of infectious diseases.
-
-      - [The Namibia National Vector-borne Diseases Control Programme (NVDCP)](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3927223/) used CDR data from telecommunications provider MTC Namibia, in combination with national surveillance data and satellite imagery, in order to analyze movement patterns for over a million people and map areas of malaria prevalence and risk. The results of the study helped the NVDCP in Namibia improve their targeting of malaria interventions to communities most at risk.
-
-      - Trusted Intermediary: South Africa-based telecom MTN makes anonymized call records available to researchers through a trusted intermediary, Real Impacts Analytics — a data analytics firm that provides guided and predictive analytics solutions.
-      - Prizes or Challenges: In Ivory Coast and Senegal, Orange Telecom hosted a global challenge that allowed researchers to use anonymized, aggregated data to help solve various development problems, including those related to transportation, health, and agriculture.
-
-      - Research Partnership: Yelp shares its data on neighborhood businesses with 30 universities for researchers to build tools and discover meaningful value in the data. Using shared data on Yelp businesses in the San Francisco Bay Area, an academic research team from U.C. Berkeley used a probabilistic model for natural language processing to detect subtopics across a dataset of over 200,000 Yelp business reviews. Their research uncovered correlations between positive ratings and service quality, giving business owners evidence for improving their services.
-    enablers: |2-
-
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-    resources: |-
-      - [Problem Definition Worksheet – Knowledge Co-Creation Portal, Multi-Stakeholder Partnerships](http://www.mspguide.org/tool/problem-definition-worksheet)
-      - [Community Toolbox – Defining and Analyzing the Problem](http://ctb.ku.edu/en/table-of-contents/analyze/analyze-community-problems-and-solutions/define-analyze-problem/main)
-      - [GovLab Public Problem Solving Canvas](http://canvas.govlabacademy.org/)
   - sys:
       id: 4qgOOMrb72kmCOESgQWMCA
-    stepTitle: 'Step 2: Define the value proposition of the data collaborative'
-    discussion: Research and practice in data collaboratives point to a number of
-      societal benefits arising from the cross-sector sharing of data. After clearly
-      defining the problem that a data collaborative will serve to address, organizers
-      should look to gain specificity on the specific benefit a data collaborative
-      could offer.
-    questions: |
-      What is the intended societal benefit of the data collaborative:
-      - Accurate, real-time monitoring of situations?
-      - Agile governance in policy making and public service delivery?
-      - Evidence-based problem solving and decision making?
-      - Improved anticipatory mechanisms for problems and opportunities?
-      - Wider variety of problem solvers working collaboratively to solve complex problems?
-    examples: |
-      [Telefónica’s Smart Steps](http://dynamicinsights.telefonica.com/488/smart-steps-2) – an intelligence product enabling organizations to use fully anonymized and aggregated mobile network data to measure and compare the movements of crowds – has generated deeper insights about the link between human movement and the spread of infectious diseases.
-
-      [The Namibia National Vector-borne Diseases Control Programme (NVDCP)](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3927223/) used CDR data from telecommunications provider MTC Namibia, in combination with national surveillance data and satellite imagery, in order to analyze movement patterns for over a million people and map areas of malaria prevalence and risk. The results of the study helped the NVDCP in Namibia improve their targeting of malaria interventions to communities most at risk.
-
-      [Grameenphone](http://www.ehs.unu.edu/article/read/press-note-new-project-uses-mobile-data-to-understand-climate), the leading telecommunications provider in Bangladesh, shares its mobile call data records to understand climate impacts by mapping population flows before and after extreme weather events. The Mobile Data, Environmental Extremes and Population (MDEEP) Project is a partnership between the United Nations University Institute for Environment and Human Security (UNU-EHS), the International Centre for Climate Change and Development (ICCCAD), Flowminder.org, and Telenor Group.
-    enablers: |-
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-    resources: |-
-      - [Data Collaboratives: Sharing Public Data in Private Hands for Social Good](http://www.forbes.com/sites/bethsimonenoveck/2015/09/24/private-data-sharing-for-public-good/#499f139365bb)
-      - [4 Steps To Building A Compelling Value Proposition](http://www.forbes.com/sites/michaelskok/2013/06/14/4-steps-to-building-a-compelling-value-proposition/#12ba9c7e1f2c)
-      - [Useful Value Proposition Examples (and How to Create a Good One)](http://conversionxl.com/value-proposition-examples-how-to-create/)
 - sys:
     id: 4bMd5XDs6Qyu0iKWSGwSoQ
   phaseTitle: 'Phase 8: Iteration - TEST'
@@ -1672,75 +1302,8 @@ canvasPhases:
   phaseSteps:
   - sys:
       id: 24I8V51vBSsquokqCE6Gkg
-    stepTitle: __Step 1:__ Define the problem to be solved - TEST
-    discussion: Gaining a clear sense of the problem you are seeking to solve is an
-      essential first step in establishing a successful data collaborative. While
-      defining the problem space might seem like a straightforward proposition, achieving
-      the level of precision needed a well-targeted data collaborative requires an
-      in-depth assessment of the problem space.
-    questions: "1. Describe issue to be addressed\n2. Identify the beneficiaries \n3.
-      Articulate why it matters\n4. Note any assumptions\n5. Explore current work
-      to address the problem (internally and externally)"
-    examples: |-
-      - [Telefónica’s Smart Steps](http://dynamicinsights.telefonica.com/488/smart-steps-2) – an intelligence product enabling organizations to use fully anonymized and aggregated mobile network data to measure and compare the movements of crowds – has generated deeper insights about the link between human movement and the spread of infectious diseases.
-
-      - [The Namibia National Vector-borne Diseases Control Programme (NVDCP)](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3927223/) used CDR data from telecommunications provider MTC Namibia, in combination with national surveillance data and satellite imagery, in order to analyze movement patterns for over a million people and map areas of malaria prevalence and risk. The results of the study helped the NVDCP in Namibia improve their targeting of malaria interventions to communities most at risk.
-
-      - Trusted Intermediary: South Africa-based telecom MTN makes anonymized call records available to researchers through a trusted intermediary, Real Impacts Analytics — a data analytics firm that provides guided and predictive analytics solutions.
-      - Prizes or Challenges: In Ivory Coast and Senegal, Orange Telecom hosted a global challenge that allowed researchers to use anonymized, aggregated data to help solve various development problems, including those related to transportation, health, and agriculture.
-
-      - Research Partnership: Yelp shares its data on neighborhood businesses with 30 universities for researchers to build tools and discover meaningful value in the data. Using shared data on Yelp businesses in the San Francisco Bay Area, an academic research team from U.C. Berkeley used a probabilistic model for natural language processing to detect subtopics across a dataset of over 200,000 Yelp business reviews. Their research uncovered correlations between positive ratings and service quality, giving business owners evidence for improving their services.
-    enablers: |2-
-
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-    resources: |-
-      - [Problem Definition Worksheet – Knowledge Co-Creation Portal, Multi-Stakeholder Partnerships](http://www.mspguide.org/tool/problem-definition-worksheet)
-      - [Community Toolbox – Defining and Analyzing the Problem](http://ctb.ku.edu/en/table-of-contents/analyze/analyze-community-problems-and-solutions/define-analyze-problem/main)
-      - [GovLab Public Problem Solving Canvas](http://canvas.govlabacademy.org/)
   - sys:
       id: 4qgOOMrb72kmCOESgQWMCA
-    stepTitle: 'Step 2: Define the value proposition of the data collaborative'
-    discussion: Research and practice in data collaboratives point to a number of
-      societal benefits arising from the cross-sector sharing of data. After clearly
-      defining the problem that a data collaborative will serve to address, organizers
-      should look to gain specificity on the specific benefit a data collaborative
-      could offer.
-    questions: |
-      What is the intended societal benefit of the data collaborative:
-      - Accurate, real-time monitoring of situations?
-      - Agile governance in policy making and public service delivery?
-      - Evidence-based problem solving and decision making?
-      - Improved anticipatory mechanisms for problems and opportunities?
-      - Wider variety of problem solvers working collaboratively to solve complex problems?
-    examples: |
-      [Telefónica’s Smart Steps](http://dynamicinsights.telefonica.com/488/smart-steps-2) – an intelligence product enabling organizations to use fully anonymized and aggregated mobile network data to measure and compare the movements of crowds – has generated deeper insights about the link between human movement and the spread of infectious diseases.
-
-      [The Namibia National Vector-borne Diseases Control Programme (NVDCP)](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3927223/) used CDR data from telecommunications provider MTC Namibia, in combination with national surveillance data and satellite imagery, in order to analyze movement patterns for over a million people and map areas of malaria prevalence and risk. The results of the study helped the NVDCP in Namibia improve their targeting of malaria interventions to communities most at risk.
-
-      [Grameenphone](http://www.ehs.unu.edu/article/read/press-note-new-project-uses-mobile-data-to-understand-climate), the leading telecommunications provider in Bangladesh, shares its mobile call data records to understand climate impacts by mapping population flows before and after extreme weather events. The Mobile Data, Environmental Extremes and Population (MDEEP) Project is a partnership between the United Nations University Institute for Environment and Human Security (UNU-EHS), the International Centre for Climate Change and Development (ICCCAD), Flowminder.org, and Telenor Group.
-    enablers: |-
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-    resources: |-
-      - [Data Collaboratives: Sharing Public Data in Private Hands for Social Good](http://www.forbes.com/sites/bethsimonenoveck/2015/09/24/private-data-sharing-for-public-good/#499f139365bb)
-      - [4 Steps To Building A Compelling Value Proposition](http://www.forbes.com/sites/michaelskok/2013/06/14/4-steps-to-building-a-compelling-value-proposition/#12ba9c7e1f2c)
-      - [Useful Value Proposition Examples (and How to Create a Good One)](http://conversionxl.com/value-proposition-examples-how-to-create/)
 - sys:
     id: 183l7VNqmgCowskakgkKIm
   phaseTitle: 'Phase 6: Communication - TEST'
@@ -1751,75 +1314,8 @@ canvasPhases:
   phaseSteps:
   - sys:
       id: 24I8V51vBSsquokqCE6Gkg
-    stepTitle: __Step 1:__ Define the problem to be solved - TEST
-    discussion: Gaining a clear sense of the problem you are seeking to solve is an
-      essential first step in establishing a successful data collaborative. While
-      defining the problem space might seem like a straightforward proposition, achieving
-      the level of precision needed a well-targeted data collaborative requires an
-      in-depth assessment of the problem space.
-    questions: "1. Describe issue to be addressed\n2. Identify the beneficiaries \n3.
-      Articulate why it matters\n4. Note any assumptions\n5. Explore current work
-      to address the problem (internally and externally)"
-    examples: |-
-      - [Telefónica’s Smart Steps](http://dynamicinsights.telefonica.com/488/smart-steps-2) – an intelligence product enabling organizations to use fully anonymized and aggregated mobile network data to measure and compare the movements of crowds – has generated deeper insights about the link between human movement and the spread of infectious diseases.
-
-      - [The Namibia National Vector-borne Diseases Control Programme (NVDCP)](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3927223/) used CDR data from telecommunications provider MTC Namibia, in combination with national surveillance data and satellite imagery, in order to analyze movement patterns for over a million people and map areas of malaria prevalence and risk. The results of the study helped the NVDCP in Namibia improve their targeting of malaria interventions to communities most at risk.
-
-      - Trusted Intermediary: South Africa-based telecom MTN makes anonymized call records available to researchers through a trusted intermediary, Real Impacts Analytics — a data analytics firm that provides guided and predictive analytics solutions.
-      - Prizes or Challenges: In Ivory Coast and Senegal, Orange Telecom hosted a global challenge that allowed researchers to use anonymized, aggregated data to help solve various development problems, including those related to transportation, health, and agriculture.
-
-      - Research Partnership: Yelp shares its data on neighborhood businesses with 30 universities for researchers to build tools and discover meaningful value in the data. Using shared data on Yelp businesses in the San Francisco Bay Area, an academic research team from U.C. Berkeley used a probabilistic model for natural language processing to detect subtopics across a dataset of over 200,000 Yelp business reviews. Their research uncovered correlations between positive ratings and service quality, giving business owners evidence for improving their services.
-    enablers: |2-
-
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-    resources: |-
-      - [Problem Definition Worksheet – Knowledge Co-Creation Portal, Multi-Stakeholder Partnerships](http://www.mspguide.org/tool/problem-definition-worksheet)
-      - [Community Toolbox – Defining and Analyzing the Problem](http://ctb.ku.edu/en/table-of-contents/analyze/analyze-community-problems-and-solutions/define-analyze-problem/main)
-      - [GovLab Public Problem Solving Canvas](http://canvas.govlabacademy.org/)
   - sys:
       id: 4qgOOMrb72kmCOESgQWMCA
-    stepTitle: 'Step 2: Define the value proposition of the data collaborative'
-    discussion: Research and practice in data collaboratives point to a number of
-      societal benefits arising from the cross-sector sharing of data. After clearly
-      defining the problem that a data collaborative will serve to address, organizers
-      should look to gain specificity on the specific benefit a data collaborative
-      could offer.
-    questions: |
-      What is the intended societal benefit of the data collaborative:
-      - Accurate, real-time monitoring of situations?
-      - Agile governance in policy making and public service delivery?
-      - Evidence-based problem solving and decision making?
-      - Improved anticipatory mechanisms for problems and opportunities?
-      - Wider variety of problem solvers working collaboratively to solve complex problems?
-    examples: |
-      [Telefónica’s Smart Steps](http://dynamicinsights.telefonica.com/488/smart-steps-2) – an intelligence product enabling organizations to use fully anonymized and aggregated mobile network data to measure and compare the movements of crowds – has generated deeper insights about the link between human movement and the spread of infectious diseases.
-
-      [The Namibia National Vector-borne Diseases Control Programme (NVDCP)](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3927223/) used CDR data from telecommunications provider MTC Namibia, in combination with national surveillance data and satellite imagery, in order to analyze movement patterns for over a million people and map areas of malaria prevalence and risk. The results of the study helped the NVDCP in Namibia improve their targeting of malaria interventions to communities most at risk.
-
-      [Grameenphone](http://www.ehs.unu.edu/article/read/press-note-new-project-uses-mobile-data-to-understand-climate), the leading telecommunications provider in Bangladesh, shares its mobile call data records to understand climate impacts by mapping population flows before and after extreme weather events. The Mobile Data, Environmental Extremes and Population (MDEEP) Project is a partnership between the United Nations University Institute for Environment and Human Security (UNU-EHS), the International Centre for Climate Change and Development (ICCCAD), Flowminder.org, and Telenor Group.
-    enablers: |-
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-      - Designing the data collaborative based on the intended audience or beneficiary
-    resources: |-
-      - [Data Collaboratives: Sharing Public Data in Private Hands for Social Good](http://www.forbes.com/sites/bethsimonenoveck/2015/09/24/private-data-sharing-for-public-good/#499f139365bb)
-      - [4 Steps To Building A Compelling Value Proposition](http://www.forbes.com/sites/michaelskok/2013/06/14/4-steps-to-building-a-compelling-value-proposition/#12ba9c7e1f2c)
-      - [Useful Value Proposition Examples (and How to Create a Good One)](http://conversionxl.com/value-proposition-examples-how-to-create/)
 events:
 - sys:
     id: uF3uaikYV2gWsckO8wYO2
@@ -1863,6 +1359,11 @@ events:
     - Loves baseball and boomerangs
     - Lives near Donut Pond with his family
     - Has a snail friend named Den Den
+- sys:
+    id: 4JqPngh56UMA4q8IE2oyey
+  eventName: Keroppi's Play Date
+  eventDate: !ruby/object:DateTime 2017-01-09 00:00:00.000000000 Z
+  eventDescription: Today Keroppi will play!!!
 - sys:
     id: 1WVwEt6aeo4ko2wiAQ4Gae
   eventName: European Foundation Centre Conference
@@ -2058,111 +1559,61 @@ resources:
   - In Practice
 canvasSteps:
 - sys:
-    id: 4RTzlCVrugKGeGsseIAIsi
-  stepTitle: __Step 4:__ Data Supply
-  discussion: 'In many ways, data collaboratives are means for filling gaps in existing
-    institutional data supplies. In order to fill such gaps, organizers should conduct
-    an upfront audit of both the existing internal data supply and the potential supply
-    of data existing in other sectors. Such an audit can help inform and prioritize
-    outreach to external data holders and ensure that newly accessible datasets are
-    well-positioned for filling the most important data gaps. '
-  questions: |
-    - Internal: Conduct due diligence research and a data audit
-      1. What data currently exists that will be useful in addressing the problem?
-      2. What are the data gaps that slow progress toward addressing the problem?
-
-    - External: Map the potential supply side based on identified gaps
-      1. What data do you already have (develop a data inventory)?
-      2. Which entities (whether private, governmental or nongovernmental) possess and could provide the needed data?
+    id: 7s9GZmEi3uUWMMQsmEKYQG
+  stepNumber: Step 3
+  stepTitle: 'Expertise: Data Science and Organizational Competency'
+  discussion: "Cross-sector data sharing requires not only the bringing together ofr
+    \ndiverse datasets, but also collaboration between people and organizations with
+    different skills and institutional norms. An upfront understanding of how human
+    and institutional capacity and cultures either do or do not mesh can help to define
+    optimal roles and responsibilities and identify capacity gaps that need to be
+    filled (through additional partnerships or other mechanisms)."
+  questions: "##### Internal\n- Evaluate and review internal capacity \n- Build high-level
+    internal support\n- Identify internal data literacy and human capital \n- Collect
+    and share examples of how other organizations have leveraged data\n##### External
+    \n- Which entities could provide additional competencies (data science and otherwise)?\n"
+  examples: "- [World Bank Skillfinder](http://www.thegovlab.org/static/files/smarterstate/skillfinder.pdf)
+    – an internal expert and talent network"
+  resources: |-
+    - [Network of Innovators skill-sharing platform](http://networkofinnovators.org)
+    - [A Comprehensive Review of Skills Required for Data Scientist Jobs](http://www.dataversity.net/comprehensive-review-skills-required-data-scientist-jobs/)
+    - [9 Must-Have Skills You Need to Become a Data Scientist](http://www.kdnuggets.com/2014/11/9-must-have-skills-data-scientist.html)
 - sys:
-    id: 4qgOOMrb72kmCOESgQWMCA
-  stepTitle: 'Step 2: Define the value proposition of the data collaborative'
+    id: 2RNzeVwIDe4S4yEKqoW6IE
+  stepNumber: Step 1
+  stepTitle: Define the problem to be solved
+  discussion: Gaining a clear sense of the problem you are seeking to solve is an
+    essential first step in establishing a successful data collaborative. While defining
+    the problem space might seem like a straightforward proposition, achieving the
+    level of precision needed a well-targeted data collaborative requires an in-depth
+    assessment of the problem space.
+  questions: "- Describe issue to be addressed\n- Identify the beneficiaries \n- Articulate
+    why it matters\n- Note any assumptions\n- Explore current work to address the
+    problem (internally and externally)"
+  resources: |
+    - [Problem Definition Worksheet – Knowledge Co-Creation Portal, Multi-Stakeholder Partnerships](http://www.mspguide.org/tool/problem-definition-worksheet)
+    - [Community Toolbox – Defining and Analyzing the Problem](http://ctb.ku.edu/en/table-of-contents/analyze/analyze-community-problems-and-solutions/define-analyze-problem/main)
+    - [GovLab Public Problem Solving Canvas](http://canvas.govlabacademy.org)
+- sys:
+    id: 3nEr2z4pJC0cumIe6Eyqe8
+  stepNumber: Step 2
+  stepTitle: Define the value proposition of the data collaborative
   discussion: Research and practice in data collaboratives point to a number of societal
     benefits arising from the cross-sector sharing of data. After clearly defining
     the problem that a data collaborative will serve to address, organizers should
     look to gain specificity on the specific benefit a data collaborative could offer.
-  questions: |
+  questions: |-
     What is the intended societal benefit of the data collaborative:
     - Accurate, real-time monitoring of situations?
     - Agile governance in policy making and public service delivery?
     - Evidence-based problem solving and decision making?
     - Improved anticipatory mechanisms for problems and opportunities?
     - Wider variety of problem solvers working collaboratively to solve complex problems?
-  examples: |
-    [Telefónica’s Smart Steps](http://dynamicinsights.telefonica.com/488/smart-steps-2) – an intelligence product enabling organizations to use fully anonymized and aggregated mobile network data to measure and compare the movements of crowds – has generated deeper insights about the link between human movement and the spread of infectious diseases.
-
-    [The Namibia National Vector-borne Diseases Control Programme (NVDCP)](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3927223/) used CDR data from telecommunications provider MTC Namibia, in combination with national surveillance data and satellite imagery, in order to analyze movement patterns for over a million people and map areas of malaria prevalence and risk. The results of the study helped the NVDCP in Namibia improve their targeting of malaria interventions to communities most at risk.
-
-    [Grameenphone](http://www.ehs.unu.edu/article/read/press-note-new-project-uses-mobile-data-to-understand-climate), the leading telecommunications provider in Bangladesh, shares its mobile call data records to understand climate impacts by mapping population flows before and after extreme weather events. The Mobile Data, Environmental Extremes and Population (MDEEP) Project is a partnership between the United Nations University Institute for Environment and Human Security (UNU-EHS), the International Centre for Climate Change and Development (ICCCAD), Flowminder.org, and Telenor Group.
-  enablers: |-
-    - Designing the data collaborative based on the intended audience or beneficiary
-    - Designing the data collaborative based on the intended audience or beneficiary
-    - Designing the data collaborative based on the intended audience or beneficiary
-    - Designing the data collaborative based on the intended audience or beneficiary
-    - Designing the data collaborative based on the intended audience or beneficiary
-    - Designing the data collaborative based on the intended audience or beneficiary
-    - Designing the data collaborative based on the intended audience or beneficiary
-    - Designing the data collaborative based on the intended audience or beneficiary
-    - Designing the data collaborative based on the intended audience or beneficiary
-    - Designing the data collaborative based on the intended audience or beneficiary
-    - Designing the data collaborative based on the intended audience or beneficiary
-    - Designing the data collaborative based on the intended audience or beneficiary
-    - Designing the data collaborative based on the intended audience or beneficiary
-    - Designing the data collaborative based on the intended audience or beneficiary
-    - Designing the data collaborative based on the intended audience or beneficiary
-  resources: |-
+  examples: |-
+    - [Telefónica’s Smart Steps](http://dynamicinsights.telefonica.com/488/smart-steps-2) – an intelligence product enabling organizations to use fully anonymized and aggregated mobile network data to measure and compare the movements of crowds – has generated deeper insights about the link between human movement and the spread of infectious diseases.
+    - [The Namibia National Vector-borne Diseases Control Programme (NVDCP)](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3927223/) used CDR data from telecommunications provider MTC Namibia, in combination with national surveillance data and satellite imagery, in order to analyze movement patterns for over a million people and map areas of malaria prevalence and risk. The results of the study helped the NVDCP in Namibia improve their targeting of malaria interventions to communities most at risk.
+    - [Grameenphone](http://ehs.unu.edu/blog/articles/nepal-earthquake-preparing-and-planning-for-the-next-disaster.html), the leading telecommunications provider in Bangladesh, shares its mobile call data records to understand climate impacts by mapping population flows before and after extreme weather events. The Mobile Data, Environmental Extremes and Population (MDEEP) Project is a partnership between the United Nations University Institute for Environment and Human Security (UNU-EHS), the International Centre for Climate Change and Development (ICCCAD), Flowminder.org, and Telenor Group.
+  resources: |
     - [Data Collaboratives: Sharing Public Data in Private Hands for Social Good](http://www.forbes.com/sites/bethsimonenoveck/2015/09/24/private-data-sharing-for-public-good/#499f139365bb)
     - [4 Steps To Building A Compelling Value Proposition](http://www.forbes.com/sites/michaelskok/2013/06/14/4-steps-to-building-a-compelling-value-proposition/#12ba9c7e1f2c)
     - [Useful Value Proposition Examples (and How to Create a Good One)](http://conversionxl.com/value-proposition-examples-how-to-create/)
-- sys:
-    id: 24I8V51vBSsquokqCE6Gkg
-  stepTitle: __Step 1:__ Define the problem to be solved - TEST
-  discussion: Gaining a clear sense of the problem you are seeking to solve is an
-    essential first step in establishing a successful data collaborative. While defining
-    the problem space might seem like a straightforward proposition, achieving the
-    level of precision needed a well-targeted data collaborative requires an in-depth
-    assessment of the problem space.
-  questions: "1. Describe issue to be addressed\n2. Identify the beneficiaries \n3.
-    Articulate why it matters\n4. Note any assumptions\n5. Explore current work to
-    address the problem (internally and externally)"
-  examples: |-
-    - [Telefónica’s Smart Steps](http://dynamicinsights.telefonica.com/488/smart-steps-2) – an intelligence product enabling organizations to use fully anonymized and aggregated mobile network data to measure and compare the movements of crowds – has generated deeper insights about the link between human movement and the spread of infectious diseases.
-
-    - [The Namibia National Vector-borne Diseases Control Programme (NVDCP)](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3927223/) used CDR data from telecommunications provider MTC Namibia, in combination with national surveillance data and satellite imagery, in order to analyze movement patterns for over a million people and map areas of malaria prevalence and risk. The results of the study helped the NVDCP in Namibia improve their targeting of malaria interventions to communities most at risk.
-
-    - Trusted Intermediary: South Africa-based telecom MTN makes anonymized call records available to researchers through a trusted intermediary, Real Impacts Analytics — a data analytics firm that provides guided and predictive analytics solutions.
-    - Prizes or Challenges: In Ivory Coast and Senegal, Orange Telecom hosted a global challenge that allowed researchers to use anonymized, aggregated data to help solve various development problems, including those related to transportation, health, and agriculture.
-
-    - Research Partnership: Yelp shares its data on neighborhood businesses with 30 universities for researchers to build tools and discover meaningful value in the data. Using shared data on Yelp businesses in the San Francisco Bay Area, an academic research team from U.C. Berkeley used a probabilistic model for natural language processing to detect subtopics across a dataset of over 200,000 Yelp business reviews. Their research uncovered correlations between positive ratings and service quality, giving business owners evidence for improving their services.
-  enablers: |2-
-
-    - Designing the data collaborative based on the intended audience or beneficiary
-    - Designing the data collaborative based on the intended audience or beneficiary
-    - Designing the data collaborative based on the intended audience or beneficiary
-    - Designing the data collaborative based on the intended audience or beneficiary
-  resources: |-
-    - [Problem Definition Worksheet – Knowledge Co-Creation Portal, Multi-Stakeholder Partnerships](http://www.mspguide.org/tool/problem-definition-worksheet)
-    - [Community Toolbox – Defining and Analyzing the Problem](http://ctb.ku.edu/en/table-of-contents/analyze/analyze-community-problems-and-solutions/define-analyze-problem/main)
-    - [GovLab Public Problem Solving Canvas](http://canvas.govlabacademy.org/)
-- sys:
-    id: 1ZgIPV6IvGQYmmogW6Yyio
-  stepTitle: '__Step 3:__ Expertise: Data Science and Organizational Competency'
-  discussion: "Cross-sector data sharing requires not only the bringing together or
-    \ndiverse datasets, but also collaboration between people and organizations with
-    different skills and institutional norms. An upfront understanding of how human
-    and institutional capacity and cultures either do or do not mesh can help to define
-    optimal roles and responsibilities and identify capacity gaps that need to be
-    filled (through additional partnerships or other mechanisms)."
-  questions: "- Internal\n\n  1. Evaluate and review internal capacity \n  2. Build
-    high-level internal support\n  3. Identify internal data literacy and human capital
-    \n  4. Collect and share examples of how other organizations have leveraged data\n\n-
-    External \n  1. Which entities could provide additional competencies (data science
-    and otherwise)?\n"
-  examples: |+
-    - [World Bank Skillfinder](http://www.thegovlab.org/static/files/smarterstate/skillfinder.pdf) – an internal expert and talent network
-
-
-  resources: |-
-    - [Network of Innovators](http://networkofinnovators.org) skill-sharing platform
-    - [A Comprehensive Review of Skills Required for Data Scientist Jobs](http://www.dataversity.net/comprehensive-review-skills-required-data-scientist-jobs/)
-    - [9 Must-Have Skills You Need to Become a Data Scientist](http://www.kdnuggets.com/2014/11/9-must-have-skills-data-scientist.html)

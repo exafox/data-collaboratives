@@ -5,12 +5,21 @@
 
   .events-panels {
     // text-align: center;
+    color: $gray;
+
+    h5 {
+      margin-bottom: -10px;
+    }
+
     &__first {
-      background-color: rgba(black, .1)
+      background-color: rgba(black, .1);
+      padding: 50px;
+      padding-bottom: 50px;
     }
     &__second {
-      background-color: $gray;
+      // background-color: $gray;
+      padding: 50px;
+      padding-bottom: 50px;
     }
   }
-
 }
