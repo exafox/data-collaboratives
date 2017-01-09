@@ -8,6 +8,21 @@ title: Events | Data Collaboratives
     <h2 class="top-section__list-header">Events</h2>
   </div>
 
+  <section class="events-panels">
+
+    <div class="row expanded align-center">
+
+      <div class="large-6 column events-panels__first">
+        <h5>Upcoming Events</h5>
+      </div>
+
+      <div class="large-6 column events-panels__second">
+        <h5>Past Events</h5>
+      </div>
+    </div>
+
+  </section>
+
   <div class="page-section">
     {% assign events = site.data.contentful.spaces.cases.events %}
     {% assign currentDate = site.time | date: '%A, %B %d, %Y' %}
@@ -41,5 +56,7 @@ title: Events | Data Collaboratives
       </div>
     </div>
     {% endfor %}
+
+
   </div>
 </div>

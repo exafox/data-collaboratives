@@ -23,6 +23,10 @@ datacollaborative:
   - Data Pooling
   dataType:
   - Disclosed Personal Data
+  dataKind:
+  - Registration Records
+  dataSource:
+  - Health System Registers
   link: https://www.clinicalstudydatarequest.com/Default.aspx
   whatDataShared: 'The portal collects anonymised clinical trial data from study sponsors,
     and shares this data with participating researchers online. '
@@ -38,40 +42,284 @@ datacollaborative:
     research participants are used to maximum effect in the creation of knowledge
     and understanding.
 - sys:
-    id: 3vRS69rcTCUQCCS0oOwOIA
-  caseStudy: Clever
+    id: 11OZR34vh6wQGYcmcW8Oyo
+  caseStudy: Digicel Telecom, Karolinska, and Columbia University Partnership
+  sector:
+  - Health
+  sharedBy:
+  - Digicel Telecom (Haiti)
+  sharedWith:
+  - Karolinska Institute and Columbia University
+  region: North America
+  collaborativeType:
+  - Research Partnerships
+  dataType:
+  - Observed Personal Data
+  dataKind:
+  - Tracking Data
+  dataSource:
+  - Mobile Phone Locations
+  link: http://ki.se/en/news/mobile-phone-data-in-haiti-improves-emergency-aid
+  whatDataShared: 'Digicel Haiti provided researchers anonymized data on the position
+    of 1.9 million SIMs in Haiti from 42 days before the 2010 earthquake to 158 days
+    afterwards. '
+  howDataShared: Researchers at Karolinska Institutet and Columbia University in New
+    York sought the cooperation of Digicel, the largest mobile phone operator in Haiti,
+    and started to monitor the daily movements of two million mobile phones by analysing
+    anonymised data on which mobile phone towers were used to make calls. They then
+    reported their analyses directly to the UN and other aid organisations working
+    in Haiti.
+  purpose: Nearly 200,000 SIMs that were present in Haiti's capital Port-au-Prince
+    when the earthquake struck had left 19 days post-earthquake. Just under a third
+    of Port-au-Prince's residents were mobile phone subscribers at the time of the
+    earthquake, so this movement of SIMs equates to the movement of 630,000 people.
+    With this information, researchers were able to better understand the needs and
+    reponse of victims of the earthquake, and better planned relief and aid strategies.
+- sys:
+    id: 19xY2t9bRCu2mYckouKo2S
+  caseStudy: InBloom
   sector:
   - Education
   sharedBy:
-  - Clever
+  - InBloom
   sharedWith:
-  - school administrators
+  - School administrators
   - teachers
   - education technology developers
   region: North America
   collaborativeType:
-  - Intelligence Product
-  - API
+  - Data Pooling
   dataType:
   - Disclosed Personal Data
-  link: http://clever.com/
-  whatDataShared: 'School districts that use Clever'' services can access a single,
-    universal API that allows developers and education companies to access siloed
-    data within a school’s student information system. '
-  howDataShared: Originating from the Y-Combinator start-up accelerator program, Clever
-    provides a standardized API platform for schools and tech developers. Unlike other
-    data collaboratives, this means that Clever is a for-profit company that has emerged
-    as people have identified the need for data and intelligence products to support
-    schools and the public. Therefore, Clever does not generate its own data to share
-    through Data Collaborative projects, but rather acts as an intemediary between
-    students, schools, administrators and disctricts to share data in a safe and useful
-    manner.
-  purpose: 'In order to streamline student roster infromation from school databases,
-    enabling schools to send student information easily to various web and mobile
-    apps. Administrators can also choose whether to share this student information
-    with school classes, school, or the entire district. This means administrators
-    maintain control over the data shared, but also can easily share student data
-    if they so choose. '
+  dataKind:
+  - Registration Records
+  dataSource:
+  - Educational registers
+  link: https://github.com/inbloom/
+  whatDataShared: Initiated in 2011 through $100 million in seed money from the Bill
+    and Melinda Gates Foundation and the Carnegie Corporation of New York, InBloom
+    aimed to store, clean and aggregate student data for states and districts.
+  howDataShared: InBloom was a non-profit student data repository, that made available
+    standardized student and school data for creating approved third party applications
+    and software designed for educators. It collected information from school districts'
+    many databases, and stored these in the cloud, protected with high-level encryption.
+    The inBloom database included more than 400 different data fields about students
+    that school administrators could fill in. But, since some of the details seemed
+    personal, like family relationships and enrollment changes, some parents objected,
+    saying that they did not want that kind of information about their children transferred
+    to a third-party vendor.
+  purpose: Initiated in 2011 through $100 million in seed money from the Bill and
+    Melinda Gates Foundation and the Carnegie Corporation of New York, InBloom aimed
+    to store, clean and aggregate student data for states and districts, making data
+    available and standardized for approved third party applications and software
+    designed for educators. Backlash came from increased privacy concerns from parents
+    and educators over the collection, use and storage of personally identifiable
+    information on students, causing many partners to back out of initial agreements.
+    InBloom began ending its services in April 2014.
+- sys:
+    id: 18K7HS8zyeIi2OEIIQCoCa
+  caseStudy: GlaxoSmithKline and Community Care of North Carolina Medicine Management
+  sector:
+  - Health
+  sharedBy:
+  - GlaxoSmithKline
+  sharedWith:
+  - Community Care of North Carolina
+  region: North America
+  collaborativeType:
+  - Intelligence Product
+  dataType:
+  - Disclosed Personal Data
+  link: https://us.gsk.com/en-us/media/press-releases/2014/north-carolina-based-collaboration-takes-on-medicine-management-challenge/
+  whatDataShared: This collaboration between Community Care of North Carolina, Inc.
+    (CCNC) with GSK and the UNC Eshelman School of Pharmacy (The School) uses patient
+    data disclosed in electronic health records to better coordinate healthcare efforts.
+    A particular part of this collboration is the Care TriageTM project that uses
+    small data sets from pharmacies to help better supervise patient treatment.
+  howDataShared: The collaborative centers on establishing “patient-centered medical
+    homes” – virtual homes for an individual’s healthcare – that provide patients
+    with a single point-of-contact to help coordinate their medical care, arrange
+    care with other caregivers when necessary, and house electronic health records.
+  purpose: The collaboration aims to lower health care costs and improve health outcomes
+    by building on the insights gained through the data in electronic health records.
+    By sharing data with pharmacists, the project also aims to identify patients at
+    risk for hospitalization and drug therapy problems and provide pharmacists with
+    new tools and resources to efficiently deliver comprehensive medication management
+    services to appropriate patients at the right time with the right interventions.
+- sys:
+    id: T6iGvLNiE0yIkkeimWyso
+  caseStudy: Mapping snow melting in the Sierra Nevada
+  sector:
+  - Environment
+  sharedBy:
+  - Intel
+  sharedWith:
+  - University of California
+  - Earth Database
+  region: North America
+  collaborativeType:
+  - Research Partnerships
+  dataType:
+  - Disclosed Non-Personal Data
+  link: http://blogs.baruch.cuny.edu/greenit/2014/09/02/sustainability-of-intel/
+  whatDataShared: Intel is working with the Earth Research Institute at the University
+    of California Santa Barbara (UCSB) to use satellite imagery and snow mapping technologies
+    to measure the snow range in the Sierra Nevada Mountains.
+  howDataShared: |-
+    This research will enable governments and farmers to predict drought conditions and plan accordingly to save water for the future when water supply encounters issue. According to Vin Sharma, director, strategy and marketing, Big Data Solutions at Intel, the data collection “about two terabytes every 15 days, and the source files 75 gigabytes a day”.
+    This data has the potential to be recorded into a “queryable” database that can be used globally and by the UCSB institute to inform agricultural practices worldwide by predicting future water supply.
+  purpose: Intel is working with the Earth Research Institute at the University of
+    California Santa Barbara (UCSB). They use satellite imagery and snow mapping technologies
+    to measure the snow range in the Sierra Nevada Mountains. This will enable governments
+    and farmers to predict drought conditions and plan accordingly to save water for
+    the future when water supply encounters issue. According to Vin Sharma, director,
+    strategy and marketing, Big Data Solutions at Intel, the data collection “about
+    two terabytes every 15 days, and the source files 75 gigabytes a day”. They also
+    want to make these data “queryable” into the database, and it plans to keep collecting
+    more data to the UCSB institute. The project is still in an ongoing phase, but
+    Intel wants to let governments and scientists to have the database to use.
+- sys:
+    id: 3Lyg6TTYpqwkSgQOMou2aG
+  caseStudy: Delloite's ConvergHEALTH, Allergan and Intermountain Healthcare analytics
+  sector:
+  - Health
+  sharedBy:
+  - Intermountain Healthcare
+  - Allergan
+  sharedWith:
+  - Delloite's ConvergeHEALTH
+  region: North America
+  collaborativeType:
+  - Research Partnerships
+  dataType:
+  - Disclosed Personal Data
+  dataKind:
+  - Registration Records
+  dataSource:
+  - Health System Registers
+  link: http://www.prnewswire.com/news-releases/convergehealth-by-deloitte-and-intermountain-healthcare-expand-real-world-evidence-collaboration-with-allergan-to-focus-on-womens-health-300122465.html
+  whatDataShared: 'ConvergeHEALTH, a product from Delloite, uses its OutcomesMiner
+    analytics platform to generate real-world clinical insights based on patient data,
+    and has previously partnered with pharmaceutical company Allergan as part of a
+    research collaboration. In this initiative, Intermountain Healthcare--a Utah-based,
+    not-for-profit system of 22 hospitals, 185 clinics, and some 1,300 employed physicians--will
+    collaborate through its Homer Warner Center for Informatics Research in conducting
+    follow-on studies to support the insights generated by ConvergeHEALTH and Allergan. '
+  howDataShared: Though this cross-sector collaboration uses patient, clinical, pharmaceutical
+    and propiertory data to improve health outcomes, it is unusual in that it is a
+    for-profit collaborative. Delloite's ConvergeHEALTH product is an intelligence
+    product sold to participating organizations, like Intermountatin Healthcare, to
+    provide "applied analytics solutions" with the aim of improving health care. Allergan
+    is similarly a for-profit pharmaceutical company, and it is unclear whether their
+    research collaboration with ConvergeHEALTH is commercial or not.
+  purpose: This collaboration aims to enable data driven improvements to clinical
+    care, and consequently improve patient health outcomes.
+- sys:
+    id: 2qlGaggRHCawi4aI6kwWWo
+  caseStudy: DMC International Imaging
+  sector:
+  - Crisis Response
+  sharedBy:
+  - DMCii
+  sharedWith:
+  - Multiple
+  region: Worldwide
+  collaborativeType:
+  - Trusted Intermediary
+  dataType:
+  - Observed Personal Data
+  dataKind:
+  - Satellite and Aerial Imagery
+  link: http://www.dmcii.com/
+  whatDataShared: 'DMC International Imaging Ltd (DMCii) is a UK based organization
+    that sells satellite imagery products and services, supplying both programmed
+    and archived optical satellite imagery from the multi-satellite Disaster Monitoring
+    Constellation (DMC) to customers in 100 countries around the globe.  '
+  howDataShared: DMCii sells its product to a variety of governmental and non-governmental
+    bodies. Its 22m multispectral UK-DMC2 data is available to download to existing
+    and new ground stations for immediate use to support projects and applications.
+    DMCii also offers services to retrieve, process, store and analyse all imagery.
+  purpose: Broadly, DCMii uses its data to assist in agriculture, forestry, emergency
+    & disasters, and land cover mapping. It has worked with Group on Earth Observations
+    (GEO), a voluntary partnership of governments and organizations, to create JECAM,
+    a monitoring project to improve global agricultural systems. In 2009, it won a
+    €100,000 contract from the European Space Agency (ESA), to use coordinated multi-satellite
+    optical imagery for tropical forest monitoring in Indonesia.  It is also used
+    during crisis events to help with disster mapping and relief.
+- sys:
+    id: 6M7gfI4A920k2cc840GQKC
+  caseStudy: Global Forest Watch
+  sector:
+  - Environment
+  sharedBy:
+  - Multiple
+  sharedWith:
+  - Multiple
+  region: Worldwide
+  collaborativeType:
+  - Data Pooling
+  dataType:
+  - Observed Personal Data
+  - Observed Non-Personal Data
+  link: http://dataimpacts.org/project/forest-watch/
+  whatDataShared: The Global Forest Watch (GFW) ArcGIS Online portal is an added analytical
+    tool to the GFW platform allowing users to use this forest data in a GIS cloud
+    environment. ArcGIS Online resources include thousands of authoritative datasets,
+    references, and thematic maps about hundreds of topics. Users can also contribute
+    to GFW by sharing data and stories from the ground via GFW’s crowdsourcing tools,
+    blogs, and discussion groups. Special “apps” provide detailed information for
+    companies that wish to reduce the risk of deforestation in their supply chains,
+    users who want to monitor fires across Southeast Asia, and more.
+  howDataShared: "Data on Global Forest Watch come from a variety of sources, including
+    governments, NGOs, academia, and industry. To acquire new data, they research
+    and incorporate available open data, form partnerships to move data into the public
+    domain, and fund the creation of data sets to fill key gaps.  Generally, the process
+    begins with a conversation between GFW and the data provider about which data
+    sets will be visualized. The data provider will also be asked to sign a Data Sharing
+    Agreement, which gives Global Forest Watch permission to visualize the data on
+    the website and (in most cases) make the data downloadable. \n"
+  purpose: |-
+    In its Data Playbook, Global Forest Watch lists three central intended impacts:
+    1. Improve the accuracy or timeliness of forest change detection.
+    2. Illustrate drivers of change, including land use and industrial activity. Priority sectors include logging, mining, agricultural commodities (palm oil, beef, soy, etc.), and infrastructure.
+    3. Indicate the health or status of remaining forests, such as biodiversity, landscape connectivity, or carbon.”
+    Government officials benefit from the project as they can see where forest clearing is happening in near real-time or sign up for alerts
+    Law enforcement can stop illegal logging before more is lost
+    Business managers buying commodities such as palm oil, soy, bean or wood pole can to see if supplies are clearing forests they committed to protect
+    Local farmers can raise the alarm when a community’s forests are threatened by uploading a call to action from a mobile phone
+    Everyone can participate in reviewing the satellite data, sharing stories from the ground, using the information to campaign for change.
+- sys:
+    id: 438zv4Y7BmmgAoQA6gEaKy
+  caseStudy: Climate Modeling in Colombia
+  sector:
+  - Agriculture
+  sharedBy:
+  - International Center for Tropical Agriculture and the Colombian Ministry of Agriculture
+  sharedWith:
+  - Colombian growers
+  region: Latin America and the Caribbean
+  collaborativeType:
+  - Data Pooling
+  dataType:
+  - Observed Non-Personal Data
+  dataKind:
+  - meteorological data
+  link: http://dataimpacts.org/project/climate-modeling/
+  whatDataShared: 'In a cross-sector partnership led by the International Center for
+    Tropical Agriculture (CIAT) and the Colombian Ministry of Agriculture, The Clima
+    y Sector Agropecuario Colombiano (Colombian Climate and Agricultural Sector; CSAC)
+    provides meterological data to farmers, along with data on the economics and agronomy
+    of rice cultivation. '
+  howDataShared: 'CSAC works directly with growers most interested in adopting new
+    strategies,using the results of its climate models to help farmers with their
+    agricultural practices. Growers in the program also work alongside local extension
+    officers to help other farmers understand and adopt the new strategies.  '
+  purpose: The partnership provides information to growers and helps them improve
+    their decision making about when to plant or not plant, as well as which varieties
+    are most likely to have the best yields in the forecasted conditions. The site-specific
+    information had an enormous economic impact. In 2013, when CSAC predicted a high
+    risk of crop loss due to drought, farmers who did not plant saved $3.6 million
+    in agricultural inputs that would have been spent on the failed crop.
 - sys:
     id: 3az4tXngAUgOEGwY0gSyoK
   caseStudy: BBVA's Innova Challenge
@@ -86,6 +334,10 @@ datacollaborative:
   - Prizes & Challenges
   dataType:
   - Observed Personal Data
+  dataKind:
+  - Commercial Transactions
+  dataSource:
+  - Credit Cards
   link: https://www.centrodeinnovacionbbva.com/en/innovachallenge/home
   whatDataShared: Spanish regional bank BBVA shares anonymized credit card transactions
     data with participating developers in its Innova Challenge.
@@ -96,64 +348,300 @@ datacollaborative:
     the bank and community, fostering a culture of innovation and participation. They
     also hope to spark innovation both within and outside its cmmercil interests.
 - sys:
-    id: 2ctFhGxsYMYe60SUQMusoE
-  caseStudy: China Green Horizon
+    id: 6s95bGRmpyYkaeMUSwwceQ
+  caseStudy: Feeding America and the Map the Meal Gap
   sector:
-  - Environment
+  - Health
   sharedBy:
-  - IBM
+  - Nielson
   sharedWith:
-  - Multiple partners
-  region: East Asia and Pacific
+  - Feeding America
+  region: North America
   collaborativeType:
-  - Intelligence Product
-  - Trusted Intermediary
-  dataType:
-  - Disclosed Non-Personal Data
-  link: http://dataimpacts.org/project/data-help-china-breath-better/
-  whatDataShared: 'Green Horizon was launched by IBM in 2014 to use real-time data
-    from optical sensors, air quality monitors, and satellites to predict where pollution
-    will be generated and how it is likely to spread througout the city. '
-  howDataShared: 'By combining a variety of data sources, from sensitivity modeling,
-    inverse/joint method, portable sensor and social media, IBM researchers are able
-    to get a robust estimation on the state of pollution in China. Through IBM’s network
-    of 12 global research labs, the initiative uses the expertise of government, academia,
-    industry and private enterprise to develop a comprehensive air quality management
-    solution which is comprised of high-resolution air quality forecasts, emission
-    source identification and traceability, and quantitative policy decision support.  '
-  purpose: 'Green Horizon  aims to empower China in transforming its national energy
-    systems and support its needs for sustainable urbanization. '
-- sys:
-    id: 1lRMBoDkG4eAAeQCS46yGy
-  caseStudy: Data City | Data Nation
-  sector:
-  - Infrastructure
-  sharedBy:
-  - Multiple
-  sharedWith:
-  - Public
-  region: Europe and Central Asia
-  collaborativeType:
-  - Prizes & Challenges
+  - Research Partnerships
   dataType:
   - Disclosed Personal Data
   - Observed Personal Data
   - Disclosed Non-Personal Data
   - Observed Non-Personal Data
-  link: http://www.dex.sg/data/mobility/#challenges
-  whatDataShared: 'Participants in the Data City|Data Nation ''Mobility'' challenge
-    can access data from more than 15 partnering companies and agencies from the private
-    and public sector, in addition to open-source data available on the Internet.
-    The companies include Ford, Dairy Farm, the National Environment Agency, the Land
-    Transport Authority, among others. '
-  howDataShared: 'Each participating organization has a platform which lists all the
-    datasets available for download. APIs to access the data is available through
-    the site''s website once participants register for the challenge online.  '
-  purpose: By providing a financial incentive for winners who produce the most significant
-    insights through their data analysis, public and private institutions are able
-    to encourgae greater learnings on "how we move, what we do and their implications."
-    This knowledge can be used to improve infrastructure and transport policy, and
-    produce important insights into public mobility.
+  link: http://www.pointsoflight.org/sites/default/files/resources/files/nielsen_spotlight_2014.pdf
+  whatDataShared: This collaboration between Feeding America and Nielsen in 2014 collected
+    and mapped data about food-insecurity across America in an attempt to aid research
+    and advocacy efforts.
+  howDataShared: Since 2010, Nielsen has released food pricing information to Feeding
+    America as part of its "Nielsen Cares" initiative to use data for social good.
+  purpose: The Map the Meal project aims to track food insecurity in america to support
+    acticism and reform in this area.
+- sys:
+    id: 3FuCM9Dv1mauUCo6W6QeUk
+  caseStudy: IBM Watson Health - Smarter Healthcare in Canada
+  sector:
+  - Health
+  sharedBy:
+  - Various Canadian hospitals
+  sharedWith:
+  - IBM
+  region: North America
+  collaborativeType:
+  - Research Partnerships
+  dataType:
+  - Disclosed Personal Data
+  dataKind:
+  - Registration Records
+  link: http://www.ibm.com/smarterplanet/ca/en/healthcare_solutions/ideas/
+  whatDataShared: IBM launched the smarter Solutions initiative as a way to introduce
+    technological innovation in Canada's healthcare system by accessing healthcare
+    data from participating hospitals. This information was then used to create computerised
+    systems to improve efficiency and accuracy of healthcare providers. Canada's healthcare
+    organizations have entered into a contract with IBM to deliver this service, so
+    unlike other data collaboratives these data sharing processes are part of a commercial
+    relationship.
+  howDataShared: 'IBM''s Smater Solutions attempts to put in place what is called
+    "cognitive computing"—systems that try to understand, reason and learn while interacting
+    with humans. They are designed to ingest vast quantities of structured and unstructured
+    information—from numbers and text to audio, video, images, sensory and other data,
+    and to help physicians and researchers identify new patterns and insights to accelerate
+    discoveries, treatments and insights. '
+  purpose: New tools to analyze and glean the relevant information from this ocean
+    of data are helping practitioners, researchers and caregivers discover and apply
+    the answers in innovative ways. Cognitivebased systems that build knowledge and
+    learn can bridge the gap between vast amounts of data available and its relationship
+    to the questions that need to be asked.
+- sys:
+    id: 5ezYeelNMI8eWmua2AoQGU
+  caseStudy: Intel's Big Data for Precision Farming
+  sector:
+  - Agriculture
+  sharedBy:
+  - Intel
+  sharedWith:
+  - University of California
+  - World Food Center
+  region: North America
+  collaborativeType:
+  - Research Partnerships
+  dataType:
+  - Disclosed Non-Personal Data
+  dataKind:
+  - Computer System Logs
+  link: http://www.datacenterknowledge.com/archives/2014/06/09/intel-tackles-water-supply-problems-big-data/
+  whatDataShared: 'Intel''s irrigation project places sensors in crops and other strategic
+    areas to monitor soil and air moisture levels. A second project uses data from
+    a lab that monitors the snow pack in the Sierra Nevada mountain range, correlating
+    it with the size of California’s water supply. '
+  howDataShared: This was a for-profit endeavour for intel, whose specially designed
+    sensors aimed specifically to capture moisture and snow melting data in California
+    for research purposes. About 75 gigabytes of data were collected a day from just
+    the Nevada mountain range, and through Intel's self-created platform and reference
+    architecture, researchers from the University of California, davis, were able
+    to access this nfromation.
+  purpose: Intel's work with University of California, Davis, aims to perfect irrigation
+    techniques by placing sensors in crops and other strategic areas to monitor soil
+    and air moisture levels. In improving accuracy about the wter supply of a crop,
+    the people behind the project hope to reduce water waste and improve farming techniques
+    to encourage sustainability.
+- sys:
+    id: a5tRDO47XGm00yqkQYU8U
+  caseStudy: Ethiopian Commodity Exchange
+  sector:
+  - Agriculture
+  sharedBy:
+  - Ethiopian Commodity Exchange
+  sharedWith:
+  - Entrepreneurs
+  region: Sub-Saharan Africa
+  collaborativeType:
+  - Intelligence Product
+  dataType:
+  - Observed Non-Personal Data
+  dataKind:
+  - Commercial Data
+  dataSource:
+  - Commodity prices
+  link: http://dataimpacts.org/project/market-data-raise-farmer-income/
+  whatDataShared: Launched in 2008, the ECX allows entrepreneurs in Ethiopia, including
+    small scale farmers, to access real time eliable price information and consistent
+    quality standards data.
+  howDataShared: The ECX makes information is accessible via SMS text messages, an
+    interactive telephone hotline, tickers using electronic displays at specific regional
+    sites, the EXC.com website, and TV, radio, and newspaper dissemination in four
+    languages.
+  purpose: Before the launch of the ECX in 2008, farmers struggled to find market
+    price information, and often received prices far below market value – estimated
+    on average to be just 35-38 percent of export price – and sometimes suffered serious
+    losses when traders reneged on payment. The ECX aims to create transparent quality
+    standards, allowing farmers to increase product quality and thereby the price
+    they obtain. As a result, in the first year and a half of coffee trading the Exchange
+    saw the volume of highest grade coffee triple.
+- sys:
+    id: g4oJjEEVSEOqgiS2qmS8s
+  caseStudy: Mobile Data for Food Security
+  sector:
+  - Health
+  sharedBy:
+  - Nielsen
+  sharedWith:
+  - Word Food Programme
+  region: Worldwide
+  collaborativeType:
+  - Research Partnerships
+  dataType:
+  - Disclosed Personal Data
+  dataKind:
+  - Registration Records
+  dataSource:
+  - Multiple
+  link: http://www.nielsen.com/us/en/insights/news/2015/moving-to-mobile-how-phones-are-revolutionizing-hunger-relief.html
+  whatDataShared: This isn't a traditional data collaborative, as Nielsen does not
+    share data but rather shares data analysis expertise. Nielsen advised the World
+    Food Program on how to collect and analyze data received via mobile phone surveys
+    in a safe and comprehensive manner, and to ensure the data was valid compared
+    with face-to-face interviews.
+  howDataShared: ' With help from Nielsen, WFP was able to use and adapt technology
+    to aid in their data collection strategies: "optimizing the techniques used for
+    collecting this information through SMS and interactive voice calls (both in deploying
+    this technology and determining who to reach out to) was essential to updating
+    WFP''s data collection. Nielsen also helped WFP interpret the data and validate
+    the quality of the various collection methods used, honing in on country-specific
+    best practices where needed."'
+  purpose: Data is collected by participant's through a mobile phone survey that aims
+    to understand food insecurity in order to advise WFP's resouce allocations.
+- sys:
+    id: 6ftgmaCsvYMSuQEYOqkWia
+  caseStudy: Mobile Data, Environmental Extremes and Population (MDEEP) Project
+  sector:
+  - Environment
+  sharedBy:
+  - Grameenphone (Telecom)
+  sharedWith:
+  - Telenor Group
+  - UNU
+  - Flowminder
+  - ICCCAD
+  region: South Asia
+  collaborativeType:
+  - Data Pooling
+  dataType:
+  - Observed Non-Personal Data
+  dataKind:
+  - Tracking Data
+  dataSource:
+  - Mobile Phone Locations
+  link: http://www.icccad.net/mdeep/
+  whatDataShared: In partnership with the United Nations and nonprofit organizations,
+    Grameenphone shares anonymized telecom data as a part of the Mobile Data, Environmental
+    Extremes and Population (MDEEP) Project with the United Nations and nonprofit
+    organizations.
+  howDataShared: '"An international collaboration of researchers has developed a way
+    to map displaced populations’ journeys. High rates of mobile phone ownership in
+    Bangladesh (89% of households have at least one phone) provide a rich source of
+    data on climate-vulnerable populations. Data routinely collected by network operators
+    records the nearest mobile phone tower each time a call or text is sent, and timestamps
+    the record. The data are ‘de-identified’, so it is not possible to know the individuals
+    behind the phones, but researchers can map the anonymous phones’ journeys on a
+    daily, weekly and monthly basis. "  '
+  purpose: In partnership with the United Nations and nonprofit organizations, Grameenphone
+    shares anonymized telecom data as a part of the Mobile Data, Environmental Extremes
+    and Population (MDEEP) Project with the United Nations and nonprofit organizations.
+- sys:
+    id: 5z7ZPIVMOskAggMemMwaMu
+  caseStudy: Enexis Open Data Agenda
+  sector:
+  - Infrastructure
+  sharedBy:
+  - Enexis
+  sharedWith:
+  - Public
+  region: Europe and Central Asia
+  collaborativeType:
+  - Trusted Intermediary
+  dataType:
+  - Observed Personal Data
+  dataKind:
+  - Energy Usage
+  dataSource:
+  - Electricity and Gas Meters
+  link: https://www.enexis.nl/over-enexis/open-data
+  whatDataShared: Enexis, a dutch energy company, makes anonymized data about residential
+    gas and electric energy use publically available via its website.
+  howDataShared: 'Enexis makes anonymized residential-level gas and electricity consumption
+    data since 2009 publically and freely available through CSV files downloadable
+    via the Enexis website.    '
+  purpose: Enexis makes their energy data available as part of their committment to
+    open data and to encourage innovation in the field.
+- sys:
+    id: 3uUmgSxzfW42kK2yiOsgyM
+  caseStudy: Digital Ecologies Research Partnership
+  sector:
+  - Education
+  sharedBy:
+  - Imgur
+  - Reddit
+  - FARK
+  - Stack Exchange
+  - Twitch
+  - and DeviantArt
+  sharedWith:
+  - Academic researchers
+  region: North America
+  collaborativeType:
+  - Data Pooling
+  dataType:
+  - Observed Personal Data
+  dataKind:
+  - Internet Usage
+  dataSource:
+  - Website Interactions
+  link: http://derp.institute/
+  whatDataShared: As a part of the Digital Ecologies Research Partnership (DERP),
+    internet communities such as Imgur, Reddit and Stack Exchange share public user
+    data with a select group of academic institutions to support research on internet
+    social behavior.
+  howDataShared: For contributing organizations, most of the data was otherwise available
+    via public APIs.
+  purpose: DERP is a single point of contact for researchers to get in touch with
+    relevant team members across a range of different community sites. They envision
+    that this will lower the friction to investigating these sites in more depth,
+    and broaden the scope of research happening within the academic community.
+- sys:
+    id: 7y2aFtAKROIiCGiCqygCcA
+  caseStudy: Digital Matatus
+  sector:
+  - Transportation
+  sharedBy:
+  - Multiple
+  sharedWith:
+  - Public
+  region: Sub-Saharan Africa
+  collaborativeType:
+  - API
+  - Research Partnerships
+  dataType:
+  - Observed Personal Data
+  dataKind:
+  - Tracking Data
+  dataSource:
+  - Mobile Phone Locations
+  link: http://dataimpacts.org/project/mapping-commuters-streamlines-transit/
+  whatDataShared: 'Private buses known as matatus are the primary mode of motorized
+    transport in Nairobi. In a collaborative effort called Digital Matatus, researchers
+    from Columbia University, the Massachusetts Institute of Technology, and the University
+    of Nairobi used GPS tracking devices and smartphone data to create a digital map
+    of Nairobi’s matatu routes. '
+  howDataShared: University of Nairobi students geolocated stops along routes and
+    recorded important information such as which stops are formally recognized by
+    the city. This map and database is available openly available through Global Transit
+    Feed Specification (GTFS) format. With this, Kenyan tech start-ups have developed
+    useful mobile applications for Nairobi’s citizens to suggest optimal routes, provide
+    warnings about unsafe areas near matatu stops, and allow users to hail matatus
+    by requesting pick-up at a specific location are now available.
+  purpose: The Digital Matatus project helped passengers discover more efficient routes
+    of commuting. The new dataset will also help regulate bus stop locations; the
+    project found that many buses stop erratically along the road to pick up passengers,
+    with detrimental effects on traffic. The data collected by this project is also
+    the first official record of existing routes. This information facilitates civic
+    engagement and feedback during the transit planning process to incorporate some
+    of the matatu routes into formal bus routes offered by the city.
 - sys:
     id: 655oS0dVeMsU2gSK4aYWQg
   caseStudy: Accelerating Medicines Partnership (AMP)
@@ -186,6 +674,90 @@ datacollaborative:
     innovation in drug therapy. By combining data, the AMP portal can find new drug
     targets, and reduces wasteful repetition of testing found when companies work
     in-silo.
+- sys:
+    id: 2a8c4MWF8w6u22aimas6K
+  caseStudy: Data for Climate Action (D4CA)
+  sector:
+  - Environment
+  sharedBy:
+  - UN Global Pulse
+  - WEF
+  - UNICEF
+  - Ernst & Young
+  - UN Secretary-General's Climate Change Support Team
+  - Orange Telecom
+  - The World Bank
+  - Earth Institute
+  - Paris 21
+  - the UN Foundation
+  - the Renewable Energy Policy Network
+  sharedWith:
+  - Participating developers
+  region: Worldwide
+  collaborativeType:
+  - Trusted Intermediary
+  dataType:
+  - Disclosed Personal Data
+  - Observed Personal Data
+  - Disclosed Non-Personal Data
+  - Observed Non-Personal Data
+  dataKind:
+  - Multiple
+  dataSource:
+  - Multiple
+  link: http://www.unglobalpulse.org/data-for-climate-action-2015
+  whatDataShared: 'As part of the D4 Climate Act initiative, a variety of companies
+    have made their anonymized, aggregated datasets available. Examples of particularly
+    pertinent datasets include: 3-6 months of aggregated mobile activity between antennas
+    in province or region, anonymized retail data before and after a flood, aggregated
+    transaction data from a bank from a time-period surrounding a hurricane, electricity
+    usage data from a city&rsquo;s transit system during the months of a drought.'
+  howDataShared: Orange, a San Francisco based satellite imaging company, Planet Labs,
+    and Schneider Electric, plan to contribute data that include mobile phones usage
+    patterns, satellite imagery and energy consumption, which will bring valuable
+    insights on human behavior in the context of climate change. In addition, technology
+    companies SAP and Microsoft have pledged to support the Data for Climate Action
+    campaign by providing technical expertise and computing power.
+  purpose: In 2015, the United Nations led a coalition of partners to host anunprecedented
+    open innovation challenge focused on climate resilience. Private sector leaders
+    are encouraged to join the coalition of partners by committing to share data which
+    can be used to develop innovative climate solutions.
+- sys:
+    id: 5bNlJoOrHq0YQciOIkkA6Q
+  caseStudy: Mobile Operator Data for Haiti Earthquake 2010
+  sector:
+  - Crisis Response
+  sharedBy:
+  - Digicel Telecom (Haiti)
+  sharedWith:
+  - Flowminder
+  region: Latin America and the Caribbean
+  collaborativeType:
+  - Trusted Intermediary
+  dataType:
+  - Observed Personal Data
+  dataKind:
+  - Tracking Data
+  dataSource:
+  - Mobile Phone Locations
+  link: http://www.flowminder.org/case-studies/haiti-earthquake-2010
+  whatDataShared: Following the 2010 earthquake, the Flowminder team analysed the
+    movements of two million anonymous mobile phones in Haiti, in order to track population
+    movements following the disaster.
+  howDataShared: Digicel Haiti provided Flowminder and other oganizations anonymized
+    data on the position of 1.9 million SIMs in Haiti from 42 days before the 2010
+    earthquake to 158 days afterwards. Nearly 200,000 SIMs that were present in Haiti&rsquo;s
+    capital Port-au-Prince when the earthquake struck had left 19 days post-earthquake.
+    Just under a third of Port-au-Prince&rsquo;s inhabitants were mobile phone subscribers
+    at the time of the earthquake, so this movement of SIMs equates to the movement
+    of 630,000 people.
+  purpose: '"The Flowminder team analysed the movements of two million anonymous mobile
+    phones in Haiti, providing critical support to the UN and other relief agencies.
+    The team subsequently showed in academic research that these mobile phone movements
+    corresponded closely to the real mobility of the population after the earthquake.
+    The team also showed how general population mobility before the earthquake could
+    be used to predict post-earthquake population displacement patterns, providing
+    the crucial opportunity to prepare relief activities before disasters strike."'
 - sys:
     id: 3riF1HxE2Iw2YwyoyCYWQ6
   caseStudy: 23andMe Patient-Centric Research Portal
@@ -223,36 +795,667 @@ datacollaborative:
     of health topics. This effectively accelerates medical research, leading to significant
     discoveries in a fraction of the cost and time.
 - sys:
-    id: 438zv4Y7BmmgAoQA6gEaKy
-  caseStudy: Climate Modeling in Colombia
+    id: 1lRMBoDkG4eAAeQCS46yGy
+  caseStudy: Data City | Data Nation
   sector:
-  - Agriculture
+  - Infrastructure
   sharedBy:
-  - International Center for Tropical Agriculture and the Colombian Ministry of Agriculture
+  - Multiple
   sharedWith:
-  - Colombian growers
-  region: Latin America and the Caribbean
+  - Public
+  region: Europe and Central Asia
+  collaborativeType:
+  - Prizes & Challenges
+  dataType:
+  - Disclosed Personal Data
+  - Observed Personal Data
+  - Disclosed Non-Personal Data
+  - Observed Non-Personal Data
+  dataKind:
+  - multiple
+  dataSource:
+  - multiple
+  link: http://www.dex.sg/data/mobility/#challenges
+  whatDataShared: 'Participants in the Data City|Data Nation ''Mobility'' challenge
+    can access data from more than 15 partnering companies and agencies from the private
+    and public sector, in addition to open-source data available on the Internet.
+    The companies include Ford, Dairy Farm, the National Environment Agency, the Land
+    Transport Authority, among others. '
+  howDataShared: 'Each participating organization has a platform which lists all the
+    datasets available for download. APIs to access the data is available through
+    the site''s website once participants register for the challenge online.  '
+  purpose: By providing a financial incentive for winners who produce the most significant
+    insights through their data analysis, public and private institutions are able
+    to encourgae greater learnings on "how we move, what we do and their implications."
+    This knowledge can be used to improve infrastructure and transport policy, and
+    produce important insights into public mobility.
+- sys:
+    id: 1c5w3VremCkqgYCU0Wgaw2
+  caseStudy: Havard's Malaria Tracking research
+  sector:
+  - Health
+  sharedBy:
+  - Safaricom
+  sharedWith:
+  - Harvard School of Public Health
+  region: Middle East and North Africa
+  collaborativeType:
+  - Research Partnerships
+  dataType:
+  - Observed Personal Data
+  dataKind:
+  - Tracking Data
+  dataSource:
+  - Mobile Phone Locations
+  link: http://www.hsph.harvard.edu/news/press-releases/cell-phone-data-malaria/
+  whatDataShared: The project combines cell phone data from 15 million people in Kenya
+    with detailed information on the regional incidence of malaria.
+  howDataShared: "According to Havard University's press release, between June 2008
+    and June 2009, researchers mapped every call or text made by each of 14,816,521
+    Kenyan mobile phone subscribers to one of 11,920 cell towers located in 692 different
+    settlements. Every time an individual left his or her primary settlement, the
+    destination and duration of each journey was calculated. Then, using a 2009 malaria
+    prevalence map provided by co-authors at the Kenya Medical Research Institute
+    (KEMRI) and the Malaria Atlas Project to estimate the disease’s prevalence in
+    each location being studied, they inferred each resident’s probability of being
+    infected and the daily probability that visitors to particular areas would become
+    infected.The phone company, Safari, provided de-identified business data to researchers
+    that was then used to model the travel patterns of cell phone users.  Neither
+    the names of individuals nor their phone numbers were or are known to the Harvard
+    School of Public Health researchers. \n"
+  purpose: By analyzing the incidence of malaria and the movement of people as revealed
+    by thei mobile phones, researchers at Harvard School of Public Health (HSPH) and
+    seven other institutions indicated that malaria, in large part, emanates from
+    Kenya’s Lake Victoria region and spreads east, chiefly toward the capital, Nairobi.
+    Such insights help estmate malaria's potantial spread, and can be used to build
+    a "map of parasite movements" and help better understand the spread of disease.
+- sys:
+    id: 2ctFhGxsYMYe60SUQMusoE
+  caseStudy: China Green Horizon
+  sector:
+  - Environment
+  sharedBy:
+  - IBM
+  sharedWith:
+  - Multiple partners
+  region: East Asia and Pacific
+  collaborativeType:
+  - Intelligence Product
+  - Trusted Intermediary
+  dataType:
+  - Disclosed Non-Personal Data
+  dataKind:
+  - Climate and pollution data
+  link: http://dataimpacts.org/project/data-help-china-breath-better/
+  whatDataShared: 'Green Horizon was launched by IBM in 2014 to use real-time data
+    from optical sensors, air quality monitors, and satellites to predict where pollution
+    will be generated and how it is likely to spread througout the city. '
+  howDataShared: 'By combining a variety of data sources, from sensitivity modeling,
+    inverse/joint method, portable sensor and social media, IBM researchers are able
+    to get a robust estimation on the state of pollution in China. Through IBM’s network
+    of 12 global research labs, the initiative uses the expertise of government, academia,
+    industry and private enterprise to develop a comprehensive air quality management
+    solution which is comprised of high-resolution air quality forecasts, emission
+    source identification and traceability, and quantitative policy decision support.  '
+  purpose: 'Green Horizon  aims to empower China in transforming its national energy
+    systems and support its needs for sustainable urbanization. '
+- sys:
+    id: 53IB1uOzKoOSUy0CGGGOCy
+  caseStudy: DataKind Labs Vision Zero Project
+  sector:
+  - Infrastructure
+  sharedBy:
+  - Multiple
+  sharedWith:
+  - Local Governments
+  region: North America
   collaborativeType:
   - Data Pooling
   dataType:
   - Observed Non-Personal Data
-  link: http://dataimpacts.org/project/climate-modeling/
-  whatDataShared: 'In a cross-sector partnership led by the International Center for
-    Tropical Agriculture (CIAT) and the Colombian Ministry of Agriculture, The Clima
-    y Sector Agropecuario Colombiano (Colombian Climate and Agricultural Sector; CSAC)
-    provides meterological data to farmers, along with data on the economics and agronomy
-    of rice cultivation. '
-  howDataShared: 'CSAC works directly with growers most interested in adopting new
-    strategies,using the results of its climate models to help farmers with their
-    agricultural practices. Growers in the program also work alongside local extension
-    officers to help other farmers understand and adopt the new strategies.  '
-  purpose: The partnership provides information to growers and helps them improve
-    their decision making about when to plant or not plant, as well as which varieties
-    are most likely to have the best yields in the forecasted conditions. The site-specific
-    information had an enormous economic impact. In 2013, when CSAC predicted a high
-    risk of crop loss due to drought, farmers who did not plant saved $3.6 million
-    in agricultural inputs that would have been spent on the failed crop.
+  dataKind:
+  - Transportation Data
+  link: http://www.datakind.org/blog/data-science-supporting-vision-zero-in-three-new-cities
+  whatDataShared: 'DataKind''s Vision Zero project launched in 3 cities--New York,
+    San Jose and Seattle--uses a combination of public and private data which provides
+    insights about each city''s transportion. In New York, for example, DataKind accessed
+    traffic and other transportation data from the Department of Transportation, NYC
+    OpenData, New York State’s as well as other proprietary data. '
+  howDataShared: 'Microsoft''s Tech & Civic Engagement Group supports The Vision Zero
+    project to analyze transportation and traffic data, DataKind Labs generates insights
+    to share with local decision makers to help prevent traffic related deaths and
+    injuries. '
+  purpose: The project aims to help local decision makers understand which engineering
+    and enforcement interventions will be most effective to address each city’s local
+    efforts to increase traffic safety for all.
+- sys:
+    id: 2CBRhQUC7CwIo8uy8CiuyM
+  caseStudy: Genomic Data Commons
+  sector:
+  - Health
+  sharedBy:
+  - Multiple
+  sharedWith:
+  - NIH / University of Chicago
+  region: North America
+  collaborativeType:
+  - Research Partnerships
+  dataType:
+  - Disclosed Personal Data
+  dataKind:
+  - Health Data
+  dataSource:
+  - Genome Code
+  link: https://gdc.cancer.gov/
+  whatDataShared: 'The NCI''S Genomic Data Commons (GDC) contains NCI-generated data
+    from a number of cancer genomic datasets, including The Cancer Genome Atlas (TCGA)
+    and Therapeutically Applicable Research to Generate Effective Therapies (TARGET).
+    These datasets are harmonized so that the data can be directly compared. '
+  howDataShared: The GDC has developed a unified standards-based data repository via
+    several resources, which users can not only download and retrieve, but to which
+    they can also contribute data to the GDC, usse the GDC bioinformatics pipelines
+    to process data. Resources are maintained in a secure data center which provides
+    user support and documentation.
+  purpose: The primary goal of the GDC is to provide the cancer research community
+    with a unified data repository supporting cancer genomic studies. The unified
+    repository will provide a cancer knowledge network that enables the identification
+    of low-frequency cancer drivers, assists in defining genomic determinants of response
+    to therapy, and informs the composition of clinical trial cohorts sharing targeted
+    genetic lesions.
+- sys:
+    id: 57Q9QUvX8s4Mw6YucsEcaY
+  caseStudy: Johnson & Johnson-Yale Open Data Access Project
+  sector:
+  - Health
+  sharedBy:
+  - Johnson & Johnson
+  sharedWith:
+  - Yale Open Data Access Project
+  - Yale School of Medicine
+  region: North America
+  collaborativeType:
+  - Research Partnerships
+  dataType:
+  - Disclosed Personal Data
+  dataKind:
+  - Registration Records
+  dataSource:
+  - Health System Registers
+  link: http://yoda.yale.edu/
+  whatDataShared: The Yale School of Medicine’s Open Data Access (YODA) Project helps
+    researchers and physicians to access anonymized clinical trial data from J&J's
+    Janssen.
+  howDataShared: In order to enter this Data Collaborative with YODA, data sharers
+    like Johnson&Johnson must agree to hand over full jurisdiction of their clinical
+    data to Yale.This allows researchers access to private clinical data, while ensuring
+    such data is shared responsibly.
+  purpose: Johnson & Johnson's Janssen shares access to anonymized clinical trials
+    data with the Yale Open Data Access Project, which serves as an independent body
+    overseeing trials data requests from investigators and researchers. The purpose
+    of YODA is to allow ressearchers access to important clinical data from J&J, whilst
+    ensuring the safety and privacy of this initiative.
+- sys:
+    id: 3vRS69rcTCUQCCS0oOwOIA
+  caseStudy: Clever
+  sector:
+  - Education
+  sharedBy:
+  - Clever
+  sharedWith:
+  - school administrators
+  - teachers
+  - education technology developers
+  region: North America
+  collaborativeType:
+  - Intelligence Product
+  - API
+  dataType:
+  - Disclosed Personal Data
+  dataKind:
+  - Registration Records
+  dataSource:
+  - Educational registers
+  link: http://clever.com/
+  whatDataShared: 'School districts that use Clever'' services can access a single,
+    universal API that allows developers and education companies to access siloed
+    data within a school’s student information system. '
+  howDataShared: Originating from the Y-Combinator start-up accelerator program, Clever
+    provides a standardized API platform for schools and tech developers. Unlike other
+    data collaboratives, this means that Clever is a for-profit company that has emerged
+    as people have identified the need for data and intelligence products to support
+    schools and the public. Therefore, Clever does not generate its own data to share
+    through Data Collaborative projects, but rather acts as an intemediary between
+    students, schools, administrators and disctricts to share data in a safe and useful
+    manner.
+  purpose: 'In order to streamline student roster infromation from school databases,
+    enabling schools to send student information easily to various web and mobile
+    apps. Administrators can also choose whether to share this student information
+    with school classes, school, or the entire district. This means administrators
+    maintain control over the data shared, but also can easily share student data
+    if they so choose. '
+- sys:
+    id: 67VTdAn4lO8UkkCOowKe0S
+  caseStudy: Global Fishing Watch
+  sector:
+  - Environment
+  sharedBy:
+  - Google
+  - Oceana
+  - Skytruth
+  sharedWith:
+  - Public
+  region: Worldwide
+  collaborativeType:
+  - Data Pooling
+  dataType:
+  - Observed Non-Personal Data
+  dataKind:
+  - Satellite and Aerial Imagery
+  dataSource:
+  - Geo-locational data
+  link: http://globalfishingwatch.org/
+  whatDataShared: Global Fishing Watch is the result of a collaboration among Google,
+    Oceana and SkyTruth to map and measure fishing activity worldwide by mapping data
+    from the Automatic Identification System (AIS), used by more than 100,000 vessels
+    worldwide.
+  howDataShared: Global Fishing Watch analyzes data from the Automatic Identification
+    System (AIS), which is collected by satellites and terrestrial receivers, to identify
+    apparent fishing behavior based on the movement of vessels over time. A map of
+    this data is available to anyone with an Internet connection and allows users
+    to monitor when and where commercial fishing is occurring around the world.
+  purpose: This information from Global Fishing Watch can be used by governments to
+    ensure that fishing regulations are adequately monitored and tracked, allowing
+    them to respond to illegal fishing rapidly and efficientlly. The governments of
+    Kiribati and Indonesia have been able to improve adherence to marine conservation
+    policies by accessing data provided by Global Fishing Watch.
+- sys:
+    id: 6SQK0wyYDYIEeQuykgOqKS
+  caseStudy: Google Flu Trends
+  sector:
+  - Health
+  sharedBy:
+  - Google
+  sharedWith:
+  - Center for Disease Control
+  region: North America
+  collaborativeType:
+  - Intelligence Product
+  dataType:
+  - Observed Personal Data
+  dataKind:
+  - Internet Usage
+  dataSource:
+  - Search Terms
+  link: http://www.google.org/flutrends/us/
+  whatDataShared: 'Google Flu Trends launched in 2008, and provided estimates of influenza
+    activity for more than 25 countries by aggregating Google search queries. Google
+    shared these search query-based data in conjunction with the US Centers for Disease
+    Control in order to estimate levels of influenza activity over time. '
+  howDataShared: The premise of Google Flu Trends was to combine data from the CDC
+    with search terms containing flu-related information. Researchers proposed that
+    these search data tuned into flu tracking information from the Centers for Disease
+    Control and Prevention, could "nowcast" estimates of flu prevalence. But, the
+    first version of Google Flu Trends was flawed in its data collection  and modelling
+    practices.  Its methodology was to find the best matches among 50 million search
+    terms to fit 1152 data points.  But, since the alogorithm was too broad and the
+    big data often overfitted the case--for instance, mistakenly identifying seasonal
+    search terms, like “high school basketball”, as flu predictions--Google Flu Trends
+    missed 2013's peak flu season by 140 percent. The project now exists as a compilation
+    of histori estimates, though it has also inspired several other similar projects
+    that use social media data to predict disease trends.
+  purpose: The goal of Google Flu Trends was to use search data to monitor health
+    tracking behaviors online, and to reveal the presence of flu-like illness in a
+    population. The intention was to identify disease activity early and respond quickly
+    to reduce the impact of seasonal and pandemic influenza. One report was that Google
+    Flu Trends was able to predict regional outbreaks of flu up to 10 days before
+    they were reported by the CDC (Centers for Disease Control and Prevention). But,
+    because of flaws in the project and analysis, none of these goals were attained
+    to any sufficient standard.
+- sys:
+    id: IlQQUgn3wGM0sqYosKWKk
+  caseStudy: Google Waze (Connected Citizens)
+  sector:
+  - Infrastructure
+  sharedBy:
+  - Google
+  sharedWith:
+  - Local Government Agencies
+  region: Worldwide
+  collaborativeType:
+  - Trusted Intermediary
+  dataType:
+  - Disclosed Personal Data
+  link: https://www.waze.com
+  whatDataShared: "Google Waze shares crowdsourced user data with local governments
+    around the world in order to improve traffic management. In its Connected Citizens
+    program, Waze provides real-time anonymized crowdsourced traffic data to government
+    departments in exchange for information on public projects like construction,
+    road sensors, and pre-planned road closures. \nThe large amount of traffic data
+    that Waze collects from participating drivers allows for greater precision and
+    accuracy when documenting real-time incidents. Participating government agencies
+    use this data to better inform policy or quickly deploy traffic assistance if
+    needed, as a direct result of commuter needs as revealed through Waze. \n"
+  howDataShared: The Waze Connected Citizens Program is conceived as a two-way data
+    exchange program that provides data freely to particpating municipal leaders.
+    Launched in October 2014 with 10 city partners, the program has expanded to more
+    than 63 partners including city, state and country government agencies, nonprofits
+    and first responders.
+  purpose: Google Waze shares crowdsourced user data with local governments around
+    the world in order to improve traffic management. For example, Waze’s partnership
+    with the city of Rio de Janeiro allowed government agencies to analyze congestion
+    during the election campaign, and better design infrastructure to reduce congestion.
+    Waze users also assisted victims of Hurricane Patricia in Mexico by uploading
+    the location and details of various shelters in affected areas, and the Mexican
+    government encouraged the public to use Waze to seek safety.
+- sys:
+    id: 57Q6qeEdnWY2UMq4oQSsCi
+  caseStudy: Lilly, T1D Exchange Diabetes Research Collaboration
+  sector:
+  - Health
+  sharedBy:
+  - T1D Exchange
+  sharedWith:
+  - Eli Lilly and Company
+  region: North America
+  collaborativeType:
+  - Research Partnerships
+  dataType:
+  - Disclosed Personal Data
+  dataKind:
+  - Registration Records
+  dataSource:
+  - Health Systems Registers
+  link: https://investor.lilly.com/releasedetail.cfm?ReleaseID=839116
+  whatDataShared: 'The multi-element Lilly and TD1 Exchange collaborative is a patient-centric
+    registry of more than 26,000 people with T1D, a clinic network comprised of more
+    than 70 clinics across the U.S.,  a sample repository that stores patient biosamples,
+    and Glu, a patient and caregiver online community for T1D. '
+  howDataShared: Though it is unclear where the collaborative now stands, the initial
+    premise was to analyze T1D exchange data and develop a survey for health care
+    providers from the clinic network and members of Glu, and online patient and caregiver
+    platform. Following the survey, further surveys were to be be undertaken and shared
+    with patients to further collect data to be shared publicly once analysis is complete,
+    for the benefit of both the type 1 diabetes and researcher communities.
+  purpose: 'Lilliy and Exchange acts as a convener of clinicians, patients and caregivers
+    working to improve the health outcomes of patients with Type 1 Diabetes. By connecting
+    these people to one another and to the patient community at large, T1D Exchange
+    aims to be the translational engine that enables the entire T1D ecosystem to collaborate
+    via a Clinic Network, Clinic Registry, Sample Repository, and the online patient/caregiver
+    community, Glu. '
+- sys:
+    id: 7wpgqKeKqWq2cuiicKgggw
+  caseStudy: Measuring Poverty from Space
+  sector:
+  - Economic Development
+  sharedBy:
+  - Orbital Insights
+  sharedWith:
+  - World Bank
+  region: Worldwide
+  collaborativeType:
+  - Intelligence Product
+  dataType:
+  - Observed Non-Personal Data
+  dataKind:
+  - Satellite and Aerial Imagery
+  link: https://medium.com/@orbital_insight/measuring-poverty-from-space-4014fb37b488#.5amvtwpmg
+  whatDataShared: |-
+    Orbital Insights is a data analytics company that provides products to both private businesses and nonprofit entities to the end of enabling data-driven decisionmaking. Its focus areas include: US retail traffic, world oil storage, global water reserves, China's economic index, poverty mapping and agriculture. They offer clients "unprecedented insights about global trends." Orbital Insights describes its geoanlaytical process as one that comprises four key elements:
+    Imaging – Namely satellite imagery of the earth's surface.
+    Deep Learning – Algorithms that can "recgnoze objects, features, and patterns within images, generating highly intelligent and revealing data."
+    Cloud Computing – Orbital's data pipeline allows it to "process tens of thousands of pixels every second."
+    Data Science – In order to translate observations into actionable insights, Orbital leverages data science to contextualize and customize data for a variety of uses.
+  howDataShared: "Orbital Insight’s collaboration with the World Bank is the second
+    such initiative of which it has been a part. The company is already feeding data
+    to the Global Forest Watch data collaborative aimed at tracking and minimizing
+    deforestation around the world \nThe combination of Orbital’s satellite imagery
+    and artificial intelligence capabilities can be leveraged in a number of ways.
+    The company showed, for instance, that artificial intelligence analyzing satellite
+    imagery to count cars in a retailer’s parking lot “can be more accurate than U.S.
+    census data at predicting the retailer’s quarterly earnings.”"
+  purpose: Orbital Insights has partnered with the World Bank in an initiative "testing
+    the effectiveness of machine-analyzed satellite images for humanitarian data collection
+    through deep learning artificial intelligence." The project is aimed at providing
+    "an important augmentation to census data in determining which areas are developing
+    more slowly and whether localized interventions are effective."
 canvasPhases:
+- sys:
+    id: 6pBkSIqXTi0GGkoIkCyYuY
+  phaseTitle: 'Phase 1: Demand'
+  phaseDescription: 'Establishing an effective data collaborative requires a detailed,
+    upfront understanding of the demand side of the initiative: i.e., an in-depth
+    understanding of the problem to be addressed and the opportunity provided by cross-sector
+    data sharing. '
+  phaseSteps:
+  - sys:
+      id: 24I8V51vBSsquokqCE6Gkg
+    stepTitle: __Step 1:__ Define the problem to be solved - TEST
+    discussion: Gaining a clear sense of the problem you are seeking to solve is an
+      essential first step in establishing a successful data collaborative. While
+      defining the problem space might seem like a straightforward proposition, achieving
+      the level of precision needed a well-targeted data collaborative requires an
+      in-depth assessment of the problem space.
+    questions: "1. Describe issue to be addressed\n2. Identify the beneficiaries \n3.
+      Articulate why it matters\n4. Note any assumptions\n5. Explore current work
+      to address the problem (internally and externally)"
+    examples: |-
+      - [Telefónica’s Smart Steps](http://dynamicinsights.telefonica.com/488/smart-steps-2) – an intelligence product enabling organizations to use fully anonymized and aggregated mobile network data to measure and compare the movements of crowds – has generated deeper insights about the link between human movement and the spread of infectious diseases.
+
+      - [The Namibia National Vector-borne Diseases Control Programme (NVDCP)](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3927223/) used CDR data from telecommunications provider MTC Namibia, in combination with national surveillance data and satellite imagery, in order to analyze movement patterns for over a million people and map areas of malaria prevalence and risk. The results of the study helped the NVDCP in Namibia improve their targeting of malaria interventions to communities most at risk.
+
+      - Trusted Intermediary: South Africa-based telecom MTN makes anonymized call records available to researchers through a trusted intermediary, Real Impacts Analytics — a data analytics firm that provides guided and predictive analytics solutions.
+      - Prizes or Challenges: In Ivory Coast and Senegal, Orange Telecom hosted a global challenge that allowed researchers to use anonymized, aggregated data to help solve various development problems, including those related to transportation, health, and agriculture.
+
+      - Research Partnership: Yelp shares its data on neighborhood businesses with 30 universities for researchers to build tools and discover meaningful value in the data. Using shared data on Yelp businesses in the San Francisco Bay Area, an academic research team from U.C. Berkeley used a probabilistic model for natural language processing to detect subtopics across a dataset of over 200,000 Yelp business reviews. Their research uncovered correlations between positive ratings and service quality, giving business owners evidence for improving their services.
+    enablers: |2-
+
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+    resources: |-
+      - [Problem Definition Worksheet – Knowledge Co-Creation Portal, Multi-Stakeholder Partnerships](http://www.mspguide.org/tool/problem-definition-worksheet)
+      - [Community Toolbox – Defining and Analyzing the Problem](http://ctb.ku.edu/en/table-of-contents/analyze/analyze-community-problems-and-solutions/define-analyze-problem/main)
+      - [GovLab Public Problem Solving Canvas](http://canvas.govlabacademy.org/)
+  - sys:
+      id: 4qgOOMrb72kmCOESgQWMCA
+    stepTitle: 'Step 2: Define the value proposition of the data collaborative'
+    discussion: Research and practice in data collaboratives point to a number of
+      societal benefits arising from the cross-sector sharing of data. After clearly
+      defining the problem that a data collaborative will serve to address, organizers
+      should look to gain specificity on the specific benefit a data collaborative
+      could offer.
+    questions: |
+      What is the intended societal benefit of the data collaborative:
+      - Accurate, real-time monitoring of situations?
+      - Agile governance in policy making and public service delivery?
+      - Evidence-based problem solving and decision making?
+      - Improved anticipatory mechanisms for problems and opportunities?
+      - Wider variety of problem solvers working collaboratively to solve complex problems?
+    examples: |
+      [Telefónica’s Smart Steps](http://dynamicinsights.telefonica.com/488/smart-steps-2) – an intelligence product enabling organizations to use fully anonymized and aggregated mobile network data to measure and compare the movements of crowds – has generated deeper insights about the link between human movement and the spread of infectious diseases.
+
+      [The Namibia National Vector-borne Diseases Control Programme (NVDCP)](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3927223/) used CDR data from telecommunications provider MTC Namibia, in combination with national surveillance data and satellite imagery, in order to analyze movement patterns for over a million people and map areas of malaria prevalence and risk. The results of the study helped the NVDCP in Namibia improve their targeting of malaria interventions to communities most at risk.
+
+      [Grameenphone](http://www.ehs.unu.edu/article/read/press-note-new-project-uses-mobile-data-to-understand-climate), the leading telecommunications provider in Bangladesh, shares its mobile call data records to understand climate impacts by mapping population flows before and after extreme weather events. The Mobile Data, Environmental Extremes and Population (MDEEP) Project is a partnership between the United Nations University Institute for Environment and Human Security (UNU-EHS), the International Centre for Climate Change and Development (ICCCAD), Flowminder.org, and Telenor Group.
+    enablers: |-
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+    resources: |-
+      - [Data Collaboratives: Sharing Public Data in Private Hands for Social Good](http://www.forbes.com/sites/bethsimonenoveck/2015/09/24/private-data-sharing-for-public-good/#499f139365bb)
+      - [4 Steps To Building A Compelling Value Proposition](http://www.forbes.com/sites/michaelskok/2013/06/14/4-steps-to-building-a-compelling-value-proposition/#12ba9c7e1f2c)
+      - [Useful Value Proposition Examples (and How to Create a Good One)](http://conversionxl.com/value-proposition-examples-how-to-create/)
+- sys:
+    id: 2rt9dF95M8aGMeSMG8smkg
+  phaseTitle: 'Phase 7: Learning - TEST'
+  phaseDescription: 'Establishing an effective data collaborative requires a detailed,
+    upfront understanding of the demand side of the initiative: i.e., an in-depth
+    understanding of the problem to be addressed and the opportunity provided by cross-sector
+    data sharing. '
+  phaseSteps:
+  - sys:
+      id: 24I8V51vBSsquokqCE6Gkg
+    stepTitle: __Step 1:__ Define the problem to be solved - TEST
+    discussion: Gaining a clear sense of the problem you are seeking to solve is an
+      essential first step in establishing a successful data collaborative. While
+      defining the problem space might seem like a straightforward proposition, achieving
+      the level of precision needed a well-targeted data collaborative requires an
+      in-depth assessment of the problem space.
+    questions: "1. Describe issue to be addressed\n2. Identify the beneficiaries \n3.
+      Articulate why it matters\n4. Note any assumptions\n5. Explore current work
+      to address the problem (internally and externally)"
+    examples: |-
+      - [Telefónica’s Smart Steps](http://dynamicinsights.telefonica.com/488/smart-steps-2) – an intelligence product enabling organizations to use fully anonymized and aggregated mobile network data to measure and compare the movements of crowds – has generated deeper insights about the link between human movement and the spread of infectious diseases.
+
+      - [The Namibia National Vector-borne Diseases Control Programme (NVDCP)](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3927223/) used CDR data from telecommunications provider MTC Namibia, in combination with national surveillance data and satellite imagery, in order to analyze movement patterns for over a million people and map areas of malaria prevalence and risk. The results of the study helped the NVDCP in Namibia improve their targeting of malaria interventions to communities most at risk.
+
+      - Trusted Intermediary: South Africa-based telecom MTN makes anonymized call records available to researchers through a trusted intermediary, Real Impacts Analytics — a data analytics firm that provides guided and predictive analytics solutions.
+      - Prizes or Challenges: In Ivory Coast and Senegal, Orange Telecom hosted a global challenge that allowed researchers to use anonymized, aggregated data to help solve various development problems, including those related to transportation, health, and agriculture.
+
+      - Research Partnership: Yelp shares its data on neighborhood businesses with 30 universities for researchers to build tools and discover meaningful value in the data. Using shared data on Yelp businesses in the San Francisco Bay Area, an academic research team from U.C. Berkeley used a probabilistic model for natural language processing to detect subtopics across a dataset of over 200,000 Yelp business reviews. Their research uncovered correlations between positive ratings and service quality, giving business owners evidence for improving their services.
+    enablers: |2-
+
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+    resources: |-
+      - [Problem Definition Worksheet – Knowledge Co-Creation Portal, Multi-Stakeholder Partnerships](http://www.mspguide.org/tool/problem-definition-worksheet)
+      - [Community Toolbox – Defining and Analyzing the Problem](http://ctb.ku.edu/en/table-of-contents/analyze/analyze-community-problems-and-solutions/define-analyze-problem/main)
+      - [GovLab Public Problem Solving Canvas](http://canvas.govlabacademy.org/)
+  - sys:
+      id: 4qgOOMrb72kmCOESgQWMCA
+    stepTitle: 'Step 2: Define the value proposition of the data collaborative'
+    discussion: Research and practice in data collaboratives point to a number of
+      societal benefits arising from the cross-sector sharing of data. After clearly
+      defining the problem that a data collaborative will serve to address, organizers
+      should look to gain specificity on the specific benefit a data collaborative
+      could offer.
+    questions: |
+      What is the intended societal benefit of the data collaborative:
+      - Accurate, real-time monitoring of situations?
+      - Agile governance in policy making and public service delivery?
+      - Evidence-based problem solving and decision making?
+      - Improved anticipatory mechanisms for problems and opportunities?
+      - Wider variety of problem solvers working collaboratively to solve complex problems?
+    examples: |
+      [Telefónica’s Smart Steps](http://dynamicinsights.telefonica.com/488/smart-steps-2) – an intelligence product enabling organizations to use fully anonymized and aggregated mobile network data to measure and compare the movements of crowds – has generated deeper insights about the link between human movement and the spread of infectious diseases.
+
+      [The Namibia National Vector-borne Diseases Control Programme (NVDCP)](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3927223/) used CDR data from telecommunications provider MTC Namibia, in combination with national surveillance data and satellite imagery, in order to analyze movement patterns for over a million people and map areas of malaria prevalence and risk. The results of the study helped the NVDCP in Namibia improve their targeting of malaria interventions to communities most at risk.
+
+      [Grameenphone](http://www.ehs.unu.edu/article/read/press-note-new-project-uses-mobile-data-to-understand-climate), the leading telecommunications provider in Bangladesh, shares its mobile call data records to understand climate impacts by mapping population flows before and after extreme weather events. The Mobile Data, Environmental Extremes and Population (MDEEP) Project is a partnership between the United Nations University Institute for Environment and Human Security (UNU-EHS), the International Centre for Climate Change and Development (ICCCAD), Flowminder.org, and Telenor Group.
+    enablers: |-
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+    resources: |-
+      - [Data Collaboratives: Sharing Public Data in Private Hands for Social Good](http://www.forbes.com/sites/bethsimonenoveck/2015/09/24/private-data-sharing-for-public-good/#499f139365bb)
+      - [4 Steps To Building A Compelling Value Proposition](http://www.forbes.com/sites/michaelskok/2013/06/14/4-steps-to-building-a-compelling-value-proposition/#12ba9c7e1f2c)
+      - [Useful Value Proposition Examples (and How to Create a Good One)](http://conversionxl.com/value-proposition-examples-how-to-create/)
+- sys:
+    id: 1QKsroy8Igeo6ukEQCOeCC
+  phaseTitle: 'Phase 5: Implementation - TEST'
+  phaseDescription: 'Establishing an effective data collaborative requires a detailed,
+    upfront understanding of the demand side of the initiative: i.e., an in-depth
+    understanding of the problem to be addressed and the opportunity provided by cross-sector
+    data sharing. '
+  phaseSteps:
+  - sys:
+      id: 24I8V51vBSsquokqCE6Gkg
+    stepTitle: __Step 1:__ Define the problem to be solved - TEST
+    discussion: Gaining a clear sense of the problem you are seeking to solve is an
+      essential first step in establishing a successful data collaborative. While
+      defining the problem space might seem like a straightforward proposition, achieving
+      the level of precision needed a well-targeted data collaborative requires an
+      in-depth assessment of the problem space.
+    questions: "1. Describe issue to be addressed\n2. Identify the beneficiaries \n3.
+      Articulate why it matters\n4. Note any assumptions\n5. Explore current work
+      to address the problem (internally and externally)"
+    examples: |-
+      - [Telefónica’s Smart Steps](http://dynamicinsights.telefonica.com/488/smart-steps-2) – an intelligence product enabling organizations to use fully anonymized and aggregated mobile network data to measure and compare the movements of crowds – has generated deeper insights about the link between human movement and the spread of infectious diseases.
+
+      - [The Namibia National Vector-borne Diseases Control Programme (NVDCP)](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3927223/) used CDR data from telecommunications provider MTC Namibia, in combination with national surveillance data and satellite imagery, in order to analyze movement patterns for over a million people and map areas of malaria prevalence and risk. The results of the study helped the NVDCP in Namibia improve their targeting of malaria interventions to communities most at risk.
+
+      - Trusted Intermediary: South Africa-based telecom MTN makes anonymized call records available to researchers through a trusted intermediary, Real Impacts Analytics — a data analytics firm that provides guided and predictive analytics solutions.
+      - Prizes or Challenges: In Ivory Coast and Senegal, Orange Telecom hosted a global challenge that allowed researchers to use anonymized, aggregated data to help solve various development problems, including those related to transportation, health, and agriculture.
+
+      - Research Partnership: Yelp shares its data on neighborhood businesses with 30 universities for researchers to build tools and discover meaningful value in the data. Using shared data on Yelp businesses in the San Francisco Bay Area, an academic research team from U.C. Berkeley used a probabilistic model for natural language processing to detect subtopics across a dataset of over 200,000 Yelp business reviews. Their research uncovered correlations between positive ratings and service quality, giving business owners evidence for improving their services.
+    enablers: |2-
+
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+    resources: |-
+      - [Problem Definition Worksheet – Knowledge Co-Creation Portal, Multi-Stakeholder Partnerships](http://www.mspguide.org/tool/problem-definition-worksheet)
+      - [Community Toolbox – Defining and Analyzing the Problem](http://ctb.ku.edu/en/table-of-contents/analyze/analyze-community-problems-and-solutions/define-analyze-problem/main)
+      - [GovLab Public Problem Solving Canvas](http://canvas.govlabacademy.org/)
+  - sys:
+      id: 4qgOOMrb72kmCOESgQWMCA
+    stepTitle: 'Step 2: Define the value proposition of the data collaborative'
+    discussion: Research and practice in data collaboratives point to a number of
+      societal benefits arising from the cross-sector sharing of data. After clearly
+      defining the problem that a data collaborative will serve to address, organizers
+      should look to gain specificity on the specific benefit a data collaborative
+      could offer.
+    questions: |
+      What is the intended societal benefit of the data collaborative:
+      - Accurate, real-time monitoring of situations?
+      - Agile governance in policy making and public service delivery?
+      - Evidence-based problem solving and decision making?
+      - Improved anticipatory mechanisms for problems and opportunities?
+      - Wider variety of problem solvers working collaboratively to solve complex problems?
+    examples: |
+      [Telefónica’s Smart Steps](http://dynamicinsights.telefonica.com/488/smart-steps-2) – an intelligence product enabling organizations to use fully anonymized and aggregated mobile network data to measure and compare the movements of crowds – has generated deeper insights about the link between human movement and the spread of infectious diseases.
+
+      [The Namibia National Vector-borne Diseases Control Programme (NVDCP)](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3927223/) used CDR data from telecommunications provider MTC Namibia, in combination with national surveillance data and satellite imagery, in order to analyze movement patterns for over a million people and map areas of malaria prevalence and risk. The results of the study helped the NVDCP in Namibia improve their targeting of malaria interventions to communities most at risk.
+
+      [Grameenphone](http://www.ehs.unu.edu/article/read/press-note-new-project-uses-mobile-data-to-understand-climate), the leading telecommunications provider in Bangladesh, shares its mobile call data records to understand climate impacts by mapping population flows before and after extreme weather events. The Mobile Data, Environmental Extremes and Population (MDEEP) Project is a partnership between the United Nations University Institute for Environment and Human Security (UNU-EHS), the International Centre for Climate Change and Development (ICCCAD), Flowminder.org, and Telenor Group.
+    enablers: |-
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+    resources: |-
+      - [Data Collaboratives: Sharing Public Data in Private Hands for Social Good](http://www.forbes.com/sites/bethsimonenoveck/2015/09/24/private-data-sharing-for-public-good/#499f139365bb)
+      - [4 Steps To Building A Compelling Value Proposition](http://www.forbes.com/sites/michaelskok/2013/06/14/4-steps-to-building-a-compelling-value-proposition/#12ba9c7e1f2c)
+      - [Useful Value Proposition Examples (and How to Create a Good One)](http://conversionxl.com/value-proposition-examples-how-to-create/)
 - sys:
     id: NjeB5YTNKK4GCM80AMUqK
   phaseTitle: 'Phase 2: Supply'
@@ -302,8 +1505,8 @@ canvasPhases:
         1. What data do you already have (develop a data inventory)?
         2. Which entities (whether private, governmental or nongovernmental) possess and could provide the needed data?
 - sys:
-    id: 6pBkSIqXTi0GGkoIkCyYuY
-  phaseTitle: 'Phase 1: Demand'
+    id: 3gDZ15Y11YAmCwGiEkuk80
+  phaseTitle: 'Phase 3: Collaboration - TEST'
   phaseDescription: 'Establishing an effective data collaborative requires a detailed,
     upfront understanding of the demand side of the initiative: i.e., an in-depth
     understanding of the problem to be addressed and the opportunity provided by cross-sector
@@ -341,7 +1544,7 @@ canvasPhases:
       - [GovLab Public Problem Solving Canvas](http://canvas.govlabacademy.org/)
   - sys:
       id: 4qgOOMrb72kmCOESgQWMCA
-    stepTitle: __Step 2:__ Define the value proposition of the data collaborative
+    stepTitle: 'Step 2: Define the value proposition of the data collaborative'
     discussion: Research and practice in data collaboratives point to a number of
       societal benefits arising from the cross-sector sharing of data. After clearly
       defining the problem that a data collaborative will serve to address, organizers
@@ -376,32 +1579,356 @@ canvasPhases:
       - Designing the data collaborative based on the intended audience or beneficiary
       - Designing the data collaborative based on the intended audience or beneficiary
       - Designing the data collaborative based on the intended audience or beneficiary
-    resources: |
-      [Data Collaboratives: Sharing Public Data in Private Hands for Social Good](http://www.forbes.com/sites/bethsimonenoveck/2015/09/24/private-data-sharing-for-public-good/#499f139365bb)
+    resources: |-
+      - [Data Collaboratives: Sharing Public Data in Private Hands for Social Good](http://www.forbes.com/sites/bethsimonenoveck/2015/09/24/private-data-sharing-for-public-good/#499f139365bb)
+      - [4 Steps To Building A Compelling Value Proposition](http://www.forbes.com/sites/michaelskok/2013/06/14/4-steps-to-building-a-compelling-value-proposition/#12ba9c7e1f2c)
+      - [Useful Value Proposition Examples (and How to Create a Good One)](http://conversionxl.com/value-proposition-examples-how-to-create/)
+- sys:
+    id: 5nElVXSyk086cuUWamQ624
+  phaseTitle: 'Phase 4: Design - TEST'
+  phaseDescription: 'Establishing an effective data collaborative requires a detailed,
+    upfront understanding of the demand side of the initiative: i.e., an in-depth
+    understanding of the problem to be addressed and the opportunity provided by cross-sector
+    data sharing. '
+  phaseSteps:
+  - sys:
+      id: 24I8V51vBSsquokqCE6Gkg
+    stepTitle: __Step 1:__ Define the problem to be solved - TEST
+    discussion: Gaining a clear sense of the problem you are seeking to solve is an
+      essential first step in establishing a successful data collaborative. While
+      defining the problem space might seem like a straightforward proposition, achieving
+      the level of precision needed a well-targeted data collaborative requires an
+      in-depth assessment of the problem space.
+    questions: "1. Describe issue to be addressed\n2. Identify the beneficiaries \n3.
+      Articulate why it matters\n4. Note any assumptions\n5. Explore current work
+      to address the problem (internally and externally)"
+    examples: |-
+      - [Telefónica’s Smart Steps](http://dynamicinsights.telefonica.com/488/smart-steps-2) – an intelligence product enabling organizations to use fully anonymized and aggregated mobile network data to measure and compare the movements of crowds – has generated deeper insights about the link between human movement and the spread of infectious diseases.
 
-      [4 Steps To Building A Compelling Value Proposition](http://www.forbes.com/sites/michaelskok/2013/06/14/4-steps-to-building-a-compelling-value-proposition/#12ba9c7e1f2c)
+      - [The Namibia National Vector-borne Diseases Control Programme (NVDCP)](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3927223/) used CDR data from telecommunications provider MTC Namibia, in combination with national surveillance data and satellite imagery, in order to analyze movement patterns for over a million people and map areas of malaria prevalence and risk. The results of the study helped the NVDCP in Namibia improve their targeting of malaria interventions to communities most at risk.
 
-      [Useful Value Proposition Examples (and How to Create a Good One)](http://conversionxl.com/value-proposition-examples-how-to-create/)
+      - Trusted Intermediary: South Africa-based telecom MTN makes anonymized call records available to researchers through a trusted intermediary, Real Impacts Analytics — a data analytics firm that provides guided and predictive analytics solutions.
+      - Prizes or Challenges: In Ivory Coast and Senegal, Orange Telecom hosted a global challenge that allowed researchers to use anonymized, aggregated data to help solve various development problems, including those related to transportation, health, and agriculture.
+
+      - Research Partnership: Yelp shares its data on neighborhood businesses with 30 universities for researchers to build tools and discover meaningful value in the data. Using shared data on Yelp businesses in the San Francisco Bay Area, an academic research team from U.C. Berkeley used a probabilistic model for natural language processing to detect subtopics across a dataset of over 200,000 Yelp business reviews. Their research uncovered correlations between positive ratings and service quality, giving business owners evidence for improving their services.
+    enablers: |2-
+
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+    resources: |-
+      - [Problem Definition Worksheet – Knowledge Co-Creation Portal, Multi-Stakeholder Partnerships](http://www.mspguide.org/tool/problem-definition-worksheet)
+      - [Community Toolbox – Defining and Analyzing the Problem](http://ctb.ku.edu/en/table-of-contents/analyze/analyze-community-problems-and-solutions/define-analyze-problem/main)
+      - [GovLab Public Problem Solving Canvas](http://canvas.govlabacademy.org/)
+  - sys:
+      id: 4qgOOMrb72kmCOESgQWMCA
+    stepTitle: 'Step 2: Define the value proposition of the data collaborative'
+    discussion: Research and practice in data collaboratives point to a number of
+      societal benefits arising from the cross-sector sharing of data. After clearly
+      defining the problem that a data collaborative will serve to address, organizers
+      should look to gain specificity on the specific benefit a data collaborative
+      could offer.
+    questions: |
+      What is the intended societal benefit of the data collaborative:
+      - Accurate, real-time monitoring of situations?
+      - Agile governance in policy making and public service delivery?
+      - Evidence-based problem solving and decision making?
+      - Improved anticipatory mechanisms for problems and opportunities?
+      - Wider variety of problem solvers working collaboratively to solve complex problems?
+    examples: |
+      [Telefónica’s Smart Steps](http://dynamicinsights.telefonica.com/488/smart-steps-2) – an intelligence product enabling organizations to use fully anonymized and aggregated mobile network data to measure and compare the movements of crowds – has generated deeper insights about the link between human movement and the spread of infectious diseases.
+
+      [The Namibia National Vector-borne Diseases Control Programme (NVDCP)](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3927223/) used CDR data from telecommunications provider MTC Namibia, in combination with national surveillance data and satellite imagery, in order to analyze movement patterns for over a million people and map areas of malaria prevalence and risk. The results of the study helped the NVDCP in Namibia improve their targeting of malaria interventions to communities most at risk.
+
+      [Grameenphone](http://www.ehs.unu.edu/article/read/press-note-new-project-uses-mobile-data-to-understand-climate), the leading telecommunications provider in Bangladesh, shares its mobile call data records to understand climate impacts by mapping population flows before and after extreme weather events. The Mobile Data, Environmental Extremes and Population (MDEEP) Project is a partnership between the United Nations University Institute for Environment and Human Security (UNU-EHS), the International Centre for Climate Change and Development (ICCCAD), Flowminder.org, and Telenor Group.
+    enablers: |-
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+    resources: |-
+      - [Data Collaboratives: Sharing Public Data in Private Hands for Social Good](http://www.forbes.com/sites/bethsimonenoveck/2015/09/24/private-data-sharing-for-public-good/#499f139365bb)
+      - [4 Steps To Building A Compelling Value Proposition](http://www.forbes.com/sites/michaelskok/2013/06/14/4-steps-to-building-a-compelling-value-proposition/#12ba9c7e1f2c)
+      - [Useful Value Proposition Examples (and How to Create a Good One)](http://conversionxl.com/value-proposition-examples-how-to-create/)
+- sys:
+    id: 4bMd5XDs6Qyu0iKWSGwSoQ
+  phaseTitle: 'Phase 8: Iteration - TEST'
+  phaseDescription: 'Establishing an effective data collaborative requires a detailed,
+    upfront understanding of the demand side of the initiative: i.e., an in-depth
+    understanding of the problem to be addressed and the opportunity provided by cross-sector
+    data sharing. '
+  phaseSteps:
+  - sys:
+      id: 24I8V51vBSsquokqCE6Gkg
+    stepTitle: __Step 1:__ Define the problem to be solved - TEST
+    discussion: Gaining a clear sense of the problem you are seeking to solve is an
+      essential first step in establishing a successful data collaborative. While
+      defining the problem space might seem like a straightforward proposition, achieving
+      the level of precision needed a well-targeted data collaborative requires an
+      in-depth assessment of the problem space.
+    questions: "1. Describe issue to be addressed\n2. Identify the beneficiaries \n3.
+      Articulate why it matters\n4. Note any assumptions\n5. Explore current work
+      to address the problem (internally and externally)"
+    examples: |-
+      - [Telefónica’s Smart Steps](http://dynamicinsights.telefonica.com/488/smart-steps-2) – an intelligence product enabling organizations to use fully anonymized and aggregated mobile network data to measure and compare the movements of crowds – has generated deeper insights about the link between human movement and the spread of infectious diseases.
+
+      - [The Namibia National Vector-borne Diseases Control Programme (NVDCP)](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3927223/) used CDR data from telecommunications provider MTC Namibia, in combination with national surveillance data and satellite imagery, in order to analyze movement patterns for over a million people and map areas of malaria prevalence and risk. The results of the study helped the NVDCP in Namibia improve their targeting of malaria interventions to communities most at risk.
+
+      - Trusted Intermediary: South Africa-based telecom MTN makes anonymized call records available to researchers through a trusted intermediary, Real Impacts Analytics — a data analytics firm that provides guided and predictive analytics solutions.
+      - Prizes or Challenges: In Ivory Coast and Senegal, Orange Telecom hosted a global challenge that allowed researchers to use anonymized, aggregated data to help solve various development problems, including those related to transportation, health, and agriculture.
+
+      - Research Partnership: Yelp shares its data on neighborhood businesses with 30 universities for researchers to build tools and discover meaningful value in the data. Using shared data on Yelp businesses in the San Francisco Bay Area, an academic research team from U.C. Berkeley used a probabilistic model for natural language processing to detect subtopics across a dataset of over 200,000 Yelp business reviews. Their research uncovered correlations between positive ratings and service quality, giving business owners evidence for improving their services.
+    enablers: |2-
+
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+    resources: |-
+      - [Problem Definition Worksheet – Knowledge Co-Creation Portal, Multi-Stakeholder Partnerships](http://www.mspguide.org/tool/problem-definition-worksheet)
+      - [Community Toolbox – Defining and Analyzing the Problem](http://ctb.ku.edu/en/table-of-contents/analyze/analyze-community-problems-and-solutions/define-analyze-problem/main)
+      - [GovLab Public Problem Solving Canvas](http://canvas.govlabacademy.org/)
+  - sys:
+      id: 4qgOOMrb72kmCOESgQWMCA
+    stepTitle: 'Step 2: Define the value proposition of the data collaborative'
+    discussion: Research and practice in data collaboratives point to a number of
+      societal benefits arising from the cross-sector sharing of data. After clearly
+      defining the problem that a data collaborative will serve to address, organizers
+      should look to gain specificity on the specific benefit a data collaborative
+      could offer.
+    questions: |
+      What is the intended societal benefit of the data collaborative:
+      - Accurate, real-time monitoring of situations?
+      - Agile governance in policy making and public service delivery?
+      - Evidence-based problem solving and decision making?
+      - Improved anticipatory mechanisms for problems and opportunities?
+      - Wider variety of problem solvers working collaboratively to solve complex problems?
+    examples: |
+      [Telefónica’s Smart Steps](http://dynamicinsights.telefonica.com/488/smart-steps-2) – an intelligence product enabling organizations to use fully anonymized and aggregated mobile network data to measure and compare the movements of crowds – has generated deeper insights about the link between human movement and the spread of infectious diseases.
+
+      [The Namibia National Vector-borne Diseases Control Programme (NVDCP)](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3927223/) used CDR data from telecommunications provider MTC Namibia, in combination with national surveillance data and satellite imagery, in order to analyze movement patterns for over a million people and map areas of malaria prevalence and risk. The results of the study helped the NVDCP in Namibia improve their targeting of malaria interventions to communities most at risk.
+
+      [Grameenphone](http://www.ehs.unu.edu/article/read/press-note-new-project-uses-mobile-data-to-understand-climate), the leading telecommunications provider in Bangladesh, shares its mobile call data records to understand climate impacts by mapping population flows before and after extreme weather events. The Mobile Data, Environmental Extremes and Population (MDEEP) Project is a partnership between the United Nations University Institute for Environment and Human Security (UNU-EHS), the International Centre for Climate Change and Development (ICCCAD), Flowminder.org, and Telenor Group.
+    enablers: |-
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+    resources: |-
+      - [Data Collaboratives: Sharing Public Data in Private Hands for Social Good](http://www.forbes.com/sites/bethsimonenoveck/2015/09/24/private-data-sharing-for-public-good/#499f139365bb)
+      - [4 Steps To Building A Compelling Value Proposition](http://www.forbes.com/sites/michaelskok/2013/06/14/4-steps-to-building-a-compelling-value-proposition/#12ba9c7e1f2c)
+      - [Useful Value Proposition Examples (and How to Create a Good One)](http://conversionxl.com/value-proposition-examples-how-to-create/)
+- sys:
+    id: 183l7VNqmgCowskakgkKIm
+  phaseTitle: 'Phase 6: Communication - TEST'
+  phaseDescription: 'Establishing an effective data collaborative requires a detailed,
+    upfront understanding of the demand side of the initiative: i.e., an in-depth
+    understanding of the problem to be addressed and the opportunity provided by cross-sector
+    data sharing. '
+  phaseSteps:
+  - sys:
+      id: 24I8V51vBSsquokqCE6Gkg
+    stepTitle: __Step 1:__ Define the problem to be solved - TEST
+    discussion: Gaining a clear sense of the problem you are seeking to solve is an
+      essential first step in establishing a successful data collaborative. While
+      defining the problem space might seem like a straightforward proposition, achieving
+      the level of precision needed a well-targeted data collaborative requires an
+      in-depth assessment of the problem space.
+    questions: "1. Describe issue to be addressed\n2. Identify the beneficiaries \n3.
+      Articulate why it matters\n4. Note any assumptions\n5. Explore current work
+      to address the problem (internally and externally)"
+    examples: |-
+      - [Telefónica’s Smart Steps](http://dynamicinsights.telefonica.com/488/smart-steps-2) – an intelligence product enabling organizations to use fully anonymized and aggregated mobile network data to measure and compare the movements of crowds – has generated deeper insights about the link between human movement and the spread of infectious diseases.
+
+      - [The Namibia National Vector-borne Diseases Control Programme (NVDCP)](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3927223/) used CDR data from telecommunications provider MTC Namibia, in combination with national surveillance data and satellite imagery, in order to analyze movement patterns for over a million people and map areas of malaria prevalence and risk. The results of the study helped the NVDCP in Namibia improve their targeting of malaria interventions to communities most at risk.
+
+      - Trusted Intermediary: South Africa-based telecom MTN makes anonymized call records available to researchers through a trusted intermediary, Real Impacts Analytics — a data analytics firm that provides guided and predictive analytics solutions.
+      - Prizes or Challenges: In Ivory Coast and Senegal, Orange Telecom hosted a global challenge that allowed researchers to use anonymized, aggregated data to help solve various development problems, including those related to transportation, health, and agriculture.
+
+      - Research Partnership: Yelp shares its data on neighborhood businesses with 30 universities for researchers to build tools and discover meaningful value in the data. Using shared data on Yelp businesses in the San Francisco Bay Area, an academic research team from U.C. Berkeley used a probabilistic model for natural language processing to detect subtopics across a dataset of over 200,000 Yelp business reviews. Their research uncovered correlations between positive ratings and service quality, giving business owners evidence for improving their services.
+    enablers: |2-
+
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+    resources: |-
+      - [Problem Definition Worksheet – Knowledge Co-Creation Portal, Multi-Stakeholder Partnerships](http://www.mspguide.org/tool/problem-definition-worksheet)
+      - [Community Toolbox – Defining and Analyzing the Problem](http://ctb.ku.edu/en/table-of-contents/analyze/analyze-community-problems-and-solutions/define-analyze-problem/main)
+      - [GovLab Public Problem Solving Canvas](http://canvas.govlabacademy.org/)
+  - sys:
+      id: 4qgOOMrb72kmCOESgQWMCA
+    stepTitle: 'Step 2: Define the value proposition of the data collaborative'
+    discussion: Research and practice in data collaboratives point to a number of
+      societal benefits arising from the cross-sector sharing of data. After clearly
+      defining the problem that a data collaborative will serve to address, organizers
+      should look to gain specificity on the specific benefit a data collaborative
+      could offer.
+    questions: |
+      What is the intended societal benefit of the data collaborative:
+      - Accurate, real-time monitoring of situations?
+      - Agile governance in policy making and public service delivery?
+      - Evidence-based problem solving and decision making?
+      - Improved anticipatory mechanisms for problems and opportunities?
+      - Wider variety of problem solvers working collaboratively to solve complex problems?
+    examples: |
+      [Telefónica’s Smart Steps](http://dynamicinsights.telefonica.com/488/smart-steps-2) – an intelligence product enabling organizations to use fully anonymized and aggregated mobile network data to measure and compare the movements of crowds – has generated deeper insights about the link between human movement and the spread of infectious diseases.
+
+      [The Namibia National Vector-borne Diseases Control Programme (NVDCP)](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3927223/) used CDR data from telecommunications provider MTC Namibia, in combination with national surveillance data and satellite imagery, in order to analyze movement patterns for over a million people and map areas of malaria prevalence and risk. The results of the study helped the NVDCP in Namibia improve their targeting of malaria interventions to communities most at risk.
+
+      [Grameenphone](http://www.ehs.unu.edu/article/read/press-note-new-project-uses-mobile-data-to-understand-climate), the leading telecommunications provider in Bangladesh, shares its mobile call data records to understand climate impacts by mapping population flows before and after extreme weather events. The Mobile Data, Environmental Extremes and Population (MDEEP) Project is a partnership between the United Nations University Institute for Environment and Human Security (UNU-EHS), the International Centre for Climate Change and Development (ICCCAD), Flowminder.org, and Telenor Group.
+    enablers: |-
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+      - Designing the data collaborative based on the intended audience or beneficiary
+    resources: |-
+      - [Data Collaboratives: Sharing Public Data in Private Hands for Social Good](http://www.forbes.com/sites/bethsimonenoveck/2015/09/24/private-data-sharing-for-public-good/#499f139365bb)
+      - [4 Steps To Building A Compelling Value Proposition](http://www.forbes.com/sites/michaelskok/2013/06/14/4-steps-to-building-a-compelling-value-proposition/#12ba9c7e1f2c)
+      - [Useful Value Proposition Examples (and How to Create a Good One)](http://conversionxl.com/value-proposition-examples-how-to-create/)
+events:
+- sys:
+    id: uF3uaikYV2gWsckO8wYO2
+  eventName: United Nations World Data Forum
+  url: http://undataforum.org
+  location: Cape Town, South Africa
+  eventDate: !ruby/object:DateTime 2017-01-15 00:00:00.000000000 Z
+  conferenceType:
+  - Forum
+  eventDescription: |-
+    The first UN World Data Forum will be hosted by Statistics South Africa from 15 to 18 January 2017, with support from the Statistics Division of the UN Department of Economic and Social Affairs, under the guidance of the United Nations Statistical Commission and the High-level Group for Partnership, Coordination and Capacity-Building for Statistics for the 2030 Agenda for Sustainable Development.
+
+    It will be an opportunity for data and statistics experts from around the world to:
+
+    - __JOIN__ together in this unique event with governments, businesses, civil society and the scientific and academic communities.
+    - __EXPLORE__ innovative ways to apply data and statistics to measure global progress and inform evidence-based policy decisions on the 2030 Agenda for Sustainable Development.
+    - __CONTRIBUTE__ to important discussions, data labs and interactive platforms aimed at improving the use of data for sustainable development.
+    - __LAUNCH__ new initiatives and solutions that will deliver better data for all.
+  sessionName: 'My name is Max: My world is fire. And blood. '
+  sessionType:
+  - Panel
+  sessionDescription: 'Once, I was a cop; a road warrior searching for a righteous
+    cause. As the world fell, each of us in our own way was broken. It was hard to
+    know who was more crazy. Me... or everyone else. '
+- sys:
+    id: 1WVwEt6aeo4ko2wiAQ4Gae
+  eventName: European Foundation Centre Conference
+  url: http://www.efc.be/aga/2017-warsaw/
+  location: Warsaw, Poland
+  eventDate: !ruby/object:DateTime 2017-05-31 00:00:00.000000000 Z
+  conferenceType:
+  - Conference
+  eventDescription: The 2017 EFC AGA and Conference will focus on the theme of ‘courage
+    for solidarity’ and specifically how philanthropy should be involved in fostering,
+    supporting and promoting it. It will offer a unique opportunity for delegates
+    from around the world to reflect on their own work, learn from their peers, and
+    discover how, by finding the courage to re-embrace solidarity, they can help shape
+    a brighter future.
+  sessionName: 'Here they come again: Worming their way into the black matter of my
+    brain '
+  sessionType:
+  - Workshop
+  sessionDescription: 'I told myself...they cannot touch me. They are all __dead__.
+    I am the one who runs from both the living and the dead. Hunted by scavengers.
+    Haunted by those I could not protect. So I exist in *this Wasteland*. A man reduced
+    to a single instinct: survive.'
+- sys:
+    id: 4X1Y2OGmzSMC8ukquQCm8S
+  eventName: 'Accelerating Data Collaboratives: A Workshop on Cross-Sector Data Sharing
+    for Public Problem-Solving'
+  location: Washington, DC, USA
+  eventDate: !ruby/object:DateTime 2017-05-01 00:00:00.000000000 Z
+  conferenceType:
+  - Workshop
+  eventDescription: 'This event is a workshop on Cross-Sector Data Sharing for Public
+    Problem-Solving. Experts will gather to work collaboratively and learn about how
+    to share data. '
 resources:
 - sys:
-    id: UNpj0WvDEaYwO6MgoQk62
-  authors: Yves-Alexandre de Montjoye, Jake Kendall, and Cameron F. Kerry
-  title: Enabling Humanitarian Use of Mobile Phone Data
-  publication: The Brookings Institution, Issues in Technology Innovation
-  pubDate: !ruby/object:DateTime 2014-11-20 00:00:00.000000000 Z
-  url: https://www.brookings.edu/research/enabling-humanitarian-use-of-mobile-phone-data/
-  shortDescription: An issues paper from the Brookings Institution on leveraging the
-    benefits of mobile phone data for humanitarian use while minimizing risks to privacy
+    id: 5pntSuj8Ry6wCUYwg8EgK8
+  authors: Matthew Brack and Tito Castillo
+  title: 'Data Sharing for Public Health: Key Lessons from Other Sectors'
+  publication: Chatham House, Centre on Global Health Security
+  pubDate: !ruby/object:DateTime 2015-01-20 00:00:00.000000000 Z
+  url: https://www.chathamhouse.org/sites/files/chathamhouse/field/field_document/20150417DataSharingPublicHealthLessonsBrackCastillo.pdf
+  shortDescription: A Chatham House report describing the need for data sharing and
+    collaboration for global public health emergencies and potential lessons learned
+    from the commercial sector
   annotation: |-
-    Using Ebola as a case study, the authors describe the value of using private telecom data for uncovering “valuable insights into understanding the spread of infectious diseases as well as strategies into micro-target outreach and driving update of health-seeking behavior.”
+    The Chatham House report provides an overview on public health surveillance data sharing, highlighting the benefits and challenges of shared health data and the complexity in adapting technical solutions from other sectors for public health.
 
-    The authors highlight the absence of a common legal and standards framework for “sharing mobile phone data in privacy-conscientious ways” and recommend “engaging companies, NGOs, researchers, privacy experts, and governments to agree on a set of best practices for new privacy-conscientious metadata sharing models.”
+    The report describes data sharing processes from several perspectives, including in-depth case studies of actual data sharing in practice at the individual, organizational and sector levels. Among the key lessons for public health data sharing, the report strongly highlights the need to harness momentum for action and maintain collaborative engagement: “Successful data sharing communities are highly collaborative. Collaboration holds the key to producing and abiding by community standards, and building and maintaining productive networks, and is by definition the essence of data sharing itself. Time should be invested in establishing and sustaining collaboration with all stakeholders concerned with public health surveillance data sharing.”
+
+    Examples of data collaboratives include H3Africa (a collaboration between NIH and Wellcome Trust) and NHS England’s care.data programme.
   type:
   - Report
   theme:
   - General
+- sys:
+    id: 4zV3aOBy5OeQ0GGgMO6w6W
+  authors: " Silja M. Eckartz, Wout J. Hofman, Anne Fleur Van Veenstra "
+  title: A Decision Model for Data Sharing
+  publication: " Lecture Notes in Computer Science (LNCS)"
+  pubDate: !ruby/object:DateTime 2014-01-20 00:00:00.000000000 Z
+  url: http://link.springer.com/chapter/10.1007%2F978-3-662-44426-9_21
+  shortDescription: A paper proposing a decision model for data sharing arrangements
+    aimed at addressing identified risks and challenges
+  annotation: "This paper proposes a decision model for data sharing of public and
+    private data based on literature review and three case studies in the logistics
+    sector.\n\nThe authors identify five categories of the barriers to data sharing
+    and offer a decision model for identifying potential interventions to overcome
+    each barrier:\n\n- Ownership. Possible interventions likely require improving
+    trust among those who own the data through, for example, involvement and support
+    from higher management\n- Privacy. Interventions include “anonymization by filtering
+    of sensitive information and aggregation of data,” and access control mechanisms
+    built around identity management and regulated access.  \n- Economic. Interventions
+    include a model where data is shared only with a few trusted organizations, and
+    yield management mechanisms to ensure negative financial consequences are avoided.\n-
+    Data quality. Interventions include identifying additional data sources that could
+    improve the completeness of datasets, and efforts to improve metadata.\n- Technical.
+    Interventions include making data available in structured formats and publishing
+    data according to widely agreed upon data standards.\n"
+  type:
+  - Paper
+  theme:
+  - General
   - Benefits
-  - In Practice
+  - Incentives
+  - Data Responsibility
 - sys:
     id: 45Xi7ZIoMUcCqEUs0Iy0k
   authors: Sharona Hoffman, Andy Podgurski
@@ -464,6 +1991,25 @@ resources:
   - Risks and Challenges
   - Data Responsibility
 - sys:
+    id: UNpj0WvDEaYwO6MgoQk62
+  authors: Yves-Alexandre de Montjoye, Jake Kendall, and Cameron F. Kerry
+  title: Enabling Humanitarian Use of Mobile Phone Data
+  publication: The Brookings Institution, Issues in Technology Innovation
+  pubDate: !ruby/object:DateTime 2014-11-20 00:00:00.000000000 Z
+  url: https://www.brookings.edu/research/enabling-humanitarian-use-of-mobile-phone-data/
+  shortDescription: An issues paper from the Brookings Institution on leveraging the
+    benefits of mobile phone data for humanitarian use while minimizing risks to privacy
+  annotation: |-
+    Using Ebola as a case study, the authors describe the value of using private telecom data for uncovering “valuable insights into understanding the spread of infectious diseases as well as strategies into micro-target outreach and driving update of health-seeking behavior.”
+
+    The authors highlight the absence of a common legal and standards framework for “sharing mobile phone data in privacy-conscientious ways” and recommend “engaging companies, NGOs, researchers, privacy experts, and governments to agree on a set of best practices for new privacy-conscientious metadata sharing models.”
+  type:
+  - Report
+  theme:
+  - General
+  - Benefits
+  - In Practice
+- sys:
     id: 5keTOijCHS4m8iC4ekMMug
   authors: Ansell, C. and Gash, A
   title: Collaborative Governance in Theory and Practice
@@ -491,117 +2037,7 @@ resources:
   theme:
   - General
   - In Practice
-- sys:
-    id: 5pntSuj8Ry6wCUYwg8EgK8
-  authors: Matthew Brack and Tito Castillo
-  title: 'Data Sharing for Public Health: Key Lessons from Other Sectors'
-  publication: Chatham House, Centre on Global Health Security
-  pubDate: !ruby/object:DateTime 2015-01-20 00:00:00.000000000 Z
-  url: https://www.chathamhouse.org/sites/files/chathamhouse/field/field_document/20150417DataSharingPublicHealthLessonsBrackCastillo.pdf
-  shortDescription: A Chatham House report describing the need for data sharing and
-    collaboration for global public health emergencies and potential lessons learned
-    from the commercial sector
-  annotation: |-
-    The Chatham House report provides an overview on public health surveillance data sharing, highlighting the benefits and challenges of shared health data and the complexity in adapting technical solutions from other sectors for public health.
-
-    The report describes data sharing processes from several perspectives, including in-depth case studies of actual data sharing in practice at the individual, organizational and sector levels. Among the key lessons for public health data sharing, the report strongly highlights the need to harness momentum for action and maintain collaborative engagement: “Successful data sharing communities are highly collaborative. Collaboration holds the key to producing and abiding by community standards, and building and maintaining productive networks, and is by definition the essence of data sharing itself. Time should be invested in establishing and sustaining collaboration with all stakeholders concerned with public health surveillance data sharing.”
-
-    Examples of data collaboratives include H3Africa (a collaboration between NIH and Wellcome Trust) and NHS England’s care.data programme.
-  type:
-  - Report
-  theme:
-  - General
-- sys:
-    id: 4zV3aOBy5OeQ0GGgMO6w6W
-  authors: " Silja M. Eckartz, Wout J. Hofman, Anne Fleur Van Veenstra "
-  title: A Decision Model for Data Sharing
-  publication: " Lecture Notes in Computer Science (LNCS)"
-  pubDate: !ruby/object:DateTime 2014-01-20 00:00:00.000000000 Z
-  url: http://link.springer.com/chapter/10.1007%2F978-3-662-44426-9_21
-  shortDescription: A paper proposing a decision model for data sharing arrangements
-    aimed at addressing identified risks and challenges
-  annotation: "This paper proposes a decision model for data sharing of public and
-    private data based on literature review and three case studies in the logistics
-    sector.\n\nThe authors identify five categories of the barriers to data sharing
-    and offer a decision model for identifying potential interventions to overcome
-    each barrier:\n\n- Ownership. Possible interventions likely require improving
-    trust among those who own the data through, for example, involvement and support
-    from higher management\n- Privacy. Interventions include “anonymization by filtering
-    of sensitive information and aggregation of data,” and access control mechanisms
-    built around identity management and regulated access.  \n- Economic. Interventions
-    include a model where data is shared only with a few trusted organizations, and
-    yield management mechanisms to ensure negative financial consequences are avoided.\n-
-    Data quality. Interventions include identifying additional data sources that could
-    improve the completeness of datasets, and efforts to improve metadata.\n- Technical.
-    Interventions include making data available in structured formats and publishing
-    data according to widely agreed upon data standards.\n"
-  type:
-  - Paper
-  theme:
-  - General
-  - Benefits
-  - Incentives
-  - Data Responsibility
 canvasSteps:
-- sys:
-    id: 4qgOOMrb72kmCOESgQWMCA
-  stepTitle: __Step 2:__ Define the value proposition of the data collaborative
-  discussion: Research and practice in data collaboratives point to a number of societal
-    benefits arising from the cross-sector sharing of data. After clearly defining
-    the problem that a data collaborative will serve to address, organizers should
-    look to gain specificity on the specific benefit a data collaborative could offer.
-  questions: |
-    What is the intended societal benefit of the data collaborative:
-    - Accurate, real-time monitoring of situations?
-    - Agile governance in policy making and public service delivery?
-    - Evidence-based problem solving and decision making?
-    - Improved anticipatory mechanisms for problems and opportunities?
-    - Wider variety of problem solvers working collaboratively to solve complex problems?
-  examples: |
-    [Telefónica’s Smart Steps](http://dynamicinsights.telefonica.com/488/smart-steps-2) – an intelligence product enabling organizations to use fully anonymized and aggregated mobile network data to measure and compare the movements of crowds – has generated deeper insights about the link between human movement and the spread of infectious diseases.
-
-    [The Namibia National Vector-borne Diseases Control Programme (NVDCP)](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3927223/) used CDR data from telecommunications provider MTC Namibia, in combination with national surveillance data and satellite imagery, in order to analyze movement patterns for over a million people and map areas of malaria prevalence and risk. The results of the study helped the NVDCP in Namibia improve their targeting of malaria interventions to communities most at risk.
-
-    [Grameenphone](http://www.ehs.unu.edu/article/read/press-note-new-project-uses-mobile-data-to-understand-climate), the leading telecommunications provider in Bangladesh, shares its mobile call data records to understand climate impacts by mapping population flows before and after extreme weather events. The Mobile Data, Environmental Extremes and Population (MDEEP) Project is a partnership between the United Nations University Institute for Environment and Human Security (UNU-EHS), the International Centre for Climate Change and Development (ICCCAD), Flowminder.org, and Telenor Group.
-  enablers: |-
-    - Designing the data collaborative based on the intended audience or beneficiary
-    - Designing the data collaborative based on the intended audience or beneficiary
-    - Designing the data collaborative based on the intended audience or beneficiary
-    - Designing the data collaborative based on the intended audience or beneficiary
-    - Designing the data collaborative based on the intended audience or beneficiary
-    - Designing the data collaborative based on the intended audience or beneficiary
-    - Designing the data collaborative based on the intended audience or beneficiary
-    - Designing the data collaborative based on the intended audience or beneficiary
-    - Designing the data collaborative based on the intended audience or beneficiary
-    - Designing the data collaborative based on the intended audience or beneficiary
-    - Designing the data collaborative based on the intended audience or beneficiary
-    - Designing the data collaborative based on the intended audience or beneficiary
-    - Designing the data collaborative based on the intended audience or beneficiary
-    - Designing the data collaborative based on the intended audience or beneficiary
-    - Designing the data collaborative based on the intended audience or beneficiary
-  resources: |
-    [Data Collaboratives: Sharing Public Data in Private Hands for Social Good](http://www.forbes.com/sites/bethsimonenoveck/2015/09/24/private-data-sharing-for-public-good/#499f139365bb)
-
-    [4 Steps To Building A Compelling Value Proposition](http://www.forbes.com/sites/michaelskok/2013/06/14/4-steps-to-building-a-compelling-value-proposition/#12ba9c7e1f2c)
-
-    [Useful Value Proposition Examples (and How to Create a Good One)](http://conversionxl.com/value-proposition-examples-how-to-create/)
-- sys:
-    id: 4RTzlCVrugKGeGsseIAIsi
-  stepTitle: __Step 4:__ Data Supply
-  discussion: 'In many ways, data collaboratives are means for filling gaps in existing
-    institutional data supplies. In order to fill such gaps, organizers should conduct
-    an upfront audit of both the existing internal data supply and the potential supply
-    of data existing in other sectors. Such an audit can help inform and prioritize
-    outreach to external data holders and ensure that newly accessible datasets are
-    well-positioned for filling the most important data gaps. '
-  questions: |
-    - Internal: Conduct due diligence research and a data audit
-      1. What data currently exists that will be useful in addressing the problem?
-      2. What are the data gaps that slow progress toward addressing the problem?
-
-    - External: Map the potential supply side based on identified gaps
-      1. What data do you already have (develop a data inventory)?
-      2. Which entities (whether private, governmental or nongovernmental) possess and could provide the needed data?
 - sys:
     id: 1ZgIPV6IvGQYmmogW6Yyio
   stepTitle: '__Step 3:__ Expertise: Data Science and Organizational Competency'
@@ -654,49 +2090,60 @@ canvasSteps:
     - [Problem Definition Worksheet – Knowledge Co-Creation Portal, Multi-Stakeholder Partnerships](http://www.mspguide.org/tool/problem-definition-worksheet)
     - [Community Toolbox – Defining and Analyzing the Problem](http://ctb.ku.edu/en/table-of-contents/analyze/analyze-community-problems-and-solutions/define-analyze-problem/main)
     - [GovLab Public Problem Solving Canvas](http://canvas.govlabacademy.org/)
-events:
 - sys:
-    id: 4X1Y2OGmzSMC8ukquQCm8S
-  eventName: 'Accelerating Data Collaboratives: A Workshop on Cross-Sector Data Sharing
-    for Public Problem-Solving'
-  eventLocation:
-    :lat: 38.9071923
-    :lon: -77.03687070000001
-  eventDate: !ruby/object:DateTime 2017-05-01 00:00:00.000000000 Z
-  sessionType:
-  - Workshop
-- sys:
-    id: uF3uaikYV2gWsckO8wYO2
-  eventName: United Nations World Data Forum
-  url: http://undataforum.org
-  eventLocation:
-    :lat: -33.9248685
-    :lon: 18.424055299999964
-  eventDate: !ruby/object:DateTime 2017-01-15 00:00:00.000000000 Z
-  conferenceType:
-  - Forum
-  eventDescription: |-
-    The first UN World Data Forum will be hosted by Statistics South Africa from 15 to 18 January 2017, with support from the Statistics Division of the UN Department of Economic and Social Affairs, under the guidance of the United Nations Statistical Commission and the High-level Group for Partnership, Coordination and Capacity-Building for Statistics for the 2030 Agenda for Sustainable Development.
+    id: 4RTzlCVrugKGeGsseIAIsi
+  stepTitle: __Step 4:__ Data Supply
+  discussion: 'In many ways, data collaboratives are means for filling gaps in existing
+    institutional data supplies. In order to fill such gaps, organizers should conduct
+    an upfront audit of both the existing internal data supply and the potential supply
+    of data existing in other sectors. Such an audit can help inform and prioritize
+    outreach to external data holders and ensure that newly accessible datasets are
+    well-positioned for filling the most important data gaps. '
+  questions: |
+    - Internal: Conduct due diligence research and a data audit
+      1. What data currently exists that will be useful in addressing the problem?
+      2. What are the data gaps that slow progress toward addressing the problem?
 
-    It will be an opportunity for data and statistics experts from around the world to:
-
-    - __JOIN__ together in this unique event with governments, businesses, civil society and the scientific and academic communities.
-    - __EXPLORE__ innovative ways to apply data and statistics to measure global progress and inform evidence-based policy decisions on the 2030 Agenda for Sustainable Development.
-    - __CONTRIBUTE__ to important discussions, data labs and interactive platforms aimed at improving the use of data for sustainable development.
-    - __LAUNCH__ new initiatives and solutions that will deliver better data for all.
+    - External: Map the potential supply side based on identified gaps
+      1. What data do you already have (develop a data inventory)?
+      2. Which entities (whether private, governmental or nongovernmental) possess and could provide the needed data?
 - sys:
-    id: 1WVwEt6aeo4ko2wiAQ4Gae
-  eventName: European Foundation Centre Conference
-  url: http://www.efc.be/aga/2017-warsaw/
-  eventLocation:
-    :lat: 52.2296756
-    :lon: 21.012228700000037
-  eventDate: !ruby/object:DateTime 2017-05-31 00:00:00.000000000 Z
-  conferenceType:
-  - Conference
-  eventDescription: The 2017 EFC AGA and Conference will focus on the theme of ‘courage
-    for solidarity’ and specifically how philanthropy should be involved in fostering,
-    supporting and promoting it. It will offer a unique opportunity for delegates
-    from around the world to reflect on their own work, learn from their peers, and
-    discover how, by finding the courage to re-embrace solidarity, they can help shape
-    a brighter future.
+    id: 4qgOOMrb72kmCOESgQWMCA
+  stepTitle: 'Step 2: Define the value proposition of the data collaborative'
+  discussion: Research and practice in data collaboratives point to a number of societal
+    benefits arising from the cross-sector sharing of data. After clearly defining
+    the problem that a data collaborative will serve to address, organizers should
+    look to gain specificity on the specific benefit a data collaborative could offer.
+  questions: |
+    What is the intended societal benefit of the data collaborative:
+    - Accurate, real-time monitoring of situations?
+    - Agile governance in policy making and public service delivery?
+    - Evidence-based problem solving and decision making?
+    - Improved anticipatory mechanisms for problems and opportunities?
+    - Wider variety of problem solvers working collaboratively to solve complex problems?
+  examples: |
+    [Telefónica’s Smart Steps](http://dynamicinsights.telefonica.com/488/smart-steps-2) – an intelligence product enabling organizations to use fully anonymized and aggregated mobile network data to measure and compare the movements of crowds – has generated deeper insights about the link between human movement and the spread of infectious diseases.
+
+    [The Namibia National Vector-borne Diseases Control Programme (NVDCP)](http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3927223/) used CDR data from telecommunications provider MTC Namibia, in combination with national surveillance data and satellite imagery, in order to analyze movement patterns for over a million people and map areas of malaria prevalence and risk. The results of the study helped the NVDCP in Namibia improve their targeting of malaria interventions to communities most at risk.
+
+    [Grameenphone](http://www.ehs.unu.edu/article/read/press-note-new-project-uses-mobile-data-to-understand-climate), the leading telecommunications provider in Bangladesh, shares its mobile call data records to understand climate impacts by mapping population flows before and after extreme weather events. The Mobile Data, Environmental Extremes and Population (MDEEP) Project is a partnership between the United Nations University Institute for Environment and Human Security (UNU-EHS), the International Centre for Climate Change and Development (ICCCAD), Flowminder.org, and Telenor Group.
+  enablers: |-
+    - Designing the data collaborative based on the intended audience or beneficiary
+    - Designing the data collaborative based on the intended audience or beneficiary
+    - Designing the data collaborative based on the intended audience or beneficiary
+    - Designing the data collaborative based on the intended audience or beneficiary
+    - Designing the data collaborative based on the intended audience or beneficiary
+    - Designing the data collaborative based on the intended audience or beneficiary
+    - Designing the data collaborative based on the intended audience or beneficiary
+    - Designing the data collaborative based on the intended audience or beneficiary
+    - Designing the data collaborative based on the intended audience or beneficiary
+    - Designing the data collaborative based on the intended audience or beneficiary
+    - Designing the data collaborative based on the intended audience or beneficiary
+    - Designing the data collaborative based on the intended audience or beneficiary
+    - Designing the data collaborative based on the intended audience or beneficiary
+    - Designing the data collaborative based on the intended audience or beneficiary
+    - Designing the data collaborative based on the intended audience or beneficiary
+  resources: |-
+    - [Data Collaboratives: Sharing Public Data in Private Hands for Social Good](http://www.forbes.com/sites/bethsimonenoveck/2015/09/24/private-data-sharing-for-public-good/#499f139365bb)
+    - [4 Steps To Building A Compelling Value Proposition](http://www.forbes.com/sites/michaelskok/2013/06/14/4-steps-to-building-a-compelling-value-proposition/#12ba9c7e1f2c)
+    - [Useful Value Proposition Examples (and How to Create a Good One)](http://conversionxl.com/value-proposition-examples-how-to-create/)

@@ -1,7 +1,16 @@
 .events-page {
   .top-section {
     padding-bottom: 60px;
-    
+  }
+
+  .events-panels {
+    text-align: center;
+    &__first {
+      background-color: rgba(black, .1)
+    }
+    &__second {
+      background-color: $gray;
+    }
   }
 
 }
