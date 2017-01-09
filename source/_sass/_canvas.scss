@@ -5,8 +5,8 @@
   }
 
   .phase-title {
-    // width: 100%;
-    // overflow: hidden;
+    width: 100%;
+    overflow: hidden;
     
     h1 {
       font-size: 2rem;
@@ -50,6 +50,10 @@
       .slick-track { overflow: visible; }
     }
   }
+}
+
+.phase-wrapper {
+  display: none;
 }
 
 .phase-intro {
