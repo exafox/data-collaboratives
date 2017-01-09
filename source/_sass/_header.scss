@@ -1,6 +1,6 @@
 .top-bar {
-  &--transparent { 
-    background-color: rgba(black, .2); 
+  &--transparent {
+    background-color: rgba(black, .2);
     position: relative;
   }
 
@@ -15,7 +15,7 @@
 
 .top-section {
   margin-top: -50px;
-  
+
   &__band {
     background-color: rgba($main-color, .95);
   }
@@ -36,7 +36,7 @@
 
   &--yellow-list-page {
     margin-top: -50px;
-    padding: 100px 0;
+    padding: 100px 0 50px;
     background-color: $yellow;
   }
 
@@ -51,7 +51,7 @@
   }
 
   &--logo {
-    
+
   }
 
   &__logo {

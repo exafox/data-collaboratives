@@ -1,0 +1,23 @@
+<div class="modal js-target-modal">
+  <header class="modal__header modal__header--yellow">
+      <i class="modal__close material-icons js-close-modal">close</i>
+      <h1 class="modal__title">{{event.eventName}}</h1>
+  </header>
+<section class="modal__content">
+    <h2>{{event.eventName}}</h2>
+    {% if event.url %}
+      <a href="{{event.url}}">Go to website</a>
+    {% endif %}
+
+    <p>{{event.location}}</p>
+    {% if event.conferenceType %}
+      <p>Type: {{event.conferenceType}}</p>
+    {% endif %}
+    {% if event.eventDescription %}
+    <p>{{event.eventDescription | markdownify }}</p>
+    {% endif %}
+</section>
+<footer class="modal__controls">
+    <a class="button js-close-modal" href="#">OK</a>
+</footer>
+</div>

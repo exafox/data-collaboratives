@@ -109,7 +109,7 @@ data-type:
     <table class="table-sortable table-section__table">
       <thead class="cases">
         <th class="table-sortable__head-cell case__title">
-          <span>Case</span>
+          <span>Collaborative</span>
 
           <div class="table-sortable__control-group">
 
@@ -125,10 +125,10 @@ data-type:
           </form>
         </th>
 
-        <th class="table-sortable__head-cell case__region">
-          <span>Region</span>
+        <th class="table-sortable__head-cell case__type">
+          <span>Type</span>
           <div class="table-sortable__control-group">
-            <span class="table-sortable__control table-sortable__control--simple sort" data-sort="case__region"><i class="material-icons">keyboard_arrow_down</i></span>
+            <span class="table-sortable__control table-sortable__control--simple sort" data-sort="case__type"><i class="material-icons">keyboard_arrow_down</i></span>
           </div>
         </th>
 
@@ -139,17 +139,16 @@ data-type:
           </div>
         </th>
 
-        <th class="table-sortable__head-cell case__type">
-          <span>Collaborative Type</span>
-          <div class="table-sortable__control-group">
-            <span class="table-sortable__control table-sortable__control--simple sort" data-sort="case__type"><i class="material-icons">keyboard_arrow_down</i></span>
-          </div>
-        </th>
-
         <th class="table-sortable__head-cell case__data-type">
           <span>Data Type</span>
           <div class="table-sortable__control-group">
             <span class="table-sortable__control table-sortable__control--simple sort" data-sort="case__data-type"><i class="material-icons">keyboard_arrow_down</i></span>
+          </div>
+        </th>
+        <th class="table-sortable__head-cell case__region">
+          <span>Region</span>
+          <div class="table-sortable__control-group">
+            <span class="table-sortable__control table-sortable__control--simple sort" data-sort="case__region"><i class="material-icons">keyboard_arrow_down</i></span>
           </div>
         </th>
       </thead>
@@ -174,17 +173,19 @@ data-type:
               {% endif %}
 
             </td>
-            <td width="15%" case-region="all {{item.region | slugify }}" class="case__region">
-              {{ item.region }}
-            </td>
-            <td case-sector="all {% for d in item.sector %} {{ d | slugify }} {% endfor %}" class="case__sector">
-              {{ item.sector | join: ", " }}
-            </td>
+
             <td width="20%" case-type="all {% for d in item.collaborativeType %} {{ d | slugify }} {% endfor %}" class="case__type">
               {{ item.collaborativeType  | join: ", " }}
             </td>
+
+            <td case-sector="all {% for d in item.sector %} {{ d | slugify }} {% endfor %}" class="case__sector">
+              {{ item.sector | join: ", " }}
+            </td>
             <td width="30%" case-data-type="all {% for d in item.dataType %} {{ d | slugify }} {% endfor %}" class="case__data-type">
               {{ item.dataType | join: ", " }}
+            </td>
+            <td width="15%" case-region="all {{item.region | slugify }}" class="case__region">
+              {{ item.region }}
             </td>
           </tr>
           {% endfor %}

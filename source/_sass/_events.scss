@@ -1,7 +1,44 @@
 .events-page {
+  background-color: rgba(black, .1);
+  &__title {
+    border-bottom: 2px $main-color solid;
+    &:hover {
+      text-decoration: none;
+      border-bottom: 2px $main-color solid;
+    }
+  }
+  h5 {
+    margin-bottom: -10px;
+  }
   .top-section {
     padding-bottom: 60px;
-    h1 {text-transform: uppercase;}
   }
-  
+
+  .events-panels {
+    // text-align: center;
+    color: $gray;
+
+    h5 {
+      margin-bottom: -10px;
+    }
+
+    &__first {
+      background-color: rgba(black, .1);
+      padding: 50px;
+      padding-bottom: 50px;
+    }
+    &__second {
+      // background-color: $gray;
+      padding: 50px;
+      padding-bottom: 50px;
+    }
+
+    // &__title {
+    //   border-bottom: 2px $main-color solid;
+    //   &:hover {
+    //     text-decoration: none;
+    //     border-bottom: 2px $main-color solid;
+    //   }
+    // }
+  }
 }
