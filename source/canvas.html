@@ -3,18 +3,29 @@ layout: default
 
 ---
 
+{% assign canvas = site.data.contentful.spaces.cases.canvasPhases | sort: 'phaseNumber' %}
+
 <div class="canvas-page">
-
-  <div class="top-section top-section--yellow">
-    <h1>Canvas</h1>
+<!-- Standalonetitle slider -->
+<div class="top-section top-section--yellow">
+  <!-- <h1>{{ page.phaseTitle }}</h1> -->
+  <div class="phase-title">
+    <h1 class="title-slider">
+      {% for phase in canvas %}
+        <span><em>{{ phase.phaseNumber }}</em>{{ phase.phaseTitle }}</span>
+      {% endfor %}
+    </h1>
   </div>
+</div>
+<!-- End Standalonetitle slider -->
+<div class="page-section phase-intro">
+  <div class="row align-center expanded">
+    <div class="large-11 column">
+      {{ page.phaseDescription | markdownify }}
+    </div>
+  </div>
+</div>
 
-  {% assign canvas = site.data.contentful.spaces.cases.canvasPhases %}
 
-  <ul>
-  {% for phase in canvas %}
-    <li><a href="canvas/{{phase.phaseTitle | slugify }}.html"> {{ phase.phaseTitle }}</a></li>
-  {% endfor %}
-  </ul>
 
 </div>
