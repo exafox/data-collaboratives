@@ -1,5 +1,5 @@
 <div class="modal js-target-modal">
-  <header class="modal__header">
+  <header class="modal__header modal__header--yellow">
       <i class="modal__close material-icons js-close-modal">close</i>
       <h1 class="modal__title">{{event.eventName}}</h1>
   </header>
@@ -9,12 +9,12 @@
       <a href="{{event.url}}">Go to website</a>
     {% endif %}
 
-    <p>Location: {{event.location}}</p>
+    <p>{{event.location}}</p>
     {% if event.conferenceType %}
       <p>Type: {{event.conferenceType}}</p>
     {% endif %}
     {% if event.eventDescription %}
-    <p>Description: {{event.eventDescription | markdownify }}</p>
+    <p>{{event.eventDescription | markdownify }}</p>
     {% endif %}
 </section>
 <footer class="modal__controls">

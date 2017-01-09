@@ -10,13 +10,63 @@ title: Events | Data Collaboratives
 
   {% assign events = site.data.contentful.spaces.cases.events | sort: 'eventDate' )%}
   {% assign currentDate = site.time %}
-  <!-- {% assign upcomingEventsArray = array.site %}
-  {% assign pastEventsArray = array.site %} -->
 
-  <section class="events-panels">
+  <div class="divider">
+    <h1>Upcoming Events</h1>
+  </div>
+
+  <div class="page-section">
+    <div class="row expanded align-center">
+      <div class="large-8 column">
+        {% for event in events %}
+        {% assign eventDate = event.eventDate  %}
+
+        {% if eventDate >= currentDate %}
+        <div class="individual-event js-open-modal">
+          <h5><a class="events-page__title" href="#">{{event.eventName}}</a></h5>
+          <p>{{event.eventDate | date: "%A, %B %d, %Y" }}</p>
+          {% include events-modal.html %}
+        </div>
+        {% endif %}
+        {% endfor %}
+
+
+        {% if events[-1].eventDate < currentDate and events[0].eventDate != currentDate %}
+          <p>There are no upcoming events.</p>
+        {% endif %}
+
+      </div>
+    </div>
+  </div>
+
+  <div class="divider">
+    <h1>Past Events</h1>
+  </div>
+
+  <div class="page-section">
+    <div class="row expanded align-center">
+      <div class="large-8 column">
+        {% for event in events reversed %}
+        {% assign eventDate = event.eventDate  %}
+        {% if eventDate < currentDate %}
+        <div class="individual-event js-open-modal">
+          <h5><a class="events-page__title" href="#">{{event.eventName}}</a></h5>
+          <p>{{event.eventDate | date: "%A, %B %d, %Y" }}</p>
+          {% include events-modal.html %}
+        </div>
+        {% endif %}
+        {% endfor %}
+
+        {% if events[0].eventDate > currentDate and events[0].eventDate != currentDate %}
+          <p>There are no past events.</p>
+        {% endif %}
+      </div>
+    </div>
+  </div>
+
+  <!-- <section class="events-panels">
     <div class="row expanded align-center">
       <div class="large-6 column events-panels__first">
-
         <h4>Upcoming Events</h4>
         {% for event in events %}
         {% assign eventDate = event.eventDate  %}
@@ -24,31 +74,12 @@ title: Events | Data Collaboratives
         {% if eventDate >= currentDate %}
         <div class="individual-event js-open-modal">
           <h5><a class="events-panels__title" href="#">{{event.eventName}}</a></h5>
-
-
           <p>{{event.eventDate | date: "%A, %B %d, %Y" }}</p>
-
           {% include events-modal.html %}
-
-          <!-- {% if event.url %}
-            <a href="{{event.url}}">Go to website</a>
-          {% endif %}
-
-          <p>Location: {{event.location}}</p>
-          {% if event.conferenceType %}
-            <p>Type: {{event.conferenceType}}</p>
-          {% endif %}
-          {% if event.eventDescription %}
-          <p>Description: {{event.eventDescription | markdownify }}</p>
-          {% endif %} -->
         </div>
-
         {% endif %}
-
         {% endfor %}
-
       </div>
-
       <div class="large-6 column events-panels__second">
         <h4>Past Events</h4>
         {% for event in events reversed %}
@@ -57,35 +88,12 @@ title: Events | Data Collaboratives
         <div class="individual-event js-open-modal">
           <h5><a class="events-panels__title" href="#">{{event.eventName}}</a></h5>
           <p>{{event.eventDate | date: "%A, %B %d, %Y" }}</p>
-
           {% include events-modal.html %}
-          <!-- {% if event.url %}
-            <a href="{{event.url}}">Go to website</a>
-          {% endif %}
-
-          <p>Location: {{event.location}}</p>
-          {% if event.conferenceType %}
-            <p>Type: {{event.conferenceType}}</p>
-          {% endif %}
-          {% if event.eventDescription %}
-          <p>Description: {{event.eventDescription | markdownify }}</p>
-          {% endif %} -->
         </div>
         {% endif %}
         {% endfor %}
         </div>
     </div>
-
-  </section>
-
-
-    <!-- {% for item in upcomingEventsArray %}
-      {{item.eventName}}
-    {% else %}
-      The collection is empty.
-    {% endfor %} -->
-
-
-
+  </section> -->
   </div>
 </div>
