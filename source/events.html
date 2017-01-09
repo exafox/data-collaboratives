@@ -10,16 +10,34 @@ title: Events | Data Collaboratives
 
   <div class="page-section">
     {% assign events = site.data.contentful.spaces.cases.events %}
+    {% assign currentDate = site.time | date: '%A, %B %d, %Y' %}
+    {% assign currentDate = currentDate | plus: 0 %}
+
     {% for event in events %}
     <div class="row">
       <div class="columns">
-        <h4>{{event.eventName}}</h4>
-        <p>Date: {{event.eventDate | date: "%A, %B %d, %Y" }}</p>
-        <p>URL: {{event.url}}</p>
-        <p>Location: {{event.eventLocation[":lat"]}}, {{event.eventLocation[":lon"]}}</p>
-        <h1>{{event.eventLocation.address}}</h1>
-        <p>Type: {{event.conferenceType}}</p>
-        <p>Description: {{event.eventDescription | markdownify }}</p>
+        {% assign eventDate = event.eventDate %}
+        {% assign eventDate = eventDate | plus: 0 %}
+
+        {% if eventDate <= currentDate %}
+
+          <h4>{{event.eventName}}</h4>
+          <p>Date: {{event.eventDate | date: "%A, %B %d, %Y" }}</p>
+
+          {% if event.url %}
+            <a href="{{event.url}}">Go to website</a>
+          {% endif %}
+
+          <p>Location: {{event.eventLocation[":lat"]}}, {{event.eventLocation[":lon"]}}</p>
+          <!-- <h1>{{event.eventLocation.address}}</h1> -->
+          {% if event.conferenceType %}
+            <p>Type: {{event.conferenceType}}</p>
+          {% endif %}
+          {% if event.eventDescription %}
+          <p>Description: {{event.eventDescription | markdownify }}</p>
+          {% endif %}
+
+        {% endif %}
       </div>
     </div>
     {% endfor %}
