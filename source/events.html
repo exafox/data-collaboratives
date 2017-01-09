@@ -24,17 +24,26 @@ title: Events | Data Collaboratives
   </section>
 
   <div class="page-section">
-    {% assign events = site.data.contentful.spaces.cases.events %}
-    {% assign currentDate = site.time | date: '%A, %B %d, %Y' %}
-    {% assign currentDate = currentDate | plus: 0 %}
+    {% assign events = site.data.contentful.spaces.cases.events | sort: 'eventDate')%}
+    {% assign currentDate = site.time %}
+    {% assign upcomingEventsArray = array.site %}
+    {% assign pastEventsArray = array.site %}
+
 
     {% for event in events %}
     <div class="row">
       <div class="columns">
-        {% assign eventDate = event.eventDate %}
-        {% assign eventDate = eventDate | plus: 0 %}
+        {% assign eventDate = event.eventDate  %}
 
-        {% if eventDate <= currentDate %}
+        {% if eventDate < currentDate %}
+          {% assign pastEventsArray = pastEventsArray | push: event %}
+          "NOW"
+
+        {% else if eventDate >= currentDate %}
+          {% assign upcomingEventsArray = upcomingEventsArray | push: event %}
+          "NOT NOW"
+        {% endif %}
+
 
           <h4>{{event.eventName}}</h4>
           <p>Date: {{event.eventDate | date: "%A, %B %d, %Y" }}</p>
@@ -43,8 +52,7 @@ title: Events | Data Collaboratives
             <a href="{{event.url}}">Go to website</a>
           {% endif %}
 
-          <p>Location: {{event.eventLocation[":lat"]}}, {{event.eventLocation[":lon"]}}</p>
-          <!-- <h1>{{event.eventLocation.address}}</h1> -->
+          <p>Location: {{event.location}}</p>
           {% if event.conferenceType %}
             <p>Type: {{event.conferenceType}}</p>
           {% endif %}
@@ -52,11 +60,18 @@ title: Events | Data Collaboratives
           <p>Description: {{event.eventDescription | markdownify }}</p>
           {% endif %}
 
-        {% endif %}
       </div>
     </div>
     {% endfor %}
 
+    {% for item in upcomingEventsArray %}
+      {{item.eventName}}
+      <!-- {% for hello in item %}
+        {{hello.eventName}}
+      {% endfor %} -->
+    {% else %}
+      The collection is empty.
+    {% endfor %}
 
   </div>
 </div>
