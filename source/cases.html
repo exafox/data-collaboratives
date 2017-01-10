@@ -163,14 +163,16 @@ data-type:
               {% assign char = "|" %}
 
               {% capture link %}
-                {{ link | remove: "'"  | replace: char, "-" }}
+                {{ link | remove: "'"  | replace: char, "0000" | replace: "&", "0000" }}
               {% endcapture %}
 
-              {% if item.caseStudy == "Data City | Data Nation"%}
-                <a href="/cases/data-city--data-nation.html">{{ item.caseStudy }}</a>
-              {% else %}
-                <a href="/cases/{{ link | slugify }}.html">{{ item.caseStudy }}</a>
-              {% endif %}
+              {% assign slugged-link = link %}
+
+              {% capture slugged-link %}
+                {{ slugged-link | slugify }}
+              {% endcapture %}
+
+              <a href="/cases/{{ slugged-link | remove: '0000' | rstrip | lstrip }}.html">{{ item.caseStudy }}</a>
 
             </td>
 
