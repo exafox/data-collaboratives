@@ -523,10 +523,10 @@ p.large-text {
         margin-bottom: 5px;
         border: 1px solid white;
         padding: 7px 17px;
-        background-color: rgba(0, 0, 0, 0.1); }
+        background-color: rgba(0, 0, 0, 0.4); }
         @media (max-width: 40em) {
           .case-page__header h2 span {
-            background-color: rgba(0, 0, 0, 0.2);
+            background-color: rgba(0, 0, 0, 0.5);
             padding-top: 7px; } }
     .case-page__header__shared {
       font-size: 2rem !important;
