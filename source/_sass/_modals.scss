@@ -1,0 +1,24 @@
+.modal {
+  &__content {
+    margin: 0 0 0 45px;
+    padding-right: 25px;
+  }
+
+  &__header {
+    &--yellow {
+      background-color: $main-color;
+    }
+    &--gray {
+      background-color: rgba(0,0,0,0.8);
+    }
+  }
+
+  &__url {
+    font-style: italic;
+    border-bottom: 1px $main-color solid;
+    &:hover {
+      text-decoration: none;
+      border-bottom: 1px rgba(0,0,0,0.8) solid;
+    }
+  }
+}

@@ -1,12 +1,12 @@
 <div class="modal js-target-modal">
-  <header class="modal__header modal__header--yellow">
+  <header class="modal__header modal__header--gray">
       <i class="modal__close material-icons js-close-modal">close</i>
       <h1 class="modal__title">{{event.eventName}}</h1>
   </header>
 <section class="modal__content">
-    <h2>{{event.eventName}}</h2>
+    <h4 class="modal__sub-title">{{event.eventName}}</h4>
     {% if event.url %}
-      <a href="{{event.url}}">Go to website</a>
+      <a class="modal__url" href="{{event.url}}">Go to website</a>
     {% endif %}
 
     <p>{{event.location}}</p>
