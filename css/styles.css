@@ -642,6 +642,14 @@ p.large-text {
 .results-section, .results-container {
   padding: 0; }
 
+.list {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap; }
+
 .result-item {
   font-weight: 300;
   display: inline-block;
@@ -651,7 +659,6 @@ p.large-text {
   padding: 30px 30px 90px;
   width: 100%;
   display: block;
-  height: 420px;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   border-right: 1px solid rgba(0, 0, 0, 0.1);
   text-decoration: none; }
@@ -862,6 +869,9 @@ p.large-text {
 
 #fp-nav {
   opacity: .5 !important; }
+
+.fp-controlArrow {
+  margin: 1% !important; }
 
 .fp-controlArrow.fp-prev {
   left: 15px;
