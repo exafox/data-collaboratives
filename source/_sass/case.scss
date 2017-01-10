@@ -58,9 +58,9 @@
         margin-bottom: 5px;
         border: 1px solid white;
         padding: 7px 17px;
-        background-color: rgba(black, .1);
+        background-color: rgba(black, .4);
         @include breakpoint($small-only) {
-          background-color: rgba(black, .2);
+          background-color: rgba(black, .5);
           padding-top: 7px;
         }
       }
