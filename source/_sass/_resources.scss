@@ -5,8 +5,17 @@
   }
 }
 
-.results-section, .results-container { padding: 0; }
+.results-section, .results-container { padding: 0;}
 
+.list {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
 .result-item {
   font-weight: 300;
   display: inline-block;
@@ -16,7 +25,6 @@
   padding: 30px 30px 90px;
   width: 100%;
   display: block;
-  height: 420px;
   border-bottom: 1px solid rgba(black, .1);
   border-right: 1px solid rgba(black, .1);
   text-decoration: none;
