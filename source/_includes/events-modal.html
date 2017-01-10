@@ -16,6 +16,19 @@
     {% if event.eventDescription %}
     <p>{{event.eventDescription | markdownify }}</p>
     {% endif %}
+
+    {% if event.sessionName %}
+    <p><b>Session Information:</b></p>
+    <p>{{event.sessionName}}</p>
+    {% endif %}
+
+    {% if event.sessionType %}
+      <p>Session Type: {{event.sessionType}}</p>
+    {% endif %}
+
+    {% if event.sessionDescription %}
+      <p>{{event.sessionDescription}}</p>
+    {% endif %}
 </section>
 <footer class="modal__controls">
     <a class="button js-close-modal" href="#">OK</a>
