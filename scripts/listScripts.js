@@ -96,7 +96,7 @@ $(document).ready(function() {
 
     // Filter by name
     $(".fuzzy-search").keyup(function() {
-      if (this.id=="case__title--input") {
+      if (this.id=="#case__title--input") {
         var searchString = $(this).val();
         caseList.fuzzySearch.search(searchString, ["case__title"]);
       }

@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="/scripts/styleguide-v2.css">
     <link rel="stylesheet" href="/scripts/slick.css"/>
     <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/scripts/jquery.fullPage.css">
     <script src="https://use.typekit.net/mvc3cdb.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -26,15 +27,19 @@
     <header class="top-bar top-bar--transparent">
     <span class="top-bar__button js-trigger-menu">menu</span>
     <nav class="main-menu js-target-menu main-menu--left">
-      <a href="#">Introduction</a>
-      <a href="../cases.html">Data Collaboratives Explorer</a>
-      <a href="../canvas.html">Designing a Data Collaborative</a>
+      <a href="/introduction.html ">Introduction</a>
+      <a href="/cases.html">Data Collaboratives Explorer</a>
+      <a href="/canvas.html">Designing a Data Collaborative</a>
       <a href="/static/files/framework.pdf">Data Responsibility Framework</a>
-      <a href="../events.html">Events</a>
+      <a href="/events.html">Events</a>
       <a href="#">Current Projects</a>
-      <a href="../resources.html">Additional Resources</a>
+      <a href="/resources.html">Additional Resources</a>
     </nav>
      <a class="top-bar__logo" href="/"><img src="/images/govlab-logo-white.png" alt="The GovLab"></a>
+
+
+
+
     <!-- <span class="top-bar__button js-trigger-menu">more_vert</span>
     <nav class="main-menu js-target-menu main-menu--right">
       <a href="#">Github Repository</a>
@@ -166,7 +171,7 @@
     <table class="table-sortable table-section__table">
       <thead class="cases">
         <th class="table-sortable__head-cell case__title">
-          <span>Case</span>
+          <span>Collaborative</span>
 
           <div class="table-sortable__control-group">
 
@@ -182,10 +187,10 @@
           </form>
         </th>
 
-        <th class="table-sortable__head-cell case__region">
-          <span>Region</span>
+        <th class="table-sortable__head-cell case__type">
+          <span>Type</span>
           <div class="table-sortable__control-group">
-            <span class="table-sortable__control table-sortable__control--simple sort" data-sort="case__region"><i class="material-icons">keyboard_arrow_down</i></span>
+            <span class="table-sortable__control table-sortable__control--simple sort" data-sort="case__type"><i class="material-icons">keyboard_arrow_down</i></span>
           </div>
         </th>
 
@@ -196,17 +201,16 @@
           </div>
         </th>
 
-        <th class="table-sortable__head-cell case__type">
-          <span>Collaborative Type</span>
-          <div class="table-sortable__control-group">
-            <span class="table-sortable__control table-sortable__control--simple sort" data-sort="case__type"><i class="material-icons">keyboard_arrow_down</i></span>
-          </div>
-        </th>
-
         <th class="table-sortable__head-cell case__data-type">
           <span>Data Type</span>
           <div class="table-sortable__control-group">
             <span class="table-sortable__control table-sortable__control--simple sort" data-sort="case__data-type"><i class="material-icons">keyboard_arrow_down</i></span>
+          </div>
+        </th>
+        <th class="table-sortable__head-cell case__region">
+          <span>Region</span>
+          <div class="table-sortable__control-group">
+            <span class="table-sortable__control table-sortable__control--simple sort" data-sort="case__region"><i class="material-icons">keyboard_arrow_down</i></span>
           </div>
         </th>
       </thead>
@@ -215,58 +219,6 @@
         <tbody class="list">
           <tr class="case">
             
-            <td width="25%" case-name="Clinical Study Data Request Program" class="case__title">
-
-              
-              
-
-              
-
-              
-                <a href="/cases/clinical-study-data-request-program.html">Clinical Study Data Request Program</a>
-              
-
-            </td>
-            <td width="15%" case-region="all north-america" class="case__region">
-              North America
-            </td>
-            <td case-sector="all  health " class="case__sector">
-              Health
-            </td>
-            <td width="20%" case-type="all  data-pooling " class="case__type">
-              Data Pooling
-            </td>
-            <td width="30%" case-data-type="all  disclosed-personal-data " class="case__data-type">
-              Disclosed Personal Data
-            </td>
-          </tr>
-          
-            <td width="25%" case-name="Clever" class="case__title">
-
-              
-              
-
-              
-
-              
-                <a href="/cases/clever.html">Clever</a>
-              
-
-            </td>
-            <td width="15%" case-region="all north-america" class="case__region">
-              North America
-            </td>
-            <td case-sector="all  education " class="case__sector">
-              Education
-            </td>
-            <td width="20%" case-type="all  intelligence-product  api " class="case__type">
-              Intelligence Product, API
-            </td>
-            <td width="30%" case-data-type="all  disclosed-personal-data " class="case__data-type">
-              Disclosed Personal Data
-            </td>
-          </tr>
-          
             <td width="25%" case-name="BBVA's Innova Challenge" class="case__title">
 
               
@@ -275,21 +227,55 @@
               
 
               
-                <a href="/cases/bbvas-innova-challenge.html">BBVA's Innova Challenge</a>
+
               
 
+              <a href="/cases/bbvas-innova-challenge.html">BBVA's Innova Challenge</a>
+
+            </td>
+
+            <td width="20%" case-type="all  prizes-challenges " class="case__type">
+              Prizes & Challenges
+            </td>
+
+            <td case-sector="all  economic-development " class="case__sector">
+              Economic Development
+            </td>
+            <td width="30%" case-data-type="all  observed-personal-data " class="case__data-type">
+              Observed Personal Data
             </td>
             <td width="15%" case-region="all europe-and-central-asia" class="case__region">
               Europe and Central Asia
             </td>
-            <td case-sector="all  economic-development " class="case__sector">
-              Economic Development
+          </tr>
+          
+            <td width="25%" case-name="Havard's Malaria Tracking research" class="case__title">
+
+              
+              
+
+              
+
+              
+
+              
+
+              <a href="/cases/havards-malaria-tracking-research.html">Havard's Malaria Tracking research</a>
+
             </td>
-            <td width="20%" case-type="all  prizes-challenges " class="case__type">
-              Prizes & Challenges
+
+            <td width="20%" case-type="all  research-partnerships " class="case__type">
+              Research Partnerships
+            </td>
+
+            <td case-sector="all  health " class="case__sector">
+              Health
             </td>
             <td width="30%" case-data-type="all  observed-personal-data " class="case__data-type">
               Observed Personal Data
+            </td>
+            <td width="15%" case-region="all middle-east-and-north-africa" class="case__region">
+              Middle East and North Africa
             </td>
           </tr>
           
@@ -301,25 +287,29 @@
               
 
               
-                <a href="/cases/china-green-horizon.html">China Green Horizon</a>
+
               
 
+              <a href="/cases/china-green-horizon.html">China Green Horizon</a>
+
             </td>
-            <td width="15%" case-region="all east-asia-and-pacific" class="case__region">
-              East Asia and Pacific
-            </td>
-            <td case-sector="all  environment " class="case__sector">
-              Environment
-            </td>
+
             <td width="20%" case-type="all  intelligence-product  trusted-intermediary " class="case__type">
               Intelligence Product, Trusted Intermediary
+            </td>
+
+            <td case-sector="all  environment " class="case__sector">
+              Environment
             </td>
             <td width="30%" case-data-type="all  disclosed-non-personal-data " class="case__data-type">
               Disclosed Non-Personal Data
             </td>
+            <td width="15%" case-region="all east-asia-and-pacific" class="case__region">
+              East Asia and Pacific
+            </td>
           </tr>
           
-            <td width="25%" case-name="Data City | Data Nation" class="case__title">
+            <td width="25%" case-name="DataKind Labs Vision Zero Project" class="case__title">
 
               
               
@@ -327,51 +317,59 @@
               
 
               
-                <a href="/cases/data-city--data-nation.html">Data City | Data Nation</a>
+
               
+
+              <a href="/cases/datakind-labs-vision-zero-project.html">DataKind Labs Vision Zero Project</a>
 
             </td>
-            <td width="15%" case-region="all europe-and-central-asia" class="case__region">
-              Europe and Central Asia
+
+            <td width="20%" case-type="all  data-pooling " class="case__type">
+              Data Pooling
             </td>
+
             <td case-sector="all  infrastructure " class="case__sector">
               Infrastructure
             </td>
-            <td width="20%" case-type="all  prizes-challenges " class="case__type">
-              Prizes & Challenges
-            </td>
-            <td width="30%" case-data-type="all  disclosed-personal-data  observed-personal-data  disclosed-non-personal-data  observed-non-personal-data " class="case__data-type">
-              Disclosed Personal Data, Observed Personal Data, Disclosed Non-Personal Data, Observed Non-Personal Data
-            </td>
-          </tr>
-          
-            <td width="25%" case-name="Accelerating Medicines Partnership (AMP)" class="case__title">
-
-              
-              
-
-              
-
-              
-                <a href="/cases/accelerating-medicines-partnership-amp.html">Accelerating Medicines Partnership (AMP)</a>
-              
-
+            <td width="30%" case-data-type="all  observed-non-personal-data " class="case__data-type">
+              Observed Non-Personal Data
             </td>
             <td width="15%" case-region="all north-america" class="case__region">
               North America
             </td>
+          </tr>
+          
+            <td width="25%" case-name="Genomic Data Commons" class="case__title">
+
+              
+              
+
+              
+
+              
+
+              
+
+              <a href="/cases/genomic-data-commons.html">Genomic Data Commons</a>
+
+            </td>
+
+            <td width="20%" case-type="all  research-partnerships " class="case__type">
+              Research Partnerships
+            </td>
+
             <td case-sector="all  health " class="case__sector">
               Health
-            </td>
-            <td width="20%" case-type="all  data-pooling " class="case__type">
-              Data Pooling
             </td>
             <td width="30%" case-data-type="all  disclosed-personal-data " class="case__data-type">
               Disclosed Personal Data
             </td>
+            <td width="15%" case-region="all north-america" class="case__region">
+              North America
+            </td>
           </tr>
           
-            <td width="25%" case-name="23andMe Patient-Centric Research Portal" class="case__title">
+            <td width="25%" case-name="Johnson & Johnson-Yale Open Data Access Project" class="case__title">
 
               
               
@@ -379,21 +377,415 @@
               
 
               
-                <a href="/cases/23andme-patient-centric-research-portal.html">23andMe Patient-Centric Research Portal</a>
+
               
 
+              <a href="/cases/johnson--johnson-yale-open-data-access-project.html">Johnson & Johnson-Yale Open Data Access Project</a>
+
+            </td>
+
+            <td width="20%" case-type="all  research-partnerships " class="case__type">
+              Research Partnerships
+            </td>
+
+            <td case-sector="all  health " class="case__sector">
+              Health
+            </td>
+            <td width="30%" case-data-type="all  disclosed-personal-data " class="case__data-type">
+              Disclosed Personal Data
+            </td>
+            <td width="15%" case-region="all north-america" class="case__region">
+              North America
+            </td>
+          </tr>
+          
+            <td width="25%" case-name="Feeding America and the Map the Meal Gap" class="case__title">
+
+              
+              
+
+              
+
+              
+
+              
+
+              <a href="/cases/feeding-america-and-the-map-the-meal-gap.html">Feeding America and the Map the Meal Gap</a>
+
+            </td>
+
+            <td width="20%" case-type="all  research-partnerships " class="case__type">
+              Research Partnerships
+            </td>
+
+            <td case-sector="all  health " class="case__sector">
+              Health
+            </td>
+            <td width="30%" case-data-type="all  disclosed-personal-data  observed-personal-data  disclosed-non-personal-data  observed-non-personal-data " class="case__data-type">
+              Disclosed Personal Data, Observed Personal Data, Disclosed Non-Personal Data, Observed Non-Personal Data
+            </td>
+            <td width="15%" case-region="all north-america" class="case__region">
+              North America
+            </td>
+          </tr>
+          
+            <td width="25%" case-name="IBM Watson Health - Smarter Healthcare in Canada" class="case__title">
+
+              
+              
+
+              
+
+              
+
+              
+
+              <a href="/cases/ibm-watson-health-smarter-healthcare-in-canada.html">IBM Watson Health - Smarter Healthcare in Canada</a>
+
+            </td>
+
+            <td width="20%" case-type="all  research-partnerships " class="case__type">
+              Research Partnerships
+            </td>
+
+            <td case-sector="all  health " class="case__sector">
+              Health
+            </td>
+            <td width="30%" case-data-type="all  disclosed-personal-data " class="case__data-type">
+              Disclosed Personal Data
+            </td>
+            <td width="15%" case-region="all north-america" class="case__region">
+              North America
+            </td>
+          </tr>
+          
+            <td width="25%" case-name="Intel's Big Data for Precision Farming" class="case__title">
+
+              
+              
+
+              
+
+              
+
+              
+
+              <a href="/cases/intels-big-data-for-precision-farming.html">Intel's Big Data for Precision Farming</a>
+
+            </td>
+
+            <td width="20%" case-type="all  research-partnerships " class="case__type">
+              Research Partnerships
+            </td>
+
+            <td case-sector="all  agriculture " class="case__sector">
+              Agriculture
+            </td>
+            <td width="30%" case-data-type="all  disclosed-non-personal-data " class="case__data-type">
+              Disclosed Non-Personal Data
+            </td>
+            <td width="15%" case-region="all north-america" class="case__region">
+              North America
+            </td>
+          </tr>
+          
+            <td width="25%" case-name="Ethiopian Commodity Exchange" class="case__title">
+
+              
+              
+
+              
+
+              
+
+              
+
+              <a href="/cases/ethiopian-commodity-exchange.html">Ethiopian Commodity Exchange</a>
+
+            </td>
+
+            <td width="20%" case-type="all  intelligence-product " class="case__type">
+              Intelligence Product
+            </td>
+
+            <td case-sector="all  agriculture " class="case__sector">
+              Agriculture
+            </td>
+            <td width="30%" case-data-type="all  observed-non-personal-data " class="case__data-type">
+              Observed Non-Personal Data
+            </td>
+            <td width="15%" case-region="all sub-saharan-africa" class="case__region">
+              Sub-Saharan Africa
+            </td>
+          </tr>
+          
+            <td width="25%" case-name="Clinical Study Data Request Program" class="case__title">
+
+              
+              
+
+              
+
+              
+
+              
+
+              <a href="/cases/clinical-study-data-request-program.html">Clinical Study Data Request Program</a>
+
+            </td>
+
+            <td width="20%" case-type="all  data-pooling " class="case__type">
+              Data Pooling
+            </td>
+
+            <td case-sector="all  health " class="case__sector">
+              Health
+            </td>
+            <td width="30%" case-data-type="all  disclosed-personal-data " class="case__data-type">
+              Disclosed Personal Data
+            </td>
+            <td width="15%" case-region="all north-america" class="case__region">
+              North America
+            </td>
+          </tr>
+          
+            <td width="25%" case-name="Mobile Data, Environmental Extremes and Population (MDEEP) Project" class="case__title">
+
+              
+              
+
+              
+
+              
+
+              
+
+              <a href="/cases/mobile-data-environmental-extremes-and-population-mdeep-project.html">Mobile Data, Environmental Extremes and Population (MDEEP) Project</a>
+
+            </td>
+
+            <td width="20%" case-type="all  data-pooling " class="case__type">
+              Data Pooling
+            </td>
+
+            <td case-sector="all  environment " class="case__sector">
+              Environment
+            </td>
+            <td width="30%" case-data-type="all  observed-non-personal-data " class="case__data-type">
+              Observed Non-Personal Data
+            </td>
+            <td width="15%" case-region="all south-asia" class="case__region">
+              South Asia
+            </td>
+          </tr>
+          
+            <td width="25%" case-name="Enexis Open Data Agenda" class="case__title">
+
+              
+              
+
+              
+
+              
+
+              
+
+              <a href="/cases/enexis-open-data-agenda.html">Enexis Open Data Agenda</a>
+
+            </td>
+
+            <td width="20%" case-type="all  trusted-intermediary " class="case__type">
+              Trusted Intermediary
+            </td>
+
+            <td case-sector="all  infrastructure " class="case__sector">
+              Infrastructure
+            </td>
+            <td width="30%" case-data-type="all  observed-personal-data " class="case__data-type">
+              Observed Personal Data
+            </td>
+            <td width="15%" case-region="all europe-and-central-asia" class="case__region">
+              Europe and Central Asia
+            </td>
+          </tr>
+          
+            <td width="25%" case-name="Digital Ecologies Research Partnership" class="case__title">
+
+              
+              
+
+              
+
+              
+
+              
+
+              <a href="/cases/digital-ecologies-research-partnership.html">Digital Ecologies Research Partnership</a>
+
+            </td>
+
+            <td width="20%" case-type="all  data-pooling " class="case__type">
+              Data Pooling
+            </td>
+
+            <td case-sector="all  education " class="case__sector">
+              Education
+            </td>
+            <td width="30%" case-data-type="all  observed-personal-data " class="case__data-type">
+              Observed Personal Data
+            </td>
+            <td width="15%" case-region="all north-america" class="case__region">
+              North America
+            </td>
+          </tr>
+          
+            <td width="25%" case-name="Digital Matatus" class="case__title">
+
+              
+              
+
+              
+
+              
+
+              
+
+              <a href="/cases/digital-matatus.html">Digital Matatus</a>
+
+            </td>
+
+            <td width="20%" case-type="all  api  research-partnerships " class="case__type">
+              API, Research Partnerships
+            </td>
+
+            <td case-sector="all  transportation " class="case__sector">
+              Transportation
+            </td>
+            <td width="30%" case-data-type="all  observed-personal-data " class="case__data-type">
+              Observed Personal Data
+            </td>
+            <td width="15%" case-region="all sub-saharan-africa" class="case__region">
+              Sub-Saharan Africa
+            </td>
+          </tr>
+          
+            <td width="25%" case-name="Digicel Telecom, Karolinska, and Columbia University Partnership" class="case__title">
+
+              
+              
+
+              
+
+              
+
+              
+
+              <a href="/cases/digicel-telecom-karolinska-and-columbia-university-partnership.html">Digicel Telecom, Karolinska, and Columbia University Partnership</a>
+
+            </td>
+
+            <td width="20%" case-type="all  research-partnerships " class="case__type">
+              Research Partnerships
+            </td>
+
+            <td case-sector="all  health " class="case__sector">
+              Health
+            </td>
+            <td width="30%" case-data-type="all  observed-personal-data " class="case__data-type">
+              Observed Personal Data
+            </td>
+            <td width="15%" case-region="all north-america" class="case__region">
+              North America
+            </td>
+          </tr>
+          
+            <td width="25%" case-name="InBloom" class="case__title">
+
+              
+              
+
+              
+
+              
+
+              
+
+              <a href="/cases/inbloom.html">InBloom</a>
+
+            </td>
+
+            <td width="20%" case-type="all  data-pooling " class="case__type">
+              Data Pooling
+            </td>
+
+            <td case-sector="all  education " class="case__sector">
+              Education
+            </td>
+            <td width="30%" case-data-type="all  disclosed-personal-data " class="case__data-type">
+              Disclosed Personal Data
+            </td>
+            <td width="15%" case-region="all north-america" class="case__region">
+              North America
+            </td>
+          </tr>
+          
+            <td width="25%" case-name="DMC International Imaging" class="case__title">
+
+              
+              
+
+              
+
+              
+
+              
+
+              <a href="/cases/dmc-international-imaging.html">DMC International Imaging</a>
+
+            </td>
+
+            <td width="20%" case-type="all  trusted-intermediary " class="case__type">
+              Trusted Intermediary
+            </td>
+
+            <td case-sector="all  crisis-response " class="case__sector">
+              Crisis Response
+            </td>
+            <td width="30%" case-data-type="all  observed-personal-data " class="case__data-type">
+              Observed Personal Data
             </td>
             <td width="15%" case-region="all worldwide" class="case__region">
               Worldwide
             </td>
-            <td case-sector="all  health " class="case__sector">
-              Health
+          </tr>
+          
+            <td width="25%" case-name="Global Forest Watch" class="case__title">
+
+              
+              
+
+              
+
+              
+
+              
+
+              <a href="/cases/global-forest-watch.html">Global Forest Watch</a>
+
             </td>
-            <td width="20%" case-type="all  intelligence-product  research-partnerships " class="case__type">
-              Intelligence Product, Research Partnerships
+
+            <td width="20%" case-type="all  data-pooling " class="case__type">
+              Data Pooling
             </td>
-            <td width="30%" case-data-type="all  disclosed-personal-data " class="case__data-type">
-              Disclosed Personal Data
+
+            <td case-sector="all  environment " class="case__sector">
+              Environment
+            </td>
+            <td width="30%" case-data-type="all  observed-personal-data  observed-non-personal-data " class="case__data-type">
+              Observed Personal Data, Observed Non-Personal Data
+            </td>
+            <td width="15%" case-region="all worldwide" class="case__region">
+              Worldwide
             </td>
           </tr>
           
@@ -405,21 +797,475 @@
               
 
               
-                <a href="/cases/climate-modeling-in-colombia.html">Climate Modeling in Colombia</a>
+
               
 
+              <a href="/cases/climate-modeling-in-colombia.html">Climate Modeling in Colombia</a>
+
+            </td>
+
+            <td width="20%" case-type="all  data-pooling " class="case__type">
+              Data Pooling
+            </td>
+
+            <td case-sector="all  agriculture " class="case__sector">
+              Agriculture
+            </td>
+            <td width="30%" case-data-type="all  observed-non-personal-data " class="case__data-type">
+              Observed Non-Personal Data
             </td>
             <td width="15%" case-region="all latin-america-and-the-caribbean" class="case__region">
               Latin America and the Caribbean
             </td>
-            <td case-sector="all  agriculture " class="case__sector">
-              Agriculture
+          </tr>
+          
+            <td width="25%" case-name="Mobile Data for Food Security" class="case__title">
+
+              
+              
+
+              
+
+              
+
+              
+
+              <a href="/cases/mobile-data-for-food-security.html">Mobile Data for Food Security</a>
+
             </td>
+
+            <td width="20%" case-type="all  research-partnerships " class="case__type">
+              Research Partnerships
+            </td>
+
+            <td case-sector="all  health " class="case__sector">
+              Health
+            </td>
+            <td width="30%" case-data-type="all  disclosed-personal-data " class="case__data-type">
+              Disclosed Personal Data
+            </td>
+            <td width="15%" case-region="all worldwide" class="case__region">
+              Worldwide
+            </td>
+          </tr>
+          
+            <td width="25%" case-name="Clever" class="case__title">
+
+              
+              
+
+              
+
+              
+
+              
+
+              <a href="/cases/clever.html">Clever</a>
+
+            </td>
+
+            <td width="20%" case-type="all  intelligence-product  api " class="case__type">
+              Intelligence Product, API
+            </td>
+
+            <td case-sector="all  education " class="case__sector">
+              Education
+            </td>
+            <td width="30%" case-data-type="all  disclosed-personal-data " class="case__data-type">
+              Disclosed Personal Data
+            </td>
+            <td width="15%" case-region="all north-america" class="case__region">
+              North America
+            </td>
+          </tr>
+          
+            <td width="25%" case-name="Global Fishing Watch" class="case__title">
+
+              
+              
+
+              
+
+              
+
+              
+
+              <a href="/cases/global-fishing-watch.html">Global Fishing Watch</a>
+
+            </td>
+
             <td width="20%" case-type="all  data-pooling " class="case__type">
               Data Pooling
             </td>
+
+            <td case-sector="all  environment " class="case__sector">
+              Environment
+            </td>
             <td width="30%" case-data-type="all  observed-non-personal-data " class="case__data-type">
               Observed Non-Personal Data
+            </td>
+            <td width="15%" case-region="all worldwide" class="case__region">
+              Worldwide
+            </td>
+          </tr>
+          
+            <td width="25%" case-name="Google Flu Trends" class="case__title">
+
+              
+              
+
+              
+
+              
+
+              
+
+              <a href="/cases/google-flu-trends.html">Google Flu Trends</a>
+
+            </td>
+
+            <td width="20%" case-type="all  intelligence-product " class="case__type">
+              Intelligence Product
+            </td>
+
+            <td case-sector="all  health " class="case__sector">
+              Health
+            </td>
+            <td width="30%" case-data-type="all  observed-personal-data " class="case__data-type">
+              Observed Personal Data
+            </td>
+            <td width="15%" case-region="all north-america" class="case__region">
+              North America
+            </td>
+          </tr>
+          
+            <td width="25%" case-name="Google Waze (Connected Citizens)" class="case__title">
+
+              
+              
+
+              
+
+              
+
+              
+
+              <a href="/cases/google-waze-connected-citizens.html">Google Waze (Connected Citizens)</a>
+
+            </td>
+
+            <td width="20%" case-type="all  trusted-intermediary " class="case__type">
+              Trusted Intermediary
+            </td>
+
+            <td case-sector="all  infrastructure " class="case__sector">
+              Infrastructure
+            </td>
+            <td width="30%" case-data-type="all  disclosed-personal-data " class="case__data-type">
+              Disclosed Personal Data
+            </td>
+            <td width="15%" case-region="all worldwide" class="case__region">
+              Worldwide
+            </td>
+          </tr>
+          
+            <td width="25%" case-name="Lilly, T1D Exchange Diabetes Research Collaboration" class="case__title">
+
+              
+              
+
+              
+
+              
+
+              
+
+              <a href="/cases/lilly-t1d-exchange-diabetes-research-collaboration.html">Lilly, T1D Exchange Diabetes Research Collaboration</a>
+
+            </td>
+
+            <td width="20%" case-type="all  research-partnerships " class="case__type">
+              Research Partnerships
+            </td>
+
+            <td case-sector="all  health " class="case__sector">
+              Health
+            </td>
+            <td width="30%" case-data-type="all  disclosed-personal-data " class="case__data-type">
+              Disclosed Personal Data
+            </td>
+            <td width="15%" case-region="all north-america" class="case__region">
+              North America
+            </td>
+          </tr>
+          
+            <td width="25%" case-name="Measuring Poverty from Space" class="case__title">
+
+              
+              
+
+              
+
+              
+
+              
+
+              <a href="/cases/measuring-poverty-from-space.html">Measuring Poverty from Space</a>
+
+            </td>
+
+            <td width="20%" case-type="all  intelligence-product " class="case__type">
+              Intelligence Product
+            </td>
+
+            <td case-sector="all  economic-development " class="case__sector">
+              Economic Development
+            </td>
+            <td width="30%" case-data-type="all  observed-non-personal-data " class="case__data-type">
+              Observed Non-Personal Data
+            </td>
+            <td width="15%" case-region="all worldwide" class="case__region">
+              Worldwide
+            </td>
+          </tr>
+          
+            <td width="25%" case-name="GlaxoSmithKline and Community Care of North Carolina Medicine Management" class="case__title">
+
+              
+              
+
+              
+
+              
+
+              
+
+              <a href="/cases/glaxosmithkline-and-community-care-of-north-carolina-medicine-management.html">GlaxoSmithKline and Community Care of North Carolina Medicine Management</a>
+
+            </td>
+
+            <td width="20%" case-type="all  intelligence-product " class="case__type">
+              Intelligence Product
+            </td>
+
+            <td case-sector="all  health " class="case__sector">
+              Health
+            </td>
+            <td width="30%" case-data-type="all  disclosed-personal-data " class="case__data-type">
+              Disclosed Personal Data
+            </td>
+            <td width="15%" case-region="all north-america" class="case__region">
+              North America
+            </td>
+          </tr>
+          
+            <td width="25%" case-name="Mapping snow melting in the Sierra Nevada" class="case__title">
+
+              
+              
+
+              
+
+              
+
+              
+
+              <a href="/cases/mapping-snow-melting-in-the-sierra-nevada.html">Mapping snow melting in the Sierra Nevada</a>
+
+            </td>
+
+            <td width="20%" case-type="all  research-partnerships " class="case__type">
+              Research Partnerships
+            </td>
+
+            <td case-sector="all  environment " class="case__sector">
+              Environment
+            </td>
+            <td width="30%" case-data-type="all  disclosed-non-personal-data " class="case__data-type">
+              Disclosed Non-Personal Data
+            </td>
+            <td width="15%" case-region="all north-america" class="case__region">
+              North America
+            </td>
+          </tr>
+          
+            <td width="25%" case-name="Delloite's ConvergHEALTH, Allergan and Intermountain Healthcare analytics" class="case__title">
+
+              
+              
+
+              
+
+              
+
+              
+
+              <a href="/cases/delloites-converghealth-allergan-and-intermountain-healthcare-analytics.html">Delloite's ConvergHEALTH, Allergan and Intermountain Healthcare analytics</a>
+
+            </td>
+
+            <td width="20%" case-type="all  research-partnerships " class="case__type">
+              Research Partnerships
+            </td>
+
+            <td case-sector="all  health " class="case__sector">
+              Health
+            </td>
+            <td width="30%" case-data-type="all  disclosed-personal-data " class="case__data-type">
+              Disclosed Personal Data
+            </td>
+            <td width="15%" case-region="all north-america" class="case__region">
+              North America
+            </td>
+          </tr>
+          
+            <td width="25%" case-name="Accelerating Medicines Partnership (AMP)" class="case__title">
+
+              
+              
+
+              
+
+              
+
+              
+
+              <a href="/cases/accelerating-medicines-partnership-amp.html">Accelerating Medicines Partnership (AMP)</a>
+
+            </td>
+
+            <td width="20%" case-type="all  data-pooling " class="case__type">
+              Data Pooling
+            </td>
+
+            <td case-sector="all  health " class="case__sector">
+              Health
+            </td>
+            <td width="30%" case-data-type="all  disclosed-personal-data " class="case__data-type">
+              Disclosed Personal Data
+            </td>
+            <td width="15%" case-region="all north-america" class="case__region">
+              North America
+            </td>
+          </tr>
+          
+            <td width="25%" case-name="Data for Climate Action (D4CA)" class="case__title">
+
+              
+              
+
+              
+
+              
+
+              
+
+              <a href="/cases/data-for-climate-action-d4ca.html">Data for Climate Action (D4CA)</a>
+
+            </td>
+
+            <td width="20%" case-type="all  trusted-intermediary " class="case__type">
+              Trusted Intermediary
+            </td>
+
+            <td case-sector="all  environment " class="case__sector">
+              Environment
+            </td>
+            <td width="30%" case-data-type="all  disclosed-personal-data  observed-personal-data  disclosed-non-personal-data  observed-non-personal-data " class="case__data-type">
+              Disclosed Personal Data, Observed Personal Data, Disclosed Non-Personal Data, Observed Non-Personal Data
+            </td>
+            <td width="15%" case-region="all worldwide" class="case__region">
+              Worldwide
+            </td>
+          </tr>
+          
+            <td width="25%" case-name="Mobile Operator Data for Haiti Earthquake 2010" class="case__title">
+
+              
+              
+
+              
+
+              
+
+              
+
+              <a href="/cases/mobile-operator-data-for-haiti-earthquake-2010.html">Mobile Operator Data for Haiti Earthquake 2010</a>
+
+            </td>
+
+            <td width="20%" case-type="all  trusted-intermediary " class="case__type">
+              Trusted Intermediary
+            </td>
+
+            <td case-sector="all  crisis-response " class="case__sector">
+              Crisis Response
+            </td>
+            <td width="30%" case-data-type="all  observed-personal-data " class="case__data-type">
+              Observed Personal Data
+            </td>
+            <td width="15%" case-region="all latin-america-and-the-caribbean" class="case__region">
+              Latin America and the Caribbean
+            </td>
+          </tr>
+          
+            <td width="25%" case-name="23andMe Patient-Centric Research Portal" class="case__title">
+
+              
+              
+
+              
+
+              
+
+              
+
+              <a href="/cases/23andme-patient-centric-research-portal.html">23andMe Patient-Centric Research Portal</a>
+
+            </td>
+
+            <td width="20%" case-type="all  intelligence-product  research-partnerships " class="case__type">
+              Intelligence Product, Research Partnerships
+            </td>
+
+            <td case-sector="all  health " class="case__sector">
+              Health
+            </td>
+            <td width="30%" case-data-type="all  disclosed-personal-data " class="case__data-type">
+              Disclosed Personal Data
+            </td>
+            <td width="15%" case-region="all worldwide" class="case__region">
+              Worldwide
+            </td>
+          </tr>
+          
+            <td width="25%" case-name="Data City | Data Nation" class="case__title">
+
+              
+              
+
+              
+
+              
+
+              
+
+              <a href="/cases/data-city--data-nation.html">Data City | Data Nation</a>
+
+            </td>
+
+            <td width="20%" case-type="all  prizes-challenges " class="case__type">
+              Prizes & Challenges
+            </td>
+
+            <td case-sector="all  infrastructure " class="case__sector">
+              Infrastructure
+            </td>
+            <td width="30%" case-data-type="all  disclosed-personal-data  observed-personal-data  disclosed-non-personal-data  observed-non-personal-data " class="case__data-type">
+              Disclosed Personal Data, Observed Personal Data, Disclosed Non-Personal Data, Observed Non-Personal Data
+            </td>
+            <td width="15%" case-region="all europe-and-central-asia" class="case__region">
+              Europe and Central Asia
             </td>
           </tr>
           
@@ -432,13 +1278,41 @@
 
     <!-- Yellow footer: -->
 <footer class='footer'>
+  <div class="row expanded footer--darken">
+    <div class="large-4 column"><h5 class="footer__panel">Partners</h5></div>
+    <div class="large-4 column"><h5 class="footer__panel">About</h5></div>
+    <div class="large-4 column"><h5 class="footer__panel text-align-center">Partners</h5></div>
+  </div>
   <div class="row expanded">
-    <div class="footer--darken"></div>
+    <div class="large-4 column">
+      
+      <nav class="footer__nav footer__panel">
+        <a href="/static/files/data-collaboratives.pdf">What is Data Collaboratives</a>
+        <a href="#">Data Collaboratives Explorer</a>
+        <a href="#">Designing a Data Collaborative</a>
+        <a href="#">Data Responsibility Framework</a>
+        <a href="#">Events</a>
+        <a href="#">Improving Children’s Lives through Data Collaboratives</a>
+        <a href="#">Additional Resources</a>
+      </nav>
+    </div>
+    <div class="large-4 column">
+      <div class="footer__text footer__panel">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium repellendus exercitationem, et ratione minus nihil eaque, a cumque, ad corrupti modi. Suscipit repellendus id, sed nihil illum iusto impedit nam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium repellendus exercitationem, et ratione minus nihil eaque, a cumque, ad corrupti modi. Suscipit repellendus id, sed nihil illum iusto impedit nam.</p>
+      </div>
+    </div>
+
+    <div class="large-4 column">
+      <div class="footer-logos footer__panel">
+        <a class="footer-logos__item footer-logos--on" href="http://thegovlab.org" tagret="_blank"><img src="/images/partners/on-foundation.png" alt="The Governance Lab"></a>
+        <a class="footer-logos__item footer-logos--unicef" href="http://thegovlab.org" tagret="_blank"><img src="/images/partners/unicef.png" alt="The Governance Lab"></a>
+        <a class="footer-logos__item footer-logos--govlab" href="http://thegovlab.org" tagret="_blank"><img src="/images/govlab-logo-white.png" alt="The Governance Lab"></a>
+        <a class="footer-logos__item footer-logos--nyu" href="http://engineering.nyu.edu/tandon" tagret="_blank"><img src="/images/partners/nyu.png" alt="NYU Tandon School of Engineering - New York University"></a>
+      </div>
+    </div>
+
   </div>
-  <div class="footer__icons">
-    <a class="footer__partner-logo" href="http://thegovlab.org" tagret="_blank"><img src="/images/govlab-logo-white.png" alt="The Governance Lab"></a>
-    <a class="footer__partner-logo" href="http://engineering.nyu.edu/tandon" tagret="_blank"><img src="/images/partners/nyu.png" alt="NYU Tandon School of Engineering - New York University"></a>
-  </div>
+  
 </footer>
 
 <!-- <footer class='footer'>
@@ -476,8 +1350,15 @@
     <script src="/scripts/jquery-2.1.4.min.js"></script>
     <script src="/scripts/slick.min.js"></script>
     <script src="/js/scripts.js"></script>
+    <script src="/js/introduction.js"></script>
+    <script src="/js/canvas.js"></script>
     <script src="/js/three.js"></script>
     <script src="/js/modal.js"></script>
     <script src="/js/resource-filter.js"></script>
+<!-- fullPage scripts -->
+    <script src="/scripts/jquery.fullPage.js"></script>
+    <script src="/scripts/scrolloverflow.min.js"></script>
+    <script src="/scripts/jquery.fullpage.extensions.min.js"></script>
+    <!-- <script src="/scripts/jquery.easings.min.js"></script> -->
   </body>
 </html>

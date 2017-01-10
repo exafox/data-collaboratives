@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="/scripts/styleguide-v2.css">
     <link rel="stylesheet" href="/scripts/slick.css"/>
     <link rel="stylesheet" href="/css/styles.css">
+    <link rel="stylesheet" href="/scripts/jquery.fullPage.css">
     <script src="https://use.typekit.net/mvc3cdb.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
@@ -26,15 +27,19 @@
     <header class="top-bar top-bar--transparent">
     <span class="top-bar__button js-trigger-menu">menu</span>
     <nav class="main-menu js-target-menu main-menu--left">
-      <a href="#">Introduction</a>
-      <a href="../cases.html">Data Collaboratives Explorer</a>
-      <a href="../canvas.html">Designing a Data Collaborative</a>
+      <a href="/introduction.html ">Introduction</a>
+      <a href="/cases.html">Data Collaboratives Explorer</a>
+      <a href="/canvas.html">Designing a Data Collaborative</a>
       <a href="/static/files/framework.pdf">Data Responsibility Framework</a>
-      <a href="../events.html">Events</a>
+      <a href="/events.html">Events</a>
       <a href="#">Current Projects</a>
-      <a href="../resources.html">Additional Resources</a>
+      <a href="/resources.html">Additional Resources</a>
     </nav>
      <a class="top-bar__logo" href="/"><img src="/images/govlab-logo-white.png" alt="The GovLab"></a>
+
+
+
+
     <!-- <span class="top-bar__button js-trigger-menu">more_vert</span>
     <nav class="main-menu js-target-menu main-menu--right">
       <a href="#">Github Repository</a>
@@ -713,19 +718,51 @@
 
 <style media="screen">
   .top-section {margin-top: 50px;}
-  .top-bar {background-color: #e5c810;}
+  .top-bar {background-color: rgba(0,0,0,0.8);}
 </style>
+
+
+
+
 
 
     <!-- Yellow footer: -->
 <footer class='footer'>
+  <div class="row expanded footer--darken">
+    <div class="large-4 column"><h5 class="footer__panel">Partners</h5></div>
+    <div class="large-4 column"><h5 class="footer__panel">About</h5></div>
+    <div class="large-4 column"><h5 class="footer__panel text-align-center">Partners</h5></div>
+  </div>
   <div class="row expanded">
-    <div class="footer--darken"></div>
+    <div class="large-4 column">
+      
+      <nav class="footer__nav footer__panel">
+        <a href="/static/files/data-collaboratives.pdf">What is Data Collaboratives</a>
+        <a href="#">Data Collaboratives Explorer</a>
+        <a href="#">Designing a Data Collaborative</a>
+        <a href="#">Data Responsibility Framework</a>
+        <a href="#">Events</a>
+        <a href="#">Improving Children’s Lives through Data Collaboratives</a>
+        <a href="#">Additional Resources</a>
+      </nav>
+    </div>
+    <div class="large-4 column">
+      <div class="footer__text footer__panel">
+        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium repellendus exercitationem, et ratione minus nihil eaque, a cumque, ad corrupti modi. Suscipit repellendus id, sed nihil illum iusto impedit nam. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Laudantium repellendus exercitationem, et ratione minus nihil eaque, a cumque, ad corrupti modi. Suscipit repellendus id, sed nihil illum iusto impedit nam.</p>
+      </div>
+    </div>
+
+    <div class="large-4 column">
+      <div class="footer-logos footer__panel">
+        <a class="footer-logos__item footer-logos--on" href="http://thegovlab.org" tagret="_blank"><img src="/images/partners/on-foundation.png" alt="The Governance Lab"></a>
+        <a class="footer-logos__item footer-logos--unicef" href="http://thegovlab.org" tagret="_blank"><img src="/images/partners/unicef.png" alt="The Governance Lab"></a>
+        <a class="footer-logos__item footer-logos--govlab" href="http://thegovlab.org" tagret="_blank"><img src="/images/govlab-logo-white.png" alt="The Governance Lab"></a>
+        <a class="footer-logos__item footer-logos--nyu" href="http://engineering.nyu.edu/tandon" tagret="_blank"><img src="/images/partners/nyu.png" alt="NYU Tandon School of Engineering - New York University"></a>
+      </div>
+    </div>
+
   </div>
-  <div class="footer__icons">
-    <a class="footer__partner-logo" href="http://thegovlab.org" tagret="_blank"><img src="/images/govlab-logo-white.png" alt="The Governance Lab"></a>
-    <a class="footer__partner-logo" href="http://engineering.nyu.edu/tandon" tagret="_blank"><img src="/images/partners/nyu.png" alt="NYU Tandon School of Engineering - New York University"></a>
-  </div>
+  
 </footer>
 
 <!-- <footer class='footer'>
@@ -763,8 +800,15 @@
     <script src="/scripts/jquery-2.1.4.min.js"></script>
     <script src="/scripts/slick.min.js"></script>
     <script src="/js/scripts.js"></script>
+    <script src="/js/introduction.js"></script>
+    <script src="/js/canvas.js"></script>
     <script src="/js/three.js"></script>
     <script src="/js/modal.js"></script>
     <script src="/js/resource-filter.js"></script>
+<!-- fullPage scripts -->
+    <script src="/scripts/jquery.fullPage.js"></script>
+    <script src="/scripts/scrolloverflow.min.js"></script>
+    <script src="/scripts/jquery.fullpage.extensions.min.js"></script>
+    <!-- <script src="/scripts/jquery.easings.min.js"></script> -->
   </body>
 </html>
