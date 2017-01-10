@@ -642,7 +642,7 @@ p.large-text {
 .results-section, .results-container {
   padding: 0; }
 
-.list {
+#list {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
@@ -656,7 +656,7 @@ p.large-text {
   position: relative;
   vertical-align: top;
   background-color: white;
-  padding: 30px 30px 90px;
+  padding: 30px 30px 20px;
   width: 100%;
   display: block;
   border-bottom: 1px solid rgba(0, 0, 0, 0.1);
@@ -733,6 +733,8 @@ p.large-text {
     font-size: .9rem;
     min-height: 3rem; }
 
+.result-item__taxonomy p {
+  padding: 0; }
 .result-item__short-description p {
   font-size: .9rem; }
 
