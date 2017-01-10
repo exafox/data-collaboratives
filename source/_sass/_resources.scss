@@ -93,7 +93,7 @@
       float: right;
       width: calc(100% - 90px);
     }
-    p { 
+    p {
       font-size: .6rem;
       text-transform: uppercase;
       display: inline-block;
@@ -119,9 +119,6 @@
     //   opacity: 1;
     //   text-decoration: none;
     // }
-
-
-
   }
 
   &__authors {
@@ -132,15 +129,9 @@
 
 .result-item {
   &__short-description {
-    p { 
+    p {
       font-size: .9rem;
     }
-  }
-}
-
-.modal {
-  .modal__header--yellow {
-    background-color: $main-color;
   }
 }
 
