@@ -163,7 +163,7 @@ data-type:
               {% assign char = "|" %}
 
               {% capture link %}
-                {{ link | remove: "'"  | replace: char, "0000" | replace: "&", "0000" }}
+                {{ link | remove: "'"  | replace: char, "0101010" | replace: "&", "0101010" }}
               {% endcapture %}
 
               {% assign slugged-link = link %}
@@ -172,7 +172,7 @@ data-type:
                 {{ slugged-link | slugify }}
               {% endcapture %}
 
-              <a href="/cases/{{ slugged-link | remove: '0000' | rstrip | lstrip }}.html">{{ item.caseStudy }}</a>
+              <a href="/cases/{{ slugged-link | remove: '0101010' | rstrip | lstrip }}.html">{{ item.caseStudy }}</a>
 
             </td>
 
