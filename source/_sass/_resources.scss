@@ -7,15 +7,16 @@
 
 .results-section, .results-container { padding: 0;}
 
-.list {
+#list {
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
-  
+
   -webkit-flex-wrap: wrap;
   -ms-flex-wrap: wrap;
   flex-wrap: wrap;
 }
+
 .result-item {
   font-weight: 300;
   display: inline-block;
