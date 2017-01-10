@@ -22,7 +22,7 @@
   position: relative;
   vertical-align: top;
   background-color: white;
-  padding: 30px 30px 90px;
+  padding: 30px 30px 20px;
   width: 100%;
   display: block;
   border-bottom: 1px solid rgba(black, .1);
@@ -136,10 +136,16 @@
 }
 
 .result-item {
+  &__taxonomy {
+    p { padding: 0; }
+  }
   &__short-description {
     p {
       font-size: .9rem;
     }
+  }
+  .material-icons {
+    // color: $main-color;
   }
 }
 

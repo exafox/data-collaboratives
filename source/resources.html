@@ -72,21 +72,26 @@ title: Resources | Data Collaboratives
             </p>
 
             <!-- Publication -->
+            {% if resource.publication %}
             <div class="result-item__taxonomy result-item__taxonomy--publication">
               <span class="result-item__taxonomy__key">Publication</span>
                 <p>{{resource.publication}}</p>
               </span>
             </div>
+            {% endif %}
 
             <!-- Publication Date -->
+            {% if resource.pubDate %}
             <div class="result-item__taxonomy result-item__taxonomy--publication-date">
               <span class="result-item__taxonomy__key">Publication Date</span>
               <span class="result-item__taxonomy__value">
                 <p class="result-item__tag">{{resource.pubDate | date: "%Y" }}</p>
               </span>
             </div>
+            {% endif %}
 
             <!-- Resource type -->
+            {% if resource.type %}
             <div class="result-item__taxonomy result-item__taxonomy--type">
               <span class="result-item__taxonomy__key">Type</span>
               <span class="result-item__taxonomy__value">
@@ -95,8 +100,10 @@ title: Resources | Data Collaboratives
                 {% endfor %}
               </span>
             </div>
+            {% endif %}
 
-            <!-- Resource type -->
+            <!-- Resource theme -->
+            {% if resource.theme %}
             <div class="result-item__taxonomy result-item__taxonomy--type">
               <span class="result-item__taxonomy__key">Themes</span>
               <span class="result-item__taxonomy__value resource-theme" data-theme="all {% for resource_theme in resource.theme %} {{resource_theme | slugify }} {%endfor%}">
@@ -105,12 +112,14 @@ title: Resources | Data Collaboratives
                 {% endfor %}
               </span>
             </div>
+            {% endif %}
 
             <!-- Short Description -->
+            {% if resource.shortDescription %}
             <div class="result-item__short-description">
-              <p>{{resource.shortDescription }}</p>
+              <p>{{resource.shortDescription | markdownify }}</p>
             </div>
-
+            {% endif %}
             {% include resource-modal.html %}
 
           </div>
