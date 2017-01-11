@@ -1,69 +1,46 @@
 <div class="modal js-target-modal">
-    <header class="modal__header modal__header--gray">
-        <i class="modal__close material-icons js-close-modal">close</i>
-        <h1 class="modal__title">{{resource.title}}</h1>
-    </header>
-    <section class="modal__content">
-        <h3>{{resource.title}}</h3>
-        <p class="result-item__authors">
-          {{resource.authors}}
-        </p>
+  <header class="modal__header modal--top-section">
+    <div class="modal__resource-type">
+      {% for resource_type in resource.type %}
+        <span>{{resource_type}}</span>
+      {% endfor %}  
+    </div>
+    
+    <i class="modal__close material-icons js-close-modal">close</i>
+    <h1 class="modal__title">{{resource.title}}</h1>
+    <h2 class="modal__authors">{{resource.authors}}</h2>
+    {% if resource.publication %}
+    <p class="modal__publication"><span>Published in</span> {{resource.publication}}{% if resource.pubDate %} in {{resource.pubDate | date: "%Y" }}{% endif %}</p>
 
-        <!-- Publication -->
-        {% if resource.publication %}
-        <div class="result-item__taxonomy result-item__taxonomy--publication">
-          <span class="result-item__taxonomy__key">Publication</span>
-            <p>{{resource.publication | markdownify }}</p>
-          </span>
-        </div>
-        {% endif %}
+    {% elsif resource.pubDate %}
+    <p class="modal__publication">Published in {{resource.pubDate | date: "%Y" }}</p>
+    {% endif %}
 
-        <!-- Publication Date -->
-        {% if resource.pubDate %}
-        <div class="result-item__taxonomy result-item__taxonomy--publication-date">
-          <span class="result-item__taxonomy__key">Publication Date</span>
-          <span class="result-item__taxonomy__value">
-            <p class="result-item__tag">{{resource.pubDate | date: "%Y" }}</p>
-          </span>
-        </div>
-        {% endif %}
+    <!-- URL -->
+    {% if resource.url %}
+    <div class="floating-button">
+      <div class="floating-button__wrapper">
+        <a class="button button--floating button--black" target="_blank" href="{{resource.url}}" title="{{resource.title}}">Go to Resource</a>  
+      </div>
+      
+      </span>
+    </div>
+    {% endif %}
+  </header>
 
-        <!-- Resource type -->
-        {% if resource.type %}
-        <div class="result-item__taxonomy result-item__taxonomy--type">
-          <span class="result-item__taxonomy__key">Type</span>
-          <span class="result-item__taxonomy__value">
-            {% for resource_type in resource.type %}
-              <p class="result-item__tag">{{resource_type}}</p>
-            {% endfor %}
-          </span>
-        </div>
-        {% endif %}
+  <section class="modal__content">
 
-        <!-- URL -->
-        {% if resource.url %}
-        <div class="result-item__taxonomy result-item__taxonomy--url">
-          <span class="result-item__taxonomy__key">View Resource</span>
-            <a target="_blank" href="{{resource.url}}" title="{{resource.title}}"><i class="material-icons">launch</i></a>
-          </span>
-        </div>
-        {% endif %}
+      <!-- Short Description -->
+      {% if resource.shortDescription %}
+      {% if resource.annotation == ""%}
+      <div class="result-item__short-description">
+        <p>{{resource.shortDescription | markdownify  }}</p>
+      </div>
+      {% endif %}
+      {% endif %}
 
-
-        <!-- Short Description -->
-        {% if resource.shortDescription %}
-        {% if resource.annotation == ""%}
-        <div class="result-item__short-description">
-          <p>{{resource.shortDescription | markdownify  }}</p>
-        </div>
-        {% endif %}
-        {% endif %}
-
-        {% if resource.annotation %}
-        <p>{{resource.annotation | markdownify }}</p>
-        {% endif %}
-    </section>
-    <footer class="modal__controls">
-        <a class="button js-close-modal" href="#">OK</a>
-    </footer>
+      {% if resource.annotation %}
+      <p>{{resource.annotation | markdownify }}</p>
+      {% endif %}
+  </section>
 </div>
