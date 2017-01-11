@@ -18,6 +18,17 @@ $(document).ready(function() {
   //SORT LIST ON DOC READY
   caseList.sort('case__title', { order: "asc" });
 
+
+
+  // get browser location
+
+
+  // if (browserString != undefined ) {
+  //   console.log('this is', itemToSearch)
+  //   caseList.search(browserString);
+  // };
+
+
   // SEARCH RESET
   function searchReset() {
     $(".fuzzy-search").val("");

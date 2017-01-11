@@ -43,7 +43,7 @@ data-type:
 
   <div class="page-section page-section--gray">
     <div class="row align-center">
-      
+
     </div>
 
     <div class="dropdown-wrapper filter-panel">
@@ -196,3 +196,20 @@ data-type:
     </div>
   </div>
 </div>
+
+<script>
+  var browserString = (window.location.href);
+  var includesParameter = browserString.includes("#");
+  var parameter = undefined;
+  //
+  if (includesParameter) {
+    console.log(includesParameter)
+    parameter = browserString.split("#", -1)
+    parameter = parameter.slice(-1).toString();
+    console.log(parameter)
+  } else {
+    console.log("nope")
+  }
+
+
+</script>

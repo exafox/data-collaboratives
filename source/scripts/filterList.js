@@ -1,6 +1,11 @@
 $(document).ready(function() {
 
-  var itemToSearch = nil
-  caseList.search('itemToSearch');
+  
 
+  $(".api").on('click', function() {
+    window.location.href = '/cases.html?#api';
+  });
+  //
+
+  // caseList.search('itemToSearch');
 })
