@@ -1,11 +1,33 @@
 .resources-page {
   .top-section {
-    padding-bottom: 60px;
+    padding-bottom: 30px;
     h1 {text-transform: uppercase;}
   }
 }
 
 .results-section, .results-container { padding: 0;}
+
+.filter-panel {
+  h4 { 
+    margin: 0 15px 0 0;
+    padding: 16px 0;
+    font-size: 1.4rem;
+    text-align: right;
+  }
+
+  .select:before {
+    color: white;
+    // fixing a bug in styleguide .select component.
+    // Let's port the 2 lines below to the styleguide codebase
+    z-index: 1;
+    pointer-events: none;
+    // end of styleguide fix
+  }
+
+  .select, 
+  .button { margin: 12px 5px; }
+  .button--icon-only { padding: 10px 12px; }
+}
 
 #list {
   display: -webkit-flex;
@@ -40,7 +62,7 @@
     }
   }
 
-  @include breakpoint($large) {
+  @include breakpoint($large-up) {
     width: calc(100% / 3);
     margin: 0;
   }
@@ -72,81 +94,62 @@
   &__name {
     font-size: 1rem;
     text-transform: none;
-    min-height: 4.5rem;
-  }
-
-  &__authors a {
-    font-size: .9rem;
-    text-decoration: none !important;
-    color: rgba($main-color, .6);
-
-    &:hover {
-      text-decoration: none;
-      color: rgba($main-color, 1);
-
-    }
-  }
-
-  &__taxonomy {
-    font-size: .8rem;
-    display: block;
-    overflow: hidden;
-    margin-bottom: 5px;
-
-    &__key {
-      float: left;
-      width: 90px;
-    }
-
-    &__value {
-      float: right;
-      width: calc(100% - 90px);
-    }
-    p {
-      font-size: .6rem;
-      text-transform: uppercase;
-      display: inline-block;
-      padding: 3px 8px;
-      margin-bottom: 3px;
-      margin-top: -1px;
-      opacity: .7;
-    }
-  }
-
-  &__tag {
-    font-size: .6rem;
-    text-transform: uppercase;
-    display: inline-block;
-    padding: 3px 8px;
-    // background-color: rgba(black, .1);
-    margin-bottom: 3px;
-    opacity: .7;
-
-    &:empty { display: none; }
-
-    // &:hover {
-    //   opacity: 1;
-    //   text-decoration: none;
-    // }
+    min-height: 3.5rem;
   }
 
   &__authors {
     font-size: .9rem;
     min-height: 3rem;
-  }
-}
 
-.result-item {
-  &__taxonomy {
-    p { padding: 0; }
-  }
-  &__short-description {
-    p {
+    a {
       font-size: .9rem;
+      text-decoration: none !important;
+      color: rgba($main-color, .6);
+
+      &:hover {
+        text-decoration: none;
+        color: rgba($main-color, 1);
+
+      }
     }
   }
-  .material-icons {
-    // color: $main-color;
+
+  &__publication {
+    font-size: .9rem;
+    min-height: 2.5rem;
+    margin-bottom: 15px;
+
+    p {
+      margin: 0;
+      font-style: italic;
+      color: rgba(black, .4);
+    }
+  }
+
+  &__taxonomy {
+    font-size: .8rem;
+    display: flex;
+    overflow: hidden;
+    margin-bottom: 5px;
+
+    &__key {
+      width: 60px;
+    }
+
+    &__value {
+      flex: 1;
+    }
+    
+    p {
+      font-size: .7rem;
+      text-transform: uppercase;
+      display: inline-block;
+      padding: 3px 8px;
+      margin: 0;
+      margin-top: -1px;
+      opacity: .7;
+      background-color: rgba(black, .1);
+    }
   }
 }
 

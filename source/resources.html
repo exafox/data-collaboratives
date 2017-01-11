@@ -9,9 +9,9 @@ title: Resources | Data Collaboratives
   </div>
 
   <div class="page-section page-section--gray">
-    <div class="row align-center">
+    <!-- <div class="row align-center">
       <h4>Filters</h4>
-    </div>
+    </div> -->
 
     <!-- create dropdown arrays from contentful-->
     {% assign type_list = "" | split: "" %}
@@ -29,9 +29,12 @@ title: Resources | Data Collaboratives
     {% assign type_list = type_list | uniq %}
     {% assign theme_list = theme_list | uniq %}
 
-    <div class="dropdown-wrapper">
-      <div class="row large-unstack align-spaced">
-        <div class="large-offset-1 columns resource-type">
+    <div class="filter-panel dropdown-wrapper">
+      <div class="row expanded large-unstack align-spaced collapse">
+        <div class="large-2 column">
+          <h4>Filters</h4>
+        </div>
+        <div class="columns resource-type">
           <div class="select">
             <select data-filter="resource-type" id="first" class="dropdown-content">
               <option id="all">Filter by Type</option>
@@ -52,7 +55,7 @@ title: Resources | Data Collaboratives
           </div>
         </div>
         <div class="columns clear_filters">
-          <button type="button" name="button">CLEAR ALL</button>
+          <button class="button button--icon-only" type="button" name="button"><i class="material-icons">close</i></button>
         </div>
       </div>
     </div>
@@ -61,33 +64,31 @@ title: Resources | Data Collaboratives
   {% assign resources = site.data.contentful.spaces.cases.resources %}
 
   <div class="page-section results-section">
-    <div class="row expanded">
+    <div class="row expanded collapse">
       <div id="resources" class="columns results-container">
         <div id="list" class="list">
           {% for resource in resources %}
-          <div class="result-item js-open-modal" style="display: inline-block; margin-left: -4px;">
+          <div class="result-item js-open-modal">
             <h3 class="result-item__name">{{resource.title}}</h3>
-            <p class="result-item__authors">
-              {{resource.authors}}
-            </p>
-
-            <!-- Publication -->
-            {% if resource.publication %}
-            <div class="result-item__taxonomy result-item__taxonomy--publication">
-              <span class="result-item__taxonomy__key">Publication</span>
-                <p>{{resource.publication}}</p>
-              </span>
+            <p class="result-item__authors">{{resource.authors}}</p>
+            <!-- Short Description -->
+            {% if resource.shortDescription %}
+            <div class="result-item__short-description">
+              <p>{{resource.shortDescription | markdownify }}</p>
             </div>
             {% endif %}
 
-            <!-- Publication Date -->
-            {% if resource.pubDate %}
-            <div class="result-item__taxonomy result-item__taxonomy--publication-date">
-              <span class="result-item__taxonomy__key">Publication Date</span>
-              <span class="result-item__taxonomy__value">
-                <p class="result-item__tag">{{resource.pubDate | date: "%Y" }}</p>
-              </span>
+            <!-- Publication -->
+            {% if resource.publication %}
+            <div class="result-item__publication">
+              <p><span>Published in</span> {{resource.publication}}{% if resource.pubDate %} in {{resource.pubDate | date: "%Y" }}{% endif %}</p>
             </div>
+
+            {% elsif resource.pubDate %}
+            <div class="result-item__publication">
+              <p>Published in {{resource.pubDate | date: "%Y" }}</p>
+            </div>
+
             {% endif %}
 
             <!-- Resource type -->
@@ -114,12 +115,7 @@ title: Resources | Data Collaboratives
             </div>
             {% endif %}
 
-            <!-- Short Description -->
-            {% if resource.shortDescription %}
-            <div class="result-item__short-description">
-              <p>{{resource.shortDescription | markdownify }}</p>
-            </div>
-            {% endif %}
+            
             {% include resource-modal.html %}
 
           </div>
