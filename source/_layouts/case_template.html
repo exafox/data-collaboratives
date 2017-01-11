@@ -94,8 +94,12 @@ layout: default
           <div class="regions__map regions--asia">
             {% include map.html %}
           </div>
-        {% elsif map_region == 'Sub-Saharan Africa' or map_region == 'Middle East and North Africa' %}
+        {% elsif map_region == 'Sub-Saharan Africa'%}
           <div class="regions__map regions--africa">
+            {% include map.html %}
+          </div>
+        {% elsif map_region == 'Middle East and North Africa' %}
+          <div class="regions__map regions--north-africa">
             {% include map.html %}
           </div>
         {% elsif map_region == 'Europe and Central Asia' %}
