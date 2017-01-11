@@ -8,6 +8,8 @@
 
   .select {
     margin-bottom: 25px;
+    margin-right: 10px;
+
     select {
       width: 110%;
     }
@@ -54,9 +56,9 @@
 .table-sortable {
   &--clear-all {
     height: 42px;
-    background-color: rgba(0, 0, 0, 0.1);
+
     &:hover {
-      background-color: rgba(0, 0, 0, 0.2);
+      // why we have this? There is no hover in $small????
       @include breakpoint($small-only) {
         background-color: transparent;
       }
@@ -150,5 +152,18 @@
 
        &:hover { background-color: darken($main-color, 10); }
     }
+  }
+}
+
+
+.table-sortable__head-cell {
+  form {
+    margin-top: 0;
+    padding: 0;
+  }
+
+  input,
+  input:focus {
+    padding: 19px 15px 18px;
   }
 }

@@ -56,9 +56,9 @@ $gray: rgba(black, 0.7);
   font-feature-settings: 'liga';
 }
 
-// @mixin placeholder {
-//   &::-webkit-input-placeholder { @content }
-//   &:-moz-placeholder { @content }
-//   &::-moz-placeholder { @content }
-//   &:-ms-input-placeholder { @content }
-// }
+@mixin placeholder {
+  &::-webkit-input-placeholder { @content }
+  &:-moz-placeholder { @content }
+  &::-moz-placeholder { @content }
+  &:-ms-input-placeholder { @content }
+}

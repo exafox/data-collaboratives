@@ -7,21 +7,21 @@
 
 .results-section, .results-container { padding: 0;}
 
+.select:before {
+  color: white;
+  // fixing a bug in styleguide .select component.
+  // Let's port the 2 lines below to the styleguide codebase
+  z-index: 1;
+  pointer-events: none;
+  // end of styleguide fix
+}
+
 .filter-panel {
   h4 { 
     margin: 0 15px 0 0;
     padding: 16px 0;
     font-size: 1.4rem;
     text-align: right;
-  }
-
-  .select:before {
-    color: white;
-    // fixing a bug in styleguide .select component.
-    // Let's port the 2 lines below to the styleguide codebase
-    z-index: 1;
-    pointer-events: none;
-    // end of styleguide fix
   }
 
   .select, 

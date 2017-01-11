@@ -43,13 +43,14 @@ data-type:
 
   <div class="page-section page-section--gray">
     <div class="row align-center">
-      <h4>Filters</h4>
+      
     </div>
 
-    <div class="dropdown-wrapper">
-      <div class="row large-unstack">
+    <div class="dropdown-wrapper filter-panel">
+      <div class="row large-unstack expanded collapse">
+        <div class="column large-1"><h4>Filters</h4></div>
 
-        <div class="columns case__region">
+        <div class="columns large-3 case__region">
           <div class="select">
             <select data-filter="case__region" id="first" class="dropdown-content">
               <option id="all">Filter by Region</option>
@@ -60,7 +61,7 @@ data-type:
           </div>
         </div>
 
-        <div class="columns case__sector">
+        <div class="columns large-3 case__sector">
           <div class="select">
             <select data-filter="case__sector" id="second" class="dropdown-content">
               <option id="all">Filter by Sector</option>
@@ -71,7 +72,7 @@ data-type:
           </div>
         </div>
 
-        <div class="columns case__type">
+        <div class="columns large-3 case__type">
           <div class="select">
             <select data-filter="case__type" id="third" class="dropdown-content">
               <option id="all">Filter by Collaborative Type</option>
@@ -82,7 +83,7 @@ data-type:
           </div>
         </div>
 
-        <div class="columns case__data-type">
+        <div class="columns large-3 case__data-type">
           <div class="select">
             <select data-filter="case__data-type" id="fourth" class="dropdown-content">
               <option id="all">Filter by Data Type</option>
@@ -93,13 +94,12 @@ data-type:
           </div>
         </div>
 
-        <div class="close clear_filters table-sortable__control table-sortable__control--simple table-sortable--clear-all">
-
-          <div class="row clear-all-text">
-            <button class="" type="button" name="button">CLEAR ALL</button>
+        <div class="column large-1">
+          <div class="close clear_filters table-sortable__control table-sortable__control--simple table-sortable--clear-all">
+            <div class="clear-all-text">
+              <button class="button button--icon-only" type="button" name="button" style="margin: 4px 0;"><i class="material-icons close-icon">close</i></button>
+            </div>
           </div>
-
-          <i class="material-icons close-icon">close</i>
         </div>
       </div>
     </div>
