@@ -34,7 +34,6 @@
     background-color: $main-color;
     padding: 0;
 
-
     h1, h2 {
       text-align: center;
       width: 90%;
@@ -64,7 +63,7 @@
     font-weight: 500;
   }
 
-  &__resource-type {
+  &__type {
     float: left;
     padding: 15px 20px;
     
@@ -72,10 +71,15 @@
       font-weight: 600;
       text-transform: uppercase;
       color: white;
-
+      margin-right: 10px;
     }
   }
 
+  &__location {
+    &:last-child {
+      padding-bottom: 30px;
+    }
+  }
 
   &__content {
     padding: 45px;

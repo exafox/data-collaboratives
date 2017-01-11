@@ -1,7 +1,17 @@
 <div class="modal js-target-modal">
   <header class="modal__header modal--top-section">
+    {% if event.sessionType %}
+    <div class="modal__type">
+      {% if event.conferenceType %}
+        <span>{{event.conferenceType}}</span>
+      {% endif %}
+      
+      <span>{{event.sessionType}}</span>
+    </div>
+    {% endif %}
     <i class="modal__close material-icons js-close-modal">close</i>
     <h1 class="modal__title">{{event.eventName}}</h1>
+    <h2 class="modal__location">{{event.location}}</h2>
     <!-- URL -->
     {% if event.url %}
     <div class="floating-button">
@@ -13,10 +23,8 @@
   </header>
 
   <section class="modal__content">
-      <p>{{event.location}}</p>
-      {% if event.conferenceType %}
-        <p>Type: {{event.conferenceType}}</p>
-      {% endif %}
+      <p></p>
+      
       {% if event.eventDescription %}
       <p>{{event.eventDescription | markdownify }}</p>
       {% endif %}
@@ -24,10 +32,6 @@
       {% if event.sessionName %}
       <p><b>Session Information:</b></p>
       <p>{{event.sessionName}}</p>
-      {% endif %}
-
-      {% if event.sessionType %}
-        <p>Session Type: {{event.sessionType}}</p>
       {% endif %}
 
       {% if event.sessionDescription %}

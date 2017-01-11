@@ -20,8 +20,8 @@ title: Events | Data Collaboratives
       {% assign eventDate = event.eventDate  %}
       {% if eventDate >= currentDate %}
       <div class="result-item result-item--event js-open-modal">
+        <h4 class="result-item--event__location">{{event.location}}</h4>
         <h3 class="result-item--event__name">{{event.eventName}}</h3>
-        
         <div class="result-item--event__date fancy-date">
           <div class="fancy-date__stack">
           <span class="fancy-date__weekday">{{event.eventDate | date: "%A" }}</span>
