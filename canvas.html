@@ -20,7 +20,9 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.3.0/list.min.js"></script>
     <script src="/js/modernizr.js"></script>
     <script src="/scripts/list.fuzzysearch.js"></script>
+    <script src="/scripts/filterList.js"></script>
     <script src="/scripts/listScripts.js"></script>
+
   </head>
 
   <body>
@@ -302,9 +304,11 @@ diverse datasets, but also collaboration between people and organizations with d
   <li>Evaluate and review internal capacity</li>
   <li>Build high-level internal support</li>
   <li>Identify internal data literacy and human capital</li>
-  <li>Collect and share examples of how other organizations have leveraged data
-    <h5 id="external">External</h5>
-  </li>
+  <li>Collect and share examples of how other organizations have leveraged data</li>
+</ul>
+
+<h5 id="external">External</h5>
+<ul>
   <li>Which entities could provide additional competencies (data science and otherwise)?</li>
 </ul>
 </div>
@@ -644,47 +648,66 @@ diverse datasets, but also collaboration between people and organizations with d
               </div>
               <div class="large-8 column">
                 <div class="canvas-step__content"><h5 id="understand-risks-across-the-data-lifecycle-with-particular-focus-on-the-sharing-and-use-stages">Understand risks across the data lifecycle (with particular focus on the sharing and use stages)</h5>
-<h6 id="collection">Collection:</h6>
 <ul>
-  <li>Collection of inaccurate or “dirty” data</li>
-  <li>Unauthorized data collection</li>
-  <li>Incomplete, non-representative sampling
-    <h6 id="analysis--processing">Analysis &amp; Processing</h6>
+  <li><strong>Collection</strong>
+    <ul>
+      <li>Collection of inaccurate or “dirty” data</li>
+      <li>Unauthorized data collection</li>
+      <li>Incomplete, non-representative sampling</li>
+    </ul>
   </li>
-  <li>Insufficient, outdated, or inflexible security provisions</li>
-  <li>Aggregation/correlation of incomparable datasets</li>
-  <li>Lack of academic rigor</li>
-  <li>Each of the above can heavily influence outcome of study or misrepresent the data
-    <h6 id="sharing">Sharing</h6>
+  <li><strong>Analysis &amp; Processing</strong>
+    <ul>
+      <li>Insufficient, outdated, or inflexible security provisions</li>
+      <li>Aggregation/correlation of incomparable datasets</li>
+      <li>Lack of academic rigor</li>
+      <li>Each of the above can heavily influence outcome of study or misrepresent the data</li>
+    </ul>
   </li>
-  <li>Incompatible cultural or institutional norms or expectations</li>
-  <li>Lack of stewardship on both ends to ensure responsible sharing of personally identifiable information as it travels across cases and sectors</li>
-  <li>Improper or unauthorized access to shared data</li>
-  <li>Conflicting legal jurisdictions and different levels of security
-    <h6 id="use">Use</h6>
+  <li><strong>Sharing</strong>
+    <ul>
+      <li>Incompatible cultural or institutional norms or expectations</li>
+      <li>Lack of stewardship on both ends to ensure responsible sharing of personally identifiable information as it travels across cases and sectors</li>
+      <li>Improper or unauthorized access to shared data</li>
+      <li>Conflicting legal jurisdictions and different levels of security</li>
+    </ul>
   </li>
-  <li>Controversial or incongruous data usage</li>
-  <li>Misinterpretation of data</li>
-  <li>Possible re-identification of individuals</li>
-  <li>Decisional interference
-    <h5 id="what-are-the-relevant-legal-political-and-cultural-concerns">What are the relevant legal, political and cultural concerns</h5>
-    <h6 id="ensuring-proprietary-data-isnt-subject-to-freedom-of-information-laws">Ensuring proprietary data isn’t subject to Freedom of Information laws</h6>
-    <h6 id="does-the-data-collaborative-or-the-partner-raise-any-sensitive-political-concerns">Does the data collaborative (or the partner) raise any sensitive political concerns</h6>
-    <h6 id="does-the-collaboration-comport-with-the-cultural-and-societal-expectations-of-all-parties">Does the collaboration comport with the cultural (and societal) expectations of all parties?</h6>
-    <h5 id="list-potential-unintended-consequences">List potential unintended consequences</h5>
-    <h6 id="profiling-and-discrimination">Profiling and Discrimination</h6>
-    <h6 id="entrenching-existing-biases-and-power-dynamics">Entrenching Existing Biases and Power Dynamics</h6>
-    <h5 id="anticipate-potential-harms-to-corporations">Anticipate potential harms to corporations</h5>
-    <h6 id="criminal-or-civil-legal-investigations-andor-regulatory-fines">Criminal or civil legal investigations and/or regulatory fines;</h6>
-    <h6 id="loss-of-regulatory-licenses-standards-certifications">Loss of regulatory licenses, standards, certifications;</h6>
-    <h6 id="reputational-and-industrial-damages--impacting-competitive-positioning-and-advantage">Reputational and industrial damages – impacting competitive positioning and advantage;</h6>
+  <li><strong>Use</strong>
+    <ul>
+      <li>Controversial or incongruous data usage</li>
+      <li>Misinterpretation of data</li>
+      <li>Possible re-identification of individuals</li>
+      <li>Decisional interference</li>
+    </ul>
   </li>
-  <li>share price and/or cost of capital;</li>
-  <li>customer attrition rates;</li>
-  <li>employee recruitment, productivity and retention
-    <h6 id="overall-increase-in-operating-expenses">Overall increase in operating expenses</h6>
-    <h5 id="anticipate-potential-operational-challenges">Anticipate potential operational challenges</h5>
+</ul>
+
+<h5 id="what-are-the-relevant-legal-political-and-cultural-concerns">What are the relevant legal, political and cultural concerns</h5>
+<ul>
+  <li>Ensuring proprietary data isn’t subject to Freedom of Information laws</li>
+  <li>Does the data collaborative (or the partner) raise any sensitive political concerns</li>
+  <li>Does the collaboration comport with the cultural (and societal) expectations of all parties?</li>
+</ul>
+
+<h5 id="list-potential-unintended-consequences">List potential unintended consequences</h5>
+<ul>
+  <li>Profiling and Discrimination</li>
+  <li>Entrenching Existing Biases and Power Dynamics</li>
+</ul>
+
+<h5 id="anticipate-potential-harms-to-corporations">Anticipate potential harms to corporations</h5>
+<ul>
+  <li>Criminal or civil legal investigations and/or regulatory fines;</li>
+  <li>Loss of regulatory licenses, standards, certifications;</li>
+  <li>Reputational and industrial damages – impacting competitive positioning and advantage;
+    <ul>
+      <li>share price and/or cost of capital;</li>
+      <li>customer attrition rates;</li>
+      <li>employee recruitment, productivity and retention</li>
+    </ul>
   </li>
+  <li>Overall increase in operating expenses</li>
+  <li>Anticipate potential operational challenges</li>
 </ul>
 </div>
               </div>

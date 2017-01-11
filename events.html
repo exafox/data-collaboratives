@@ -20,7 +20,9 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.3.0/list.min.js"></script>
     <script src="/js/modernizr.js"></script>
     <script src="/scripts/list.fuzzysearch.js"></script>
+    <script src="/scripts/filterList.js"></script>
     <script src="/scripts/listScripts.js"></script>
+
   </head>
 
   <body>
@@ -59,34 +61,51 @@
   <div class="divider">
     <h1>Upcoming Events</h1>
   </div>
-
-  <div class="page-section">
-    <div class="row expanded align-center">
-      <div class="large-8 column">
-        
-        
-
-        
-        <div class="individual-event js-open-modal">
-          <h5><a class="events-page__title" href="#">United Nations World Data Forum</a></h5>
-          <p>Saturday, January 14, 2017</p>
-          <div class="modal js-target-modal">
-  <header class="modal__header modal__header--gray">
-      <i class="modal__close material-icons js-close-modal">close</i>
-      <h1 class="modal__title">United Nations World Data Forum</h1>
+  <div id="events" class="columns results-container">
+    <div id="list" class="list">
+    
+      
+      
+      <div class="result-item result-item--event js-open-modal">
+        <h4 class="result-item--event__location">Cape Town, South Africa</h4>
+        <h3 class="result-item--event__name">United Nations World Data Forum</h3>
+        <div class="result-item--event__date fancy-date">
+          <div class="fancy-date__stack">
+          <span class="fancy-date__weekday">Saturday</span>
+          <span class="fancy-date__month">January</span>
+          </div>        
+          <span class="fancy-date__day"> 14</span>
+          <!-- <span class="fancy-date__year">2017</span> -->
+        </div>
+        <div class="modal js-target-modal">
+  <header class="modal__header modal--top-section">
+    
+    <div class="modal__type">
+      
+        <span>Forum</span>
+      
+      
+      <span>Panel</span>
+    </div>
+    
+    <i class="modal__close material-icons js-close-modal">close</i>
+    <h1 class="modal__title">United Nations World Data Forum</h1>
+    <h2 class="modal__location">Cape Town, South Africa</h2>
+    <!-- URL -->
+    
+    <div class="floating-button">
+      <div class="floating-button__wrapper">
+        <a class="button button--floating button--black" target="_blank" href="" title="http://undataforum.org">Go to Website</a>  
+      </div>
+    </div>
+    
   </header>
-<section class="modal__content">
-    <h4 class="modal__sub-title">United Nations World Data Forum</h4>
-    
-      <a class="modal__url" href="http://undataforum.org">Go to website</a>
-    
 
-    <p>Cape Town, South Africa</p>
-    
-      <p>Type: Forum</p>
-    
-    
-    <p><p>The first UN World Data Forum will be hosted by Statistics South Africa from 15 to 18 January 2017, with support from the Statistics Division of the UN Department of Economic and Social Affairs, under the guidance of the United Nations Statistical Commission and the High-level Group for Partnership, Coordination and Capacity-Building for Statistics for the 2030 Agenda for Sustainable Development.</p>
+  <section class="modal__content">
+      <p></p>
+      
+      
+      <p><p>The first UN World Data Forum will be hosted by Statistics South Africa from 15 to 18 January 2017, with support from the Statistics Division of the UN Department of Economic and Social Affairs, under the guidance of the United Nations Statistical Commission and the High-level Group for Partnership, Coordination and Capacity-Building for Statistics for the 2030 Agenda for Sustainable Development.</p>
 
 <p>It will be an opportunity for data and statistics experts from around the world to:</p>
 
@@ -97,309 +116,148 @@
   <li><strong>LAUNCH</strong> new initiatives and solutions that will deliver better data for all.</li>
 </ul>
 </p>
-    
+      
 
-    
-    <p><b>Session Information:</b></p>
-    <p>My name is Max: My world is fire. And blood. </p>
-    
+      
+      <p><b>Session Information:</b></p>
+      <p>My name is Max: My world is fire. And blood. </p>
+      
 
-    
-      <p>Session Type: Panel</p>
-    
+      
+        <p>Once, I was a cop; a road warrior searching for a righteous cause. As the world fell, each of us in our own way was broken. It was hard to know who was more crazy. Me... or everyone else. </p>
+      
+  </section>
 
-    
-      <p>Once, I was a cop; a road warrior searching for a righteous cause. As the world fell, each of us in our own way was broken. It was hard to know who was more crazy. Me... or everyone else. </p>
-    
-</section>
-<footer class="modal__controls">
-    <a class="button js-close-modal" href="#">OK</a>
-</footer>
 </div>
-
-        </div>
-        
-        
-        
-
-        
-        <div class="individual-event js-open-modal">
-          <h5><a class="events-page__title" href="#">Accelerating Data Collaboratives: A Workshop on Cross-Sector Data Sharing for Public Problem-Solving</a></h5>
-          <p>Sunday, April 30, 2017</p>
-          <div class="modal js-target-modal">
-  <header class="modal__header modal__header--gray">
-      <i class="modal__close material-icons js-close-modal">close</i>
-      <h1 class="modal__title">Accelerating Data Collaboratives: A Workshop on Cross-Sector Data Sharing for Public Problem-Solving</h1>
-  </header>
-<section class="modal__content">
-    <h4 class="modal__sub-title">Accelerating Data Collaboratives: A Workshop on Cross-Sector Data Sharing for Public Problem-Solving</h4>
-    
-
-    <p>Washington, DC, USA</p>
-    
-      <p>Type: Workshop</p>
-    
-    
-    <p><p>This event is a workshop on Cross-Sector Data Sharing for Public Problem-Solving. Experts will gather to work collaboratively and learn about how to share data.</p>
-</p>
-    
-
-    
-
-    
-
-    
-</section>
-<footer class="modal__controls">
-    <a class="button js-close-modal" href="#">OK</a>
-</footer>
-</div>
-
-        </div>
-        
-        
-        
-
-        
-        <div class="individual-event js-open-modal">
-          <h5><a class="events-page__title" href="#">European Foundation Centre Conference</a></h5>
-          <p>Tuesday, May 30, 2017</p>
-          <div class="modal js-target-modal">
-  <header class="modal__header modal__header--gray">
-      <i class="modal__close material-icons js-close-modal">close</i>
-      <h1 class="modal__title">European Foundation Centre Conference</h1>
-  </header>
-<section class="modal__content">
-    <h4 class="modal__sub-title">European Foundation Centre Conference</h4>
-    
-      <a class="modal__url" href="http://www.efc.be/aga/2017-warsaw/">Go to website</a>
-    
-
-    <p>Warsaw, Poland</p>
-    
-      <p>Type: Conference</p>
-    
-    
-    <p><p>The 2017 EFC AGA and Conference will focus on the theme of ‘courage for solidarity’ and specifically how philanthropy should be involved in fostering, supporting and promoting it. It will offer a unique opportunity for delegates from around the world to reflect on their own work, learn from their peers, and discover how, by finding the courage to re-embrace solidarity, they can help shape a brighter future.</p>
-</p>
-    
-
-    
-    <p><b>Session Information:</b></p>
-    <p>Here they come again: Worming their way into the black matter of my brain </p>
-    
-
-    
-      <p>Session Type: Workshop</p>
-    
-
-    
-      <p>I told myself...they cannot touch me. They are all __dead__. I am the one who runs from both the living and the dead. Hunted by scavengers. Haunted by those I could not protect. So I exist in *this Wasteland*. A man reduced to a single instinct: survive.</p>
-    
-</section>
-<footer class="modal__controls">
-    <a class="button js-close-modal" href="#">OK</a>
-</footer>
-</div>
-
-        </div>
-        
-        
-
-
-        
 
       </div>
+      
+    
+      
+      
+      <div class="result-item result-item--event js-open-modal">
+        <h4 class="result-item--event__location">Washington, DC, USA</h4>
+        <h3 class="result-item--event__name">Accelerating Data Collaboratives: A Workshop on Cross-Sector Data Sharing for Public Problem-Solving</h3>
+        <div class="result-item--event__date fancy-date">
+          <div class="fancy-date__stack">
+          <span class="fancy-date__weekday">Sunday</span>
+          <span class="fancy-date__month">April</span>
+          </div>        
+          <span class="fancy-date__day"> 30</span>
+          <!-- <span class="fancy-date__year">2017</span> -->
+        </div>
+        <div class="modal js-target-modal">
+  <header class="modal__header modal--top-section">
+    
+    <i class="modal__close material-icons js-close-modal">close</i>
+    <h1 class="modal__title">Accelerating Data Collaboratives: A Workshop on Cross-Sector Data Sharing for Public Problem-Solving</h1>
+    <h2 class="modal__location">Washington, DC, USA</h2>
+    <!-- URL -->
+    
+  </header>
+
+  <section class="modal__content">
+      <p></p>
+      
+      
+      <p><p>This event is a workshop on Cross-Sector Data Sharing for Public Problem-Solving. Experts will gather to work collaboratively and learn about how to share data.</p>
+</p>
+      
+
+      
+
+      
+  </section>
+
+</div>
+
+      </div>
+      
+    
+      
+      
+      <div class="result-item result-item--event js-open-modal">
+        <h4 class="result-item--event__location">Warsaw, Poland</h4>
+        <h3 class="result-item--event__name">European Foundation Centre Conference</h3>
+        <div class="result-item--event__date fancy-date">
+          <div class="fancy-date__stack">
+          <span class="fancy-date__weekday">Tuesday</span>
+          <span class="fancy-date__month">May</span>
+          </div>        
+          <span class="fancy-date__day"> 30</span>
+          <!-- <span class="fancy-date__year">2017</span> -->
+        </div>
+        <div class="modal js-target-modal">
+  <header class="modal__header modal--top-section">
+    
+    <div class="modal__type">
+      
+        <span>Conference</span>
+      
+      
+      <span>Workshop</span>
     </div>
+    
+    <i class="modal__close material-icons js-close-modal">close</i>
+    <h1 class="modal__title">European Foundation Centre Conference</h1>
+    <h2 class="modal__location">Warsaw, Poland</h2>
+    <!-- URL -->
+    
+    <div class="floating-button">
+      <div class="floating-button__wrapper">
+        <a class="button button--floating button--black" target="_blank" href="" title="http://www.efc.be/aga/2017-warsaw/">Go to Website</a>  
+      </div>
+    </div>
+    
+  </header>
+
+  <section class="modal__content">
+      <p></p>
+      
+      
+      <p><p>The 2017 EFC AGA and Conference will focus on the theme of ‘courage for solidarity’ and specifically how philanthropy should be involved in fostering, supporting and promoting it. It will offer a unique opportunity for delegates from around the world to reflect on their own work, learn from their peers, and discover how, by finding the courage to re-embrace solidarity, they can help shape a brighter future.</p>
+</p>
+      
+
+      
+      <p><b>Session Information:</b></p>
+      <p>Here they come again: Worming their way into the black matter of my brain </p>
+      
+
+      
+        <p>I told myself...they cannot touch me. They are all __dead__. I am the one who runs from both the living and the dead. Hunted by scavengers. Haunted by those I could not protect. So I exist in *this Wasteland*. A man reduced to a single instinct: survive.</p>
+      
+  </section>
+
+</div>
+
+      </div>
+      
+    
+    </div>
+    
   </div>
 
   <div class="divider">
     <h1>Past Events</h1>
   </div>
 
-  <div class="page-section">
-    <div class="row expanded align-center">
-      <div class="large-8 column">
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-
-        
-          <p>There are no past events.</p>
-        
-      </div>
+  <div id="events" class="columns results-container">
+    <div id="list" class="list">
+    
+      
+      
+    
+      
+      
+    
+      
+      
+    
     </div>
-  </div>
-
-  <!-- <section class="events-panels">
-    <div class="row expanded align-center">
-      <div class="large-6 column events-panels__first">
-        <h4>Upcoming Events</h4>
-        
-        
-
-        
-        <div class="individual-event js-open-modal">
-          <h5><a class="events-panels__title" href="#">United Nations World Data Forum</a></h5>
-          <p>Saturday, January 14, 2017</p>
-          <div class="modal js-target-modal">
-  <header class="modal__header modal__header--gray">
-      <i class="modal__close material-icons js-close-modal">close</i>
-      <h1 class="modal__title">United Nations World Data Forum</h1>
-  </header>
-<section class="modal__content">
-    <h4 class="modal__sub-title">United Nations World Data Forum</h4>
     
-      <a class="modal__url" href="http://undataforum.org">Go to website</a>
+      <h4 class="no-events">There are no past events.</h4>
     
-
-    <p>Cape Town, South Africa</p>
-    
-      <p>Type: Forum</p>
-    
-    
-    <p><p>The first UN World Data Forum will be hosted by Statistics South Africa from 15 to 18 January 2017, with support from the Statistics Division of the UN Department of Economic and Social Affairs, under the guidance of the United Nations Statistical Commission and the High-level Group for Partnership, Coordination and Capacity-Building for Statistics for the 2030 Agenda for Sustainable Development.</p>
-
-<p>It will be an opportunity for data and statistics experts from around the world to:</p>
-
-<ul>
-  <li><strong>JOIN</strong> together in this unique event with governments, businesses, civil society and the scientific and academic communities.</li>
-  <li><strong>EXPLORE</strong> innovative ways to apply data and statistics to measure global progress and inform evidence-based policy decisions on the 2030 Agenda for Sustainable Development.</li>
-  <li><strong>CONTRIBUTE</strong> to important discussions, data labs and interactive platforms aimed at improving the use of data for sustainable development.</li>
-  <li><strong>LAUNCH</strong> new initiatives and solutions that will deliver better data for all.</li>
-</ul>
-</p>
-    
-
-    
-    <p><b>Session Information:</b></p>
-    <p>My name is Max: My world is fire. And blood. </p>
-    
-
-    
-      <p>Session Type: Panel</p>
-    
-
-    
-      <p>Once, I was a cop; a road warrior searching for a righteous cause. As the world fell, each of us in our own way was broken. It was hard to know who was more crazy. Me... or everyone else. </p>
-    
-</section>
-<footer class="modal__controls">
-    <a class="button js-close-modal" href="#">OK</a>
-</footer>
-</div>
-
-        </div>
-        
-        
-        
-
-        
-        <div class="individual-event js-open-modal">
-          <h5><a class="events-panels__title" href="#">Accelerating Data Collaboratives: A Workshop on Cross-Sector Data Sharing for Public Problem-Solving</a></h5>
-          <p>Sunday, April 30, 2017</p>
-          <div class="modal js-target-modal">
-  <header class="modal__header modal__header--gray">
-      <i class="modal__close material-icons js-close-modal">close</i>
-      <h1 class="modal__title">Accelerating Data Collaboratives: A Workshop on Cross-Sector Data Sharing for Public Problem-Solving</h1>
-  </header>
-<section class="modal__content">
-    <h4 class="modal__sub-title">Accelerating Data Collaboratives: A Workshop on Cross-Sector Data Sharing for Public Problem-Solving</h4>
-    
-
-    <p>Washington, DC, USA</p>
-    
-      <p>Type: Workshop</p>
-    
-    
-    <p><p>This event is a workshop on Cross-Sector Data Sharing for Public Problem-Solving. Experts will gather to work collaboratively and learn about how to share data.</p>
-</p>
-    
-
-    
-
-    
-
-    
-</section>
-<footer class="modal__controls">
-    <a class="button js-close-modal" href="#">OK</a>
-</footer>
-</div>
-
-        </div>
-        
-        
-        
-
-        
-        <div class="individual-event js-open-modal">
-          <h5><a class="events-panels__title" href="#">European Foundation Centre Conference</a></h5>
-          <p>Tuesday, May 30, 2017</p>
-          <div class="modal js-target-modal">
-  <header class="modal__header modal__header--gray">
-      <i class="modal__close material-icons js-close-modal">close</i>
-      <h1 class="modal__title">European Foundation Centre Conference</h1>
-  </header>
-<section class="modal__content">
-    <h4 class="modal__sub-title">European Foundation Centre Conference</h4>
-    
-      <a class="modal__url" href="http://www.efc.be/aga/2017-warsaw/">Go to website</a>
-    
-
-    <p>Warsaw, Poland</p>
-    
-      <p>Type: Conference</p>
-    
-    
-    <p><p>The 2017 EFC AGA and Conference will focus on the theme of ‘courage for solidarity’ and specifically how philanthropy should be involved in fostering, supporting and promoting it. It will offer a unique opportunity for delegates from around the world to reflect on their own work, learn from their peers, and discover how, by finding the courage to re-embrace solidarity, they can help shape a brighter future.</p>
-</p>
-    
-
-    
-    <p><b>Session Information:</b></p>
-    <p>Here they come again: Worming their way into the black matter of my brain </p>
-    
-
-    
-      <p>Session Type: Workshop</p>
-    
-
-    
-      <p>I told myself...they cannot touch me. They are all __dead__. I am the one who runs from both the living and the dead. Hunted by scavengers. Haunted by those I could not protect. So I exist in *this Wasteland*. A man reduced to a single instinct: survive.</p>
-    
-</section>
-<footer class="modal__controls">
-    <a class="button js-close-modal" href="#">OK</a>
-</footer>
-</div>
-
-        </div>
-        
-        
-      </div>
-      <div class="large-6 column events-panels__second">
-        <h4>Past Events</h4>
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        
-        </div>
-    </div>
-  </section> -->
   </div>
 </div>
 
