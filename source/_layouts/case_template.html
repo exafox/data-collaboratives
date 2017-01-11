@@ -90,12 +90,20 @@ layout: default
           <div class="regions__map regions--latin-america">
             {% include map.html %}
           </div>
-        {% elsif map_region == 'East Asia and Pacific' or map_region == 'South Asia' %}
-          <div class="regions__map regions--asia">
+        {% elsif map_region == 'East Asia and Pacific' %}
+          <div class="regions__map regions--east-asia">
             {% include map.html %}
           </div>
-        {% elsif map_region == 'Sub-Saharan Africa' or map_region == 'Middle East and North Africa' %}
-          <div class="regions__map regions--africa">
+          {% elsif map_region == 'South Asia' %}
+            <div class="regions__map regions--south-asia">
+              {% include map.html %}
+            </div>
+        {% elsif map_region == 'Sub-Saharan Africa'%}
+          <div class="regions__map regions--sub-saharan-africa">
+            {% include map.html %}
+          </div>
+        {% elsif map_region == 'Middle East and North Africa' %}
+          <div class="regions__map regions--north-africa">
             {% include map.html %}
           </div>
         {% elsif map_region == 'Europe and Central Asia' %}
