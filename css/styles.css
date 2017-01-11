@@ -348,6 +348,9 @@ p.large-text {
       display: block;
       border-bottom: 1px solid rgba(0, 0, 0, 0.1);
       padding: 5px; }
+      @media (max-width: 40em) {
+        .footer__nav a {
+          margin-left: -10px; } }
     .footer__nav a:hover {
       background-color: rgba(0, 0, 0, 0.05);
       text-decoration: none; }
@@ -358,6 +361,12 @@ p.large-text {
       margin-top: 0; }
   .footer__panel {
     padding: 10px 25px; }
+    @media (max-width: 40em) {
+      .footer__panel {
+        padding: 10px 10px; } }
+    @media (max-width: 40em) {
+      .footer__panel--about {
+        display: none; } }
   .footer--darken {
     background-color: #d2b70f;
     width: 100%; }
@@ -373,14 +382,19 @@ p.large-text {
     display: inline-block; }
     @media (max-width: 40em) {
       .footer-logos__item {
-        position: relative;
-        left: 20px;
-        top: 170px;
-        width: 90%; } }
+        padding-left: 10px;
+        width: 160%;
+        margin-right: none; } }
   .footer-logos--nyu {
     max-width: 200px; }
+    @media (max-width: 40em) {
+      .footer-logos--nyu {
+        max-width: 180px; } }
   .footer-logos--on {
     max-width: 70%; }
+    @media (max-width: 40em) {
+      .footer-logos--on {
+        max-width: 130%; } }
 
 .dropdown-wrapper {
   width: 90%;
@@ -497,7 +511,6 @@ p.large-text {
     height: 42vh;
     position: relative; }
     .case-page__header:after {
-      content: '';
       position: absolute;
       top: 0;
       left: 0;
@@ -507,6 +520,8 @@ p.large-text {
       margin: 0; }
       .case-page__header h1 span, .case-page__header h2 span, .case-page__header h3 span {
         display: inline-block; }
+        .case-page__header h1 span #span-link, .case-page__header h2 span #span-link, .case-page__header h3 span #span-link {
+          text-decoration: none; }
     .case-page__header h1 {
       font-size: 3.4rem;
       font-weight: 300;
@@ -600,10 +615,16 @@ p.large-text {
 .regions--latin-america #latin-america path {
   fill: #e5c810;
   fill-opacity: 1; }
-.regions--asia #asia path {
+.regions--east-asia #east-asia path {
   fill: #e5c810;
   fill-opacity: 1; }
-.regions--africa #africa path {
+.regions--south-asia #south-asia path {
+  fill: #e5c810;
+  fill-opacity: 1; }
+.regions--sub-saharan-africa #sub-saharan-africa path {
+  fill: #e5c810;
+  fill-opacity: 1; }
+.regions--north-africa #north-africa path {
   fill: #e5c810;
   fill-opacity: 1; }
 .regions--europe #europe path {
@@ -643,6 +664,30 @@ p.large-text {
   padding-bottom: 30px; }
   .resources-page .top-section h1 {
     text-transform: uppercase; }
+.resources-page .modal__content {
+  max-height: 40vh; }
+  @media (min-width: 40.063em) and (max-width: 64em) {
+    .resources-page .modal__content {
+      height: auto;
+      overflow-y: initial;
+      padding: 30px 0; } }
+  @media (max-width: 40em) {
+    .resources-page .modal__content {
+      height: auto;
+      overflow-y: initial;
+      padding: 30px 0; } }
+@media (max-width: 40em) {
+  .resources-page .modal {
+    width: 100%;
+    left: 0;
+    margin: 0;
+    overflow-y: scroll;
+    height: 90vh; } }
+.resources-page .modal__resource-type > span {
+  font-weight: 600;
+  text-transform: uppercase;
+  color: white;
+  margin-right: 10px; }
 
 .results-section, .results-container {
   padding: 0; }
@@ -1001,6 +1046,25 @@ p.large-text {
   .button--black:hover {
     background-color: #666; }
 
+.modal__content {
+  max-height: 40vh; }
+  @media (min-width: 40.063em) and (max-width: 64em) {
+    .modal__content {
+      height: auto;
+      overflow-y: initial;
+      padding: 30px 0; } }
+  @media (max-width: 40em) {
+    .modal__content {
+      height: auto;
+      overflow-y: initial;
+      padding: 30px 0; } }
+@media (max-width: 40em) {
+  .modal {
+    width: 100%;
+    left: 0;
+    margin: 0;
+    overflow-y: scroll;
+    height: 90vh; } }
 .modal--top-section {
   background-color: #e5c810;
   padding: 0; }
