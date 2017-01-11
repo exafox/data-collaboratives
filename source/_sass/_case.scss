@@ -177,7 +177,12 @@
     fill-opacity: 1;
   }
 
-  &--africa #africa path {
+  &--south-asia #south-asia path {
+    fill: $yellow;
+    fill-opacity: 1;
+  }
+
+  &--sub-saharan-africa #sub-saharan-africa path {
     fill: $yellow;
     fill-opacity: 1;
   }
