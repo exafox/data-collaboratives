@@ -11,13 +11,13 @@ layout: default
       <h2>
         {% if page.dataType %}
           {% for item in page.dataType %}
-            <span>{{ item }}</span>
+            <span id="data-type" onmouseover="this.style.cursor='pointer';" class="{{item | slugify}}" ><a id="span-link" class="{{item | slugify}}" href="#">{{ item }}</a></span>
           {% endfor %}
         {% endif %}
 
         {% if page.sector %}
           {% for item in page.sector %}
-            <span>{{ item }}</span>
+            <span onmouseover="this.style.cursor='pointer';" id="data-sector" class="{{item | slugify}}" ><a id="span-link"class="{{item | slugify}}" href="#">{{ item }}</a></span>
           {% endfor %}
         {% endif %}
       </h2>
