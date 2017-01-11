@@ -8,7 +8,7 @@ layout: default
   <div class="top-section case-page__header" style="background-image: url('/images/54t5rivyaii-taduuda.jpg')">
     <hgroup>
       <h1><span>{{page.caseStudy}}</span></h1>
-      <h2>
+      <h2 id="data-filter-container">
         {% if page.dataType %}
           {% for item in page.dataType %}
             <span id="data-type" onmouseover="this.style.cursor='pointer';" class="{{item | slugify}}" ><a id="span-link" class="{{item | slugify}}" href="#">{{ item }}</a></span>
