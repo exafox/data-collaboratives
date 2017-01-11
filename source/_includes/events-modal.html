@@ -1,36 +1,38 @@
 <div class="modal js-target-modal">
-  <header class="modal__header modal__header--gray">
-      <i class="modal__close material-icons js-close-modal">close</i>
-      <h1 class="modal__title">{{event.eventName}}</h1>
-  </header>
-<section class="modal__content">
-    <h4 class="modal__sub-title">{{event.eventName}}</h4>
+  <header class="modal__header modal--top-section">
+    <i class="modal__close material-icons js-close-modal">close</i>
+    <h1 class="modal__title">{{event.eventName}}</h1>
+    <!-- URL -->
     {% if event.url %}
-      <a class="modal__url" href="{{event.url}}">Go to website</a>
+    <div class="floating-button">
+      <div class="floating-button__wrapper">
+        <a class="button button--floating button--black" target="_blank" href="{{resource.url}}" title="{{event.url}}">Go to Website</a>  
+      </div>
+    </div>
     {% endif %}
+  </header>
 
-    <p>{{event.location}}</p>
-    {% if event.conferenceType %}
-      <p>Type: {{event.conferenceType}}</p>
-    {% endif %}
-    {% if event.eventDescription %}
-    <p>{{event.eventDescription | markdownify }}</p>
-    {% endif %}
+  <section class="modal__content">
+      <p>{{event.location}}</p>
+      {% if event.conferenceType %}
+        <p>Type: {{event.conferenceType}}</p>
+      {% endif %}
+      {% if event.eventDescription %}
+      <p>{{event.eventDescription | markdownify }}</p>
+      {% endif %}
 
-    {% if event.sessionName %}
-    <p><b>Session Information:</b></p>
-    <p>{{event.sessionName}}</p>
-    {% endif %}
+      {% if event.sessionName %}
+      <p><b>Session Information:</b></p>
+      <p>{{event.sessionName}}</p>
+      {% endif %}
 
-    {% if event.sessionType %}
-      <p>Session Type: {{event.sessionType}}</p>
-    {% endif %}
+      {% if event.sessionType %}
+        <p>Session Type: {{event.sessionType}}</p>
+      {% endif %}
 
-    {% if event.sessionDescription %}
-      <p>{{event.sessionDescription}}</p>
-    {% endif %}
-</section>
-<footer class="modal__controls">
-    <a class="button js-close-modal" href="#">OK</a>
-</footer>
+      {% if event.sessionDescription %}
+        <p>{{event.sessionDescription}}</p>
+      {% endif %}
+  </section>
+
 </div>
