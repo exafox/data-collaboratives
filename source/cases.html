@@ -43,7 +43,7 @@ data-type:
 
   <div class="page-section page-section--gray">
     <div class="row align-center">
-      
+
     </div>
 
     <div class="dropdown-wrapper filter-panel">
@@ -96,9 +96,12 @@ data-type:
 
         <div class="column large-1">
           <div class="close clear_filters table-sortable__control table-sortable__control--simple table-sortable--clear-all">
-            <div class="clear-all-text">
+            <!-- <div class="clear-all-text">
               <button class="button button--icon-only" type="button" name="button" style="margin: 4px 0;"><i class="material-icons close-icon">close</i></button>
-            </div>
+            </div> -->
+          </div>
+          <div class="columns clear_filters">
+            <button class="button button--icon-only" type="button" name="button"><i class="material-icons">close</i></button>
           </div>
         </div>
       </div>
@@ -196,3 +199,16 @@ data-type:
     </div>
   </div>
 </div>
+
+<script>
+  var browserString = (window.location.href);
+  var includesParameter = browserString.includes("#");
+  var parameter = undefined;
+
+  if (includesParameter) {
+    console.log(includesParameter)
+    parameter = browserString.split("#", -1)
+    parameter = parameter.slice(-1).toString();
+    console.log(parameter)
+  }
+</script>

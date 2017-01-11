@@ -18,6 +18,11 @@ $(document).ready(function() {
   //SORT LIST ON DOC READY
   caseList.sort('case__title', { order: "asc" });
 
+  // Check to see if there is a pre-selected parameter to filter
+  if (parameter != undefined ) {
+    caseList.search(parameter);
+  };
+
   // SEARCH RESET
   function searchReset() {
     $(".fuzzy-search").val("");
