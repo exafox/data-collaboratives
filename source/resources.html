@@ -36,7 +36,7 @@ title: Resources | Data Collaboratives
         </div>
         <div class="columns resource-type">
           <div class="select">
-            <select data-filter="resource-type" id="first" class="dropdown-content">
+            <select data-filter="resource-type" id="type-filter" class="dropdown-content">
               <option id="all">Filter by Type</option>
               {% for t in type_list %}
                 <option id="{{ t | join: ' ' | slugify }}">{{ t }}</option>
@@ -46,7 +46,7 @@ title: Resources | Data Collaboratives
         </div>
         <div class="columns resource-theme">
           <div class="select">
-            <select data-filter="resource-theme" id="first" class="dropdown-content">
+            <select data-filter="resource-theme" id="theme-filter" class="dropdown-content">
               <option id="all">Filter by Theme</option>
               {% for theme in theme_list %}
               <option id="{{ theme | join: '' | slugify }}">{{theme}}</option>
