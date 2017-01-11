@@ -24,4 +24,16 @@ $(document).ready(function() {
     window.location.href = '/cases.html?#intelligence-product';
   });
 
+  $("#data-type").on('click', function() {
+    var elm = $(this);
+    var elmClass = elm.attr("class");
+    window.location.href = '/cases.html?#' + elmClass;
+  });
+
+  $("#data-sector").on('click', function() {
+    var elm = $(this);
+    var elmClass = elm.attr("class");
+    window.location.href = '/cases.html?#' + elmClass;
+  });
+
 })

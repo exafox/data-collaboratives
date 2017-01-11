@@ -10,14 +10,15 @@ layout: default
       <h1><span>{{page.caseStudy}}</span></h1>
       <h2>
         {% if page.dataType %}
+
           {% for item in page.dataType %}
-            <span>{{ item }}</span>
+            <span id="data-type" class="{{item | slugify}}" onmouseover="this.style.cursor='pointer';">{{ item }}</span>
           {% endfor %}
         {% endif %}
 
         {% if page.sector %}
           {% for item in page.sector %}
-            <span>{{ item }}</span>
+            <span id="data-sector" class="{{item | slugify}}" onmouseover="this.style.cursor='pointer';">{{ item }}</span>
           {% endfor %}
         {% endif %}
       </h2>
