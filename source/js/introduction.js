@@ -7,7 +7,7 @@ $(document).ready(function() {
     anchors: ["section1","section2","section3","section4","section5","section6", "section7", "section8", "framework", "learn-more"],
     navigation: true,
     navigationPosition: 'right',
-    navigationTooltips: ["Section 1","Section 2","Section 3","Section 4","Section 5","Section 6", "Section 7", "Section 8", "Framework", "Learn More"],
+    navigationTooltips: ["Section 1","Section 2","Section 3","Section 4","Section 5","Section 6", "Section 7", "Section 8", "Designing", "Framework", "Learn More"],
     showActiveTooltip: false,
     slidesNavigation: false,
     slidesNavPosition: 'bottom',
