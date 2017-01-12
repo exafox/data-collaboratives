@@ -21,6 +21,13 @@
       height: 180px;
       width: 180px;
     }
+    @include breakpoint($medium) {
+      margin-left: 350px;
+      margin-bottom: 5px;
+      margin-top: 40px;
+      height: 200px;
+      width: 200px;
+    }
   }
 
   &__bio {
