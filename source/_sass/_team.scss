@@ -33,16 +33,16 @@
   &__bio {
     h3 {
       font-weight: 600;
-      font-size: 1.5rem;
+      font-size: 1.4rem;
       margin-bottom: -5px;
     }
 
     h5 {
-      font-weight: 400;
+      font-weight: 500;
       text-transform: uppercase;
       color: rgba(0, 0, 0, 0.5);
       margin-bottom: 10px;
-      font-size: 1.1rem;
+      font-size: 18px;
       margin-top: 0;
     }
 
@@ -50,6 +50,7 @@
       color: rgba(0, 0, 0, 0.8);
       margin: 0;
       margin-bottom: 30px;
+      font-size: 18px;
     }
   }
 }
