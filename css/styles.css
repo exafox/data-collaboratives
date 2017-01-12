@@ -1,3 +1,19 @@
+.main-menu {
+  overflow-x: auto; }
+  .main-menu::-webkit-scrollbar {
+    width: 8px; }
+  .main-menu::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px inherit;
+    -webkit-border-radius: 14px;
+    border-radius: 10px; }
+  .main-menu::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 10px;
+    border-radius: 14px;
+    background: inherit;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.7); }
+  .main-menu::-webkit-scrollbar-thumb:window-inactive {
+    background: rgba(0, 0, 0, 0.7); }
+
 .text-align-center {
   text-align: center; }
 
@@ -130,7 +146,7 @@
   .callout-message p {
     font-size: 1.5rem;
     font-weight: 300;
-    margin-top: 0;
+    margin-top: 40px;
     color: rgba(255, 255, 255, 0.5);
     margin-bottom: 40px;
     line-height: 1.3; }
@@ -644,10 +660,11 @@ p.large-text {
   #exchanging-data li {
     margin-bottom: 5px;
     list-style: none; }
-    #creating-public-value li .button--outline,
-    #exchanging-data li .button--outline {
-      width: 92%;
-      text-align: center; }
+  #creating-public-value .button--outline,
+  #exchanging-data .button--outline {
+    width: 92%;
+    text-align: center;
+    cursor: default; }
 
 #creating-public-value {
   text-align: right; }
@@ -994,25 +1011,32 @@ p.large-text {
   background-color: black; }
 #introduction #download-container {
   background-color: transparent;
-  position: relative;
-  bottom: 18vh; }
-  @media (max-width: 600px) {
-    #introduction #download-container {
-      bottom: 12vh; } }
-  @media (min-width: 1100px) {
-    #introduction #download-container {
-      bottom: 22vh; } }
+  text-align: right;
+  position: fixed;
+  bottom: 0;
+  width: 100%;
+  z-index: 10; }
+  #introduction #download-container .button {
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white; }
+    #introduction #download-container .button:hover {
+      background-color: rgba(229, 200, 16, 0.8);
+      transition: all .4s ease; }
 #introduction .slide {
   position: relative; }
   #introduction .slide #slide-instructions {
+    text-align: center;
+    position: absolute;
     background-color: rgba(0, 0, 0, 0.8);
-    text-align: center; }
+    left: 0;
+    right: 0; }
     #introduction .slide #slide-instructions p {
       color: #e5c810;
-      text-transform: uppercase; }
-    @media (min-width: 1100px) {
+      text-transform: uppercase;
+      padding: 10px; }
+    @media (min-width: 1200px) {
       #introduction .slide #slide-instructions {
-        bottom: 8vh;
+        bottom: 20vh;
         position: absolute;
         width: 100%; } }
 
@@ -1034,15 +1058,15 @@ p.large-text {
   margin: 1% !important; }
 
 .fp-controlArrow.fp-prev {
-  left: 15px;
+  left: 25px;
   width: 0;
   border-width: 38.5px 34px 38.5px 0;
-  border-color: transparent rgba(0, 0, 0, 0.1) transparent transparent !important; }
+  border-color: transparent rgba(0, 0, 0, 0.3) transparent transparent !important; }
 
 .fp-controlArrow.fp-next {
-  right: 15px;
+  right: 25px;
   border-width: 38.5px 0 38.5px 34px;
-  border-color: transparent transparent transparent rgba(0, 0, 0, 0.1) !important; }
+  border-color: transparent transparent transparent rgba(0, 0, 0, 0.3) !important; }
 
 .fp-tooltip {
   color: black !important; }
@@ -1126,6 +1150,48 @@ p.large-text {
   .modal__content h1 {
     font-size: 1.5rem;
     font-weight: 400; }
+
+.team-page__member {
+  border-bottom: 1px rgba(0, 0, 0, 0.1) solid; }
+  .team-page__member--last {
+    border: none; }
+.team-page__image {
+  border-radius: 50%;
+  height: 220px;
+  width: 220px;
+  margin: 30px 20px;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center; }
+  @media (max-width: 40em) {
+    .team-page__image {
+      margin-left: 80px;
+      margin-bottom: 5px;
+      margin-top: 30px;
+      height: 180px;
+      width: 180px; } }
+  @media (min-width: 40.063em) and (max-width: 64em) {
+    .team-page__image {
+      margin-left: 350px;
+      margin-bottom: 5px;
+      margin-top: 40px;
+      height: 200px;
+      width: 200px; } }
+.team-page__bio h3 {
+  font-weight: 600;
+  font-size: 1.5rem;
+  margin-bottom: -5px; }
+.team-page__bio h5 {
+  font-weight: 400;
+  text-transform: uppercase;
+  color: rgba(0, 0, 0, 0.5);
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+  margin-top: 0; }
+.team-page__bio p {
+  color: rgba(0, 0, 0, 0.8);
+  margin: 0;
+  margin-bottom: 30px; }
 
 .material-icons {
   font-family: 'Material Icons';
