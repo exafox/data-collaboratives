@@ -3,7 +3,9 @@
     background-color: black;
   }
 
+
   #download-container {
+    // adds download button on top of first slide
     background-color: transparent;
     position: relative;
     bottom: 18vh;
@@ -12,6 +14,23 @@
     }
     @media (min-width: 1100px) {
       bottom: 22vh;
+    }
+  }
+  .slide {
+    position: relative;
+    #slide-instructions {
+      // adds instructions below horizontal slides
+      background-color: rgba(black, .8);
+      text-align: center;
+      p {
+        color: $main-color;
+        text-transform: uppercase;
+      }
+      @media (min-width: 1100px) {
+        bottom: 8vh;
+        position: absolute;
+        width: 100%;
+      }
     }
   }
 
@@ -48,12 +67,14 @@
     left: 15px;
     width: 0;
     border-width: 38.5px 34px 38.5px 0;
-    border-color: transparent rgba(#fff, 0.4) transparent transparent !important;
+    // border-color: transparent rgba(#fff, 0.4) transparent transparent !important;
+    border-color: transparent rgba($gray, 0.1) transparent transparent !important;
 }
 .fp-controlArrow.fp-next {
     right: 15px;
     border-width: 38.5px 0 38.5px 34px;
-    border-color: transparent transparent transparent rgba(#fff, 0.4) !important;
+    // border-color: transparent transparent transparent rgba(#fff, 0.4) !important;
+    border-color: transparent transparent transparent rgba($gray, 0.1) !important;
 }
 
 .fp-tooltip {
