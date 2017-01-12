@@ -1,7 +1,10 @@
 .team-page {
 
   &__member {
-    border-bottom: 1px rgba(black, .2) solid;
+    border-bottom: 1px rgba(black, .1) solid;
+    &--last {
+      border: none;
+    }
   }
 
   &__image {
