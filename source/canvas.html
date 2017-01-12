@@ -33,7 +33,7 @@ layout: default
     </div><!-- phase intro end -->
 
     {% for phaseStep in phase.phaseSteps %} <!-- phase step loop start -->
-      <div class="cavas-step">
+      <div class="canvas-step">
         <div class="divider">
           <div class="row">
             <div class="large-8 large-offset-4 column">
@@ -45,7 +45,7 @@ layout: default
         <div class="page-section">
           {% if phaseStep.discussion %}
           <div class="canvas-step__section">
-            <div class="row">
+            <div class="row medium-unstack">
               <div class="large-4 column">
                 <h4 class="canvas-step__section-title">Discussion</h4>
               </div>
@@ -60,7 +60,7 @@ layout: default
 
           {% if phaseStep.questions %}
           <div class="canvas-step__section">
-            <div class="row">
+            <div class="row medium-unstack">
               <div class="large-4 column">
                 <h4 class="canvas-step__section-title">Questions & Considerations</h4>
               </div>
@@ -73,7 +73,7 @@ layout: default
 
           {% if phaseStep.enablers %}
           <div class="canvas-step__section">
-            <div class="row">
+            <div class="row medium-unstack">
               <div class="large-4 column">
                 <h4 class="canvas-step__section-title">Enablers</h4>
               </div>
@@ -86,7 +86,7 @@ layout: default
            
           {% if phaseStep.examples %}
           <div class="canvas-step__section">
-            <div class="row">
+            <div class="row medium-unstack">
               <div class="large-4 column">
                 <h4 class="canvas-step__section-title">Examples</h4>
               </div>
@@ -99,7 +99,7 @@ layout: default
 
           {% if phaseStep.resources %}
           <div class="canvas-step__section">
-            <div class="row">
+            <div class="row medium-unstack">
               <div class="large-4 column">
                 <h4 class="canvas-step__section-title">Resources</h4>
               </div>
