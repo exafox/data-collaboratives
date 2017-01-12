@@ -62,6 +62,11 @@
     height: 50px;
     display: flex;
   }
+  #overlay {
+    // fixes nav issues using fullpage
+    position: initial;
+    overflow-y: scroll;
+  }
 }
 
 #fp-nav {
