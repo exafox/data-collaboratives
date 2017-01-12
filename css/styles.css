@@ -992,8 +992,29 @@ p.large-text {
 
 #introduction .section {
   background-color: black; }
-#introduction #download-container .button {
-  color: #e5c810; }
+#introduction #download-container {
+  background-color: transparent;
+  position: relative;
+  bottom: 18vh; }
+  @media (max-width: 600px) {
+    #introduction #download-container {
+      bottom: 12vh; } }
+  @media (min-width: 1100px) {
+    #introduction #download-container {
+      bottom: 22vh; } }
+#introduction .slide {
+  position: relative; }
+  #introduction .slide #slide-instructions {
+    background-color: rgba(0, 0, 0, 0.8);
+    text-align: center; }
+    #introduction .slide #slide-instructions p {
+      color: #e5c810;
+      text-transform: uppercase; }
+    @media (min-width: 1100px) {
+      #introduction .slide #slide-instructions {
+        bottom: 8vh;
+        position: absolute;
+        width: 100%; } }
 
 .fp-enabled body .top-bar {
   background-color: black !important;
@@ -1016,12 +1037,12 @@ p.large-text {
   left: 15px;
   width: 0;
   border-width: 38.5px 34px 38.5px 0;
-  border-color: transparent rgba(255, 255, 255, 0.4) transparent transparent !important; }
+  border-color: transparent rgba(0, 0, 0, 0.1) transparent transparent !important; }
 
 .fp-controlArrow.fp-next {
   right: 15px;
   border-width: 38.5px 0 38.5px 34px;
-  border-color: transparent transparent transparent rgba(255, 255, 255, 0.4) !important; }
+  border-color: transparent transparent transparent rgba(0, 0, 0, 0.1) !important; }
 
 .fp-tooltip {
   color: black !important; }
