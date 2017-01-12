@@ -7,13 +7,17 @@
   #download-container {
     // adds download button on top of first slide
     background-color: transparent;
-    position: relative;
-    bottom: 18vh;
-    @media (max-width: 600px) {
-      bottom: 12vh;
-    }
-    @media (min-width: 1100px) {
-      bottom: 22vh;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    z-index: 100;
+    width: 100%;
+    text-align: right;
+    .button {
+      color: white;
+      &:hover {
+        background-color: $main-color;
+      }
     }
   }
   .slide {
@@ -27,6 +31,11 @@
         text-transform: uppercase;
       }
       @media (min-width: 1100px) {
+        bottom: 5vh;
+        position: absolute;
+        width: 100%;
+      }
+      @media (min-width: 1200px) {
         bottom: 8vh;
         position: absolute;
         width: 100%;
