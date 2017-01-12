@@ -74,6 +74,7 @@ $(document).ready(function () {
         ]
     });
 
+    var slideTarget = (window.location.hash.split("-")[1]) - 1;
     $('.title-slider').slick({
       dots: false,
       infinite: false,
@@ -83,7 +84,14 @@ $(document).ready(function () {
       swipeToSlide: true,
       slidesToShow: 1,
       centerMode: true,
-      variableWidth: true
+      variableWidth: true,
+      initialSlide: slideTarget || 0
     });
+
+// slider url hashes
+    window.onhashchange = function() {
+        slideTarget = (window.location.hash.split("-")[1]) - 1;
+        $(".title-slider").slick("slickGoTo", slideTarget);
+    };
 
 }); // doc.ready

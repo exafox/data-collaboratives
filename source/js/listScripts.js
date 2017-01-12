@@ -16,7 +16,13 @@ $(document).ready(function() {
   var caseList = new List('case_data', options);
 
   //SORT LIST ON DOC READY
-  caseList.sort('case__title', { order: "asc" });
+  if (window.location.href.includes("cases")) {
+    caseList.sort('case__title', { order: "asc" });
+    // Check to see if there is a pre-selected parameter to filter
+    if (parameter != undefined ) {
+      caseList.search(parameter);
+    };
+  };
 
   // SEARCH RESET
   function searchReset() {

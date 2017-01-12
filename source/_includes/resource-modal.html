@@ -28,19 +28,19 @@
     {% endif %}
   </header>
 
-  <section class="modal__content">
-
+  <div class="modal__content">
       <!-- Short Description -->
       {% if resource.shortDescription %}
-      {% if resource.annotation == ""%}
-      <div class="result-item__short-description">
-        <p>{{resource.shortDescription | markdownify  }}</p>
-      </div>
-      {% endif %}
+        {% if resource.annotation == ""%}
+        <div class="result-item__short-description">
+          <p>{{resource.shortDescription | markdownify  }}</p>
+        </div>
+        {% endif %}
       {% endif %}
 
       {% if resource.annotation %}
-      <p>{{resource.annotation | markdownify }}</p>
+        <p>{{resource.annotation | markdownify }}</p>
       {% endif %}
-  </section>
+  </div>
+
 </div>
