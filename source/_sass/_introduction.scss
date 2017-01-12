@@ -10,13 +10,13 @@
     position: fixed;
     bottom: 0;
     width: 100%;
-    z-index: 100;
-    width: 100%;
+    z-index: 10;
     text-align: right;
     .button {
       color: white;
       &:hover {
-        background-color: $main-color;
+        background-color: rgba($main-color, .5);
+        transition: all .4s ease;
       }
     }
   }
@@ -24,7 +24,6 @@
     position: relative;
     #slide-instructions {
       // adds instructions below horizontal slides
-      background-color: rgba(black, .8);
       text-align: center;
       p {
         color: $main-color;
@@ -34,6 +33,7 @@
         bottom: 5vh;
         position: absolute;
         width: 100%;
+        background-color: rgba(black, .8);
       }
       @media (min-width: 1200px) {
         bottom: 8vh;
@@ -76,12 +76,12 @@
     left: 15px;
     width: 0;
     border-width: 38.5px 34px 38.5px 0;
-    border-color: transparent rgba($gray, 0.1) transparent transparent !important;
+    border-color: transparent rgba($gray, 0.3) transparent transparent !important;
 }
 .fp-controlArrow.fp-next {
     right: 15px;
     border-width: 38.5px 0 38.5px 34px;
-    border-color: transparent transparent transparent rgba($gray, 0.1) !important;
+    border-color: transparent transparent transparent rgba($gray, 0.3) !important;
 }
 
 .fp-tooltip {
