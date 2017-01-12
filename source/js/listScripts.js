@@ -16,7 +16,7 @@ $(document).ready(function() {
   var caseList = new List('case_data', options);
 
   //SORT LIST ON DOC READY
-  if (window.location.href.includes("cases")) {
+  if (window.location.href.includes("explorer")) {
     caseList.sort('case__title', { order: "asc" });
     // Check to see if there is a pre-selected parameter to filter
     if (parameter != undefined ) {
