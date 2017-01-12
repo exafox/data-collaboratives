@@ -1,0 +1,55 @@
+.team-page {
+  &__member {
+    border-bottom: 1px rgba(black, .1) solid;
+    &--last {
+      border: none;
+    }
+  }
+
+  &__image {
+    border-radius: 50%;
+    height: 220px;
+    width: 220px;
+    margin: 30px 20px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    @include breakpoint($small-only) {
+      margin-left: 80px;
+      margin-bottom: 5px;
+      margin-top: 30px;
+      height: 180px;
+      width: 180px;
+    }
+    @include breakpoint($medium) {
+      margin-left: 350px;
+      margin-bottom: 5px;
+      margin-top: 40px;
+      height: 200px;
+      width: 200px;
+    }
+  }
+
+  &__bio {
+    h3 {
+      font-weight: 600;
+      font-size: 1.5rem;
+      margin-bottom: -5px;
+    }
+
+    h5 {
+      font-weight: 400;
+      text-transform: uppercase;
+      color: rgba(0, 0, 0, 0.5);
+      margin-bottom: 10px;
+      font-size: 1.1rem;
+      margin-top: 0;
+    }
+
+    p {
+      color: rgba(0, 0, 0, 0.8);
+      margin: 0;
+      margin-bottom: 30px;
+    }
+  }
+}
