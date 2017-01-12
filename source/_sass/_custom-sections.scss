@@ -8,24 +8,24 @@
   li {
     margin-bottom: 5px;
     list-style: none;
+  }
 
-    .button--outline {
-      width: 92%;
-      text-align: center;
-    }
+  .button--outline {
+    width: 92%;
+    text-align: center;
+    cursor: default;
   }
 }
 
 #creating-public-value { text-align: right; }
 
-#exchanging-data { 
+#exchanging-data {
   .bg-panel__content { background-color: rgba(white, .9); }
-  
+
   h3, h4 { color: rgba(black, .6); }
-  
-  .icon-box { 
-    border-color: rgba(black, .3); 
+
+  .icon-box {
+    border-color: rgba(black, .3);
     color: rgba(black, .8);
   }
 }
-
