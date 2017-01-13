@@ -14,6 +14,12 @@ $(document).ready(function() {
     displayPhases(phaseTarget);
   });
 
+  // // touch next handler
+  $('.next-phase').on('click touchend', function() { 
+    var touchTarget = $(this).attr("data-phase-target") || "#phase-1";
+    displayPhases(touchTarget); 
+  });  
+
   // Canvas arrows
   $('.title-slider').on("afterChange", function() {
     var phaseTarget = $(this).find('.slick-current').attr('data-target') || "#phase-1";

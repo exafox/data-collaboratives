@@ -145,10 +145,11 @@
   .callout-message p {
     font-size: 1.5rem;
     font-weight: 300;
-    margin-top: 40px;
     color: rgba(255, 255, 255, 0.5);
     margin-bottom: 40px;
     line-height: 1.3; }
+  .callout-message .learn-more-btn {
+    margin-top: 40px; }
 
 .page-section {
   padding: 0; }
@@ -598,12 +599,7 @@ p.large-text {
       font-weight: 400;
       color: rgba(0, 0, 0, 0.7);
       display: inline-block;
-      cursor: pointer; }
-      .case-page .share-panel__item:hover {
-        background-color: #e5c810;
-        border-color: #e5c810;
-        color: white;
-        text-decoration: none; }
+      text-decoration: none; }
   .case-page--info {
     padding-top: 50px;
     padding-bottom: 50px; }
@@ -703,11 +699,14 @@ p.large-text {
     margin: 0;
     overflow-y: scroll;
     height: 90vh; } }
-.resources-page .modal__resource-type > span {
-  font-weight: 600;
-  text-transform: uppercase;
-  color: white;
-  margin-right: 10px; }
+.resources-page .modal__resource-type {
+  float: left;
+  padding: 15px 20px; }
+  .resources-page .modal__resource-type > span {
+    font-weight: 600;
+    text-transform: uppercase;
+    color: white;
+    margin-right: 10px; }
 
 .results-section, .results-container {
   padding: 0; }
@@ -962,6 +961,10 @@ p.large-text {
 
 .events-page {
   background-color: rgba(0, 0, 0, 0.1); }
+  .events-page__list-header {
+    padding-top: 0;
+    padding-bottom: 0;
+    margin: 0; }
   .events-page__title {
     border-bottom: 2px #e5c810 solid; }
     .events-page__title:hover {
@@ -1183,6 +1186,10 @@ p.large-text {
     font-size: 1.5rem;
     font-weight: 400; }
 
+.team-page__list-header {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 0; }
 .team-page__member {
   border-bottom: 1px rgba(0, 0, 0, 0.1) solid; }
   .team-page__member--last {
@@ -1225,6 +1232,23 @@ p.large-text {
   margin: 0;
   margin-bottom: 30px;
   font-size: 18px; }
+
+.framework-page__list-header {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  margin: 0; }
+.framework-page__message {
+  padding-top: 30px;
+  padding-bottom: 30px; }
+  .framework-page__message--link {
+    text-decoration: none;
+    border-bottom: 1px #e5c810 solid; }
+    .framework-page__message--link:hover {
+      border-bottom: 1px #b59e0d solid; }
+  .framework-page__message p {
+    font-size: 1.2rem; }
+  .framework-page__message .button {
+    margin: 20px; }
 
 .material-icons {
   font-family: 'Material Icons';
