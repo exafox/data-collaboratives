@@ -25,16 +25,16 @@
     // background-position: center;
     // background-size: cover;
     padding: 140px 0;
-    @include breakpoint($small-only) {
-      background-image: url("/images/video/long-img.png");
-    }
-    @include breakpoint($medium) {
-      background-image: url("/images/video/long-img.png");
-    }
-    @include breakpoint($large) {
-      // background-image: none;
-      background-color: transparent;
-    }
+    // @include breakpoint($small-only) {
+    //   background-image: url("/images/video/long-img.png");
+    // }
+    // @include breakpoint($medium) {
+    //   background-image: url("/images/video/long-img.png");
+    // }
+    // @include breakpoint($large) {
+    //   // background-image: none;
+    //   background-color: transparent;
+    // }
   }
 
   &--yellow {
