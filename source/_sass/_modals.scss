@@ -2,14 +2,14 @@
 .floating-button {
   position: relative;
   padding-top: 40px;
-  
+
   &__wrapper {
     bottom: -30px;
     width: 100%;
     position: absolute;
     text-align: center;
   }
-  
+
 }
 
 // Move to styleguide
@@ -24,7 +24,7 @@
   background-color: #333;
 
   &:hover {
-    background-color: #666;    
+    background-color: #666;
   }
 }
 
@@ -52,7 +52,7 @@
     overflow-y: scroll;
     height: 90vh;
   }
-  
+
   &--top-section {
     background-color: $main-color;
     padding: 0;
@@ -90,12 +90,14 @@
   &__type {
     float: left;
     padding: 15px 20px;
-    
+
     > span {
       font-weight: 600;
       text-transform: uppercase;
       color: white;
       margin-right: 10px;
+      background-color: darken($main-color, 4);
+      padding: 5px;
     }
   }
 
