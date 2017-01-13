@@ -111,15 +111,16 @@
       font-weight: 400;
       color: rgba(black, .7);
       display: inline-block;
-      cursor: pointer;
+      text-decoration: none;
+      // cursor: pointer;
 
 
-      &:hover {
-        background-color: $yellow;
-        border-color: $yellow;
-        color: white;
-        text-decoration: none;
-      }
+      // &:hover {
+      //   background-color: $yellow;
+      //   border-color: $yellow;
+      //   color: white;
+      //   text-decoration: none;
+      // }
     }
   }
 
