@@ -1,4 +1,9 @@
 .team-page {
+  &__list-header {
+    padding-top: 20px;
+    padding-bottom: 20px;
+    margin: 0;
+  }
   &__member {
     border-bottom: 1px rgba(black, .1) solid;
     &--last {
