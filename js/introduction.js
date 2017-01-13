@@ -27,6 +27,7 @@ $(document).ready(function() {
     continuousVertical: false,
     continuousHorizontal: true,
     scrollHorizontally: true,
+    scrollHorizontallyKey: 'ZGF0YWNvbGxhYm9yYXRpdmVzLm9yZ19NeFdjMk55YjJ4c1NHOXlhWHB2Ym5SaGJHeDVyMTU=',
     interlockedSlides: false,
     dragAndMove: false,
     offsetSections: false,
