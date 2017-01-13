@@ -380,6 +380,11 @@ p.large-text {
     @media (max-width: 40em) {
       .footer__panel {
         padding: 10px 10px; } }
+    .footer__panel--about a {
+      text-decoration: none;
+      border-bottom: 1px #b59e0d solid; }
+      .footer__panel--about a:hover {
+        background-color: #dbc00f; }
     @media (max-width: 40em) {
       .footer__panel--about {
         display: none; } }
@@ -1050,6 +1055,9 @@ p.large-text {
   text-align: center;
   height: 50px;
   display: flex; }
+.fp-enabled body #overlay {
+  position: initial;
+  overflow-y: scroll; }
 
 #fp-nav {
   opacity: .5 !important; }

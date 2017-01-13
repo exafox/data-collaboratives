@@ -32,7 +32,7 @@ $(document).ready(function() {
     offsetSections: false,
     resetSliders: false,
     fadingEffect: false,
-    normalScrollElements: '#element1, .element2',
+    normalScrollElements: 'nav',
     scrollOverflow: false,
     scrollOverflowReset: false,
     scrollOverflowOptions: null,
@@ -71,4 +71,10 @@ $(document).ready(function() {
     afterSlideLoad: function(anchorLink, index, slideAnchor, slideIndex){},
     onSlideLeave: function(anchorLink, index, slideIndex, direction, nextSlideIndex){}
   }); //END FULL PAGE
+
+  // Fix nav menu when using fullpage
+  $('#fullpage').click(function () {
+      $('.js-active').removeClass('js-active');
+      $('.js-active-menu').removeClass('js-active-menu');
+  });
 });
