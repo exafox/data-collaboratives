@@ -676,10 +676,8 @@ p.large-text {
   border-color: rgba(0, 0, 0, 0.3);
   color: rgba(0, 0, 0, 0.8); }
 
-.resources-page .top-section {
-  padding-bottom: 30px; }
-  .resources-page .top-section h1 {
-    text-transform: uppercase; }
+.resources-page .top-section h1 {
+  text-transform: uppercase; }
 .resources-page .modal__content {
   max-height: 40vh; }
   @media (min-width: 40.063em) and (max-width: 64em) {
@@ -706,7 +704,9 @@ p.large-text {
     font-weight: 600;
     text-transform: uppercase;
     color: white;
-    margin-right: 10px; }
+    margin-right: 10px;
+    background-color: #d2b70f;
+    padding: 5px; }
 
 .results-section, .results-container {
   padding: 0; }
@@ -814,6 +814,7 @@ p.large-text {
       display: inline-block;
       padding: 3px 8px;
       margin: 0;
+      margin-bottom: 3px;
       margin-top: -1px;
       opacity: .7;
       background-color: rgba(0, 0, 0, 0.1); }
@@ -1175,7 +1176,9 @@ p.large-text {
     font-weight: 600;
     text-transform: uppercase;
     color: white;
-    margin-right: 10px; }
+    margin-right: 10px;
+    background-color: #d2b70f;
+    padding: 5px; }
 .modal__location:last-child {
   padding-bottom: 30px; }
 .modal__content {
