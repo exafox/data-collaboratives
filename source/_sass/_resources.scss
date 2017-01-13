@@ -1,6 +1,6 @@
 .resources-page {
   .top-section {
-    padding-bottom: 30px;
+    // padding-bottom: 30px;
     h1 {text-transform: uppercase;}
   }
 .modal {
@@ -50,14 +50,14 @@
 }
 
 .filter-panel {
-  h4 { 
+  h4 {
     margin: 0 15px 0 0;
     padding: 16px 0;
     font-size: 1.4rem;
     text-align: right;
   }
 
-  .select, 
+  .select,
   .button { margin: 12px 5px; }
   .button--icon-only { padding: 10px 12px; }
 }
@@ -174,7 +174,7 @@
     &__value {
       flex: 1;
     }
-    
+
     p {
       font-size: .7rem;
       text-transform: uppercase;
@@ -195,5 +195,3 @@
 #overlay {
   overflow-y: scroll;
 }
-
-
