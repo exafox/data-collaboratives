@@ -41,6 +41,13 @@
       padding: 10px 10px;
     }
     &--about {
+      a {
+        text-decoration: none;
+        border-bottom: 1px darken($main-color, 10) solid;
+        &:hover {
+          background-color: darken($main-color, 2);
+        }
+      }
       @include breakpoint($small-only) {
         display: none;
       }
