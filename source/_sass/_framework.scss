@@ -5,5 +5,23 @@
     margin: 0;
   }
 
-  
+  &__message {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    &--link {
+      text-decoration: none;
+      border-bottom: 1px $main-color solid;
+      &:hover {
+        border-bottom: 1px darken($main-color, 10) solid;
+      }
+    }
+    p {
+      font-size: 1.2rem;
+    }
+
+    .button {
+      margin: 20px;
+    }
+  }
+
 }
