@@ -5,7 +5,7 @@ layout: default
 
 <div class="case-page">
 
-  <div class="top-section case-page__header" style="background-image: url('/images/54t5rivyaii-taduuda.jpg')">
+  <div class="top-section case-page__header case-page__header-{{page.sector | join: '-' | slugify}}" style="background-image: url('/images/headers/{{page.sector[0]| slugify}}.jpg')">
     <hgroup>
       <h1><span>{{page.caseStudy}}</span></h1>
       <h2 id="data-filter-container">
