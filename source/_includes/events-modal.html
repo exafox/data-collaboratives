@@ -5,7 +5,7 @@
       {% if event.conferenceType %}
         <span>{{event.conferenceType}}</span>
       {% endif %}
-      
+
       <span>{{event.sessionType}}</span>
     </div>
     {% endif %}
@@ -16,7 +16,7 @@
     {% if event.url %}
     <div class="floating-button">
       <div class="floating-button__wrapper">
-        <a class="button button--floating button--black" target="_blank" href="{{resource.url}}" title="{{event.url}}">Go to Website</a>  
+        <a class="button button--floating button--black" target="_blank" href="{{resource.url}}" title="{{event.url}}">Go to Website</a>
       </div>
     </div>
     {% endif %}
@@ -24,7 +24,7 @@
 
   <section class="modal__content">
       <p></p>
-      
+
       {% if event.eventDescription %}
       <p>{{event.eventDescription | markdownify }}</p>
       {% endif %}
@@ -35,7 +35,7 @@
       {% endif %}
 
       {% if event.sessionDescription %}
-        <p>{{event.sessionDescription}}</p>
+        <p>{{event.sessionDescription | markdownify }}</p>
       {% endif %}
   </section>
 
