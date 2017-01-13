@@ -39,13 +39,15 @@
   position: relative;
   overflow: hidden;
 
+
   &__video {
     position: absolute;
     mix-blend-mode: screen;
     left: 0;
     top: 0;
     width: 100%;
-    opacity: .15;
+    z-index: -1;
+    // opacity: .15;
   }
 }
 
