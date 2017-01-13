@@ -25,11 +25,15 @@
       height: 90vh;
     }
   }
-  .modal__resource-type > span {
+  .modal__resource-type {
+    float: left;
+    padding: 15px 20px;
+    > span {
       font-weight: 600;
       text-transform: uppercase;
       color: white;
       margin-right: 10px;
+    }
   }
 }
 
