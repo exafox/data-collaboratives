@@ -5,7 +5,7 @@ title: Events | Data Collaboratives
 
 <div class="events-page">
   <div class="top-section top-section--yellow-list-page">
-    <h2 class="top-section__list-header">Events</h2>
+    <h2 class="events-page__list-header">Events</h2>
   </div>
 
   {% assign events = site.data.contentful.spaces.cases.events | sort: 'eventDate' )%}
@@ -26,7 +26,7 @@ title: Events | Data Collaboratives
           <div class="fancy-date__stack">
           <span class="fancy-date__weekday">{{event.eventDate | date: "%A" }}</span>
           <span class="fancy-date__month">{{event.eventDate | date: "%B" }}</span>
-          </div>        
+          </div>
           <span class="fancy-date__day">{{event.eventDate | date: " %d" }}</span>
           <!-- <span class="fancy-date__year">{{event.eventDate | date: "%Y" }}</span> -->
         </div>
