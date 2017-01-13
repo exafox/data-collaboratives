@@ -703,8 +703,8 @@ p.large-text {
   .resources-page .modal__resource-type > span {
     font-weight: 600;
     text-transform: uppercase;
-    color: white;
-    margin-right: 10px;
+    color: #a28e0b;
+    margin-right: 8px;
     background-color: #d2b70f;
     padding: 5px; }
 
@@ -1175,8 +1175,8 @@ p.large-text {
   .modal__type > span {
     font-weight: 600;
     text-transform: uppercase;
-    color: white;
-    margin-right: 10px;
+    color: #a28e0b;
+    margin-right: 8px;
     background-color: #d2b70f;
     padding: 5px; }
 .modal__location:last-child {
