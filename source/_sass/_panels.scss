@@ -38,11 +38,12 @@
 .video-bg {
   position: relative;
   overflow: hidden;
+  
 
 
   &__video {
     position: absolute;
-    mix-blend-mode: screen;
+    // mix-blend-mode: screen;
     left: 0;
     top: 0;
     width: 100%;
