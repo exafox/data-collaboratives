@@ -33,8 +33,7 @@
   .top-section__band {
     background-color: rgba(229, 200, 16, 0.95); }
   .top-section--bg {
-    background-position: center;
-    background-size: cover;
+    background-image: url("/images/video/long-img.png");
     padding: 140px 0; }
   .top-section--yellow {
     background-color: #e5c810; }
@@ -135,7 +134,7 @@
 
 .callout-message {
   text-align: center;
-  background-color: rgba(0, 0, 0, 0.8); }
+  background-color: #333; }
   .callout-message h2 {
     font-size: 1.6rem;
     font-weight: 400;
@@ -179,11 +178,10 @@
   overflow: hidden; }
   .video-bg__video {
     position: absolute;
-    mix-blend-mode: screen;
     left: 0;
     top: 0;
     width: 100%;
-    opacity: .15; }
+    z-index: -1; }
 
 .divider {
   position: relative; }
