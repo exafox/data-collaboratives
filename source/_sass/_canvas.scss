@@ -13,6 +13,12 @@
       font-size: 2rem;
       text-transform: uppercase;
       font-weight: 300;
+      @include breakpoint($small-only) {
+        font-size: 1.7rem;
+      }
+      @media (max-width: 380px) {
+        font-size: 1rem;
+      }
 
       span {
         display: inline-block;
@@ -66,6 +72,28 @@
   text-align: center;
 }
 
+.phase-next {
+  background-color: $gray;
+  padding: 10px;
+  &-wrapper {
+    text-align: left;
+    a {
+      &:hover {
+        color: $main-color;
+      }
+      text-decoration: none;
+    }
+  }
+  span {
+    text-transform: uppercase;
+    font-size: 17px;
+    font-weight: 600;
+    color: rgba(white, 0.3);
+  }
+  h4 { margin: 0;}
+}
+
+
 .canvas-step {
   &__section {
     margin-top: 40px;
@@ -86,6 +114,9 @@
   }
 
   &__section-title {
+    @include breakpoint($small-only) {
+      text-align: left;
+    }
     text-align: right;
     margin: 0;
 

@@ -8,6 +8,12 @@ $(document).ready(function() {
     displayPhases(phaseTarget);
   });
 
+  // next handler
+  $('body').on('click', '.next-phase', function(e) {
+    var phaseTarget = $(this).attr("data-phase-target") || "#phase-1";
+    displayPhases(phaseTarget);
+  });
+
   // Canvas arrows
   $('.title-slider').on("afterChange", function() {
     var phaseTarget = $(this).find('.slick-current').attr('data-target') || "#phase-1";

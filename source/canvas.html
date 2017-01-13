@@ -7,7 +7,7 @@ layout: default
 
 <div class="canvas-page">
 
-  <!-- Standalonetitle slider -->
+  <!-- Standalone title slider -->
   <div class="top-section top-section--yellow">
     <!-- <h1>{{ page.phaseTitle }}</h1> -->
     <div class="phase-title">
@@ -18,7 +18,7 @@ layout: default
       </h1>
     </div>
   </div>
-  <!-- End Standalonetitle slider -->
+  <!-- End Standalone title slider -->
 
 <!-- INDIVIDUAL PHASES -->
 
@@ -33,7 +33,7 @@ layout: default
     </div><!-- phase intro end -->
 
     {% for phaseStep in phase.phaseSteps %} <!-- phase step loop start -->
-      <div class="cavas-step">
+      <div class="canvas-step">
         <div class="divider">
           <div class="row">
             <div class="large-8 large-offset-4 column">
@@ -45,7 +45,7 @@ layout: default
         <div class="page-section">
           {% if phaseStep.discussion %}
           <div class="canvas-step__section">
-            <div class="row">
+            <div class="row medium-unstack">
               <div class="large-4 column">
                 <h4 class="canvas-step__section-title">Discussion</h4>
               </div>
@@ -60,7 +60,7 @@ layout: default
 
           {% if phaseStep.questions %}
           <div class="canvas-step__section">
-            <div class="row">
+            <div class="row medium-unstack">
               <div class="large-4 column">
                 <h4 class="canvas-step__section-title">Questions & Considerations</h4>
               </div>
@@ -73,7 +73,7 @@ layout: default
 
           {% if phaseStep.enablers %}
           <div class="canvas-step__section">
-            <div class="row">
+            <div class="row medium-unstack">
               <div class="large-4 column">
                 <h4 class="canvas-step__section-title">Enablers</h4>
               </div>
@@ -86,7 +86,7 @@ layout: default
            
           {% if phaseStep.examples %}
           <div class="canvas-step__section">
-            <div class="row">
+            <div class="row medium-unstack">
               <div class="large-4 column">
                 <h4 class="canvas-step__section-title">Examples</h4>
               </div>
@@ -99,7 +99,7 @@ layout: default
 
           {% if phaseStep.resources %}
           <div class="canvas-step__section">
-            <div class="row">
+            <div class="row medium-unstack">
               <div class="large-4 column">
                 <h4 class="canvas-step__section-title">Resources</h4>
               </div>
@@ -112,7 +112,33 @@ layout: default
         </div>
       </div>
     {% endfor %} <!-- phase loop end -->
+
+
+    {% assign nextPhase = canvas[forloop.index] %}<!-- next phase nav -->
+    {% assign canvasLength = canvas | size %}
+
+    {% if forloop.index != canvasLength %}
+    <div class='divider phase-next'>
+      <div class="phase-next-wrapper row align-right">
+        <a class="next-phase" data-phase-target="#{{ nextPhase.phaseNumber | slugify }}">
+          <span>Next</span>
+          <h4 class="phase-next-title">{{ nextPhase.phaseNumber }}: {{ nextPhase.phaseTitle }}<i class="material-icons">keyboard_arrow_right</i></h4>
+        </a>
+      </div>
+    </div>
+    {% else %}
+    <div class='divider phase-next'>
+      <div class="phase-next-wrapper row align-right">
+        <a class="next-phase" data-phase-target="#{{ canvas[0].phaseNumber | slugify }}">
+          <span>Back</span>
+          <h4 class="phase-next-title">{{ canvas[0].phaseNumber }}: {{ canvas[0].phaseTitle }}</h4>
+        </a>
+      </div>
+    </div>
+    {% endif %}<!-- next phase nav end-->
+
   </div><!-- phase end -->
 {% endfor %}<!-- canvas loop end -->
+
 
 </div>
