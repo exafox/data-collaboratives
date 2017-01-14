@@ -3,8 +3,10 @@
   background-size: cover;
 
   &__content {
-    padding: 80px;
     background-color: rgba(darken($main-color, 3), .9);
+    
+    @include breakpoint($large-up) { padding: 80px; }
+    @include breakpoint($medium-down) { padding: 20px; }
   }
 
   h3, h4 {

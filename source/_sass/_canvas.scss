@@ -1,7 +1,9 @@
 .canvas-page {
   .top-section {
-    padding-top: 140px;
-    padding-bottom: 30px;
+    @include breakpoint($medium-up) {
+      padding-top: 140px;  
+      padding-bottom: 30px;
+    }
   }
 
   .phase-title {
@@ -13,12 +15,8 @@
       font-size: 2rem;
       text-transform: uppercase;
       font-weight: 300;
-      @include breakpoint($small-only) {
-        font-size: 1.7rem;
-      }
-      @media (max-width: 380px) {
-        font-size: 1rem;
-      }
+      @include breakpoint($small-only) { font-size: 1.7rem; }
+      @media (max-width: 380px) { font-size: 1rem;}
 
       span {
         display: inline-block;
@@ -47,6 +45,7 @@
         transform-origin: bottom;
         transition: all .3s;
         margin: 0 7rem;
+        @include breakpoint($small-only) { margin: 0 3rem; }
 
         em {
           font-weight: 500;
@@ -70,6 +69,11 @@
   color: darken($main-color, 20);
   line-height: 1.4;
   text-align: center;
+
+  @include breakpoint($small-only) { 
+    font-size: 1.1rem; 
+    padding: 20px;
+  }
 }
 
 .phase-next {

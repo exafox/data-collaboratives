@@ -3,10 +3,6 @@
 // $gray: rgba(black, 0.7);
 
 
-#services {
-  
-}
-
 // NAV MENU SCROLL
 .main-menu {
   overflow-x: auto;
@@ -29,17 +25,17 @@
   }
 }
 
-
 .blocked-list {
-  
   &__item {
     padding: 11px 20px;
-    display: inline-block;
     font-size: 1.1rem;
     background-color: transparent;
     border: 1px solid rgba(black, .1);
     color: rgba(black, .5);
-    width: 390px;
+    max-width: 390px;
+    display: inline-block;
+    
+    @include breakpoint($small-only) { display: block;}
   }
 }
 
