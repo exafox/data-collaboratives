@@ -11,6 +11,17 @@
   }
 }
 
+.button--outline-dark {
+  background-color: transparent;
+  border: 1px solid rgba(black, .6);
+  color: rgba(black, .6);
+
+  &:hover {
+    background-color: rgba($main-color, .9);
+    color: darken($main-color, 20);
+  } 
+}
+
 .button--main-color {
   background-color: $main-color;
 

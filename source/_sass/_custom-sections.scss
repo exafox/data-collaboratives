@@ -11,9 +11,10 @@
   }
 
   .button--outline {
-    width: 92%;
-    text-align: center;
+    width: 85%;
+    text-align: right;
     cursor: default;
+    pointer-events: none;
   }
 }
 
@@ -27,5 +28,17 @@
   .icon-box {
     border-color: rgba(black, .3);
     color: rgba(black, .8);
+
+    &:hover {
+      border-color: $main-color;
+      background-color: rgba($main-color, .1);
+    }
+  }
+}
+
+#services {
+  .checkerboard__content {
+      padding-left: 15%;
+      padding-right: 15%;
   }
 }
