@@ -22,7 +22,7 @@
     <script src="/scripts/list.fuzzysearch.js"></script>
   </head>
 
-  <body>
+  <body class="">
     <header class="top-bar top-bar--transparent">
     <span class="top-bar__button js-trigger-menu">menu</span>
     <nav class="main-menu js-target-menu main-menu--left">
@@ -77,9 +77,9 @@
             <select data-filter="resource-type" id="type-filter" class="dropdown-content">
               <option id="all">Filter by Type</option>
               
-                <option id="paper">Paper</option>
-              
                 <option id="journal-article">Journal Article</option>
+              
+                <option id="paper">Paper</option>
               
                 <option id="essay">Essay</option>
               
@@ -95,6 +95,8 @@
             <select data-filter="resource-theme" id="theme-filter" class="dropdown-content">
               <option id="all">Filter by Theme</option>
               
+              <option id="governance-and-operations">Governance and Operations</option>
+              
               <option id="benefits">Benefits</option>
               
               <option id="incentives">Incentives</option>
@@ -106,8 +108,6 @@
               <option id="data-responsibility">Data Responsibility</option>
               
               <option id="general">General</option>
-              
-              <option id="governance-and-operations">Governance and Operations</option>
               
             </select>
           </div>
@@ -125,6 +125,109 @@
     <div class="row expanded collapse">
       <div id="resources" class="columns results-container">
         <div id="list" class="list">
+          
+          <div class="result-item js-open-modal">
+            <h2 class="result-item__name">Collaborative Governance in Theory and Practice</h2>
+            <p class="result-item__authors">Chris Ansell, Alison Gash</p>
+            <!-- Short Description -->
+            
+            <div class="result-item__short-description">
+              <p><p>A journal article describing the emerging practice of public-private partnerships, particularly those built around data sharing.</p>
+</p>
+            </div>
+            
+
+            <!-- Publication -->
+            
+            <div class="result-item__publication">
+              <p><span>Published in</span> Journal of Public Administration Research and Theory  in 2007</p>
+            </div>
+
+            
+
+            <!-- Resource type -->
+            
+            <div class="result-item__taxonomy result-item__taxonomy--type">
+              <span class="result-item__taxonomy__key">Type</span>
+              <span class="result-item__taxonomy__value">
+                
+                  <p class="result-item__tag resource-type" data-type="all journal-article">Journal Article</p>
+                
+              </span>
+            </div>
+            
+
+            <!-- Resource theme -->
+            
+            <div class="result-item__taxonomy result-item__taxonomy--type">
+              <span class="result-item__taxonomy__key">Themes</span>
+              <span class="result-item__taxonomy__value resource-theme" data-theme="all  governance-and-operations ">
+                
+                  <p class="result-item__tag">Governance and Operations</p>
+                
+              </span>
+            </div>
+            
+
+            
+            <div class="modal js-target-modal">
+  <header class="modal__header modal--top-section">
+    <div class="modal__resource-type">
+      
+        <span>Journal Article</span>
+        
+    </div>
+    
+    <i class="modal__close material-icons js-close-modal">close</i>
+    <h1 class="modal__title">Collaborative Governance in Theory and Practice</h1>
+    <h2 class="modal__authors">Chris Ansell, Alison Gash</h2>
+    
+    <p class="modal__publication"><span>Published in</span> Journal of Public Administration Research and Theory  in 2007</p>
+
+    
+
+    <!-- URL -->
+    
+    <div class="floating-button">
+      <div class="floating-button__wrapper">
+        <a class="button button--floating button--black" target="_blank" href="http://jpart.oxfordjournals.org/content/18/4/543.short" title="Collaborative Governance in Theory and Practice">Go to Resource</a>  
+      </div>
+      
+      </span>
+    </div>
+    
+  </header>
+
+  <div class="modal__content">
+      <!-- Short Description -->
+      
+        
+      
+
+      
+        <p><p>This article describes collaborative arrangements that include public and private organizations working together and proposes a model for understanding an emergent form of public-private interaction informed by 137 diverse cases of collaborative governance.</p>
+
+<p>The article suggests factors significant to successful partnering processes and outcomes include:</p>
+<ul>
+  <li>Shared understanding of challenges,</li>
+  <li>Trust building processes,</li>
+  <li>The importance of recognizing seemingly modest progress, and</li>
+  <li>Strong indicators of commitment to the partnership’s aspirations and process.</li>
+</ul>
+
+<p>The authors provide a ‘’contingency theory model’’ that specifies relationships between different variables that influence outcomes of collaborative governance initiatives. Three “core contingencies’’ for successful collaborative governance initiatives identified by the authors are:</p>
+<ul>
+  <li>Time (e.g., decision making time afforded to the collaboration);</li>
+  <li>Interdependence (e.g., a high degree of interdependence can mitigate negative effects of low trust); and</li>
+  <li>Trust (e.g. a higher level of trust indicates a higher probability of success).</li>
+</ul>
+</p>
+      
+  </div>
+
+</div>
+
+          </div>
           
           <div class="result-item js-open-modal">
             <h2 class="result-item__name">Flooding through the Lens of Mobile Phone Activity</h2>
@@ -403,109 +506,6 @@
         <p><p>The essay refers to data collaboratives as a new form of collaboration involving participants from different sectors exchanging data to help solve public problems. These forms of collaborations can improve people’s lives through data-driven decision-making; information exchange and coordination; and shared standards and frameworks for multi-actor, multi-sector participation.</p>
 
 <p>The essay cites four activities that are critical to accelerating data collaboratives: documenting value and measuring impact; matching public demand and corporate supply of data in a trusted way; training and convening data providers and users; experimenting and scaling existing initiatives.</p>
-</p>
-      
-  </div>
-
-</div>
-
-          </div>
-          
-          <div class="result-item js-open-modal">
-            <h2 class="result-item__name">Collaborative Governance in Theory and Practice</h2>
-            <p class="result-item__authors">Chris Ansell, Alison Gash</p>
-            <!-- Short Description -->
-            
-            <div class="result-item__short-description">
-              <p><p>A journal article describing the emerging practice of public-private partnerships, particularly those built around data sharing.</p>
-</p>
-            </div>
-            
-
-            <!-- Publication -->
-            
-            <div class="result-item__publication">
-              <p><span>Published in</span> Journal of Public Administration Research and Theory  in 2007</p>
-            </div>
-
-            
-
-            <!-- Resource type -->
-            
-            <div class="result-item__taxonomy result-item__taxonomy--type">
-              <span class="result-item__taxonomy__key">Type</span>
-              <span class="result-item__taxonomy__value">
-                
-                  <p class="result-item__tag resource-type" data-type="all journal-article">Journal Article</p>
-                
-              </span>
-            </div>
-            
-
-            <!-- Resource theme -->
-            
-            <div class="result-item__taxonomy result-item__taxonomy--type">
-              <span class="result-item__taxonomy__key">Themes</span>
-              <span class="result-item__taxonomy__value resource-theme" data-theme="all  governance-and-operations ">
-                
-                  <p class="result-item__tag">Governance and Operations</p>
-                
-              </span>
-            </div>
-            
-
-            
-            <div class="modal js-target-modal">
-  <header class="modal__header modal--top-section">
-    <div class="modal__resource-type">
-      
-        <span>Journal Article</span>
-        
-    </div>
-    
-    <i class="modal__close material-icons js-close-modal">close</i>
-    <h1 class="modal__title">Collaborative Governance in Theory and Practice</h1>
-    <h2 class="modal__authors">Chris Ansell, Alison Gash</h2>
-    
-    <p class="modal__publication"><span>Published in</span> Journal of Public Administration Research and Theory  in 2007</p>
-
-    
-
-    <!-- URL -->
-    
-    <div class="floating-button">
-      <div class="floating-button__wrapper">
-        <a class="button button--floating button--black" target="_blank" href="http://jpart.oxfordjournals.org/content/18/4/543.short" title="Collaborative Governance in Theory and Practice">Go to Resource</a>  
-      </div>
-      
-      </span>
-    </div>
-    
-  </header>
-
-  <div class="modal__content">
-      <!-- Short Description -->
-      
-        
-      
-
-      
-        <p><p>This article describes collaborative arrangements that include public and private organizations working together and proposes a model for understanding an emergent form of public-private interaction informed by 137 diverse cases of collaborative governance.</p>
-
-<p>The article suggests factors significant to successful partnering processes and outcomes include:</p>
-<ul>
-  <li>Shared understanding of challenges,</li>
-  <li>Trust building processes,</li>
-  <li>The importance of recognizing seemingly modest progress, and</li>
-  <li>Strong indicators of commitment to the partnership’s aspirations and process.</li>
-</ul>
-
-<p>The authors provide a ‘’contingency theory model’’ that specifies relationships between different variables that influence outcomes of collaborative governance initiatives. Three “core contingencies’’ for successful collaborative governance initiatives identified by the authors are:</p>
-<ul>
-  <li>Time (e.g., decision making time afforded to the collaboration);</li>
-  <li>Interdependence (e.g., a high degree of interdependence can mitigate negative effects of low trust); and</li>
-  <li>Trust (e.g. a higher level of trust indicates a higher probability of success).</li>
-</ul>
 </p>
       
   </div>
@@ -2012,10 +2012,10 @@
   <div class="row expanded footer--darken">
     <div class="large-4 column"><h5 class="footer__panel">Sections</h5></div>
     <div class="large-4 column"><h5 class="footer__panel footer__panel--about">About</h5></div>
-    <div class="large-4 column"><h5 class="footer__panel text-align-center">Partners</h5></div>
+    <div class="large-4 column"><h5 class="footer__panel footer__panel--partners text-align-center">Partners</h5></div>
   </div>
   <div class="row expanded">
-    <div class="large-4 column">
+    <div class="large-4 small-12 column">
 
       <nav class="footer__nav footer__panel">
         <a href="/introduction.html">What is Data Collaboratives</a>
@@ -2028,13 +2028,14 @@
         <a href="/team.html">Team</a>
       </nav>
     </div>
-    <div class="large-4 column footer__panel--about">
+    <div class="large-4 small-12  column footer__panel--about">
       <div class="footer__text footer__panel footer__panel--about">
         <p>DataCollaboratives.org is a resource on creating public value by exchanging data. In sync with the mission of the <a href="http://www.thegovlab.org/">GovLab</a>, the site seeks to provide insight on how responsible exchange of corporate data can improve people’s lives. It results from different partnerships with UNICEF and Omidyar Network.</p>
       </div>
     </div>
 
-    <div class="large-4 column">
+    <div class="large-4 small-12 column">
+      <h5 class="footer__panel footer__panel--partners-small text-align-center">Partners</h5>
       <div class="footer-logos footer__panel">
         <a class="footer-logos__item footer-logos--govlab" href="http://thegovlab.org" tagret="_blank"><img src="/images/govlab-logo-white.png" alt="The Governance Lab"></a>
         <a class="footer-logos__item footer-logos--unicef" href="https://www.unicef.org" tagret="_blank"><img src="/images/partners/unicef.png" alt="The Governance Lab"></a>

@@ -22,7 +22,7 @@
     <script src="/scripts/list.fuzzysearch.js"></script>
   </head>
 
-  <body>
+  <body class="">
     <header class="top-bar top-bar--transparent">
     <span class="top-bar__button js-trigger-menu">menu</span>
     <nav class="main-menu js-target-menu main-menu--left">
@@ -56,8 +56,20 @@
       <h2 id="data-filter-container">
         
           
+            <!-- 
+            This needs a refactor. 
+            Why we have this JS to change cursor? 
+            Why the <a> inside the <span>? Thsi should be one single tag. 
+            I tried it, but it broke the JS, which is also not ideal, since we can have it work with native anchor tag behavior, and #values.
+            -->
             <span id="data-type" onmouseover="this.style.cursor='pointer';" class="observed-personal-data" ><a id="span-link" class="observed-personal-data" href="#">Observed Personal Data</a></span>
           
+            <!-- 
+            This needs a refactor. 
+            Why we have this JS to change cursor? 
+            Why the <a> inside the <span>? Thsi should be one single tag. 
+            I tried it, but it broke the JS, which is also not ideal, since we can have it work with native anchor tag behavior, and #values.
+            -->
             <span id="data-type" onmouseover="this.style.cursor='pointer';" class="observed-non-personal-data" ><a id="span-link" class="observed-non-personal-data" href="#">Observed Non-Personal Data</a></span>
           
         
@@ -77,7 +89,7 @@
       <div class="small-12 column medium-6 ">
         
           <h4>The Data</h4>
-          <p>The Global Forest Watch (GFW) ArcGIS Online portal is an added analytical tool to the GFW platform allowing users to use this forest data in a GIS cloud environment. ArcGIS Online resources include thousands of authoritative datasets, references, and thematic maps about hundreds of topics. Users can also contribute to GFW by sharing data and stories from the ground via GFW’s crowdsourcing tools, blogs, and discussion groups. Special “apps” provide detailed information for companies that wish to reduce the risk of deforestation in their supply chains, users who want to monitor fires across Southeast Asia, and more.</p>
+          <p>The Global Forest Watch (GFW) collects crowdsouced and geographical data to track envornmental degradation, particularly deforestation, around the world. Its ArcGIS Online portal is an analytical tool that allows users to use this forest data in a GIS cloud environment. ArcGIS Online resources include thousands of authoritative datasets, references, and thematic maps about hundreds of topics. Users can also contribute to GFW by sharing data and stories from the ground via GFW’s crowdsourcing tools, blogs, and discussion groups. Special “apps” provide detailed information for companies that wish to reduce the risk of deforestation in their supply chains, users who want to monitor fires across Southeast Asia, and more.</p>
         
       </div>
       <div class="small-12 column medium-6 ">
@@ -100,14 +112,7 @@
 2. Illustrate drivers of change, including land use and industrial activity. Priority sectors include logging, mining, agricultural commodities (palm oil, beef, soy, etc.), and infrastructure.
 3. Indicate the health or status of remaining forests, such as biodiversity, landscape connectivity, or carbon.”
 
-Government officials benefit from the project as they can see where forest clearing is happening in near real-time or sign up for alerts
-
-Law enforcement can stop illegal logging before more is lost
-Business managers buying commodities such as palm oil, soy, bean or wood pole can to see if supplies are clearing forests they committed to protect
-
-Local farmers can raise the alarm when a community’s forests are threatened by uploading a call to action from a mobile phone
-
-Everyone can participate in reviewing the satellite data, sharing stories from the ground, using the information to campaign for change.</p>
+The ultimate goal is to allow a wide array of stakeholders to provide data and track deforectation, in an effort to campaign for change and more sustainable environemntal practices.</p>
         
       </div>
       <div class="column large-6">
@@ -817,11 +822,6 @@ Everyone can participate in reviewing the satellite data, sharing stories from t
   </div>
 </div>
 
-<style media="screen">
-  .top-section {margin-top: 50px;}
-  .top-bar {background-color: rgba(0,0,0,0.8);}
-</style>
-
 
 
 
@@ -832,10 +832,10 @@ Everyone can participate in reviewing the satellite data, sharing stories from t
   <div class="row expanded footer--darken">
     <div class="large-4 column"><h5 class="footer__panel">Sections</h5></div>
     <div class="large-4 column"><h5 class="footer__panel footer__panel--about">About</h5></div>
-    <div class="large-4 column"><h5 class="footer__panel text-align-center">Partners</h5></div>
+    <div class="large-4 column"><h5 class="footer__panel footer__panel--partners text-align-center">Partners</h5></div>
   </div>
   <div class="row expanded">
-    <div class="large-4 column">
+    <div class="large-4 small-12 column">
 
       <nav class="footer__nav footer__panel">
         <a href="/introduction.html">What is Data Collaboratives</a>
@@ -848,13 +848,14 @@ Everyone can participate in reviewing the satellite data, sharing stories from t
         <a href="/team.html">Team</a>
       </nav>
     </div>
-    <div class="large-4 column footer__panel--about">
+    <div class="large-4 small-12  column footer__panel--about">
       <div class="footer__text footer__panel footer__panel--about">
         <p>DataCollaboratives.org is a resource on creating public value by exchanging data. In sync with the mission of the <a href="http://www.thegovlab.org/">GovLab</a>, the site seeks to provide insight on how responsible exchange of corporate data can improve people’s lives. It results from different partnerships with UNICEF and Omidyar Network.</p>
       </div>
     </div>
 
-    <div class="large-4 column">
+    <div class="large-4 small-12 column">
+      <h5 class="footer__panel footer__panel--partners-small text-align-center">Partners</h5>
       <div class="footer-logos footer__panel">
         <a class="footer-logos__item footer-logos--govlab" href="http://thegovlab.org" tagret="_blank"><img src="/images/govlab-logo-white.png" alt="The Governance Lab"></a>
         <a class="footer-logos__item footer-logos--unicef" href="https://www.unicef.org" tagret="_blank"><img src="/images/partners/unicef.png" alt="The Governance Lab"></a>

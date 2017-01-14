@@ -85,6 +85,7 @@ $(document).ready(function () {
       slidesToShow: 1,
       centerMode: true,
       variableWidth: true,
+      swipe: true,
       initialSlide: slideTarget || 0
     });
 
