@@ -28,3 +28,18 @@
     background: $gray; 
   }
 }
+
+
+.blocked-list {
+  
+  &__item {
+    padding: 11px 20px;
+    display: inline-block;
+    font-size: 1.1rem;
+    background-color: transparent;
+    border: 1px solid rgba(black, .1);
+    color: rgba(black, .5);
+    width: 390px;
+  }
+}
+
