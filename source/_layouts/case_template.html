@@ -1,6 +1,5 @@
 ---
 layout: default
-
 ---
 
 <div class="case-page">
@@ -11,6 +10,12 @@ layout: default
       <h2 id="data-filter-container">
         {% if page.dataType %}
           {% for item in page.dataType %}
+            <!-- 
+            This needs a refactor. 
+            Why we have this JS to change cursor? 
+            Why the <a> inside the <span>? Thsi should be one single tag. 
+            I tried it, but it broke the JS, which is also not ideal, since we can have it work with native anchor tag behavior, and #values.
+            -->
             <span id="data-type" onmouseover="this.style.cursor='pointer';" class="{{item | slugify}}" ><a id="span-link" class="{{item | slugify}}" href="#">{{ item }}</a></span>
           {% endfor %}
         {% endif %}
@@ -117,11 +122,6 @@ layout: default
     </div>
   </div>
 </div>
-
-<style media="screen">
-  .top-section {margin-top: 50px;}
-  .top-bar {background-color: rgba(0,0,0,0.8);}
-</style>
 
 {% assign number = page.dataType | size  %}
 

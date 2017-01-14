@@ -2,9 +2,6 @@
   width: 90%;
   margin: 0 auto;
   position: relative;
-  @include breakpoint($small-only) {
-    height: 330px;
-  }
 
   .select {
     margin-bottom: 25px;
@@ -12,6 +9,12 @@
 
     select {
       width: 110%;
+    }
+  }
+
+  .button--icon-only {
+    @include breakpoint($small-only) {
+      display: block;
     }
   }
 }
@@ -151,6 +154,13 @@
        background-color: darken($main-color, 8);
 
        &:hover { background-color: darken($main-color, 10); }
+    }
+  }
+
+  td {
+    @include breakpoint($small-only) {
+      padding-top: 8px;
+      padding-bottom: 8px;
     }
   }
 }

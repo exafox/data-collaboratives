@@ -40,7 +40,10 @@
     @include breakpoint($small-only) {
       padding: 10px 10px;
     }
+    
     &--about {
+      
+
       a {
         text-decoration: none;
         border-bottom: 1px darken($main-color, 10) solid;
@@ -48,9 +51,7 @@
           background-color: darken($main-color, 2);
         }
       }
-      @include breakpoint($small-only) {
-        display: none;
-      }
+      
     }
   }
 
@@ -59,6 +60,18 @@
     width: 100%;
   }
 }
+
+.footer__panel--partners-small {
+  font-size: 1.4rem;
+  @include breakpoint($medium-up) { display: none; }
+}
+
+.footer__panel--about,
+.footer__panel--partners {
+  @include breakpoint($small-only) { display: none; }
+}
+
+
 
 .footer-logos {
   display: flex;
@@ -89,7 +102,7 @@
   &--on {
     max-width: 70%;
     @include breakpoint($small-only) {
-      max-width: 130%;
+      max-width: 100%;
     }
   }
 
