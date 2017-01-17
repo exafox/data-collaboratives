@@ -26,6 +26,10 @@
     .blocked-list__item {
       display: block; } }
 
+select option {
+  background: white !important;
+  color: black !important; }
+
 .text-align-center {
   text-align: center; }
 
@@ -575,10 +579,9 @@ p.large-text {
   padding-bottom: 40px;
   padding-top: 80px;
   position: relative; }
-  @media (min-width: 64.063em) {
+  @media (min-width: 64em) {
     .case-page__header {
-      padding-top: 140px;
-      height: 42vh; } }
+      padding-top: 140px; } }
   .case-page__header h1, .case-page__header h2, .case-page__header h3 {
     margin: 0; }
     .case-page__header h1 span, .case-page__header h2 span, .case-page__header h3 span {
