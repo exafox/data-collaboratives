@@ -1,39 +1,476 @@
 ---
-datacollaborative:
+resources:
 - sys:
-    id: T6iGvLNiE0yIkkeimWyso
-  caseStudy: Mapping Snow Melting in the Sierra Nevada
-  sector:
-  - Environment
-  sharedBy:
-  - Intel
-  sharedWith:
-  - University of California
-  - Earth Database
-  region: North America
-  collaborativeType:
-  - Research Partnerships
-  dataType:
-  - Disclosed Non-Personal Data
-  dataKind:
-  - Satellite and Aerial Imagery
-  link: http://blogs.baruch.cuny.edu/greenit/2014/09/02/sustainability-of-intel/
-  whatDataShared: Intel is working with the Earth Research Institute at the University
-    of California Santa Barbara (UCSB) to use satellite imagery and snow mapping technologies
-    to measure the snow range in the Sierra Nevada Mountains.
-  howDataShared: This research will enable governments and farmers to predict drought
-    conditions and plan accordingly to save water for the future when water supply
-    encounters issue. According to Vin Sharma, director, strategy and marketing, Big
-    Data Solutions at Intel, the initiative generates “about two terabytes every 15
-    days, and the source files 75 gigabytes a day.” This data has the potential to
-    be recorded into a “queryable” database that can be used globally and by the UCSB
-    institute to inform agricultural practices worldwide by predicting future water
-    supply.
-  purpose: Intel and UCSB are using satellite imagery and snow mapping technologies
-    to measure the snow range in the Sierra Nevada Mountains. This will enable governments
-    and farmers to predict drought conditions and plan accordingly to save water for
-    the future when the water supply encounters issue. The project is still in an
-    ongoing phase, but Intel plans to provide database access to governments and scientists.
+    id: 3UQ25lAnHyKqaeqA0wqgmI
+  authors: Harlan M. Krumholz, Cary P. Gross, Katrina L. Blount, Jessica D. Ritchie,
+    Beth Hodshon, Richard Lehman, Joseph S. Ross
+  title: 'Sea Change in Open Science and Data Sharing: Leadership by Industry'
+  publication: 'Circulation: Cardiovascular Quality and Outcomes'
+  pubDate: !ruby/object:DateTime 2015-07-01 00:00:00.000000000 Z
+  url: https://www.ncbi.nlm.nih.gov/pubmed/24891590
+  shortDescription: A review of industry-led efforts and cross-sector collaborations
+    to share data from clinical trials to inform clinical practice.
+  annotation: |-
+    This article provides a comprehensive overview of industry-led efforts and cross-sector collaborations in data sharing by pharmaceutical companies to inform clinical practice.
+
+    The article details the types of data being shared and the early activities of GlaxoSmithKline (“in coordination with other companies such as Roche and ViiV”); Medtronic and the Yale University Open Data Access Project; and Janssen Pharmaceuticals (Johnson & Johnson). The article also describes the range of involvement in data sharing among pharmaceutical companies including Pfizer, Novartis, Bayer, AbbVie, Eli Llly, AstraZeneca, and Bristol-Myers Squibb.
+  type:
+  - Journal Article
+  theme:
+  - Incentives
+  - In Practice
+- sys:
+    id: 3nDdwjrdI4KqU6kgiEQoeu
+  authors: Silja M. Eckartz, Wout J. Hofman, Anne Fleur Van Veenstra
+  title: A Decision Model for Data Sharing
+  publication: International Conference on Electronic Government
+  pubDate: !ruby/object:DateTime 2014-01-01 00:00:00.000000000 Z
+  url: http://link.springer.com/chapter/10.1007%2F978-3-662-44426-9_21#enumeration
+  shortDescription: A paper proposing a decision model for data sharing arrangements
+    aimed at addressing identified risks and challenges.
+  annotation: "This paper proposes a decision model for data sharing of public and
+    private data based on literature review and three case studies in the logistics
+    sector.\n\nThe authors identify five categories of the barriers to data sharing
+    and offer a decision model for identifying potential interventions to overcome
+    each barrier:\n- __Ownership__. Possible interventions likely require improving
+    trust among those who own the data through, for example, involvement and support
+    from higher management\n- __Privacy__. Interventions include “anonymization by
+    filtering of sensitive information and aggregation of data,” and access control
+    mechanisms built around identity management and regulated access.  \n- __Economic__.
+    Interventions include a model where data is shared only with a few trusted organizations,
+    and yield management mechanisms to ensure negative financial consequences are
+    avoided.\n- __Data quality__. Interventions include identifying additional data
+    sources that could improve the completeness of datasets, and efforts to improve
+    metadata.\n- __Technical__. Interventions include making data available in structured
+    formats and publishing data according to widely agreed upon data standards."
+  type:
+  - Report
+  theme:
+  - Risks and Challenges
+  - Data Responsibility
+- sys:
+    id: 1rSgJeX37SQW4EyOiQu6Gg
+  authors: Stefaan Verhulst, Iryna Susha, Alexander Kostura
+  title: 'Data Collaboratives: Matching Demand with Supply of (Corporate) Data to
+    solve Public Problems'
+  pubDate: !ruby/object:DateTime 2016-02-24 00:00:00.000000000 Z
+  url: https://medium.com/@sverhulst/data-collaboratives-matching-demand-with-supply-of-corporate-data-to-solve-public-problems-dc75b4d683e1#.wq7bnrtue
+  shortDescription: A report describing emerging practice, opportunities and challenges
+    in data collaboratives as identified at the International Data Responsibility
+    Conference.
+  annotation: "This piece articulates a set of key lessons learned during a session
+    at the International Data Responsibility Conference focused on identifying emerging
+    practices, opportunities and challenges confronting data collaboratives.\n\nThe
+    authors list a number of privately held data sources that could create positive
+    public impacts if made more accessible in a collaborative manner, including:\n-
+    Data for early warning systems to help mitigate the effects of natural disasters;\n-
+    Data to help understand human behavior as it relates to nutrition and livelihoods
+    in developing countries;\n- Data to monitor compliance with weapons treaties;\n-
+    Data to more accurately measure progress related to the UN Sustainable Development
+    Goals.\n \nTo the end of identifying and expanding on emerging practice in the
+    space, the authors describe a number of current data collaborative experiments,
+    including:\n- __Trusted Intermediaries__: Statistics Netherlands partnered with
+    Vodafone to analyze mobile call data records in order to better understand mobility
+    patterns and inform urban planning.\n- __Prizes and Challenges__: Orange Telecom,
+    which has been a leader in this type of Data Collaboration, provided several examples
+    of the company’s initiatives, such as the use of call data records to track the
+    spread of malaria as well as their experience with Challenge 4 Development.\n-
+    __Research partnerships__: The Data for Climate Action project is an ongoing large-scale
+    initiative incentivizing companies to share their data to help researchers answer
+    particular scientific questions related to climate change and adaptation.\n- __Sharing
+    intelligence products__: JPMorgan Chase shares macro economic insights they gained
+    leveraging their data through the newly established JPMorgan Chase Institute.\n\nIn
+    order to capitalize on the opportunities provided by data collaboratives, a number
+    of needs were identified:\n- A responsible data framework;\n- Increased insight
+    into different business models that may facilitate the sharing of data;\n- Capacity
+    to tap into the potential value of data;\n- Transparent stock of available data
+    supply; and\n- Mapping emerging practices and models of sharing."
+  type:
+  - Essay
+  theme:
+  - General
+  - Benefits
+  - Incentives
+  - In Practice
+- sys:
+    id: 5lD2dD2D3aMYeEOuecq6Qi
+  authors: Matthew Brack, Tito Castillo
+  title: 'Data Sharing for Public Health: Key Lessons from Other Sectors'
+  publication: Chatham House
+  pubDate: !ruby/object:DateTime 2015-04-01 00:00:00.000000000 Z
+  url: https://www.chathamhouse.org/sites/files/chathamhouse/field/field_document/20150417DataSharingPublicHealthLessonsBrackCastillo.pdf
+  shortDescription: A Chatham House report describing the need for data sharing and
+    collaboration for global public health emergencies and potential lessons learned
+    from the commercial sector.
+  annotation: |
+    This Chatham House report provides an overview on public health surveillance data sharing, highlighting the benefits and challenges of shared health data and the complexity in adapting technical solutions from other sectors for public health.
+
+    The report describes data sharing processes from several perspectives, including in-depth case studies of actual data sharing in practice at the individual, organizational and sector levels. Among the key lessons for public health data sharing, the report strongly highlights the need to harness momentum for action and maintain collaborative engagement: “Successful data sharing communities are highly collaborative. Collaboration holds the key to producing and abiding by community standards, and building and maintaining productive networks, and is by definition the essence of data sharing itself. Time should be invested in establishing and sustaining collaboration with all stakeholders concerned with public health surveillance data sharing.”
+
+    Examples of data collaboratives include H3Africa (a collaboration between NIH and Wellcome Trust) and NHS England’s care.data programme.
+  type:
+  - Report
+  theme:
+  - Benefits
+  - Risks and Challenges
+  - Governance and Operations
+- sys:
+    id: 18J2mx7tM0macWUAI8WgcC
+  authors: Willem G van Panhuis, Proma Paul, Claudia Emerson, John Grefenstette, Richard
+    Wilder, Abraham J Herbst, David Heymann, Donald S Burke
+  title: A Systematic Review of Barriers to Data Sharing in Public Health
+  publication: BMC Public Health
+  pubDate: !ruby/object:DateTime 2014-06-11 00:00:00.000000000 Z
+  url: http://bmcpublichealth.biomedcentral.com/articles/10.1186/1471-2458-14-1144
+  shortDescription: A literature review of potential barriers to public health data
+    sharing.
+  annotation: |-
+    The authors of this report provide a “systematic literature of potential barriers to public health data sharing.” These twenty potential barriers are classified in six categories: “technical, motivational, economic, political, legal and ethical.” In this taxonomy, “the first three categories are deeply rooted in well-known challenges of health information systems for which structural solutions have yet to be found; the last three have solutions that lie in an international dialogue aimed at generating consensus on policies and instruments for data sharing.”
+
+    The authors suggest the need for a “systematic framework of barriers to data sharing in public health” in order to accelerate access and use of data for public good.
+  type:
+  - Journal Article
+  theme:
+  - Risks and Challenges
+  - Data Responsibility
+- sys:
+    id: 6JrjQR4EV2QW4OcQOCK8wi
+  authors: Stefaan Verhulst, David Sangokoya
+  title: 'Data Collaboratives: Exchanging Data to Improve People’s Lives'
+  pubDate: !ruby/object:DateTime 2015-04-22 00:00:00.000000000 Z
+  url: https://medium.com/@sverhulst/data-collaboratives-exchanging-data-to-improve-people-s-lives-d0fcfc1bdd9a#.6o1nwl22b
+  shortDescription: An essay on leveraging the potential of data to solve complex
+    public problems through data collaboratives and four critical accelerators towards
+    responsible data sharing and collaboration.
+  annotation: |-
+    The essay refers to data collaboratives as a new form of collaboration involving participants from different sectors exchanging data to help solve public problems. These forms of collaborations can improve people’s lives through data-driven decision-making; information exchange and coordination; and shared standards and frameworks for multi-actor, multi-sector participation.
+
+    The essay cites four activities that are critical to accelerating data collaboratives: documenting value and measuring impact; matching public demand and corporate supply of data in a trusted way; training and convening data providers and users; experimenting and scaling existing initiatives.
+  type:
+  - Essay
+  theme:
+  - General
+  - Benefits
+  - Incentives
+  - In Practice
+  - Governance and Operations
+- sys:
+    id: 3QF0U4je80Aq6848kYeOE2
+  authors: Linnet Taylor, Ralph Schroeder
+  title: Is Bigger Better? The Emergence of Big Data as a Tool for International Development
+    Policy
+  publication: GeoJournal
+  pubDate: !ruby/object:DateTime 2014-10-11 00:00:00.000000000 Z
+  url: http://link.springer.com/article/10.1007%2Fs10708-014-9603-5
+  shortDescription: A paper describing how data, such as privately held mobile phone
+    data – could improve development policy.
+  annotation: |-
+    This journal article describes how privately held data – namely “digital traces” of consumer activity – “are becoming seen by policymakers and researchers as a potential solution to the lack of reliable statistical data on lower-income countries."
+
+    They focus especially on three categories of data collaborative use cases:
+    - Mobile data as a predictive tool for issues such as human mobility and economic activity;
+    - Use of mobile data to inform humanitarian response to crises; and
+    - Use of born-digital web data as a tool for predicting economic trends, and the implications these have for LMICs.
+
+    They note, however, that a number of challenges and drawbacks exist for these types of use cases, including:
+    - Access to private data sources often must be negotiated or bought, “which potentially means substituting negotiations with corporations for those with national statistical offices;”
+    - The meaning of such data is not always simple or stable, and local knowledge is needed to understand how people are using the technologies in question
+    - Bias in proprietary data can be hard to understand and quantify;
+    - Lack of privacy frameworks; and
+    - Power asymmetries, wherein “LMIC citizens are unwittingly placed in a panopticon staffed by international researchers, with no way out and no legal recourse.”
+  type:
+  - Journal Article
+  theme:
+  - General
+  - Benefits
+  - Risks and Challenges
+- sys:
+    id: DZCEZ9RIycicMKKUSKKcA
+  authors: Chris Ansell, Alison Gash
+  title: Collaborative Governance in Theory and Practice
+  publication: 'Journal of Public Administration Research and Theory '
+  pubDate: !ruby/object:DateTime 2007-11-13 00:00:00.000000000 Z
+  url: http://jpart.oxfordjournals.org/content/18/4/543.short
+  shortDescription: A journal article describing the emerging practice of public-private
+    partnerships, particularly those built around data sharing.
+  annotation: "This article describes collaborative arrangements that include public
+    and private organizations working together and proposes a model for understanding
+    an emergent form of public-private interaction informed by 137 diverse cases of
+    collaborative governance.\n\nThe article suggests factors significant to successful
+    partnering processes and outcomes include:\n- Shared understanding of challenges,\n-
+    Trust building processes,\n- The importance of recognizing seemingly modest progress,
+    and\n- Strong indicators of commitment to the partnership’s aspirations and process.
+    \n\nThe authors provide a ‘’contingency theory model’’ that specifies relationships
+    between different variables that influence outcomes of collaborative governance
+    initiatives. Three “core contingencies’’ for successful collaborative governance
+    initiatives identified by the authors are:\n- Time (e.g., decision making time
+    afforded to the collaboration);\n- Interdependence (e.g., a high degree of interdependence
+    can mitigate negative effects of low trust); and\n- Trust (e.g. a higher level
+    of trust indicates a higher probability of success)."
+  type:
+  - Journal Article
+  theme:
+  - Governance and Operations
+- sys:
+    id: zw4HEYwCM8GsY6KWy0awo
+  authors: David Pastor-Escuredo, Alfredo Morales-Guzám, Yolanda Torres-Fernández,
+    Jean-Martin Bauer, Amit Wadhwa, Carlos Castro-Correa, Liudmyla Romanoff, Jong
+    Gun Lee, Alex Rutherford, Vanessa Frias-Martinez, Nuria Oliver, Enrique Frias-Martinez,
+    Miguel Luengo-Oroz
+  title: Flooding through the Lens of Mobile Phone Activity
+  publication: Proceedings of the IEEE Global Humanitarian Technology Conference (GHTC)
+  pubDate: !ruby/object:DateTime 2014-11-24 00:00:00.000000000 Z
+  url: https://arxiv.org/abs/1411.6574
+  shortDescription: An analysis of aggregated and anonymized call details records
+    (CDR) conducted in collaboration with the UN, Government of Mexico, academia and
+    Telefonica suggests high potential in using shared telecom data to improve early
+    warning and emergency management mechanisms.
+  annotation: |-
+    This report describes the impact of using mobile data in order to understand the impact of disasters and improve disaster management. The report was conducted in the Mexican state of Tabasco in 2009 as a multidisciplinary, multi-stakeholder consortium involving the UN World Food Programme (WFP), Telefonica Research, Technical University of Madrid (UPM), Digital Strategy Coordination Office of the President of Mexico, and UN Global Pulse.
+
+    Telefonica Research, a division of the major Latin American telecommunications company, provided call detail records covering flood-affected areas for nine months. This data was combined with “remote sensing data (satellite images), rainfall data, census and civil protection data.” The results of the data demonstrated that “analysing mobile activity during floods could be used to potentially locate damaged areas, efficiently assess needs and allocate resources (for example, sending supplies to affected areas).”
+
+    In addition to the results, the study highlighted “the value of a public-private partnership on using mobile data to accurately indicate flooding impacts in Tabasco, thus improving early warning and crisis management.”
+  type:
+  - Paper
+  theme:
+  - Benefits
+  - Incentives
+  - In Practice
+- sys:
+    id: 2795hkzGPOSMmCkC2EeSI2
+  authors: Institute of Medicine
+  title: 'Sharing Clinical Trial Data: Maximizing Benefits, Minimizing Risk'
+  pubDate: !ruby/object:DateTime 2015-01-14 00:00:00.000000000 Z
+  url: http://nationalacademies.org/HMD/Reports/2015/Sharing-Clinical-Trial-Data.aspx
+  shortDescription: A consensus, peer-revieed IOM report recommending how to promote
+    responsible clinical trial data sharing and minimize risks and challenges of sharing.
+  annotation: "- In light of the significant challenges and opportunities presented
+    by sharing clinical trial data, the IOM assembled a team of ad-hoc experts to
+    create guiding principles for data sharing intended to maximize the scientific
+    value of data sharing while also protecting the privacy of those involved.\n-
+    All stakeholders - including participants, sponsors, regulators, investigators,
+    research institutions, journals, and professional societies - have a role and
+    responsibility to ensure that data is shared responsibly and in accordance with
+    ethical values. \n- The report has four main recommendations for stakeholders
+    that will share data: 1) that stakeholders should encourage and foster a professional
+    environment in which the responsible sharing of data is the norm; 2) that data
+    should be shared within certain timeframes specified within the report; 3) that
+    stakeholders should employ operational strategies designed to mitigate risk and
+    maximize benefits; and 4) that the sponsors of the IOM study ought to take the
+    lead in creating an international framework and infrastructure related to responsible
+    sharing of clinical trial data. "
+  type:
+  - Report
+  theme:
+  - Benefits
+  - Risks and Challenges
+  - Data Responsibility
+- sys:
+    id: 4flUQmCkKQIsACi4q6qqgG
+  authors: Stefaan Verhulst, David Sangokoya
+  title: 'Mapping the Next Frontier of Open Data: Corporate Data Sharing.'
+  publication: 'Internet Monitor 2014: Reflections on the Digital World: Platforms,
+    Policy, Privacy, and Public Discourse'
+  pubDate: !ruby/object:DateTime 2014-12-15 00:00:00.000000000 Z
+  url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2538813
+  shortDescription: This essay describes an emerging taxonomy of activities involving
+    corporate data sharing for public good, an emerging trend in which companies share
+    anonymized and aggregated data with third-party users towards data-driven policymaking
+    and greater public good.
+  annotation: |-
+    This essay, included in the Harvard Berkman Center's 2014 Internet Monitor, describes a taxonomy of current corporate data sharing practices for public good: research partnerships; prizes and challenges; trusted intermediaries; application programming interfaces (APIs); intelligence products; and corporate data cooperatives or pooling.
+
+    Examples of data collaboratives discussed in the piece include: Yelp Dataset Challenge, the Digital Ecologies Research Partnerhsip, BBVA Innova Challenge, Telecom Italia’s Big Data Challenge, NIH’s Accelerating Medicines Partnership and the White House’s Climate Data Partnerships.
+
+    The authors highlight important questions to consider towards a more comprehensive mapping of these activities.
+  type:
+  - Paper
+  theme:
+  - General
+  - Benefits
+  - In Practice
+  - Governance and Operations
+- sys:
+    id: 7mqN0DlEacMC6yKYoYUKuI
+  authors: Bellagio Big Data Workshop Participants
+  title: 'Big Data and Positive Social Change in the Developing World: A White Paper
+    for Practitioners and Researchers'
+  pubDate: !ruby/object:DateTime 2014-05-01 00:00:00.000000000 Z
+  url: https://www.rockefellerfoundation.org/app/uploads/Big-Data-and-Positive-Social-Change-in-the-Developing-World.pdf
+  shortDescription: A white paper describing the potential of big data, and corporate
+    data in particular, to positively benefit development efforts.
+  annotation: |-
+    This white paper, produced by “a group of activists, researchers and data experts” explores the potential of big data to improve development outcomes and spur positive social change in low- and middle-income countries. Using examples, the authors discuss four areas in which the use of big data can impact development efforts:
+    - Advocating and facilitating by “opening[ing] up new public spaces for discussion and awareness building;
+    - Describing and predicting through the detection of “new correlations and the surfac[ing] of new questions;
+    -  Facilitating information exchange through “multiple feedback loops which feed into both research and action,” and
+    -  Promoting accountability and transparency, especially as a byproduct of crowdsourcing efforts aimed at “aggregat[ing] and analyz[ing] information in real time.
+
+    The authors argue that in order to maximize the potential of big data’s use in development, “there is a case to be made for building a data commons for private/public data, and for setting up new and more appropriate ethical guidelines.”
+
+    They also identify a number of challenges, especially when leveraging data made accessible from a number of sources, including private sector entities, such as:
+    - Lack of general data literacy;
+    - Lack of open learning environments and repositories;
+    - Lack of resources, capacity and access;
+    - Challenges of sensitivity and risk perception with regard to using data;
+    - Storage and computing capacity; and
+    - Externally validating data sources for comparison and verification.
+  type:
+  - Report
+  theme:
+  - Benefits
+  - Risks and Challenges
+- sys:
+    id: 6ThtuYmzN68kQugIsmIag4
+  authors: Elizabeth Stuart, Emma Samman, William Avis, Tom Berliner
+  title: 'The Data Revolution: Finding the Missing Millions'
+  pubDate: !ruby/object:DateTime 2015-04-01 00:00:00.000000000 Z
+  url: https://www.odi.org/sites/odi.org.uk/files/odi-assets/publications-opinion-files/9604.pdf
+  shortDescription: The Overseas Development Institute’s annual report focused on
+    solutions toward a sustainable data revolution.
+  annotation: |-
+    The authors of this Overseas Development Institute report highlight the need for good quality, relevant, accessible and timely data for governments to extend services into underrepresented communities and implement policies towards a sustainable “data revolution.”
+
+    The report explores solutions focused on capacity-building activities of national statistical offices (NSOs), alternative sources of data (including shared corporate data) to address gaps, and building strong data management systems.
+  type:
+  - Report
+  theme:
+  - Benefits
+  - Risks and Challenges
+  - Data Responsibility
+  - In Practice
+  - Governance and Operations
+- sys:
+    id: 6n1pEcEKnmUSWCAuGgk6iq
+  authors: Frederika Welle Donker, Bastiaan van Loenen, Arnold K. Bregt
+  title: Open Data and Beyond
+  publication: International Journal of Geo-Information
+  pubDate: !ruby/object:DateTime 2016-01-01 00:00:00.000000000 Z
+  url: http://www.mdpi.com/2220-9964/5/4/48
+  shortDescription: A case study examining the opening of private data by Dutch energy
+    network administrator Liander.
+  annotation: |
+    This research has developed a monitoring framework to assess the effects of open (private) data using a case study of a Dutch energy network administrator Liander.
+
+    Focusing on the potential impacts of open private energy data – beyond ‘smart disclosure’ where citizens are given information only about their own energy usage – the authors identify three attainable strategic goals:
+    - Continuously optimize performance on services, security of supply, and costs;
+    - Improve management of energy flows and insight into energy consumption;
+    - Help customers save energy and switch over to renewable energy sources.
+
+    The authors propose a seven-step framework for assessing the impacts of Liander data, in particular, and open private data more generally:
+    - Develop a performance framework to describe what the program is about, description of the organization’s mission and strategic goals;
+    - Identify the most important elements, or key performance areas which are most critical to understanding and assessing your program’s success;
+    - Select the most appropriate performance measures;
+    - Determine the gaps between what information you need and what is available;
+    - Develop and implement a measurement strategy to address the gaps;
+    - Develop a performance report which highlights what you have accomplished and what you have learned;
+    - Learn from your experiences and refine your approach as required.
+
+    While the authors note that the true impacts of this open private data will likely not come into view in the short term, they argue that, “Liander has successfully demonstrated that private energy companies can release open data, and has successfully championed the other Dutch network administrators to follow suit.”
+  type:
+  - Case Study
+  theme:
+  - In Practice
+  - Governance and Operations
+- sys:
+    id: 2WYKYRz3JYiYMWw8sYiyga
+  authors: Jos Berens, Stefaan Verhulst
+  title: Data Prizes and Challenges as Data Collaboratives – Terms and Conditions
+  publication: The GovLab
+  pubDate: !ruby/object:DateTime 2015-09-22 00:00:00.000000000 Z
+  url: http://thegovlab.org/data-prizes-and-challenges-as-data-collaboratives-terms-and-conditions/
+  shortDescription: 'An analysis of terms and conditions present in a diversity of
+    data-driven prizes and challenges to better understand governance frameworks of
+    data sharing practices. '
+  type:
+  - Blog Post
+  theme:
+  - Governance and Operations
+- sys:
+    id: 5Id0R5kIp2ki4KuMu4uqkc
+  authors: Nicholas Vogel, Christopher Theisen, Jonathan P. Leidig, Jerry Scripps,
+    Douglas H. Graham, Greg Wolffe
+  title: Mining Mobile Datasets to Enable the Fine-grained Stochastic Simulation of
+    Ebola Diffusion
+  publication: Paper presented at the Procedia Computer Science
+  pubDate: !ruby/object:DateTime 2015-01-01 00:00:00.000000000 Z
+  url: http://www.sciencedirect.com/science/article/pii/S1877050915010054
+  shortDescription: 'A paper on the use of mobile call records to enable predictive
+    action around Ebola diffusion. '
+  annotation: |-
+    The paper presents a research study conducted on the basis of the mobile calls records shared with researchers in the framework of the Data for Development Challenge by the mobile operator Orange.
+
+    The study discusses the data analysis approach in relation to developing a situation of Ebola diffusion built around “the interactions of multi-scale models, including viral loads (at the cellular level), disease progression (at the individual person level), disease propagation (at the workplace and family level), societal changes in migration and travel movements (at the population level), and mitigating interventions (at the abstract government policy level).”
+
+    The authors argue that the use of their population, mobility, and simulation models provide more accurate simulation details in comparison to high-level analytical predictions and that the D4D mobile datasets provide high-resolution information useful for modeling developing regions and hard to reach locations.
+  type:
+  - Paper
+  theme:
+  - Benefits
+  - In Practice
+- sys:
+    id: 4IyJ4rlhug60AuaiUS88uS
+  authors: Sharona Hoffman, Andy Podgurski
+  title: 'The Use and Misuse of Biomedical Data: Is Bigger Really Better?'
+  publication: American Journal of Law & Medicine
+  pubDate: !ruby/object:DateTime 2013-11-26 00:00:00.000000000 Z
+  url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2235267
+  shortDescription: A journal article primarily focused on the risks involved in health
+    data pooling.
+  annotation: |-
+    This journal article explores the benefits and, in particular, the risks related to large-scale biomedical databases bringing together health information from a diversity of sources across sectors. Some data collaboratives examined in the piece include:
+    - __MedMining__ – a company that extracts EHR data, de-identifies it, and offers it to researchers. The data sets that MedMining delivers to its customers include ‘lab results, vital signs, medications, procedures, diagnoses, lifestyle data, and detailed costs’ from inpatient and outpatient facilities.
+    - __Explorys__ has formed a large healthcare database derived from financial, administrative, and medical records. It has partnered with major healthcare organizations such as the Cleveland Clinic Foundation and Summa Health System to aggregate and standardize health information from ten million patients and over thirty billion clinical events.
+
+    Hoffman and Podgurski note that biomedical databases populated have many potential uses, with those likely to benefit including: “researchers, regulators, public health officials, commercial entities, lawyers,” as well as “healthcare providers who conduct quality assessment and improvement activities,” regulatory monitoring entities like the FDA, and “litigants in tort cases to develop evidence concerning causation and harm.”
+
+    They argue, however, that risks arise based on:
+    - The data contained in biomedical databases is surprisingly likely to be incorrect or incomplete;
+    - Systemic biases, arising from both the nature of the data and the preconceptions of investigators are serious threats the validity of research results, especially in answering causal questions;
+    - Data mining of biomedical databases makes it easier for individuals with political, social, or economic agendas to generate ostensibly scientific but misleading research findings for the purpose of manipulating public opinion and swaying policymakers.
+  type:
+  - Journal Article
+  theme:
+  - Risks and Challenges
+  - Data Responsibility
+- sys:
+    id: gTLp4ToB3y6ocAKMOeCsI
+  authors: Cameron F. Kerry, Jake Kendall, Yves-Alexandre de Montjoye
+  title: Enabling Humanitarian Use of Mobile Phone Data
+  pubDate: !ruby/object:DateTime 2016-11-12 00:00:00.000000000 Z
+  url: https://www.brookings.edu/research/enabling-humanitarian-use-of-mobile-phone-data/
+  shortDescription: An issues paper from the Brookings Institution on leveraging the
+    benefits of mobile phone data for humanitarian use while minimizing risks to privacy.
+  annotation: |-
+    Using Ebola as a case study, the authors describe the value of using private telecom data for uncovering “valuable insights into understanding the spread of infectious diseases as well as strategies into micro-target outreach and driving update of health-seeking behavior.”
+
+    The authors highlight the absence of a common legal and standards framework for “sharing mobile phone data in privacy-conscientious ways” and recommend “engaging companies, NGOs, researchers, privacy experts, and governments to agree on a set of best practices for new privacy-conscientious metadata sharing models.”
+  type:
+  - Report
+  theme:
+  - Benefits
+  - In Practice
+  - Governance and Operations
+- sys:
+    id: 3gfWF1M3eUMWSyWEUwQiKC
+  authors: World Economic Forum
+  title: Data-Driven Development Pathways for Progress
+  pubDate: !ruby/object:DateTime 2015-01-01 00:00:00.000000000 Z
+  url: http://www3.weforum.org/docs/WEFUSA_DataDrivenDevelopment_Report2015.pdf
+  shortDescription: An overview report from the World Economic Forum on the existing
+    data deficit and the value and impact of big data for sustainable development.
+  annotation: |-
+    This report captures an overview of the existing data deficit and the value and impact of big data for sustainable development.
+
+    The authors of the report focus on four main priorities towards a sustainable data revolution: commercial incentives and trusted agreements with public- and private-sector actors; the development of shared policy frameworks, legal protections and impact assessments; capacity building activities at the institutional, community, local and individual level; and lastly, recognizing individuals as both produces and consumers of data.
+  type:
+  - Report
+  theme:
+  - Benefits
+  - Incentives
+  - Governance and Operations
+datacollaborative:
 - sys:
     id: 3Z0QIYk9WgYoYi8aqQiWOs
   caseStudy: Yelp LIVES score
@@ -373,42 +810,6 @@ datacollaborative:
   purpose: 'The Twitter Data Grants program aims to ease the access to Twitter''s
     vast dataset of tweets for researchers who can glean important insights by analyzing
     historical tweets. '
-- sys:
-    id: EEMcJM4jtI6qqScewkgMM
-  caseStudy: Open Algorithms (OPAL) Project
-  sector:
-  - Digital Society
-  - Telecommunications
-  sharedBy:
-  - Multiple
-  - Orange
-  - Sonatel
-  - Microsoft
-  sharedWith:
-  - Multiple
-  - Data Pop Alliance
-  - World Economic Forum
-  - MIT Media Lab
-  region: Worldwide
-  collaborativeType:
-  - Data Pooling
-  - API
-  dataType:
-  - Observed Personal Data
-  link: http://www.opalproject.org/about-us
-  whatDataShared: According to its website, OPAL’s core will consist of an open suite
-    of softwares and open algorithms providing access to statistical information coming
-    from from anonymized, secured and formatted data.
-  howDataShared: In order to improve the accuracy and timeliness of the data, OPAL
-    uses open algorithms, accessed by an API, to run on OPAL servers of partner companies,
-    behind their firewalls. According to its website, these APIs will be used to access
-    indicators such as population density, mobility, approximations of poverty indices,
-    or literacy rate based on mobile data from telecom operators as well as a library
-    of certified open algorithms to extract these indicators in a governed and trustworthy
-    manner.
-  purpose: 'OPAL (for Open Algorithms) is a collaborative project developed by a number
-    of partner organizations seeking to leverage the power of Big Data to solve public
-    problems. '
 - sys:
     id: 6s95bGRmpyYkaeMUSwwceQ
   caseStudy: Feeding America and Map the Meal Gap
@@ -845,6 +1246,42 @@ datacollaborative:
   purpose: Data is collected by participants through a mobile phone survey that aims
     to understand food insecurity in order to advise WFP's resouce allocations.
 - sys:
+    id: 3riF1HxE2Iw2YwyoyCYWQ6
+  caseStudy: 23andMe Patient-Centric Research Portal
+  sector:
+  - Health
+  sharedBy:
+  - 23andMe
+  sharedWith:
+  - Selected partners
+  region: Worldwide
+  collaborativeType:
+  - Intelligence Product
+  - Research Partnerships
+  dataType:
+  - Disclosed Personal Data
+  dataKind:
+  - Registration Records
+  dataSource:
+  - Health System Registers
+  link: https://www.23andme.com/research/
+  whatDataShared: 23andMe shares its database of anonymized genetic data from more
+    than 650,000 customers who decide to participate on the online medical studies.
+    The ResearchKit app, developed in partnership with Apple, allows participants
+    to integrate their genetic data with large-scale medical studies.
+  howDataShared: Medical studies initiated by partner institutions, like the Mount
+    Sinai Asthma Health and Stanford Medicine's MyHeart Counts projects, can access
+    23andMe research services using a new ResearchKit App, through which customers
+    can choose to share data. Customers of 23andMe's services can also choose to participate
+    in other surveys to aid medical research, and provide data to 23andMe's industry,
+    academic and non-profit partners.
+  purpose: The data collaborative allows research partners to quickly run queries
+    on more than 1,000 diseases, conditions, and traits so that they can identify
+    new associations between genetic markers using the 23andMe data. A single customer
+    who chooses to opt into research contributes to over 230 studies on a variety
+    of health topics. This effectively accelerates medical research, leading to significant
+    discoveries at lesser cost in a fraction of the time.
+- sys:
     id: LSBRcjAP2CUCUQAaE866o
   caseStudy: Data Does Good
   sector:
@@ -1060,6 +1497,38 @@ datacollaborative:
     of crops, which leads to more efficient, precise and less wasteful agricultural
     practices.
 - sys:
+    id: 1xiwOYYr8kwAwOOyOQmK2m
+  caseStudy: Strava Metro
+  sector:
+  - Infrastructure
+  - Transportation
+  sharedBy:
+  - Strava
+  sharedWith:
+  - Local government agencies
+  region: North America
+  collaborativeType:
+  - Data Pooling
+  - Trusted Intermediary
+  dataType:
+  - Observed Personal Data
+  dataKind:
+  - Tracking Data
+  dataSource:
+  - Mobile Phone Locations
+  link: http://metro.strava.com/
+  whatDataShared: 'Strava Metro collects riding data about bike rides through the
+    GPS information that participants share on the app. The information gathered includes:
+    minute by minute activity count over a certain area; understand activities through
+    their start and end points; and records the wait time and activities at intersections. '
+  howDataShared: Strava Metro anonymizes the rider information collected from its
+    participants and then shares this with city planners and administrators. Often
+    this data is combined with existing city datasights to provide more accurate insights
+    into urban activities and road usage.
+  purpose: Strava Metro provides crowdsourced data from over 90 million bike rides
+    and 24 million runs to help urban planners understand how and where cyclists and
+    runners use public streets.
+- sys:
     id: 3vRS69rcTCUQCCS0oOwOIA
   caseStudy: Clever
   sector:
@@ -1257,38 +1726,6 @@ datacollaborative:
     Mining and Urban Planning, Natural Language Processing (NLP), Changepoints and
     Events, and much more.
 - sys:
-    id: 438zv4Y7BmmgAoQA6gEaKy
-  caseStudy: Climate Modeling in Colombia
-  sector:
-  - Agriculture
-  sharedBy:
-  - International Center for Tropical Agriculture and the Colombian Ministry of Agriculture
-  sharedWith:
-  - Colombian growers
-  region: Latin America and the Caribbean
-  collaborativeType:
-  - Data Pooling
-  dataType:
-  - Observed Non-Personal Data
-  dataKind:
-  - meteorological data
-  link: http://dataimpacts.org/project/climate-modeling/
-  whatDataShared: 'In a cross-sector partnership led by the International Center for
-    Tropical Agriculture (CIAT) and the Colombian Ministry of Agriculture, The Clima
-    y Sector Agropecuario Colombiano (Colombian Climate and Agricultural Sector; CSAC)
-    provides meterological data to farmers, along with data on the economics and agronomy
-    of rice cultivation. '
-  howDataShared: 'CSAC works directly with growers interested in adopting new strategies,
-    using the results of its climate models to help farmers with their agricultural
-    practices. Growers in the program also work alongside local extension officers
-    to help other farmers understand and adopt the new strategies.  '
-  purpose: The partnership provides information to growers and helps them improve
-    their decision making about when to plant or not plant, as well as which varieties
-    are most likely to have the best yields in the forecasted conditions. The site-specific
-    information had an enormous economic impact. In 2013, when CSAC predicted a high
-    risk of crop loss due to drought, farmers who did not plant saved $3.6 million
-    in agricultural inputs that would have been spent on the failed crop.
-- sys:
     id: 2qlGaggRHCawi4aI6kwWWo
   caseStudy: DMC International Imaging
   sector:
@@ -1365,6 +1802,38 @@ datacollaborative:
     they were reported by the CDC (Centers for Disease Control and Prevention). But,
     because of flaws in the project and analysis, none of these goals were attained
     to any sufficient standard.
+- sys:
+    id: 438zv4Y7BmmgAoQA6gEaKy
+  caseStudy: Climate Modeling in Colombia
+  sector:
+  - Agriculture
+  sharedBy:
+  - International Center for Tropical Agriculture and the Colombian Ministry of Agriculture
+  sharedWith:
+  - Colombian growers
+  region: Latin America and the Caribbean
+  collaborativeType:
+  - Data Pooling
+  dataType:
+  - Observed Non-Personal Data
+  dataKind:
+  - meteorological data
+  link: http://dataimpacts.org/project/climate-modeling/
+  whatDataShared: 'In a cross-sector partnership led by the International Center for
+    Tropical Agriculture (CIAT) and the Colombian Ministry of Agriculture, The Clima
+    y Sector Agropecuario Colombiano (Colombian Climate and Agricultural Sector; CSAC)
+    provides meterological data to farmers, along with data on the economics and agronomy
+    of rice cultivation. '
+  howDataShared: 'CSAC works directly with growers interested in adopting new strategies,
+    using the results of its climate models to help farmers with their agricultural
+    practices. Growers in the program also work alongside local extension officers
+    to help other farmers understand and adopt the new strategies.  '
+  purpose: The partnership provides information to growers and helps them improve
+    their decision making about when to plant or not plant, as well as which varieties
+    are most likely to have the best yields in the forecasted conditions. The site-specific
+    information had an enormous economic impact. In 2013, when CSAC predicted a high
+    risk of crop loss due to drought, farmers who did not plant saved $3.6 million
+    in agricultural inputs that would have been spent on the failed crop.
 - sys:
     id: 4HpBMLGAi4A8S0cocEI4Oo
   caseStudy: Predicting Consumer Confidence Using Social Media Data
@@ -1922,529 +2391,40 @@ datacollaborative:
   purpose: Sidewalk’s Flow team and the cities' digitized inventory can help local
     agencies do make transportation and infrastructure decisions based on data and
     evidence to the end of improving quality of life for residents.
-events:
-- sys:
-    id: 3KNhrCPTR6Yu0cCGIICyQ4
-  eventName: International Data Responsibility Group Conference
-  url: http://www.responsible-data.org/2017-conference.html
-  location: The Hague, The Netherlands
-  eventDate: !ruby/object:DateTime 2017-03-03 00:00:00.000000000 Z
-  conferenceType:
-  - Conference
-  eventDescription: '"Every spring, the International Data Responsibility Group organises
-    the annual IDRG conference in The Hague. This annual meeting brings together experts
-    and practitioners working with data for crisis-affected communities and the most
-    at-risk populations worldwide. Through presentations by a variety of experts and
-    several interactive workshops, participants explore the potential risks and harms
-    that could be caused by using this data, and ways to prevent these from materializing.
-    The theme for this year''s conference will be the potential risks of collecting
-    and processing digital data in the European Migration Crisis."'
-- sys:
-    id: 1WVwEt6aeo4ko2wiAQ4Gae
-  eventName: European Foundation Centre Conference
-  url: http://www.efc.be/aga/2017-warsaw/
-  location: Warsaw, Poland
-  eventDate: !ruby/object:DateTime 2017-05-31 00:00:00.000000000 Z
-  conferenceType:
-  - Conference
-  eventDescription: The 2017 EFC AGA and Conference will focus on the theme of ‘courage
-    for solidarity’ and specifically how philanthropy should be involved in fostering,
-    supporting and promoting it. It will offer a unique opportunity for delegates
-    from around the world to reflect on their own work, learn from their peers, and
-    discover how, by finding the courage to re-embrace solidarity, they can help shape
-    a brighter future.
-  sessionName: Data & Philanthropy
-  sessionType:
-  - Workshop
-- sys:
-    id: uF3uaikYV2gWsckO8wYO2
-  eventName: United Nations World Data Forum
-  url: http://undataforum.org
-  location: Cape Town, South Africa
-  eventDate: !ruby/object:DateTime 2017-01-15 00:00:00.000000000 Z
-  conferenceType:
-  - Forum
-  eventDescription: |-
-    The first UN World Data Forum will be hosted by Statistics South Africa from 15 to 18 January 2017, with support from the Statistics Division of the UN Department of Economic and Social Affairs, under the guidance of the United Nations Statistical Commission and the High-level Group for Partnership, Coordination and Capacity-Building for Statistics for the 2030 Agenda for Sustainable Development.
-
-    It will be an opportunity for data and statistics experts from around the world to:
-
-    - __JOIN__ together in this unique event with governments, businesses, civil society and the scientific and academic communities.
-    - __EXPLORE__ innovative ways to apply data and statistics to measure global progress and inform evidence-based policy decisions on the 2030 Agenda for Sustainable Development.
-    - __CONTRIBUTE__ to important discussions, data labs and interactive platforms aimed at improving the use of data for sustainable development.
-    - __LAUNCH__ new initiatives and solutions that will deliver better data for all.
-resources:
-- sys:
-    id: 1rSgJeX37SQW4EyOiQu6Gg
-  authors: Stefaan Verhulst, Iryna Susha, Alexander Kostura
-  title: 'Data Collaboratives: Matching Demand with Supply of (Corporate) Data to
-    solve Public Problems'
-  pubDate: !ruby/object:DateTime 2016-02-24 00:00:00.000000000 Z
-  url: https://medium.com/@sverhulst/data-collaboratives-matching-demand-with-supply-of-corporate-data-to-solve-public-problems-dc75b4d683e1#.wq7bnrtue
-  shortDescription: A report describing emerging practice, opportunities and challenges
-    in data collaboratives as identified at the International Data Responsibility
-    Conference.
-  annotation: "This piece articulates a set of key lessons learned during a session
-    at the International Data Responsibility Conference focused on identifying emerging
-    practices, opportunities and challenges confronting data collaboratives.\n\nThe
-    authors list a number of privately held data sources that could create positive
-    public impacts if made more accessible in a collaborative manner, including:\n-
-    Data for early warning systems to help mitigate the effects of natural disasters;\n-
-    Data to help understand human behavior as it relates to nutrition and livelihoods
-    in developing countries;\n- Data to monitor compliance with weapons treaties;\n-
-    Data to more accurately measure progress related to the UN Sustainable Development
-    Goals.\n \nTo the end of identifying and expanding on emerging practice in the
-    space, the authors describe a number of current data collaborative experiments,
-    including:\n- __Trusted Intermediaries__: Statistics Netherlands partnered with
-    Vodafone to analyze mobile call data records in order to better understand mobility
-    patterns and inform urban planning.\n- __Prizes and Challenges__: Orange Telecom,
-    which has been a leader in this type of Data Collaboration, provided several examples
-    of the company’s initiatives, such as the use of call data records to track the
-    spread of malaria as well as their experience with Challenge 4 Development.\n-
-    __Research partnerships__: The Data for Climate Action project is an ongoing large-scale
-    initiative incentivizing companies to share their data to help researchers answer
-    particular scientific questions related to climate change and adaptation.\n- __Sharing
-    intelligence products__: JPMorgan Chase shares macro economic insights they gained
-    leveraging their data through the newly established JPMorgan Chase Institute.\n\nIn
-    order to capitalize on the opportunities provided by data collaboratives, a number
-    of needs were identified:\n- A responsible data framework;\n- Increased insight
-    into different business models that may facilitate the sharing of data;\n- Capacity
-    to tap into the potential value of data;\n- Transparent stock of available data
-    supply; and\n- Mapping emerging practices and models of sharing."
-  type:
-  - Essay
-  theme:
-  - General
-  - Benefits
-  - Incentives
-  - In Practice
-- sys:
-    id: 5lD2dD2D3aMYeEOuecq6Qi
-  authors: Matthew Brack, Tito Castillo
-  title: 'Data Sharing for Public Health: Key Lessons from Other Sectors'
-  publication: Chatham House
-  pubDate: !ruby/object:DateTime 2015-04-01 00:00:00.000000000 Z
-  url: https://www.chathamhouse.org/sites/files/chathamhouse/field/field_document/20150417DataSharingPublicHealthLessonsBrackCastillo.pdf
-  shortDescription: A Chatham House report describing the need for data sharing and
-    collaboration for global public health emergencies and potential lessons learned
-    from the commercial sector.
-  annotation: |
-    This Chatham House report provides an overview on public health surveillance data sharing, highlighting the benefits and challenges of shared health data and the complexity in adapting technical solutions from other sectors for public health.
-
-    The report describes data sharing processes from several perspectives, including in-depth case studies of actual data sharing in practice at the individual, organizational and sector levels. Among the key lessons for public health data sharing, the report strongly highlights the need to harness momentum for action and maintain collaborative engagement: “Successful data sharing communities are highly collaborative. Collaboration holds the key to producing and abiding by community standards, and building and maintaining productive networks, and is by definition the essence of data sharing itself. Time should be invested in establishing and sustaining collaboration with all stakeholders concerned with public health surveillance data sharing.”
-
-    Examples of data collaboratives include H3Africa (a collaboration between NIH and Wellcome Trust) and NHS England’s care.data programme.
-  type:
-  - Report
-  theme:
-  - Benefits
-  - Risks and Challenges
-  - Governance and Operations
-- sys:
-    id: 3UQ25lAnHyKqaeqA0wqgmI
-  authors: Harlan M. Krumholz, Cary P. Gross, Katrina L. Blount, Jessica D. Ritchie,
-    Beth Hodshon, Richard Lehman, Joseph S. Ross
-  title: 'Sea Change in Open Science and Data Sharing: Leadership by Industry'
-  publication: 'Circulation: Cardiovascular Quality and Outcomes'
-  pubDate: !ruby/object:DateTime 2015-07-01 00:00:00.000000000 Z
-  url: https://www.ncbi.nlm.nih.gov/pubmed/24891590
-  shortDescription: A review of industry-led efforts and cross-sector collaborations
-    to share data from clinical trials to inform clinical practice.
-  annotation: |-
-    This article provides a comprehensive overview of industry-led efforts and cross-sector collaborations in data sharing by pharmaceutical companies to inform clinical practice.
-
-    The article details the types of data being shared and the early activities of GlaxoSmithKline (“in coordination with other companies such as Roche and ViiV”); Medtronic and the Yale University Open Data Access Project; and Janssen Pharmaceuticals (Johnson & Johnson). The article also describes the range of involvement in data sharing among pharmaceutical companies including Pfizer, Novartis, Bayer, AbbVie, Eli Llly, AstraZeneca, and Bristol-Myers Squibb.
-  type:
-  - Journal Article
-  theme:
-  - Incentives
-  - In Practice
-- sys:
-    id: 18J2mx7tM0macWUAI8WgcC
-  authors: Willem G van Panhuis, Proma Paul, Claudia Emerson, John Grefenstette, Richard
-    Wilder, Abraham J Herbst, David Heymann, Donald S Burke
-  title: A Systematic Review of Barriers to Data Sharing in Public Health
-  publication: BMC Public Health
-  pubDate: !ruby/object:DateTime 2014-06-11 00:00:00.000000000 Z
-  url: http://bmcpublichealth.biomedcentral.com/articles/10.1186/1471-2458-14-1144
-  shortDescription: A literature review of potential barriers to public health data
-    sharing.
-  annotation: |-
-    The authors of this report provide a “systematic literature of potential barriers to public health data sharing.” These twenty potential barriers are classified in six categories: “technical, motivational, economic, political, legal and ethical.” In this taxonomy, “the first three categories are deeply rooted in well-known challenges of health information systems for which structural solutions have yet to be found; the last three have solutions that lie in an international dialogue aimed at generating consensus on policies and instruments for data sharing.”
-
-    The authors suggest the need for a “systematic framework of barriers to data sharing in public health” in order to accelerate access and use of data for public good.
-  type:
-  - Journal Article
-  theme:
-  - Risks and Challenges
-  - Data Responsibility
-- sys:
-    id: 6JrjQR4EV2QW4OcQOCK8wi
-  authors: Stefaan Verhulst, David Sangokoya
-  title: 'Data Collaboratives: Exchanging Data to Improve People’s Lives'
-  pubDate: !ruby/object:DateTime 2015-04-22 00:00:00.000000000 Z
-  url: https://medium.com/@sverhulst/data-collaboratives-exchanging-data-to-improve-people-s-lives-d0fcfc1bdd9a#.6o1nwl22b
-  shortDescription: An essay on leveraging the potential of data to solve complex
-    public problems through data collaboratives and four critical accelerators towards
-    responsible data sharing and collaboration.
-  annotation: |-
-    The essay refers to data collaboratives as a new form of collaboration involving participants from different sectors exchanging data to help solve public problems. These forms of collaborations can improve people’s lives through data-driven decision-making; information exchange and coordination; and shared standards and frameworks for multi-actor, multi-sector participation.
-
-    The essay cites four activities that are critical to accelerating data collaboratives: documenting value and measuring impact; matching public demand and corporate supply of data in a trusted way; training and convening data providers and users; experimenting and scaling existing initiatives.
-  type:
-  - Essay
-  theme:
-  - General
-  - Benefits
-  - Incentives
-  - In Practice
-  - Governance and Operations
-- sys:
-    id: 3QF0U4je80Aq6848kYeOE2
-  authors: Linnet Taylor, Ralph Schroeder
-  title: Is Bigger Better? The Emergence of Big Data as a Tool for International Development
-    Policy
-  publication: GeoJournal
-  pubDate: !ruby/object:DateTime 2014-10-11 00:00:00.000000000 Z
-  url: http://link.springer.com/article/10.1007%2Fs10708-014-9603-5
-  shortDescription: A paper describing how data, such as privately held mobile phone
-    data – could improve development policy.
-  annotation: |-
-    This journal article describes how privately held data – namely “digital traces” of consumer activity – “are becoming seen by policymakers and researchers as a potential solution to the lack of reliable statistical data on lower-income countries."
-
-    They focus especially on three categories of data collaborative use cases:
-    - Mobile data as a predictive tool for issues such as human mobility and economic activity;
-    - Use of mobile data to inform humanitarian response to crises; and
-    - Use of born-digital web data as a tool for predicting economic trends, and the implications these have for LMICs.
-
-    They note, however, that a number of challenges and drawbacks exist for these types of use cases, including:
-    - Access to private data sources often must be negotiated or bought, “which potentially means substituting negotiations with corporations for those with national statistical offices;”
-    - The meaning of such data is not always simple or stable, and local knowledge is needed to understand how people are using the technologies in question
-    - Bias in proprietary data can be hard to understand and quantify;
-    - Lack of privacy frameworks; and
-    - Power asymmetries, wherein “LMIC citizens are unwittingly placed in a panopticon staffed by international researchers, with no way out and no legal recourse.”
-  type:
-  - Journal Article
-  theme:
-  - General
-  - Benefits
-  - Risks and Challenges
-- sys:
-    id: DZCEZ9RIycicMKKUSKKcA
-  authors: Chris Ansell, Alison Gash
-  title: Collaborative Governance in Theory and Practice
-  publication: 'Journal of Public Administration Research and Theory '
-  pubDate: !ruby/object:DateTime 2007-11-13 00:00:00.000000000 Z
-  url: http://jpart.oxfordjournals.org/content/18/4/543.short
-  shortDescription: A journal article describing the emerging practice of public-private
-    partnerships, particularly those built around data sharing.
-  annotation: "This article describes collaborative arrangements that include public
-    and private organizations working together and proposes a model for understanding
-    an emergent form of public-private interaction informed by 137 diverse cases of
-    collaborative governance.\n\nThe article suggests factors significant to successful
-    partnering processes and outcomes include:\n- Shared understanding of challenges,\n-
-    Trust building processes,\n- The importance of recognizing seemingly modest progress,
-    and\n- Strong indicators of commitment to the partnership’s aspirations and process.
-    \n\nThe authors provide a ‘’contingency theory model’’ that specifies relationships
-    between different variables that influence outcomes of collaborative governance
-    initiatives. Three “core contingencies’’ for successful collaborative governance
-    initiatives identified by the authors are:\n- Time (e.g., decision making time
-    afforded to the collaboration);\n- Interdependence (e.g., a high degree of interdependence
-    can mitigate negative effects of low trust); and\n- Trust (e.g. a higher level
-    of trust indicates a higher probability of success)."
-  type:
-  - Journal Article
-  theme:
-  - Governance and Operations
-- sys:
-    id: zw4HEYwCM8GsY6KWy0awo
-  authors: David Pastor-Escuredo, Alfredo Morales-Guzám, Yolanda Torres-Fernández,
-    Jean-Martin Bauer, Amit Wadhwa, Carlos Castro-Correa, Liudmyla Romanoff, Jong
-    Gun Lee, Alex Rutherford, Vanessa Frias-Martinez, Nuria Oliver, Enrique Frias-Martinez,
-    Miguel Luengo-Oroz
-  title: Flooding through the Lens of Mobile Phone Activity
-  publication: Proceedings of the IEEE Global Humanitarian Technology Conference (GHTC)
-  pubDate: !ruby/object:DateTime 2014-11-24 00:00:00.000000000 Z
-  url: https://arxiv.org/abs/1411.6574
-  shortDescription: An analysis of aggregated and anonymized call details records
-    (CDR) conducted in collaboration with the UN, Government of Mexico, academia and
-    Telefonica suggests high potential in using shared telecom data to improve early
-    warning and emergency management mechanisms.
-  annotation: |-
-    This report describes the impact of using mobile data in order to understand the impact of disasters and improve disaster management. The report was conducted in the Mexican state of Tabasco in 2009 as a multidisciplinary, multi-stakeholder consortium involving the UN World Food Programme (WFP), Telefonica Research, Technical University of Madrid (UPM), Digital Strategy Coordination Office of the President of Mexico, and UN Global Pulse.
-
-    Telefonica Research, a division of the major Latin American telecommunications company, provided call detail records covering flood-affected areas for nine months. This data was combined with “remote sensing data (satellite images), rainfall data, census and civil protection data.” The results of the data demonstrated that “analysing mobile activity during floods could be used to potentially locate damaged areas, efficiently assess needs and allocate resources (for example, sending supplies to affected areas).”
-
-    In addition to the results, the study highlighted “the value of a public-private partnership on using mobile data to accurately indicate flooding impacts in Tabasco, thus improving early warning and crisis management.”
-  type:
-  - Paper
-  theme:
-  - Benefits
-  - Incentives
-  - In Practice
-- sys:
-    id: 2795hkzGPOSMmCkC2EeSI2
-  authors: Institute of Medicine
-  title: 'Sharing Clinical Trial Data: Maximizing Benefits, Minimizing Risk'
-  pubDate: !ruby/object:DateTime 2015-01-14 00:00:00.000000000 Z
-  url: http://nationalacademies.org/HMD/Reports/2015/Sharing-Clinical-Trial-Data.aspx
-  shortDescription: A consensus, peer-revieed IOM report recommending how to promote
-    responsible clinical trial data sharing and minimize risks and challenges of sharing.
-  annotation: "- In light of the significant challenges and opportunities presented
-    by sharing clinical trial data, the IOM assembled a team of ad-hoc experts to
-    create guiding principles for data sharing intended to maximize the scientific
-    value of data sharing while also protecting the privacy of those involved.\n-
-    All stakeholders - including participants, sponsors, regulators, investigators,
-    research institutions, journals, and professional societies - have a role and
-    responsibility to ensure that data is shared responsibly and in accordance with
-    ethical values. \n- The report has four main recommendations for stakeholders
-    that will share data: 1) that stakeholders should encourage and foster a professional
-    environment in which the responsible sharing of data is the norm; 2) that data
-    should be shared within certain timeframes specified within the report; 3) that
-    stakeholders should employ operational strategies designed to mitigate risk and
-    maximize benefits; and 4) that the sponsors of the IOM study ought to take the
-    lead in creating an international framework and infrastructure related to responsible
-    sharing of clinical trial data. "
-  type:
-  - Report
-  theme:
-  - Benefits
-  - Risks and Challenges
-  - Data Responsibility
-- sys:
-    id: 4flUQmCkKQIsACi4q6qqgG
-  authors: Stefaan Verhulst, David Sangokoya
-  title: 'Mapping the Next Frontier of Open Data: Corporate Data Sharing.'
-  publication: 'Internet Monitor 2014: Reflections on the Digital World: Platforms,
-    Policy, Privacy, and Public Discourse'
-  pubDate: !ruby/object:DateTime 2014-12-15 00:00:00.000000000 Z
-  url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2538813
-  shortDescription: This essay describes an emerging taxonomy of activities involving
-    corporate data sharing for public good, an emerging trend in which companies share
-    anonymized and aggregated data with third-party users towards data-driven policymaking
-    and greater public good.
-  annotation: |-
-    This essay, included in the Harvard Berkman Center's 2014 Internet Monitor, describes a taxonomy of current corporate data sharing practices for public good: research partnerships; prizes and challenges; trusted intermediaries; application programming interfaces (APIs); intelligence products; and corporate data cooperatives or pooling.
-
-    Examples of data collaboratives discussed in the piece include: Yelp Dataset Challenge, the Digital Ecologies Research Partnerhsip, BBVA Innova Challenge, Telecom Italia’s Big Data Challenge, NIH’s Accelerating Medicines Partnership and the White House’s Climate Data Partnerships.
-
-    The authors highlight important questions to consider towards a more comprehensive mapping of these activities.
-  type:
-  - Paper
-  theme:
-  - General
-  - Benefits
-  - In Practice
-  - Governance and Operations
-- sys:
-    id: 7mqN0DlEacMC6yKYoYUKuI
-  authors: Bellagio Big Data Workshop Participants
-  title: 'Big Data and Positive Social Change in the Developing World: A White Paper
-    for Practitioners and Researchers'
-  pubDate: !ruby/object:DateTime 2014-05-01 00:00:00.000000000 Z
-  url: https://www.rockefellerfoundation.org/app/uploads/Big-Data-and-Positive-Social-Change-in-the-Developing-World.pdf
-  shortDescription: A white paper describing the potential of big data, and corporate
-    data in particular, to positively benefit development efforts.
-  annotation: |-
-    This white paper, produced by “a group of activists, researchers and data experts” explores the potential of big data to improve development outcomes and spur positive social change in low- and middle-income countries. Using examples, the authors discuss four areas in which the use of big data can impact development efforts:
-    - Advocating and facilitating by “opening[ing] up new public spaces for discussion and awareness building;
-    - Describing and predicting through the detection of “new correlations and the surfac[ing] of new questions;
-    -  Facilitating information exchange through “multiple feedback loops which feed into both research and action,” and
-    -  Promoting accountability and transparency, especially as a byproduct of crowdsourcing efforts aimed at “aggregat[ing] and analyz[ing] information in real time.
-
-    The authors argue that in order to maximize the potential of big data’s use in development, “there is a case to be made for building a data commons for private/public data, and for setting up new and more appropriate ethical guidelines.”
-
-    They also identify a number of challenges, especially when leveraging data made accessible from a number of sources, including private sector entities, such as:
-    - Lack of general data literacy;
-    - Lack of open learning environments and repositories;
-    - Lack of resources, capacity and access;
-    - Challenges of sensitivity and risk perception with regard to using data;
-    - Storage and computing capacity; and
-    - Externally validating data sources for comparison and verification.
-  type:
-  - Report
-  theme:
-  - Benefits
-  - Risks and Challenges
-- sys:
-    id: 6ThtuYmzN68kQugIsmIag4
-  authors: Elizabeth Stuart, Emma Samman, William Avis, Tom Berliner
-  title: 'The Data Revolution: Finding the Missing Millions'
-  pubDate: !ruby/object:DateTime 2015-04-01 00:00:00.000000000 Z
-  url: https://www.odi.org/sites/odi.org.uk/files/odi-assets/publications-opinion-files/9604.pdf
-  shortDescription: The Overseas Development Institute’s annual report focused on
-    solutions toward a sustainable data revolution.
-  annotation: |-
-    The authors of this Overseas Development Institute report highlight the need for good quality, relevant, accessible and timely data for governments to extend services into underrepresented communities and implement policies towards a sustainable “data revolution.”
-
-    The report explores solutions focused on capacity-building activities of national statistical offices (NSOs), alternative sources of data (including shared corporate data) to address gaps, and building strong data management systems.
-  type:
-  - Report
-  theme:
-  - Benefits
-  - Risks and Challenges
-  - Data Responsibility
-  - In Practice
-  - Governance and Operations
-- sys:
-    id: 6n1pEcEKnmUSWCAuGgk6iq
-  authors: Frederika Welle Donker, Bastiaan van Loenen, Arnold K. Bregt
-  title: Open Data and Beyond
-  publication: International Journal of Geo-Information
-  pubDate: !ruby/object:DateTime 2016-01-01 00:00:00.000000000 Z
-  url: http://www.mdpi.com/2220-9964/5/4/48
-  shortDescription: A case study examining the opening of private data by Dutch energy
-    network administrator Liander.
-  annotation: |
-    This research has developed a monitoring framework to assess the effects of open (private) data using a case study of a Dutch energy network administrator Liander.
-
-    Focusing on the potential impacts of open private energy data – beyond ‘smart disclosure’ where citizens are given information only about their own energy usage – the authors identify three attainable strategic goals:
-    - Continuously optimize performance on services, security of supply, and costs;
-    - Improve management of energy flows and insight into energy consumption;
-    - Help customers save energy and switch over to renewable energy sources.
-
-    The authors propose a seven-step framework for assessing the impacts of Liander data, in particular, and open private data more generally:
-    - Develop a performance framework to describe what the program is about, description of the organization’s mission and strategic goals;
-    - Identify the most important elements, or key performance areas which are most critical to understanding and assessing your program’s success;
-    - Select the most appropriate performance measures;
-    - Determine the gaps between what information you need and what is available;
-    - Develop and implement a measurement strategy to address the gaps;
-    - Develop a performance report which highlights what you have accomplished and what you have learned;
-    - Learn from your experiences and refine your approach as required.
-
-    While the authors note that the true impacts of this open private data will likely not come into view in the short term, they argue that, “Liander has successfully demonstrated that private energy companies can release open data, and has successfully championed the other Dutch network administrators to follow suit.”
-  type:
-  - Case Study
-  theme:
-  - In Practice
-  - Governance and Operations
-- sys:
-    id: 2WYKYRz3JYiYMWw8sYiyga
-  authors: Jos Berens, Stefaan Verhulst
-  title: Data Prizes and Challenges as Data Collaboratives – Terms and Conditions
-  publication: The GovLab
-  pubDate: !ruby/object:DateTime 2015-09-22 00:00:00.000000000 Z
-  url: http://thegovlab.org/data-prizes-and-challenges-as-data-collaboratives-terms-and-conditions/
-  shortDescription: 'An analysis of terms and conditions present in a diversity of
-    data-driven prizes and challenges to better understand governance frameworks of
-    data sharing practices. '
-  type:
-  - Blog Post
-  theme:
-  - Governance and Operations
-- sys:
-    id: 5Id0R5kIp2ki4KuMu4uqkc
-  authors: Nicholas Vogel, Christopher Theisen, Jonathan P. Leidig, Jerry Scripps,
-    Douglas H. Graham, Greg Wolffe
-  title: Mining Mobile Datasets to Enable the Fine-grained Stochastic Simulation of
-    Ebola Diffusion
-  publication: Paper presented at the Procedia Computer Science
-  pubDate: !ruby/object:DateTime 2015-01-01 00:00:00.000000000 Z
-  url: http://www.sciencedirect.com/science/article/pii/S1877050915010054
-  shortDescription: 'A paper on the use of mobile call records to enable predictive
-    action around Ebola diffusion. '
-  annotation: |-
-    The paper presents a research study conducted on the basis of the mobile calls records shared with researchers in the framework of the Data for Development Challenge by the mobile operator Orange.
-
-    The study discusses the data analysis approach in relation to developing a situation of Ebola diffusion built around “the interactions of multi-scale models, including viral loads (at the cellular level), disease progression (at the individual person level), disease propagation (at the workplace and family level), societal changes in migration and travel movements (at the population level), and mitigating interventions (at the abstract government policy level).”
-
-    The authors argue that the use of their population, mobility, and simulation models provide more accurate simulation details in comparison to high-level analytical predictions and that the D4D mobile datasets provide high-resolution information useful for modeling developing regions and hard to reach locations.
-  type:
-  - Paper
-  theme:
-  - Benefits
-  - In Practice
-- sys:
-    id: 4IyJ4rlhug60AuaiUS88uS
-  authors: Sharona Hoffman, Andy Podgurski
-  title: 'The Use and Misuse of Biomedical Data: Is Bigger Really Better?'
-  publication: American Journal of Law & Medicine
-  pubDate: !ruby/object:DateTime 2013-11-26 00:00:00.000000000 Z
-  url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2235267
-  shortDescription: A journal article primarily focused on the risks involved in health
-    data pooling.
-  annotation: |-
-    This journal article explores the benefits and, in particular, the risks related to large-scale biomedical databases bringing together health information from a diversity of sources across sectors. Some data collaboratives examined in the piece include:
-    - __MedMining__ – a company that extracts EHR data, de-identifies it, and offers it to researchers. The data sets that MedMining delivers to its customers include ‘lab results, vital signs, medications, procedures, diagnoses, lifestyle data, and detailed costs’ from inpatient and outpatient facilities.
-    - __Explorys__ has formed a large healthcare database derived from financial, administrative, and medical records. It has partnered with major healthcare organizations such as the Cleveland Clinic Foundation and Summa Health System to aggregate and standardize health information from ten million patients and over thirty billion clinical events.
-
-    Hoffman and Podgurski note that biomedical databases populated have many potential uses, with those likely to benefit including: “researchers, regulators, public health officials, commercial entities, lawyers,” as well as “healthcare providers who conduct quality assessment and improvement activities,” regulatory monitoring entities like the FDA, and “litigants in tort cases to develop evidence concerning causation and harm.”
-
-    They argue, however, that risks arise based on:
-    - The data contained in biomedical databases is surprisingly likely to be incorrect or incomplete;
-    - Systemic biases, arising from both the nature of the data and the preconceptions of investigators are serious threats the validity of research results, especially in answering causal questions;
-    - Data mining of biomedical databases makes it easier for individuals with political, social, or economic agendas to generate ostensibly scientific but misleading research findings for the purpose of manipulating public opinion and swaying policymakers.
-  type:
-  - Journal Article
-  theme:
-  - Risks and Challenges
-  - Data Responsibility
-- sys:
-    id: gTLp4ToB3y6ocAKMOeCsI
-  authors: Cameron F. Kerry, Jake Kendall, Yves-Alexandre de Montjoye
-  title: Enabling Humanitarian Use of Mobile Phone Data
-  pubDate: !ruby/object:DateTime 2016-11-12 00:00:00.000000000 Z
-  url: https://www.brookings.edu/research/enabling-humanitarian-use-of-mobile-phone-data/
-  shortDescription: An issues paper from the Brookings Institution on leveraging the
-    benefits of mobile phone data for humanitarian use while minimizing risks to privacy.
-  annotation: |-
-    Using Ebola as a case study, the authors describe the value of using private telecom data for uncovering “valuable insights into understanding the spread of infectious diseases as well as strategies into micro-target outreach and driving update of health-seeking behavior.”
-
-    The authors highlight the absence of a common legal and standards framework for “sharing mobile phone data in privacy-conscientious ways” and recommend “engaging companies, NGOs, researchers, privacy experts, and governments to agree on a set of best practices for new privacy-conscientious metadata sharing models.”
-  type:
-  - Report
-  theme:
-  - Benefits
-  - In Practice
-  - Governance and Operations
-- sys:
-    id: 3gfWF1M3eUMWSyWEUwQiKC
-  authors: World Economic Forum
-  title: Data-Driven Development Pathways for Progress
-  pubDate: !ruby/object:DateTime 2015-01-01 00:00:00.000000000 Z
-  url: http://www3.weforum.org/docs/WEFUSA_DataDrivenDevelopment_Report2015.pdf
-  shortDescription: An overview report from the World Economic Forum on the existing
-    data deficit and the value and impact of big data for sustainable development.
-  annotation: |-
-    This report captures an overview of the existing data deficit and the value and impact of big data for sustainable development.
-
-    The authors of the report focus on four main priorities towards a sustainable data revolution: commercial incentives and trusted agreements with public- and private-sector actors; the development of shared policy frameworks, legal protections and impact assessments; capacity building activities at the institutional, community, local and individual level; and lastly, recognizing individuals as both produces and consumers of data.
-  type:
-  - Report
-  theme:
-  - Benefits
-  - Incentives
-  - Governance and Operations
-- sys:
-    id: 3nDdwjrdI4KqU6kgiEQoeu
-  authors: Silja M. Eckartz, Wout J. Hofman, Anne Fleur Van Veenstra
-  title: A Decision Model for Data Sharing
-  publication: International Conference on Electronic Government
-  pubDate: !ruby/object:DateTime 2014-01-01 00:00:00.000000000 Z
-  url: http://link.springer.com/chapter/10.1007%2F978-3-662-44426-9_21#enumeration
-  shortDescription: A paper proposing a decision model for data sharing arrangements
-    aimed at addressing identified risks and challenges.
-  annotation: "This paper proposes a decision model for data sharing of public and
-    private data based on literature review and three case studies in the logistics
-    sector.\n\nThe authors identify five categories of the barriers to data sharing
-    and offer a decision model for identifying potential interventions to overcome
-    each barrier:\n- __Ownership__. Possible interventions likely require improving
-    trust among those who own the data through, for example, involvement and support
-    from higher management\n- __Privacy__. Interventions include “anonymization by
-    filtering of sensitive information and aggregation of data,” and access control
-    mechanisms built around identity management and regulated access.  \n- __Economic__.
-    Interventions include a model where data is shared only with a few trusted organizations,
-    and yield management mechanisms to ensure negative financial consequences are
-    avoided.\n- __Data quality__. Interventions include identifying additional data
-    sources that could improve the completeness of datasets, and efforts to improve
-    metadata.\n- __Technical__. Interventions include making data available in structured
-    formats and publishing data according to widely agreed upon data standards."
-  type:
-  - Report
-  theme:
-  - Risks and Challenges
-  - Data Responsibility
 canvasSteps:
+- sys:
+    id: 3nEr2z4pJC0cumIe6Eyqe8
+  stepNumber: Step 2
+  stepTitle: Define the value proposition of the data collaborative
+  discussion: Research and practice in data collaboratives point to a number of societal
+    benefits arising from the cross-sector sharing of data. After clearly defining
+    the problem that a data collaborative will serve to address, organizers should
+    look to gain specificity on the specific benefit a data collaborative could offer.
+    Without assessing the value of the data collaborative, tradeoffs cannot later
+    be measured. To understand whether the use of a corporate data is worthwhile despite
+    the risks involved, and to find the proper steps to take that mitigate risk, it
+    is important to evaluate the context for the use of the data. This might involve
+    an assessment of the urgency of having access to the data. Is there a disaster
+    relief component or other time sensitivity? If it is hard to define the problem
+    or hard to define the value, it will be impossible to evaluate the success of
+    any data project. To justify the risks and the potential liability that arises
+    from using and analyzing corporate data requires having a clearly articulated
+    benefit that can be measured.
+  questions: |-
+    What is the intended societal benefit of the data collaborative?
+    - Situational awareness and response?
+    - Public service design and delivery?
+    - Knowledge creation and transfer?
+    - Prediction and forecasting?
+    - Impact assessment and evaluation?
+  examples: |-
+    - [The NCI'S Genomic Data Commons (GDC)](http://datacollaboratives.org/cases/genomic-data-commons.html) contains NCI-generated data from a number of cancer genomic datasets, including The Cancer Genome Atlas (TCGA) and Therapeutically Applicable Research to Generate Effective Therapies (TARGET). The primary goal of the GDC is to provide the cancer research community with a unified data repository supporting cancer genomic studies.
+    - [Global Fishing Watch](http://datacollaboratives.org/cases/global-fishing-watch.html) is the result of a collaboration among Google, Oceana and SkyTruth to map and measure fishing activity worldwide by mapping data from the Automatic Identification System (AIS), used by more than 100,000 vessels worldwide. This information from Global Fishing Watch can be used by governments to ensure that fishing regulations are adequately monitored and tracked, allowing them to respond to illegal fishing rapidly and efficiently.
+    - [Grameenphone](http://ehs.unu.edu/blog/articles/nepal-earthquake-preparing-and-planning-for-the-next-disaster.html), the leading telecommunications provider in Bangladesh, shares its mobile call data records to understand climate impacts by mapping population flows before and after extreme weather events.
+  resources: |
+    - [Data Collaboratives: Sharing Public Data in Private Hands for Social Good](http://www.forbes.com/sites/bethsimonenoveck/2015/09/24/private-data-sharing-for-public-good/#499f139365bb) - a Forbes article describing the potential benefits of data collaboratives and some illustrative examples of impact
+    - [4 Steps To Building A Compelling Value Proposition](http://www.forbes.com/sites/michaelskok/2013/06/14/4-steps-to-building-a-compelling-value-proposition/#12ba9c7e1f2c) - guidelines for crafting a value proposition
+    - [Useful Value Proposition Examples (and How to Create a Good One)](http://conversionxl.com/value-proposition-examples-how-to-create/) - a guide for value proposition development informed by examples from the business community
 - sys:
     id: 7s9GZmEi3uUWMMQsmEKYQG
   stepNumber: Step 3
@@ -2840,39 +2820,57 @@ canvasSteps:
   resources: "- [Data Prizes and Challenges as Data Collaboratives – Terms and Conditions](http://thegovlab.org/data-prizes-and-challenges-as-data-collaboratives-terms-and-conditions/)
     – an analysis of terms and conditions in data-driven prize and challenges aimed
     at identifying best practice and common focus areas"
+events:
 - sys:
-    id: 3nEr2z4pJC0cumIe6Eyqe8
-  stepNumber: Step 2
-  stepTitle: Define the value proposition of the data collaborative
-  discussion: Research and practice in data collaboratives point to a number of societal
-    benefits arising from the cross-sector sharing of data. After clearly defining
-    the problem that a data collaborative will serve to address, organizers should
-    look to gain specificity on the specific benefit a data collaborative could offer.
-    Without assessing the value of the data collaborative, tradeoffs cannot later
-    be measured. To understand whether the use of a corporate data is worthwhile despite
-    the risks involved, and to find the proper steps to take that mitigate risk, it
-    is important to evaluate the context for the use of the data. This might involve
-    an assessment of the urgency of having access to the data. Is there a disaster
-    relief component or other time sensitivity? If it is hard to define the problem
-    or hard to define the value, it will be impossible to evaluate the success of
-    any data project. To justify the risks and the potential liability that arises
-    from using and analyzing corporate data requires having a clearly articulated
-    benefit that can be measured.
-  questions: |-
-    What is the intended societal benefit of the data collaborative?
-    - Situational awareness and response?
-    - Public service design and delivery?
-    - Knowledge creation and transfer?
-    - Prediction and forecasting?
-    - Impact assessment and evaluation?
-  examples: |-
-    - [The NCI'S Genomic Data Commons (GDC)](http://datacollaboratives.org/cases/genomic-data-commons.html) contains NCI-generated data from a number of cancer genomic datasets, including The Cancer Genome Atlas (TCGA) and Therapeutically Applicable Research to Generate Effective Therapies (TARGET). The primary goal of the GDC is to provide the cancer research community with a unified data repository supporting cancer genomic studies.
-    - [Global Fishing Watch](http://datacollaboratives.org/cases/global-fishing-watch.html) is the result of a collaboration among Google, Oceana and SkyTruth to map and measure fishing activity worldwide by mapping data from the Automatic Identification System (AIS), used by more than 100,000 vessels worldwide. This information from Global Fishing Watch can be used by governments to ensure that fishing regulations are adequately monitored and tracked, allowing them to respond to illegal fishing rapidly and efficiently.
-    - [Grameenphone](http://ehs.unu.edu/blog/articles/nepal-earthquake-preparing-and-planning-for-the-next-disaster.html), the leading telecommunications provider in Bangladesh, shares its mobile call data records to understand climate impacts by mapping population flows before and after extreme weather events.
-  resources: |
-    - [Data Collaboratives: Sharing Public Data in Private Hands for Social Good](http://www.forbes.com/sites/bethsimonenoveck/2015/09/24/private-data-sharing-for-public-good/#499f139365bb) - a Forbes article describing the potential benefits of data collaboratives and some illustrative examples of impact
-    - [4 Steps To Building A Compelling Value Proposition](http://www.forbes.com/sites/michaelskok/2013/06/14/4-steps-to-building-a-compelling-value-proposition/#12ba9c7e1f2c) - guidelines for crafting a value proposition
-    - [Useful Value Proposition Examples (and How to Create a Good One)](http://conversionxl.com/value-proposition-examples-how-to-create/) - a guide for value proposition development informed by examples from the business community
+    id: 3KNhrCPTR6Yu0cCGIICyQ4
+  eventName: International Data Responsibility Group Conference
+  url: http://www.responsible-data.org/2017-conference.html
+  location: The Hague, The Netherlands
+  eventDate: !ruby/object:DateTime 2017-03-03 00:00:00.000000000 Z
+  conferenceType:
+  - Conference
+  eventDescription: '"Every spring, the International Data Responsibility Group organises
+    the annual IDRG conference in The Hague. This annual meeting brings together experts
+    and practitioners working with data for crisis-affected communities and the most
+    at-risk populations worldwide. Through presentations by a variety of experts and
+    several interactive workshops, participants explore the potential risks and harms
+    that could be caused by using this data, and ways to prevent these from materializing.
+    The theme for this year''s conference will be the potential risks of collecting
+    and processing digital data in the European Migration Crisis."'
+- sys:
+    id: 1WVwEt6aeo4ko2wiAQ4Gae
+  eventName: European Foundation Centre Conference
+  url: http://www.efc.be/aga/2017-warsaw/
+  location: Warsaw, Poland
+  eventDate: !ruby/object:DateTime 2017-05-31 00:00:00.000000000 Z
+  conferenceType:
+  - Conference
+  eventDescription: The 2017 EFC AGA and Conference will focus on the theme of ‘courage
+    for solidarity’ and specifically how philanthropy should be involved in fostering,
+    supporting and promoting it. It will offer a unique opportunity for delegates
+    from around the world to reflect on their own work, learn from their peers, and
+    discover how, by finding the courage to re-embrace solidarity, they can help shape
+    a brighter future.
+  sessionName: Data & Philanthropy
+  sessionType:
+  - Workshop
+- sys:
+    id: uF3uaikYV2gWsckO8wYO2
+  eventName: United Nations World Data Forum
+  url: http://undataforum.org
+  location: Cape Town, South Africa
+  eventDate: !ruby/object:DateTime 2017-01-15 00:00:00.000000000 Z
+  conferenceType:
+  - Forum
+  eventDescription: |-
+    The first UN World Data Forum will be hosted by Statistics South Africa from 15 to 18 January 2017, with support from the Statistics Division of the UN Department of Economic and Social Affairs, under the guidance of the United Nations Statistical Commission and the High-level Group for Partnership, Coordination and Capacity-Building for Statistics for the 2030 Agenda for Sustainable Development.
+
+    It will be an opportunity for data and statistics experts from around the world to:
+
+    - __JOIN__ together in this unique event with governments, businesses, civil society and the scientific and academic communities.
+    - __EXPLORE__ innovative ways to apply data and statistics to measure global progress and inform evidence-based policy decisions on the 2030 Agenda for Sustainable Development.
+    - __CONTRIBUTE__ to important discussions, data labs and interactive platforms aimed at improving the use of data for sustainable development.
+    - __LAUNCH__ new initiatives and solutions that will deliver better data for all.
 canvasPhases:
 - sys:
     id: 3szKi9TAsogWMYQUUSWyyo
