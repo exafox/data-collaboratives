@@ -1,24 +1,48 @@
 ---
 resources:
 - sys:
-    id: 3UQ25lAnHyKqaeqA0wqgmI
-  authors: Harlan M. Krumholz, Cary P. Gross, Katrina L. Blount, Jessica D. Ritchie,
-    Beth Hodshon, Richard Lehman, Joseph S. Ross
-  title: 'Sea Change in Open Science and Data Sharing: Leadership by Industry'
-  publication: 'Circulation: Cardiovascular Quality and Outcomes'
-  pubDate: !ruby/object:DateTime 2015-07-01 00:00:00.000000000 Z
-  url: https://www.ncbi.nlm.nih.gov/pubmed/24891590
-  shortDescription: A review of industry-led efforts and cross-sector collaborations
-    to share data from clinical trials to inform clinical practice.
+    id: 4IyJ4rlhug60AuaiUS88uS
+  authors: Sharona Hoffman, Andy Podgurski
+  title: 'The Use and Misuse of Biomedical Data: Is Bigger Really Better?'
+  publication: American Journal of Law & Medicine
+  pubDate: !ruby/object:DateTime 2013-11-26 00:00:00.000000000 Z
+  url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2235267
+  shortDescription: A journal article primarily focused on the risks involved in health
+    data pooling.
   annotation: |-
-    This article provides a comprehensive overview of industry-led efforts and cross-sector collaborations in data sharing by pharmaceutical companies to inform clinical practice.
+    This journal article explores the benefits and, in particular, the risks related to large-scale biomedical databases bringing together health information from a diversity of sources across sectors. Some data collaboratives examined in the piece include:
+    - __MedMining__ – a company that extracts EHR data, de-identifies it, and offers it to researchers. The data sets that MedMining delivers to its customers include ‘lab results, vital signs, medications, procedures, diagnoses, lifestyle data, and detailed costs’ from inpatient and outpatient facilities.
+    - __Explorys__ has formed a large healthcare database derived from financial, administrative, and medical records. It has partnered with major healthcare organizations such as the Cleveland Clinic Foundation and Summa Health System to aggregate and standardize health information from ten million patients and over thirty billion clinical events.
 
-    The article details the types of data being shared and the early activities of GlaxoSmithKline (“in coordination with other companies such as Roche and ViiV”); Medtronic and the Yale University Open Data Access Project; and Janssen Pharmaceuticals (Johnson & Johnson). The article also describes the range of involvement in data sharing among pharmaceutical companies including Pfizer, Novartis, Bayer, AbbVie, Eli Llly, AstraZeneca, and Bristol-Myers Squibb.
+    Hoffman and Podgurski note that biomedical databases populated have many potential uses, with those likely to benefit including: “researchers, regulators, public health officials, commercial entities, lawyers,” as well as “healthcare providers who conduct quality assessment and improvement activities,” regulatory monitoring entities like the FDA, and “litigants in tort cases to develop evidence concerning causation and harm.”
+
+    They argue, however, that risks arise based on:
+    - The data contained in biomedical databases is surprisingly likely to be incorrect or incomplete;
+    - Systemic biases, arising from both the nature of the data and the preconceptions of investigators are serious threats the validity of research results, especially in answering causal questions;
+    - Data mining of biomedical databases makes it easier for individuals with political, social, or economic agendas to generate ostensibly scientific but misleading research findings for the purpose of manipulating public opinion and swaying policymakers.
   type:
   - Journal Article
   theme:
+  - Risks and Challenges
+  - Data Responsibility
+- sys:
+    id: 3gfWF1M3eUMWSyWEUwQiKC
+  authors: World Economic Forum
+  title: Data-Driven Development Pathways for Progress
+  pubDate: !ruby/object:DateTime 2015-01-01 00:00:00.000000000 Z
+  url: http://www3.weforum.org/docs/WEFUSA_DataDrivenDevelopment_Report2015.pdf
+  shortDescription: An overview report from the World Economic Forum on the existing
+    data deficit and the value and impact of big data for sustainable development.
+  annotation: |-
+    This report captures an overview of the existing data deficit and the value and impact of big data for sustainable development.
+
+    The authors of the report focus on four main priorities towards a sustainable data revolution: commercial incentives and trusted agreements with public- and private-sector actors; the development of shared policy frameworks, legal protections and impact assessments; capacity building activities at the institutional, community, local and individual level; and lastly, recognizing individuals as both produces and consumers of data.
+  type:
+  - Report
+  theme:
+  - Benefits
   - Incentives
-  - In Practice
+  - Governance and Operations
 - sys:
     id: 3nDdwjrdI4KqU6kgiEQoeu
   authors: Silja M. Eckartz, Wout J. Hofman, Anne Fleur Van Veenstra
@@ -92,28 +116,6 @@ resources:
   - Benefits
   - Incentives
   - In Practice
-- sys:
-    id: 5lD2dD2D3aMYeEOuecq6Qi
-  authors: Matthew Brack, Tito Castillo
-  title: 'Data Sharing for Public Health: Key Lessons from Other Sectors'
-  publication: Chatham House
-  pubDate: !ruby/object:DateTime 2015-04-01 00:00:00.000000000 Z
-  url: https://www.chathamhouse.org/sites/files/chathamhouse/field/field_document/20150417DataSharingPublicHealthLessonsBrackCastillo.pdf
-  shortDescription: A Chatham House report describing the need for data sharing and
-    collaboration for global public health emergencies and potential lessons learned
-    from the commercial sector.
-  annotation: |
-    This Chatham House report provides an overview on public health surveillance data sharing, highlighting the benefits and challenges of shared health data and the complexity in adapting technical solutions from other sectors for public health.
-
-    The report describes data sharing processes from several perspectives, including in-depth case studies of actual data sharing in practice at the individual, organizational and sector levels. Among the key lessons for public health data sharing, the report strongly highlights the need to harness momentum for action and maintain collaborative engagement: “Successful data sharing communities are highly collaborative. Collaboration holds the key to producing and abiding by community standards, and building and maintaining productive networks, and is by definition the essence of data sharing itself. Time should be invested in establishing and sustaining collaboration with all stakeholders concerned with public health surveillance data sharing.”
-
-    Examples of data collaboratives include H3Africa (a collaboration between NIH and Wellcome Trust) and NHS England’s care.data programme.
-  type:
-  - Report
-  theme:
-  - Benefits
-  - Risks and Challenges
-  - Governance and Operations
 - sys:
     id: 18J2mx7tM0macWUAI8WgcC
   authors: Willem G van Panhuis, Proma Paul, Claudia Emerson, John Grefenstette, Richard
@@ -410,31 +412,6 @@ resources:
   - Benefits
   - In Practice
 - sys:
-    id: 4IyJ4rlhug60AuaiUS88uS
-  authors: Sharona Hoffman, Andy Podgurski
-  title: 'The Use and Misuse of Biomedical Data: Is Bigger Really Better?'
-  publication: American Journal of Law & Medicine
-  pubDate: !ruby/object:DateTime 2013-11-26 00:00:00.000000000 Z
-  url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=2235267
-  shortDescription: A journal article primarily focused on the risks involved in health
-    data pooling.
-  annotation: |-
-    This journal article explores the benefits and, in particular, the risks related to large-scale biomedical databases bringing together health information from a diversity of sources across sectors. Some data collaboratives examined in the piece include:
-    - __MedMining__ – a company that extracts EHR data, de-identifies it, and offers it to researchers. The data sets that MedMining delivers to its customers include ‘lab results, vital signs, medications, procedures, diagnoses, lifestyle data, and detailed costs’ from inpatient and outpatient facilities.
-    - __Explorys__ has formed a large healthcare database derived from financial, administrative, and medical records. It has partnered with major healthcare organizations such as the Cleveland Clinic Foundation and Summa Health System to aggregate and standardize health information from ten million patients and over thirty billion clinical events.
-
-    Hoffman and Podgurski note that biomedical databases populated have many potential uses, with those likely to benefit including: “researchers, regulators, public health officials, commercial entities, lawyers,” as well as “healthcare providers who conduct quality assessment and improvement activities,” regulatory monitoring entities like the FDA, and “litigants in tort cases to develop evidence concerning causation and harm.”
-
-    They argue, however, that risks arise based on:
-    - The data contained in biomedical databases is surprisingly likely to be incorrect or incomplete;
-    - Systemic biases, arising from both the nature of the data and the preconceptions of investigators are serious threats the validity of research results, especially in answering causal questions;
-    - Data mining of biomedical databases makes it easier for individuals with political, social, or economic agendas to generate ostensibly scientific but misleading research findings for the purpose of manipulating public opinion and swaying policymakers.
-  type:
-  - Journal Article
-  theme:
-  - Risks and Challenges
-  - Data Responsibility
-- sys:
     id: gTLp4ToB3y6ocAKMOeCsI
   authors: Cameron F. Kerry, Jake Kendall, Yves-Alexandre de Montjoye
   title: Enabling Humanitarian Use of Mobile Phone Data
@@ -451,24 +428,6 @@ resources:
   theme:
   - Benefits
   - In Practice
-  - Governance and Operations
-- sys:
-    id: 3gfWF1M3eUMWSyWEUwQiKC
-  authors: World Economic Forum
-  title: Data-Driven Development Pathways for Progress
-  pubDate: !ruby/object:DateTime 2015-01-01 00:00:00.000000000 Z
-  url: http://www3.weforum.org/docs/WEFUSA_DataDrivenDevelopment_Report2015.pdf
-  shortDescription: An overview report from the World Economic Forum on the existing
-    data deficit and the value and impact of big data for sustainable development.
-  annotation: |-
-    This report captures an overview of the existing data deficit and the value and impact of big data for sustainable development.
-
-    The authors of the report focus on four main priorities towards a sustainable data revolution: commercial incentives and trusted agreements with public- and private-sector actors; the development of shared policy frameworks, legal protections and impact assessments; capacity building activities at the institutional, community, local and individual level; and lastly, recognizing individuals as both produces and consumers of data.
-  type:
-  - Report
-  theme:
-  - Benefits
-  - Incentives
   - Governance and Operations
 datacollaborative:
 - sys:
@@ -2393,6 +2352,23 @@ datacollaborative:
     evidence to the end of improving quality of life for residents.
 canvasSteps:
 - sys:
+    id: 2dLyUuyLm0YqW0IimakYWm
+  stepNumber: Step 9
+  stepTitle: Agree upon terms and conditions for arrangement
+  discussion: Beyond risks related to the data lifecycle, data collaboratives introduce
+    questions and uncertainties around roles and responsibilities, ownership, intellectual
+    property and other concerns. The creation of a list of agreed-upon terms and conditions
+    can ensure clarity regarding such questions and help to avoid.
+  questions: |-
+    - Liability
+    - Intellectual property provisions
+    - Data ownership and handling
+    - Cost
+    - Public release and transparency
+  resources: "- [Data Prizes and Challenges as Data Collaboratives – Terms and Conditions](http://thegovlab.org/data-prizes-and-challenges-as-data-collaboratives-terms-and-conditions/)
+    – an analysis of terms and conditions in data-driven prize and challenges aimed
+    at identifying best practice and common focus areas"
+- sys:
     id: 3nEr2z4pJC0cumIe6Eyqe8
   stepNumber: Step 2
   stepTitle: Define the value proposition of the data collaborative
@@ -2803,75 +2779,57 @@ canvasSteps:
 
     - [Living Cities Data Inventory](http://www.data-archive.ac.uk/create-manage/strategies-for-centres/data-inventory) – a tool from Living Cities to help identify datasets of importance for a project, as well as where and how to access them
     - [UK Data Achive Data Inventory](http://www.data-archive.ac.uk/create-manage/strategies-for-centres/data-inventory) – a collection of guidelines tools and templates for creating a data inventory
-- sys:
-    id: 2dLyUuyLm0YqW0IimakYWm
-  stepNumber: Step 9
-  stepTitle: Agree upon terms and conditions for arrangement
-  discussion: Beyond risks related to the data lifecycle, data collaboratives introduce
-    questions and uncertainties around roles and responsibilities, ownership, intellectual
-    property and other concerns. The creation of a list of agreed-upon terms and conditions
-    can ensure clarity regarding such questions and help to avoid.
-  questions: |-
-    - Liability
-    - Intellectual property provisions
-    - Data ownership and handling
-    - Cost
-    - Public release and transparency
-  resources: "- [Data Prizes and Challenges as Data Collaboratives – Terms and Conditions](http://thegovlab.org/data-prizes-and-challenges-as-data-collaboratives-terms-and-conditions/)
-    – an analysis of terms and conditions in data-driven prize and challenges aimed
-    at identifying best practice and common focus areas"
-events:
-- sys:
-    id: 3KNhrCPTR6Yu0cCGIICyQ4
-  eventName: International Data Responsibility Group Conference
-  url: http://www.responsible-data.org/2017-conference.html
-  location: The Hague, The Netherlands
-  eventDate: !ruby/object:DateTime 2017-03-03 00:00:00.000000000 Z
-  conferenceType:
-  - Conference
-  eventDescription: '"Every spring, the International Data Responsibility Group organises
-    the annual IDRG conference in The Hague. This annual meeting brings together experts
-    and practitioners working with data for crisis-affected communities and the most
-    at-risk populations worldwide. Through presentations by a variety of experts and
-    several interactive workshops, participants explore the potential risks and harms
-    that could be caused by using this data, and ways to prevent these from materializing.
-    The theme for this year''s conference will be the potential risks of collecting
-    and processing digital data in the European Migration Crisis."'
-- sys:
-    id: 1WVwEt6aeo4ko2wiAQ4Gae
-  eventName: European Foundation Centre Conference
-  url: http://www.efc.be/aga/2017-warsaw/
-  location: Warsaw, Poland
-  eventDate: !ruby/object:DateTime 2017-05-31 00:00:00.000000000 Z
-  conferenceType:
-  - Conference
-  eventDescription: The 2017 EFC AGA and Conference will focus on the theme of ‘courage
-    for solidarity’ and specifically how philanthropy should be involved in fostering,
-    supporting and promoting it. It will offer a unique opportunity for delegates
-    from around the world to reflect on their own work, learn from their peers, and
-    discover how, by finding the courage to re-embrace solidarity, they can help shape
-    a brighter future.
-  sessionName: Data & Philanthropy
-  sessionType:
-  - Workshop
-- sys:
-    id: uF3uaikYV2gWsckO8wYO2
-  eventName: United Nations World Data Forum
-  url: http://undataforum.org
-  location: Cape Town, South Africa
-  eventDate: !ruby/object:DateTime 2017-01-15 00:00:00.000000000 Z
-  conferenceType:
-  - Forum
-  eventDescription: |-
-    The first UN World Data Forum will be hosted by Statistics South Africa from 15 to 18 January 2017, with support from the Statistics Division of the UN Department of Economic and Social Affairs, under the guidance of the United Nations Statistical Commission and the High-level Group for Partnership, Coordination and Capacity-Building for Statistics for the 2030 Agenda for Sustainable Development.
-
-    It will be an opportunity for data and statistics experts from around the world to:
-
-    - __JOIN__ together in this unique event with governments, businesses, civil society and the scientific and academic communities.
-    - __EXPLORE__ innovative ways to apply data and statistics to measure global progress and inform evidence-based policy decisions on the 2030 Agenda for Sustainable Development.
-    - __CONTRIBUTE__ to important discussions, data labs and interactive platforms aimed at improving the use of data for sustainable development.
-    - __LAUNCH__ new initiatives and solutions that will deliver better data for all.
 canvasPhases:
+- sys:
+    id: 5nOGsgnb20KEaQ4euOQum6
+  phaseNumber: Phase 7
+  phaseTitle: Learning
+  phaseDescription: Meaningfully measuring success and impact will be key for maintaining
+    the data collaborative over a longer timeframe, accessing new or maintaining existing
+    funding and ensuring that the current mix of variables and decisions yielded the
+    optimal approach for the data collaborative.
+  phaseSteps:
+  - sys:
+      id: 40dsSuHVNm2kwimMYuIaW2
+    stepNumber: Step 15
+    stepTitle: Define a common baseline against which to measure progress
+    discussion: 'Building on the work done at the problem definition and data audit
+      stage, defining the baseline of current practice will ensure that the impact
+      of a data collaborative (or the lack thereof) can be meaningfully assessed.
+      Without an understanding of the effectiveness of current efforts to address
+      the problem, measuring success and iterating on new data practices will be challenging. '
+    questions: "- What indicators are most representative of the issues the data collaborative
+      is meant to assess? \n- Are any externally held datasets available (e.g., open
+      data) to help understand the current problem baseline? "
+    enablers: "- The initial data audit conducted during phase 1 likely should have
+      uncovered some useful baseline data"
+  - sys:
+      id: 4ct6n5btsQ8IqwEsgaw6C2
+    stepNumber: Step 16
+    stepTitle: Measure progress against defined, agreed-upon metrics of success
+    discussion: In order to measure progress throughout the lifespan of the data collaborative,
+      ensure that mechanisms are in place for the consistent generation of data enabling
+      assessment against the baseline. While much of the work of impact assessment
+      is done at the start or conclusion of such an initiative, upfront efforts to
+      create or gain access to data about progress throughout can help to inform iteration
+      and improve the likelihood of success.
+    questions: |-
+      - Does the data collaborative appear to be having an impact in intended areas?
+      - Do the metrics uncover any unanticipated impacts to date?
+    resources: "- [Towards Metrics for (Re)imagining Governance](https://www.thegovlab.org/static/files/publications/GovLabMetrics.pdf)
+      - a paper exploring mechanisms for measuring the impact of innovations in governance
+      and public problem-solving. \n"
+  - sys:
+      id: 3f2yhGcnva8mKcAOcOMocS
+    stepNumber: Step 17
+    stepTitle: Impact assessment
+    discussion: After an agreed upon period of time, stakeholders should conduct a
+      detailed impact assessment to determine the real-world impacts of the data collaborative.
+    resources: |-
+      - [Tools and Resources for Assessing Social Impact](http://trasi.foundationcenter.org/) - a searchable toolkit curated by the Foundation Center
+      - [International Association for Impact Assessment](http://www.iaia.org/) - an organization that provides an “international forum for advancing innovation and communication of best practice in all forms of impact assessment”
+      - [Journal of Impact Assessment and Project Appraisal](http://www.tandfonline.com/toc/tiap20/current) - a peer-reviewed journal on impact assessment
+      - [What is Impact Assessment?](http://www.tandfonline.com/toc/tiap20/current) - a briefing on impact assessment approaches from the OECD
 - sys:
     id: 3szKi9TAsogWMYQUUSWyyo
   phaseNumber: Phase 3
@@ -3193,6 +3151,51 @@ canvasPhases:
       - guidelines from the Organization for Economic Co-operation and Development
       (OECD) for governing a traditional public-private partnership. \n"
 - sys:
+    id: 56bKBHk0QU44OK0YmSg0EG
+  phaseNumber: Phase 6
+  phaseTitle: Communication
+  phaseDescription: 'In order to engage the intended beneficiaries for the data collaborative
+    (where relevant) and/or the communities who could help to promote the effort (e.g.,
+    media), participants need to create a multi-faceted communications strategy and
+    approach for disseminating information on an ongoing basis.   '
+  phaseSteps:
+  - sys:
+      id: 7bAy1tzHKo0Aey2I048UA0
+    stepNumber: Step 13
+    stepTitle: Develop a communications strategy
+    discussion: Especially for data collaboratives where corporate data providers
+      were incentivized to participate based on reputational benefits, communicating
+      the objectives and (intended) impacts of the arrangement to the public can be
+      important. In many cases, a high level of specificity in public communications
+      may not be desirable, but promoting the existence of the data collaborative
+      can spur interest and engagement among target audiences (including funders).
+    questions: "- What are the key messages that should be communicated to the public
+      regarding the data collaborative?\n- Should communication be ongoing throughout
+      the initiative’s lifespan, or primarily at launch and at the impact assessment
+      stage? "
+    resources: "- [Developing a Communications Strategy](http://dcblog.foundationcenter.org/2012/08/developing-a-communications-strategy.html)
+      - guidelines and suggestions for crafting a communications strategy from the
+      Foundation Center\n- [Template for Strategic Communications Plan](https://www.wkkf.org/resource-directory/resource/2006/01/template-for-strategic-communications-plan)
+      - template from the Kellogg Foundation for a detailed strategic communications
+      plan\t"
+  - sys:
+      id: 5hGoVdsqX68GG4IC6isCWQ
+    stepNumber: Step 14
+    stepTitle: Determine audience and information sharing approach
+    discussion: Some data collaboratives are primarily or exclusively focused on improving
+      the data capacity of participating institutions. Others, however, have additional,
+      external audiences or user groups. Clearly defining the audience(s) and their
+      needs can enable stakeholders to craft an information sharing approach that
+      is well-suited to maximizing the usefulness of newly created data-driven offerings.
+    questions: "- Who are the intended beneficiaries or user groups for the data collaborative?
+      \n- Do the different user groups exist in different sectors?\n- Do the different
+      user groups have divergent needs or introduce divergent challenges? \n- Is there
+      a particular user group that should be prioritized?\n- What are the communication
+      channels through which the intended audiences can best be reached? "
+    resources: |-
+      - [How to Create a Customer Journey Map](http://uxmastery.com/how-to-create-a-customer-journey-map/) - guidelines for developing user personas and journeys for intended audiences
+      - [User Journeys – A Beginners Guide](http://theuxreview.co.uk/user-journeys-beginners-guide/) - a crash course in creating user journeys
+- sys:
     id: 49HJxg1gBWgs2aKS4Is4gC
   phaseNumber: Phase 2
   phaseTitle: Supply
@@ -3319,3 +3322,54 @@ canvasPhases:
     resources: "- [Finding Your Funding Model: A Practical Approach to Nonprofit Sustainability](https://www.bridgespan.org/insights/library/funding-strategy/finding-your-funding-model-a-practical-approach-to)
       – a set of guidelines for nonprofits to identify the right funding model for
       their mission"
+events:
+- sys:
+    id: 3KNhrCPTR6Yu0cCGIICyQ4
+  eventName: International Data Responsibility Group Conference
+  url: http://www.responsible-data.org/2017-conference.html
+  location: The Hague, The Netherlands
+  eventDate: !ruby/object:DateTime 2017-03-03 00:00:00.000000000 Z
+  conferenceType:
+  - Conference
+  eventDescription: '"Every spring, the International Data Responsibility Group organises
+    the annual IDRG conference in The Hague. This annual meeting brings together experts
+    and practitioners working with data for crisis-affected communities and the most
+    at-risk populations worldwide. Through presentations by a variety of experts and
+    several interactive workshops, participants explore the potential risks and harms
+    that could be caused by using this data, and ways to prevent these from materializing.
+    The theme for this year''s conference will be the potential risks of collecting
+    and processing digital data in the European Migration Crisis."'
+- sys:
+    id: 1WVwEt6aeo4ko2wiAQ4Gae
+  eventName: European Foundation Centre Conference
+  url: http://www.efc.be/aga/2017-warsaw/
+  location: Warsaw, Poland
+  eventDate: !ruby/object:DateTime 2017-05-31 00:00:00.000000000 Z
+  conferenceType:
+  - Conference
+  eventDescription: The 2017 EFC AGA and Conference will focus on the theme of ‘courage
+    for solidarity’ and specifically how philanthropy should be involved in fostering,
+    supporting and promoting it. It will offer a unique opportunity for delegates
+    from around the world to reflect on their own work, learn from their peers, and
+    discover how, by finding the courage to re-embrace solidarity, they can help shape
+    a brighter future.
+  sessionName: Data & Philanthropy
+  sessionType:
+  - Workshop
+- sys:
+    id: uF3uaikYV2gWsckO8wYO2
+  eventName: United Nations World Data Forum
+  url: http://undataforum.org
+  location: Cape Town, South Africa
+  eventDate: !ruby/object:DateTime 2017-01-15 00:00:00.000000000 Z
+  conferenceType:
+  - Forum
+  eventDescription: |-
+    The first UN World Data Forum will be hosted by Statistics South Africa from 15 to 18 January 2017, with support from the Statistics Division of the UN Department of Economic and Social Affairs, under the guidance of the United Nations Statistical Commission and the High-level Group for Partnership, Coordination and Capacity-Building for Statistics for the 2030 Agenda for Sustainable Development.
+
+    It will be an opportunity for data and statistics experts from around the world to:
+
+    - __JOIN__ together in this unique event with governments, businesses, civil society and the scientific and academic communities.
+    - __EXPLORE__ innovative ways to apply data and statistics to measure global progress and inform evidence-based policy decisions on the 2030 Agenda for Sustainable Development.
+    - __CONTRIBUTE__ to important discussions, data labs and interactive platforms aimed at improving the use of data for sustainable development.
+    - __LAUNCH__ new initiatives and solutions that will deliver better data for all.
