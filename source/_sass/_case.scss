@@ -6,9 +6,9 @@
       padding-top: 80px;
       position: relative;
       
-      @include breakpoint($large-up) { 
+      @include breakpoint($medium-up) { 
         padding-top: 140px; 
-        height: 42vh;
+        // height: 42vh;
       }
 
       h1, h2, h3 {
