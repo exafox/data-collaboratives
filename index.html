@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
+<head>
     <meta charset="UTF-8"/>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -20,9 +20,19 @@
     <script src="//cdnjs.cloudflare.com/ajax/libs/list.js/1.3.0/list.min.js"></script>
     <script src="/js/modernizr.js"></script>
     <script src="/scripts/list.fuzzysearch.js"></script>
-  </head>
+    <script>
+    (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+      (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+      m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
 
-  <body class="">
+  ga('create', 'UA-40012093-10', 'auto');
+  ga('send', 'pageview');
+
+</script>
+</head>
+
+<body class="">
     <header class="top-bar top-bar--transparent">
     <span class="top-bar__button js-trigger-menu">menu</span>
     <nav class="main-menu js-target-menu main-menu--left">
@@ -52,13 +62,14 @@
 
 <section class="top-section top-section--bg">
   <video class="video-bg__video" src="images/video/long-video.webm" autoplay loop></video>
+  <div class="top-section__under-video">&nbsp;</div>
   <div class="top-section__band">
     <div class="row align-center">
       <div class="medium-10 column">
         <h1 class="top-section__logo" id="container"></h1>
         <img class="top-section__backup-logo" src="images/icosa-alpha.png"/>
         <img class="top-section__main-img" src="images/logo-data-collab-text.png">
-        <h5 class="top-section__sub-header">Creating Value by Exchanging Data</h5>
+        <h5 class="top-section__sub-header">Creating Public Value by Exchanging Data</h5>
       </div>
     </div>
   </div>
@@ -160,7 +171,7 @@
 <section class="page-section callout-message">
   <div class="row align-center expanded">
     <div class="large-10 column">
-      <p class="learn-more-btn"><a href="/introduction.html" class="button">Learn More About Data Collaboratives</a></p>
+      <p class="learn-more-btn"><a href="/introduction.html" class="button button--outline">Learn More About Data Collaboratives</a></p>
     </div>
   </div>
 </section>
@@ -187,7 +198,7 @@
       <div class="checkerboard__content">
         <h6 class="checkerboard__header">Data Responsibility Framework</h6>
         <p class="checkerboard__main">Data Collaboratives do also introduce some level of risk. Learn more about risks across the data lifecycle and strategies for mitigating them with our <strong>Data Responsibility Framework</strong>.</p>
-        <p class="checkerboard__footer"><a href="/static/files/framework.pdf" class="button button--outline-dark">More</a></p>
+        <p class="checkerboard__footer"><a href="/framework.html" class="button button--outline-dark">More</a></p>
       </div>
     </div>
     <div class="column large-6">
@@ -212,7 +223,7 @@
     <div class="large-4 small-12 column">
 
       <nav class="footer__nav footer__panel">
-        <a href="/introduction.html">What is Data Collaboratives</a>
+        <a href="/introduction.html">What are Data Collaboratives</a>
         <a href="/explorer.html">Data Collaboratives Explorer</a>
         <a href="/canvas.html">Designing a Data Collaborative</a>
         <a href="/framework.html">Data Responsibility Framework</a>
@@ -235,6 +246,7 @@
         <a class="footer-logos__item footer-logos--unicef" href="https://www.unicef.org" tagret="_blank"><img src="/images/partners/unicef.png" alt="The Governance Lab"></a>
         <a class="footer-logos__item footer-logos--on" href="https://www.omidyar.com" tagret="_blank"><img src="/images/partners/on-foundation.png" alt="The Governance Lab"></a>
         <a class="footer-logos__item footer-logos--nyu" href="http://engineering.nyu.edu/tandon" tagret="_blank"><img src="/images/partners/nyu.png" alt="NYU Tandon School of Engineering - New York University"></a>
+        <a class="button button--outline" href="mailto:andrew@thegovlab.org">Collaborate with Us</a>
       </div>
     </div>
 
@@ -284,11 +296,11 @@
     <script src="/js/modal.js"></script>
     <script src="/js/video.js"></script>
     
-<!-- fullPage scripts -->
+    <!-- fullPage scripts -->
     <script src="/scripts/fullpage.scrollHorizontally.min.js"></script>
     <script src="/scripts/jquery.fullPage.js"></script>
     <script src="/scripts/scrolloverflow.min.js"></script>
     <script src="/scripts/jquery.fullpage.extensions.min.js"></script>
     <!-- <script src="/scripts/jquery.easings.min.js"></script> -->
-  </body>
+</body>
 </html>

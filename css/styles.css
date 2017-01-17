@@ -79,6 +79,12 @@
     margin: 0;
     padding-bottom: 50px;
     color: rgba(0, 0, 0, 0.3); }
+  .top-section__under-video {
+    z-index: -2;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: #333; }
 
 .webgl .top-section__backup-logo {
   display: none; }
@@ -1161,6 +1167,9 @@ p.large-text {
 
 .fp-tooltip {
   color: black !important; }
+
+.modal {
+  z-index: 1000; }
 
 .floating-button {
   position: relative;
