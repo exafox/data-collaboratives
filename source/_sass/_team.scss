@@ -58,4 +58,33 @@
       font-size: 18px;
     }
   }
+
+  &__acknowledgments {
+
+    p {
+      margin-top: 30px;
+    }
+  }
+
+  &__list {
+
+    @media (max-width: 420px) { padding-left: 0px;}
+
+    li { 
+      list-style-type: none; 
+      margin-bottom: 10px; 
+
+      a {
+      text-decoration: none;
+      color: darken($main-color, 10);
+
+      &:hover {
+        background-color: rgba($main-color, .2);
+      }
+
+    }
+    }
+
+    margin-bottom: 30px; 
+  }
 }
