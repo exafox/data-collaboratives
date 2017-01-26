@@ -1302,6 +1302,21 @@ p.large-text {
   margin: 0;
   margin-bottom: 30px;
   font-size: 18px; }
+.team-page__acknowledgments p {
+  margin-top: 30px; }
+.team-page__list {
+  margin-bottom: 30px; }
+  @media (max-width: 420px) {
+    .team-page__list {
+      padding-left: 0px; } }
+  .team-page__list li {
+    list-style-type: none;
+    margin-bottom: 10px; }
+    .team-page__list li a {
+      text-decoration: none;
+      color: #b59e0d; }
+      .team-page__list li a:hover {
+        background-color: rgba(229, 200, 16, 0.2); }
 
 .framework-page__list-header {
   padding-top: 30px;
