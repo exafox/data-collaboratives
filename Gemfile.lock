@@ -9,9 +9,9 @@ GEM
       multi_json (~> 1)
     domain_name (0.5.20161129)
       unf (>= 0.0.5, < 1.0.0)
-    ffi (1.9.14)
+    ffi (1.9.17)
     forwardable-extended (2.6.0)
-    http (2.1.0)
+    http (2.2.0)
       addressable (~> 2.3)
       http-cookie (~> 1.0)
       http-form_data (~> 1.0.1)
@@ -51,7 +51,7 @@ GEM
       forwardable-extended (~> 2.6)
     public_suffix (2.0.5)
     rb-fsevent (0.9.8)
-    rb-inotify (0.9.7)
+    rb-inotify (0.9.8)
       ffi (>= 0.5.0)
     rouge (1.11.1)
     safe_yaml (1.0.4)
@@ -72,4 +72,4 @@ RUBY VERSION
    ruby 2.3.1p112
 
 BUNDLED WITH
-   1.13.6
+   1.14.3
