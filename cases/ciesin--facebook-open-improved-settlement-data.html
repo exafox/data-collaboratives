@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-    <title>Harvard's Malaria Tracking Research</title>
+    <title>CIESIN & Facebook: Open, Improved Settlement Data</title>
 
     <link rel="stylesheet" href="/scripts/foundation.min.css">
     <link rel="stylesheet" href="/scripts/styleguide-v2.css">
@@ -61,9 +61,9 @@
 
     <div class="case-page">
 
-  <div class="top-section case-page__header case-page__header-health" style="background-image: url('/images/headers/health.jpg')">
+  <div class="top-section case-page__header case-page__header-economic-development-infrastructure" style="background-image: url('/images/headers/economic-development.jpg')">
     <hgroup>
-      <h1><span>Harvard's Malaria Tracking Research</span></h1>
+      <h1><span>CIESIN & Facebook: Open, Improved Settlement Data</span></h1>
       <h2 id="data-filter-container">
         
           
@@ -73,18 +73,20 @@
             Why the <a> inside the <span>? Thsi should be one single tag. 
             I tried it, but it broke the JS, which is also not ideal, since we can have it work with native anchor tag behavior, and #values.
             -->
-            <span id="data-type" onmouseover="this.style.cursor='pointer';" class="observed-personal-data" ><a id="span-link" class="observed-personal-data" href="#">Observed Personal Data</a></span>
+            <span id="data-type" onmouseover="this.style.cursor='pointer';" class="disclosed-non-personal-data" ><a id="span-link" class="disclosed-non-personal-data" href="#">Disclosed Non-Personal Data</a></span>
           
         
 
         
           
-            <span onmouseover="this.style.cursor='pointer';" id="data-sector" class="health" ><a id="span-link"class="health" href="#">Health</a></span>
+            <span onmouseover="this.style.cursor='pointer';" id="data-sector" class="economic-development" ><a id="span-link"class="economic-development" href="#">Economic Development</a></span>
+          
+            <span onmouseover="this.style.cursor='pointer';" id="data-sector" class="infrastructure" ><a id="span-link"class="infrastructure" href="#">Infrastructure</a></span>
           
         
       </h2>
     </hgroup>
-    <div class="case-page__header--button"><a target="_blank" class="button" href="http://www.hsph.harvard.edu/news/press-releases/cell-phone-data-malaria/">Go to website</a></div>
+    <div class="case-page__header--button"><a target="_blank" class="button" href="http://blogs.ei.columbia.edu/2016/11/29/ciesin-teams-with-facebook-to-develop-open-improved-settlement-data/">Go to website</a></div>
   </div>
 
   <div class="page-section case-page--info">
@@ -92,14 +94,13 @@
       <div class="small-12 column medium-6 ">
         
           <h4>The Data</h4>
-          <p>This Harvard School of Public Health (HSPH) project combines cell phone data from 15 million people in Kenya with detailed information on the regional incidence of malaria.</p>
+          <p>Facebook has developed, and shared with CIESIN "state of the art computer visioning techniques" that can identify buildings from commercially available satellite images. This data once shared with CIESIN is combined with census data, which is also shared with Facebook to confirm results. The final outcome of this data pooling is High Resolution Settlement Layer data that provides information about rural settlement across the globe. </p>
         
       </div>
       <div class="small-12 column medium-6 ">
         
           <h4>How the data was shared</h4>
-          <p>According to Havard University's press release, between June 2008 and June 2009, researchers mapped every call or text made by each of 14,816,521 Kenyan mobile phone subscribers to one of 11,920 cell towers located in 692 different settlements. Every time an individual left his or her primary settlement, the destination and duration of each journey was calculated. Then, using a 2009 malaria prevalence map provided by co-authors at the Kenya Medical Research Institute (KEMRI) and the Malaria Atlas Project to estimate the disease’s prevalence in each location being studied, they inferred each resident’s probability of being infected and the daily probability that visitors to particular areas would become infected. The phone company, Safari, provided de-identified business data to researchers that was then used to model the travel patterns of cell phone users. Neither the names of individuals nor their phone numbers were or are known to the Harvard School of Public Health researchers. 
-</p>
+          <p>The pooled data between CIESIN, Facebook and World Bank mainly consists of government collected census data, available by CIESIN, and Facebook's commercially purchased satellite imagery data, with the partnership formally allowing the exchange of this data by both organizations. In November 2016, CIESIN made publicly available population data for 5 countries: Ghana, Haiti, Malawi, South Africa and Sri Lanka- via its website.</p>
         
       </div>
     </div>
@@ -110,7 +111,7 @@
       <div class="column large-6">
         
           <h4>Purpose of Data Shared</h4>
-          <p>By analyzing the incidence of malaria and the movement of people as revealed by their mobile phones, researchers at HSPH and seven other institutions indicated that malaria, in large part, emanates from Kenya’s Lake Victoria region and spreads east, chiefly toward the capital, Nairobi. Such insights help estmate malaria's potential spread, and can be used to build a "map of parasite movements" and help better understand the spread of disease.</p>
+          <p>For Facebook, this collaboration allows the social-media company to obtain better rural settlement information in order to create technologies to improve connectivity in these regions. This feeds into CIESIN and World Bank's motivation to improve communications infrastructure, but the data also extends for use in research, crisis response and humanitarian planning.</p>
         
       </div>
       <div class="column large-6">
@@ -118,8 +119,8 @@
         <div class="share-panel">
           <h5>Shared by</h5>
           
-            <!-- <a href="#" class="share-panel__item">Safaricom</a> -->
-            <span class="share-panel__item">Safaricom</span>
+            <!-- <a href="#" class="share-panel__item">Facebook</a> -->
+            <span class="share-panel__item">Facebook</span>
           
         </div>
         
@@ -127,8 +128,11 @@
         <div class="share-panel">
           <h5>Shared with</h5>
           
-            <!-- <a href="#" class="share-panel__item">Harvard School of Public Health</a> -->
-            <span class="share-panel__item">Harvard School of Public Health</span>
+            <!-- <a href="#" class="share-panel__item">CIESIN</a> -->
+            <span class="share-panel__item">CIESIN</span>
+          
+            <!-- <a href="#" class="share-panel__item">public</a> -->
+            <span class="share-panel__item">public</span>
           
         </div>
         
@@ -139,12 +143,12 @@
   <div class="page-section page-section--black regions">
     <div class="row align-center">
       <div class="large-8 column">
-        <h3>Region: Middle East and North Africa</h3>
+        <h3>Region: Worldwide</h3>
 
         
 
         
-          <div class="regions__map regions--north-africa">
+          <div class="regions__map regions--worldwide">
             <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1"
