@@ -736,7 +736,7 @@ datacollaborative:
     to monitor when and where commercial fishing is occurring around the world.
   purpose: This information from Global Fishing Watch can be used by governments to
     ensure that fishing regulations are adequately monitored and tracked, allowing
-    them to respond to illegal fishing rapidly and efficientlly. The governments of
+    them to respond to illegal fishing rapidly and efficiently. The governments of
     Kiribati and Indonesia have been able to improve adherence to marine conservation
     policies by accessing data provided by Global Fishing Watch.
 - sys:
@@ -978,7 +978,13 @@ datacollaborative:
     that school administrators could fill in. But, since some of the details seemed
     personal, like family relationships and enrollment changes, some parents objected,
     saying that they did not want that kind of information about their children transferred
-    to a third-party vendor.
+    to a third-party vendor. InBloom ultimately collapsed, for a variety of reason,
+    but mainly because the data sharing agreements were seen as a dangerous encrouchment
+    into students' education. [A 2017 article](https://points.datasociety.net/inblooms-collapse-undermined-personalized-learning-and-data-standards-efforts-199c5cccac01#.a69staljc),
+    drawn from a [detailed report about inBloom](https://datasociety.net/pubs/ecl/InBloom_feb_2017.pdf),
+    suggested that "For many on the ground, inBloom was nothing more than another
+    example of rich tech elites projecting their values onto their communities with
+    no contextual understanding.
   purpose: Initiated in 2011 with $100 million in seed money from the Bill and Melinda
     Gates Foundation and the Carnegie Corporation of New York, InBloom aimed to store,
     clean and aggregate student data for states and districts, making data available
@@ -1714,7 +1720,7 @@ datacollaborative:
   howDataShared: |-
     During the contest, the data for Telecom Italia's challenge was available in batches and through an API, and contained millions of call data records, energy consumption records, tweets, and weather data points.
     Recently, the dataset used for the contest was made open to the public [via their website.](http://theodi.fbk.eu/openbigdata/) This data was released under the The Open Database License (ODbL) available in its raw form or through an API.
-  purpose: Telecom Italia's Big Data Challegne focused on creating and developing
+  purpose: Telecom Italia's Big Data Challenge focused on creating and developing
     innovative technological ideas in the field of Big Data, in order to spur innovation
     in this sector and improves the lives of individuals, companies and communtities.
 - sys:
@@ -2766,7 +2772,7 @@ datacollaborative:
     is built on this database.
 - sys:
     id: 49qbNkwmtGmC4qg8IouwYO
-  caseStudy: MIT Senseable City Labs- Urban Exposures
+  caseStudy: MIT Senseable City Labs | Urban Exposures
   sector:
   - Environment
   sharedBy:
@@ -2873,6 +2879,193 @@ datacollaborative:
     contained in "social conversations" like those on Twitter, UN Global Pulse is
     able to track the impact of pubic health campaigns, track the reports of rising
     food costs and better coordinate relief efforts.
+- sys:
+    id: 21oOhfblTiyka0ISwsM4as
+  caseStudy: UNICEF and Amadeus Zika Tracker
+  sector:
+  - Health
+  - Transportation
+  sharedBy:
+  - Amadeus
+  sharedWith:
+  - UNICEF
+  region: Worldwide
+  collaborativeType:
+  - Intelligence Product
+  - Data Pooling
+  dataType:
+  - Observed Personal Data
+  dataKind:
+  - Tracking Data
+  dataSource:
+  - Flights
+  link: http://www.amadeus.com/blog/19/07/social-innovation-travel-data-analysis-can-help-manage-spread-disease-epidemics/
+  whatDataShared: Amadeus, a technology and data intelligence provider for the travel
+    sector, shares travel data with the flight industry in order to help improve their
+    marketing strategies. In this partnership with UNICEF, Amadeus leverages it data
+    analysis tools to combine its travel data with UNICEF's health, government, social
+    media, mobile, and weather data to provide insights into the patterns of the spread
+    of Zika and predict potential outbreak zones.
+  howDataShared: The data is shared through a private agreement between UNICEF and
+    Amadeus. Amadeus has also offered the use of its data scientists, who have developed
+    for-profit services to serve the tavel industry. This existing infrastruture and
+    clientel will make transitioning and combining the data with UNICEF's datasets
+    easier.
+  purpose: This collaborative between UNICEF and Amadeus aims to better understand
+    and predict the spread of the Zika virus by analyzing travel data, and combining
+    this data with health, government, social media, mobile and weather datasets.
+    In doing so, the aim was to create a robust model to track the geographic spread
+    and evolution of disease, contributing to the ultimate goal of creating a real-time
+    data platform to monitor public-health emergencies.
+- sys:
+    id: 22XKM6nlLWMMgQKE22MisG
+  caseStudy: Google Earth Enterprise
+  sector:
+  - Infrastructure
+  - Digital Society
+  sharedBy:
+  - Google Earth Enterprises
+  sharedWith:
+  - Public
+  region: Worldwide
+  collaborativeType:
+  - Intelligence Product
+  - API
+  dataType:
+  - Observed Non-Personal Data
+  dataKind:
+  - Satellite and Aerial Imagery
+  dataSource:
+  - Geospacial Data
+  link: https://maps-apis.googleblog.com/2017/01/open-sourcing-google-earth-enterprise.html
+  whatDataShared: Google Earth Enterprises (GEE) announced in 2017 that it will give
+    the public access to their data by open-sourcing their products. The data, that
+    was previously only available to paying customers to host private versions of
+    Google Earth and Google Maps, included its  GEE Fusion, GEE Server, and GEE Portable
+    Server source code. The data shared is equivalent to over 470,000 lines of code.
+  howDataShared: GEE will makes its data available in March, 2017, on GitHub under
+    the Apache2 license. However, in this initiative, GEE Client, the Google Maps
+    JavaScript API V3 and the Google Earth API will no be open-sourced, and remain
+    availale to paying customers only.
+  purpose: GEE follows the common practice by many software companies to open-source
+    their deprecated products. According to Google, by opening GEE services to the
+    public, it can allow a wide-range of developers to improve and build on the data
+    available. This move may also encourage more GEE customers to move to Google's
+    paid cloud-based geospacial services, like the Google Cloud Platform and the Google
+    Earth Engine, highlighting the commercial interest for Google in making GEE open-source.
+- sys:
+    id: 4snGzSCeVG0wqAAaQUcOM6
+  caseStudy: Esoko
+  sector:
+  - Agriculture
+  - Telecommunications
+  sharedBy:
+  - Ministry of Food and Agriculture (MoFA)
+  - the Savanna Agricultural Research Institute (SARI)
+  - the Council for Scientific and Industrial Research (CSIR)
+  - the Ghana Meteorological Agency (GMET)
+  sharedWith:
+  - Esoko
+  region: Sub-Saharan Africa
+  collaborativeType:
+  - Intelligence Product
+  - Data Pooling
+  - Trusted Intermediary
+  dataType:
+  - Disclosed Non-Personal Data
+  dataKind:
+  - Market Information
+  - Climate Information
+  link: https://www.esoko.com
+  whatDataShared: Esoka, a for-profit company, collects data from multiple sources,
+    mixing private-held data and government data. The Ministry of Food and Agriculture
+    (MOFA) is the primary government source of data on crop yields, production estimates
+    and market prices. Esoko is also a client of aWhere, accessing its weather data
+    via an API service. Ultmiately, this data is pooled and shared with participating
+    farmers so they can obtain vital information about markets and businesses.
+  howDataShared: Data is collected by Esoko through a variety of means, including
+    accessing open government data and buying privately held data. Esoko was awarded
+    an Internet.org innovation challenge prize, which helped establish these collaborations
+    and create an automated alert system that Esoko offers to participating farmers.
+    The alerts contain agrarian and economic data sent to farmers on their cell phones
+    in the format of SMS and voice messages in multiple languages.
+  purpose: The ultimate objective of Esoko is to empower smallholder farmers to make
+    farming more profitable. They do this by acquiring and sharing data to help farmers
+    better navigate the complexity of global value chains. By doing so, these farmers
+    can improve their bargaining power when cometing with some of the large, global
+    actors in that system.
+- sys:
+    id: 4pPfQi4rYIYQMOYOWmIw28
+  caseStudy: Open Diversity Data
+  sector:
+  - Digital Society
+  sharedBy:
+  - US Companies
+  - Open Diversity Data
+  sharedWith:
+  - Open Diversity Data
+  - Public
+  region: North America
+  collaborativeType:
+  - Intelligence Product
+  dataType:
+  - Disclosed Non-Personal Data
+  dataKind:
+  - Employee Demographics
+  dataSource:
+  - Government Records
+  link: http://opendiversitydata.org/
+  whatDataShared: US companies can choose to publish their diversity data and disclose
+    the demographic makeup of their companies, including percentage of employees of
+    a particular gender, race and age group. Open Diversity Data collates this informationand
+    presents it on their online platform for the public to easily access and scrutinize.
+    The website also explicitly states which companies do not publish their diversity
+    data, and calls on them to do so.
+  howDataShared: All US companies are required to file EEO-1 Surveys through the Equal
+    Employment Opportunity Commission which collects employment data on race/ethnicity,
+    gender and job category. Some companies choose to release this information to
+    the public, and website Open Diversity Data both collects and showcases all companies
+    that release their EEO-1 information and those that do not. Apple, Cisco, Dell
+    and Google (among others) all release the data contained in their EEO-1 filings
+    on their websites, ensuring that the diversity in their workforce is interrogated,
+    promoted and maintained.
+  purpose: By sharing to the public data used for regulatory compliance, companies
+    allow for people to more broadly scrutinize discrimination within their institutions,
+    thereby encouraging greater diversity in their workplaces and beyond.
+- sys:
+    id: 30e30Ra2AMqMmESWKiY8Q6
+  caseStudy: Uber Movement
+  sector:
+  - Transportation
+  sharedBy:
+  - Uber
+  sharedWith:
+  - Local government agencies
+  region: Worldwide
+  collaborativeType:
+  - Data Pooling
+  dataType:
+  - Disclosed Personal Data
+  dataKind:
+  - Tracking information
+  dataSource:
+  - GPS data
+  link: https://movement.uber.com/cities
+  whatDataShared: Uber shares aggregated and anonymized travel data from their fleet
+    of vehicles with participating organizations and city planning agencies.
+  howDataShared: In order to protect the privacy of individual drivers and passengers,
+    uber anonymizes and aggregates all data through their "travel times collection
+    methodology." This data is then shared with participating city officials in CSV
+    format under creative commons licensing, and there is therefore no commercial
+    use for this data.
+  purpose: Uber Movement shares its mobility data with city planners and officials
+    to help inform urban policies and decision making. The ultimate aim is to make
+    transport in cities more efficient and user-friendly. However, their partnership
+    with the City of Boston which occurred prior to the creation of Uber Movement
+    in fact frustrated city officials as they found the information too broad to inform
+    policies in any meaningful way. Though these critiques informed Uber movement's
+    current iteration, the tension between maintaining privacy and supporting openness
+    remain.
 events:
 - sys:
     id: uF3uaikYV2gWsckO8wYO2
