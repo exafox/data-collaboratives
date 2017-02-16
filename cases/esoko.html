@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-    <title>InBloom</title>
+    <title>Esoko</title>
 
     <link rel="stylesheet" href="/scripts/foundation.min.css">
     <link rel="stylesheet" href="/scripts/styleguide-v2.css">
@@ -61,9 +61,9 @@
 
     <div class="case-page">
 
-  <div class="top-section case-page__header case-page__header-education" style="background-image: url('/images/headers/education.jpg')">
+  <div class="top-section case-page__header case-page__header-agriculture-telecommunications" style="background-image: url('/images/headers/agriculture.jpg')">
     <hgroup>
-      <h1><span>InBloom</span></h1>
+      <h1><span>Esoko</span></h1>
       <h2 id="data-filter-container">
         
           
@@ -73,18 +73,20 @@
             Why the <a> inside the <span>? Thsi should be one single tag. 
             I tried it, but it broke the JS, which is also not ideal, since we can have it work with native anchor tag behavior, and #values.
             -->
-            <span id="data-type" onmouseover="this.style.cursor='pointer';" class="disclosed-personal-data" ><a id="span-link" class="disclosed-personal-data" href="#">Disclosed Personal Data</a></span>
+            <span id="data-type" onmouseover="this.style.cursor='pointer';" class="disclosed-non-personal-data" ><a id="span-link" class="disclosed-non-personal-data" href="#">Disclosed Non-Personal Data</a></span>
           
         
 
         
           
-            <span onmouseover="this.style.cursor='pointer';" id="data-sector" class="education" ><a id="span-link"class="education" href="#">Education</a></span>
+            <span onmouseover="this.style.cursor='pointer';" id="data-sector" class="agriculture" ><a id="span-link"class="agriculture" href="#">Agriculture</a></span>
+          
+            <span onmouseover="this.style.cursor='pointer';" id="data-sector" class="telecommunications" ><a id="span-link"class="telecommunications" href="#">Telecommunications</a></span>
           
         
       </h2>
     </hgroup>
-    <div class="case-page__header--button"><a target="_blank" class="button" href="https://github.com/inbloom/">Go to website</a></div>
+    <div class="case-page__header--button"><a target="_blank" class="button" href="https://www.esoko.com">Go to website</a></div>
   </div>
 
   <div class="page-section case-page--info">
@@ -92,13 +94,13 @@
       <div class="small-12 column medium-6 ">
         
           <h4>The Data</h4>
-          <p>Initiated in 2011 through $100 million in seed money from the Bill and Melinda Gates Foundation and the Carnegie Corporation of New York, InBloom aimed to store, clean and aggregate student data for states and districts.</p>
+          <p>Esoka, a for-profit company, collects data from multiple sources, mixing private-held data and government data. The Ministry of Food and Agriculture (MOFA) is the primary government source of data on crop yields, production estimates and market prices. Esoko is also a client of aWhere, accessing its weather data via an API service. Ultmiately, this data is pooled and shared with participating farmers so they can obtain vital information about markets and businesses.</p>
         
       </div>
       <div class="small-12 column medium-6 ">
         
           <h4>How the data was shared</h4>
-          <p>InBloom was a nonprofit student data repository that made available standardized student and school data for creating approved third party applications and software designed for educators. It collected information from school districts' many databases, and stored these in the cloud, protected with high-level encryption. The inBloom database included more than 400 different data fields about students that school administrators could fill in. But, since some of the details seemed personal, like family relationships and enrollment changes, some parents objected, saying that they did not want that kind of information about their children transferred to a third-party vendor. InBloom ultimately collapsed, for a variety of reason, but mainly because the data sharing agreements were seen as a dangerous encrouchment into students' education. [A 2017 article](https://points.datasociety.net/inblooms-collapse-undermined-personalized-learning-and-data-standards-efforts-199c5cccac01#.a69staljc), drawn from a [detailed report about inBloom](https://datasociety.net/pubs/ecl/InBloom_feb_2017.pdf), suggested that "For many on the ground, inBloom was nothing more than another example of rich tech elites projecting their values onto their communities with no contextual understanding.</p>
+          <p>Data is collected by Esoko through a variety of means, including accessing open government data and buying privately held data. Esoko was awarded an Internet.org innovation challenge prize, which helped establish these collaborations and create an automated alert system that Esoko offers to participating farmers. The alerts contain agrarian and economic data sent to farmers on their cell phones in the format of SMS and voice messages in multiple languages.</p>
         
       </div>
     </div>
@@ -109,7 +111,7 @@
       <div class="column large-6">
         
           <h4>Purpose of Data Shared</h4>
-          <p>Initiated in 2011 with $100 million in seed money from the Bill and Melinda Gates Foundation and the Carnegie Corporation of New York, InBloom aimed to store, clean and aggregate student data for states and districts, making data available and standardized for approved third party applications and software designed for educators. Backlash came from increased privacy concerns from parents and educators over the collection, use and storage of personally identifiable information on students, causing many partners to back out of initial agreements. InBloom began ending its services in April 2014.</p>
+          <p>The ultimate objective of Esoko is to empower smallholder farmers to make farming more profitable. They do this by acquiring and sharing data to help farmers better navigate the complexity of global value chains. By doing so, these farmers can improve their bargaining power when cometing with some of the large, global actors in that system.</p>
         
       </div>
       <div class="column large-6">
@@ -117,8 +119,17 @@
         <div class="share-panel">
           <h5>Shared by</h5>
           
-            <!-- <a href="#" class="share-panel__item">InBloom</a> -->
-            <span class="share-panel__item">InBloom</span>
+            <!-- <a href="#" class="share-panel__item">Ministry of Food and Agriculture (MoFA)</a> -->
+            <span class="share-panel__item">Ministry of Food and Agriculture (MoFA)</span>
+          
+            <!-- <a href="#" class="share-panel__item">the Savanna Agricultural Research Institute (SARI)</a> -->
+            <span class="share-panel__item">the Savanna Agricultural Research Institute (SARI)</span>
+          
+            <!-- <a href="#" class="share-panel__item">the Council for Scientific and Industrial Research (CSIR)</a> -->
+            <span class="share-panel__item">the Council for Scientific and Industrial Research (CSIR)</span>
+          
+            <!-- <a href="#" class="share-panel__item">the Ghana Meteorological Agency (GMET)</a> -->
+            <span class="share-panel__item">the Ghana Meteorological Agency (GMET)</span>
           
         </div>
         
@@ -126,14 +137,8 @@
         <div class="share-panel">
           <h5>Shared with</h5>
           
-            <!-- <a href="#" class="share-panel__item">School administrators</a> -->
-            <span class="share-panel__item">School administrators</span>
-          
-            <!-- <a href="#" class="share-panel__item">teachers</a> -->
-            <span class="share-panel__item">teachers</span>
-          
-            <!-- <a href="#" class="share-panel__item">education technology developers</a> -->
-            <span class="share-panel__item">education technology developers</span>
+            <!-- <a href="#" class="share-panel__item">Esoko</a> -->
+            <span class="share-panel__item">Esoko</span>
           
         </div>
         
@@ -144,12 +149,12 @@
   <div class="page-section page-section--black regions">
     <div class="row align-center">
       <div class="large-8 column">
-        <h3>Region: North America</h3>
+        <h3>Region: Sub-Saharan Africa</h3>
 
         
 
         
-          <div class="regions__map regions--north-america">
+          <div class="regions__map regions--sub-saharan-africa">
             <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1"
