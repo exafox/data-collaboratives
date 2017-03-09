@@ -72,5 +72,8 @@ select {
 }
 
 select::-ms-expand {
-  display: none;
+  border: none;
+  background-color: #454545;
+  color: white;
+  padding-right: 10px;
 }
