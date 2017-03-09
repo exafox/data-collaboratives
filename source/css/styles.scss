@@ -66,3 +66,11 @@ $gray: rgba(black, 0.7);
   &::-moz-placeholder { @content }
   &:-ms-input-placeholder { @content }
 }
+
+select {
+  -moz-appearance: none;
+}
+
+select::-ms-expand {
+  display: none;
+}
