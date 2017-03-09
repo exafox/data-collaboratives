@@ -16,7 +16,7 @@ $(document).ready(function() {
   var caseList = new List('case_data', options);
 
   //SORT LIST ON DOC READY
-  if (window.location.href.includes("explorer")) {
+  if (window.location.href.indexOf("explorer") != -1) {
     caseList.sort('case__title', { order: "asc" });
     // Check to see if there is a pre-selected parameter to filter
     if (parameter != undefined ) {
@@ -48,10 +48,10 @@ $(document).ready(function() {
     });
     // FILTER WITH DROPDOWNS
     caseList.filter(function(item) {
-      if (item.values()["case__region"] !== null && item.values()["case__data-type"] !== null && item.values()["case__type"] !== null && item.values()["case__sector"] !== null && item.values()["case__region"].includes(searchQueries["case__region"]) &&
-      item.values()["case__data-type"].includes(searchQueries["case__data-type"]) &&
-      item.values()["case__type"].includes(searchQueries["case__type"]) &&
-      item.values()["case__sector"].includes(searchQueries["case__sector"]) ) {
+      if (item.values()["case__region"] !== null && item.values()["case__data-type"] !== null && item.values()["case__type"] !== null && item.values()["case__sector"] !== null && (item.values()["case__region"].indexOf(searchQueries["case__region"]) != -1) &&
+      (item.values()["case__data-type"].indexOf(searchQueries["case__data-type"]) != -1) &&
+      (item.values()["case__type"].indexOf(searchQueries["case__type"]) != -1) &&
+      (item.values()["case__sector"].indexOf(searchQueries["case__sector"]) != -1)) {
         return true
       } else {
         return false
