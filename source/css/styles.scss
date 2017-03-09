@@ -66,3 +66,14 @@ $gray: rgba(black, 0.7);
   &::-moz-placeholder { @content }
   &:-ms-input-placeholder { @content }
 }
+
+select {
+  -moz-appearance: none;
+}
+
+select::-ms-expand {
+  border: none;
+  background-color: #454545;
+  color: white;
+  padding-right: 10px;
+}
