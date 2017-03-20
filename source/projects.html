@@ -1,0 +1,52 @@
+---
+layout: default
+title: Resources | Data Collaboratives
+project_js:
+
+---
+
+<div class="projects-page">
+  <div class="top-section top-section--yellow-list-page">
+    <h2 class="top-section__list-header">Projects</h2>
+  </div>
+
+
+  <div class="page-section page-section--gray">
+    <div class="filter-panel dropdown-wrapper">
+      <div class="row expanded large-unstack align-spaced collapse">
+        <div class="large-2 column">
+          <h4>Filters</h4>
+        </div>
+        <div class="columns resource-type">
+          <div class="select">
+            <select data-filter="resource-type" id="type-filter" class="dropdown-content">
+              <option id="all">Filter by Type</option>
+              <!-- {% for t in type_list %}
+                <option id="{{ t | join: ' ' | slugify }}">{{ t }}</option>
+              {% endfor %} -->
+              </select>
+          </div>
+        </div>
+        <div class="columns resource-theme">
+          <div class="select">
+            <select data-filter="resource-theme" id="theme-filter" class="dropdown-content">
+              <option id="all">Filter by Theme</option>
+              <!-- {% for theme in theme_list %}
+              <option id="{{ theme | join: '' | slugify }}">{{theme}}</option>
+              {% endfor %} -->
+            </select>
+          </div>
+        </div>
+        <div class="columns clear_filters">
+          <button class="button button--icon-only" type="button" name="button"><i class="material-icons">close</i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+
+  <div class="page-section results-section">
+
+  </div>
+
+</div>
