@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-    <title>Tracking Malaria in Nambia with Cell Phone Data</title>
+    <title>Beeline Crowdsourced Bus service</title>
 
     <link rel="stylesheet" href="/scripts/foundation.min.css">
     <link rel="stylesheet" href="/scripts/styleguide-v2.css">
@@ -62,9 +62,9 @@
 
     <div class="case-page">
 
-  <div class="top-section case-page__header case-page__header-health-telecommunications" style="background-image: url('/images/headers/health.jpg')">
+  <div class="top-section case-page__header case-page__header-transportation" style="background-image: url('/images/headers/transportation.jpg')">
     <hgroup>
-      <h1><span>Tracking Malaria in Nambia with Cell Phone Data</span></h1>
+      <h1><span>Beeline Crowdsourced Bus service</span></h1>
       <h2 id="data-filter-container">
         
           
@@ -74,20 +74,18 @@
             Why the <a> inside the <span>? Thsi should be one single tag. 
             I tried it, but it broke the JS, which is also not ideal, since we can have it work with native anchor tag behavior, and #values.
             -->
-            <span id="data-type" onmouseover="this.style.cursor='pointer';" class="observed-personal-data" ><a id="span-link" class="observed-personal-data" href="#">Observed Personal Data</a></span>
+            <span id="data-type" onmouseover="this.style.cursor='pointer';" class="disclosed-personal-data" ><a id="span-link" class="disclosed-personal-data" href="#">Disclosed Personal Data</a></span>
           
         
 
         
           
-            <span onmouseover="this.style.cursor='pointer';" id="data-sector" class="health" ><a id="span-link"class="health" href="#">Health</a></span>
-          
-            <span onmouseover="this.style.cursor='pointer';" id="data-sector" class="telecommunications" ><a id="span-link"class="telecommunications" href="#">Telecommunications</a></span>
+            <span onmouseover="this.style.cursor='pointer';" id="data-sector" class="transportation" ><a id="span-link"class="transportation" href="#">Transportation</a></span>
           
         
       </h2>
     </hgroup>
-    <div class="case-page__header--button"><a target="_blank" class="button" href="http://dataimpacts.org/project/malaria/">Go to website</a></div>
+    <div class="case-page__header--button"><a target="_blank" class="button" href="https://www.beeline.sg/">Go to website</a></div>
   </div>
 
   <div class="page-section case-page--info">
@@ -95,13 +93,13 @@
       <div class="small-12 column medium-6 ">
         
           <h4>The Data</h4>
-          <p>Researchers used satellite and cell phone data to map how malaria spreads throughout Namibia and show where elimination efforts have the greatest impact.</p>
+          <p>Launched by Singapore's GovTech and the Land Transport Authority (LTA), with a number of private and non-governmental organizations lending support, Beeline acts as a matching service between people using the Beeline app and the city's numerous private bus services. Beeline collects this consolidated bus transportation and user data collected via the Beeline app, which can then represent "community demand" information. Doing so, Beeline crowdsources transportation insights directly from passengers using the service.</p>
         
       </div>
       <div class="small-12 column medium-6 ">
         
           <h4>How the data was shared</h4>
-          <p>To reconstruct travel patterns, Namibia’s largest network provider, Mobile Telecommunications Limited, shared anonymized cell phone records of 1.2 million users from 2010-11 with researchers at the Flowminder Foundation and the University of Southampton in the United Kingdom. As calls are made, the locations of the cell towers through which signals pass are recorded. Call frequencies and locations then allow researchers to create detailed maps of human movement.</p>
+          <p>Transportation data is collected via the Beeline app when users sign-on and request rides. Beeline also collects crowdsourced route information from users through a feedback function. These "user suggested routes" are created when there is a large enough demand for this route.</p>
         
       </div>
     </div>
@@ -112,7 +110,7 @@
       <div class="column large-6">
         
           <h4>Purpose of Data Shared</h4>
-          <p>The project's use of phone records aimed to track and eliminate malaria in Namibia. As a result of their work, researchers were able to identify and provide bed-nets to the 80,000 people most important to the malaria transmission cycle in 2013.</p>
+          <p>Beeline attempts to close the gap between commuters' needs and the services offered by private bus companies by providing a feedback mechanism within the app. In doing so, the goal is to create a more responsive and efficient transport system by "crowdsourcing" bus services. The service has also led to the creation of [GrabShuttle](https://www.grab.com/sg/shuttle/) in 2017: a sfixed-route shuttle service that allows users to track the buses in real-time.</p>
         
       </div>
       <div class="column large-6">
@@ -120,8 +118,14 @@
         <div class="share-panel">
           <h5>Shared by</h5>
           
-            <!-- <a href="#" class="share-panel__item">Mobile Telecommunications Limited</a> -->
-            <span class="share-panel__item">Mobile Telecommunications Limited</span>
+            <!-- <a href="#" class="share-panel__item">Public</a> -->
+            <span class="share-panel__item">Public</span>
+          
+            <!-- <a href="#" class="share-panel__item">The Infocomm Development Authority (GovTech)</a> -->
+            <span class="share-panel__item">The Infocomm Development Authority (GovTech)</span>
+          
+            <!-- <a href="#" class="share-panel__item">Land Transport Authority (LTA)</a> -->
+            <span class="share-panel__item">Land Transport Authority (LTA)</span>
           
         </div>
         
@@ -129,11 +133,14 @@
         <div class="share-panel">
           <h5>Shared with</h5>
           
-            <!-- <a href="#" class="share-panel__item">Flowminder Foundation</a> -->
-            <span class="share-panel__item">Flowminder Foundation</span>
+            <!-- <a href="#" class="share-panel__item">Beeline</a> -->
+            <span class="share-panel__item">Beeline</span>
           
-            <!-- <a href="#" class="share-panel__item">the University of Southampton</a> -->
-            <span class="share-panel__item">the University of Southampton</span>
+            <!-- <a href="#" class="share-panel__item">Private Bus Companies</a> -->
+            <span class="share-panel__item">Private Bus Companies</span>
+          
+            <!-- <a href="#" class="share-panel__item">Public</a> -->
+            <span class="share-panel__item">Public</span>
           
         </div>
         
@@ -144,12 +151,12 @@
   <div class="page-section page-section--black regions">
     <div class="row align-center">
       <div class="large-8 column">
-        <h3>Region: Sub-Saharan Africa</h3>
+        <h3>Region: East Asia and Pacific</h3>
 
         
 
         
-          <div class="regions__map regions--sub-saharan-africa">
+          <div class="regions__map regions--east-asia">
             <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1"
@@ -819,7 +826,7 @@
 </svg>
 
           </div>
-        
+          
       </div>
     </div>
   </div>

@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-    <title>Tracking Malaria in Nambia with Cell Phone Data</title>
+    <title>TrafficJam Challenge</title>
 
     <link rel="stylesheet" href="/scripts/foundation.min.css">
     <link rel="stylesheet" href="/scripts/styleguide-v2.css">
@@ -62,9 +62,9 @@
 
     <div class="case-page">
 
-  <div class="top-section case-page__header case-page__header-health-telecommunications" style="background-image: url('/images/headers/health.jpg')">
+  <div class="top-section case-page__header case-page__header-transportation" style="background-image: url('/images/headers/transportation.jpg')">
     <hgroup>
-      <h1><span>Tracking Malaria in Nambia with Cell Phone Data</span></h1>
+      <h1><span>TrafficJam Challenge</span></h1>
       <h2 id="data-filter-container">
         
           
@@ -74,20 +74,34 @@
             Why the <a> inside the <span>? Thsi should be one single tag. 
             I tried it, but it broke the JS, which is also not ideal, since we can have it work with native anchor tag behavior, and #values.
             -->
-            <span id="data-type" onmouseover="this.style.cursor='pointer';" class="observed-personal-data" ><a id="span-link" class="observed-personal-data" href="#">Observed Personal Data</a></span>
+            <span id="data-type" onmouseover="this.style.cursor='pointer';" class="disclosed-personal-data" ><a id="span-link" class="disclosed-personal-data" href="#">Disclosed Personal Data</a></span>
+          
+            <!-- 
+            This needs a refactor. 
+            Why we have this JS to change cursor? 
+            Why the <a> inside the <span>? Thsi should be one single tag. 
+            I tried it, but it broke the JS, which is also not ideal, since we can have it work with native anchor tag behavior, and #values.
+            -->
+            <span id="data-type" onmouseover="this.style.cursor='pointer';" class="disclosed-non-personal-data" ><a id="span-link" class="disclosed-non-personal-data" href="#">Disclosed Non-Personal Data</a></span>
+          
+            <!-- 
+            This needs a refactor. 
+            Why we have this JS to change cursor? 
+            Why the <a> inside the <span>? Thsi should be one single tag. 
+            I tried it, but it broke the JS, which is also not ideal, since we can have it work with native anchor tag behavior, and #values.
+            -->
+            <span id="data-type" onmouseover="this.style.cursor='pointer';" class="observed-non-personal-data" ><a id="span-link" class="observed-non-personal-data" href="#">Observed Non-Personal Data</a></span>
           
         
 
         
           
-            <span onmouseover="this.style.cursor='pointer';" id="data-sector" class="health" ><a id="span-link"class="health" href="#">Health</a></span>
-          
-            <span onmouseover="this.style.cursor='pointer';" id="data-sector" class="telecommunications" ><a id="span-link"class="telecommunications" href="#">Telecommunications</a></span>
+            <span onmouseover="this.style.cursor='pointer';" id="data-sector" class="transportation" ><a id="span-link"class="transportation" href="#">Transportation</a></span>
           
         
       </h2>
     </hgroup>
-    <div class="case-page__header--button"><a target="_blank" class="button" href="http://dataimpacts.org/project/malaria/">Go to website</a></div>
+    <div class="case-page__header--button"><a target="_blank" class="button" href="http://trafficjam.to">Go to website</a></div>
   </div>
 
   <div class="page-section case-page--info">
@@ -95,13 +109,16 @@
       <div class="small-12 column medium-6 ">
         
           <h4>The Data</h4>
-          <p>Researchers used satellite and cell phone data to map how malaria spreads throughout Namibia and show where elimination efforts have the greatest impact.</p>
+          <p>A variety of private, public, and 'Big Data' datasets was provided to participants via the TrafficJam website. They also had access to private tools donated by partnering companies. This included a Namara Catalogue of cleaned municipal, provincial and private data; the City of Toronto's Open Data catalogue; the province of Ontario's Open Data catalogue; IBM's Data Scientist workbench; TomTom's developer services; and Inrix's traffic information delivery system.</p>
         
       </div>
       <div class="small-12 column medium-6 ">
         
           <h4>How the data was shared</h4>
-          <p>To reconstruct travel patterns, Namibia’s largest network provider, Mobile Telecommunications Limited, shared anonymized cell phone records of 1.2 million users from 2010-11 with researchers at the Flowminder Foundation and the University of Southampton in the United Kingdom. As calls are made, the locations of the cell towers through which signals pass are recorded. Call frequencies and locations then allow researchers to create detailed maps of human movement.</p>
+          <p>Since this collaborative did not directly access private data, but rather partnered with private and non-governmental organizations to support the challenge, data was not directly shared by corporations to the hosts of TrafficJam. Instead, participants primarily used open data platforms, which they could then combine to create their innovative projects. These data resources, along with further datasets provided by Think Data Works, were made available via [the TrafficJam website](http://trafficjam.to/resources).
+
+
+</p>
         
       </div>
     </div>
@@ -112,7 +129,7 @@
       <div class="column large-6">
         
           <h4>Purpose of Data Shared</h4>
-          <p>The project's use of phone records aimed to track and eliminate malaria in Namibia. As a result of their work, researchers were able to identify and provide bed-nets to the 80,000 people most important to the malaria transmission cycle in 2013.</p>
+          <p>The goal of TrafficJam was to combine the skills and knowledge of "engaged citizens, digital creatives and data detectives" to help improve Toronto's traffic and transportation issues through the innovative use of data and technology. By presenting this goal as a prize-backed challenged, the aim was to spark the development of data-driven solutions to Toronto's commuting troubles. </p>
         
       </div>
       <div class="column large-6">
@@ -120,8 +137,17 @@
         <div class="share-panel">
           <h5>Shared by</h5>
           
-            <!-- <a href="#" class="share-panel__item">Mobile Telecommunications Limited</a> -->
-            <span class="share-panel__item">Mobile Telecommunications Limited</span>
+            <!-- <a href="#" class="share-panel__item">TrafficJam</a> -->
+            <span class="share-panel__item">TrafficJam</span>
+          
+            <!-- <a href="#" class="share-panel__item">ThinkData Works</a> -->
+            <span class="share-panel__item">ThinkData Works</span>
+          
+            <!-- <a href="#" class="share-panel__item">City of Toronto</a> -->
+            <span class="share-panel__item">City of Toronto</span>
+          
+            <!-- <a href="#" class="share-panel__item">Toronto Transit Commission (TTC)</a> -->
+            <span class="share-panel__item">Toronto Transit Commission (TTC)</span>
           
         </div>
         
@@ -129,11 +155,8 @@
         <div class="share-panel">
           <h5>Shared with</h5>
           
-            <!-- <a href="#" class="share-panel__item">Flowminder Foundation</a> -->
-            <span class="share-panel__item">Flowminder Foundation</span>
-          
-            <!-- <a href="#" class="share-panel__item">the University of Southampton</a> -->
-            <span class="share-panel__item">the University of Southampton</span>
+            <!-- <a href="#" class="share-panel__item">Participating Developers</a> -->
+            <span class="share-panel__item">Participating Developers</span>
           
         </div>
         
@@ -144,12 +167,12 @@
   <div class="page-section page-section--black regions">
     <div class="row align-center">
       <div class="large-8 column">
-        <h3>Region: Sub-Saharan Africa</h3>
+        <h3>Region: North America</h3>
 
         
 
         
-          <div class="regions__map regions--sub-saharan-africa">
+          <div class="regions__map regions--north-america">
             <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1"
