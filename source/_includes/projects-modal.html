@@ -1,11 +1,9 @@
 <div class="modal js-target-modal">
   <header class="modal__header modal--top-section">
-
-      <div class="modal__type">
-        <span>{{item.theme}}</span>
-        <span>{{item.progress}}</span>
+    <div class="modal__type">
+      <span>{{item.theme}}</span>
+      <span>{{item.progress}}</span>
     </div>
-
     <i class="modal__close material-icons js-close-modal">close</i>
     <h1 class="modal__title">{{item.title}}</h1>
 
@@ -14,11 +12,11 @@
     {% endif %}
 
     {% if item.website %}
-    <div class="floating-button">
-      <div class="floating-button__wrapper">
-        <a class="button button--floating button--black" target="_blank" href="{{item.website}}" title="{{item.title}}">Go to Project</a>
+      <div class="floating-button">
+        <div class="floating-button__wrapper">
+          <a class="button button--floating button--black" target="_blank" href="{{item.website}}" title="{{item.title}}">Go to Project</a>
+        </div>
       </div>
-    </div>
     {% endif %}
   </header>
 

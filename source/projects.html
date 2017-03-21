@@ -2,7 +2,6 @@
 layout: default
 title: Projects | Data Collaboratives
 project_js: projects.js
-
 ---
 
 <div class="projects-page">
@@ -26,7 +25,7 @@ project_js: projects.js
       <div class="row align-center">
         <div class="columns large-6 small-10 resource-theme">
           <div class="select">
-            <select data-filter="resource-theme" id="theme-filter" class="dropdown-content">
+            <select data-filter="item-type" id="theme-filter" class="dropdown-content">
               <option id="all">Filter by Theme</option>
               {% for theme in theme_list %}
                 <option id="{{ theme | join: '' | slugify }}">{{theme}}</option>
@@ -34,7 +33,7 @@ project_js: projects.js
             </select>
           </div>
         </div>
-        <div class="columnsclear_filters">
+        <div class="clear_filters">
           <button class="button button--icon-only" type="button" name="button"><i class="material-icons">close</i></button>
         </div>
       </div>
@@ -45,7 +44,7 @@ project_js: projects.js
 
   <div class="page-section results-section">
     <div class="row expanded collapse">
-      <div id="resources" class="columns results-container">
+      <div id="projects" class="columns results-container">
         <div id="list" class="list">
           {% for item in projects %}
             <div class="result-item js-open-modal">
@@ -62,7 +61,7 @@ project_js: projects.js
                   <span class="result-item__taxonomy__key">Theme</span>
                   <span class="result-item__taxonomy__value">
                     {% for theme in item.theme %}
-                      <p class="result-item__tag resource-type" data-type="all {{resource_type | slugify}}">{{ theme }}</p>
+                      <p class="result-item__tag item-type" data-type="all {{theme | slugify}}">{{ theme }}</p>
                     {% endfor %}
                   </span>
                 </div>
@@ -71,17 +70,15 @@ project_js: projects.js
               <div class="result-item__taxonomy result-item__taxonomy--type">
                 <span class="result-item__taxonomy__key">Progress</span>
                 <span class="result-item__taxonomy__value">
-                  <p class="result-item__tag resource-type" data-type="all {{resource_type | slugify}}">{{ item.progress }}</p>
+                  <p class="result-item__tag item-type" data-type="all {{item.progress | slugify}}">{{ item.progress }}</p>
                 </span>
               </div>
 
               {% include projects-modal.html %}
-
             </div>
           {% endfor %}
         </div>
       </div>
     </div>
   </div>
-
 </div>
