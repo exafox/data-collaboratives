@@ -1356,3 +1356,12 @@ p.large-text {
   -moz-osx-font-smoothing: grayscale;
   /* Support for IE. */
   font-feature-settings: 'liga'; }
+
+select {
+  -moz-appearance: none; }
+
+select::-ms-expand {
+  border: none;
+  background-color: #454545;
+  color: white;
+  padding-right: 10px; }
