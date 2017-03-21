@@ -1,7 +1,7 @@
 ---
 layout: default
-title: Resources | Data Collaboratives
-project_js:
+title: Projects | Data Collaboratives
+project_js: projects.js
 
 ---
 
@@ -10,43 +10,77 @@ project_js:
     <h2 class="top-section__list-header">Projects</h2>
   </div>
 
+  {% assign theme_list = "" | split: "" %}
+
+  {% for item in site.data.contentful.spaces.cases.resources %}
+    {% for theme in item.theme %}
+      {% assign theme_name = theme %}
+      {% assign theme_list = theme_list | push: theme_name %}
+    {% endfor %}
+  {% endfor %}
+
+  {% assign theme_list = theme_list | uniq %}
 
   <div class="page-section page-section--gray">
     <div class="filter-panel dropdown-wrapper">
-      <div class="row expanded large-unstack align-spaced collapse">
-        <div class="large-2 column">
-          <h4>Filters</h4>
-        </div>
-        <div class="columns resource-type">
-          <div class="select">
-            <select data-filter="resource-type" id="type-filter" class="dropdown-content">
-              <option id="all">Filter by Type</option>
-              <!-- {% for t in type_list %}
-                <option id="{{ t | join: ' ' | slugify }}">{{ t }}</option>
-              {% endfor %} -->
-              </select>
-          </div>
-        </div>
-        <div class="columns resource-theme">
+      <div class="row align-center">
+        <div class="columns large-6 small-10 resource-theme">
           <div class="select">
             <select data-filter="resource-theme" id="theme-filter" class="dropdown-content">
               <option id="all">Filter by Theme</option>
-              <!-- {% for theme in theme_list %}
-              <option id="{{ theme | join: '' | slugify }}">{{theme}}</option>
-              {% endfor %} -->
+              {% for theme in theme_list %}
+                <option id="{{ theme | join: '' | slugify }}">{{theme}}</option>
+              {% endfor %}
             </select>
           </div>
         </div>
-        <div class="columns clear_filters">
+        <div class="columnsclear_filters">
           <button class="button button--icon-only" type="button" name="button"><i class="material-icons">close</i></button>
         </div>
       </div>
     </div>
   </div>
 
+  {% assign projects = site.data.contentful.spaces.cases.projects %}
 
   <div class="page-section results-section">
+    <div class="row expanded collapse">
+      <div id="resources" class="columns results-container">
+        <div id="list" class="list">
+          {% for item in projects %}
+            <div class="result-item js-open-modal">
+              <h2 class="result-item__name">{{item.title}}</h2>
 
+              {% if item.shortDescription %}
+                <div class="result-item__short-description">
+                  <p>{{item.shortDescription | markdownify }}</p>
+                </div>
+              {% endif %}
+
+              {% if item.theme %}
+                <div class="result-item__taxonomy result-item__taxonomy--type">
+                  <span class="result-item__taxonomy__key">Theme</span>
+                  <span class="result-item__taxonomy__value">
+                    {% for theme in item.theme %}
+                      <p class="result-item__tag resource-type" data-type="all {{resource_type | slugify}}">{{ theme }}</p>
+                    {% endfor %}
+                  </span>
+                </div>
+              {% endif %}
+
+              <div class="result-item__taxonomy result-item__taxonomy--type">
+                <span class="result-item__taxonomy__key">Progress</span>
+                <span class="result-item__taxonomy__value">
+                  <p class="result-item__tag resource-type" data-type="all {{resource_type | slugify}}">{{ item.progress }}</p>
+                </span>
+              </div>
+
+
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
   </div>
 
 </div>
