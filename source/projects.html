@@ -11,7 +11,7 @@ project_js: projects.js
 
   {% assign theme_list = "" | split: "" %}
 
-  {% for item in site.data.contentful.spaces.cases.resources %}
+  {% for item in site.data.contentful.spaces.cases.projects %}
     {% for theme in item.theme %}
       {% assign theme_name = theme %}
       {% assign theme_list = theme_list | push: theme_name %}
@@ -30,6 +30,8 @@ project_js: projects.js
               {% for theme in theme_list %}
                 <option id="{{ theme | join: '' | slugify }}">{{theme}}</option>
               {% endfor %}
+              <!-- delete option below when more projects added with this theme -->
+              <option id="public-sector">Public Sector</option>
             </select>
           </div>
         </div>

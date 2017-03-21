@@ -4808,7 +4808,7 @@ projects:
 - sys:
     id: 4qXwV2Dbi8IOO8CO6uGCuK
   title: Data Collaboratives to Improve Children’s Lives
-  shortDescription: How to leverage cross-sector data-sharing to improve the lives
+  shortDescription: How can we leverage cross-sector data-sharing to improve the lives
     of children?
   longDescription: Recent years have seen exponential growth in the amount of data
     being generated and stored around the world. There is increasing recognition that
@@ -4826,4 +4826,5 @@ projects:
   progress: Prototype
   partners:
   - UNICEF
-  - Omidyar Network
+  theme:
+  - Development
