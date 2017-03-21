@@ -30,6 +30,16 @@ select option {
   background: white !important;
   color: black !important; }
 
+.sticky {
+  background-color: rgba(0, 0, 0, 0.85); }
+  .sticky__image {
+    width: 200px; }
+  .sticky a {
+    text-decoration: none;
+    color: #e5c810 !important;
+    font-style: italic;
+    cursor: pointer; }
+
 .text-align-center {
   text-align: center; }
 
