@@ -1,0 +1,84 @@
+---
+layout: default
+title: Projects | Data Collaboratives
+project_js: projects.js
+---
+
+<div class="projects-page">
+  <div class="top-section top-section--yellow-list-page">
+    <h2 class="top-section__list-header">Projects</h2>
+  </div>
+
+  {% assign theme_list = "" | split: "" %}
+
+  {% for item in site.data.contentful.spaces.cases.resources %}
+    {% for theme in item.theme %}
+      {% assign theme_name = theme %}
+      {% assign theme_list = theme_list | push: theme_name %}
+    {% endfor %}
+  {% endfor %}
+
+  {% assign theme_list = theme_list | uniq %}
+
+  <div class="page-section page-section--gray">
+    <div class="filter-panel dropdown-wrapper">
+      <div class="row align-center">
+        <div class="columns large-6 small-10 resource-theme">
+          <div class="select">
+            <select data-filter="item-type" id="theme-filter" class="dropdown-content">
+              <option id="all">Filter by Theme</option>
+              {% for theme in theme_list %}
+                <option id="{{ theme | join: '' | slugify }}">{{theme}}</option>
+              {% endfor %}
+            </select>
+          </div>
+        </div>
+        <div class="clear_filters">
+          <button class="button button--icon-only" type="button" name="button"><i class="material-icons">close</i></button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  {% assign projects = site.data.contentful.spaces.cases.projects %}
+
+  <div class="page-section results-section">
+    <div class="row expanded collapse">
+      <div id="projects" class="columns results-container">
+        <div id="list" class="list">
+          {% for item in projects %}
+            <div class="result-item js-open-modal">
+              <h2 class="result-item__name">{{item.title}}</h2>
+
+              {% if item.shortDescription %}
+                <div class="result-item__short-description">
+                  <p>{{item.shortDescription | markdownify }}</p>
+                </div>
+              {% endif %}
+
+              {% if item.theme %}
+                <div class="result-item__taxonomy result-item__taxonomy--type">
+                  <span class="result-item__taxonomy__key">Theme</span>
+                  <span class="result-item__taxonomy__value">
+                    {% for theme in item.theme %}
+                      <p class="result-item__tag item-type" data-type="all {{theme | slugify}}">{{ theme }}</p>
+                    {% endfor %}
+                  </span>
+                </div>
+              {% endif %}
+
+              <div class="result-item__taxonomy result-item__taxonomy--type">
+                <span class="result-item__taxonomy__key">Progress</span>
+                <span class="result-item__taxonomy__value">
+                  <p class="result-item__tag item-type" data-type="all {{item.progress | slugify}}">{{ item.progress }}</p>
+                </span>
+              </div>
+
+              {% include projects-modal.html %}
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
