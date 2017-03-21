@@ -1,0 +1,33 @@
+<div class="modal js-target-modal">
+  <header class="modal__header modal--top-section">
+
+      <div class="modal__type">
+        <span>{{item.theme}}</span>
+        <span>{{item.progress}}</span>
+    </div>
+
+    <i class="modal__close material-icons js-close-modal">close</i>
+    <h1 class="modal__title">{{item.title}}</h1>
+
+    {% if item.partners %}
+      <h2 class="modal__authors">{{item.partners | join: ', '}}</h2>
+    {% endif %}
+
+    {% if item.website %}
+    <div class="floating-button">
+      <div class="floating-button__wrapper">
+        <a class="button button--floating button--black" target="_blank" href="{{item.website}}" title="{{item.title}}">Go to Project</a>
+      </div>
+    </div>
+    {% endif %}
+  </header>
+
+  <div class="modal__content">
+    {% if item.longDescription %}
+      <div class="result-item__short-description">
+        <p>{{item.longDescription | markdownify  }}</p>
+      </div>
+    {% endif %}
+  </div>
+
+</div>
