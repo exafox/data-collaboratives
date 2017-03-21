@@ -1,7 +1,9 @@
 <div class="modal js-target-modal">
   <header class="modal__header modal--top-section">
     <div class="modal__type">
-      <span>{{item.theme}}</span>
+      {% if item.theme %}
+        <span>{{item.theme}}</span>
+      {% endif %}
       <span>{{item.progress}}</span>
     </div>
     <i class="modal__close material-icons js-close-modal">close</i>

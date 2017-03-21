@@ -4806,29 +4806,24 @@ resources:
   - In Practice
 projects:
 - sys:
-    id: 50Frtk5NhKcWEUMo8QaqQA
-  title: Testing
-  shortDescription: This is a short description
-  longDescription: This is a loooooong description. This is a loooooong description.
-    This is a loooooong description. __This is a loooooong description.__ This is
-    a loooooong description. This is a loooooong description. This is a loooooong
-    description.
-  website: http://google.com
+    id: 4qXwV2Dbi8IOO8CO6uGCuK
+  title: Data Collaboratives to Improve Children’s Lives
+  shortDescription: How to leverage cross-sector data-sharing to improve the lives
+    of children?
+  longDescription: Recent years have seen exponential growth in the amount of data
+    being generated and stored around the world. There is increasing recognition that
+    this data can play a key role in solving some of the most difficult public problems
+    we face – including problems facing children around the world. However, much of
+    the potentially useful data is currently privately held and not available for
+    public insights. Data in the form of web clicks, social “likes,” geolocation and
+    online purchases are typically tightly controlled, usually by entities in the
+    private sector. Companies today generate an ever-growing stream of information
+    from our proliferating sensors and devices. Increasingly, they—and various other
+    actors—are asking if there is a way to make this data available for the public
+    good. There is an ongoing search for new models of corporate responsibility in
+    the digital era around data toward the creation of “data collaboratives”.
+  website: http://datacollaboratives.org/improving-childrens-lives.html
   progress: Prototype
   partners:
-  - Ena
-  - Chris
-  - Denny
-  theme: Benefits
-- sys:
-    id: 3sgHW6E4vCQm2WgM8uSaqK
-  title: Project
-  shortDescription: There are no previous versions because you haven't made changes
-    to this entry yet.
-  longDescription: There are no previous versions because you haven't made changes
-    to this entry yet. As soon as you publish changes, you'll be able to compare different
-    versions.There are no previous versions because you haven't made changes to this
-    entry yet. As soon as you publish changes, you'll be able to compare different
-    versions.
-  progress: Prototype
-  theme: In Practice
+  - UNICEF
+  - Omidyar Network
