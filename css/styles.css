@@ -40,6 +40,30 @@ select option {
     font-style: italic;
     cursor: pointer; }
 
+.error-messages {
+  color: #f44242; }
+
+.field-required::after {
+  content: "*";
+  color: #f44242; }
+
+.join-button {
+  margin: 0 !important;
+  background-color: #e5c810;
+  position: absolute;
+  left: -180px; }
+  .join-button:hover {
+    left: 0px;
+    background-color: #efd31f; }
+
+@media (max-width: 1090px) {
+  .join-button {
+    margin: 0 !important;
+    background-color: #e5c810;
+    left: 0px;
+    position: relative; }
+    .join-button:hover {
+      background-color: #efd31f; } }
 .text-align-center {
   text-align: center; }
 
