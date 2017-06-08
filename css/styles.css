@@ -48,7 +48,7 @@ select option {
   color: #f44242; }
 
 .join-button {
-  margin: 0 !important;
+  margin: 25px 0 0 0 !important;
   background-color: #e5c810;
   position: absolute;
   left: -180px; }
