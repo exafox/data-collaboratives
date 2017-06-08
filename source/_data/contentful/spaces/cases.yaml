@@ -118,7 +118,7 @@ datacollaborative:
   link: http://dataimpacts.org/project/data-help-china-breath-better/
   whatDataShared: 'Green Horizon was launched by IBM in 2014 to use real-time data
     from optical sensors, air quality monitors, and satellites to predict where pollution
-    will be generated and how it is likely to spread througout the city. '
+    will be generated and how it is likely to spread throughout the city. '
   howDataShared: 'By combining a variety of data sources, from sensitivity modeling,
     inverse/joint method, portable sensor and social media, IBM researchers are able
     to get a robust estimation on the state of pollution in China. Through IBM’s network
@@ -342,19 +342,27 @@ datacollaborative:
   - Observed Non-Personal Data
   dataKind:
   - Transportation Data
-  link: http://www.datakind.org/blog/data-science-supporting-vision-zero-in-three-new-cities
-  whatDataShared: 'DataKind''s Vision Zero project launched in 3 cities-New York,
-    San Jose and Seattle-and uses a combination of public and private data to provide
-    insights about each city''s transportion. In New York, for example, DataKind accessed
-    traffic and other transportation data from the Department of Transportation, city-
-    and state-level open data, as well as other proprietary data. '
+  link: http://www.datakind.org/projects/creating-safer-streets-through-data-science/
+  whatDataShared: DataKind's Vision Zero project, in partnership with Microsoft and
+    municipal governments, launched in 3 cities- New York, New Orleans and Seattle-and
+    uses a combination of public and private data to provide insights about each city's
+    transportion. In New York, for example, DataKind accessed traffic and other transportation
+    data from the Department of Transportation, city- and state-level open data, as
+    well as other proprietary data. The datasets included information on past crashes,
+    roadway attributes (e.g. lanes, traffic signals, and sidewalks), land use, demographic
+    data, commuting patterns, parking violations, and existing safety intervention
+    placements.
   howDataShared: 'Microsoft''s Tech & Civic Engagement Group supports The Vision Zero
     project to analyze transportation and traffic data, DataKind Labs generates insights
     to share with local decision makers to help prevent traffic related deaths and
-    injuries. '
-  purpose: The project aims to help local decision makers understand which engineering
+    injuries. Through a newly fored Datakind Labs project, Vizion Zero hosted a DataDrive
+    in Seattle, where volunteers (including some from Microsoft)assisted in data collection
+    and analysis.  '
+  purpose: 'The project aims to help local decision makers understand which engineering
     and enforcement interventions will be most effective to address each city’s local
-    efforts to increase traffic safety for all.
+    efforts to increase traffic safety for all. In New York the project helped map
+    the most heavily trafficked areas, helping city officials put in place better
+    policies to curb future road accidents. '
 - sys:
     id: 3Lyg6TTYpqwkSgQOMou2aG
   caseStudy: Deloitte's ConvergeHEALTH, Allergan and Intermountain Healthcare analytics
@@ -3020,8 +3028,8 @@ datacollaborative:
   link: http://opendiversitydata.org/
   whatDataShared: US companies can choose to publish their diversity data and disclose
     the demographic makeup of their companies, including percentage of employees of
-    a particular gender, race and age group. Open Diversity Data collates this informationand
-    presents it on their online platform for the public to easily access and scrutinize.
+    a particular gender, race and age group. Open Diversity Data collates this information
+    and presents it on their online platform for the public to easily access and scrutinize.
     The website also explicitly states which companies do not publish their diversity
     data, and calls on them to do so.
   howDataShared: All US companies are required to file EEO-1 Surveys through the Equal
@@ -3149,6 +3157,504 @@ datacollaborative:
     system by "crowdsourcing" bus services. The service has also led to the creation
     of [GrabShuttle](https://www.grab.com/sg/shuttle/) in 2017: a sfixed-route shuttle
     service that allows users to track the buses in real-time.'
+- sys:
+    id: 2OMLdjIdnqswokwwwSIaiw
+  caseStudy: LinkedIn Economic Graph Challenge
+  sector:
+  - Economic Development
+  sharedBy:
+  - LinkedIn
+  sharedWith:
+  - Participating PhD researchers
+  region: North America
+  collaborativeType:
+  - Prizes & Challenges
+  dataType:
+  - Disclosed Personal Data
+  dataKind:
+  - Social Media Data
+  link: https://engineering.linkedin.com/data/economic-graph-research
+  whatDataShared: Through its Economic Graph Challenge, LinkedIn shares select, anonymized
+    data from its job and employee promotion platform to chosen research teams. This
+    includes employment locations, LinkedIn user skills, and education history.
+  howDataShared: Winners of the challenge will only be given datasets relevant for
+    the purposes of the proposed research. The data is made available in a separate,
+    secure “sandbox” environment on the company's hardware--this means the data is
+    isolated from LinkedIn's active repository.
+  purpose: The purpose for the Graph Challenge for LinkedIn fulfils both its commercial
+    and public interest needs. LinkedIn maintain intellectual property over all the
+    research produced, and hopes to use these insights to improve future product design.
+    However, in addition to this, the research can reveal important information regarding
+    economic development across the globe, with some researchers looking at gender
+    disparities in online promotion, another looking at the "economic health" of cities.
+- sys:
+    id: 2rVN4ycGaYskEc84keCY8c
+  caseStudy: DigitalGlobe 8-Band Research Challenge
+  sector:
+  - Economic Development
+  - Environment
+  - Infrastructure
+  sharedBy:
+  - DigitalGlobe
+  sharedWith:
+  - Participating Researchers
+  region: Worldwide
+  collaborativeType:
+  - Intelligence Product
+  - Prizes & Challenges
+  dataType:
+  - Observed Non-Personal Data
+  dataKind:
+  - Remote Sensors
+  dataSource:
+  - Satellite and Aerial Imagery
+  link: http://blog.digitalglobe.com/tag/8-band-research-challenge/
+  whatDataShared: In its DigitalGlobe 8-Band Research Challenge, the satellite imagery
+    company shared its high-resolution imagery data containing 8 spectral bands (hence,
+    8-band) with participating researchers. This included "coastal blue, yellow, red-edge
+    and NIR2" data.
+  howDataShared: SInce the original website advertising this challenge has since been
+    taken down, it is unclear what the specifications regarding data access for competitors
+    involves. However, chosen contestants were given the multispectral imaging and
+    a few weeks to test and evaluate their algorithms on DigitalGlobe data.
+  purpose: This 2010 challenge marked the first time the scientific community had
+    access to high resolution images with 8 spectral bands. This allowed unprecedented
+    research to be gleaned, useful to determine Land Use Land Cover Analysis, Environmental
+    Mapping and Monitoring, and Coastal Habitat Mapping.
+- sys:
+    id: 22QBnYrELymuIgSWwwygcO
+  caseStudy: Microsoft Intelligent Network for Eyecare (MINE)
+  sector:
+  - Health
+  sharedBy:
+  - Microsoft India
+  sharedWith:
+  - L V Prasad Eye Institute and other research institutes
+  region: South Asia
+  collaborativeType:
+  - Intelligence Product
+  dataType:
+  - Observed Non-Personal Data
+  dataKind:
+  - Artificial intelligence
+  dataSource:
+  - Eyecare Data
+  link: https://news.microsoft.com/en-in/microsoft-l-v-prasad-eye-institute-and-global-experts-collaborate-to-launch-microsoft-intelligent-network-for-eyecare/#sm.0000n1ek4blvne78rfu1m5d57pxoe
+  whatDataShared: Microsoft is sharing its machine learning techniques with international
+    commercial and research institutes, particularly the L V Prasad Eye Institute
+    in Hyderabad, India, to help improve eyecare in the country. The data used to
+    program these machine learning techniques include rate of change of myopia in
+    children, conditions that impact children’s eyesight, predictive outcomes of refractive
+    surgery, and optimal surgery parameters.
+  howDataShared: Microsoft India has developed an international research group, with
+    partners not only in India, but in the United States, Brazil, and Australia. This
+    team of researchers used existing eyecare data to create predictive models and
+    machine learning techniques to guide the data-driven eyecare services Microsoft
+    India hopes to deliver.
+  purpose: By leveraging advancements in artificial intelligence and data-driven healthcare,
+    MINE hopes to eliminate avoidable blindness and improve eyecare services across
+    the globe.
+- sys:
+    id: 3WoQClbJSgwKWwAuaaymYU
+  caseStudy: Google DeepMind/ NHS
+  sector:
+  - Health
+  sharedBy:
+  - UK National Health Service (NHS)
+  sharedWith:
+  - DeepMind
+  region: Europe and Central Asia
+  collaborativeType:
+  - Intelligence Product
+  - Research Partnerships
+  dataType:
+  - Observed Non-Personal Data
+  dataKind:
+  - Registration Records
+  dataSource:
+  - Health System Registers
+  link: https://deepmind.com/applied/deepmind-health/research/
+  whatDataShared: 'In this collaboration between DeepMind and the NHS, the artificial
+    intelligence research company applies machine learning techniques to medical data
+    to help improve how disease is diagnosed and treated. Acquired by Google, DeepMind
+    has an "Open Source" philosophy to share its insights with the wider research
+    community in order to support academic progress. Along with all of its published
+    papers, DeepMind shares a variety of its datasets including: DeepMind CNN/Daily
+    Mail Reading Comprehension Corpus; Metacontrol for Adaptive Imagination-Based
+    Optimization task; and Collectible Card Game to Code.'
+  howDataShared: The research is still in its early stages, but a current partnership
+    with Moorfields Eye Hospital reveal that hospitals directly provide data to DeepMind
+    to conduct its machine learning diagnoses. In turn, DeepMind shares various datasets,
+    code and publications online and via its GitHub account.
+  purpose: DeepMind uses artificial intelligence research to improve healthcare, the
+    environment and other public problems. In this particular partnership with NHS,
+    the collaborative aims to improve the quality and speed of patient diagnosis,
+    and spurring research in the medial field through machine learning techniques.
+- sys:
+    id: 4Nh2mah60woei2GyOSgm22
+  caseStudy: Myeloma Progression Predictor
+  sector:
+  - Health
+  sharedBy:
+  - The Multiple Myeloma Research Foundation
+  sharedWith:
+  - Topcoder
+  - Participating contestants
+  region: Worldwide
+  collaborativeType:
+  - Prizes & Challenges
+  - Research Partnerships
+  dataType:
+  - Disclosed Personal Data
+  dataKind:
+  - Health registry data
+  dataSource:
+  - Genomic Data
+  link: http://crowdsourcing.topcoder.com/myeloma_predictor
+  whatDataShared: Through the computer programming contest platform, TopCoder, the
+    Multiple Myeloma Research Foundation shared 3 values indicating the expression,
+    difference, and association to a mutation, for each of the 18,898 genes used as
+    part of the Myeloma Predictor challenge. This data represented a total of 640
+    patients.
+  howDataShared: 'By using the services provided by TopCoder, MMRF could better organize
+    and protect the data shared as part of this challenge. Data was accessed via the
+    MMRF research gateway once participating researchers were given credentials--a
+    process that took approximately 24 hours. Participants then downloaded this data
+    as csv files, and submitted their algorithms and results via TopCoder. '
+  purpose: The Myloma Progression Predictor challenge provides $20,000 in prizes to
+    participants that devise an algorithm predicting a progression of the disease
+    based on the genetic data provided by the MMRF. This will assist researchers in
+    better understanding the disease and develop better treatments for patients.
+- sys:
+    id: 2gUatesLmAEkAMIQGC6E4K
+  caseStudy: Esri and Waze Open Data-Sharing for governments
+  sector:
+  - Infrastructure
+  - Transportation
+  sharedBy:
+  - Esri
+  - Waze
+  sharedWith:
+  - City governments
+  region: Worldwide
+  collaborativeType:
+  - Intelligence Product
+  - Data Pooling
+  dataType:
+  - Observed Non-Personal Data
+  dataKind:
+  - GIS data
+  dataSource:
+  - Mapping Data
+  - Traffic Data
+  link: http://gpsworld.com/esri-partners-with-waze-on-open-data-sharing-for-governments/
+  whatDataShared: In this 2-way data sharing collaboration between Esri, the global
+    mapping service, and Waze, a community-based traffic and transport app, municipal
+    governments can access real-time traffic data provided by the two companies. Data
+    shared from governments through Esri include real-time construction and road closure
+    data. Waze shares their community-collected traffic data in exchange.
+  howDataShared: Waze already shares and collects traffic data with local governments
+    as part of its Connected Citizens program. By partnering with Esri, governments
+    can more easily share their information regarding real-time construction, crash
+    and road closure data with Waze.
+  purpose: Global mapping company Esri is partnering with Waze to make it easier for
+    governments to begin building intelligent transportation systems in their communities.
+- sys:
+    id: 4LFUJSQb1uiyOmGESuQWa8
+  caseStudy: MSSNG
+  sector:
+  - Health
+  sharedBy:
+  - MSSNG
+  - Autism Speaks
+  - Google
+  sharedWith:
+  - Participating Researchers
+  region: Worldwide
+  collaborativeType:
+  - Intelligence Product
+  - Data Pooling
+  - Research Partnerships
+  dataType:
+  - Disclosed Personal Data
+  dataKind:
+  - Registration Records
+  dataSource:
+  - Health System Registers
+  - Genomic Data
+  link: https://www.mss.ng/
+  whatDataShared: The MSSNG database, available to interested researchers, includes
+    the whole genome sequencing of blood DNA of 10,000 individuals from families from
+    the Autism Genetic Research Exchange (AGRE) repository, or from other well-phenotyped
+    cohorts entering into this study. The researchers at MSSNG update the data as
+    it comes through, providing data analysis and storage tools to participants as
+    well.
+  howDataShared: The MSSNG database is built and stored using Google's Cloud Platform
+    and Google Genomics. To gain access to the database, researchers can access an
+    online portal or refer to the steps outlined on the MSSNG website. Researchers
+    are also directed to data sharing and research policies to guide their work and
+    maintain the integrity of the project.
+  purpose: With the help of the global research community, MSSNG aims to produce greater
+    insights into the causes and progression of autism throughout society.
+- sys:
+    id: 4wAJGzGOhGu00G4GOe2yac
+  caseStudy: Missing Maps
+  sector:
+  - Crisis Response
+  sharedBy:
+  - Facebook
+  sharedWith:
+  - Red Cross
+  - Missing Maps
+  region: Worldwide
+  collaborativeType:
+  - Intelligence Product
+  - Data Pooling
+  dataType:
+  - Disclosed Personal Data
+  dataKind:
+  - Satellite and Aerial Imagery
+  dataSource:
+  - Settlement Data
+  link: http://www.redcross.org/news/article/Data-from-Facebook-helps-Red-Cross-make-better-maps
+  whatDataShared: Facebook shares its population density data with Red Cross' Missing
+    Maps, a project that aims to improve mapping data for at-risk communities. Facebook
+    donates data related to computer visioning and satellite imagery, helping Missing
+    Maps fill in gaps in their work.
+  howDataShared: Missing Maps conducts Mapping Parties in cities across the world
+    to use satellite data, like that provided by Facebook, to update their map information.
+    Red Cross can also gain direct access to this data via this partnership.
+  purpose: This partnership between Red Cross and Facebook allows humanitarian organizations
+    to more quickly identify communities and individuals in unmapped areas. This allows
+    for the more efficient allocation of aid and resources, particularly during crisis
+    events, where vulnerable populations are often unrepresented on maps and therefore
+    harder to reach.
+- sys:
+    id: 1TWvwa6YYIA8ksWqCeccqe
+  caseStudy: Copenhagen-Hitachi City Data Exchange
+  sector:
+  - Infrastructure
+  - Digital Society
+  sharedBy:
+  - Multiple
+  sharedWith:
+  - Multiple
+  region: Europe and Central Asia
+  collaborativeType:
+  - Intelligence Product
+  - Data Pooling
+  - Trusted Intermediary
+  - Research Partnerships
+  dataType:
+  - Disclosed Personal Data
+  - Observed Personal Data
+  - Disclosed Non-Personal Data
+  - Observed Non-Personal Data
+  dataKind:
+  - Multiple
+  dataSource:
+  - Multiple
+  link: https://www.hitachiinsightgroup.com
+  whatDataShared: 'This partnership between the City of Copenhagen and Hitachi aims
+    to create a marketplace for the exchange of public and private data. These data
+    sources are multiple: from the energy sector, universities, and existing open
+    data portals.'
+  howDataShared: The City Data Exchange is a data sharing platform in itself, where
+    data providers can either sell their data or contribute data to the portal freely.
+  purpose: By leveraging Hitachi’s expertise in designing a data sharing portal to
+    analyse and assist 3rd party developers use the data, the City Data Exchange aims
+    to make Copenhagen a truly smart city by using the latest insights gleaned from
+    big data to spur innovation in the city. The Exchange, by creating a marketplace
+    for data where data suppliers can meet the needs of data consumers, allows for
+    a widely accessible data source integral to create data-driven public services.
+- sys:
+    id: f3yTPg7f56UOmwMgYEGg6
+  caseStudy: Radiant Earth Imagery
+  sector:
+  - Health
+  - Economic Development
+  - Environment
+  - Education
+  - Agriculture
+  - Infrastructure
+  - Crisis Response
+  sharedBy:
+  - Radiant Earth
+  sharedWith:
+  - Public
+  region: Worldwide
+  collaborativeType:
+  - Intelligence Product
+  - Data Pooling
+  dataType:
+  - Observed Non-Personal Data
+  dataKind:
+  - GIS Data
+  dataSource:
+  - Mapping Data
+  - Mapping imagery
+  - Satellite Data
+  link: https://www.radiant.earth/
+  whatDataShared: Radiant Earth aims to make public the data the world's satellites
+    and drones. This geospatial data will be easily available to the public in a non-technical
+    form.
+  howDataShared: Still under construction, the Radiant Earth platform aims to share
+    geospatial data for non-specialists to find and understand.
+  purpose: The aim of Radiant Earth is to make satellite data more accessible to the
+    public in order to assist a diversity of issues from land tenure, global health,
+    food security, and crisis response.
+- sys:
+    id: 3rDivaoqPCeOsKSWeOuIQW
+  caseStudy: Digital Dog
+  sector:
+  - Health
+  sharedBy:
+  - Twitter
+  - multiple
+  sharedWith:
+  - Black Dog Institute
+  - University of Sydney
+  region: East Asia and Pacific
+  collaborativeType:
+  - Intelligence Product
+  - API
+  - Research Partnerships
+  dataType:
+  - Observed Personal Data
+  dataKind:
+  - Social Network Data
+  - Internet Data
+  - Tracking Data
+  dataSource:
+  - GPS Locations
+  - Tweets
+  - Social Media posts
+  link: http://digitaldog.org.au/
+  whatDataShared: Several of Digital Dog's projects--for instance, "We Feel," "Classifying
+    Concerning Tweets," and "The Ground Truth" use social media data (primarily shared
+    from Twitter) to guide their mental health research. Another project "Mobile Phones
+    as Pervasive Devices" uses mobile sensing technology--for instance, bluetooth
+    data--to track social interactions in order to identify suicidal or other at-risk
+    behavior.
+  howDataShared: Data sharing methods depend on the particular project. The mobile
+    sensing tracker used an app during the clinical trial to support this research.
+    The data sharing methods used to collect social media data are explained in more
+    detail in the "We Feel" case found in the Data Collaboratives Explorer.
+  purpose: Digital Dog is an arm of the Australian NGO Black Dog Institute, and aims
+    to research how technology can be used to solve mental health problems.
+- sys:
+    id: 6KjyppoPM42SMIi2wASEQs
+  caseStudy: 'DiSARM: Disease Surveillance and Risk Monitoring'
+  sector:
+  - Health
+  - Crisis Response
+  sharedBy:
+  - Google Earth Engine
+  sharedWith:
+  - Malaria Elimination Initiative
+  region: Sub-Saharan Africa
+  collaborativeType:
+  - Intelligence Product
+  - Data Pooling
+  dataType:
+  - Observed Non-Personal Data
+  dataKind:
+  - Mapping and GIS Data
+  dataSource:
+  - 'Location and Satellite Imagery '
+  link: http://www.disarm.io/
+  whatDataShared: DiSARM is a data-driven web-based platform that uses satellite data
+    shared and analyzed by Google Earth Engine to creat risk maps of malaria prone
+    zones and affected populations.
+  howDataShared: DiSARM was initially created by the Malaria Elimination Initiative
+    in the Global Health Group at the University of California, San Francisco, and,
+    according to the website, "receives support" from the Google Earth Engine. However,
+    details of this support, beyond use of Google Earth Engine's satellite imagery
+    and analysis, are unavailable.
+  purpose: The ultimate goal of DiSARM (Disease Surveillance and Risk Monitoring)
+    is to support data-driven decision making for malaria elimination. By accessing
+    data for Google Earth Engine, and combing this with data regarding the health
+    facility catchments, villages and schools, DiSARM creates risk maps to help relief
+    workers deign public health policy. DiSARM also has a prediction and monitoring
+    component, allowing workers to spot incidents of malaria outbreaks and identify
+    populations at-risk. The progress of the project is tracked online at http://www.disarm.io/progress/
+- sys:
+    id: 5Kqb7YNW480eEQ8cmkoSu6
+  caseStudy: We Feel
+  sector:
+  - Health
+  sharedBy:
+  - Amazon Web Services
+  - CSIRO
+  sharedWith:
+  - Black Dog Institute
+  - Public
+  region: East Asia and Pacific
+  collaborativeType:
+  - Intelligence Product
+  - API
+  dataType:
+  - Observed Personal Data
+  dataKind:
+  - Social Network Data
+  dataSource:
+  - Twitter data
+  link: http://wefeel.csiro.au
+  whatDataShared: We Feel is part of the Digital Economy Programme of CSIRO, a federal
+    government agency for scientific research in Australia. In collaboration with
+    the Black Dog Institute and with support of Amazon AWS and GNIP, We Feel accesses
+    Tweets using both the public Twitter API, and a sample from GNIP. This equals
+    about 19 thousand tweets per minute.
+  howDataShared: According to the website, We Feel accesses 3 sources for its tweets-
+    the public Twitter API, which it uses for 1% of its data; and 10% sample from
+    GNIP; and an unidentified third source that monitors the emotional content of
+    Twitters public tweets. Considering the volume of this data, the infrastructural
+    support from Amazon AWS allows We Feel to analyze and parse the data.
+  purpose: We Feel attempts to quantify and visualize the emotional content of tweets
+    in order to understand our emotions and the way we feel. Using the Twitter dataset,
+    the We Feel team also hope to better understand how social and economic factors
+    influence our emotions. All data it collects is available for download through
+    its website.
+- sys:
+    id: 1bk0TUxrzMqYu4i4igWekY
+  caseStudy: BBVA- Measuring people's economic resilience to natural disasters
+  sector:
+  - Economic Development
+  - Crisis Response
+  sharedBy:
+  - BBVA
+  sharedWith:
+  - United Nations Global Pulse
+  - BBVA Bancomer and BBVA Data & Analytics
+  region: Latin America and the Caribbean
+  collaborativeType:
+  - Research Partnerships
+  dataType:
+  - Disclosed Personal Data
+  - Observed Personal Data
+  dataKind:
+  - Transaction Data
+  dataSource:
+  - Banking Data
+  link: https://www.bbvadata.com/odile/
+  whatDataShared: BBVA used Sale payments (PoS) and ATM cash withdrawal data from
+    more than 100,000 of its clients in Mexico. Since BBVA is the main financial institution
+    in Mexico, this data totalled 25,000 daily transactions, and approximately 30%
+    of all bank account holders in the country.
+  howDataShared: In partnership with UN Global Pulse, BBVA's Data and Analytics team
+    analyze financial data prior to, during and after Hurricane Odile hit Baja California
+    Sur in 2014. BBVA was able to share its proprietary customer data after it was
+    anonymised and aggregated in compliance with national laws and regulations. This
+    meant individuals could not be re-identified by any of the results publicized
+    in the study.
+  purpose: 'This project aimed to use BBVA''s financial data to measure the resilience
+    of communities following a natural disaster. By measuring the economic activity
+    of populations following Hurricane Odile, researchers found that economic recovery
+    time 2 to 40 days depending on location. They also found that income levels and
+    gender differences played a role in accounting for recovery time. This research
+    can not only be used to support recovery services after a disaster strikes, but
+    also provides a new methodology for researching the adaptability and resilience
+    of communitites to natural disaster. '
 events:
 - sys:
     id: uF3uaikYV2gWsckO8wYO2
@@ -4707,7 +5213,7 @@ resources:
   title: 'Big Data and Positive Social Change in the Developing World: A White Paper
     for Practitioners and Researchers'
   pubDate: !ruby/object:DateTime 2014-05-01 00:00:00.000000000 Z
-  url: https://www.rockefellerfoundation.org/app/uploads/Big-Data-and-Positive-Social-Change-in-the-Developing-World.pdf
+  url: https://www.rockefellerfoundation.org/report/big-data-and-positive-social-change-in-the-developing-world/
   shortDescription: A white paper describing the potential of big data, and corporate
     data in particular, to positively benefit development efforts.
   annotation: |-
@@ -4804,6 +5310,73 @@ resources:
   theme:
   - Risks and Challenges
   - In Practice
+- sys:
+    id: FnooiZF5QcweaMEECC4oG
+  authors: Stefaan G. Verhulst
+  title: Corporate Social Responsibility for a Data Age
+  publication: Stanford Social Innovation Review
+  pubDate: !ruby/object:DateTime 2017-02-15 00:00:00.000000000 Z
+  url: https://ssir.org/articles/entry/corporate_social_responsibility_for_a_data_age
+  shortDescription: 'This article investigates how companies use their data for social
+    good, and identifies an emerging field of “data responsibility” where proprietary
+    data can be used as a social asset. '
+  annotation: "In this article for the Stanford Social Innovation Review, Stefaan
+    Verhulst analyses how an increasing number of companies are using their data for
+    social good, evidence for a new concept of “data responsibility” where data and
+    information is used to reach positive public ends.\nData Responsibility is defined
+    as steps companies can take to open their proprietary data to external bodies,
+    who can use this information to confront humanitarian emergencies and public problems.
+    Central to this is the creation of “Data Collaboratives”—data-sharing models between
+    corporations and public institutions, NGOs, and academic bodies. \nThe article
+    goes on to detail the “Three Pillars of Data Responsibility” which include:\n•\tShare:
+    the duty for data-holders to share their data.\n•\tProtect: the need to protect
+    data through adequate anonymization techniques.\n•\tAct: the need for policy makers
+    and leaders to act upon the information and data shared.\nThe article ends by
+    calling on a “culture shift” to incorporate concepts of data responsibility into
+    day-to-day company activities, and outlying four practical steps to make this
+    happen.\n"
+  type:
+  - Essay
+  - Magazine Article
+  theme:
+  - Benefits
+  - Data Responsibility
+  - In Practice
+- sys:
+    id: 6MKf2l111S4O8AQqm4mWye
+  authors: " Iryna Susha, Marijn Janssen, Stefaan Verhulst"
+  title: Data collaboratives as “bazaars”? A review of coordination problems and mechanisms
+    to match demand for data with supply
+  publication: 'Transforming Government: People, Process and Policy, Vol. 11 Issue:
+    1'
+  pubDate: !ruby/object:DateTime 2017-01-01 00:00:00.000000000 Z
+  url: http://www.emeraldinsight.com/doi/abs/10.1108/TG-01-2017-0007
+  shortDescription: Focusses on the operational challenges on implementing Data Collaboratives.
+  type:
+  - Journal Article
+  theme:
+  - Risks and Challenges
+  - Operations
+  - In Practice
+- sys:
+    id: 5EmGiq0n8k4SKQsygIcUUM
+  authors: Freddy De Meersman, Gerdy Seynaeve, Marc Debusschere, Patrick Lusyne, Pieter
+    Dewitte, Youri Baeyens, Albrecht Wirthmann, Christophe Demunter, Fernando Reis,
+    Hannes I. Reuter
+  title: Assessing the Quality of Mobile Phone Data as a Source of Statistics
+  publication: European Conference on Quality in Official Statistics (Q2016)
+  pubDate: !ruby/object:DateTime 2016-06-03 00:00:00.000000000 Z
+  url: https://ec.europa.eu/eurostat/cros/system/files/assessing_the_quality_of_mobile_phone_data_as_a_source_of_statistics_q2016.pdf
+  shortDescription: This paper presented at the 2016 European Conference on Quality
+    in Official Statistic assesses the ability for mobile phone data in Belgium to
+    be used to collect official statistics, comparing data collected from mobile phones
+    with official census data.
+  type:
+  - Journal Article
+  theme:
+  - Benefits
+  - In Practice
+  - Governance and Operations
 projects:
 - sys:
     id: 4qXwV2Dbi8IOO8CO6uGCuK
