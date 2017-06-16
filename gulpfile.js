@@ -35,6 +35,11 @@ gulp.task('cname', function() {
   .pipe(gulp.dest('_site'));
 });
 
+gulp.task('circleci', function () {
+  return gulp.src('./circle.yml')
+    .pipe(gulp.dest('_site'));
+});
+
 gulp.task('static', function() {
   return gulp.src('source/static/**/*')
   .pipe(gulp.dest('_site'));
@@ -53,6 +58,7 @@ gulp.task('deploy', function (callback) {
   runSequence(
     'image',
     'cname',
+    'circleci',
     'scripts',
     'static',
     'push-gh-master',
