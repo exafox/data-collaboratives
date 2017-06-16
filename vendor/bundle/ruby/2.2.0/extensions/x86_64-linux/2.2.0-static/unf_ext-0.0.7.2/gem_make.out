@@ -1,0 +1,16 @@
+current directory: /home/ubuntu/data-collaboratives/vendor/bundle/ruby/2.2.0/gems/unf_ext-0.0.7.2/ext/unf_ext
+/opt/circleci/ruby/ruby-2.2.6/bin/ruby -r ./siteconf20170616-16110-1es46rp.rb extconf.rb
+checking for main() in -lstdc++... yes
+creating Makefile
+
+current directory: /home/ubuntu/data-collaboratives/vendor/bundle/ruby/2.2.0/gems/unf_ext-0.0.7.2/ext/unf_ext
+make "DESTDIR=" clean
+
+current directory: /home/ubuntu/data-collaboratives/vendor/bundle/ruby/2.2.0/gems/unf_ext-0.0.7.2/ext/unf_ext
+make "DESTDIR="
+compiling unf.cc
+linking shared-object unf_ext.so
+
+current directory: /home/ubuntu/data-collaboratives/vendor/bundle/ruby/2.2.0/gems/unf_ext-0.0.7.2/ext/unf_ext
+make "DESTDIR=" install
+/usr/bin/install -c -m 0755 unf_ext.so ./.gem.20170616-16110-1tygycb
