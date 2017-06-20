@@ -1490,8 +1490,11 @@ datacollaborative:
     identifying road incident blackspots and improving emergency response. Grab and
     the World Bank plan to make OpenTraffic available to other Southeast Asian city
     governments in the near future.
-  purpose: |
-    This real-time traffic data will assist traffic management agencies and city planners to better manage traffic flows on the streets of Cebu City and Metro Manila.
+  purpose: 'This real-time traffic data will assist traffic management agencies and
+    city planners to better manage traffic flows on the streets of Cebu City and Metro
+    Manila.
+
+'
 - sys:
     id: 4HpBMLGAi4A8S0cocEI4Oo
   caseStudy: Predicting Consumer Confidence Using Social Media Data
@@ -1823,8 +1826,11 @@ datacollaborative:
     Along with usual content associated with Yelp's data base (reviews, locations,
     restaurant names) in Round 8 of the challenge, Yelp has also included photos to
     the dataset.
-  howDataShared: |
-    The dataset file is available on the website to the public for participating researchers-interested individuals must simply complete an online form. The data is avaliable via a file composed of a single object type, one json-object per-line.
+  howDataShared: 'The dataset file is available on the website to the public for participating
+    researchers-interested individuals must simply complete an online form. The data
+    is avaliable via a file composed of a single object type, one json-object per-line.
+
+'
   purpose: Participants are encouraged to use the Yelp dataset "in an innovative way
     and break ground in research." These included research in social trends, location
     mining and urban planning, Natural Language Processing (NLP), Changepoints and
@@ -3828,7 +3834,7 @@ canvasSteps:
   resources: |2
 
     - [Living Cities Data Inventory](http://www.data-archive.ac.uk/create-manage/strategies-for-centres/data-inventory) – a tool from Living Cities to help identify datasets of importance for a project, as well as where and how to access them
-    - [UK Data Achive Data Inventory](http://www.data-archive.ac.uk/create-manage/strategies-for-centres/data-inventory) – a collection of guidelines tools and templates for creating a data inventory
+    - [UK Data Archive Data Inventory](http://www.data-archive.ac.uk/create-manage/strategies-for-centres/data-inventory) – a collection of guidelines tools and templates for creating a data inventory
 - sys:
     id: 3sImPlNT0AescqYaqcie4
   stepNumber: Step 5
@@ -3885,8 +3891,13 @@ canvasSteps:
     id: m1NRpjW6wCsaY0IwgsOsm
   stepNumber: Step 6
   stepTitle: Define ideal type of data collaborative based on supply/demand
-  discussion: |
-    Data collaboratives exist in a number of forms, each of which is better positioned for a certain problem or date type. The current field of practice shows that there are currently six main types of data collaboratives, the preceding steps in this canvas should help to make clear which of the following collaboration mechanisms is best-suited for the opportunity at hand.
+  discussion: 'Data collaboratives exist in a number of forms, each of which is better
+    positioned for a certain problem or date type. The current field of practice shows
+    that there are currently six main types of data collaboratives, the preceding
+    steps in this canvas should help to make clear which of the following collaboration
+    mechanisms is best-suited for the opportunity at hand.
+
+'
   questions: "Given the insights gained during previous steps, which data collaborative
     type is best suited to the problem at hand?  \n- __Trusted Intermediary__, where
     companies share data with a limited number of known partners. Companies generally
@@ -3980,8 +3991,11 @@ canvasSteps:
     priority placed on mitigating especially salient risks\n- Continue to monitor
     risks and the effectiveness of mitigation strategies throughout the lifespan of
     the data collaborative"
-  examples: |
-    - [UN OCHA Data Responsibility Framework](http://www.thegovlab.org/static/files/publications/TB18_Data%20Responsibility_Online.pdf): Working with the GovLab, Harvard Humanitarian Initiative, and Leiden University Centre for Innovation, the U.N. Office for the Coordination of Humanitarian Affairs developed a Data Responsibility Framework to inform the use of shared data during humanitarian crises.
+  examples: "- [UN OCHA Data Responsibility Framework](http://www.thegovlab.org/static/files/publications/TB18_Data%20Responsibility_Online.pdf):
+    Working with the GovLab, Harvard Humanitarian Initiative, and Leiden University
+    Centre for Innovation, the U.N. Office for the Coordination of Humanitarian Affairs
+    developed a Data Responsibility Framework to inform the use of shared data during
+    humanitarian crises.\n"
   enablers: |2
 
     - An upfront understanding of the most salient risks
@@ -4299,7 +4313,7 @@ canvasPhases:
     resources: |2
 
       - [Living Cities Data Inventory](http://www.data-archive.ac.uk/create-manage/strategies-for-centres/data-inventory) – a tool from Living Cities to help identify datasets of importance for a project, as well as where and how to access them
-      - [UK Data Achive Data Inventory](http://www.data-archive.ac.uk/create-manage/strategies-for-centres/data-inventory) – a collection of guidelines tools and templates for creating a data inventory
+      - [UK Data Archive Data Inventory](http://www.data-archive.ac.uk/create-manage/strategies-for-centres/data-inventory) – a collection of guidelines tools and templates for creating a data inventory
 - sys:
     id: 3szKi9TAsogWMYQUUSWyyo
   phaseNumber: Phase 3
@@ -4376,8 +4390,13 @@ canvasPhases:
       id: m1NRpjW6wCsaY0IwgsOsm
     stepNumber: Step 6
     stepTitle: Define ideal type of data collaborative based on supply/demand
-    discussion: |
-      Data collaboratives exist in a number of forms, each of which is better positioned for a certain problem or date type. The current field of practice shows that there are currently six main types of data collaboratives, the preceding steps in this canvas should help to make clear which of the following collaboration mechanisms is best-suited for the opportunity at hand.
+    discussion: 'Data collaboratives exist in a number of forms, each of which is
+      better positioned for a certain problem or date type. The current field of practice
+      shows that there are currently six main types of data collaboratives, the preceding
+      steps in this canvas should help to make clear which of the following collaboration
+      mechanisms is best-suited for the opportunity at hand.
+
+'
     questions: "Given the insights gained during previous steps, which data collaborative
       type is best suited to the problem at hand?  \n- __Trusted Intermediary__, where
       companies share data with a limited number of known partners. Companies generally
@@ -4474,8 +4493,11 @@ canvasPhases:
       and the priority placed on mitigating especially salient risks\n- Continue to
       monitor risks and the effectiveness of mitigation strategies throughout the
       lifespan of the data collaborative"
-    examples: |
-      - [UN OCHA Data Responsibility Framework](http://www.thegovlab.org/static/files/publications/TB18_Data%20Responsibility_Online.pdf): Working with the GovLab, Harvard Humanitarian Initiative, and Leiden University Centre for Innovation, the U.N. Office for the Coordination of Humanitarian Affairs developed a Data Responsibility Framework to inform the use of shared data during humanitarian crises.
+    examples: "- [UN OCHA Data Responsibility Framework](http://www.thegovlab.org/static/files/publications/TB18_Data%20Responsibility_Online.pdf):
+      Working with the GovLab, Harvard Humanitarian Initiative, and Leiden University
+      Centre for Innovation, the U.N. Office for the Coordination of Humanitarian
+      Affairs developed a Data Responsibility Framework to inform the use of shared
+      data during humanitarian crises.\n"
     enablers: |2
 
       - An upfront understanding of the most salient risks
@@ -4969,8 +4991,11 @@ resources:
   publication: Research Policy
   pubDate: !ruby/object:DateTime 2015-06-01 00:00:00.000000000 Z
   url: http://www.sciencedirect.com/science/article/pii/S0048733314002248
-  shortDescription: |
-    A paper highlighting the advantages of third-party organizations enabling data sharing between industry and academia to uncover new insights to benefit the public good.
+  shortDescription: 'A paper highlighting the advantages of third-party organizations
+    enabling data sharing between industry and academia to uncover new insights to
+    benefit the public good.
+
+'
   annotation: |-
     This paper discusses the concept of a “boundary organization” in relation to industry-academic partnerships driven by data. Boundary organizations perform mediated revealing, allowing firms to disclose their research problems to a broad audience of innovators and simultaneously minimize the risk that this information would be adversely used by competitors.
 

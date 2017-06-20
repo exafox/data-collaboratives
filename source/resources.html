@@ -2,6 +2,14 @@
 layout: default
 title: Resources | Data Collaboratives
 custom_js: resource-filter.js
+types:
+- "Blog Post"
+- "Report"
+- "Case Study"
+- "Paper"
+- "Journal Article"
+- "Essay"
+- "Magazine Article"
 ---
 
 <div class="resources-page">
@@ -15,19 +23,15 @@ custom_js: resource-filter.js
     </div> -->
 
     <!-- create dropdown arrays from contentful-->
-    {% assign type_list = "" | split: "" %}
     {% assign theme_list = "" | split: "" %}
 
     {% for item in site.data.contentful.spaces.cases.resources %}
-        {% assign type_name = item.type %}
-        {% assign type_list = type_list | push: type_name %}
       {% for theme in item.theme %}
         {% assign theme_name = theme %}
         {% assign theme_list = theme_list | push: theme_name %}
       {% endfor %}
     {% endfor %}
 
-    {% assign type_list = type_list | uniq %}
     {% assign theme_list = theme_list | uniq %}
 
     <div class="filter-panel dropdown-wrapper">
@@ -39,8 +43,8 @@ custom_js: resource-filter.js
           <div class="select">
             <select data-filter="resource-type" id="type-filter" class="dropdown-content">
               <option id="all">Filter by Type</option>
-              {% for t in type_list %}
-                <option id="{{ t | join: ' ' | slugify }}">{{ t }}</option>
+              {% for t in page.types %}
+                <option id="{{ t | slugify }}">{{ t }}</option>
               {% endfor %}
               </select>
           </div>
@@ -96,9 +100,9 @@ custom_js: resource-filter.js
             {% if resource.type %}
             <div class="result-item__taxonomy result-item__taxonomy--type">
               <span class="result-item__taxonomy__key">Type</span>
-              <span class="result-item__taxonomy__value">
+              <span class="result-item__taxonomy__value resource-type" data-type="all {% for resource_type in resource.type %}{{resource_type | slugify}}{% endfor %}">
                 {% for resource_type in resource.type %}
-                  <p class="result-item__tag resource-type" data-type="all {{resource_type | slugify}}">{{resource_type}}</p>
+                  <p class="result-item__tag">{{resource_type}}</p>
                 {% endfor %}
               </span>
             </div>
@@ -115,7 +119,6 @@ custom_js: resource-filter.js
               </span>
             </div>
             {% endif %}
-
 
             {% include resource-modal.html %}
 
