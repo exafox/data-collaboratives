@@ -25,6 +25,7 @@ $(document).ready(function(){
         searchQueries[filterSelection] = option;
       });
     });
+
     // FILTER WITH DROPDOWNS
     resourceList.filter(function(item) {
       if (item.values()["resource-type"] !== null && item.values()["resource-theme"] !== null && item.values()["resource-type"].includes(searchQueries["resource-type"]) && item.values()["resource-theme"].includes(searchQueries["resource-theme"]))  {
