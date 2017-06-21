@@ -162,12 +162,11 @@ custom_js: listScripts.js
           <tr class="case">
             {% for item in site.data.contentful.spaces.cases.datacollaborative %}
             <td width="25%" case-name="{{item.caseStudy}}" class="case__title">
-
               {% assign link = item.caseStudy %}
               {% assign char = "|" %}
 
               {% capture link %}
-                {{ link | remove: "'"  | replace: char, "0101010" | replace: "&", "0101010" }}
+                {{ link | remove: "'"  | replace: char, "0101010" | replace: "&", "0101010" | replace: "-", "00000" }}
               {% endcapture %}
 
               {% assign slugged-link = link %}
@@ -175,9 +174,7 @@ custom_js: listScripts.js
               {% capture slugged-link %}
                 {{ slugged-link | slugify }}
               {% endcapture %}
-
-              <a href="/cases/{{ slugged-link | remove: '0101010' | rstrip | lstrip }}.html">{{ item.caseStudy }}</a>
-
+              <a href="/cases/{{ slugged-link | remove: '0101010' | replace: "00000", "-"| rstrip | lstrip }}.html">{{ item.caseStudy }}</a>
             </td>
 
             <td width="20%" case-type="all {% for d in item.collaborativeType %} {{ d | slugify }} {% endfor %}" class="case__type">
