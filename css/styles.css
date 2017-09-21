@@ -169,7 +169,7 @@ select option {
     margin-bottom: 24px; }
 .dcfb-fold__dcfb-cover {
   position: relative;
-  top: -130px;
+  top: 24px;
   left: -50px; }
   @media (min-width: 40.063em) and (max-width: 64em) {
     .dcfb-fold__dcfb-cover {
@@ -265,6 +265,8 @@ select option {
   background-color: white; }
   .page-section.dcfb-callout-message p {
     color: rgba(0, 0, 0, 0.5); }
+    .page-section.dcfb-callout-message p.left {
+      text-align: left; }
   @media (max-width: 40em) {
     .page-section.dcfb-callout-message {
       padding: 10px; } }
