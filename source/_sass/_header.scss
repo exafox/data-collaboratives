@@ -20,6 +20,15 @@
     background-color: rgba($main-color, .95);
   }
 
+  &__dcfb-band {
+    background: linear-gradient(transparent, rgba(0,0,0,0.8));
+  }
+
+  &--dcfb-bg {
+    background-image: url("/images/bgs/dcfb.jpg");
+    background-size: cover;
+    padding-bottom: 0;
+  }
   &--bg {
     background-image: url("/images/video/long-img.png");
     // background-position: center;
@@ -77,10 +86,36 @@
     }
   }
 
+  &__header {
+    font-size: 2rem;
+    margin: -50px 0 0 0;
+    padding-bottom: 10px;
+    color: rgba(0,0,0,0.7);
+  }
+
+  &__author {
+    margin-top: 0;
+  }
+
   &__sub-header {
     margin: 0;
     padding-bottom: 50px;
     color: rgba(0,0,0,0.3);
+  }
+
+  &__dcfb-header {
+    // color: $main-color;
+    color: white;
+  }
+  &__dcfb-author {
+    // color: $main-color;
+    color: white;
+    // text-transform: none;
+  }
+  &__dcfb-sub-header {
+    // color: darken($main-color, 10);
+    // color: $main-color;
+    color: white;
   }
 
   &__under-video {
@@ -113,5 +148,33 @@
       }
     }
 
+  }
+}
+
+.dcfb-fold {
+  &__button {
+    color: rgba(black, 0.8);
+    background-color: $main-color;
+    position: relative;
+    top: -47.5px;
+    &:hover {
+      color: rgba(black, 0.8);
+      background-color: darken($main-color, 5);
+    }
+    &--no-translate {
+      top: 0;
+      margin-bottom: 24px;
+    }
+  }
+  &__dcfb-cover {
+    position: relative;
+    top: -130px;
+    left: -50px;
+    @include breakpoint($medium) {
+      top: 0;
+    }
+    @include breakpoint($small-only) {
+      top: 0;
+    }
   }
 }

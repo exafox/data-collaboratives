@@ -24,3 +24,27 @@
     margin-top: 40px;
   }
 }
+
+.page-section {
+  &.dcfb-callout-message {
+    padding: 20px;
+    position: relative;
+    background-color: white;
+    p {
+      color: rgba(black, .5);
+    }
+    @include breakpoint($small-only) {
+     padding: 10px;
+   }
+ }
+}
+
+.callout-message__dcfb-divider {
+  h2 {
+    margin-bottom: 40px;
+  }
+  &__fb-logo {
+    max-width: 200px;
+    margin-bottom: 40px;
+  }
+}
