@@ -26,7 +26,7 @@ datacollaborative:
     to integrate their genetic data with large-scale medical studies.
   howDataShared: Medical studies initiated by partner institutions, like the Mount
     Sinai Asthma Health and Stanford Medicine's MyHeart Counts projects, can access
-    23andMe research services using a new ResearchKit App, through which customers
+    23andMe research services using a new ResearchKit app, through which customers
     can choose to share data. Customers of 23andMe's services can also choose to participate
     in other surveys to aid medical research, and provide data to 23andMe's industry,
     academic and non-profit partners.
@@ -63,14 +63,15 @@ datacollaborative:
     accessible to the broad biomedical community through an online portal. AMP governs
     their projects through steering committees for each of the three disease areas,
     with representation from all partners. The steering committees are managed by
-    the Foundation of the National Institute of Health (FNIH) under the direction
-    of an AMP Executive Committee comprised of representatives from NIH, participating
-    industry leaders, FDA, and non-profit organizations.
+    the Foundation of the National Institutes of Health (FNIH) under the direction
+    of an AMP Executive Committee comprised of representatives from the NIH, participating
+    industry leaders, the FDA, and non-profit organizations.
   purpose: The AMP initiative combines public-private expertise and pooled data to
     reduce the time and cost of developing biomarkers for disease treatment. The project
     attempts to overcome fragmentation in the pharmaceutical industry and improve
-    innovation in drug therapy. By combining data, the AMP portal can find new drug
-    targets, and reduce wasteful repetition of testing found when companies work in-silo.
+    innovation in drug therapy. By combining data the AMP portal can find new drug
+    targets and reduce wasteful repetition of testing found when companies work in
+    silos.
 - sys:
     id: 3az4tXngAUgOEGwY0gSyoK
   caseStudy: BBVA's Innova Challenge
@@ -90,14 +91,14 @@ datacollaborative:
   dataSource:
   - Credit Cards
   link: https://www.centrodeinnovacionbbva.com/en/innovachallenge/home
-  whatDataShared: Spanish regional bank BBVA shares anonymized credit card transactions
+  whatDataShared: Spanish regional bank BBVA shared anonymized credit card transactions
     data with participating developers in its Innova Challenge.
   howDataShared: 'Anyone over 18 years old was eligible to join BBVA''s Innova Challenge.
     Participating developers accessed datasets through an API found via a developer
-    portal once creating an app and gaining an access key. '
+    portal after creating an application and gaining an access key. '
   purpose: Through the challenge, BBVA hopes to promote open collaboration between
-    the bank and community, fostering a culture of innovation and participation. They
-    also hope to spark innovation both within and outside its commercial interests.
+    the bank and the community, fostering a culture of innovation and participation.
+    They also hope to spark innovation both within and outside its commercial interests.
 - sys:
     id: 2ctFhGxsYMYe60SUQMusoE
   caseStudy: China Green Horizon
@@ -117,17 +118,17 @@ datacollaborative:
   - Climate and pollution data
   link: http://dataimpacts.org/project/data-help-china-breath-better/
   whatDataShared: 'Green Horizon was launched by IBM in 2014 to use real-time data
-    from optical sensors, air quality monitors, and satellites to predict where pollution
-    will be generated and how it is likely to spread throughout the city. '
-  howDataShared: 'By combining a variety of data sources, from sensitivity modeling,
-    inverse/joint method, portable sensor and social media, IBM researchers are able
-    to get a robust estimation on the state of pollution in China. Through IBM’s network
-    of 12 global research labs, the initiative uses the expertise of government, academia,
-    industry and private enterprise to develop a comprehensive air quality management
-    solution comprises high-resolution air quality forecasts, emission source identification
+    from optical sensors, air quality monitors and satellites to predict where pollution
+    will be generated and how it is likely to spread throughout the city of Beijing. '
+  howDataShared: 'By combining a variety of data sources, including sensitivity modeling,
+    portable sensors and social media, IBM researchers are able to get a robust estimation
+    on the state of pollution in China. Through IBM’s network of 12 global research
+    labs, the initiative uses the expertise of government, academia, industry and
+    private enterprise to develop a comprehensive air quality management solution
+    comprising high-resolution air quality forecasts, emission source identification
     and traceability, and quantitative policy decision support.  '
-  purpose: 'Green Horizon  aims to empower China in transforming its national energy
-    systems and support its needs for sustainable urbanization. '
+  purpose: 'Green Horizon aims to empower China in transforming its national energy
+    systems and to support its needs for sustainable urbanization. '
 - sys:
     id: 3vRS69rcTCUQCCS0oOwOIA
   caseStudy: Clever
@@ -136,9 +137,9 @@ datacollaborative:
   sharedBy:
   - Clever
   sharedWith:
-  - school administrators
-  - teachers
-  - education technology developers
+  - School administrators
+  - Teachers
+  - Education technology developers
   region: North America
   collaborativeType:
   - Intelligence Product
@@ -155,18 +156,18 @@ datacollaborative:
     siloed data within a school’s student information system. '
   howDataShared: Originating from the Y-Combinator start-up accelerator program, Clever
     provides a standardized API platform for schools and tech developers. Unlike other
-    data collaboratives, this means that Clever is a for-profit company that has emerged
+    Data Collaboratives, this means that Clever is a for-profit company that has emerged
     as people have identified the need for data and intelligence products to support
-    schools and the public. Therefore, Clever does not generate its own data to share
-    through Data Collaborative projects, but rather acts as an intemediary between
-    students, schools, administrators and disctricts to share data in a safe and useful
+    schools and the public. Therefore Clever does not generate its own data to share
+    through Data Collaborative projects, but rather acts as an intermediary between
+    students, schools, administrators and districts to share data in a safe and useful
     manner.
-  purpose: 'In order to streamline student roster infromation from school databases,
-    enabling schools to send student information easily to various web and mobile
-    apps. Administrators can also choose whether to share this student information
-    with school classes, school, or the entire district. This means administrators
-    maintain control over the data shared, but also can easily share student data
-    if they so choose. '
+  purpose: 'By streamlining student roster information from school databases, schools
+    are enabled to send student information easily to various web and mobile apps.
+    Administrators can also choose whether to share this student information with
+    specific classes, the school, or the entire district. This means administrators
+    maintain control over the data shared but can easily share student data if they
+    so choose. '
 - sys:
     id: 438zv4Y7BmmgAoQA6gEaKy
   caseStudy: Climate Modeling in Colombia
@@ -184,21 +185,21 @@ datacollaborative:
   dataKind:
   - meteorological data
   link: http://dataimpacts.org/project/climate-modeling/
-  whatDataShared: 'In a cross-sector partnership led by the International Center for
+  whatDataShared: In a cross-sector partnership led by the International Center for
     Tropical Agriculture (CIAT) and the Colombian Ministry of Agriculture, The Clima
     y Sector Agropecuario Colombiano (Colombian Climate and Agricultural Sector; CSAC)
-    provides meterological data to farmers, along with data on the economics and agronomy
-    of rice cultivation. '
-  howDataShared: 'CSAC works directly with growers interested in adopting new strategies,
-    using the results of its climate models to help farmers with their agricultural
-    practices. Growers in the program also work alongside local extension officers
-    to help other farmers understand and adopt the new strategies.  '
+    provides meteorological data to farmers along with data on the economics and agronomy
+    of rice cultivation.
+  howDataShared: 'The CSAC works directly with growers interested in adopting new
+    strategies, using the results of its climate models to help farmers with their
+    agricultural practices. Growers in the program also work alongside local extension
+    officers to help other farmers understand and adopt the new strategies.  '
   purpose: The partnership provides information to growers and helps them improve
-    their decision making about when to plant or not plant, as well as which varieties
+    their decision making about when to plant or not plant as well as which varieties
     are most likely to have the best yields in the forecasted conditions. The site-specific
-    information had an enormous economic impact. In 2013, when CSAC predicted a high
-    risk of crop loss due to drought, farmers who did not plant saved $3.6 million
-    in agricultural inputs that would have been spent on the failed crop.
+    information had an enormous economic impact. In 2013, when the CSAC predicted
+    a high risk of crop loss due to drought, farmers who did not plant saved $3.6
+    million in agricultural inputs that would have been spent on the failed crop.
 - sys:
     id: 5IH5LU0vIcoY2oekuY6GOE
   caseStudy: Clinical Study Data Request Program
@@ -228,9 +229,9 @@ datacollaborative:
   - Health System Registers
   link: https://www.clinicalstudydatarequest.com/Default.aspx
   whatDataShared: 'The Clinical Study Data Request Program''s portal collects anonymized
-    clinical trial data from study sponsors, and shares this data with participating
+    clinical trial data from study sponsors and shares this data with participating
     researchers online. '
-  howDataShared: Data is accessed via a password-protected online platform, allowing
+  howDataShared: Data is accessed via a password-protected online platform allowing
     researchers to combine data from different studies, conduct research on the site
     and download their analyses. Access to the platform is provided for 12 to 24 months.
     The portal places controls to protect patient-level data and the research participants'
@@ -238,7 +239,7 @@ datacollaborative:
     for the agreed research purpose.
   purpose: The portal allows researchers to safely and efficiently access multiple
     sources of clinical data provided by the portal's partners, helping to advance
-    medical science and/or improve patient care. This helps ensure the data provided
+    medical science and improve patient care. This helps ensure the data provided
     by research participants are used to maximum effect in the creation of health
     knowledge and understanding.
 - sys:
@@ -263,19 +264,19 @@ datacollaborative:
   dataSource:
   - multiple
   link: http://www.dex.sg/data/mobility/#challenges
-  whatDataShared: 'Participants in the Data City|Data Nation ''Mobility'' challenge
+  whatDataShared: 'Participants in the Data City | Data Nation ''Mobility'' challenge
     can access data from more than 15 partnering companies and agencies from the private
     and public sector, in addition to open-source data available on the Internet.
-    The companies include Ford, Dairy Farm, the National Environment Agency, the Land
-    Transport Authority, among others. '
+    The companies include Ford, Dairy Farm, the National Environment Agency and the
+    Land Transport Authority among others. '
   howDataShared: 'Each participating organization has a platform which lists all the
     datasets available for download. APIs to access the data are available through
     the site''s website once participants register for the challenge online.  '
   purpose: By providing a financial incentive for winners who produce the most significant
     insights possible through their data analysis, public and private institutions
-    are able to encourage greater learnings on "how we move, what we do and their
-    implications." This knowledge can be used to improve infrastructure and transport
-    policy, and produce important insights into public mobility.
+    are able to encourage greater learning on "how we move, what we do and their implications."
+    This knowledge can be used to improve infrastructure and transport policy, and
+    produce important insights into public mobility.
 - sys:
     id: 2a8c4MWF8w6u22aimas6K
   caseStudy: Data for Climate Action (D4CA)
@@ -292,7 +293,7 @@ datacollaborative:
   - Earth Institute
   - Paris 21
   - the UN Foundation
-  - the Renewable Energy Policy Network
+  - The Renewable Energy Policy Network
   sharedWith:
   - Participating developers
   region: Worldwide
@@ -311,24 +312,24 @@ datacollaborative:
   whatDataShared: 'As part of the Data for Climate Action (D4CA) initiative, a variety
     of companies have made their anonymized, aggregated datasets available. Examples
     of particularly pertinent datasets include: 3-6 months of aggregated mobile activity
-    between antennas in province or region, anonymized retail data before and after
-    a flood, aggregated transaction data from a bank from a time-period surrounding
-    a hurricane, and electricity usage data from a city''s transit system during the
-    months of a drought.'
-  howDataShared: The telecom Orange, a San Francisco-based satellite imaging company,
-    Planet Labs, and Schneider Electric, plan to contribute data that include mobile
-    phones usage patterns, satellite imagery and energy consumption, which will bring
-    valuable insights on human behavior in the context of climate change. In addition,
-    technology companies SAP and Microsoft have pledged to support the D4CA campaign
-    by providing technical expertise and computing power.
+    between antennas in specific provinces or regions, anonymized retail data before
+    and after a flood, aggregated transaction data from a bank from a time-period
+    surrounding a hurricane, and electricity usage data from a city''s transit system
+    during the months of a drought.'
+  howDataShared: The telecom company Orange, a San Francisco based satellite imaging
+    company, Planet Labs, and Schneider Electric plan to contribute data that include
+    mobile phone usage patterns, satellite imagery and energy consumption. The shared
+    data will hopefully lead to valuable insights on human behavior in the context
+    of climate change. In addition, technology companies SAP and Microsoft have pledged
+    to support the D4CA campaign by providing technical expertise and computing power.
   purpose: The United Nations launched the climate-focused open innovation challenge
     with a coalition of partners in 2015. The effort specifically targeted private
     sector entities in order to provide participants with as much potentially useful
-    data as possible for developing new and innovative solutions to the challenge
+    data as possible for developing new and innovative solutions to the challenges
     of climate change.
 - sys:
     id: 53IB1uOzKoOSUy0CGGGOCy
-  caseStudy: DataKind Labs Vision Zero Project
+  caseStudy: DataKind Labs Vision Zero
   sector:
   - Infrastructure
   sharedBy:
@@ -344,25 +345,25 @@ datacollaborative:
   - Transportation Data
   link: http://www.datakind.org/projects/creating-safer-streets-through-data-science/
   whatDataShared: DataKind's Vision Zero project, in partnership with Microsoft and
-    municipal governments, launched in 3 cities- New York, New Orleans and Seattle-and
+    municipal governments, launched in 3 cities-New York, New Orleans and Seattle-and
     uses a combination of public and private data to provide insights about each city's
-    transportion. In New York, for example, DataKind accessed traffic and other transportation
-    data from the Department of Transportation, city- and state-level open data, as
-    well as other proprietary data. The datasets included information on past crashes,
-    roadway attributes (e.g. lanes, traffic signals, and sidewalks), land use, demographic
-    data, commuting patterns, parking violations, and existing safety intervention
-    placements.
-  howDataShared: 'Microsoft''s Tech & Civic Engagement Group supports The Vision Zero
-    project to analyze transportation and traffic data, DataKind Labs generates insights
-    to share with local decision makers to help prevent traffic related deaths and
-    injuries. Through a newly fored Datakind Labs project, Vizion Zero hosted a DataDrive
-    in Seattle, where volunteers (including some from Microsoft)assisted in data collection
-    and analysis.  '
+    transportation. In New York, for example, DataKind accessed traffic and other
+    transportation data from the Department of Transportation, city- and state-level
+    open data, as well as other proprietary data. The datasets included information
+    on past crashes, roadway attributes (e.g. lanes, traffic signals, and sidewalks),
+    land use, demographic data, commuting patterns, parking violations and existing
+    safety intervention placements.
+  howDataShared: 'Microsoft''s Tech & Civic Engagement Group supports the Vision Zero
+    project analyzing transportation and traffic data, whereby DataKind Labs generates
+    insights to share with local decision makers to help prevent traffic related deaths
+    and injuries. Through a newly formed Datakind Labs project, Vision Zero hosted
+    a data drive in Seattle where volunteers (including some from Microsoft) assisted
+    in data collection and analysis.  '
   purpose: 'The project aims to help local decision makers understand which engineering
-    and enforcement interventions will be most effective to address each city’s local
-    efforts to increase traffic safety for all. In New York the project helped map
-    the most heavily trafficked areas, helping city officials put in place better
-    policies to curb future road accidents. '
+    and enforcement interventions will be most effective at addressing each city’s
+    local efforts to increase traffic safety. In New York the project helped map the
+    most heavily trafficked areas, allowing city officials to put in place better
+    policies to prevent future road accidents. '
 - sys:
     id: 3Lyg6TTYpqwkSgQOMou2aG
   caseStudy: Deloitte's ConvergeHEALTH, Allergan and Intermountain Healthcare analytics
@@ -384,21 +385,21 @@ datacollaborative:
   - Health System Registers
   link: http://www.prnewswire.com/news-releases/convergehealth-by-deloitte-and-intermountain-healthcare-expand-real-world-evidence-collaboration-with-allergan-to-focus-on-womens-health-300122465.html
   whatDataShared: 'ConvergeHEALTH, a product from Deloitte, uses its OutcomesMiner
-    analytics platform to generate real-world clinical insights based on patient data,
+    analytics platform to generate real-world clinical insights based on patient data
     and has previously partnered with pharmaceutical company Allergan as part of a
-    research collaboration. In this initiative, Intermountain Healthcare--a Utah-based,
-    not-for-profit system of 22 hospitals, 185 clinics, and some 1,300 employed physicians--will
+    research collaboration. In this initiative Intermountain Healthcare--a Utah-based,
+    not-for-profit system of 22 hospitals, 185 clinics and some 1,300 employed physicians--will
     collaborate through its Homer Warner Center for Informatics Research in conducting
     follow-on studies to support the insights generated by ConvergeHEALTH and Allergan. '
-  howDataShared: Though this cross-sector collaboration uses patient, clinical, pharmaceutical
-    and proprietary data to improve health outcomes, it is unusual in that it is a
-    for-profit collaborative. Deloitte's ConvergeHEALTH product is an intelligence
-    product sold to participating organizations, like Intermountatin Healthcare, to
-    provide "applied analytics solutions" with the aim of improving health care. Allergan
-    is similarly a for-profit pharmaceutical company, and it is unclear whether their
-    research collaboration with ConvergeHEALTH is commercial or not.
+  howDataShared: This cross-sector collaboration using patient, clinical, pharmaceutical
+    and proprietary data to improve health outcomes is unusual in that it is a for-profit
+    collaborative. Deloitte's ConvergeHEALTH product is an intelligence product sold
+    to participating organizations, like Intermountain Healthcare, to provide "applied
+    analytics solutions" with the aim of improving health care. Allergan is similarly
+    a for-profit pharmaceutical company, and it is unclear whether their research
+    collaboration with ConvergeHEALTH is commercial or not.
   purpose: This collaboration aims to enable data driven improvements to clinical
-    care, and consequently improve patient health outcomes.
+    care and consequently improve patient health outcomes.
 - sys:
     id: 11OZR34vh6wQGYcmcW8Oyo
   caseStudy: Digicel Telecom, Karolinska, and Columbia University Partnership
@@ -407,7 +408,8 @@ datacollaborative:
   sharedBy:
   - Digicel Telecom (Haiti)
   sharedWith:
-  - Karolinska Institute and Columbia University
+  - Karolinska Institute
+  - Columbia University
   region: North America
   collaborativeType:
   - Research Partnerships
@@ -419,20 +421,20 @@ datacollaborative:
   - Mobile Phone Locations
   link: http://ki.se/en/news/mobile-phone-data-in-haiti-improves-emergency-aid
   whatDataShared: 'Digicel Haiti provided researchers anonymized data on the position
-    of 1.9 million SIMs in Haiti from 42 days before the 2010 earthquake to 158 days
-    afterwards. '
-  howDataShared: Researchers at Karolinska Institutet and Columbia University in New
+    of 1.9 million SIMs in Haiti from 42 days before the 2010 earthquake until 158
+    days afterwards. '
+  howDataShared: Researchers at Karolinska Institute and Columbia University in New
     York sought the cooperation of Digicel, the largest mobile phone operator in Haiti,
-    and started to monitor the daily movements of two million mobile phones by analysing
-    anonymised data on which mobile phone towers were used to make calls. They then
-    reported their analyses directly to the UN and other aid organisations working
+    and started to monitor the daily movements of two million mobile phones by analyzing
+    anonymized data on which mobile phone towers were used to make calls. They then
+    reported their analyses directly to the UN and other aid organizations working
     in Haiti.
   purpose: Nearly 200,000 SIMs that were present in Haiti's capital Port-au-Prince
     when the earthquake struck were no longer in the city as of 19 days post-earthquake.
     Just under a third of Port-au-Prince's residents were mobile phone subscribers
-    at the time of the earthquake, so this movement of SIMs equates to the movement
-    of 630,000 people. With this information, researchers were able to better understand
-    the needs and reponse of victims of the earthquake, and better planned relief
+    at the time of the earthquake so this movement of SIMs equates to the movement
+    of 630,000 people. With this information researchers were able to better understand
+    the needs and response of victims of the earthquake and to better plan relief
     and aid strategies.
 - sys:
     id: 3uUmgSxzfW42kK2yiOsgyM
@@ -445,7 +447,7 @@ datacollaborative:
   - FARK
   - Stack Exchange
   - Twitch
-  - and DeviantArt
+  - DeviantArt
   sharedWith:
   - Academic researchers
   region: North America
@@ -462,12 +464,12 @@ datacollaborative:
     Internet communities such as Imgur, Reddit and Stack Exchange share public user
     data with a select group of academic institutions to support research on Internet
     social behavior.
-  howDataShared: For contributing organizations, most of the data was otherwise available
+  howDataShared: Most of the data from contributing organizations was otherwise available
     via public APIs.
   purpose: DERP is a single point of contact for researchers to get in touch with
     relevant team members across a range of different community sites. They envision
-    that this will lower the friction to investigating these sites in more depth,
-    and broaden the scope of research happening within the academic community.
+    that this will lower the friction to investigating these sites in more depth and
+    broaden the scope of research happening within the academic community.
 - sys:
     id: 7y2aFtAKROIiCGiCqygCcA
   caseStudy: Digital Matatus
@@ -488,16 +490,16 @@ datacollaborative:
   dataSource:
   - Mobile Phone Locations
   link: http://dataimpacts.org/project/mapping-commuters-streamlines-transit/
-  whatDataShared: 'Private buses known as matatus are the primary mode of motorized
+  whatDataShared: 'Private buses known as "matatus" are the primary mode of motorized
     transport in Nairobi. In a collaborative effort called Digital Matatus, researchers
-    from Columbia University, the Massachusetts Institute of Technology, and the University
+    from Columbia University, the Massachusetts Institute of Technology and the University
     of Nairobi used GPS tracking devices and smartphone data to create a digital map
     of Nairobi’s matatu routes. '
   howDataShared: University of Nairobi students geolocated stops along routes and
     recorded important information such as which stops are formally recognized by
-    the city. This map and database is  openly available through Global Transit Feed
-    Specification (GTFS) format. With this, Kenyan tech start-ups have developed useful
-    mobile applications for Nairobi’s citizens to suggest optimal routes, provide
+    the city. This map and database is openly available through Global Transit Feed
+    Specification (GTFS) format. With this data Kenyan tech start-ups have developed
+    useful mobile applications for Nairobi’s citizens to suggest optimal routes, provide
     warnings about unsafe areas near matatu stops, and allow users to hail matatus
     by requesting pick-up at a specific location.
   purpose: The Digital Matatus project helped passengers discover more efficient commuting
@@ -532,14 +534,14 @@ datacollaborative:
   howDataShared: DMCii sells its product to a variety of governmental and non-governmental
     bodies. Its 22m multispectral UK-DMC2 data is available to download to existing
     and new ground stations for immediate use to support projects and applications.
-    DMCii also offers services to retrieve, process, store and analyse all imagery.
-  purpose: Broadly, DCMii uses its data to assist in agriculture, forestry, emergency
-    & disasters, and land cover mapping. It has worked with Group on Earth Observations
+    DMCii also offers services to retrieve, process, store and analyze all imagery.
+  purpose: Broadly, DMCii uses its data to assist in agriculture, forestry, emergency
+    & disasters, and land cover mapping. It has worked with the Group on Earth Observations
     (GEO), a voluntary partnership of governments and organizations, to create JECAM,
-    a monitoring project to improve global agricultural systems. In 2009, it won a
-    €100,000 contract from the European Space Agency (ESA), to use coordinated multi-satellite
+    a monitoring project to improve global agricultural systems. In 2009 it won a
+    €100,000 contract from the European Space Agency (ESA) to use coordinated multi-satellite
     optical imagery for tropical forest monitoring in Indonesia. It is also used during
-    crisis events to help with disster mapping and relief.
+    crisis events to help with disaster mapping and relief.
 - sys:
     id: 5z7ZPIVMOskAggMemMwaMu
   caseStudy: Enexis Open Data Agenda
@@ -559,21 +561,20 @@ datacollaborative:
   dataSource:
   - Electricity and Gas Meters
   link: https://www.enexis.nl/over-enexis/open-data
-  whatDataShared: Enexis, a dutch energy company, makes anonymized data about residential
+  whatDataShared: Enexis, a Dutch energy company, makes anonymized data about residential
     gas and electric energy use publically available via its website. Since December
-    2015, Enexis' customer data can be downloaded via the website along with a "Point
-    of Interest File" which provides information about all the above-ground infastructure
-    related to Enexis' power distribution.
+    2015 Enexis's customer data can be downloaded via the website along with a "Point
+    of Interest File" which provides information about all the above-ground infrastructure
+    related to Enexis's power distribution.
   howDataShared: 'Enexis makes anonymized residential-level gas and electricity consumption
     data since 2009 publically and freely available through CSV files downloadable
-    via the Enexis website. With this data, Enexis customers can also find the location
+    via the Enexis website. With this data Enexis customers can also find the location
     of cables and pipes in their area. '
-  purpose: Enexis shares their data publicly as part of their committment to open
-    data and to encourage innovation in the field, and be transparent in order to
-    respond efficiently to their customers' needs. Customers may want to use this
-    data to determine the distance of the nearest power cable to their home or just
-    to determine if they can construct buildings in a particular location. Contractors
-    and other businesses are also able to access this valuale information.
+  purpose: Enexis shares their data publicly as part of their commitment to open data
+    and transparency and to encourage innovation in the field. Customers may want
+    to use this data to determine the distance of the nearest power cable to their
+    home or just to determine if they can construct buildings in a particular location.
+    Contractors and other businesses are also able to access this valuable information.
 - sys:
     id: a5tRDO47XGm00yqkQYU8U
   caseStudy: Ethiopian Commodity Exchange
@@ -594,17 +595,17 @@ datacollaborative:
   - Commodity prices
   link: http://dataimpacts.org/project/market-data-raise-farmer-income/
   whatDataShared: Launched in 2008, the ECX allows entrepreneurs in Ethiopia, including
-    small scale farmers, to access real time eliable price information and consistent
+    small scale farmers, to access real time reliable price information and consistent
     quality standards data.
   howDataShared: The ECX makes information accessible via SMS text messages, an interactive
     telephone hotline, tickers using electronic displays at specific regional sites,
     the EXC.com website, and TV, radio, and newspaper dissemination in four languages.
   purpose: Before the launch of the ECX in 2008, farmers struggled to find market
-    price information, and often received prices far below market value – estimated
-    on average to be just 35-38 percent of export price – and sometimes suffered serious
+    price information, often received prices far below market value – estimated on
+    average to be just 35-38 percent of export price – and sometimes suffered serious
     losses when traders reneged on payment. The ECX aims to create transparent quality
     standards, allowing farmers to increase product quality and thereby the price
-    they obtain. As a result, in the first year and a half of coffee trading the Exchange
+    they obtain. As a result in the first year and a half of coffee trading, the Exchange
     saw the volume of highest grade coffee triple.
 - sys:
     id: 6s95bGRmpyYkaeMUSwwceQ
@@ -631,22 +632,22 @@ datacollaborative:
   - Multiple
   link: http://map.feedingamerica.org/county/2014/overall
   whatDataShared: 'This collaboration between Feeding America and Nielsen in 2014
-    collected and mapped data about food-insecurity across America in an attempt to
+    collected and mapped data about food insecurity across America in an attempt to
     aid research and advocacy efforts. Nielsen obtained data estimates for food pricing
-    through a multi-variable methodology, that combined public data about income levels,
+    through a multi-variable methodology that combined public data about income levels,
     employment rates and other socio-economic indicators at a county level. These
     results were used to build datasets on the Food Insecurity Rate, Food-Budget Shortfall,
     Cost-of-food Index and National Average Meal Cost. '
   howDataShared: 'Since 2010, Nielsen has released food pricing information to Feeding
     America as part of its "Nielsen Cares" global social responsibility initiative
     to use data for social good. Feeding America shared this information with the
-    public through their 2015 *Map the Meal Gap Report*, developed with the assistance
-    of Nieslen volunteers.  '
+    public through their 2015 Map the Meal Gap Report, developed with the assistance
+    of Nielsen volunteers.  '
   purpose: The Map the Meal project aims to track food insecurity in the U.S. to support
     activism and reform in this area. Most significantly the study found that 26.4
     million food-insecure people live in counties where food costs are higher than
-    the national average of $2.79. This provides important insights into the cause
-    and possile solutions to food insecurity in America.
+    the national average. This provides important insights into the cause and possible
+    solutions to food insecurity in America.
 - sys:
     id: 2CBRhQUC7CwIo8uy8CiuyM
   caseStudy: Genomic Data Commons
@@ -655,7 +656,8 @@ datacollaborative:
   sharedBy:
   - Multiple
   sharedWith:
-  - NIH / University of Chicago
+  - NIH
+  - University of Chicago
   region: North America
   collaborativeType:
   - Research Partnerships
@@ -666,13 +668,13 @@ datacollaborative:
   dataSource:
   - Genome Code
   link: https://gdc.cancer.gov/
-  whatDataShared: 'The NCI''S Genomic Data Commons (GDC) contains NCI-generated data
-    from a number of cancer genomic datasets, including The Cancer Genome Atlas (TCGA)
+  whatDataShared: 'The NCI''s Genomic Data Commons (GDC) contains NCI generated data
+    from a number of cancer genomic datasets including The Cancer Genome Atlas (TCGA)
     and Therapeutically Applicable Research to Generate Effective Therapies (TARGET).
     These datasets are harmonized so that the data can be directly compared. '
-  howDataShared: The GDC has developed a unified standards-based data repository via
-    several resources, which users can not only download and retrieve, but through
-    which they can also contribute data to the GDC, use the GDC bioinformatics pipelines
+  howDataShared: The GDC has developed a unified standards based data repository via
+    several resources. Using the repository users can not only download and retrieve
+    data but can also contribute data to the GDC and use the GDC bioinformatics pipelines
     to process data. Resources are maintained in a secure data center which provides
     user support and documentation.
   purpose: The primary goal of the GDC is to provide the cancer research community
@@ -699,8 +701,8 @@ datacollaborative:
   whatDataShared: This collaboration between Community Care of North Carolina, Inc.
     (CCNC) with GlaxoSmithKline and the University of North Carolina Eshelman School
     of Pharmacy uses patient data disclosed in electronic health records to better
-    coordinate healthcare efforts. A particular part of this collboration is the Care
-    Triage project that uses small data sets from pharmacies to help better supervise
+    coordinate healthcare efforts. A particular part of this collaboration is the
+    Care Triage project that uses small data sets from pharmacies to help better supervise
     patient treatment.
   howDataShared: The collaborative centers on establishing “patient-centered medical
     homes” – virtual homes for an individual’s healthcare – that provide patients
@@ -735,7 +737,7 @@ datacollaborative:
   link: http://globalfishingwatch.org/
   whatDataShared: Global Fishing Watch is the result of a collaboration among Google,
     Oceana and SkyTruth to map and measure fishing activity worldwide by mapping data
-    from the Automatic Identification System (AIS), used by more than 100,000 vessels
+    from the Automatic Identification System (AIS) used by more than 100,000 vessels
     worldwide.
   howDataShared: Global Fishing Watch analyzes data from the Automatic Identification
     System (AIS), which is collected by satellites and terrestrial receivers, to identify
@@ -743,7 +745,7 @@ datacollaborative:
     this data is available to anyone with an Internet connection and allows users
     to monitor when and where commercial fishing is occurring around the world.
   purpose: This information from Global Fishing Watch can be used by governments to
-    ensure that fishing regulations are adequately monitored and tracked, allowing
+    ensure that fishing regulations are adequately monitored and tracked allowing
     them to respond to illegal fishing rapidly and efficiently. The governments of
     Kiribati and Indonesia have been able to improve adherence to marine conservation
     policies by accessing data provided by Global Fishing Watch.
@@ -770,9 +772,9 @@ datacollaborative:
   dataSource:
   - Public
   - Multiple
-  link: http://dataimpacts.org/project/forest-watch/
-  whatDataShared: The Global Forest Watch (GFW) collects crowdsouced and geographical
-    data to track envornmental degradation, particularly deforestation, around the
+  link: http://www.globalforestwatch.org/
+  whatDataShared: The Global Forest Watch (GFW) collects crowdsourced and geographical
+    data to track environmental degradation, particularly deforestation, around the
     world. Its ArcGIS Online portal is an analytical tool that allows users to use
     this forest data in a GIS cloud environment. ArcGIS Online resources include thousands
     of authoritative datasets, references, and thematic maps about hundreds of topics.
@@ -781,9 +783,9 @@ datacollaborative:
     detailed information for companies that wish to reduce the risk of deforestation
     in their supply chains, users who want to monitor fires across Southeast Asia,
     and more.
-  howDataShared: "Data on Global Forest Watch come from a variety of sources, including
-    governments, NGOs, academia, and industry. To acquire new data, they research
-    and incorporate available open data, form partnerships to move data into the public
+  howDataShared: "Data on Global Forest Watch come from a variety of sources including
+    governments, NGOs, academia, and industry. To acquire new data they research and
+    incorporate available open data, form partnerships to move data into the public
     domain, and fund the creation of datasets to fill key gaps in their database.
     \ Generally, the process begins with a conversation between GFW and the data provider
     about which data sets will be visualized. The data provider will then be asked
@@ -792,11 +794,12 @@ datacollaborative:
     \n"
   purpose: |-
     In its Data Playbook, Global Forest Watch lists three central intended impacts:
-    1. Improve the accuracy or timeliness of forest change detection.
-    2. Illustrate drivers of change, including land use and industrial activity. Priority sectors include logging, mining, agricultural commodities (palm oil, beef, soy, etc.), and infrastructure.
-    3. Indicate the health or status of remaining forests, such as biodiversity, landscape connectivity, or carbon.”
 
-    The ultimate goal is to allow a wide array of stakeholders to provide data and track deforectation, in an effort to campaign for change and more sustainable environemntal practices.
+    -"Improve the accuracy or timeliness of forest change detection.
+    -Illustrate drivers of change, including land use and industrial activity. Priority sectors include logging, mining, agricultural commodities (palm oil, beef, soy, etc.), and infrastructure.
+    -Indicate the health or status of remaining forests, such as biodiversity, landscape connectivity, or carbon.”
+
+    The ultimate goal is to allow a wide array of stakeholders to provide data and track deforestation in an effort to campaign for change and more sustainable environmental practices.
 - sys:
     id: 6SQK0wyYDYIEeQuykgOqKS
   caseStudy: Google Flu Trends
@@ -817,22 +820,22 @@ datacollaborative:
   - Search Terms
   link: http://www.google.org/flutrends/us/
   whatDataShared: 'Google Flu Trends launched in 2008 and provided estimates of influenza
-    activity for more than 25 countries by aggregating Google search queries of relevant
+    activity in more than 25 countries by aggregating Google search queries of relevant
     terms. Google shared these search query-based data in conjunction with the U.S.
     Centers for Disease Control in order to estimate levels of influenza activity
     over time. '
   howDataShared: The premise of Google Flu Trends was to combine data from the CDC
     with search terms containing flu-related information. Researchers proposed that
-    these search data tuned into flu tracking information from the Centers for Disease
-    Control and Prevention, could "nowcast" estimates of flu prevalence. But, the
-    first version of Google Flu Trends was flawed in its data collection and modelling
-    practices.  Its methodology was to find the best matches among 50 million search
-    terms to fit 1152 data points. But, since the alogorithm was too broad and the
-    big data often overfitted the case--for instance, mistakenly identifying seasonal
-    search terms, like “high school basketball,” as flu predictions--Google Flu Trends
-    missed 2013's peak flu season by 140 percent. The project now exists as a compilation
-    of historical estimates, though it has also inspired several other similar projects
-    that use social media data to predict disease trends.
+    these search data, tuned into flu tracking information from the Centers for Disease
+    Control and Prevention, could "nowcast" estimates of flu prevalence. But the first
+    version of Google Flu Trends was flawed in its data collection and modeling practices.  Its
+    methodology was to find the best matches among 50 million search terms to fit
+    1152 data points. Since the algorithm was too broad and the big data often over
+    fitted the case - for instance, mistakenly identifying seasonal search terms like
+    “high school basketball” as flu predictions - Google Flu Trends missed 2013's
+    peak flu season by 140 percent. The project now exists as a compilation of historical
+    estimates, though it has also inspired several other similar projects that use
+    social media data to predict disease trends.
   purpose: The goal of Google Flu Trends was to use search data to monitor health
     tracking behaviors online, and to reveal the presence of flu-like illness in a
     population. The intention was to identify disease activity early and respond quickly
@@ -856,25 +859,25 @@ datacollaborative:
   - Trusted Intermediary
   dataType:
   - Disclosed Personal Data
-  link: https://www.waze.com
+  link: https://www.waze.com/ccp
   whatDataShared: "Google Waze shares crowdsourced user data with local governments
     around the world in order to improve traffic management. In its Connected Citizens
     program, Waze provides real-time anonymized crowdsourced traffic data to government
     departments in exchange for information on public projects like construction,
-    road sensors, and pre-planned road closures. \n\nThe large amount of traffic data
+    road sensors and pre-planned road closures. \n\nThe large amount of traffic data
     that Waze collects from participating drivers allows for greater precision and
     accuracy when documenting real-time incidents. Participating government agencies
     use this data to better inform policy or quickly deploy traffic assistance if
-    needed, as a direct result of commuter needs as revealed through Waze. \n"
+    needed.\n"
   howDataShared: The Waze Connected Citizens Program is conceived as a two-way data
-    exchange program that provides data freely to particpating municipal leaders.
+    exchange program that provides data freely to participating municipal leaders.
     Launched in October 2014 with 10 city partners, the program has expanded to more
-    than 63 partners including city, state and country government agencies, nonprofits
+    than 63 partners including city, state and federal government agencies, nonprofits
     and first responders.
   purpose: Google Waze shares crowdsourced user data with local governments around
     the world in order to improve traffic management. For example, Waze’s partnership
     with the city of Rio de Janeiro allowed government agencies to analyze congestion
-    during the election campaign, and better design infrastructure to reduce congestion.
+    during the election campaign and to better design infrastructure to reduce congestion.
     Waze users also assisted victims of Hurricane Patricia in Mexico by uploading
     the location and details of various shelters in affected areas, and the Mexican
     government encouraged the public to use Waze to seek safety.
@@ -900,8 +903,8 @@ datacollaborative:
   whatDataShared: This Harvard School of Public Health (HSPH) project combines cell
     phone data from 15 million people in Kenya with detailed information on the regional
     incidence of malaria.
-  howDataShared: "According to Havard University's press release, between June 2008
-    and June 2009, researchers mapped every call or text made by each of 14,816,521
+  howDataShared: "According to Harvard University's press release, between June 2008
+    and June 2009 researchers mapped every call or text made by each of 14,816,521
     Kenyan mobile phone subscribers to one of 11,920 cell towers located in 692 different
     settlements. Every time an individual left his or her primary settlement, the
     destination and duration of each journey was calculated. Then, using a 2009 malaria
@@ -909,15 +912,15 @@ datacollaborative:
     (KEMRI) and the Malaria Atlas Project to estimate the disease’s prevalence in
     each location being studied, they inferred each resident’s probability of being
     infected and the daily probability that visitors to particular areas would become
-    infected. The phone company, Safari, provided de-identified business data to researchers
-    that was then used to model the travel patterns of cell phone users. Neither the
-    names of individuals nor their phone numbers were or are known to the Harvard
-    School of Public Health researchers. \n"
+    infected. The phone company, Safaricom, provided de-identified business data to
+    researchers that was then used to model the travel patterns of cell phone users.
+    Neither the names of individuals nor their phone numbers were or are known to
+    the Harvard School of Public Health researchers. \n"
   purpose: By analyzing the incidence of malaria and the movement of people as revealed
     by their mobile phones, researchers at HSPH and seven other institutions indicated
     that malaria, in large part, emanates from Kenya’s Lake Victoria region and spreads
     east, chiefly toward the capital, Nairobi. Such insights help estimate malaria's
-    potential spread, and can be used to build a "map of parasite movements" and help
+    potential spread and can be used to build a "map of parasite movements" and help
     better understand the spread of disease.
 - sys:
     id: 3FuCM9Dv1mauUCo6W6QeUk
@@ -940,15 +943,15 @@ datacollaborative:
     technological innovation in Canada's healthcare system by accessing healthcare
     data from participating hospitals. This information was then used to create computerized
     systems to improve the efficiency and effectiveness of healthcare providers. Canada's
-    healthcare organizations have entered into a contract with IBM to deliver this
-    service, so unlike many other data collaboratives these data sharing processes
-    are part of a commercial relationship.
+    healthcare organizations have entered into a contract with IBM to provide this
+    service. Unlike many other data collaboratives these data sharing processes are
+    part of a commercial relationship.
   howDataShared: 'IBM''s Smarter Solutions attempts to put in place what is called
-    "cognitive computing"—systems that try to understand, reason and learn while interacting
-    with humans. They are designed to ingest vast quantities of structured and unstructured
-    information—from numbers and text to audio, video, images, sensory and other data,
-    and to help physicians and researchers identify new patterns and insights to accelerate
-    discoveries, treatments and insights. '
+    "cognitive computing" - systems that try to understand, reason and learn while
+    interacting with humans. They are designed to ingest vast quantities of structured
+    and unstructured information - from numbers and text to audio, video, images,
+    sensory and other data - and to help physicians and researchers identify new patterns
+    and insights to accelerate discoveries, treatments and insights. '
   purpose: New tools to analyze and glean the relevant information from this ocean
     of data are helping practitioners, researchers and caregivers discover new healthcare
     solutions and apply them in innovative ways. Cognitive-based systems that build
@@ -963,8 +966,8 @@ datacollaborative:
   - InBloom
   sharedWith:
   - School administrators
-  - teachers
-  - education technology developers
+  - Teachers
+  - Education technology developers
   region: North America
   collaborativeType:
   - Data Pooling
@@ -976,31 +979,29 @@ datacollaborative:
   - Educational registers
   link: https://github.com/inbloom/
   whatDataShared: Initiated in 2011 through $100 million in seed money from the Bill
-    and Melinda Gates Foundation and the Carnegie Corporation of New York, InBloom
+    and Melinda Gates Foundation and the Carnegie Corporation of New York, inBloom
     aimed to store, clean and aggregate student data for states and districts.
   howDataShared: InBloom was a nonprofit student data repository that made available
     standardized student and school data for creating approved third party applications
     and software designed for educators. It collected information from school districts'
-    many databases, and stored these in the cloud, protected with high-level encryption.
+    many databases and stored these in the cloud protected with high-level encryption.
     The inBloom database included more than 400 different data fields about students
     that school administrators could fill in. But, since some of the details seemed
-    personal, like family relationships and enrollment changes, some parents objected,
+    personal, like family relationships and enrollment changes, some parents objected
     saying that they did not want that kind of information about their children transferred
     to a third-party vendor. InBloom ultimately collapsed, for a variety of reason,
-    but mainly because the data sharing agreements were seen as a dangerous encrouchment
-    into students' education. [A 2017 article](https://points.datasociety.net/inblooms-collapse-undermined-personalized-learning-and-data-standards-efforts-199c5cccac01#.a69staljc),
-    drawn from a [detailed report about inBloom](https://datasociety.net/pubs/ecl/InBloom_feb_2017.pdf),
+    but mainly because the data sharing agreements were seen as a dangerous encroachment
+    into students' education. A 2017 article (https://points.datasociety.net/inblooms-collapse-undermined-personalized-learning-and-data-standards-efforts-199c5cccac01#.a69staljc)
+    drawn from a detailed report about inBloom (https://datasociety.net/pubs/ecl/InBloom_feb_2017.pdf)
     suggested that "For many on the ground, inBloom was nothing more than another
     example of rich tech elites projecting their values onto their communities with
-    no contextual understanding.
-  purpose: Initiated in 2011 with $100 million in seed money from the Bill and Melinda
-    Gates Foundation and the Carnegie Corporation of New York, InBloom aimed to store,
-    clean and aggregate student data for states and districts, making data available
-    and standardized for approved third party applications and software designed for
-    educators. Backlash came from increased privacy concerns from parents and educators
-    over the collection, use and storage of personally identifiable information on
-    students, causing many partners to back out of initial agreements. InBloom began
-    ending its services in April 2014.
+    no contextual understanding."
+  purpose: InBloom aimed to store, clean and aggregate student data for states and
+    districts making data available and standardized for approved third party applications
+    and software designed for educators. Backlash came from increased privacy concerns
+    from parents and educators over the collection, use and storage of personally
+    identifiable information on students, causing many partners to back out of initial
+    agreements. InBloom began ending its services in April 2014.
 - sys:
     id: 5ezYeelNMI8eWmua2AoQGU
   caseStudy: Intel's Big Data for Precision Farming
@@ -1020,18 +1021,19 @@ datacollaborative:
   - Computer System Logs
   link: http://www.datacenterknowledge.com/archives/2014/06/09/intel-tackles-water-supply-problems-big-data/
   whatDataShared: 'Intel''s Big Data for Precision Farming irrigation project places
-    sensors in crops and other strategic areas to monitor soil and air moisture levels.
-    A second project uses data from a lab that monitors the snow pack in the Sierra
-    Nevada mountain range, correlating it with the size of California’s water supply. '
-  howDataShared: This was a for-profit endeavour for Intel, whose specially designed
+    sensors in crop fields and other strategic areas to monitor soil and air moisture
+    levels. A second project uses data from a lab that monitors the snow pack in the
+    Sierra Nevada mountain range, correlating it with the size of California’s water
+    supply. '
+  howDataShared: This was a for-profit endeavor for Intel, whose specially designed
     sensors aimed specifically to capture moisture and snow melting data in California
     for research purposes. About 75 gigabytes of data were collected a day from just
-    the Nevada mountain range, and through Intel's self-created platform and reference
+    the Nevada mountain range and, through Intel's self-created platform and reference
     architecture, researchers from the University of California, Davis, were able
-    to access this infromation.
+    to access this information.
   purpose: Intel's work with University of California, Davis, aims to perfect irrigation
     techniques by placing sensors in crops and other strategic areas to monitor soil
-    and air moisture levels. In improving accuracy about the wter supply of a crop,
+    and air moisture levels. In improving accuracy about the water supply of a crop,
     the people behind the project hope to reduce water waste and improve farming techniques
     to encourage sustainability.
 - sys:
@@ -1053,19 +1055,19 @@ datacollaborative:
   - Registration Records
   dataSource:
   - Health System Registers
-  link: http://yoda.yale.edu/
+  link: http://yoda.yale.edu/johnson-johnson
   whatDataShared: The Yale School of Medicine’s Open Data Access (YODA) Project helps
     researchers and physicians to access anonymized clinical trial data from Janssen
-    – Jonhson&Johnson's pharmaceutical business wing.
+    – Johnson & Johnson's pharmaceutical business wing.
   howDataShared: In order to enter this Data Collaborative with YODA, data sharers
-    like Johnson&Johnson must agree to hand over full jurisdiction of their clinical
-    data to Yale. This allows researchers access to private clinical data, while ensuring
+    like Johnson & Johnson must agree to hand over full jurisdiction of their clinical
+    data to Yale. This allows researchers access to private clinical data while ensuring
     such data is shared responsibly.
   purpose: Johnson & Johnson's Janssen shares access to anonymized clinical trials
     data with the Yale Open Data Access Project, which serves as an independent body
     overseeing trials data requests from investigators and researchers. The purpose
-    of YODA is to allow ressearchers access to important clinical data from J&J, whilst
-    ensuring the safety and privacy of this initiative.
+    of YODA is to allow researchers access to important clinical data from Johnson
+    & Johnson whilst ensuring the safety and privacy of this initiative.
 - sys:
     id: 57Q6qeEdnWY2UMq4oQSsCi
   caseStudy: Lilly, T1D Exchange Diabetes Research Collaboration
@@ -1092,9 +1094,9 @@ datacollaborative:
   howDataShared: Though it is unclear where the collaborative now stands, the initial
     premise was to analyze T1D exchange data and develop a survey for health care
     providers from the clinic network and members of Glu, and online patient and caregiver
-    platform. Following the survey, further surveys were to be be undertaken and shared
-    with patients to further collect data to be shared publicly once analysis is complete,
-    for the benefit of both the Type 1 diabetes and researcher communities.
+    platform. Following the survey, further surveys were to be undertaken and shared
+    with patients to collect data. The data is to be shared publicly once analysis
+    is complete, for the benefit of both the Type 1 diabetes and researcher communities.
   purpose: 'The Exchange acts as a convener of clinicians, patients and caregivers
     working to improve the health outcomes of patients with Type 1 Diabetes. By connecting
     these people to one another and to the patient community at large, T1D Exchange
@@ -1118,18 +1120,18 @@ datacollaborative:
   - Disclosed Non-Personal Data
   dataKind:
   - Satellite and Aerial Imagery
-  link: http://blogs.baruch.cuny.edu/greenit/2014/09/02/sustainability-of-intel/
+  link: http://www.techrepublic.com/article/how-intel-is-using-iot-and-big-data-to-improve-food-and-water-security/
   whatDataShared: Intel is working with the Earth Research Institute at the University
     of California Santa Barbara (UCSB) to use satellite imagery and snow mapping technologies
     to measure the snow range in the Sierra Nevada Mountains.
   howDataShared: This research will enable governments and farmers to predict drought
     conditions and plan accordingly to save water for the future when water supply
-    encounters issue. According to Vin Sharma, director, strategy and marketing, Big
-    Data Solutions at Intel, the initiative generates “about two terabytes every 15
-    days, and the source files 75 gigabytes a day.” This data has the potential to
-    be recorded into a “queryable” database that can be used globally and by the UCSB
-    institute to inform agricultural practices worldwide by predicting future water
-    supply.
+    encounters issue. According to Vin Sharma, director of strategy and marketing
+    for Big Data Solutions at Intel, the initiative generates “about two terabytes
+    every 15 days, and the source files 75 gigabytes a day.” This data has the potential
+    to be recorded into a “queryable” database that can be used globally and by the
+    UCSB institute to inform agricultural practices worldwide by predicting future
+    water supply.
   purpose: Intel and UCSB are using satellite imagery and snow mapping technologies
     to measure the snow range in the Sierra Nevada Mountains. This will enable governments
     and farmers to predict drought conditions and plan accordingly to save water for
@@ -1153,13 +1155,13 @@ datacollaborative:
   - Satellite and Aerial Imagery
   link: https://medium.com/@orbital_insight/measuring-poverty-from-space-4014fb37b488#.5amvtwpmg
   whatDataShared: |-
-    Orbital Insights is a data analytics company that provides products to both private businesses and nonprofit entities to the end of enabling data-driven decisionmaking. Its focus areas include: US retail traffic, world oil storage, global water reserves, China's economic index, poverty mapping and agriculture. They offer clients "unprecedented insights about global trends." Orbital Insights describes its geoanlaytical process as one that comprises four key elements:
-    - Imaging – Namely satellite imagery of the earth's surface.
-    - Deep Learning – Algorithms that can "recgnoze objects, features, and patterns within images, generating highly intelligent and revealing data."
-    - Cloud Computing – Orbital's data pipeline allows it to "process tens of thousands of pixels every second."
-    - Data Science – In order to translate observations into actionable insights, Orbital leverages data science to contextualize and customize data for a variety of uses.
+    Orbital Insights is a data analytics company that provides products to both private businesses and nonprofit entities to the end of enabling data-driven decision making. Its focus areas include: US retail traffic, world oil storage, global water reserves, China's economic index, poverty mapping and agriculture. They offer clients "unprecedented insights about global trends." Orbital Insights describes its geoanlaytical process as one that comprises four key elements:
+    – Imaging: Namely satellite imagery of the earth's surface.
+    – Deep Learning: Algorithms that can "recognize objects, features, and patterns within images, generating highly intelligent and revealing data."
+    – Cloud Computing: Orbital's data pipeline allows it to "process tens of thousands of pixels every second."
+    – Data Science: In order to translate observations into actionable insights, Orbital leverages data science to contextualize and customize data for a variety of uses.
   howDataShared: |-
-    Orbital Insight’s collaboration with the World Bank is the second such initiative of which it has been a part. The company is already feeding data to the [Global Forest Watch](http://datacollaboratives.org/cases/global-forest-watch.html) data collaborative aimed at tracking and minimizing deforestation around the world.
+    Orbital Insight’s collaboration with the World Bank is the second such initiative of which it has been a part. The company is already feeding data to the Global Forest Watch (http://datacollaboratives.org/cases/global-forest-watch.html), a data collaborative aimed at tracking and minimizing deforestation around the world.
 
     The combination of Orbital’s satellite imagery and artificial intelligence capabilities can be leveraged in a number of ways. The company showed, for instance, that artificial intelligence analyzing satellite imagery to count cars in a retailer’s parking lot “can be more accurate than U.S. census data at predicting the retailer’s quarterly earnings.”
   purpose: Orbital Insights has partnered with the World Bank in an initiative "testing
@@ -1189,7 +1191,7 @@ datacollaborative:
   whatDataShared: The Mobile Data for Food Security initiative is not a traditional
     data collaborative, as Nielsen does not share data but rather shares data analysis
     expertise. Nielsen advised the World Food Program on how to collect and analyze
-    data received via mobile phone surveys in a safe and comprehensive manner, and
+    data received via mobile phone surveys in a safe and comprehensive manner and
     to ensure the data was valid compared with face-to-face interviews.
   howDataShared: 'With help from Nielsen, WFP was able to use and adapt technology
     to aid in their data collection strategies: "optimizing the techniques used for
@@ -1199,7 +1201,7 @@ datacollaborative:
     the quality of the various collection methods used, honing in on country-specific
     best practices where needed."'
   purpose: Data is collected by participants through a mobile phone survey that aims
-    to understand food insecurity in order to advise WFP's resouce allocations.
+    to understand food insecurity in order to advise WFP's resource allocations.
 - sys:
     id: 6ftgmaCsvYMSuQEYOqkWia
   caseStudy: Mobile Data, Environmental Extremes and Population (MDEEP) Project
@@ -1225,13 +1227,12 @@ datacollaborative:
   whatDataShared: In partnership with the United Nations and nonprofit organizations,
     Grameenphone shares anonymized telecom data as a part of the Mobile Data, Environmental
     Extremes and Population (MDEEP) Project.
-  howDataShared: 'Researchers, identifying the high-uptake of mobile phones in Bangadesh
-    (89% of households have at least one phone) used network data routinely collected
-    at mobile phone towers to map popualations. The data was anonymized so that researchers
+  howDataShared: 'Researchers, identifying the high-uptake of mobile phones in Bangladesh
+    (89% of households have at least one phone), used network data routinely collected
+    at mobile phone towers to map populations. The data was anonymized so that researchers
     could map individual journeys on a daily, weekly and monthly basis.  '
-  purpose: In partnership with the United Nations and nonprofit organizations, Grameenphone
-    shares anonymized telecom data as a part of the Mobile Data, Environmental Extremes
-    and Population (MDEEP) Project with the United Nations and nonprofit organizations.
+  purpose: Researchers analyzed the data to detect anomalies in communication, mobility
+    and consumption patterns in Bangladesh during cyclone Mahasen, August 2016.
 - sys:
     id: 5bNlJoOrHq0YQciOIkkA6Q
   caseStudy: Mobile Operator Data for Haiti Earthquake 2010
@@ -1251,23 +1252,23 @@ datacollaborative:
   dataSource:
   - Mobile Phone Locations
   link: http://www.flowminder.org/case-studies/haiti-earthquake-2010
-  whatDataShared: Following the 2010 earthquake, the Flowminder team analysed the
-    movements of two million anonymous mobile phones in Haiti, in order to track population
+  whatDataShared: Following the 2010 earthquake, the Flowminder team analyzed the
+    movements of two million anonymous mobile phones in Haiti in order to track population
     movements following the disaster.
-  howDataShared: Digicel Haiti provided Flowminder and other oganizations anonymized
+  howDataShared: Digicel Haiti provided Flowminder and other organizations anonymized
     data on the position of 1.9 million SIMs in Haiti from 42 days before the 2010
-    earthquake to 158 days afterwards. Nearly 200,000 SIMs that were present in Haiti&rsquo;s
-    capital Port-au-Prince when the earthquake struck had left 19 days post-earthquake.
-    Just under a third of Port-au-Prince&rsquo;s inhabitants were mobile phone subscribers
-    at the time of the earthquake, so this movement of SIMs equates to the movement
-    of 630,000 people.
+    earthquake to 158 days afterwards. Nearly 200,000 SIMs that were present in Haiti's
+    capital Port-au-Prince when the earthquake struck were no longer in the city 19
+    days post-earthquake. Just under a third of Port-au-Prince's inhabitants were
+    mobile phone subscribers at the time of the earthquake, so this movement of SIMs
+    equates to the movement of 630,000 people.
   purpose: Through this collaboration with Digicel Haiti, Flowminder was able to analyze
     the movement of two million anonymous mobile phones in Haiti that corresponded
     closely to the real mobility of the population after the earthquake. This data
-    provided critical support to the UN and other relief agencies, and also helped
+    provided critical support to the UN and other relief agencies and also helped
     predict post-earthquake population displacement patterns. This research and information
-    will allow other organizations better prepare relief activities even before natural
-    disasters strike.
+    will allow other organizations to better prepare relief activities even before
+    natural disasters strike.
 - sys:
     id: 5bCwvFoWLmASuAWim6Sig2
   caseStudy: Mobile Phone Data for Optimizing Bus Routes in Korea
@@ -1286,16 +1287,16 @@ datacollaborative:
   dataKind:
   - Mobile Phone Records
   link: http://dataimpacts.org/project/mobile-phone-data-optimize-bus-routes/
-  whatDataShared: The Data and Statistics division of Seoul’s Metropolitan Government
+  whatDataShared: The Data and Statistics division of Seoul’s metropolitan government
     analyzed late night call records to help plan bus routes in a more inclusive manner.
   howDataShared: 'Focusing on the "nine most heavily trafficked late night routes,"
-    the KT Corporation telecom provided late night phone call data to the Mayor''s
+    the KT Corporation telecom provided late night phone call data to the mayor''s
     office. '
   purpose: The purpose of this data collaborative was to improve bus routes in Seoul,
-    to ensure they best serve passengers. As explained by the Data Impacts website
-    "Since 2012, Seoul’s 'Owl Bus' service has saved the city’s lower-income groups
-    impact approximately $1.2 million by providing more affordable transportation
-    data using cell phone data to plan late night bus routes in Seoul."
+    to ensure they best served passengers. As explained by the Data Impacts website,
+    "Since 2012, Seoul’s "Owl Bus" service has saved the city’s lower-income groups
+    approximately $1.2 million by providing more affordable transportation using cell
+    phone data to plan late night bus routes."
 - sys:
     id: 2EqAnf0s9ukgG24O46IEIk
   caseStudy: NetHope
@@ -1310,15 +1311,15 @@ datacollaborative:
   collaborativeType:
   - Trusted Intermediary
   link: http://nethope.org/our-approach/
-  whatDataShared: Nethope has a variety of projects that aim to provide cross-sectoral
+  whatDataShared: NetHope has a variety of projects that aim to provide cross-sectoral
     innovations and technology with the goal of achieving developmental outcomes.
-    In one instance, they collaborated with the private sector to map mobile phone
-    data in order to map the spread of Ebola outreaks in West Africa.
-  howDataShared: Nethope acts as an intermediary for a number of not-for-profit organizations
+    In one instance they collaborated with the private sector to map mobile phone
+    data in order to map the spread of Ebola outbreaks in West Africa.
+  howDataShared: NetHope acts as an intermediary for a number of not-for-profit organizations
     looking to leverage technology to improve their work output. By becoming a partner
-    or member with NetHope, organizations work through the project design/ development
+    or member with NetHope, organizations work through the project design and development
     phase; member engagement phase; and finally the funding and execution phase. NetHope
-    helps leverage their contacts and expertise to guide organiztions in this process.
+    helps leverage their contacts and expertise to guide organizations in this process.
   purpose: NetHope's collaboratives are supported by 4 main goals as listed on their
     website. 1) Supporting practical innovation; 2) Simplifying and Streamlining Utilization
     of Technology; 3) Building Organizational Capacity; 4) Encouraging Sector-Wide
@@ -1339,29 +1340,29 @@ datacollaborative:
   - Observed Personal Data
   dataKind:
   - Medical Data
-  link: http://grants.nih.gov/grants/guide/rfa-files/RFA-LM-15-001.html#sthash.9IWj4kcw.dpuf
-  whatDataShared: In November 2014, the National Institute of Health (NIH) launched
+  link: https://datascience.nih.gov/bd2k/about
+  whatDataShared: In November 2014 the National Institute of Health (NIH) launched
     the Big Data to Knowledge (BD2K) initiative as a trans-NIH, community-enabled
     endeavor towards maximizing the collective value of current and future biomedical
     digital assets to better inform and protect human health.
   howDataShared: 'The BD2K initiative encourages the broad use of biomedical digital
-    assets by making them discoverable, accessible, and citable. In doing so, researchers
-    need to take into account complex security issues, as Vivien Bonazzi, programme
+    assets by making them discoverable, accessible and citable. In doing so, researchers
+    need to take into account complex security issues. As Vivien Bonazzi, programme
     director in computational biology and bioinformatics at the National Human Genome
-    Research Institute explains: "When a person consents to have his or her data used
-    in one way, researchers cannot suddenly change that use, she says. In a big-data
+    Research Institute, explains: "When a person consents to have his or her data
+    used in one way, researchers cannot suddenly change that use... In a big-data
     age that uses the cloud in addition to local hardware, new technologies in encryption
     and secure transmission will need to address such privacy concerns"'
-  purpose: As biomedical datasets become increasingly large, diverse, and complex,
-    they tax conventional methods for sharing, managing, and analyzing data. Additionally,
+  purpose: As biomedical datasets become increasingly large, diverse and complex,
+    they tax conventional methods for sharing, managing and analyzing data. Additionally,
     researchers’ abilities to capitalize on biomedical big data science-based approaches
     are limited by poor data accessibility and interoperability, the lack of appropriate
     tools, and insufficient training. The BD2K initiative acts as a trans-NIH, community-enabled
     endeavor towards maximizing the collective value of current and future biomedical
     digital assets to better inform and protect human health. The aims of the BD2K
     initiative are to facilitate broad use of biomedical digital assets by making
-    them discoverable, accessible, and citable; to conduct research and develop the
-    methods, software, and tools needed to fully analyze biomedical big data; to enhance
+    them discoverable, accessible and citable; to conduct research and develop the
+    methods, software and tools needed to fully analyze biomedical big data; to enhance
     training in the development and use of methods and tools necessary for biomedical
     big data science; and to enable a data ecosystem that accelerates both basic and
     translational discovery as part of a digital enterprise.
@@ -1387,17 +1388,17 @@ datacollaborative:
   whatDataShared: On January 20, 2015, President Obama announced the Precision Medicine
     Initiative (PMI). The program will enroll participants from diverse backgrounds
     to collect data, which will be shared with researchers working on a variety of
-    important health questions. The program focuses not just on disease, but also
-    on preventative and lifestyle chnges needed for a healthy life.
+    important health questions. The program focuses not just on disease but also on
+    preventative and lifestyle changes needed for a healthy life.
   howDataShared: PMI's All of Us Research Program invites people from all across the
     U.S. to contribute health information. This information will form the basis of
-    a data set that researchers can analyze to identify better ways to prevent and
+    a dataset that researchers can analyze to identify better ways to prevent and
     treat diseases.
   purpose: PMI aims to be a participant-engaged, data-driven enterprise supporting
     research to prolong health and treat disease.
 - sys:
     id: 6gMgsJZ984SqGMM0a00GMK
-  caseStudy: Orange Telecom Data for Development Challenge
+  caseStudy: Orange Telecom Data for Development Challenge (D4D)
   sector:
   - Health
   - Environment
@@ -1416,28 +1417,29 @@ datacollaborative:
   dataSource:
   - 'Mobile phone locations: GPS Data'
   link: http://www.d4d.orange.com/en/Accueil
-  whatDataShared: In Ivory Coast and Senegal, Orange Telecom hosted a global challenge
+  whatDataShared: In the Ivory Coast and Senegal, Orange Telecom hosted a global challenge
     that allowed researchers to use anonymized, aggregated Call Detail Record (CDR)
     data to help solve various development problems, including those related to transportation,
-    health, and agriculture.
+    health and agriculture.
   howDataShared: Sonatel and the Orange Group make their anonymous data, extracted
     from the mobile network in Senegal, available to international research laboratories
-    as part of the D4D challenge, as well as data on hours of sunshine.
+    as part of the D4D challenge.
   purpose: The thematic areas chosen for the D4D challenge were developed in consultation
     with various government ministries and international experts, who sought research
-    from the D4D Challenge to improve their policy and development outcomes. The winners
-    of the D4D challenge in Senegal included researching the use of mobile phone data
-    for electrification planning, analyzing how mobile phone access affects millet
-    prices, and investigating how waterborne parasites spread through human movement.
+    results from the D4D Challenge to improve their policy and development outcomes.
+    The winners of the D4D challenge in Senegal included researching the use of mobile
+    phone data for electrification planning, analyzing how mobile phone access affects
+    millet prices, and investigating how waterborne parasites spread through human
+    movement.
 - sys:
     id: 1RBo3XfgoYa4KYKQSISoia
-  caseStudy: PatientsLikeMe-Genentech Research Collaboration
+  caseStudy: PatientsLikeMe and Genentech Research Collaboration
   sector:
   - Health
   sharedBy:
   - PatientsLikeMe
   sharedWith:
-  - Genetech Research
+  - Genentech Research
   region: North America
   collaborativeType:
   - Research Partnerships
@@ -1449,23 +1451,23 @@ datacollaborative:
   - Medical Data
   link: http://news.patientslikeme.com/press-release/genentech-and-patientslikeme-enter-patient-centric-research-collaboration
   whatDataShared: PatientsLikeMe is a global online patient network. Through this
-    data collaborative with Genetech, they aim to develop innovative ways of researching
+    data collaborative with Genentech, they aim to develop innovative ways of researching
     patients’ real-world experiences with disease and treatment. The agreement is
     the first broad research collaboration between PatientsLikeMe and a pharmaceutical
     company and provides PatientsLikeMe the opportunity to expand its patient network
     in oncology.
   howDataShared: |-
     Over the course of the five-year agreement, Genentech will tap into PatientsLikeMe’s Global Network Access, a service directly targeted at pharmaceutical companies that "delivers a range of data, research and tools." The service includes:
-    - "Access to PatientsLikeMe’s network to enable cross-sectional research and broader discovery of patient insights.
-    - Enhanced customized research services and capabilities.
-    - Focused research projects to evaluate and develop new medical evidence, measures and standards of health.
-    - Access to PatientsLikeMe’s clinical trial awareness tool, which allows patients to learn about clinical trials."
+    -- "Access to PatientsLikeMe’s network to enable cross-sectional research and broader discovery of patient insights.
+    -- Enhanced customized research services and capabilities.
+    -- Focused research projects to evaluate and develop new medical evidence, measures and standards of health.
+    -- Access to PatientsLikeMe’s clinical trial awareness tool, which allows patients to learn about clinical trials."
   purpose: The data collaborative seeks to provide new insight into disease and treatments
     informed by the real-world experiences of patients. It also provides PatientsLikeMe
     the opportunity to expand its patient network in oncology.
 - sys:
     id: 2uxjFYiEP2kYKwgSMwSYIq
-  caseStudy: Phillipines OpenTraffic Initiative
+  caseStudy: Phillippines OpenTraffic Initiative
   sector:
   - Transportation
   sharedBy:
@@ -1486,7 +1488,7 @@ datacollaborative:
     Bank are developing free, open-source tools that translate Grab’s driver GPS data
     into traffic statistics, including speeds, flows, and intersection delays. '
   howDataShared: Grab's data will be shared with the World Bank to create an open-source
-    platform OpenTraffic, for analysing traffic speeds and flows, and DRIVER, for
+    platform, OpenTraffic, for analyzing traffic speeds and flows, and DRIVER, for
     identifying road incident blackspots and improving emergency response. Grab and
     the World Bank plan to make OpenTraffic available to other Southeast Asian city
     governments in the near future.
@@ -1513,17 +1515,17 @@ datacollaborative:
   - Social Media Data
   link: https://www.coosto.com/en/resources/user-success-stories/how-does-cbs-use-coosto
   whatDataShared: 'Coosto is a for-profit social media analytics company. The Netherland''s
-    Central Bureau for Statistics used Coosto to research consumer sentiment. Piet
-    Daas, Methodologist and Data Scientist at the Central Bureau for Statistics, explains:
-    “Because the volume of messages on social media is rising, it’s becoming relatively
-    easy to conduct (market) research on a large scale with Coosto. At Central Bureau
-    for Statistics, we’ve analysed the sentiment of online messages to gain insight
-    into the consumer confidence.”'
-  howDataShared: 'Since Coosto is a for-profit company, much of their internal procedues
-    remain inscrutible. However, customers like the Central Bureau for Statistics,
-    are able to access Coosto''s social media monitoring capablities to gain an understanding
-    of market and consumer senitiments. In this case, Coosto''s results were paired
-    with the consumer confidence of Central Bureau for Statistics. '
+    Central Bureau for Statistics (CBS) used Coosto to research consumer sentiment.
+    Piet Daas, methodologist and data scientist at the CBS, explains: “Because the
+    volume of messages on social media is rising, it’s becoming relatively easy to
+    conduct (market) research on a large scale with Coosto. At Central Bureau for
+    Statistics, we’ve analyzed the sentiment of online messages to gain insight into
+    the consumer confidence.”'
+  howDataShared: Since Coosto is a for-profit company most of their internal procedures
+    remain inscrutable. However, customers, like the Central Bureau for Statistics,
+    are able to access Coosto's social media monitoring capabilities to gain an understanding
+    of market and consumer sentiments. In this case Coosto's results were paired with
+    the consumer confidence data of the CBS.
   purpose: 'This collaborative found that "the sentiment on social media is coherent
     with consumer confidence. The correlation: 0.88." As Piet Daas explains "The power
     of big data is that the information is accessible in real time. Results are available
@@ -1551,18 +1553,18 @@ datacollaborative:
   dataSource:
   - Mobile Phone
   link: http://ec.europa.eu/eurostat/cros/system/files/assessing_the_quality_of_mobile_phone_data_as_a_source_of_statistics_q2016.pdf
-  whatDataShared: 'In an analysis conducted jointly by Statistics Belgium, Eurostat
+  whatDataShared: In an analysis conducted jointly by Statistics Belgium, Eurostat
     and Proximus, researchers accessed Belgian mobile phone data (from the major network
-    operator, Proximus) and compared it to results of the 2011 Census. '
+    operator, Proximus) and compared it to results of the 2011 census.
   howDataShared: The paper produced from this research attempted to find the accuracy
     of mobile phone data as a measure of resident population density in Belgium. The
-    anonymized and aggegated mobile phone data was obtained from Proximus. For each
+    anonymized and aggregated mobile phone data was obtained from Proximus. For each
     transaction on Proximus's mobile network, the mobile phone location was located
-    to the level of a cell identity. A heatmap was then created showing the number
+    to the level of a cell identity. A heat map was then created showing the number
     of devices in each area, on the basis of localizations by the mobile network.
     Data were recorded every 15 minutes for one weekday.
   purpose: These researchers attempted to find whether mobile phone data could be
-    tested for internal consistency and compared to results of the 2011 Census. Results
+    tested for internal consistency and compared to results of the 2011 census. Results
     showed that mobile phone data was "shown to provide valid and accurate information
     which may serve as a complement to traditional statistics, but also as an entry
     point in real time to phenomena inaccessible until now."
@@ -1615,15 +1617,15 @@ datacollaborative:
   - Observed Non-Personal Data
   dataKind:
   - Traffic Data
-  link: http://www.theverge.com/2016/3/17/11256452/googles-sidewalk-labs-flow-self-driving-cars-dot
+  link: http://www.flowmobility.io
   whatDataShared: The Alphabet company Sidewalk Lab's Flow initiative aims to work
     with cities' digitized data to "close the information gap between various sectors
     of government, their data and inventory, and the citizens that use it."
-  howDataShared: 'Sidewalk labs aims to support and work from the digital inventories
+  howDataShared: 'Sidewalk Labs aims to support and work from the digital inventories
     that city agencies are beginning to use to house infrastructure and planning data. '
   purpose: Sidewalk’s Flow team and the cities' digitized inventory can help local
-    agencies do make transportation and infrastructure decisions based on data and
-    evidence to the end of improving quality of life for residents.
+    agencies to make transportation and infrastructure decisions based on data and
+    evidence towards the end of improving quality of life for residents.
 - sys:
     id: EEMcJM4jtI6qqScewkgMM
   caseStudy: Open Algorithms (OPAL) Project
@@ -1652,17 +1654,17 @@ datacollaborative:
   - API
   link: http://www.opalproject.org/about-us
   whatDataShared: According to its website, OPAL’s core will consist of an open suite
-    of softwares and open algorithms providing access to statistical information coming
+    of software and open algorithms providing access to statistical information coming
     from anonymized, secured and formatted data.
   howDataShared: In order to improve the accuracy and timeliness of the data, OPAL
-    uses open algorithms, accessed by an API, to run on OPAL servers of partner companies,
-    behind their firewalls. According to its website, these APIs will be used to access
-    indicators such as population density, mobility, approximations of poverty indices,
-    or literacy rate based on mobile data from telecom operators as well as a library
-    of certified open algorithms to extract these indicators in a governed and trustworthy
-    manner.
-  purpose: 'OPAL (for Open Algorithms) is a collaborative project developed by a number
-    of partner organizations seeking to leverage the power of Big Data to solve public
+    uses open algorithms, accessible via an API, to run on OPAL servers of partner
+    companies, behind their firewalls. According to its website, these APIs will be
+    used to access indicators such as population density, mobility, approximations
+    of poverty indices, or literacy rate based on mobile data from telecom operators.
+    Also accessible through the APIs is a library of certified open algorithms to
+    extract these indicators in a governed and trustworthy manner.
+  purpose: 'OPAL (OPen ALgorithms) is a collaborative project developed by a number
+    of partner organizations seeking to leverage the power of big data to solve public
     problems. '
 - sys:
     id: 1xiwOYYr8kwAwOOyOQmK2m
@@ -1691,7 +1693,7 @@ datacollaborative:
     start and end points; and the wait time and activities performed at intersections. '
   howDataShared: Strava Metro anonymizes the rider information collected from its
     participants and then shares this with city planners and administrators. Often
-    this data is combined with existing city datasights to provide more accurate insights
+    this data is combined with existing city data to provide more accurate insights
     into urban activities and road usage.
   purpose: Strava Metro provides crowdsourced data from over 90 million bike rides
     and 24 million runs to help urban planners understand how and where cyclists and
@@ -1709,7 +1711,7 @@ datacollaborative:
   - Telecom Italia
   sharedWith:
   - University researchers
-  - developers and designers
+  - Developers and designers
   region: Europe and Central Asia
   collaborativeType:
   - Prizes & Challenges
@@ -1725,12 +1727,15 @@ datacollaborative:
     \ November 2013 to December 2013 with partners from various Italian industries
     (local news, automobile, energy and weather) into one aggregated, geo-referenced
     dataset for participants to use for the competition. \n"
-  howDataShared: |-
-    During the contest, the data for Telecom Italia's challenge was available in batches and through an API, and contained millions of call data records, energy consumption records, tweets, and weather data points.
-    Recently, the dataset used for the contest was made open to the public [via their website.](http://theodi.fbk.eu/openbigdata/) This data was released under the The Open Database License (ODbL) available in its raw form or through an API.
+  howDataShared: During the contest, the data for Telecom Italia's challenge was available
+    in batches and through an API, and contained millions of call data records, energy
+    consumption records, tweets and weather data points. Recently, the dataset used
+    for the contest was made open to the public via their website (http://theodi.fbk.eu/openbigdata/).
+    This data was released under the Open Database License (ODbL) available in its
+    raw form or through an API.
   purpose: Telecom Italia's Big Data Challenge focused on creating and developing
-    innovative technological ideas in the field of Big Data, in order to spur innovation
-    in this sector and improves the lives of individuals, companies and communtities.
+    innovative technological ideas in the field of big data in order to spur innovation
+    in this sector and improves the lives of individuals, companies and communities.
 - sys:
     id: 2WgWbXKr68kCIIQGkm8IWk
   caseStudy: Telefonica Digital's Smart Steps
@@ -1753,19 +1758,19 @@ datacollaborative:
   dataSource:
   - Mobile Phone Locations
   link: http://en.blogthinkbig.com/2012/10/09/big-data-will-power-the-digital-economy/
-  whatDataShared: Telefonica's Smart sets is part of their Dynamic Insights data analysis
-    arm that uses fully anonymised and aggregated mobile network data to measure and
-    compare the number of people visiting an area at any time.
+  whatDataShared: Telefonica's Smart Steps is part of their Dynamic Insights data
+    analysis arm that uses "fully anonymised and aggregated mobile network data to
+    measure and compare the number of people visiting an area at any time."
   howDataShared: 'Telefonica''s Dynamic Insights, of which Smart Steps is a part,
     is a for-profit service offered to companies, local governments and other public
     bodies. In this collaboration, Telefonica provides not just the data, but also
-    the product and services to analyze and act on the data. High-level demographic
-    information about people''s activities in a certain area can be made vsible through
+    the products and services to analyze and act on the data. High-level demographic
+    information about people''s activities in a certain area can be made visible through
     heat-maps provided by Telefonica''s Smart Steps team.  '
   purpose: Telefónica’s Smart Steps product is an intelligence product enabling organizations
     to use fully anonymized and aggregated mobile network data to measure and compare
     the movements of crowds. It has generated deeper insights about the link between
-    human movement and the spread of infectious diseases, and provided vital information
+    human movement and the spread of infectious diseases and provided vital information
     to local governments in designing policy and in their urban planning.
 - sys:
     id: 6q0c8HnxTiY0Qm82q4MIek
@@ -1788,19 +1793,19 @@ datacollaborative:
   - Mobile Phone Locations
   link: http://www.gsma.com/mobilefordevelopment/wp-content/uploads/2015/12/GSMA_Disaster-Response_Nepal_Workshop.pdf
   whatDataShared: Flowminder and NCell jointly agreed to study the population flows
-    in post-earthquake situation by recording a location for each user (through SIM
-    cards) at two different times, and then counting the number of users who moved
+    in Nepal after the 2015 earthquake by recording a location for each user (through
+    SIM cards) at two different times and then counting the number of users who moved
     from one location to another.
   howDataShared: |-
-    Set-up included a high-specification Linux analysis server (with 128GB of RAM and over 20TB of disk space) within Ncell’s data centre.
+    Set-up included a high-specification Linux analysis server (with 128GB of RAM and over 20TB of disk space) within Ncell’s data center.
 
     The analysis consisted of a series of preprocessing steps automatically run for each new day’s Call Detail Record (CDR) data, followed by separate analyses designed to investigate particular aspects of mobility after the earthquake.
 
     Each day’s CDRs were provided by early morning the following day and historical data back to January 2015 were also provided. The preprocessing steps were designed to reduce this raw CDR data (approximately 12GB of CSV files per day).
-  purpose: This collaborative enable a response system during the crisis (natural
-    disasters, diseases outbreaks) with an established coordination among government,
-    mobile network providers and humanitarian communities. The same method was adopted
-    to map the population mobility, displacement and impacted areas in July 2016.
+  purpose: This collaborative enables a response system during a crisis (natural disasters,
+    diseases outbreaks) and establishes coordination among government, mobile network
+    providers and humanitarian communities. The same method was adopted to map the
+    population mobility, displacement and impacted areas after the July 2016 earthquake.
 - sys:
     id: 1O0gbACHEU4Cq4yKmoGU0U
   caseStudy: Yelp Dataset Challenge
@@ -1820,19 +1825,20 @@ datacollaborative:
   dataSource:
   - Social Networks
   link: http://www.yelp.com/dataset_challenge
-  whatDataShared: Yelp shares crowdsourced user data on restaurants across global
+  whatDataShared: Yelp shares global crowdsourced user data on restaurants across
     cities (such as Phoenix, Madison and Edinburgh) in its Dataset Challenge for participating
     researchers to build tools and provide research on urban trends and behavior.
-    Along with usual content associated with Yelp's data base (reviews, locations,
-    restaurant names) in Round 8 of the challenge, Yelp has also included photos to
+    Along with the usual content associated with Yelp's database (reviews, locations,
+    restaurant names), in Round 8 of the challenge Yelp has also included photos in
     the dataset.
   howDataShared: 'The dataset file is available on the website to the public for participating
-    researchers-interested individuals must simply complete an online form. The data
-    is avaliable via a file composed of a single object type, one json-object per-line.
+    researchers. Interested individuals must simply complete an online form. The data
+    is available via a file composed of a single object type, one json-object per
+    line.
 
 '
   purpose: Participants are encouraged to use the Yelp dataset "in an innovative way
-    and break ground in research." These included research in social trends, location
+    and [to] break ground in research." This includes research in social trends, location
     mining and urban planning, Natural Language Processing (NLP), Changepoints and
     Events, and much more.
 - sys:
@@ -1846,7 +1852,7 @@ datacollaborative:
   - MapShots AgStudio
   - SST Summt
   - SSI
-  - echelon
+  - Echelon
   - Agrian
   - FS AIS
   sharedWith:
@@ -1866,16 +1872,16 @@ datacollaborative:
   dataSource:
   - Multiple
   link: http://www.climate.com/
-  whatDataShared: The Climate Corporation works with API agreements foremd with a
+  whatDataShared: The Climate Corporation works with API agreements formed with a
     number of partners to help develop their FieldView range of products and services
     to its customers. The data accessed through these API's include field boundaries,
     climate views, seeding prescriptions and other agricultural data.
-  howDataShared: The Climate Corporation is a for-profit company, and customers working
-    in agriculture can access the API's and data through a range of their FieldView
-    products and services.
-  purpose: By accessing these APIs, The Climate Corporation and its customers can
-    quickly access data without relying on manual processes. This allows timely monitoring
-    of crops, which leads to more efficient, precise and less wasteful agricultural
+  howDataShared: The Climate Corporation is a for-profit company. Customers working
+    in agriculture can access the APIs and data using the company's FieldView products
+    and services.
+  purpose: By using these APIs, The Climate Corporation and its customers can quickly
+    access data without relying on manual processes. This allows timely monitoring
+    of crops and, as a result, more efficient, precise and less wasteful agricultural
     practices.
 - sys:
     id: 3ZSkF3hpccYmuqWkICqkso
@@ -1893,7 +1899,7 @@ datacollaborative:
   - Telefónica
   - Vodafone
   sharedWith:
-  - Participating Developers
+  - Participating developers
   region: Worldwide
   collaborativeType:
   - API
@@ -1904,17 +1910,18 @@ datacollaborative:
     REST based APIs enabling rapid, repeatable, and flexible integration among operations
     and management systems. TM Forum REST based APIs have been endorsed by 19 leading
     technology ecosystem participants and service providers.
-  howDataShared: TM Forum's Open API program aims for a paradigmic transformation
-    in businesses to adapt to the digital economy and the hype-connected world. By
+  howDataShared: TM Forum's Open API program aims for a paradigmatic transformation
+    in businesses to adapt to the digital economy and the hyper-connected world. By
     developing and endorsing a suite of open industry APIs, businesses can ensure
-    this change occurs and busnesses can develop strong and far-reaching digital partnerships.
+    this change occurs and businesses can develop strong and far-reaching digital
+    partnerships.
   purpose: According to its website, TM Forum’s Open API program is a global initiative
     to enable end to end seamless connectivity, interoperability and portability across
     complex ecosystem based services. The goal is to make it easier to create, build
     and operate complex innovative services for businesses.
 - sys:
     id: 52O4yN56lquguIoWcKeSES
-  caseStudy: Tracking Malaria in Nambia with Cell Phone Data
+  caseStudy: Tracking Malaria in Namibia with Cell Phone Data
   sector:
   - Health
   - Telecommunications
@@ -1922,7 +1929,7 @@ datacollaborative:
   - Mobile Telecommunications Limited
   sharedWith:
   - Flowminder Foundation
-  - the University of Southampton
+  - The University of Southampton
   region: Sub-Saharan Africa
   collaborativeType:
   - Trusted Intermediary
@@ -1933,7 +1940,7 @@ datacollaborative:
   - Tracking Data
   dataSource:
   - Mobile Phone Locations
-  link: http://dataimpacts.org/project/malaria/
+  link: http://www.flowminder.org/case-studies/guiding-malaria-elimination-strategies-in-namibia
   whatDataShared: Researchers used satellite and cell phone data to map how malaria
     spreads throughout Namibia and show where elimination efforts have the greatest
     impact.
@@ -1945,11 +1952,11 @@ datacollaborative:
     locations then allow researchers to create detailed maps of human movement.
   purpose: The project's use of phone records aimed to track and eliminate malaria
     in Namibia. As a result of their work, researchers were able to identify and provide
-    bed-nets to the 80,000 people most important to the malaria transmission cycle
+    bed nets to the 80,000 people most important to the malaria transmission cycle
     in 2013.
 - sys:
     id: 4tq24MB9va8oM8GIs0eo2A
-  caseStudy: MIT Labratory for Social Machines (LSM)
+  caseStudy: MIT Laboratory for Social Machines (LSM)
   sector:
   - Education
   sharedBy:
@@ -1976,14 +1983,14 @@ datacollaborative:
   link: http://socialmachines.media.mit.edu/
   whatDataShared: In October 2014 Twitter committed $10 million towards the creation
     of MIT Media Lab’s Laboratory for Social Machines (LSM), providing full access
-    to its real-time, public stream and entire archive of tweets. Today, MIT's LSM
+    to its real-time public stream and entire archive of tweets. Today, MIT's LSM
     acquires data from a number of digital networks to provide insights and research
     into a number of fields.
   howDataShared: |-
-    LSM was initially launched by former Twitter Chief Media Scientist Deb Roy, who  consequently gained complete access to all tweets (real-time and historical) from Twitter. Considering this close relationship between LSM and Twitter, [guidelines](https://socialmachines.media.mit.edu/139-2/) have subsequently been formed to separate the interests of the social media platform and the academic institution.
-    Though other digital networks are mentoned in LSM's projects, the data sharing agreements between LSM and other social media platforms are unknown.
+    LSM was initially launched by former Twitter Chief Media Scientist Deb Roy, who consequently gained complete access to all tweets (real-time and historical) from Twitter. Considering this close relationship between LSM and Twitter, guidelines (https://socialmachines.media.mit.edu/139-2/) have subsequently been formed to separate the interests of the social media platform and the academic institution.
+    Though other digital networks are mentioned in LSM's projects, the data sharing agreements between LSM and other social media platforms are unknown.
   purpose: Social Machines hosts a number of research projects that aim to map and
-    analyze social systems, and design tools to support the positive use of human
+    analyze social systems and to design tools to support the positive use of human
     networks. This includes research in the fields of Journalism and Public Opinion,
     Responsive Governance and Human Development. Previous projects include the analysis
     of tweets from the 2016 presidential campaign to scrutinize public opinion; creating
@@ -2012,14 +2019,14 @@ datacollaborative:
   dataType:
   - Observed Personal Data
   link: https://blog.twitter.com/2014/introducing-twitter-data-grants
-  whatDataShared: Twitter provides Academic Data Grants to academic institutions;
-    for example, Twitter provided a collection of 2 billion tweets from May 2009 and
+  whatDataShared: Twitter provided Academic Data Grants to academic institutions.
+    For example, Twitter provided a collection of 2 billion tweets from May 2009 and
     October 2010 and 1.8 billion tweets collected from August 2011 to November 2012
     to Johns Hopkins to track flu infections.
-  howDataShared: Prospective participating researchers are asked to submit a proposal
+  howDataShared: Prospective participating researchers were asked to submit a proposal
     via the Twitter Data Grants website. For the initial pilot, a small number of
-    proposals are selected to receive free datasets via Gnip, Twitter's commercial
-    data reseller partner. In addition to the data,  selected institutions are also
+    proposals were selected to receive free datasets via Gnip, Twitter's commercial
+    data reseller partner. In addition to the data,  selected institutions were also
     offered the opportunity to collaborate with Twitter engineers and researchers.
   purpose: 'The Twitter Data Grants program aims to ease the access to Twitter''s
     vast dataset of tweets for researchers who can glean important insights by analyzing
@@ -2053,15 +2060,15 @@ datacollaborative:
     safety initiatives. '
   howDataShared: This is the first collaboration of its kind, where the City of Boston
     has partnered with Uber to access their data. Since the data provided thus far
-    has been too broad to draw meaningful conclusions, a Bill is currently in the
+    has been too broad to draw meaningful conclusions, a bill is currently in the
     Senate that would require Uber and other ride-hail companies to give the city
     ride data based on much smaller geographic areas.
-  purpose: Uber shares aggregate data on travel patterns at the zipcode level with
+  purpose: Uber shares aggregate data on travel patterns at the zip code level with
     the City of Boston in order to provide new insights to city officials on urban
     growth, traffic congestion, public transportation and climate change. This data
-    assists policy makes and city planners develop a more detailed account of the
-    needs of its residents. However, recent reports suggest the data ashared was too
-    broad to provide meaningful analysis.
+    assists policy makers and city planners in developing more detailed accounts of
+    the needs of its residents. However, recent reports suggest that the data shared
+    was too broad to provide meaningful analysis.
 - sys:
     id: 3Z0QIYk9WgYoYi8aqQiWOs
   caseStudy: Yelp LIVES score
@@ -2090,12 +2097,12 @@ datacollaborative:
     public on the Yelp business review platform.
   purpose: According to Yelp, LIVES enables local municipalities to display their
     hygiene inspection data as a business attribute on Yelp business pages. Consumers
-    in San Fransisco and New York City will be the first to benefit from this program
+    in San Francisco and New York City will be the first to benefit from this program
     as it rolls out in the weeks ahead. San Francisco users will be able to click
     through and view the inspection history of a local establishment.
 - sys:
     id: 2Z3ONykFY4oc8omqiyuIkw
-  caseStudy: Yelp’s Consumer Protection Initiative
+  caseStudy: Yelp Consumer Protection Initiative
   sector:
   - Health
   sharedBy:
@@ -2118,15 +2125,15 @@ datacollaborative:
     ProPublica, Yelp incorporates health care statistics and consumer opinion survey
     data onto the Yelp business pages of more than 25,000 medical treatment facilities.
     Through this partnership, Yelp has access to information compiled by ProPublica
-    from their own research and the Centers for Medicare and Medicaid Services for
-    4,600 hospitals, 15,000 nursing homes, and 6,300 dialysis clinics in the US. This
-    inforation is updated quarterly to enure accuracy.  '
+    and the Centers for Medicare and Medicaid Services for 4,600 hospitals, 15,000
+    nursing homes, and 6,300 dialysis clinics in the US. This information is updated
+    quarterly to ensure accuracy.  '
   howDataShared: ProPublica compiled healthcare information through its own research
     and the Centers for Medicare and Medicaid Services. This partnership allows Yelp
     to access this data and combine it with their own data on hospitals and healthcare
     services on its platform.
-  purpose: Yelp's Consumer Protection Intiative aims to enhance its review services
-    and support consumers' ability to make smart transactional decisions, particularly
+  purpose: Yelp's Consumer Protection Initiative aims to enhance its review services
+    and support consumers' abilities to make smart transactional decisions, particularly
     in regard to their healthcare.
 - sys:
     id: 2m71sNPrUIYqKOa0u4SKGy
@@ -2145,15 +2152,14 @@ datacollaborative:
   - Observed Personal Data
   link: http://www.wsj.com/articles/facebook-and-world-bank-link-up-to-gather-data-1475071295
   whatDataShared: Facebook, World Bank and the OECD launched a new measure of business
-    sentiment based on questioning companies that use their Facebook pages to connect
-    with customers through what is called the the Future of Business Survey. In cases
-    where Facebook data could not be used, like in China, more tradtional data collection
-    methods were used.
-  howDataShared: According to *The Wall Street Journal*, in testing since February
-    2016, the Future of Business Survey received responses to 15 queries from a total
-    of 90,000 small and midsize firms across 22 countries.
+    sentiment based on a "Future of Business Survey" questioning companies that use
+    their Facebook pages to connect with customers. In cases where Facebook data could
+    not be used, like in China, more traditional data collection methods were used.
+  howDataShared: According to The Wall Street Journal, in testing since February 2016,
+    the Future of Business Survey received responses to 15 queries from a total of
+    90,000 small and midsize firms across 22 countries.
   purpose: 'This initiative attempts to provide accurate and timely information about
-    business sentiment accross developed and developing countries in order to support
+    business sentiment across developed and developing countries in order to support
     economic growth and better inform business practices. '
 - sys:
     id: 3j1APBGWWQk2A6E2kssmM0
@@ -2163,7 +2169,7 @@ datacollaborative:
   - Environment
   - Infrastructure
   sharedBy:
-  - Social Media
+  - Social media
   - Multiple
   sharedWith:
   - Researchers in UK and Brazil
@@ -2183,17 +2189,17 @@ datacollaborative:
   dataSource:
   - Multiple
   link: http://www2.warwick.ac.uk/fac/cross_fac/cim/research/brazil_uk_collaboration
-  whatDataShared: This UK-Brazil collaborative  combines knowledge from computer science,
+  whatDataShared: This UK-Brazil collaborative combines knowledge from computer science,
     environmental science and the social sciences to investigate innovative methods
     to combine crowdsourced geo-tagged information (e.g. from social media) with real-time
     environmental data and models.
-  howDataShared: This project allows researchers to liase with the UK and Brazilian
-    partners to share and transfer knowledge and build capacity in the Brazilian academic
-    and governmental institutions involved.
+  howDataShared: This project allows researchers to liaise with UK and Brazilian partners
+    to share and transfer knowledge and build capacity in the Brazilian academic and
+    governmental institutions involved.
   purpose: This collaborative, which is still in its early stages, aims at establishing
-    an interdisciplinary network to share data and knowledge to support decision-making
-    involved in the monitoring and early-warning of floods and landslides with a view
-    to improve urban resilience.
+    an interdisciplinary network to share data and knowledge. This shared data would
+    be used to support the decision-making involved in the monitoring and early-warning
+    of floods and landslides with a view to improving urban resilience.
 - sys:
     id: 2RyVHQlGI0cwU48c8YSI4o
   caseStudy: Electronic Rothamsted Archive (e-RA)
@@ -2213,23 +2219,23 @@ datacollaborative:
   - Sensor Data
   dataSource:
   - Agricultural data
-  link: http://www.rothamsted.ac.uk/era
+  link: http://www.era.rothamsted.ac.uk/
   whatDataShared: Rothamsted Research, a UK based research institution and one of
     the oldest agricultural research institutions in the world, is working to make
     the results and data from their experiments universally accessible. This open
     data, collected as often as every 15 minutes, includes information on water run-off
-    levels, soil moisture, meteorological data, and soil nutrients, and is expected
+    levels, soil moisture, meteorological data and soil nutrients and is expected
     to run for decades.
   howDataShared: 'Rothamsted Research collaborates with Tessella, a data consultancy,
     to ensure that the collection and distribution of the data is done responsibly.
-    The data is scrutinized by a team of experts, and  a complex data management system
+    The data is scrutinized by a team of experts, and a complex data management system
     makes sure the data is efficiently shared and uploaded on a web platform for the
     public to access. Andrew Bowen from Tessella explained to BBC, "The back-end database
-    was relatively complex just in terms of collecting, managing and organising the
+    was relatively complex just in terms of collecting, managing and organizing the
     data. This presented another challenge in terms of how we presented this in an
-    attractive, acceptable and accessible way (to end-users)."  '
+    attractive, acceptable and accessible way [to end-users]."  '
   purpose: 'The Electronic Rothamsted Archive (e-RA) is a continuation of the Godan
-    Initiative, of which Rothamsted Archive is a part. The initiatiave aims to make
+    Initiative, of which Rothamsted Archive is a part. The initiative aims to make
     agricultural data available to the global scientific community in order to support
     agricultural innovation. Rothamsted, which houses some of the oldest and most
     comprehensive agricultural data, is an important partner in furthering this goal. '
@@ -2264,7 +2270,7 @@ datacollaborative:
     of consumer transactions and shopping trends.
   howDataShared: The Data Does Good system allows members of the public to donate
     their online shopping history and choose which charitable organizations will benefit.
-    Data Does Good ensures this information is protected and kept anonymous, to ensure
+    Data Does Good ensures this information is protected and kept anonymous to ensure
     the donor's privacy. Once this data is pooled with that of other donors, the data
     is sold to retailers, and the money raised is given to the selected charities.
   purpose: The initial aim of Data for Good was to "find a way to help everyday people
@@ -2294,22 +2300,22 @@ datacollaborative:
   - Metered Water Use
   link: http://californiadatacollaborative.com
   whatDataShared: 'In an effort to revolutionize the data infrastructure of California''s
-    water management, the CaDC works to automate the collection, analysis, and securely
-    store metered water use from participating agencies. This information will allow
-    for the creation of a more accurate dataset that details how much, when and where
-    water was used by Californian residents. '
+    water management, the CaDC works to automate the collection and analysis of metered
+    water use from participating agencies. This information will allow for the creation
+    of a more accurate dataset that details how much, when and where water was used
+    by Californian residents. '
   howDataShared: |-
     Agencies, cities, and water retailers can volunteer to be a part of the CaDC and contribute to building a new data infrastructure for water management in California. The CaDC has non-profit status, and the data analytics tools it creates are drawn from open source software.
 
-    Team ARGO, a collection of civic computational and statistical, were contracted to build, operate and maintain a new water data platform. This platform provides interactive analytics and data to CaDC utility providers and academic partners. Though this underlying data is not shared publicly, the code powering those tools is made open source where possible on the CaDC Github.
+    Team ARGO, a collection of civic computational and statistical talent, was contracted to build, operate and maintain a new water data platform. This platform provides interactive analytics and data to CaDC utility providers and academic partners. Though this underlying data is not shared publicly, the code powering those tools is made open source where possible on the CaDC Github.
   purpose: The CaDC's goal is to integrate California's water data into a state-wide
     platform to provide accurate technical analysis to better inform water policy
     and operational decision making. The project works to support water managers who
     partner with CaDC with tools and analytics and provide a public service for the
-    people of California. In 2017, on International Open Data day, the CaDC further
-    targeted this goal by hosting a Day of Action by analyzing water rate data of
-    400 water utility companies in order to standardize the information they publish
-    so it can be more easily scrutinized.
+    people of California. In 2017 on International Open Data day the CaDC further
+    targeted this goal by hosting a Day of Action. Water rate data of 400 water utility
+    companies was analyzed in order to standardize the information they publish so
+    it can be more easily scrutinized.
 - sys:
     id: 683dHGHXxKckiKY4uMCQa8
   caseStudy: AACR Project Genomics Evidence Neoplasia Information Exchange
@@ -2349,7 +2355,8 @@ datacollaborative:
   - Economic Development
   - Education
   sharedBy:
-  - Online Platform Workers like those from Uber; TaskRabbit or AirBnB
+  - Online Platform Workers like those from Uber
+  - TaskRabbit or AirBnB
   sharedWith:
   - JP Morgan Chase
   region: North America
@@ -2365,7 +2372,7 @@ datacollaborative:
   link: https://www.jpmorganchase.com/corporate/institute/document/jpmc-institute-online-platform-econ-brief.pdf
   whatDataShared: 'To develop this report analyzing the Online Platform Economy, JP
     Morgan Chase analyzed samples of platform participants (such as TaskRabbit or
-    Uber users.) This corresponded to over 240,000 anonymized individuals who have
+    Uber users). This corresponded to over 240,000 anonymized individuals who have
     received platform income between October 2012 and June 2016 from one or more of
     42 different platforms. '
   howDataShared: The report drew from existing Chase members participating in the
@@ -2401,12 +2408,12 @@ datacollaborative:
   link: http://www.upsingapore.com/events/data-discovery-challenge/
   whatDataShared: Participants in the Data Discovery Challenge are given access to
     useful datasets and resources such as capability building workshops and industry
-    experts advice from both the private and public sector.
+    experts' advice from both the private and public sector.
   howDataShared: Public data used for the challenge was available through the Singaporean
     government's open data platform, Data.gov.sg. Participants were also given access
-    to Intel’s Mashery API Network via the Data Discovery website, and data from the
+    to Intel’s Mashery API Network via the Data Discovery website and data from the
     Federated Data Registry. Participants were also encouraged to include data from
-    their own organizations, and add this data to the Data Registry.
+    their own organizations and add this data to the Data Registry.
   purpose: 'The Challenge was created to help Singapore make better use of the diverse
     public- and private-sector datasets that could be brought to bear on public problems.
     Solutions ranged from means for enabling smarter enterprises to improving education
@@ -2432,14 +2439,15 @@ datacollaborative:
   link: http://datasift.com/press-releases/UN-Global%20Pulse%20Partnership/
   whatDataShared: 'DataSift, a for-profit company that analyzes social media data,
     shares data from social media posts about global development and humanitarian
-    issues with UN Global Pulse to track the wellbeing of individuals and communities
-    throughout the world. In particular, data concerning attitudes on social media
-    toward vaccination campaigns, the Millennium Development Goals, and the price
-    of food staples will be collected by UN Global Pulse through DataSift''s services. '
+    issues with UN Global Pulse in order to track the wellbeing of individuals and
+    communities throughout the world. In particular, data concerning attitudes on
+    social media toward vaccination campaigns, the Millennium Development Goals and
+    the price of food staples will be collected by UN Global Pulse through DataSift''s
+    services. '
   howDataShared: DataSift's regular for-profit services are provided through specific
-    products and services, ranging from its PYLON LinkedIn and Facebook analysis products,
+    products and services, ranging from its PYLON LinkedIn and Facebook analysis products
     to social media analysis techniques administered by DataSift analysts. DataSift
-    itself has "unrivalled access" to Facebook data and other global "public opinion"
+    itself has "unrivaled access" to Facebook data and other global "public opinion"
     sources, which, through this collaborative with UN Global Pulse, may be leveraged
     to further its humanitarian goals. Specifically, UN Global Pulse data scientists
     in New York, Jakarta and Kampala will have access to the DataSift platform in
@@ -2448,7 +2456,7 @@ datacollaborative:
   purpose: This collaboration between DataSift and UN Global Pulse Labs attempts to
     support UN Global Pulse with their efforts to use technology to provide better
     insights into humanitarian issues. By using DataSift's public opinion and social
-    media analysis, tools, and access, the goal is to gain real-time, accurate information
+    media analysis, tools and access, the goal is to gain real-time, accurate information
     about global development and wellbeing. In particular, issues such as disease
     outbreaks, unemployment and food security will be tackled using DataSift's capabilities.
 - sys:
@@ -2459,7 +2467,7 @@ datacollaborative:
   - Telecommunications
   sharedBy:
   - Public
-  - participating Organizations
+  - Participating organizations
   sharedWith:
   - ArcGIS
   region: Worldwide
@@ -2476,21 +2484,21 @@ datacollaborative:
   - Mapping Data
   link: http://doc.arcgis.com/en/living-atlas/about/
   whatDataShared: The Living Atlas crowdsources map data, GIS data and images from
-    the public via its app in order to create a detailed global geographic data from
-    across the world. This information is then shared with the public through ArcGIS'
-    Living Atlas platform, which shares images, basemaps and demographic information.
-  howDataShared: ArcGIS first collects the crowdsourced data throuh its Living Atlas
+    the public via its app in order to compile detailed geographic data from across
+    the world. This information is then shared with the public through ArcGIS's Living
+    Atlas platform, which shares images, maps and demographic information.
+  howDataShared: ArcGIS first collects the crowdsourced data through its Living Atlas
     Contributor App and Community Maps Contributor App, both available via their website.
-    Contributors are encouraged to share map information, images or data. Organizations
+    Contributors are encouraged to share map information, images or other data. Organizations
     are encouraged to share their data to increase their authority, and ArcGIS ensures
-    their leitimacy by using an online app that scores the data and maps- only scores
+    their legitimacy by using an online app that scores the data and maps - only scores
     above 80 are included in the Living Atlas. Contributors also work with "curators"
     at Esri before the map data is shared via the Living Atlas.
-  purpose: The Living Atlas aims to be a comprehensive and authoratative collection
+  purpose: The Living Atlas aims to be a comprehensive and authoritative collection
     of ready-to-use global geographic information. Beyond just being a way to collect
     more accurate geographical data, the web platform is also free to use by organizations
-    and individuals to achieve their goals, from planning infrastructure, creating
-    secondary apps, and publishing individualized maps.
+    and individuals to achieve their goals, from planning infrastructure to creating
+    secondary apps and publishing individualized maps.
 - sys:
     id: 2UtGJ5Hj2gyMCACSI4Gwe4
   caseStudy: OpenTraffic
@@ -2520,14 +2528,14 @@ datacollaborative:
   howDataShared: By partnering with transport organizations around the world, OpenTraffic
     is able to access and pool this anonymized traffic data to create a complete dataset
     of traffic and routing data available free to the public.
-  purpose: The WorldBank, Conveyal and Mapzen formed the nonprofit OpenTraffic to
+  purpose: The World Bank, Conveyal and Mapzen formed the nonprofit OpenTraffic to
     support open source software development and collect accurate, real-time traffic
     data from individuals and organizations across the transport sector. This data
-    can be helped to make planning decision within communties, support businesses
-    and allow the public to access high-quality traffic data.
+    helps communities with planning decisions, supports businesses and allows the
+    public to access high-quality traffic data.
 - sys:
     id: 2PGtR4vc0oymKi6CMSkWCo
-  caseStudy: Center for Big Data projects
+  caseStudy: Center for Big Data Statistics
   sector:
   - Health
   - Economic Development
@@ -2576,7 +2584,7 @@ datacollaborative:
   - World
   - Zuyd University
   sharedWith:
-  - CBS- Center for Big Data Statistics
+  - CBS - Center for Big Data Statistics
   region: Europe and Central Asia
   collaborativeType:
   - Intelligence Product
@@ -2587,20 +2595,20 @@ datacollaborative:
   - Disclosed Non-Personal Data
   - Observed Non-Personal Data
   link: https://www.cbs.nl/en-gb/our-services/innovation/big-data
-  whatDataShared: 'The Dutch statistics organization, CBS, is experimenting with using
+  whatDataShared: 'A Dutch statistics organization CBS is experimenting with using
     big data from a variety of organizations in their Center for Big Data Statistics
     projects. This data is used to create high-quality visualizations and community
     data. '
   howDataShared: Each project within the Center for Big Data partners with a variety
-    of organizations, from private companies like Google to data analysis organizations
+    of organizations from private companies like Google to data analysis organizations
     like Delloite. Since CBS is a government organization, it also has access to the
     Netherland's large repository of government and sensor data, which they are able
     to pool with new data sources to provide new insights.
-  purpose: The aim of the CBS' Center for Big Data is to take advantage of the large
+  purpose: The aim of the CBS's Center for Big Data is to take advantage of the large
     repository of government held data about communities and individuals, combine
     this with new data from other partners, and frequently share this data with the
-    public in order to spark opportunities for "synergy applications" and "effectively
-    observe, measure and describe developments in society."
+    public. The organization hopes to spark opportunities for "synergy applications"
+    and "effectively observe, measure and describe developments in society."
 - sys:
     id: 3RtYRAJY2s4YKYKCyg2qGs
   caseStudy: LIRNEasia Big Data for Development
@@ -2633,7 +2641,7 @@ datacollaborative:
   howDataShared: 'As an ICT policy and regulation think-tank in South-East Asia, it
     is conceivable that the organization has access to the mobile-phone data needed
     to conduct this research through prior agreements. This multi-country project
-    has begun to release finding from Myanmar, where analysis of smartphone data included
+    has begun to release finding from Myanmar where analysis of smartphone data included
     users on Telenor''s mobile network. Not much more information is available about
     the partnering organizations. '
   purpose: LIRNEasia aims to collect mobile network big data (MNBD) to model the spread
@@ -2648,7 +2656,7 @@ datacollaborative:
   - Facebook
   sharedWith:
   - CIESIN
-  - public
+  - Public
   region: Worldwide
   collaborativeType:
   - Intelligence Product
@@ -2656,23 +2664,23 @@ datacollaborative:
   dataType:
   - Disclosed Non-Personal Data
   link: http://blogs.ei.columbia.edu/2016/11/29/ciesin-teams-with-facebook-to-develop-open-improved-settlement-data/
-  whatDataShared: 'Facebook has developed, and shared with CIESIN "state of the art
+  whatDataShared: 'Facebook has developed and shared with CIESIN "state of the art
     computer visioning techniques" that can identify buildings from commercially available
     satellite images. This data once shared with CIESIN is combined with census data,
     which is also shared with Facebook to confirm results. The final outcome of this
     data pooling is High Resolution Settlement Layer data that provides information
     about rural settlement across the globe. '
-  howDataShared: 'The pooled data between CIESIN, Facebook and World Bank mainly consists
-    of government collected census data, available by CIESIN, and Facebook''s commercially
-    purchased satellite imagery data, with the partnership formally allowing the exchange
-    of this data by both organizations. In November 2016, CIESIN made publicly available
-    population data for 5 countries: Ghana, Haiti, Malawi, South Africa and Sri Lanka-
-    via its website.'
-  purpose: For Facebook, this collaboration allows the social-media company to obtain
-    better rural settlement information in order to create technologies to improve
-    connectivity in these regions. This feeds into CIESIN and World Bank's motivation
-    to improve communications infrastructure, but the data also extends for use in
-    research, crisis response and humanitarian planning.
+  howDataShared: The pooled data between CIESIN, Facebook and the World Bank mainly
+    consists of government collected census data, available from CIESIN, and Facebook's
+    commercially purchased satellite imagery data, with the partnership formally allowing
+    the exchange of this data by both organizations. In November 2016 CIESIN made
+    population data for 5 countries (Ghana, Haiti, Malawi, South Africa and Sri Lanka)
+    publicly available via its website.
+  purpose: The collaboration allows Facebook to obtain better rural settlement information
+    in order to create technologies to improve connectivity in these regions. This
+    feeds into CIESIN and World Bank's motivation to improve communications infrastructure,
+    but the data will also be of use in research, crisis response and humanitarian
+    planning.
 - sys:
     id: 5w4t6V5mBUy6i0QEwGsq4E
   caseStudy: Physical Exposure Database
@@ -2683,37 +2691,37 @@ datacollaborative:
   sharedWith:
   - The Center for International Earth Science Information Network (CIESIN) Columbia
     University
-  - the University of Colorado
+  - The University of Colorado
   - Boulder
   - SecondMuse
-  - the Regional Centre for Mapping of Resources for Development (RCMRD)
+  - The Regional Centre for Mapping of Resources for Development (RCMRD)
   region: Sub-Saharan Africa
   collaborativeType:
   - Intelligence Product
   dataType:
   - Observed Non-Personal Data
   dataKind:
-  - Sattelite and Aerial Imagery
+  - Satellite and Aerial Imagery
   dataSource:
   - Geographical data
   link: http://www.imagecatinc.com/2015/06/imagecat-wins-world-bank-africa-exposure-development-project/
   whatDataShared: 'ImageCat and its partners will use remote sensing and geospatial
     technologies to create an exposure database to address earthquake, flood, drought,
-    and landslide risks in Ethiopia, Kenya, Niger, Senegal, and Uganda. This technology
+    and landslide risks in Ethiopia, Kenya, Niger, Senegal and Uganda. This technology
     and process has been developed by ImageCat and will be shared with a variety of
-    reserch organizations to support the study. '
+    research organizations to support the study. '
   howDataShared: ImageCat and its partners were awarded a World Bank / GFDRR contract
     to develop this physical exposure database. ImageCat itself has the resources
-    and technology available to collect GDP and economic projections, and through
-    its partnership is able to share and pool this data to create more sophisticated
+    and technology available to collect GDP and economic projections and, through
+    its partnership, is able to share and pool this data to create more sophisticated
     crisis mapping datasets.
-  purpose: In collecting, pooling and analyzing this data, Image Cat and its partners
-    will e able to analyze the earthquake, flood, drought, and landslide risks of
-    5 SubSaharan African countieis, in an effort to improve their resiliance to such
+  purpose: In collecting, pooling and analyzing this data, ImageCat and its partners
+    will be able to analyze the earthquake, flood, drought and landslide risks of
+    5 Sub Saharan African countries, in an effort to improve their resilience to such
     natural disasters.
 - sys:
     id: 7JY06V5IwEOCeYmUEkySAg
-  caseStudy: Data 2x - Women’s Financial Inclusion Data
+  caseStudy: data2x Financial Inclusion for Women
   sector:
   - Economic Development
   sharedBy:
@@ -2732,13 +2740,13 @@ datacollaborative:
   - Transaction Data
   dataSource:
   - Banking Data
-  link: http://data2x.org/partnerships/womens-financial-inclusion-data/
-  whatDataShared: '"Stakeholders" of this project, which includes banks, banking associations
-    and regulators, will be encouraged by The Global Banking Alliance for Women, an
-    international consortium of financial institutions interested in building women’s
-    wealth worldwide, to collect and report sex-disaggregated data. In the initial
-    phase of this project, these stakeholder will discuss what particular data should
-    be collected.'
+  link: http://data2x.org/partnerships/womens-financial-inclusion/
+  whatDataShared: The "Stakeholders" of this project, which include banks, banking
+    associations and regulators, will be encouraged by The Global Banking Alliance
+    for Women, an international consortium of financial institutions interested in
+    building women’s wealth worldwide, to collect and report sex-disaggregated data.
+    In the initial phase of this project, these stakeholders will discuss what particular
+    data should be collected.
   howDataShared: Since this project is in its initial phases, no data has been shared
     yet. However, this multi-stakeholder approach aims to be "bank-driven" and works
     in collaboration to encourage the publication of sex-disaggregated banking data.
@@ -2746,7 +2754,7 @@ datacollaborative:
     more data about women's banking activities.
 - sys:
     id: 7h6rr2pj1YO0EK8a06qSIy
-  caseStudy: UNFPA and Worldpop
+  caseStudy: UNFPA and WorldPop
   sector:
   - Health
   - Economic Development
@@ -2769,16 +2777,16 @@ datacollaborative:
   dataSource:
   - Geographical data
   link: http://www.worldpop.org.uk/about_our_work/case_studies/
-  whatDataShared: WorldPop uses census data combined with GIS data (collaboarting
-    with CIESIn in some instances) to create databases of population and country data.
+  whatDataShared: WorldPop uses census data combined with GIS data (collaborating
+    with CIESIN in some instances) to create databases of population and country data.
     In its collaboration with UNFPA, high resolution satellite imagery is pooled with
-    "bottom-up" data microcensus data collected in the field.
+    "bottom-up" microcensus data collected in the field.
   howDataShared: 'By collaborating across sectors WorldPop is able to combine satellite
     data, census data, and microcensus data to develop more robust population and
-    settlement datasets. Data is then made available online via WorldPop for public
+    settlement datasets. Data is then made available online via WorldPop for the public
     to access and use. '
   purpose: The data made available by and to UNFPA through their collaboration with
-    WorldPop has significant opportunities to improve public health, humanitarian
+    WorldPop has significant opportunities to improve public health and humanitarian
     and development outcomes. For instance, Nigeria's vaccination tracking system
     is built on this database.
 - sys:
@@ -2806,14 +2814,14 @@ datacollaborative:
     of mobile devices such as phones and tablets, corresponding to several million
     people in NYC. The dataset enabled the collective tracking of the spatial and
     temporal locations of NYC's population. This enabled researchers to assign corresponding
-    time and geographically variable air pollution exposure values to residents, in
+    time and geographically variable air pollution exposure values to residents in
     order to map New York City's population with their air pollution exposure levels.
   howDataShared: Since mobile phone operators provided normalized data aggregated
     at the cell tower level to the researchers, the users were anonymized. However,
-    the study does not detail how these datasets were procured, and what data-sharing
+    the study does not detail how these datasets were procured and what data-sharing
     agreement was forged between the mobile phone operators and the researchers.
   purpose: This research attempts to use digital datasets to "predict the impacts
-    of the urban environment on human health." In this study, where researchers use
+    of the urban environment on human health." In this study where researchers use
     mobile phone data to map the movements of several million people, important insights
     into the risks of air pollution can be gleaned, which can then inform environmental
     and public health policy.
@@ -2839,22 +2847,22 @@ datacollaborative:
   - Facebook Posts
   link: http://unicefstories.org/2016/12/17/how-facebook-statuses-informed-the-zika-response-in-brazil/
   whatDataShared: Facebook shares its anonymized insight from posts publicized on
-    its platform with UNICEF. In particular, this collaborative focuses on collecting
-    information related to the Zika outbreak, particularly monitoring the reactions
-    and social conversations following UNICEF's ad campaign in Brazil.
+    its platform with UNICEF. This collaborative focuses on collecting information
+    related to the Zika outbreak, particularly on monitoring the reactions and social
+    conversations following UNICEF's ad campaign in Brazil.
   howDataShared: Little information is publicly available about the data sharing practices
     between Facebook and UNICEF. However, Facebook does not share the raw data from
-    users' status updates or activity on its platform, but rather "insights" about
-    the Zika conversation in Brazil. UNICEF will work with Facebook through its team
-    of data scientists under its UNICEF Innovations arm, which works to find data
-    driven solutions to global development and humanitarian problems.
+    users' status updates or activity on its platform, but rather shares "insights"
+    about the Zika conversation in Brazil. UNICEF will work with Facebook through
+    its team of data scientists under its UNICEF Innovations arm, which works to find
+    data driven solutions to global development and humanitarian problems.
   purpose: This collaborative between Facebook and UNICEF is part of UNICEF's larger
     strategy to use big data to better understand public health and development issues.
     By analyzing Facebook trends and status updates, UNICEF hopes to better engage
     their audience and more effectively communicate public health messages to the
     public in order to contain outbreaks like Zika. A campaign built from the insights
     provided by Facebook led to 82 percent of individuals reached taking action to
-    protect against Zika, [according to a Devex article](https://www.devex.com/news/how-facebook-statuses-informed-the-zika-response-in-brazil-89290).
+    protect against Zika according to a Devex article (https://www.devex.com/news/how-facebook-statuses-informed-the-zika-response-in-brazil-89290).
 - sys:
     id: 4JyMSqj9u0qc6UCSUWUG6e
   caseStudy: UN Global Pulse & Twitter
@@ -2877,18 +2885,18 @@ datacollaborative:
   - Tweets
   link: https://blog.twitter.com/2016/twitter-and-un-global-pulse-announce-data-partnership
   whatDataShared: 'Through this collaborative, UN Global Pulse has been allowed access
-    to Twitter''s data tools that contain information and Twitter''s real-time dataset
-    of public tweets from around the world. '
+    to Twitter''s data tools and real-time dataset of public tweets from around the
+    world. '
   howDataShared: Though specific details of this collaborative are unavailable, similar
     collaborations between Twitter and UN Global Pulse include the use of a "publicly
     accessible monitor" that analyzes tweets about climate change in English, Spanish
     and French on a daily basis. This automated tool analyzed tweets concerning a
-    particular issue, and was able to measure its awareness and drivemedia engagement.
+    particular issue and was able to measure its awareness and drive media engagement.
     A similar tool may have been developed to access Twitter's data for this initiative.
-  purpose: This collaborative was announce in 2016 to support the United Nations'
-    efforts to achieve the UN's Sustainable Development goals. By using the information
+  purpose: This collaborative was announced in 2016 to support the United Nations'
+    efforts to achieve the UN's Sustainable Development Goals. By using the information
     contained in "social conversations" like those on Twitter, UN Global Pulse is
-    able to track the impact of pubic health campaigns, track the reports of rising
+    able to track the impact of public health campaigns, track the reports of rising
     food costs and better coordinate relief efforts.
 - sys:
     id: 21oOhfblTiyka0ISwsM4as
@@ -2910,20 +2918,20 @@ datacollaborative:
   - Tracking Data
   dataSource:
   - Flights
-  link: http://www.amadeus.com/blog/19/07/social-innovation-travel-data-analysis-can-help-manage-spread-disease-epidemics/
+  link: https://blogs.unicef.org/innovation/amadeus-unicef-aim-foster-social-innovation-big-data/
   whatDataShared: Amadeus, a technology and data intelligence provider for the travel
     sector, shares travel data with the flight industry in order to help improve their
     marketing strategies. In this partnership with UNICEF, Amadeus leverages it data
     analysis tools to combine its travel data with UNICEF's health, government, social
-    media, mobile, and weather data to provide insights into the patterns of the spread
-    of Zika and predict potential outbreak zones.
+    media, mobile and weather data to provide insights into the patterns of the spread
+    of Zika and to predict potential outbreak zones.
   howDataShared: The data is shared through a private agreement between UNICEF and
     Amadeus. Amadeus has also offered the use of its data scientists, who have developed
-    for-profit services to serve the tavel industry. This existing infrastruture and
-    clientel will make transitioning and combining the data with UNICEF's datasets
+    for-profit services to serve the travel industry. This existing infrastructure
+    and clientele will make transitioning and combining the data with UNICEF's datasets
     easier.
   purpose: This collaborative between UNICEF and Amadeus aims to better understand
-    and predict the spread of the Zika virus by analyzing travel data, and combining
+    and predict the spread of the Zika virus by analyzing travel data and combining
     this data with health, government, social media, mobile and weather datasets.
     In doing so, the aim was to create a robust model to track the geographic spread
     and evolution of disease, contributing to the ultimate goal of creating a real-time
@@ -2935,7 +2943,7 @@ datacollaborative:
   - Infrastructure
   - Digital Society
   sharedBy:
-  - Google Earth Enterprises
+  - Google Earth Enterprise
   sharedWith:
   - Public
   region: Worldwide
@@ -2949,20 +2957,20 @@ datacollaborative:
   dataSource:
   - Geospacial Data
   link: https://maps-apis.googleblog.com/2017/01/open-sourcing-google-earth-enterprise.html
-  whatDataShared: Google Earth Enterprises (GEE) announced in 2017 that it will give
+  whatDataShared: Google Earth Enterprise (GEE) announced in 2017 that it will give
     the public access to their data by open-sourcing their products. The data, that
     was previously only available to paying customers to host private versions of
-    Google Earth and Google Maps, included its  GEE Fusion, GEE Server, and GEE Portable
+    Google Earth and Google Maps, included its  GEE Fusion, GEE Server and GEE Portable
     Server source code. The data shared is equivalent to over 470,000 lines of code.
-  howDataShared: GEE will makes its data available in March, 2017, on GitHub under
-    the Apache2 license. However, in this initiative, GEE Client, the Google Maps
-    JavaScript API V3 and the Google Earth API will no be open-sourced, and remain
-    availale to paying customers only.
+  howDataShared: GEE will make its data available in March 2017 on GitHub under the
+    Apache2 license. However, in this initiative the GEE Client, the Google Maps JavaScript
+    API V3 and the Google Earth API will not be open-sourced and will remain available
+    to paying customers only.
   purpose: GEE follows the common practice by many software companies to open-source
     their deprecated products. According to Google, by opening GEE services to the
     public, it can allow a wide-range of developers to improve and build on the data
     available. This move may also encourage more GEE customers to move to Google's
-    paid cloud-based geospacial services, like the Google Cloud Platform and the Google
+    paid cloud-based geospatial services, like the Google Cloud Platform and the Google
     Earth Engine, highlighting the commercial interest for Google in making GEE open-source.
 - sys:
     id: 4snGzSCeVG0wqAAaQUcOM6
@@ -2972,9 +2980,9 @@ datacollaborative:
   - Telecommunications
   sharedBy:
   - Ministry of Food and Agriculture (MoFA)
-  - the Savanna Agricultural Research Institute (SARI)
-  - the Council for Scientific and Industrial Research (CSIR)
-  - the Ghana Meteorological Agency (GMET)
+  - The Savanna Agricultural Research Institute (SARI)
+  - The Council for Scientific and Industrial Research (CSIR)
+  - The Ghana Meteorological Agency (GMet)
   sharedWith:
   - Esoko
   region: Sub-Saharan Africa
@@ -2988,22 +2996,22 @@ datacollaborative:
   - Market Information
   - Climate Information
   link: https://www.esoko.com
-  whatDataShared: Esoka, a for-profit company, collects data from multiple sources,
+  whatDataShared: Esoko, a for-profit company, collects data from multiple sources
     mixing private-held data and government data. The Ministry of Food and Agriculture
     (MOFA) is the primary government source of data on crop yields, production estimates
     and market prices. Esoko is also a client of aWhere, accessing its weather data
-    via an API service. Ultmiately, this data is pooled and shared with participating
+    via an API service. Ultimately, this data is pooled and shared with participating
     farmers so they can obtain vital information about markets and businesses.
-  howDataShared: Data is collected by Esoko through a variety of means, including
-    accessing open government data and buying privately held data. Esoko was awarded
-    an Internet.org innovation challenge prize, which helped establish these collaborations
-    and create an automated alert system that Esoko offers to participating farmers.
-    The alerts contain agrarian and economic data sent to farmers on their cell phones
-    in the format of SMS and voice messages in multiple languages.
+  howDataShared: Data is collected by Esoko through a variety of means including accessing
+    open government data and buying privately held data. Esoko was awarded an Internet.org
+    innovation challenge prize, which helped establish these collaborations and create
+    an automated alert system that Esoko offers to participating farmers. The alerts
+    contain agrarian and economic data sent to farmers on their cell phones in the
+    format of SMS and voice messages in multiple languages.
   purpose: The ultimate objective of Esoko is to empower smallholder farmers to make
     farming more profitable. They do this by acquiring and sharing data to help farmers
     better navigate the complexity of global value chains. By doing so, these farmers
-    can improve their bargaining power when cometing with some of the large, global
+    can improve their bargaining power when competing with some of the large, global
     actors in that system.
 - sys:
     id: 4pPfQi4rYIYQMOYOWmIw28
@@ -3011,7 +3019,7 @@ datacollaborative:
   sector:
   - Digital Society
   sharedBy:
-  - US Companies
+  - US companies
   - Open Diversity Data
   sharedWith:
   - Open Diversity Data
@@ -3025,13 +3033,13 @@ datacollaborative:
   - Employee Demographics
   dataSource:
   - Government Records
-  link: http://opendiversitydata.org/
+  link: https://www.fastcompany.com/3032779/publically-shame-companies-that-wont-tell-us-how-un-diverse-they-are
   whatDataShared: US companies can choose to publish their diversity data and disclose
     the demographic makeup of their companies, including percentage of employees of
     a particular gender, race and age group. Open Diversity Data collates this information
     and presents it on their online platform for the public to easily access and scrutinize.
     The website also explicitly states which companies do not publish their diversity
-    data, and calls on them to do so.
+    data and calls on them to do so.
   howDataShared: All US companies are required to file EEO-1 Surveys through the Equal
     Employment Opportunity Commission which collects employment data on race/ethnicity,
     gender and job category. Some companies choose to release this information to
@@ -3040,7 +3048,7 @@ datacollaborative:
     and Google (among others) all release the data contained in their EEO-1 filings
     on their websites, ensuring that the diversity in their workforce is interrogated,
     promoted and maintained.
-  purpose: By sharing to the public data used for regulatory compliance, companies
+  purpose: By sharing data used for regulatory compliance with the public, companies
     allow for people to more broadly scrutinize discrimination within their institutions,
     thereby encouraging greater diversity in their workplaces and beyond.
 - sys:
@@ -3065,7 +3073,7 @@ datacollaborative:
   whatDataShared: Uber shares aggregated and anonymized travel data from their fleet
     of vehicles with participating organizations and city planning agencies.
   howDataShared: In order to protect the privacy of individual drivers and passengers,
-    uber anonymizes and aggregates all data through their "travel times collection
+    Uber anonymizes and aggregates all data through their "travel times collection
     methodology." This data is then shared with participating city officials in CSV
     format under creative commons licensing, and there is therefore no commercial
     use for this data.
@@ -3075,7 +3083,7 @@ datacollaborative:
     with the City of Boston which occurred prior to the creation of Uber Movement
     in fact frustrated city officials as they found the information too broad to inform
     policies in any meaningful way. Though these critiques informed Uber movement's
-    current iteration, the tension between maintaining privacy and supporting openness
+    current iteration, the tensions between maintaining privacy and supporting openness
     remain.
 - sys:
     id: 1iv0zF9EpieoCUsUCc8ACA
@@ -3088,7 +3096,7 @@ datacollaborative:
   - City of Toronto
   - Toronto Transit Commission (TTC)
   sharedWith:
-  - Participating Developers
+  - Participating developers
   region: North America
   collaborativeType:
   - Prizes & Challenges
@@ -3101,14 +3109,14 @@ datacollaborative:
   dataSource:
   - Multiple
   link: http://trafficjam.to
-  whatDataShared: A variety of private, public, and 'Big Data' datasets was provided
-    to participants via the TrafficJam website. They also had access to private tools
-    donated by partnering companies. This included a Namara Catalogue of cleaned municipal,
-    provincial and private data; the City of Toronto's Open Data catalogue; the province
-    of Ontario's Open Data catalogue; IBM's Data Scientist workbench; TomTom's developer
-    services; and Inrix's traffic information delivery system.
+  whatDataShared: A variety of private and public datasets were provided to participants
+    via the TrafficJam website. They also had access to private tools donated by partnering
+    companies. This included a Namara Catalogue of cleaned municipal, provincial and
+    private data; the City of Toronto's Open Data catalogue; the province of Ontario's
+    Open Data catalogue; IBM's Data Scientist workbench; TomTom's developer services;
+    and Inrix's traffic information delivery system.
   howDataShared: |+
-    Since this collaborative did not directly access private data, but rather partnered with private and non-governmental organizations to support the challenge, data was not directly shared by corporations to the hosts of TrafficJam. Instead, participants primarily used open data platforms, which they could then combine to create their innovative projects. These data resources, along with further datasets provided by Think Data Works, were made available via [the TrafficJam website](http://trafficjam.to/resources).
+    Since this collaborative did not directly access private data, but rather partnered with private and non-governmental organizations to support the challenge, data was not directly shared by corporations to the hosts of TrafficJam. Instead, participants primarily used open data platforms, which they could then combine to create their innovative projects. These data resources, along with further datasets provided by Think Data Works, were made available via the TrafficJam website (http://trafficjam.to/resources).
 
 
   purpose: 'The goal of TrafficJam was to combine the skills and knowledge of "engaged
@@ -3118,7 +3126,7 @@ datacollaborative:
     of data-driven solutions to Toronto''s commuting troubles. '
 - sys:
     id: 6ybytc7upyoa62SICWyAC
-  caseStudy: Beeline Crowdsourced Bus service
+  caseStudy: Beeline Crowdsourced Bus Service
   sector:
   - Transportation
   sharedBy:
@@ -3141,22 +3149,22 @@ datacollaborative:
   - Geographical data
   link: https://www.beeline.sg/
   whatDataShared: Launched by Singapore's GovTech and the Land Transport Authority
-    (LTA), with a number of private and non-governmental organizations lending support,
+    (LTA) with a number of private and non-governmental organizations lending support,
     Beeline acts as a matching service between people using the Beeline app and the
     city's numerous private bus services. Beeline collects this consolidated bus transportation
     and user data collected via the Beeline app, which can then represent "community
-    demand" information. Doing so, Beeline crowdsources transportation insights directly
-    from passengers using the service.
+    demand" information. In doing so Beeline crowdsources transportation insights
+    directly from the passengers using the service.
   howDataShared: Transportation data is collected via the Beeline app when users sign-on
     and request rides. Beeline also collects crowdsourced route information from users
     through a feedback function. These "user suggested routes" are created when there
     is a large enough demand for this route.
   purpose: 'Beeline attempts to close the gap between commuters'' needs and the services
     offered by private bus companies by providing a feedback mechanism within the
-    app. In doing so, the goal is to create a more responsive and efficient transport
-    system by "crowdsourcing" bus services. The service has also led to the creation
-    of [GrabShuttle](https://www.grab.com/sg/shuttle/) in 2017: a sfixed-route shuttle
-    service that allows users to track the buses in real-time.'
+    app. Their goal is to create a more responsive and efficient transport system
+    by "crowdsourcing" bus services. The service has also led to the creation of [GrabShuttle](https://www.grab.com/sg/shuttle/)
+    in 2017: a fixed-route shuttle service that allows users to track the buses in
+    real-time.'
 - sys:
     id: 2OMLdjIdnqswokwwwSIaiw
   caseStudy: LinkedIn Economic Graph Challenge
@@ -3176,17 +3184,17 @@ datacollaborative:
   link: https://engineering.linkedin.com/data/economic-graph-research
   whatDataShared: Through its Economic Graph Challenge, LinkedIn shares select, anonymized
     data from its job and employee promotion platform to chosen research teams. This
-    includes employment locations, LinkedIn user skills, and education history.
+    includes employment locations and LinkedIn user skills and education history.
   howDataShared: Winners of the challenge will only be given datasets relevant for
     the purposes of the proposed research. The data is made available in a separate,
-    secure “sandbox” environment on the company's hardware--this means the data is
+    secure “sandbox” environment on the company's hardware - this means the data is
     isolated from LinkedIn's active repository.
-  purpose: The purpose for the Graph Challenge for LinkedIn fulfils both its commercial
-    and public interest needs. LinkedIn maintain intellectual property over all the
-    research produced, and hopes to use these insights to improve future product design.
-    However, in addition to this, the research can reveal important information regarding
-    economic development across the globe, with some researchers looking at gender
-    disparities in online promotion, another looking at the "economic health" of cities.
+  purpose: The Graph Challenge fulfills both LinkedIn's commercial and public interest
+    needs. LinkedIn maintains intellectual property over all the research produced
+    and hopes to use these insights to improve future product design. However, in
+    addition to this, the research can reveal important information regarding economic
+    development across the globe, with some researchers looking at gender disparities
+    in online promotion and others looking at the "economic health" of cities.
 - sys:
     id: 2rVN4ycGaYskEc84keCY8c
   caseStudy: DigitalGlobe 8-Band Research Challenge
@@ -3213,13 +3221,13 @@ datacollaborative:
     company shared its high-resolution imagery data containing 8 spectral bands (hence,
     8-band) with participating researchers. This included "coastal blue, yellow, red-edge
     and NIR2" data.
-  howDataShared: SInce the original website advertising this challenge has since been
+  howDataShared: Since the original website advertising this challenge has since been
     taken down, it is unclear what the specifications regarding data access for competitors
-    involves. However, chosen contestants were given the multispectral imaging and
+    involved. However, chosen contestants were given the multispectral imaging and
     a few weeks to test and evaluate their algorithms on DigitalGlobe data.
   purpose: This 2010 challenge marked the first time the scientific community had
     access to high resolution images with 8 spectral bands. This allowed unprecedented
-    research to be gleaned, useful to determine Land Use Land Cover Analysis, Environmental
+    information to be gleaned useful in Land Use Land Cover Analysis, Environmental
     Mapping and Monitoring, and Coastal Habitat Mapping.
 - sys:
     id: 22QBnYrELymuIgSWwwygcO
@@ -3229,7 +3237,7 @@ datacollaborative:
   sharedBy:
   - Microsoft India
   sharedWith:
-  - L V Prasad Eye Institute and other research institutes
+  - L. V. Prasad Eye Institute and other research institutes
   region: South Asia
   collaborativeType:
   - Intelligence Product
@@ -3242,21 +3250,21 @@ datacollaborative:
   link: https://news.microsoft.com/en-in/microsoft-l-v-prasad-eye-institute-and-global-experts-collaborate-to-launch-microsoft-intelligent-network-for-eyecare/#sm.0000n1ek4blvne78rfu1m5d57pxoe
   whatDataShared: Microsoft is sharing its machine learning techniques with international
     commercial and research institutes, particularly the L V Prasad Eye Institute
-    in Hyderabad, India, to help improve eyecare in the country. The data used to
+    in Hyderabad, India, to help improve eye care in the country. The data used to
     program these machine learning techniques include rate of change of myopia in
     children, conditions that impact children’s eyesight, predictive outcomes of refractive
     surgery, and optimal surgery parameters.
   howDataShared: Microsoft India has developed an international research group, with
-    partners not only in India, but in the United States, Brazil, and Australia. This
-    team of researchers used existing eyecare data to create predictive models and
-    machine learning techniques to guide the data-driven eyecare services Microsoft
+    partners not only in India but also in the United States, Brazil and Australia.
+    This team of researchers used existing eye care data to create predictive models
+    and machine learning techniques to guide the data-driven eye care services Microsoft
     India hopes to deliver.
   purpose: By leveraging advancements in artificial intelligence and data-driven healthcare,
-    MINE hopes to eliminate avoidable blindness and improve eyecare services across
+    MINE hopes to eliminate avoidable blindness and improve eye care services across
     the globe.
 - sys:
     id: 3WoQClbJSgwKWwAuaaymYU
-  caseStudy: Google DeepMind/ NHS
+  caseStudy: Google DeepMind & NHS
   sector:
   - Health
   sharedBy:
@@ -3277,19 +3285,19 @@ datacollaborative:
   whatDataShared: 'In this collaboration between DeepMind and the NHS, the artificial
     intelligence research company applies machine learning techniques to medical data
     to help improve how disease is diagnosed and treated. Acquired by Google, DeepMind
-    has an "Open Source" philosophy to share its insights with the wider research
+    has an spen source philosophy to sharing its insights with the wider research
     community in order to support academic progress. Along with all of its published
     papers, DeepMind shares a variety of its datasets including: DeepMind CNN/Daily
     Mail Reading Comprehension Corpus; Metacontrol for Adaptive Imagination-Based
-    Optimization task; and Collectible Card Game to Code.'
+    Optimization Task; and Collectible Card Game to Code.'
   howDataShared: The research is still in its early stages, but a current partnership
-    with Moorfields Eye Hospital reveal that hospitals directly provide data to DeepMind
-    to conduct its machine learning diagnoses. In turn, DeepMind shares various datasets,
+    with Moorfields Eye Hospital reveals that hospitals directly provide data to DeepMind
+    to conduct its machine learning diagnoses. In turn DeepMind shares various datasets,
     code and publications online and via its GitHub account.
   purpose: DeepMind uses artificial intelligence research to improve healthcare, the
-    environment and other public problems. In this particular partnership with NHS,
-    the collaborative aims to improve the quality and speed of patient diagnosis,
-    and spurring research in the medial field through machine learning techniques.
+    environment and other public problems. In this particular partnership with the
+    NHS, the collaborative aims to improve the quality and speed of patient diagnosis
+    and to spur research in the medical field through machine learning techniques.
 - sys:
     id: 4Nh2mah60woei2GyOSgm22
   caseStudy: Myeloma Progression Predictor
@@ -3318,13 +3326,13 @@ datacollaborative:
     patients.
   howDataShared: 'By using the services provided by TopCoder, MMRF could better organize
     and protect the data shared as part of this challenge. Data was accessed via the
-    MMRF research gateway once participating researchers were given credentials--a
-    process that took approximately 24 hours. Participants then downloaded this data
-    as csv files, and submitted their algorithms and results via TopCoder. '
-  purpose: The Myloma Progression Predictor challenge provides $20,000 in prizes to
-    participants that devise an algorithm predicting a progression of the disease
+    MMRF research gateway once participating researchers were given credentials -
+    a process that took approximately 24 hours. Participants then downloaded this
+    data as csv files and submitted their algorithms and results via TopCoder. '
+  purpose: The Myeloma Progression Predictor challenge provides $20,000 in prizes
+    to participants that devise an algorithm predicting a progression of the disease
     based on the genetic data provided by the MMRF. This will assist researchers in
-    better understanding the disease and develop better treatments for patients.
+    better understanding the disease and developing better treatments for patients.
 - sys:
     id: 2gUatesLmAEkAMIQGC6E4K
   caseStudy: Esri and Waze Open Data-Sharing for governments
@@ -3369,7 +3377,7 @@ datacollaborative:
   - Autism Speaks
   - Google
   sharedWith:
-  - Participating Researchers
+  - Participating researchers
   region: Worldwide
   collaborativeType:
   - Intelligence Product
@@ -3384,13 +3392,13 @@ datacollaborative:
   - Genomic Data
   link: https://www.mss.ng/
   whatDataShared: The MSSNG database, available to interested researchers, includes
-    the whole genome sequencing of blood DNA of 10,000 individuals from families from
-    the Autism Genetic Research Exchange (AGRE) repository, or from other well-phenotyped
-    cohorts entering into this study. The researchers at MSSNG update the data as
-    it comes through, providing data analysis and storage tools to participants as
-    well.
+    the whole genomes of over 10,000 individuals affected by autism. The sequenced
+    DNA comes from the Autism Genetic Research Exchange (AGRE) repository or from
+    other well-phenotyped cohorts entering into this study. The researchers at MSSNG
+    update the data as it comes through, providing data analysis and storage tools
+    to participants as well.
   howDataShared: The MSSNG database is built and stored using Google's Cloud Platform
-    and Google Genomics. To gain access to the database, researchers can access an
+    and Google Genomics. To gain access to the database researchers can access an
     online portal or refer to the steps outlined on the MSSNG website. Researchers
     are also directed to data sharing and research policies to guide their work and
     maintain the integrity of the project.
@@ -3417,17 +3425,17 @@ datacollaborative:
   dataSource:
   - Settlement Data
   link: http://www.redcross.org/news/article/Data-from-Facebook-helps-Red-Cross-make-better-maps
-  whatDataShared: Facebook shares its population density data with Red Cross' Missing
+  whatDataShared: Facebook shares its population density data with Red Cross's Missing
     Maps, a project that aims to improve mapping data for at-risk communities. Facebook
     donates data related to computer visioning and satellite imagery, helping Missing
     Maps fill in gaps in their work.
   howDataShared: Missing Maps conducts Mapping Parties in cities across the world
     to use satellite data, like that provided by Facebook, to update their map information.
-    Red Cross can also gain direct access to this data via this partnership.
+    Red Cross can also gain direct access to this data via the partnership.
   purpose: This partnership between Red Cross and Facebook allows humanitarian organizations
     to more quickly identify communities and individuals in unmapped areas. This allows
     for the more efficient allocation of aid and resources, particularly during crisis
-    events, where vulnerable populations are often unrepresented on maps and therefore
+    events when vulnerable populations are often unrepresented on maps and therefore
     harder to reach.
 - sys:
     id: 1TWvwa6YYIA8ksWqCeccqe
@@ -3454,19 +3462,19 @@ datacollaborative:
   - Multiple
   dataSource:
   - Multiple
-  link: https://www.hitachiinsightgroup.com
-  whatDataShared: 'This partnership between the City of Copenhagen and Hitachi aims
+  link: https://www.citydataexchange.com/#/home
+  whatDataShared: This partnership between the City of Copenhagen and Hitachi aims
     to create a marketplace for the exchange of public and private data. These data
-    sources are multiple: from the energy sector, universities, and existing open
-    data portals.'
-  howDataShared: The City Data Exchange is a data sharing platform in itself, where
-    data providers can either sell their data or contribute data to the portal freely.
+    sources are multiple including the energy sector, universities and existing open
+    data portals.
+  howDataShared: The City Data Exchange is a data sharing platform where data providers
+    can either sell their data or contribute data to the portal freely.
   purpose: By leveraging Hitachi’s expertise in designing a data sharing portal to
-    analyse and assist 3rd party developers use the data, the City Data Exchange aims
+    analyze and assist 3rd party developers use the data, the City Data Exchange aims
     to make Copenhagen a truly smart city by using the latest insights gleaned from
-    big data to spur innovation in the city. The Exchange, by creating a marketplace
-    for data where data suppliers can meet the needs of data consumers, allows for
-    a widely accessible data source integral to create data-driven public services.
+    big data to spur innovation. The Exchange, by creating a marketplace for data
+    where data suppliers can meet the needs of data consumers, allows for a widely
+    accessible data source integral to creating data-driven public services.
 - sys:
     id: f3yTPg7f56UOmwMgYEGg6
   caseStudy: Radiant Earth Imagery
@@ -3495,14 +3503,14 @@ datacollaborative:
   - Mapping imagery
   - Satellite Data
   link: https://www.radiant.earth/
-  whatDataShared: Radiant Earth aims to make public the data the world's satellites
-    and drones. This geospatial data will be easily available to the public in a non-technical
-    form.
+  whatDataShared: Radiant Earth aims to make data from the world's satellites and
+    drones accessible to the public. This geospatial data will be easily available
+    to the public in a non-technical form.
   howDataShared: Still under construction, the Radiant Earth platform aims to share
-    geospatial data for non-specialists to find and understand.
+    geospatial data in a way that non-specialists can find and understand.
   purpose: The aim of Radiant Earth is to make satellite data more accessible to the
-    public in order to assist a diversity of issues from land tenure, global health,
-    food security, and crisis response.
+    public in order to assist with a diversity of issues including land tenure, global
+    health, food security, and crisis response.
 - sys:
     id: 3rDivaoqPCeOsKSWeOuIQW
   caseStudy: Digital Dog
@@ -3510,7 +3518,7 @@ datacollaborative:
   - Health
   sharedBy:
   - Twitter
-  - multiple
+  - Multiple
   sharedWith:
   - Black Dog Institute
   - University of Sydney
@@ -3531,16 +3539,15 @@ datacollaborative:
   - Social Media posts
   link: http://digitaldog.org.au/
   whatDataShared: Several of Digital Dog's projects--for instance, "We Feel," "Classifying
-    Concerning Tweets," and "The Ground Truth" use social media data (primarily shared
-    from Twitter) to guide their mental health research. Another project "Mobile Phones
-    as Pervasive Devices" uses mobile sensing technology--for instance, bluetooth
-    data--to track social interactions in order to identify suicidal or other at-risk
-    behavior.
+    Concerning Tweets," and "The Ground Truth"--use social media data (primarily shared
+    by Twitter) to guide their mental health research. Another project "Mobile Phones
+    as Pervasive Devices" uses mobile sensing technology such as Bluetooth to track
+    social interactions in order to identify suicidal or other at-risk behavior.
   howDataShared: Data sharing methods depend on the particular project. The mobile
     sensing tracker used an app during the clinical trial to support this research.
     The data sharing methods used to collect social media data are explained in more
     detail in the "We Feel" case found in the Data Collaboratives Explorer.
-  purpose: Digital Dog is an arm of the Australian NGO Black Dog Institute, and aims
+  purpose: Digital Dog is an arm of the Australian NGO, Black Dog Institute, and aims
     to research how technology can be used to solve mental health problems.
 - sys:
     id: 6KjyppoPM42SMIi2wASEQs
@@ -3564,20 +3571,19 @@ datacollaborative:
   - 'Location and Satellite Imagery '
   link: http://www.disarm.io/
   whatDataShared: DiSARM is a data-driven web-based platform that uses satellite data
-    shared and analyzed by Google Earth Engine to creat risk maps of malaria prone
-    zones and affected populations.
+    shared and analyzed by the Google Earth Engine to create risk maps of malaria
+    prone zones and affected populations.
   howDataShared: DiSARM was initially created by the Malaria Elimination Initiative
     in the Global Health Group at the University of California, San Francisco, and,
-    according to the website, "receives support" from the Google Earth Engine. However,
-    details of this support, beyond use of Google Earth Engine's satellite imagery
-    and analysis, are unavailable.
+    according to the website, "receives support" from the Google Earth Engine. However
+    details of this support are unavailable.
   purpose: The ultimate goal of DiSARM (Disease Surveillance and Risk Monitoring)
     is to support data-driven decision making for malaria elimination. By accessing
-    data for Google Earth Engine, and combing this with data regarding the health
+    data from the Google Earth Engine and combining this with data regarding the health
     facility catchments, villages and schools, DiSARM creates risk maps to help relief
-    workers deign public health policy. DiSARM also has a prediction and monitoring
+    workers design public health policy. DiSARM also has a prediction and monitoring
     component, allowing workers to spot incidents of malaria outbreaks and identify
-    populations at-risk. The progress of the project is tracked online at http://www.disarm.io/progress/
+    populations at-risk.
 - sys:
     id: 5Kqb7YNW480eEQ8cmkoSu6
   caseStudy: We Feel
@@ -3586,6 +3592,7 @@ datacollaborative:
   sharedBy:
   - Amazon Web Services
   - CSIRO
+  - Twitter
   sharedWith:
   - Black Dog Institute
   - Public
@@ -3602,18 +3609,18 @@ datacollaborative:
   link: http://wefeel.csiro.au
   whatDataShared: We Feel is part of the Digital Economy Programme of CSIRO, a federal
     government agency for scientific research in Australia. In collaboration with
-    the Black Dog Institute and with support of Amazon AWS and GNIP, We Feel accesses
-    Tweets using both the public Twitter API, and a sample from GNIP. This equals
-    about 19 thousand tweets per minute.
+    the Black Dog Institute and with support of Amazon Web Services and Twitter's
+    GNIP, We Feel accesses tweets using both the public Twitter API, and samples from
+    GNIP. The volume of data is on the order of 19 thousand tweets per minute.
   howDataShared: According to the website, We Feel accesses 3 sources for its tweets-
-    the public Twitter API, which it uses for 1% of its data; and 10% sample from
-    GNIP; and an unidentified third source that monitors the emotional content of
-    Twitters public tweets. Considering the volume of this data, the infrastructural
+    the public Twitter API, which it uses for 1% of its data; and a sample from GNIP
+    comprising 10%; and an unidentified third source that monitors the emotional content
+    of Twitters public tweets. Considering the volume of this data, the infrastructural
     support from Amazon AWS allows We Feel to analyze and parse the data.
   purpose: We Feel attempts to quantify and visualize the emotional content of tweets
     in order to understand our emotions and the way we feel. Using the Twitter dataset,
     the We Feel team also hope to better understand how social and economic factors
-    influence our emotions. All data it collects is available for download through
+    influence our emotions. All the data it collects is available for download from
     its website.
 - sys:
     id: 1bk0TUxrzMqYu4i4igWekY
@@ -3655,6 +3662,68 @@ datacollaborative:
     can not only be used to support recovery services after a disaster strikes, but
     also provides a new methodology for researching the adaptability and resilience
     of communitites to natural disaster. '
+- sys:
+    id: 3LbYISIsfmiUsUEEagmO0e
+  status: false
+  caseStudy: LA Tech Talent Pipeline
+  sector:
+  - Economic Development
+  sharedBy:
+  - LinkedIn
+  sharedWith:
+  - DataLA
+  - City of Los Angeles
+  region: North America
+  collaborativeType:
+  - API
+  dataType:
+  - Disclosed Personal Data
+  link: https://data.lacity.org/stories/s/LA-Tech-Talent-Pipeline/x899-9vc5
+  whatDataShared: DataLA, the Los Angeles mayor's data team, is partnering with LinkedIn
+    to collect anonymized data on the tech talent in their city. Of the "5.2 million
+    workers in the greater Los Angeles region who have LinkedIn profiles... 244,000
+    (5%) self-identify as part of the tech workforce."
+  howDataShared: LinkedIn provided anonymized member information to analysts at DataLA.
+  purpose: '"The findings are part of a preliminary phase of research that will result
+    in a comprehensive report on the status of Los Angeles’ tech talent pipeline."
+    Ultimately the report will serve to "inform the strategic plan of the City’s Workforce
+    Development Board and Economic and Workforce Development Department (EWDD), local
+    community colleges, and other local educational institutions."'
+- sys:
+    id: 3QjpiwIqEUCE02sQgKEy68
+  caseStudy: Zillow Research
+  sector:
+  - Economic Development
+  - Infrastructure
+  sharedBy:
+  - Zillow
+  sharedWith:
+  - Multiple
+  region: North America
+  collaborativeType:
+  - Intelligence Product
+  - Data Pooling
+  dataType:
+  - Disclosed Personal Data
+  - Observed Personal Data
+  - Disclosed Non-Personal Data
+  link: https://www.zillow.com/research/
+  whatDataShared: 'Zillow is an online listing service for single family residences,
+    condominiums, and co-op homes. Their online tool provides home value, historical
+    values, rental, forecast, and geographic affordability data to potential sellers,
+    buyers, and renters. '
+  howDataShared: 'Zillow’s “Zestimate” home price index estimate algorithm is available
+    to website visitors, with or without a Zillow account. Data is collected from
+    buyers, sellers, and renters using their listing platform, then pooled with data
+    from credit bureau TransUnion, the U.S. Census Bureau, the Freddie Mac Primary
+    Mortgage Market Survey, and the Bureau of Labor Statistics’ Employment Cost Index.
+
+'
+  purpose: This collaboration allows Zillow to provide a more comprehensive picture
+    of the housing market than their competitors. Their home price estimate index
+    is able to reflect the changing conditions between time periods that home are
+    bought and sold.This information is useful for sellers, buyers, and renters looking
+    for a fair deal, as well as journalists, analysts, and academics.
 events:
 - sys:
     id: uF3uaikYV2gWsckO8wYO2
@@ -3706,6 +3775,30 @@ events:
     that could be caused by using this data, and ways to prevent these from materializing.
     The theme for this year''s conference will be the potential risks of collecting
     and processing digital data in the European Migration Crisis."'
+- sys:
+    id: 3NL8pS6ZfykQeIGgSQ8EcM
+  eventName: Data Collaboratives Panel at dg.o 2017 Conference
+  url: http://dgo2017.dgsociety.org/content/keynote-speakers
+  location: CUNY College of Staten Island, Staten Island, NY
+  eventDate: !ruby/object:DateTime 2017-06-08 00:00:00.000000000 Z
+  conferenceType:
+  - Conference
+  eventDescription: The Annual International Conference on Digital Government Research
+    (dg.o) is an established forum for discussing interdisciplinary research on digital
+    government, political participation, civic engagement, technology innovation,
+    applications, and practice.
+  sessionName: 'Data Collaboratives: How to Create Value from Data for Public Problem
+    Solving?'
+  sessionType:
+  - Panel
+  sessionDescription: 'The panel will address the problem of value creation from Data
+    Collaboratives by discussing the mechanisms to generate public value, value proposition
+    for public and private sectors, lessons learnt from practice, and potential challenges
+    and barriers for Data Collaboratives. The panel brings together academics and
+    practitioners in an interactive setting and features presentations by the following
+    speakers: Stefaan Verhulst (The Gov Lab of NYU), Natalia Adler (UNICEF), Marijn
+    Janssen (TU Delft), Todd Harbour (New York state), and Theresa Pardo (University
+    at Albany). The panel will be moderated by Iryna Susha of Orebro University.  '
 canvasSteps:
 - sys:
     id: 2RNzeVwIDe4S4yEKqoW6IE
@@ -5377,6 +5470,56 @@ resources:
   - Benefits
   - In Practice
   - Governance and Operations
+- sys:
+    id: s4cSsJimM8yYsG6cMCo2Q
+  authors: Jake Porway
+  title: Using Collaboration to Harness Big Data for Social Good
+  publication: Stanford Social Innovation Review
+  pubDate: !ruby/object:DateTime 2017-06-14 00:00:00.000000000 Z
+  url: https://ssir.org/articles/entry/using_collaboration_to_harness_big_data_for_social_good
+  shortDescription: This articles provides non profits with three guiding principles
+    on how to effectively incorporate data science into their operations.
+  annotation: |-
+    This articles provides non profits with three guiding principles on how to effectively incorporate data science into their operations.
+    (1) Collaborate with data science experts to define your project.
+    (2) Collaborate across your organization to “build with, not for.”
+    (3) Collaborate across your sector to move the needle.
+  type:
+  - Magazine Article
+  theme:
+  - Operations
+  - In Practice
+  - Governance and Operations
+- sys:
+    id: 6fsC6D9XRCssm8GaW4KC4O
+  authors: UN Global Pulse, GSMA
+  title: The State of Mobile Data for Social Good Report
+  pubDate: !ruby/object:DateTime 2017-06-29 00:00:00.000000000 Z
+  url: http://unglobalpulse.org/sites/default/files/MobileDataforSocialGoodReport_29June.pdf
+  shortDescription: '"This report outlines the value of harnessing mobile data for
+    social good and provides an analysis of the gaps. Its aim is to survey the landscape
+    today, assess the current barriers to scale, and make recommendations for a way
+    forward."'
+  annotation: "-- \"The report reviews the challenges the field is currently facing
+    and discusses a range of issues preventing mobile data from being used for social
+    good.\n-- It continues by providing a set of recommendations intended to move
+    beyond short-term and ad hoc projects to more systematic and institutionalized
+    implementations that are scalable, replicable, sustainable and focused on impact.
+    \n-- Finally, the report proposes a roadmap for 2018 calling all stakeholders
+    to work on developing a scalable and impactful demonstration project that will
+    help to establish the value of mobile data for social good.\n-- The report includes
+    examples of innovation projects and ways in which mobile data is already being
+    used to inform development and humanitarian work. It is intended to inspire social
+    impact organizations and mobile network operators (MNOs) to collaborate in the
+    exploration and application of new data sources, methods and technologies.\""
+  type:
+  - Report
+  - Case Study
+  theme:
+  - Benefits
+  - Risks and Challenges
+  - Data Responsibility
+  - In Practice
 projects:
 - sys:
     id: 4qXwV2Dbi8IOO8CO6uGCuK
