@@ -168,7 +168,8 @@
   }
   &__dcfb-cover {
     position: relative;
-    top: -130px;
+    // top: -130px;
+    top: 24px;
     left: -50px;
     @include breakpoint($medium) {
       top: 0;

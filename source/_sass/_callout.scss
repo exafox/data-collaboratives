@@ -31,6 +31,9 @@
     position: relative;
     background-color: white;
     p {
+      &.left {
+        text-align: left;
+      }
       color: rgba(black, .5);
     }
     @include breakpoint($small-only) {
