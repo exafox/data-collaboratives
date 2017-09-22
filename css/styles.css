@@ -32,8 +32,11 @@ select option {
 
 .sticky {
   background-color: rgba(0, 0, 0, 0.85); }
+  .sticky .align-center {
+    text-align: center; }
   .sticky__image {
-    width: 200px; }
+    height: 125px;
+    max-width: 200px; }
   .sticky a {
     text-decoration: none;
     color: #e5c810 !important;
@@ -124,12 +127,20 @@ select option {
     margin: -50px 0 0 0;
     padding-bottom: 10px;
     color: rgba(0, 0, 0, 0.7); }
+    @media (max-width: 40em) {
+      .top-section__header {
+        font-size: 1.5rem;
+        padding-bottom: 20px; } }
   .top-section__author {
-    margin-top: 0; }
+    margin-top: 0;
+    margin-bottom: 50px; }
   .top-section__sub-header {
     margin: 0;
     padding-bottom: 50px;
     color: rgba(0, 0, 0, 0.3); }
+    @media (max-width: 40em) {
+      .top-section__sub-header {
+        padding-bottom: 20px; } }
   .top-section__dcfb-header {
     color: white; }
   .top-section__dcfb-author {
@@ -160,7 +171,11 @@ select option {
   color: rgba(0, 0, 0, 0.8);
   background-color: #e5c810;
   position: relative;
-  top: -47.5px; }
+  top: -57.5px;
+  margin: 10px; }
+  @media (max-width: 40em) {
+    .dcfb-fold__button {
+      top: -47.5px; } }
   .dcfb-fold__button:hover {
     color: rgba(0, 0, 0, 0.8);
     background-color: #cdb30e; }
@@ -461,6 +476,14 @@ select option {
     @media (max-width: 64em) {
       .bg-panel__content {
         padding: 20px; } }
+    .bg-panel__content__list {
+      list-style: none;
+      font-size: 1rem;
+      padding-left: 0; }
+      .bg-panel__content__list li {
+        margin: 5px 0; }
+    .bg-panel__content__list-header {
+      font-weight: 600; }
   .bg-panel h3, .bg-panel h4 {
     margin: 0;
     color: white; }
