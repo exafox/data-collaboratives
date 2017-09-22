@@ -4,9 +4,18 @@
 
   &__content {
     background-color: rgba(darken($main-color, 3), .9);
-    
+
     @include breakpoint($large-up) { padding: 80px; }
     @include breakpoint($medium-down) { padding: 20px; }
+
+    &__list {
+      list-style: none;
+      font-size: 1rem;
+      padding-left: 0;
+    }
+    &__list-header {
+      font-weight: 600;
+    }
   }
 
   h3, h4 {
@@ -14,10 +23,10 @@
     color: white;
   }
 
-  h3 { 
+  h3 {
     font-size: 1.6rem;
   }
-  h4 { 
+  h4 {
     font-size: 1.3rem;
     font-weight: 300;
   }
@@ -27,8 +36,8 @@ p.large-text {
   font-size: 1.4rem;
   font-weight: 300;
 
-  a { 
-    text-decoration: none; 
+  a {
+    text-decoration: none;
     border-bottom: 1px solid rgba(black, .2);
   }
   a:hover {
