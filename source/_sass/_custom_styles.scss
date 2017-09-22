@@ -46,11 +46,14 @@ select option {
 
 
 .sticky {
-
+  .align-center {
+    text-align: center;
+  }
   // background-color: transparentize(rgb(51,51,51), 0.1);
   background-color: rgba(0,0,0,0.85);
   &__image {
-    width: 200px;
+    height: 125px;
+    max-width: 200px;
   }
   a {
     text-decoration: none;
