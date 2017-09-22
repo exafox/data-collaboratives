@@ -12,6 +12,9 @@
       list-style: none;
       font-size: 1rem;
       padding-left: 0;
+      li {
+        margin: 5px 0;
+      }
     }
     &__list-header {
       font-weight: 600;
