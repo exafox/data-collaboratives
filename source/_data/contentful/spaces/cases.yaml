@@ -3799,6 +3799,22 @@ events:
     speakers: Stefaan Verhulst (The Gov Lab of NYU), Natalia Adler (UNICEF), Marijn
     Janssen (TU Delft), Todd Harbour (New York state), and Theresa Pardo (University
     at Albany). The panel will be moderated by Iryna Susha of Orebro University.  '
+- sys:
+    id: xc6ygAKWv6GIuWGCQOyQ8
+  eventName: Data for Good Exchange 2017
+  url: https://www.bloomberg.com/company/d4gx/
+  eventDate: !ruby/object:DateTime 2017-09-24 00:00:00.000000000 Z
+  conferenceType:
+  - Conference
+  eventDescription: |-
+    On Sunday, September 24th, 2017, we will reconvene our community to deepen our mutual understanding. The theme for this year’s edition will be “__With Great Data comes Great Responsibility__,” or how data science can be applied to solve public interest problems without losing its soul.
+
+    The data revolution has enabled businesses to provide better service, at lower cost, and to more customers, at a scale and rate of change not seen since the industrial revolution. In contrast to the corporate sector, the public and non-profit sectors have seen significantly less application of data science methods.
+
+    Since 2014, Bloomberg has hosted the annual D4GX conference on the application of data science to solve problems for the social good. This forum enables data scientists from academia, industry and public sector actors from government and NGOs to build relationships, share insights and progress, and encourages them to work together on applying modern machine learning and data science methods to challenges in the public and non-profit sectors.
+  sessionName: Social Media Data for Good
+  sessionType:
+  - Panel
 canvasSteps:
 - sys:
     id: 2RNzeVwIDe4S4yEKqoW6IE
@@ -5544,3 +5560,15 @@ projects:
   - UNICEF
   theme:
   - Development
+- sys:
+    id: 4GnZREJTPOU2qcieeAqiW2
+  title: The Potential of Social Media Intelligence to Improve People's Lives
+  shortDescription: Social Media Data for Good
+  longDescription: |-
+    The twenty-first century will be challenging on many fronts. From historically catastrophic natural disasters resulting from climate change to inequality to refugee and terrorism crises, it is clear that we need not only new solutions, but new insights and methods of arriving at solutions. Data, and the intelligence gained from it through advances in data science, is increasingly being seen as part of the answer. This report explores the premise that data—and in particular the vast stores of data and the unique analytical expertise held by social media companies—may indeed provide for a new type of intelligence that could help develop solutions to today’s challenges.
+
+    In this report, developed with support from Facebook, we focus on an approach to extract public value from social media data that we believe holds the greatest potential: data collaboratives. Data collaboratives are an emerging form of public-private partnership in which actors from different sectors exchange information to create new public value. Such collaborative arrangements, for example between social media companies and humanitarian organizations or civil society actors, can be seen as possible templates for leveraging privately held data towards the attainment of public goals.
+  website: http://datacollaboratives.org/social-media.html
+  progress: Complete
+  theme:
+  - Social Media
