@@ -18,7 +18,7 @@ email:
 description: > # this means to ignore newlines until "baseurl:"
 
 baseurl: "" # the subpath of your site, e.g. /blog
-url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "http://datacollaboratives.org" # the base hostname & protocol for your site, e.g. http://example.com
 twitter_username:
 github_username:
 
@@ -43,7 +43,7 @@ contentful:
         access_token: 19fe7171bb04c2c91672bd62917606d1603fdd0dd6a9e83fd29895f279cbd1f0
         base_path: ./source         # Optional - Defaults to Current directory
         # destination: ./source/_data/contentful/spaces # Optional - Defaults to _data/contentful/spaces
-        all_entries: true  
+        all_entries: true
 
 page_gen:
   - data: 'contentful.spaces.cases.datacollaborative'
