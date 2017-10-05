@@ -11,6 +11,7 @@
 The Contentful API data is fetched and stored in `cases.yaml` file within the `_data` folder.
 
 Contentful data is automatically updated with CircleCi, but it can also be pulled directly from Contentful:
+
     bundle exec jekyll contentful
 
 ### Deploy
