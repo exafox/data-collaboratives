@@ -3724,6 +3724,77 @@ datacollaborative:
     is able to reflect the changing conditions between time periods that home are
     bought and sold.This information is useful for sellers, buyers, and renters looking
     for a fair deal, as well as journalists, analysts, and academics.
+- sys:
+    id: 3dvWuy4jniyq6Kay0QEQ6w
+  status: false
+  caseStudy: Tackling Childhood Obesity in Scotland
+  sector:
+  - Health
+  sharedBy:
+  - Multiple
+  sharedWith:
+  - UNICEF
+  region: Europe and Central Asia
+  collaborativeType:
+  - Data Pooling
+  - Trusted Intermediary
+  dataType:
+  - Disclosed Personal Data
+  - Observed Personal Data
+  - Disclosed Non-Personal Data
+  - Observed Non-Personal Data
+  link: https://www.thedatalab.com/
+  whatDataShared: 'The Data Lab, a Scottish innovation center, has entered into a
+    partnership with UNICEF to establish a data collaboratives hub to fight childhood
+    obesity. They will use data from different sectors, like private companies, research
+    institutions, government agencies, and others. Data sets like the weight of children,
+    economic factors, diet, adverstising, and levels of exercise will be analyzed
+    to combat childhood obesity. '
+  howDataShared: 'The data will be shared through collaborations between various sectors,
+    The Data Lab, and UNICEF. Data will be pooled from multiple industries at the
+    start, but the data collaboratives hub will encourage other forms of engagement.
+    The results of the data pooling analysis will be shared with UNICEF so that they
+    can use the information to investigate childhood obesity in other parts of the
+    world. '
+  purpose: 'After launching a Data Collaboratives program with The Governance Lab,
+    UNICEF chose to continue promoting the innovative platform with a European data
+    innovation center. They recognized that solving the complex problems that face
+    children today will require access to data and expertise across the private and
+    public sectors. The current data on factors that influence childhood obesity is
+    not comprehensive enough, and tapping into data from data owners like online gaming
+    companies, school lunch suppliers, and television advertisers may provide a clearer
+    view of the factors that contribute to obesity, in Scotland and around the world. '
+- sys:
+    id: 1zR3Sp54vKigW8iyQE0M4u
+  status: true
+  caseStudy: Air France-KLM Open Data Portal
+  sector:
+  - Transportation
+  sharedBy:
+  - Air France-KLM
+  sharedWith:
+  - Developers
+  - Public
+  region: Worldwide
+  collaborativeType:
+  - API
+  dataType:
+  - Disclosed Non-Personal Data
+  - Observed Non-Personal Data
+  link: https://developer.airfranceklm.com
+  whatDataShared: 'Air France-KLM has created an Open Data Portal to share their company
+    information about flight times, flight numbers and routes, fares, transport conditions,
+    and, by the end of 2017, flight status data. '
+  howDataShared: 'The data is shared through Air France-KLM''s Open Data Portal, which
+    features a frequently updated and improved API for developers. Information is
+    available after resgistration with the portal. '
+  purpose: 'Air France-KLM has been investing in open innovation over the past few
+    years, and has provided information to nearly 100 start-up companies each year.
+    One product which was developed with their data offers and intelligent ticket
+    office queue management app with digital tickets. The information on the Air France-KLM
+    Open Data Portal is offered to developers and start-up technology companies with
+    the intent that they can utilize the company''s flight information data to build
+    digital tools that improve airline travel experiences. '
 events:
 - sys:
     id: uF3uaikYV2gWsckO8wYO2
