@@ -3795,6 +3795,217 @@ datacollaborative:
     Open Data Portal is offered to developers and start-up technology companies with
     the intent that they can utilize the company''s flight information data to build
     digital tools that improve airline travel experiences. '
+- sys:
+    id: tZOxrtCoBEGseW8SYQGos
+  status: false
+  caseStudy: Mobile Positioning for Tourism Statistics
+  sector:
+  - Economic Development
+  sharedBy:
+  - EMT
+  sharedWith:
+  - Bank of Estonia
+  - Positium LBS
+  region: Europe and Central Asia
+  collaborativeType:
+  - Research Partnerships
+  dataType:
+  - Disclosed Personal Data
+  - Observed Personal Data
+  link: https://ec.europa.eu/eurostat/cros/system/files/S19P4_0.pdf
+  whatDataShared: 'Estonian mobile operator EMT provided anonymized cell phone user
+    data, such as the location of mobile telephones and the original registration
+    country of a phone, to Positium Labs and the Bank of Estonia in an effort to gather
+    more information about tourism and travel within Estonia and to surrounding European
+    countries. '
+  howDataShared: 'Positium Labs, a group associated with the University of Tartu,
+    and the Bank of Estonia developed and tested a methodology to collect and analyze
+    mobile phone data. Random ID numbers were assigned to owners of each phone registered
+    with EMT, and their positions were recorded through both passive and active mobile
+    positioning, a process that combines the use of location information from mobile
+    operator memory files and active mobile tracking. This tracking allowed researchers
+    to see how often and for what duration of time people spent traveling to and from
+    Estonia. '
+  purpose: Tracking the location of mobile phones has provided insights into the nature
+    of transnational travel to and from Estonia. The frequency and length of stay
+    allowed researchers to classify individuals as business or leisure travelers and
+    the means by which they use to travel, as determined by the speed by which they
+    travel to other locations. This information is useful to understand the volume
+    of tourism and foreign workers, and to tailor services and transport to them accordingly.
+- sys:
+    id: 780iBVQpTqaWMkImS4kOe8
+  status: false
+  caseStudy: Open Skills Research Hub
+  sector:
+  - Economic Development
+  sharedBy:
+  - University of Chicago
+  - U.S. Department of Labor
+  - National Labor Exchange
+  - CareerBuilder
+  sharedWith:
+  - Researchers
+  region: North America
+  collaborativeType:
+  - Data Pooling
+  - API
+  dataType:
+  - Disclosed Personal Data
+  - Observed Personal Data
+  - Disclosed Non-Personal Data
+  - Observed Non-Personal Data
+  link: http://dataatwork.org/data/research/
+  whatDataShared: 'The Open Skills Research Hub offers a collection of cleaned public
+    datasets pertaining to jobs and skills. These datasets exapnd upon existing data
+    from the Department of Labor''s O-NET data resources. '
+  howDataShared: 'The data is shared through the the Open Skills API, and datasets
+    produced by the Open Skills Project are available on the Research Hub. There are
+    two working groups that researchers may join: one which involves the contribution
+    of datasets and sitting on an advisory board to the cooperative, the other which
+    includes research on improving machine learning algorithms.'
+  purpose: The aim of the Open Skills Project and Open Skills Research Hub is to to
+    improve understanding of the labor market and reduce frictions in the workforce
+    data ecosystem by enabling a more granular common language of skills among industry,
+    academia, government, and nonprofit organizations.
+- sys:
+    id: Ndj30c83eeIm0giyKe8QC
+  caseStudy: Consumer Data Research Centre
+  sector:
+  - Health
+  - Economic Development
+  - Environment
+  - Transportation
+  - Criminal Justice
+  sharedBy:
+  - Retailers
+  - Service Organizations
+  - Consumer Data Research Centre
+  sharedWith:
+  - Businesses
+  - Researchers
+  region: Europe and Central Asia
+  collaborativeType:
+  - Data Pooling
+  - Trusted Intermediary
+  dataType:
+  - Disclosed Personal Data
+  - Observed Personal Data
+  - Disclosed Non-Personal Data
+  - Observed Non-Personal Data
+  link: https://www.cdrc.ac.uk
+  whatDataShared: 'Data from various retail and service businesses based in the United
+    Kingdom is shared with the Consumer Data Research Centre (CRDC), a branch of the
+    UK Ecnonomic and Social Research Council''s Big Data Network. Concsumer data includes:
+    sales data from till receipts, loyalty card and reward scheme data, market research
+    data, travel records, retail turnover by store or product category, and energy
+    consumption meter data.'
+  howDataShared: Consumer data is available to researchers through three different
+    levels of access on CDRC's website. The organization offers an open data portal
+    through registration and download. The CRDC offers data through a "Safeguarded"
+    tier, which includes data with restricted access due to licensing conditions.
+    The third "Controlled" tier contains data with stringent access restrictions,
+    as some of the data may be personally identifiable. In order to access Safeguarded
+    CDRC data, researchers must submit proposals for the use of the data, while Controlled
+    data can only be accessed at secure facilities at the University College London
+    or University of Liverpool after proposal approval by the Research Approvals Group
+    (RAG), which includes representatitves from the UK Data Service, an independent
+    academic representative, the Chair of the CDRC Advisory Board, a  CDRC data scientist,
+    and a data partner representative.
+  purpose: 'Consumer data is made available through the Consumer Data Research Centre
+    in order to  ensure a sustainable future for consumer data research sharing in
+    the United Kingdom, to support innovation efforts of consumer-related organizations,
+    and to drive economic growth. The CDRC also hopes to enrich the social science
+    research through linking consumer data to a broader range of studies. '
+- sys:
+    id: 5gSIwFmRmMOSosOu6saECc
+  caseStudy: D4I - Data Challenge on Integration of Migrants in Cities
+  sector:
+  - Health
+  - Economic Development
+  - Education
+  - Transportation
+  sharedBy:
+  - European Commission
+  - National Statistical Institutes
+  sharedWith:
+  - Researchers
+  region: Europe and Central Asia
+  collaborativeType:
+  - Prizes & Challenges
+  dataType:
+  - Disclosed Non-Personal Data
+  - Observed Non-Personal Data
+  link: https://bluehub.jrc.ec.europa.eu/datachallenge/
+  whatDataShared: The European Commission's Data Challenge on Integration of Migrants
+    in Cities (D4I) provides data from a spatial disaggregation of statistics from
+    the 2011 Census from eight European Union National Statistical Institutes. Data
+    on residents' countries of origin have been provided from Spain, Germany, Italy,
+    France, Netherlands, Portugal, the United Kingdom, and Ireland. The original data
+    was spacially processed, and shows regions divided into uniform grids that show
+    concentrations of migrants in cells of 100 by 100 meters. Each country has a separate
+    data file available with the number of persons by origin in each grid cell. Data
+    is also available from a dedicated data visualization platform.
+  howDataShared: 'Data for the D4I Challenge is available worldwide to reseachers
+    affiliated with a research institution that works with migration, spatial demography,
+    social geography, urban sociology, economics, and political science. Eligible
+    researchers are required to submit a proposal with the scope, objectives and intended
+    use of the derived data. If selected, datasets are made available for download
+    and analysis. Findings will be published in EU policymaker workshops and online
+    in November 2018. '
+  purpose: 'Through the Data Challenge on Integration of Migrant in Cities, the European
+    Commission seeks to stimulate research on various aspects of migrant integration
+    at the local level, especially if the research results in policy recommendations
+    with European Union relevance. Through the offer of this census derived data,
+    there is potential to strenghthen existing qualitiative research around urban
+    diversity, spatial segregation, education, housing, access to public services,
+    income, and electoral outcomes. '
+- sys:
+    id: 6VEsfEReyAEI8wuaukc0GE
+  caseStudy: SoBigData Research Infrastructure
+  sector:
+  - Health
+  - Economic Development
+  - Infrastructure
+  - Transportation
+  - Digital Society
+  sharedBy:
+  - Public governments
+  - private companies
+  - international organizations
+  - academic institutions
+  - and official statistics communities
+  sharedWith:
+  - Researchers
+  region: Europe and Central Asia
+  collaborativeType:
+  - Research Partnerships
+  dataType:
+  - Disclosed Personal Data
+  - Observed Personal Data
+  - Disclosed Non-Personal Data
+  - Observed Non-Personal Data
+  link: http://www.sobigdata.eu
+  whatDataShared: 'SoBigData, a research infrastructure funded by the European Union''s
+    Horizon 2020 research and innovation program, offers datasets from various institutions
+    in multiple research fields, such as mathematics, information and communications
+    technology, and human, social and economic sciences. '
+  howDataShared: SoBigData is organized as a consortium of 12 research institutions
+    from 7 member countries of the European Union (Italy, the United Kingdom, Germany,
+    Estonia, Finland, the Netherlands, and Switzerland). The consortium offers some
+    of its data to researchers on a publicly available portal that is organized by
+    the 5 "exploratories" that they run. SoBigData's current exploratories (City of
+    Citizens, Well-being and Economy, Societal Debates, Migration Studies, and Sports
+    Data Science) are thematic environments for cross-disciplinary research. The consortium
+    also offers additional datasets and expert support through Virtual and Transnational
+    Access exploratory and open project calls.
+  purpose: 'SoBigData''s Social Mining & Big Data Ecosystem is a research infrastructure
+    that is designed to provide an ecosystem for ethic-sensitive scientific discoveries
+    and advanced social data mining. The consortium of research insitutions hopes
+    to create a pan-European, interdisciplinary community of researchers who can improve
+    their work through data access, training, networking, and innovation activities.
+    The research conducted through SoBigData''s initiative additionally hopes to impact
+    other institutions like non-profit organizations, government bodies, funders,
+    private sector businesses and policy makers.  '
 events:
 - sys:
     id: uF3uaikYV2gWsckO8wYO2
@@ -5607,6 +5818,37 @@ resources:
   - Risks and Challenges
   - Data Responsibility
   - In Practice
+- sys:
+    id: 4OPTjW3MM8sEEKaCCgicEu
+  authors: Future of Privacy Forum
+  title: 'Understanding Corporate Data Sharing Decisions: Practices, Challenges, and
+    Opportunities for Sharing Corporate Data with Researchers'
+  pubDate: !ruby/object:DateTime 2017-11-14 00:00:00.000000000 Z
+  url: https://fpf.org/2017/11/14/understanding-corporate-data-sharing-decisions-practices-challenges-and-opportunities-for-sharing-corporate-data-with-researchers/
+  shortDescription: '"In this report, we aim to contribute to the literature by seeking
+    the ''ground truth'' from the corporate sector about the challenges they encounter
+    when they consider making data available for academic research."'
+  annotation: "-- \"The report seeks to provide insights about why companies share
+    data with academic researchers, how they make that data available for research,
+    the perceived risks from sharing data, and the strategies that companies employ
+    to address those risks.\n-- Participants that provided information for the report
+    came from 19 companies across diverse sectors, such as high-tech manufacturing,
+    workforce, education, healthcare, telecommunucations, real estate, ecommerce,
+    data-related services, transportation, consumer genetics testing, and online services.
+    \n-- Future of Privacy Forum researchers use the insights gathered from interviews
+    with these companies to identify opportunities for private data sharing. Some
+    recommendations include the potential to enhance a positive public profile of
+    a company sharing data, to increase peer-to-peer knowledge sharing networks, to
+    create a clearinghouse to match academics to companies with the research that
+    they need, and to develop safeguards to mitigate perceived risks.\""
+  type:
+  - Report
+  theme:
+  - Benefits
+  - Incentives
+  - Risks and Challenges
+  - Data Responsibility
+  - In Practice
 projects:
 - sys:
     id: 4qXwV2Dbi8IOO8CO6uGCuK
@@ -5643,3 +5885,26 @@ projects:
   progress: Complete
   theme:
   - Social Media
+- sys:
+    id: 1uc9MZoVnyeUW6CUiSMUSw
+  title: Gender and Urban Mobility
+  shortDescription: Leveraging data collaboratives to make urban transportation planning
+    more gender-inclusive
+  longDescription: "As part of the Data2X initiative, The GovLab, UNICEF, Universidad
+    del Desarrollo/Telefónica R&D Center, ISI Foundation, and DigitalGlobe have joined
+    forces to determine if gender plays a role in the way people move in megacities,
+    and how transportation planning can become more gender-inclusive.\n\nSantiago,
+    Chile, was selected as the first location for the multi-dimensional research study,
+    and the multi-national team will use Data Collaboratives as the platform for aggregating
+    and analyzing a mix of corporate and open government data around gender and urban
+    mobility.\n\nGreater access to data on gender and urban mobility can inform regulations,
+    policies and programs that help address real-world challenges experienced by women
+    and children, and increase their safety and security. And Data Collaboratives
+    offer a vehicle for understanding the intelligence gathered from public and private
+    data sources to surface possible solutions. \n\nThe Santiago project team is creating
+    a Data Collaborative on Gender and Urban Mobility to pair official government
+    data (census, transport, crime report, socioeconomic indicators) with high-definition
+    satellite imagery from DigitalGlobe, and aggregated, anonymized Call Detail Records
+    from Telefonica to create create a human landscape and mobility map of Santiago.
+    \n"
+  progress: Prototype
