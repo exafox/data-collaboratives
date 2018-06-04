@@ -4006,6 +4006,372 @@ datacollaborative:
     The research conducted through SoBigData''s initiative additionally hopes to impact
     other institutions like non-profit organizations, government bodies, funders,
     private sector businesses and policy makers.  '
+- sys:
+    id: 47gv2yIjaMiUO8SoUMsiGI
+  status: true
+  caseStudy: Copper Smith and Digital Impact Alliance (DIAL) Partner to Improve Health
+    in Malawi
+  sector:
+  - Health
+  sharedBy:
+  - Airtel
+  - TNM
+  sharedWith:
+  - Ministry of Health Malawi
+  region: Sub-Saharan Africa
+  collaborativeType:
+  - Data Pooling
+  dataType:
+  - Disclosed Personal Data
+  - Disclosed Non-Personal Data
+  link: http://coopersmith.org/blog/2017/11/6/taking-the-next-step-to-implement-data4development-in-malawidial
+  whatDataShared: Mobile Network Operators (MNOs) data, population census, settlements
+    mapping and geospatial data.
+  howDataShared: This data collaborative brings together Malawi's Ministry of Health
+    with two of the biggest mobile operators in the country, Airtel and TNM, to share
+    data through the Malawi Health System.
+  purpose: The primary intended beneficiary of this collaboration is the Ministry
+    of Health. The insights gathered from the data will help the government to address
+    a diversity of pressing health issues in the country.
+- sys:
+    id: z0ygjaqOLACeMgqOsIoy4
+  status: true
+  caseStudy: Better Immunization Data (BID) Initiative
+  sector:
+  - Health
+  sharedBy:
+  - Health Facilities
+  sharedWith:
+  - Health Practitioners
+  region: Sub-Saharan Africa
+  collaborativeType:
+  - Data Pooling
+  dataType:
+  - Disclosed Personal Data
+  - Disclosed Non-Personal Data
+  link: http://bidinitiative.org/
+  whatDataShared: The BID Initiative started with a focus on immunization data, but
+    it is designed to be applicable and spread to other sectors such as nutrition,
+    maternal health, and so on.
+  howDataShared: The data shared through the collabroative was collected through an
+    electronic immunization registry. This registry contains supply chain information
+    data, such as vaccine stocks, number of children to receive immunization, etc.
+  purpose: The BID Initiative partners with national governments to provide immunization-related
+    data that can be used to improve health service delivery.
+- sys:
+    id: 6Mohg1DbpKSeIaW8oUMI04
+  status: true
+  caseStudy: Google Earth Outreach (GEO) Initiative
+  sector:
+  - Health
+  - Economic Development
+  - Environment
+  - Education
+  - Agriculture
+  - Infrastructure
+  - Transportation
+  - Crisis Response
+  - Digital Society
+  - Telecommunications
+  - Criminal Justice
+  sharedBy:
+  - Google
+  sharedWith:
+  - Public service/nonprofit organizations
+  region: Worldwide
+  collaborativeType:
+  - Prizes & Challenges
+  - Trusted Intermediary
+  - API
+  dataType:
+  - Disclosed Personal Data
+  - Disclosed Non-Personal Data
+  link: https://www.google.com/earth/outreach/
+  whatDataShared: Google Earth Outreach is a platform created by Google, containing
+    a number of tools (Google Earth images, Google Maps API, etc) that can be used
+    by public service/nonprofit organization to create evidence-based policies or
+    programs.
+  howDataShared: To access the data, users must sign up through GEO page. Some tools
+    are available at no cost, some others are available through a subscription mechanism.
+  purpose: The purpose of GEO is to provide nonprofit/public service organizations
+    with better analytical tools and data to make an impactful contribution or positive
+    change in the world.
+- sys:
+    id: 6HuVqMUHXG6WA84AIEM80s
+  status: true
+  caseStudy: GBDX for Sustainability Challenge
+  sector:
+  - Health
+  - Economic Development
+  - Environment
+  - Education
+  - Agriculture
+  sharedBy:
+  - Digital Globe
+  sharedWith:
+  - Challenge Participants
+  region: Worldwide
+  collaborativeType:
+  - Prizes & Challenges
+  dataType:
+  - Disclosed Personal Data
+  link: http://explore.digitalglobe.com/GBDX-for-Sustainability-Challenge.html
+  whatDataShared: 'This sustainability-focused prize-backed challenge provides successful
+    applicants with access to DigitalGlobe’s geospatial big data platform, GBDX, for
+    two months to test their project concepts. '
+  howDataShared: Interested applicants propose their ideas on how they would leverage
+    GBDX and high-resolution satellite imagery to solve important sustainability problems.
+    All projects are expected to share any outputs from the challenge.
+  purpose: Inspired by the United Nations Sustatinable Development Goals (SDGs) the
+    GBDX for Sustainability Challenge was created to provide innovative problem-solvers
+    with access to useful geo-spatial and satetllite imagery data as they seek to
+    problems across topics like disaster response, food security, and poverty elimination.
+- sys:
+    id: 7CbhU7lxjUaEkm2a2Q60kY
+  status: true
+  caseStudy: Kaiser Permanente Research Bank
+  sector:
+  - Health
+  sharedBy:
+  - Kaiser Permanente
+  sharedWith:
+  - Researchers
+  region: Worldwide
+  collaborativeType:
+  - Data Pooling
+  - Trusted Intermediary
+  - Research Partnerships
+  dataType:
+  - Disclosed Personal Data
+  link: https://researchbank.kaiserpermanente.org/
+  whatDataShared: 'The KP Research Bank is a collection of health information and
+    blood samples shared by volunteer clients. '
+  howDataShared: Interested researchers must fill out an application online at no
+    cost. The application is then reviewed by Kaiser Permanente and, if approved,
+    researchers are granted access to the data.
+  purpose: The information found in the Research Bank helps doctors and researchers
+    learn about disease, make discoveries, find treatments, and help people live healthier
+    lives.
+- sys:
+    id: PaME4nMtk2q4GuUgm4AIM
+  status: true
+  caseStudy: Properati
+  sector:
+  - Infrastructure
+  sharedBy:
+  - Properati Data
+  sharedWith:
+  - Public
+  region: Latin America and the Caribbean
+  collaborativeType:
+  - API
+  dataType:
+  - Disclosed Personal Data
+  link: https://www.properati.com.ar/data/
+  whatDataShared: 'Properati Data is the data division of Properati, a property search
+    site in Latin America. The public can access different tools and datasets to use
+    them freely in their projects. For example, they can download the data of more
+    than 2 million properties that Properati has published in Argentina, Brazil, Mexico,
+    Chile, Colombia and Peru. '
+  howDataShared: 'The data is shared publicly through Properati''s website. Properati
+    provides data of all properties in Latin America in CSV or BigQuery format. The
+    datasets have information such as creation date, type of property, price, etc. '
+  purpose: The information offered by Properati has supported projects focused on,
+    for example, identifying areas with high-risk of violence against women, correlations
+    of property value with election, disaster risk of a property, and others.
+- sys:
+    id: 35sy5F0RXWcmKcgm2oSIic
+  status: true
+  caseStudy: The Humanitarian Data Exchange
+  sector:
+  - Crisis Response
+  sharedBy:
+  - Various International Civil Society Organizations
+  sharedWith:
+  - Public
+  region: Worldwide
+  collaborativeType:
+  - Trusted Intermediary
+  dataType:
+  - Disclosed Personal Data
+  - Observed Personal Data
+  - Disclosed Non-Personal Data
+  - Observed Non-Personal Data
+  link: https://data.humdata.org/
+  whatDataShared: The HDX contains humanitarian data, which is described as data about
+    the context in which a humanitarian crisis is occurring (e.g., baseline/development
+    data, damage assessments, geospatial data); data about the people affected by
+    the crisis and their needs; and data about the response by organisations and people
+    seeking to help those who need assistance.
+  howDataShared: The data is shared through the Humanitarian Data Exchange website--an
+    open platform for sharing data, launched in July 2014. A team within the United
+    Nations Office for the Coordination of Humanitarian Affairs (OCHA) manages HDX.
+    OCHA is part of the United Nations Secretariat, responsible for bringing together
+    humanitarian actors to ensure a coherent response to emergencies. The HDX team
+    includes OCHA staff and a number of consultants. We are based in North America,
+    Europe and Africa.
+  purpose: The goal of HDX is to make humanitarian data easy to find and use for a
+    wide range of analyses undertaken by humanitarian workers across sectors and regions.
+- sys:
+    id: 1NXx7Iw1CASgIu2AAcaouq
+  status: true
+  caseStudy: Health Data Collaborative
+  sector:
+  - Health
+  sharedBy:
+  - International Agencies
+  - Governments
+  - Philanthropies
+  - Donors
+  - Academics
+  sharedWith:
+  - National Health Organizations
+  region: Worldwide
+  collaborativeType:
+  - Data Pooling
+  - Trusted Intermediary
+  dataType:
+  - Disclosed Personal Data
+  - Observed Personal Data
+  link: https://www.healthdatacollaborative.org/
+  whatDataShared: 'The Health Data Collaborative shares a wide array of datasets,
+    including information on: routine health information systems; community data;
+    facility surveys; measurement of quality of care; logistics management and information
+    systems; disease surveillance; population data sources; household surveys; Civil
+    Registration and Vital Statistics (CRVS).'
+  howDataShared: "The Health Data Collaborative is developing a one-stop shop for
+    health information system standards that will include: \n\n- Guidelines for designing
+    measurement and evaluation systems within national health sector plans\n- A package
+    of recommended indicators, data quality metrics and dashboards for collecting
+    and analysing data at health facilities and in communities\n- Standards for integrating
+    outbreak surveillance into routine health information systems\n- Harmonized set
+    of survey tools for collecting comprehensive household health data\n- Resource
+    kit to improve birth and death registration\n- Core health workforce metrics\n-
+    Guidelines on designing health systems that talk to each other and policies for
+    sharing data"
+  purpose: The Health Data Collaborative is a joint effort by multiple global health
+    partners to work alongside countries to improve the availability, quality and
+    use of data for local decision-making and tracking progress toward the health-related
+    Sustainable Development Goals (SDGs).
+- sys:
+    id: 21jWC245gkc8GMguCQQEIU
+  status: true
+  caseStudy: Data Collaboratives for Local Impact (DCLI)
+  sector:
+  - Health
+  - Economic Development
+  - Education
+  sharedBy:
+  - PEPFAR
+  - Tanzania Data Lab
+  - Data Zetu
+  sharedWith:
+  - Public
+  region: Sub-Saharan Africa
+  collaborativeType:
+  - Data Pooling
+  - Trusted Intermediary
+  dataType:
+  - Disclosed Personal Data
+  - Disclosed Non-Personal Data
+  link: https://www.mcc.gov/initiatives/initiative/mcc-pepfar-partnership
+  whatDataShared: The data that is shared are possessed by PEPFAR, Tanzania Data Lab,
+    and Data Zetu, such as PEPFAR's Sustainability Index Dashboards (SID) and Country
+    Operational Plans (COPs), private and public data collected by Tanzania Data Lab
+    and Data Zetu.
+  howDataShared: Data is shared with country-based partners who are selected through
+    an open contracting process to adapt projects to local needs, to increase capacity
+    of local partners, and to ensure sustainability.
+  purpose: DCLI seeks to improve the capacity of individuals, communities and organizations
+    to use data to solve problems relating to HIV/AIDS, global health, gender equality,
+    and economic growth.
+- sys:
+    id: 7ppOMx3khaCA22kCEoK4wY
+  status: true
+  caseStudy: 'AirNow: Open Platform for Air Quality Data'
+  sector:
+  - Environment
+  sharedBy:
+  - U.S. Environmental Protection Agency
+  sharedWith:
+  - Public
+  region: North America
+  collaborativeType:
+  - API
+  dataType:
+  - Disclosed Non-Personal Data
+  link: https://airnow.gov/
+  whatDataShared: AirNow was designed to provide the public with real-time air quality
+    observations, forecasts and health information that citizens can use to plan activities
+    such that exposure can be reduced. AirNow provides information about current Air
+    Quality Index (AQI) which tells you how clean or polluted your outdoor air is,
+    along with associated health effects that may be of concern. The AQI translates
+    air quality data into numbers and colors that help people understand when to take
+    action to protect their health.
+  howDataShared: |-
+    The public can access AQI info from the platforms below:
+    - At http://www.airnow.gov
+    - On Facebook and Twitter
+    - Through EnviroFlash email alerts
+    - With the free AirNow App for iPhones and Android
+    - With the customizable AirNow Widget
+  purpose: AirNow has developed a real-time air quality standard that is used by all
+    data submitters; for interoperability, an AirNow API provides service-based data
+    capabilities. Data is used daily by air quality forecasters and sometimes emergency
+    responders. It is also consulted for epidemiological studies.
+- sys:
+    id: 3s1yJKJYUoCmwIOoKCoEK4
+  status: true
+  caseStudy: Barcode of Life Data (BOLD) System
+  sector:
+  - Health
+  sharedBy:
+  - Centre for Biodiversity Genomics in Canada
+  sharedWith:
+  - Public
+  region: North America
+  collaborativeType:
+  - Data Pooling
+  - Trusted Intermediary
+  dataType:
+  - Disclosed Personal Data
+  - Disclosed Non-Personal Data
+  link: http://boldsystems.org/index.php
+  whatDataShared: 'The Barcode of Life Data Systems (BOLD) is an informatics workbench
+    aiding the acquisition, storage, analysis, and publication of DNA barcode records.
+    By assembling molecular, morphological, and distributional data, it bridges a
+    traditional bioinformatics chasm. '
+  howDataShared: BOLD is freely available to any researcher with interests in DNA
+    barcoding. By providing specialized services, it aids the assembly of records
+    that meet the standards needed to gain BARCODE designation in the global sequence
+    databases,
+  purpose: The purpose of BOLD is to "advance biodiversity science through DNA-based
+    species identification."
+- sys:
+    id: ivPnhGp9FmMWCycweKsEG
+  status: true
+  caseStudy: Collaborative Study to Diminish Abuse on Twitter
+  sector:
+  - Digital Society
+  sharedBy:
+  - Twitter
+  sharedWith:
+  - Researchers
+  region: North America
+  collaborativeType:
+  - Research Partnerships
+  dataType:
+  - Disclosed Personal Data
+  - Disclosed Non-Personal Data
+  link: https://medium.com/@susanbenesch/launching-today-new-collaborative-study-to-diminish-abuse-on-twitter-2b91837668cc
+  whatDataShared: Twitter will share aggregated, anonymized data that can aid researchers
+    in studying the issue of abuse on the platform.
+  howDataShared: |-
+    Researchers participating in the abuse study and Twitter signed a legal agreement on the basis of data sharing. The following is an explanation from the researchers on the data sharing mechanism:
+    > "Privacy is central to our process, which therefore limits the data we work with, protects the data when we’re doing analysis, and restricts our use of any data to this study only. We designed the study with Twitter in a way that allows us to evaluate the experiment without needing to know the names or other personal information of any account. When the study finishes, Twitter will prepare an aggregated dataset for our analysis. Data from Twitter will remain on an encrypted system of ours where we will conduct our analysis, and we will not share the data beyond that system. After confirming the integrity of the data we receive, we will follow the agreed plan to analyze the results. Since peer review can take time, and since other researchers may ask us to double-check details, we will hold the data and any backups for two years after the study concludes, and then delete it all."
+  purpose: The purpose of this study is to test whether having an explicit platform
+    rules and norms will influence the way people behave on social media and reduce
+    online abuse.
 events:
 - sys:
     id: uF3uaikYV2gWsckO8wYO2
@@ -5973,6 +6339,55 @@ resources:
   theme:
   - General
   - Risks and Challenges
+- sys:
+    id: 3DG4suFdzasEa28oAsQIMq
+  authors: European Commission
+  title: Guidance on sharing private sector data in the European data economy
+  publication: European Commission
+  pubDate: !ruby/object:DateTime 2018-04-25 00:00:00.000000000 Z
+  url: https://ec.europa.eu/digital-single-market/en/news/staff-working-document-guidance-sharing-private-sector-data-european-data-economy
+  shortDescription: The European Commission published this accompanying document to
+    the Communication "Towards a common European data space". This "Staff Working
+    Document aims to provide a toolbox for companies that are data holders, data users,
+    or both at the same time. For this purpose, it contains a "How to" guide on legal,
+    business and technical aspects of data sharing that can be used in practice when
+    considering and preparing data transfers between companies coming from the same
+    or different sectors."
+  annotation: |-
+    The purpose of this Staff Working Document is "to provide a toolbox for companies that are data holders, data users, or both at the same time. For this purpose, it contains a "How to" guide on legal, business and technical aspects of data sharing that can be used in practice when considering and preparing data transfers between companies coming from the same or different sectors."
+
+    This Staff Working Document defines the following principles to ensure fair markets: transparency, shared value creation, respect for each other's commercial interests, ensure undistorted competition, minimised data lock-in.
+
+    Additionally, it also provides a guide of data sharing for businesses and a guide on how to make data sharing successful and fruitful.
+  type:
+  - Paper
+  theme:
+  - General
+  - Data Responsibility
+  - Governance and Operations
+- sys:
+    id: 5QoTl1c8yQQiwcgQwc8asQ
+  authors: European Commission
+  title: Communication towards a common European data space
+  publication: European Commission
+  pubDate: !ruby/object:DateTime 2018-04-25 00:00:00.000000000 Z
+  url: https://ec.europa.eu/digital-single-market/en/news/communication-towards-common-european-data-space
+  shortDescription: 'The European Commission published this document for the following
+    purpose: "With this Communication, the Commission proposes a package of measures
+    as a key step towards a common data space in the EU - a seamless digital area
+    with the scale that will enable the development of new products and services based
+    on data."'
+  annotation: |-
+    In building towards a common data space, which is "a seamless digital area with the scale that will enable the development of new products and services based on data," the European Commission proposes the following steps:
+    - "a proposal for a review of the Directive on the re-use of public sector information (PSI Directive);
+    - "an update of the Recommendation on access to and preservation of scientific information; and
+    - "guidance on sharing private sector data."
+  type:
+  - Paper
+  theme:
+  - General
+  - Benefits
+  - Governance and Operations
 projects:
 - sys:
     id: 4qXwV2Dbi8IOO8CO6uGCuK

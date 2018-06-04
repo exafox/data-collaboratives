@@ -8,7 +8,7 @@ subtitle:
 <div id="introduction">
 
   <div class="row expanded align-right" id="download-container">
-    <a href="{{'/static/files/data-collaboratives-intro.pdf' | relative_url }}" target="_blank" id="intro-button" class="button"><i class="material-icons m-space">file_download</i> Download the PDF</a>
+    <a href="{{'/static/files/data-collaboratives-intro.pdf' | relative_url }}" target="_blank" id="intro-button" class="button file-data-collaboratives-intro"><i class="material-icons m-space">file_download</i> Download the PDF</a>
   </div>
 
   <div id="fullpage">
@@ -26,7 +26,7 @@ subtitle:
 
     <!-- PAGES 4 5 6 -->
     <div class="section" id="section04">
-      <div class="slide" data-anchor="4a"> 
+      <div class="slide" data-anchor="4a">
         <img src="/images/slides/introduction/slide04.jpg" id="slide04" alt="slide04" />
         <div class="row expanded align-center" id="slide-instructions">
           <p>Click on the arrows or use your keyboard to navigate left and right</p>
@@ -42,73 +42,73 @@ subtitle:
 
   <!-- PAGES 7 8 9 -->
     <div class="section " id="section05">
-      <div class="slide" data-anchor="5a"> 
+      <div class="slide" data-anchor="5a">
         <img src="/images/slides/introduction/slide07.jpg" id="slide07" alt="slide07" />
         <div class="row expanded align-center" id="slide-instructions">
           <p>Click on the arrows or use your keyboard to navigate left and right</p>
         </div>
       </div>
-      <div class="slide" data-anchor="5b"> 
+      <div class="slide" data-anchor="5b">
         <img src="/images/slides/introduction/slide08.jpg" id="slide08" alt="slide08" />
       </div>
-      <div class="slide" data-anchor="5c"> 
+      <div class="slide" data-anchor="5c">
         <img src="/images/slides/introduction/slide09.jpg" id="slide09" alt="slide09" />
       </div>
     </div>
 
   <!-- PAGES 10 11 12 13 14 -->
     <div class="section " id="section06">
-      <div class="slide" data-anchor="6a"> 
+      <div class="slide" data-anchor="6a">
         <img src="/images/slides/introduction/slide010.jpg" id="slide010" alt="slide010" />
         <div class="row expanded align-center" id="slide-instructions">
           <p>Click on the arrows or use your keyboard to navigate left and right</p>
         </div>
       </div>
-      <div class="slide" data-anchor="6b"> 
+      <div class="slide" data-anchor="6b">
         <img src="/images/slides/introduction/slide011.jpg" id="slide011" alt="slide011" />
       </div>
-      <div class="slide" data-anchor="6c"> 
+      <div class="slide" data-anchor="6c">
         <img src="/images/slides/introduction/slide012.jpg" id="slide012" alt="slide012" />
       </div>
-      <div class="slide" data-anchor="6d"> 
+      <div class="slide" data-anchor="6d">
         <img src="/images/slides/introduction/slide013.jpg" id="slide013" alt="slide013" />
       </div>
-      <div class="slide" data-anchor="6e"> 
+      <div class="slide" data-anchor="6e">
         <img src="/images/slides/introduction/slide014.jpg" id="slide014" alt="slide014" />
       </div>
     </div>
 
   <!-- PAGES 15 16 17 18 -->
     <div class="section " id="section07">
-      <div class="slide" data-anchor="7a"> 
+      <div class="slide" data-anchor="7a">
         <img src="/images/slides/introduction/slide015.jpg" id="slide015" alt="slide015" />
         <div class="row expanded align-center" id="slide-instructions">
           <p>Click on the arrows or use your keyboard to navigate left and right</p>
         </div>
       </div>
-      <div class="slide" data-anchor="7b"> 
+      <div class="slide" data-anchor="7b">
         <img src="/images/slides/introduction/slide016.jpg" id="slide016" alt="slide016" />
       </div>
-      <div class="slide" data-anchor="7c"> 
+      <div class="slide" data-anchor="7c">
         <img src="/images/slides/introduction/slide017.jpg" id="slide017" alt="slide017" />
       </div>
-      <div class="slide" data-anchor="7d"> 
+      <div class="slide" data-anchor="7d">
         <img src="/images/slides/introduction/slide018.jpg" id="slide018" alt="slide018" />
       </div>
     </div>
 
     <!-- PAGES 19 10 21 -->
     <div class="section " id="section08">
-      <div class="slide" data-anchor="8a"> 
+      <div class="slide" data-anchor="8a">
         <img src="/images/slides/introduction/slide019.jpg" id="slide019" alt="slide019" />
         <div class="row expanded align-center" id="slide-instructions">
           <p>Click on the arrows or use your keyboard to navigate left and right</p>
         </div>
       </div>
-      <div class="slide" data-anchor="8b"> 
+      <div class="slide" data-anchor="8b">
         <img src="/images/slides/introduction/slide020.jpg" id="slide020" alt="slide020" />
       </div>
-      <div class="slide" data-anchor="8c"> 
+      <div class="slide" data-anchor="8c">
         <img src="/images/slides/introduction/slide021.jpg" id="slide021" alt="slide021" />
       </div>
     </div>
@@ -125,3 +125,9 @@ subtitle:
     </div>
   </div>
 </div>
+
+<script type="text/javascript">
+  $(".file-data-collaboratives-intro").on('click', function() {
+    ga('send', 'event', 'File', 'download', 'Data Collaboratives Intro');
+  });
+</script>
