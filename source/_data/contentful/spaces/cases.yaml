@@ -4372,6 +4372,634 @@ datacollaborative:
   purpose: The purpose of this study is to test whether having an explicit platform
     rules and norms will influence the way people behave on social media and reduce
     online abuse.
+- sys:
+    id: 7ttpuvwqha82uQSuu04e2k
+  status: true
+  caseStudy: Data for Refugees (D4R)
+  sector:
+  - Crisis Response
+  sharedBy:
+  - Turk Telekom
+  sharedWith:
+  - Challenge Finalists
+  region: Europe and Central Asia
+  collaborativeType:
+  - Prizes & Challenges
+  dataType:
+  - Disclosed Personal Data
+  link: http://d4r.turktelekom.com.tr/
+  whatDataShared: Data For Refugees Turkey is a big data challenge. Three anonymized
+    call detail record datasets, two files on cell tower locations and one year of
+    mobile CDR data were made available to help researchers provide better living
+    conditions for Syrian refugees in Turkey.
+  howDataShared: 'Türk Telekom made all of the data available for researchers taking
+    part in the big data challenge to enable them to create a project that would improve
+    the lives of refugees. Researchers will be rewarded for their analyses of the
+    social data, and how they used it to make a lasting impact on the individuals
+    involved. '
+  purpose: The purpose of the challenge is to have researchers use the dataset to
+    come up with ways to help more than 3.5 million Syrian refugess in Turkey. The
+    projects are meant to create solutions for security and safety, health, education,
+    unemployment and social integration.
+- sys:
+    id: GArXrEoiwmoC28cYAiYYQ
+  status: true
+  caseStudy: Counter-Trafficking Data Collaborative (CTDC)
+  sector:
+  - Criminal Justice
+  sharedBy:
+  - Polaris
+  - Liberty Asia
+  - IOM
+  - Counter-Trafficking Agencies
+  sharedWith:
+  - Public
+  region: Worldwide
+  collaborativeType:
+  - Data Pooling
+  dataType:
+  - Disclosed Personal Data
+  link: https://www.ctdatacollaborative.org/
+  whatDataShared: CTDC collects and combines global, de-identified data regarding
+    victims of human trafficking. The data is cohesively put together to create a
+    hub for evidence of human trafficking in an effort to help implement policies
+    and strategies to stop it.
+  howDataShared: 'CTDC’s first open dataset, the global dataset of victims of human
+    trafficking, can be downloaded on their website. It publishes data from various
+    organizations, case data, and individuals who reached out via hotlines. '
+  purpose: CTDC serves as a central location for human trafficking data. It provides
+    the counter-trafficking movement with up to date information and data to continue
+    to understand the crime. The collaborative hopes to empower decision makers to
+    intervene and help prevent human trafficking.
+- sys:
+    id: 6K2vYKZmDuM64CauYwIwuK
+  status: true
+  caseStudy: UNEP Live
+  sector:
+  - Environment
+  sharedBy:
+  - UNEP
+  sharedWith:
+  - Public
+  region: Worldwide
+  collaborativeType:
+  - Trusted Intermediary
+  dataType:
+  - Disclosed Non-Personal Data
+  - Observed Non-Personal Data
+  link: http://uneplive.unep.org/
+  whatDataShared: 'Environment Live makes global, regional and national data and assessments
+    available to UN Member States. It allows access to governance data, monitoring
+    technologies, citizen science data and more in order to keep the environment and
+    particular countries under review. '
+  howDataShared: Environment Live promotes open access to national data and therefore
+    works to make data available and accessible to the public based upon a country's
+    needs. Its online platform allows people to share data and knowledge to improve
+    the environment. Currently, more than 193 countries can be tracked on Environment
+    Live.
+  purpose: 'Environment Live supports global environmental policy by providing the
+    public with access to national data, as well as assessments on countries'' work
+    and progress. The platform is working to advance countries through public knowledge
+    in order to achieve the Goals of Agenda 2030 and Sustainable Development. '
+- sys:
+    id: 4EKaKA0FfGCyiKEqoySyM8
+  status: true
+  caseStudy: 'Project 8: A Data Collaboration Platform For Sustainable Development'
+  sector:
+  - Health
+  - Economic Development
+  - Environment
+  - Education
+  sharedBy:
+  - Project 8
+  sharedWith:
+  - Invited Users
+  region: Worldwide
+  collaborativeType:
+  - Data Pooling
+  - Trusted Intermediary
+  dataType:
+  - Disclosed Non-Personal Data
+  - Observed Non-Personal Data
+  link: http://demandinstitute.org/projects/project-8/
+  whatDataShared: 'Project 8 is a global, digital, community-based platform created
+    to use data on sustainable development and evolving human need to help figure
+    out how to sustain a growing global population. Project 8 aims to make data sharing
+    a social activity by creating a Facebook-like platform for users to share their
+    data with each other. The data that is shared relates to achieving sustainable
+    development goals. '
+  howDataShared: Project 8 has created a "cloud-based, open data collaboration platform"
+    to bring together individuals and researchers from around the world to discuss
+    and analyze sustainable development data. As people add data to the platform,
+    the community as a whole can work to understand existing data, identify data gaps
+    and brainstorm future possibilities.
+  purpose: Project 8 is bringing the global community together to promote discussion
+    on sustainable development data and human needs perspectives. The project aims
+    to use community to increase the usage of existing data to plan for a more sustainable
+    future that can handle the expected growth that lies ahead. Project 8 comes in
+    to facilitate evidence-based policymaking that will support the 2030 Agenda.
+- sys:
+    id: 2C2ALH6XMgWEkU8uGme4Qu
+  status: true
+  caseStudy: Governance Data Alliance
+  sector:
+  - Economic Development
+  - Environment
+  - Education
+  sharedBy:
+  - Governance Data Alliance
+  sharedWith:
+  - Public
+  region: Worldwide
+  collaborativeType:
+  - Data Pooling
+  dataType:
+  - Disclosed Personal Data
+  - Disclosed Non-Personal Data
+  link: http://www.governancedata.org
+  whatDataShared: 'The Governance Data Alliance is made up of NGOs, governments, firms
+    and donors that pool governance data from a range of sources such as the Affordability
+    Drivers Index, Africa Integrity Indicators, Environmental Democracy Index, Freedom
+    on the Net, Women Civil Liberties Index, and many others. The alliance organizes
+    the data from all of its sources together to simplify data production and sharing
+    and to promote the use of data in advancing democratic reform on a global scale.   '
+  howDataShared: "The data is provided by leading governance data producers from across
+    the globe. The Governance Data Alliance takes this data and organizes it on its
+    website by country. Site visitors can select a country to see the history of governace
+    data available, compare two countries' data side by side, or view data by source.
+    \n"
+  purpose: 'The Governance Data Alliance is meant to bring leading data producers
+    together to increase the production of high-quality data, connect producers and
+    users, and increase the use of data in democratic governance reforms. The alliance
+    hopes its efforts can help make data production a more time- and cost-effective
+    process. '
+- sys:
+    id: 6HiAynZ6daEOKEEwMOiqK0
+  status: true
+  caseStudy: Chicago Data Collaborative
+  sector:
+  - Criminal Justice
+  sharedBy:
+  - Chicago Data Collaboratives
+  sharedWith:
+  - Members and Partners
+  region: North America
+  collaborativeType:
+  - Data Pooling
+  - Trusted Intermediary
+  dataType:
+  - Disclosed Personal Data
+  - Disclosed Non-Personal Data
+  link: https://chicagodatacollaborative.org/
+  whatDataShared: "Members of the Chicago Data Collaborative seek out data from public
+    agencies to help understand the criminal justice system. The collaborative has
+    already released population snapshots from the Cook County Jail, a central bond
+    court disposition audit, and bond court observation data. It also holds but has
+    not yet released data such as arrests in Chicago since 2014, Chicago Police Department
+    investigatory stops, State’s Attorney case-level data, and more. \n"
+  howDataShared: 'Data is collected from all accessible institutions in the Cook County
+    criminal justice system. Some of these data sources include the Chicago Police
+    Department, the Illinois State Police, the Office of the State''s Attorney, and
+    the Cook County Jail. The collaborative has links to its public data directly
+    on the website. Members and partners of the collaborative also have access to
+    more restricted data and can see new data before it is released to the public. '
+  purpose: "The Chicago Data Collaborative is meant to teach newsrooms, academics,
+    and nonprofit researchers more about the criminal justice system. These members
+    and partners seek out data from public agencies, organize it and combine it with
+    other data of its kind from different sources to make available to the public.
+    \n"
+- sys:
+    id: 6NUZZTInIWG0WY8Yym8624
+  status: true
+  caseStudy: Our Brain Bank
+  sector:
+  - Health
+  sharedBy:
+  - Individuals with Brain Cancer (Glioblastoma)
+  sharedWith:
+  - Peers and Researchers
+  region: North America
+  collaborativeType:
+  - Data Pooling
+  - Trusted Intermediary
+  - Research Partnerships
+  dataType:
+  - Disclosed Personal Data
+  - Observed Personal Data
+  - Disclosed Non-Personal Data
+  link: http://www.ourbrainbank.com/the-project
+  whatDataShared: 'OurBrainBank contains data drawn from health and symptom records
+    of individuals with Glioblastoma. The more people use the app regularly, the more
+    data will become available for scientists to analyze. '
+  howDataShared: The data is logged into the OurBrainBank App by each individual and
+    can be accessed by other app users to observe similar symptoms and working treatments.
+    Researchers can also access the data to study more about Glioblastoma.
+  purpose: The OurBrainBank team of medical researches will examine all the aggregated
+    data from everyone using the App, in order to deepen understanding of the disease,
+    spot early signs of symptom changes, help drive new trials, and develop new insights
+    into the quality of life and experiences of people living with GBM.
+- sys:
+    id: 1FnWWMAotKGec0soCI8sqs
+  status: true
+  caseStudy: National Neighborhood Indicators Partnership
+  sector:
+  - Infrastructure
+  sharedBy:
+  - Urban Institute and other local organizations
+  sharedWith:
+  - Public
+  region: North America
+  collaborativeType:
+  - Data Pooling
+  - Trusted Intermediary
+  dataType:
+  - Disclosed Personal Data
+  - Observed Personal Data
+  - Disclosed Non-Personal Data
+  link: https://www.neighborhoodindicators.org/about-nnip/nnip-concept
+  whatDataShared: The National Neighborhood Indicators Partnership (NNIP) is a partnership
+    between the Urban Institute and local organizations that provides people with
+    neighborhood data on education, health, housing, economic opportunity, and public
+    safety.
+  howDataShared: 'There is no one single dataset available that has the data that
+    all partners collect. Many partners do make some of their local data available
+    for download, when possible, on their own websites. NNIP as a partnership is working
+    on a “shared indicators” system to create a standard set of indicators that every
+    partner will strive to collect. Data for selected national datasets are available
+    through the Urban Institute National Data Repository. '
+  purpose: |-
+    According to their website, the NNIP serves to accomplish three main goals. They are:
+
+    1. Strengthen local capacity for data-driven decisionmaking.
+    2. Inform local and national policy based on lessons from local experience.
+    3. Build national support for community information systems.
+- sys:
+    id: 6DG5v0z3gI6OkaIy6aGSQ6
+  status: true
+  caseStudy: Sanford Data Collaboratives
+  sector:
+  - Health
+  sharedBy:
+  - Sanford Research
+  sharedWith:
+  - Approved researchers
+  region: North America
+  collaborativeType:
+  - Trusted Intermediary
+  dataType:
+  - Disclosed Personal Data
+  - Observed Personal Data
+  link: http://www.sanfordresearch.org/SpecialPrograms/SanfordDataCollaborative/
+  whatDataShared: 'The Sanford Data Collaborative allows reserchers to access real-life
+    health care data. The shared data comes from Sanford Health, one of the largest
+    health care systems in the United States, and is meant to help move the health
+    care delivery of communities forward. '
+  howDataShared: Interested researchers must go through an application process that
+    includes proposal submission, which will be assessed by Sanford. If approved,
+    the requested data (with limitations) is shared, and researchers and their institutions
+    are required to sign a Data Usage Agreement ensuring protection of released data.
+  purpose: Sanford Health aims to improve general health through innovation. The Sanford
+    Data Collaborative uses exploratory efforts to seek out new, beneficial methods
+    of health care. As one of the first data sharing collaboratives to work with regional
+    records, Sanford Health hopes to promote the value of real-life, timely health
+    care data and use it to benefit our population.
+- sys:
+    id: 2Cv9HpLcFK4ES80gaKyIcA
+  status: true
+  caseStudy: NASDAQ Index Data Sharing
+  sector:
+  - Economic Development
+  sharedBy:
+  - NASDAQ
+  sharedWith:
+  - Subscribers
+  region: Worldwide
+  collaborativeType:
+  - Intelligence Product
+  dataType:
+  - Disclosed Personal Data
+  link: http://business.nasdaq.com/intel/indexes/index-data/faq/index.html
+  whatDataShared: 'There are two types of data that are shared by Nasdaq through their
+    subscription: Nasdaq Global Index Watch (GIW), Nasdaq’s Standard Delivery Service;
+    and Global Index FlexFile Delivery (GIFFD), Nasdaq’s Premium Delivery Service.
+    GIW is the standard direct source for index history and components accessed through
+    a web platform. GIFFD contains index weighting, advancecd corporate action, and
+    extensive additional data for Nasdaq indexes.'
+  howDataShared: 'The data is shared with clients who subscribe to the NASDAQ Global
+    Index Watch (GIW) or Global Index FlexFile Delivery (GIFFD). GIW subscribers can
+    access data directly through a simple web interface. Firms have the option to
+    retrieve raw data through a GIW web service. GIFFD delivers data to clients, offering
+    them different file format options. Additionally, a select group of data vendors
+    redistribute Nasdaq''s data through their own APIs. '
+  purpose: Nasdaq provides current and historical index data for the diverse suite
+    of Nasdaq Global Indexes, which covers all geographies and multiple asset classes.
+    This reliable and comprehensive data set helps investors value securities, evaluate
+    investments and track portfolios. The widespread distribution of our index data
+    promotes capital performance transparency for investors, asset managers and global
+    financial institutions.
+- sys:
+    id: 4BYO8LA4MoMqwomEAU248G
+  status: true
+  caseStudy: The application of Big Data for highway and waterway transport statistics
+  sector:
+  - Transportation
+  sharedBy:
+  - Not Specified
+  sharedWith:
+  - China - National Bureau of Statistics
+  region: East Asia and Pacific
+  collaborativeType:
+  - Research Partnerships
+  dataType:
+  - Disclosed Non-Personal Data
+  - Observed Non-Personal Data
+  link: https://unstats.un.org/bigdata/inventory/?selectID=2015028
+  whatDataShared: Road sensor data, ships identification data.
+  howDataShared: The data was directly shared by unspecified agencies with the National
+    Bureau of Statistics for use in this specific project only.
+  purpose: The data collaborative seeks to provide additional data related to transportation
+    to improve official statitics in China.
+- sys:
+    id: 3FEZlw7lFKIKsy6OM6eS06
+  status: true
+  caseStudy: Determining Consumer Price Index (CPI) with scanner data
+  sector:
+  - Economic Development
+  sharedBy:
+  - Retail companies
+  sharedWith:
+  - Statistics Agency Austria
+  region: Europe and Central Asia
+  collaborativeType:
+  - Research Partnerships
+  dataType:
+  - Disclosed Non-Personal Data
+  - Observed Non-Personal Data
+  link: https://unstats.un.org/bigdata/inventory/?selectID=2015008
+  whatDataShared: Product scanner data from retail companies.
+  howDataShared: A portion of data is commercially acquired from retail companies
+    for this specific project only.
+  purpose: This data collaborative provides the Austrian agency with additional insight
+    into retail pricing levels and trends across the country.
+- sys:
+    id: 2hQpyt6w2MkKyuq0IAYWKI
+  status: true
+  caseStudy: 'Crop survey by farmland: using satellite and aerial remote sensing to
+    help estimate agricultural statistics'
+  sector:
+  - Agriculture
+  sharedWith:
+  - China - National Bureau of Statistics
+  region: East Asia and Pacific
+  collaborativeType:
+  - Research Partnerships
+  dataType:
+  - Disclosed Non-Personal Data
+  - Observed Non-Personal Data
+  link: https://unstats.un.org/bigdata/inventory/?selectID=2015026
+  whatDataShared: 'Satellite or aerial imagery data.  '
+  howDataShared: A portion of all data is shared in a fixed time interval every year
+    to the statistics agency for a fee. The agency is described as having a "broader
+    access rights" to the data acquired.
+  purpose: The purpose of this project is to build "up the spatial sampling frame
+    by using the data from land use surveys and agricultural census. Then update the
+    sampling frame by satellite and aerial remote sensing." This information is then
+    used to "estimate the crop planting area and output every season."
+- sys:
+    id: 5iaoSW0aVquc8aaGc4OIAC
+  status: true
+  caseStudy: Credit card data for use in verifying retail sales
+  sector:
+  - Economic Development
+  sharedBy:
+  - UnionPay
+  sharedWith:
+  - China - National Bureau of Statistics
+  region: East Asia and Pacific
+  collaborativeType:
+  - Research Partnerships
+  dataType:
+  - Disclosed Personal Data
+  - Observed Personal Data
+  link: https://unstats.un.org/bigdata/inventory/?selectID=2015027
+  whatDataShared: 'Credit card transaction data.  '
+  howDataShared: A portion of data beginning from January 2014 was shared with the
+    agency who is described as having "broader access rights" to it.
+  purpose: The data was used to verify the growth trends of retail sales.
+- sys:
+    id: 2B1crZ4V9Cgyg6aIy2uOQI
+  status: true
+  caseStudy: Mobile positioning data for tourism statistics
+  sector:
+  - Economic Development
+  sharedBy:
+  - Unspecified mobile phone operators
+  sharedWith:
+  - Czech Republic - Statistical Office
+  region: Europe and Central Asia
+  collaborativeType:
+  - Research Partnerships
+  dataType:
+  - Disclosed Personal Data
+  - Observed Personal Data
+  link: https://unstats.un.org/bigdata/inventory/?selectID=2015030
+  whatDataShared: Mobile phone location data.
+  howDataShared: The data was shared with the statistics agency, with no cost, for
+    the purpose of this project only.
+  purpose: '"This pilot project aims at assessing the feasibility of using mobile
+    positioning data for generating statistics on inbound and domestic tourism flows
+    in the Czech Republic. The six localities have been selected where the records
+    from mobile operator (positioning data) will be compared with the number of visitors
+    gathered by face-to-face survey. The results will be used for setting the methodology
+    of the inbound (and domestic) tourism survey in the future."'
+- sys:
+    id: 3Wo9Toh9JeCE2UM8UsUAQa
+  caseStudy: 'Denmark: Using scanner data for compilation of CPI'
+  sector:
+  - Economic Development
+  sharedBy:
+  - Two major supermarket chains in Denmark
+  sharedWith:
+  - Statistics Denmark
+  region: Europe and Central Asia
+  collaborativeType:
+  - Research Partnerships
+  dataType:
+  - Disclosed Personal Data
+  - Observed Personal Data
+  link: https://unstats.un.org/bigdata/inventory/?selectID=2015031
+  whatDataShared: Supermarket transaction data from scanners.
+  howDataShared: All data from 2014/2015 was shared at no cost to the Danish statistical
+    agency for the use in this project only.
+  purpose: The purpose of this project is to test whether scanner data from the two
+    major supermarket chains in Denmark can be used in the production of the consumer
+    price index (CPI).
+- sys:
+    id: 6bTk1prJSMgUYAsqGCEW0y
+  status: true
+  caseStudy: 'Statistics Finland: Big Data for Official Statistics'
+  sector:
+  - Economic Development
+  - Environment
+  - Transportation
+  sharedBy:
+  - Cloud server provider
+  - intermediary big data provider
+  sharedWith:
+  - Statistics Finland
+  region: Europe and Central Asia
+  collaborativeType:
+  - Research Partnerships
+  dataType:
+  - Disclosed Personal Data
+  - Observed Personal Data
+  - Disclosed Non-Personal Data
+  - Observed Non-Personal Data
+  link: https://unstats.un.org/bigdata/inventory/?selectID=2015042
+  whatDataShared: "Data shared includes: \n- Scraped web data\n- Retail transaction
+    data\n- Road sensor data\n- Public transport usage data"
+  howDataShared: |-
+    Data for price statistics was shared by data owner to the statistics agency. Data access rights for price statistics is limited for the current project with possibility to obtain broader access rights after the pilot phase.
+
+
+    Data for demographic and social statistics, geo-spatial statistics, and labor statistics are shared to the statistics agency with broader access rights. The access to the sensor data is given to the agency itself.
+  purpose: "Data are used to obtain bolster and inform official measures including:
+    \n- Price statistics\n- Demographic and social statistics\n- Geo-spatial statistics\n-
+    Labor statistics"
+- sys:
+    id: 7zpM8LpSYo2M6SsuGkkgey
+  status: true
+  caseStudy: 'Eurostat: The use of various types of big data for statistics'
+  sector:
+  - Economic Development
+  - Environment
+  - Infrastructure
+  - Transportation
+  - Telecommunications
+  sharedBy:
+  - Various unspecified private corporations
+  sharedWith:
+  - Eurostat
+  region: Europe and Central Asia
+  collaborativeType:
+  - Research Partnerships
+  dataType:
+  - Disclosed Personal Data
+  - Observed Personal Data
+  - Disclosed Non-Personal Data
+  - Observed Non-Personal Data
+  link: https://unstats.un.org/bigdata/inventory/?selectID=2015038
+  whatDataShared: "Data being shared through the collaborative include: \n- Call Detail
+    Records (CDRs)\n- Wikipedia page count\n- Google Trends data\n- Flight reservation\n-
+    Scanner data"
+  howDataShared: Portions or all data for a certain period of time was shared the
+    statistics agency with varying degree of access rights.
+  purpose: "The data shared was put to use toward a variety of objectives, including
+    to: \n- [Obtain population, mobility and urban statistics estimation and inferences](https://unstats.un.org/bigdata/inventory/?selectID=2015038);\n-
+    [Explore Wikipedia page view counts as a source for culture and tourism official
+    statistics](https://unstats.un.org/bigdata/inventory/?selectID=2015039);\n- [Obtain
+    demographic, social statistics, and labor statistics through Google Trends product](https://unstats.un.org/bigdata/inventory/?selectID=2015040);\n-
+    [Explore the potential of flight reservation systems data for official environmental,
+    tourism, and transportation statistics](https://unstats.un.org/bigdata/inventory/?selectID=2015041);\n-
+    [Obtain price statistics through scanner data](https://unstats.un.org/bigdata/inventory/?selectID=201410)."
+- sys:
+    id: 4vciCe8DSwyYq2Ei6gOai4
+  status: true
+  caseStudy: Washington D.C. works with Populus to Use Bike-Share Data to Improve
+    Mobility
+  sector:
+  - Transportation
+  sharedBy:
+  - Populus
+  sharedWith:
+  - District Department of Transportation
+  region: North America
+  collaborativeType:
+  - Research Partnerships
+  dataType:
+  - Disclosed Personal Data
+  - Observed Personal Data
+  - Disclosed Non-Personal Data
+  - Observed Non-Personal Data
+  link: https://research.populus.ai/reports/Populus_MeasuringAccess_2018-Nov.pdf
+  whatDataShared: Mobility data from bike-sharing operators like Lime, Bird, JUMP,
+    Spin, and Lyft.
+  howDataShared: Populus collects data from bike-sharing companies and shares it with
+    the District Department of Transportation through its *Mobility Manager* platform.
+    Populus claims that their platform "allows cities to securely access and easily
+    use real-time data from shared bike, scooter, and car companies."
+  purpose: |-
+    The Washington D.C. authority is ["looking to better understand the distribution and availability of vehicles across the city."](https://www.routefifty.com/tech-data/2018/11/dc-bikeshare-data-equity/153044/)
+
+    Primary equity analysis methods outlined in the report:
+    ● Measuring the equitable availability of vehicles.
+    ● Measuring the equitable utilization of vehicles.
+    ● Evaluating compliance with designated mobility zones or hubs.
+- sys:
+    id: 3JaFoZtxSgsMsA8SQ4cOau
+  status: true
+  caseStudy: Cuebiq Data for Good Initiative
+  sector:
+  - Economic Development
+  - Transportation
+  - Crisis Response
+  sharedBy:
+  - Cuebiq
+  sharedWith:
+  - Universities
+  - nonprofit organizations
+  - researchers
+  region: North America
+  collaborativeType:
+  - Research Partnerships
+  dataType:
+  - Observed Non-Personal Data
+  link: https://www.cuebiq.com/press/cuebiq-launches-data-good-initiative-collaborates-mit-20-universities-nonprofits-worldwide/
+  whatDataShared: Cuebiq is a location intelligence platform leveraging the world's
+    largest database of accurate, precise and anonymous location data. Cuebiq collects
+    data through its proprietary software-development-kit (SDK) technology, which
+    has been integrated in over 200 mobile apps, reaching a diverse user base of millions
+    of anonymous users who have actively opted in to share location data. Cuebiq is
+    fully GDPR compliant; its privacy-compliant methodology is at the forefront of
+    industry standards and has earned the company membership status with the Network
+    Advertising Initiative (NAI), the leading industry association dedicated to responsible
+    data collection and its use for digital advertising.
+  howDataShared: 'Through its Data for Good Program, Cuebiq provides access to anonymous,
+    privacy-friendly location-based data for academic research and humanitarian initiatives
+    related to human mobility. '
+  purpose: |-
+    Cuebiq's platform analyzes anonymous location patterns to allow researchers to glean actionable insights on human mobility. Use cases for Cuebiq's data include urban development, economic mobility, epidemiology and disaster preparedness and response.
+
+    Through its partnership with MIT Media Lab, MIT is applying Cuebiq’s data to address pressing issues such as the impact of economic segregation on the development of neighborhoods and how certain establishments and businesses affect the nature and development of city areas.
+
+    Through its partnership with University of Washington's THINK Lab, researchers are using Cuebiq’s data to understand how people moved before, during and after Hurricane Harvey hit.
+- sys:
+    id: 7dqmgVaqUEeUqWUa0M4Kaw
+  status: true
+  caseStudy: 'Canada: A Big Data Pilot Project with Smart Meter Data'
+  sector:
+  - Economic Development
+  - Environment
+  sharedBy:
+  - Not specified
+  sharedWith:
+  - Statistics Canada
+  region: North America
+  collaborativeType:
+  - Research Partnerships
+  dataType:
+  - Disclosed Personal Data
+  - Observed Personal Data
+  link: https://unstats.un.org/bigdata/inventory/?selectID=201429
+  whatDataShared: Smart meter electricity data.
+  howDataShared: Not specified.
+  purpose: 'From the project description: "In fall 2014, Statistics Canada funded
+    its first big data pilot project. The two key objectives of the project were:
+    1) to use smart meter data as an example of big data, to explore what is and isn''t
+    feasible, as well as the tools and skills required, and the potential benefits
+    and pitfalls of utilizing data of that magnitude at Statistics Canada, and 2)
+    to test the feasibility of replacing and/or supplementing Statistics Canada''s
+    residential electricity consumption survey data with smart meter data."'
 events:
 - sys:
     id: uF3uaikYV2gWsckO8wYO2
@@ -6388,6 +7016,281 @@ resources:
   - General
   - Benefits
   - Governance and Operations
+- sys:
+    id: 5LrCaAJTBCEKiYUy2ie68S
+  authors: Alberto Alemanno
+  title: Unlocking Privately-Held Data to the Benefit of the Many
+  publication: European Journal of Risk Regulation
+  pubDate: !ruby/object:DateTime 2018-06-12 00:00:00.000000000 Z
+  url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3194040
+  shortDescription: This article identifies the major challenges of unlocking private-held
+    data to the benefit of society and sketches a research agenda for scholars interested
+    in collaborative and regulatory solutions aimed at unlocking privately-held data
+    for good.
+  annotation: "- Big data has demonstrated to provide useful insights that can be
+    used to address problems ranging from health, disaster, mobility, and many others.
+    This paper suggests that data sharing needs to be formalize in order for it to
+    be beneficial for the wider public.\n- This paper seeks to answer \"how\t to\t
+    best\t “institutionalize”\t data sharing for\tpublic\tgood\twithin\tthe\tprivate\tsector\tand\tin\tcollaboration\twith\tpublic\tsector\tand\tphilanthropic\tactors?\"\n-
+    It also argues that not sharing data poses more risks than sharing, and that we
+    should ponder on the risks of not treating data as a public good.\n- It proposes
+    an approach called \"stewardship\", which is \"intended\t to\tconvey\ta\tfiduciary\tlevel\tof\tresponsibility\ttoward\tthe\tdata\"
+    and uses the EU General Data Protection Regulation (GDPR) as a good example of
+    framework that can be use to regulate data sharing practices."
+  type:
+  - Journal Article
+  theme:
+  - General
+  - Benefits
+  - Risks and Challenges
+- sys:
+    id: 3Kb9PoC9AsaSQe2GgIqku0
+  authors: Municipality of Copenhagen and Capital Region of Denmark
+  title: City Data Exchange - Lessons Learned from A Public/Private Data Collaboration
+  pubDate: !ruby/object:DateTime 2018-03-30 00:00:00.000000000 Z
+  url: https://cphsolutionslab.dk/content/2-what-we-do/3-data-platforms/3-city-data-exchange/1-learnings-from-the-city-data-exchange-project/city-data-exchange-cde-lessons-learned-from-a-public-private-data-collaboration.pdf?1527149474
+  shortDescription: The City Data Exchange a collaborative project created by the
+    Municipality of Copenhagen, the Capital Region of Denmark, and Hitachi to create
+    a marketplace for public and private organizations to take part in data exchange.
+  annotation: "The CDE has created a platform for both public and private organizations
+    to sell and purchase data in an effort to create a data exchange between the two
+    sectors. One of the datasets in highest demand is what they call *people movement
+    patterns data,* which is how people in a given area move around at different times
+    and places. \n"
+  type:
+  - Report
+  - Paper
+  theme:
+  - General
+  - Data Responsibility
+  - Governance and Operations
+- sys:
+    id: iBEn80XnKooWMoGEYCsOk
+  authors: Gabriel Popkin
+  title: Technology and satellite companies open up a world of data
+  publication: Nature
+  pubDate: !ruby/object:DateTime 2018-05-29 00:00:00.000000000 Z
+  url: https://www.nature.com/articles/d41586-018-05268-w
+  shortDescription: '"In the past few years, technology and satellite companies’ offerings
+    to scientists have increased dramatically. Thousands of researchers now use high-resolution
+    data from commercial satellites for their work. [...] Researchers use the new
+    capabilities to track and visualize forest and coral-reef loss; monitor farm crops
+    to boost yields; and predict glacier melt and disease outbreaks."'
+  annotation: "In this article, Popkin examines a number of examples of technology
+    companies initiating data collaboratives, including:\n- \"Facebook would fund
+    one of his graduate students to use the company’s technology to study how economic
+    data from public surveys correlated with the visual characteristics of buildings
+    represented in the satellite data. Facebook, in turn, could potentially gain a
+    sharper view of the socio-economic characteristics of rural areas, whose residents
+    are least likely to have Internet connections.\"\n- \"Microsoft’s AI for Earth,
+    which launched in late 2017, has enabled more than 60 research groups from more
+    than 20 countries to analyse remote-sensing data sets from Esri, a mapping and
+    geospatial-analysis company in Redlands, California, using Microscoft’s artificial
+    intelligence (AI) algorithms and computing power.\" \n- \"Amazon Web Services,
+    the cloud-computing branch of the e-commerce giant Amazon, started hosting the
+    Landsat archive in early 2015. In September 2016, the company launched its Earth
+    on AWS programme, through which it hosts around 15 data sets, including imagery,
+    weather data from the US National Oceanic and Atmospheric Administration, and
+    air-quality data from the non-profit organization OpenAQ in Washington DC. Although
+    anyone can pay to analyse the data using Amazon’s computers, scientists can apply
+    for donations of computing time; applications must include a description of the
+    research problem and plans for dissemination of the results.\"\n- \"Google now
+    hosts more than 600 public satellite, weather, population and other Earth and
+    environmental data sets through its Earth Engine platform. More than 70,000 users
+    — most of them researchers — have created free accounts on the platform, says
+    Rebecca Moore, Earth Engine’s director of engineering.\"\n"
+  type:
+  - Journal Article
+  theme:
+  - General
+  - Benefits
+  - In Practice
+- sys:
+    id: 5SmmNupb4Ac2agACECc0w0
+  authors: Jamie Holton
+  title: 'The Private Sector to the Public Sector’s Rescue: Why Private Organisations
+    Enter Crisis Response Data Collaboratives'
+  publication: Leiden University
+  pubDate: !ruby/object:DateTime 2018-01-05 00:00:00.000000000 Z
+  url: https://core.ac.uk/download/pdf/151301756.pdf
+  shortDescription: 'From the abstract: "This research looks at the emerging phenomenon
+    of data collaboratives, specifically in the ‘crisis response’ sector, with which
+    the private sector assists the public sector’s data-driven efforts to prevent
+    or respond to humanitarian emergencies. This research explores and explains why
+    the private sector participates in crisis response data collaboratives."'
+  annotation: |-
+    From the abstract:
+    "This research explores and explains why the private sector participates in crisis response data collaboratives.
+
+    "Through secondary literature analysis, and primary survey and interview analysis of three case studies, this research provides new insights into data collaborative objectives, the private sector’s activities, the incentives and risks these collaboratives present for the private sector, and how it mitigates such risks.
+
+    "The research concludes that the private sector enters crisis response data collaboratives to help the public sector address one or more of its obstacles to creating datadriven solutions to societal problems, and occasionally to achieve additional objectives for the
+    public good.
+
+    "Although the private sector is motivated by various incentives, sufficient mitigation of presented risks, especially risks to data subjects’ privacy and security, is a precondition to joining a crisis response data collaborative."
+  type:
+  - Paper
+  theme:
+  - Benefits
+  - Incentives
+  - Data Responsibility
+- sys:
+    id: 1Qa1I8D2oA8gIGuGKe2CUw
+  authors: Spyratos Spyridon, Vespe Michele, Natale Fabrizio, Weber Ingmar, Zagheni
+    Emilio, Rango Marzia
+  title: Migration Data using Social Media
+  publication: Joint Research Centre, European Commission
+  pubDate: !ruby/object:DateTime 2018-02-20 00:00:00.000000000 Z
+  url: http://publications.jrc.ec.europa.eu/repository/bitstream/JRC112310/facebook_study_v3.pdf
+  shortDescription: While research on the use of big data sources for migration is
+    in its infancy, and the diffusion of internet technologies in less developed countries
+    is still limited, the use of big data sources can unveil useful insights on quantitative
+    and qualitative characteristics of migration.
+  annotation: |
+    In this report, the authors examine social media data to study migration patterns:
+    - "Innovative sources offer data that are timely, have a wide coverage, can be accessible at limited cost, and can potentially include information that may not always be provided by traditional migration data sources. As of April 2018, the Facebook Network (i.e. Facebook,Instagram, Messenger and the Audience Network) reported more than 2.15 billion monthly active users. The digital traces that Internet users are actively or passively generating can potentially be exploited for studying migration-related phenomena."
+    - "The potential of new data sources (e.g.Facebook) to provide policy-relevant information on international migration is currently being explored by international bodies and initiatives such as the Big Data for Migration Alliance (BD4M), recently launched by the European Commission Knowledge Centre on Migration and Demography (KCMD) and IOM’s Global Migration Data Analysis Centre (GMDAC), following a dedicated workshop on the topic.
+    - "The inherent bias of social media data described above, coupled with the risk of a lack of control on how the data are derived and processed cause uncertainties regarding the possibility of effectively using such data for demographic research. This requires the development of appropriate methods for quantifying and mitigating such bias as well as the active collaboration with the social media companies themselves."
+    - "The paper shows that social media applications can be a timely, low-cost, and almost globally available data source for estimating stocks of international migrants, based on estimates of users who are classified as 'expats.' In the European context, it can be used for quantifying intra-EU mobility patterns of specific demographic groups, such as students,as well as for measuring migration movements that may not be captured in as timely a fashion by official statistics."
+  type:
+  - Report
+  theme:
+  - In Practice
+- sys:
+    id: 69L9c7cyTm4qIWIG0sowA8
+  authors: Richard Beckwith, John Sherry, David Prendergast
+  title: 'Data Flow in the Smart City: Open Data Versus the Commons'
+  publication: Springer
+  pubDate: !ruby/object:DateTime 2019-01-20 00:00:00.000000000 Z
+  url: https://link.springer.com/chapter/10.1007/978-981-13-2694-3_11
+  shortDescription: |-
+    From the chapter:
+    "This paper explores the complex relationship between cities and data or, more accurately, the way that the citizens of a city want data about their community to be managed."
+  annotation: |-
+    From the abstract:
+    "Much of the recent excitement around data, especially ‘Big Data,’ focuses on the potential commercial or economic value of data. How that data will affect people isn’t much discussed. People know that smart cities will deploy Internet-based monitoring and that flows of the collected data promise to produce new values. Less considered is that smart cities will be sites of new forms of citizen action—enabled by an ‘economy’ of data that will lead to new methods of collectivization, accountability, and control which, themselves, can provide both positive and negative values to the citizenry. Therefore, smart city design needs to consider not just measurement and publication of data but also the implications of city-wide deployment, data openness, and the possibility of unintended consequences if data leave the city."
+  type:
+  - Journal Article
+  theme:
+  - General
+- sys:
+    id: 6dg6g52CVUMyKI8kSgm0k2
+  authors: Daniel Kondor, Behrooz Hashemian, Yves-Alexandre de Montjoye, Carlo Ratti
+  title: Towards matching user mobility traces in large-scale datasets
+  publication: IEEE Transactions on Big Data
+  pubDate: !ruby/object:DateTime 2018-09-24 00:00:00.000000000 Z
+  url: https://ieeexplore.ieee.org/document/8470173/authors#authors
+  shortDescription: This paper presents "present the first large-scale analysis of
+    user matchability in real mobility datasets on realistic scales, i.e. among two
+    datasets that consist of several million people's mobility traces, coming from
+    a mobile network operator and transportation smart card usage."
+  annotation: |-
+    From the abstract:
+    "The problem of unicity and reidentifiability of records in large-scale databases has been studied in different contexts and approaches, with focus on preserving privacy or matching records from different data sources. With an increasing number of service providers nowadays routinely collecting location traces of their users on unprecedented scales, there is a pronounced interest in the possibility of matching records and datasets based on spatial trajectories. Extending previous work on reidentifiability of spatial data and trajectory matching, we present the first large-scale analysis of user matchability in real mobility datasets on realistic scales, i.e. among two datasets that consist of several million people's mobility traces, coming from a mobile network operator and transportation smart card usage. We extract the relevant statistical properties which influence the matching process and analyze their impact on the matchability of users. We show that for individuals with typical activity in the transportation system (those making 3-4 trips per day on average), a matching algorithm based on the co-occurrence of their activities is expected to achieve a 16.8% success only after a one-week long observation of their mobility traces, and over 55% after four weeks. We show that the main determinant of matchability is the expected number of co-occurring records in the two datasets. Finally, we discuss different scenarios in terms of data collection frequency and give estimates of matchability over time. We show that with higher frequency data collection becoming more common, we can expect much higher success rates in even shorter intervals."
+  type:
+  - Journal Article
+  theme:
+  - Benefits
+- sys:
+    id: 110Ywr16QougUkqeeGaO80
+  authors: Yves-Alexandre de Montjoye, et. al.
+  title: On the privacy-conscientious use of mobile phone data
+  publication: Nature
+  pubDate: !ruby/object:DateTime 2018-12-11 00:00:00.000000000 Z
+  url: https://www.nature.com/articles/sdata2018286
+  shortDescription: |-
+    From the article:
+    "The breadcrumbs we leave behind when using our mobile phones—who somebody calls, for how long, and from where—contain unprecedented insights about us and our societies. Researchers have compared the recent availability of large-scale behavioral datasets, such as the ones generated by mobile phones, to the invention of the microscope, giving rise to the new field of computational social science."
+  annotation: |
+    - The authors point out that the high penetration of mobile phone creates an abundance of data which can be useful in informing policymaking process, but also poses privacy risk to individuals that the data is associated with.
+    - The authors argue that standard de-identification methodology for data analysis is "not sufficient to prevent users from being re-identified in mobile phone data".
+    - Furthermore, "[th]hese privacy concerns are, in our opinion, due to the failures of the traditional de-identification model and the lack of a modern and agreed upon framework for the privacy-conscientious use of mobile phone data by third-parties especially in the context of the EU General Data Protection Regulation (GDPR)."
+    - In this paper, the authors propose four models for the privacy-conscientious use of mobile phone data to address this issue.
+  type:
+  - Journal Article
+  theme:
+  - Risks and Challenges
+- sys:
+    id: 54mO8hgXNmuoOWwkIyyc4u
+  authors: Bram Klievink, Haiko van der Voort, Wijnand Veeneman
+  title: Creating value through data collaboratives
+  publication: Information Polity Journal
+  pubDate: !ruby/object:DateTime 2018-12-10 00:00:00.000000000 Z
+  url: https://content.iospress.com/articles/information-polity/ip180070
+  shortDescription: |-
+    From the abstract:
+    "This article looks at the idea of data collaboratives as a form of cross-sector partnership to exchange and integrate data and data use to generate public value."
+  annotation: |-
+    Full abstract:
+    "Driven by the technological capabilities that ICTs offer, data enable new ways to generate value for both society and the parties that own or offer the data. This article looks at the idea of data collaboratives as a form of cross-sector partnership to exchange and integrate data and data use to generate public value. The concept thereby bridges data-driven value creation and collaboration, both current themes in the field. To understand how data collaboratives can add value in a public governance context, we exploratively studied the qualitative longitudinal case of an infomobility platform. We investigated the ability of a data collaborative to produce results while facing significant challenges and tensions between the goals of parties, each having the conflicting objectives of simultaneously retaining control whilst allowing for generativity. Taken together, the literature and case study findings help us to understand the emergence and viability of data collaboratives. Although limited by this study’s explorative nature, we find that conditions such as prior history of collaboration and supportive rules of the game are key to the emergence of collaboration. Positive feedback between trust and the collaboration process can institutionalise the collaborative, which helps it survive if conditions change for the worse."
+  type:
+  - Journal Article
+  theme:
+  - Benefits
+- sys:
+    id: 4KyTYA3WgwAooeiOUGkEK4
+  authors: Bjorn Lundqvist
+  title: Data Collaboration, Pooling and Hoarding under Competition Law
+  publication: Faculty of Law, Stockholm University Research Paper
+  pubDate: !ruby/object:DateTime 2018-11-06 00:00:00.000000000 Z
+  url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3278578
+  shortDescription: |-
+    From the abstract:
+    "This article will discuss what implications combining data in data pools by firms might have on competition, and when competition law should be applicable. It develops the idea that data pools harbour great opportunities, whilst acknowledging that there are still risks to take into consideration, and to regulate."
+  annotation: |-
+    - The author points out the increasingly vast amount of data being collected, stashed, and reused for deeper analysis by tech companies, driven by the rise of the Internet of Things.
+    - These companies own the control of data and restrict access to it on legal as well as technical grounds, rendering inefficiency and preventing innovation which might be useful for the society.
+    - In other instance, companies may share data with each other in order to "exclude competitors or to abuse their market position."
+    - *"This article will discuss what implications combining data in data pools by firms might have on competition, and when competition law should be applicable. It develops the idea that data pools harbour great opportunities, whilst acknowledging that there are still risks to take into consideration, and to regulate."*
+  type:
+  - Journal Article
+  theme:
+  - Governance and Operations
+- sys:
+    id: 5uIE6JDTskEykI8EumakQU
+  authors: Jennifer Shkabatur
+  title: The Global Commons of Data
+  publication: Stanford Technology Law Review
+  pubDate: !ruby/object:DateTime 2018-10-09 00:00:00.000000000 Z
+  url: https://papers.ssrn.com/sol3/papers.cfm?abstract_id=3263466
+  shortDescription: This paper makes a case for the practice and application of the
+    global commons of data, by proposing alternatives to address the concern of data
+    sharing and presenting policy framework that will allow the global commons of
+    data to work.
+  annotation: |-
+    Abstract:
+
+    Data platform companies (such as Facebook, Google, or Twitter) amass and process immense amounts of data that is generated by their users. These companies primarily use the data to advance their commercial interests, but there is a growing public dismay regarding the adverse and discriminatory impacts of their algorithms on society at large. The regulation of data platform companies and their algorithms has been hotly debated in the literature, but current approaches often neglect the value of data collection, defy the logic of algorithmic decision-making, and exceed the platform companies’ operational capacities.
+
+    This Article suggests a different approach — an open, collaborative, and incentives-based stance toward data platforms that takes full advantage of the tremendous societal value of user-generated data. It contends that this data shall be recognized as a “global commons,” and access to it shall be made available to a wide range of independent stakeholders — research institutions, journalists, public authorities, and international organizations. These external actors would be able to utilize the data to address a variety of public challenges, as well as observe from within the operation and impacts of the platforms’ algorithms.
+
+    After making the theoretical case for the “global commons of data,” the Article explores the practical implementation of this model. First, it argues that a data commons regime should operate through a spectrum of data sharing and usage modalities that would protect the commercial interests of data platforms and the privacy of data users. Second, it discusses regulatory measures and incentives that can solicit the collaboration of platform companies with the commons model. Lastly, it explores the challenges embedded in this approach.
+  type:
+  - Journal Article
+  theme:
+  - General
+  - Operations
+- sys:
+    id: 3WHFTKf7UI206U0kqmciie
+  authors: Meg Young, Luke Rodriguez, Emily Keller, Feiyang Sun, Boyang Sa, Jan Whittington,
+    Bill Howe
+  title: 'Beyond Open vs. Closed: Balancing Individual Privacy and Public Accountability
+    in Data Sharing'
+  publication: Proceedings of ACM
+  pubDate: !ruby/object:DateTime 2019-01-31 00:00:00.000000000 Z
+  url: https://faculty.washington.edu/billhowe/publications/pdfs/young_open_v_closed_semi_synthetic_data.pdf
+  shortDescription: |-
+    From the abstract:
+    "We find that the liberal use of synthetic data, in conjunction with strong legal protections over raw data, strikes a tunable balance between transparency, proprietorship, privacy, and research objectives; and that the legal-technical framework we describe can form the basis for organizational data trusts in a
+    variety of contexts."
+  annotation: |-
+    - This paper presents a legal-technical framework that will ensure that accountability and transparency that are acquired through data sharing do not harm individual privacy.
+    - This proposed solution seeks to address the challenge often faced when a set of data is too sensitive to be "open", hindering the creation of a more effective research and policy that affect the public.
+    - The authors propose a "third-party public-private data trust", which will act as  an intermediary who will ensure "a) strong privacy guarantees, b) removal of signals that could expose competitive advantage for the data providers, and c) removal of biases that could reinforce discriminatory policies".
+  type:
+  - Paper
+  theme:
+  - Risks and Challenges
 projects:
 - sys:
     id: 4qXwV2Dbi8IOO8CO6uGCuK
