@@ -2461,11 +2461,13 @@ datacollaborative:
     outbreaks, unemployment and food security will be tackled using DataSift's capabilities.
 - sys:
     id: 1hgCFyQrcUmwE0qC0uYAGO
-  caseStudy: The Living Atlas
+  status: true
+  caseStudy: ArcGIS Living Atlas of the World
   sector:
   - Digital Society
   - Telecommunications
   sharedBy:
+  - Esri
   - Public
   - Participating organizations
   sharedWith:
@@ -2482,7 +2484,7 @@ datacollaborative:
   dataSource:
   - Mapping Imagery
   - Mapping Data
-  link: http://doc.arcgis.com/en/living-atlas/about/
+  link: https://livingatlas.arcgis.com/en/
   whatDataShared: The Living Atlas crowdsources map data, GIS data and images from
     the public via its app in order to compile detailed geographic data from across
     the world. This information is then shared with the public through ArcGIS's Living
@@ -5000,6 +5002,76 @@ datacollaborative:
     and pitfalls of utilizing data of that magnitude at Statistics Canada, and 2)
     to test the feasibility of replacing and/or supplementing Statistics Canada''s
     residential electricity consumption survey data with smart meter data."'
+- sys:
+    id: 5bLEl7GpsntV3EmpCsuSpE
+  status: true
+  caseStudy: Valassis Data-Driven Disaster Recovery in New Orleans
+  sector:
+  - Crisis Response
+  sharedBy:
+  - Valassis
+  sharedWith:
+  - Greater New Orleans Community Data Center
+  region: North America
+  collaborativeType:
+  - Research Partnerships
+  dataType:
+  - Disclosed Personal Data
+  link: https://adage.com/article/news/junk-mail-rescue-orleans/130414/
+  whatDataShared: Valassis possesses one of the largest national address footprint
+    data, which provides information such as the number of households in a certain
+    area or those receiving mails at any given time. Valassis works closely with the
+    U.S. Postal Services to ensure that their data is updated. This set of data is
+    then shared with nonprofit organizations, such as Greater New Orleans Community
+    Data Center (GNOCDC), to provide insights on neighborhood revitalization effort
+    after hurricane Katrina.
+  howDataShared: Valassis shared its massive mailing address database with GNOCDC,
+    which then used Google Maps and Street View to visualize the repopulation rate
+    after the hurricane.
+  purpose: |-
+    Valassis data is normally used to distribute promotional mails to American households. In this case, their database of address is used to track New Orleans' "repopulation progress block by block."
+
+    The data has been used by local organizations to target their rebuilding efforts, and also to provide business insights and promote reinvestment in the area.
+- sys:
+    id: 5kML8z4Zq9SyuA5PemJ1hg
+  status: true
+  caseStudy: Amsterdam Data Exchange (AMDEX)
+  sector:
+  - Health
+  - Economic Development
+  - Environment
+  - Education
+  - Agriculture
+  - Infrastructure
+  - Transportation
+  - Crisis Response
+  - Digital Society
+  - Telecommunications
+  - Criminal Justice
+  sharedBy:
+  - Mutiple organizations
+  sharedWith:
+  - Amsterdam Science Park
+  - Amsterdam Economic Board
+  - Amsterdam Data Science
+  region: Europe and Central Asia
+  collaborativeType:
+  - Trusted Intermediary
+  dataType:
+  - Disclosed Non-Personal Data
+  link: https://amsterdamdatascience.nl/news/launch-of-the-amsterdam-data-exchange-amdex/
+  whatDataShared: Publicly financed data (data held by government agencies), private
+    companies' data, and others.
+  howDataShared: |
+    AMDEX will serve as a trusted intermediary that will "offer infrastructure and common rules to secure a trusted and safe environment that interested partners can join to create paltforms for real-time data-driven cooperation."
+
+    The frameworks through which AMDEX offers its service are:
+    - Technical infrastructure to support data owners, data hubs, and data products.
+    - Rules for trust (and risk reduction between participants).
+    - Matching open data supply and demand.
+  purpose: 'From the website: "The project aims to provide broad access to data for
+    researchers, businesses, governments and individuals in a secure marketplace for
+    data."'
 events:
 - sys:
     id: uF3uaikYV2gWsckO8wYO2
