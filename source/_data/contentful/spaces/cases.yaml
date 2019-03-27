@@ -4377,7 +4377,7 @@ datacollaborative:
 - sys:
     id: 7ttpuvwqha82uQSuu04e2k
   status: true
-  caseStudy: Data for Refugees (D4R)
+  caseStudy: Turk Telekom Data for Refugees (D4R) Challenge
   sector:
   - Crisis Response
   sharedBy:
@@ -5072,6 +5072,336 @@ datacollaborative:
   purpose: 'From the website: "The project aims to provide broad access to data for
     researchers, businesses, governments and individuals in a secure marketplace for
     data."'
+- sys:
+    id: 2lsKf6p09rgZZZusYoysAS
+  status: true
+  caseStudy: Stats NZ's Data Ventures
+  sector:
+  - Health
+  - Economic Development
+  - Environment
+  - Education
+  - Agriculture
+  - Infrastructure
+  - Transportation
+  - Crisis Response
+  - Digital Society
+  - Telecommunications
+  - Criminal Justice
+  sharedBy:
+  - Stats NZ
+  sharedWith:
+  - Customers
+  region: East Asia and Pacific
+  collaborativeType:
+  - Trusted Intermediary
+  dataType:
+  - Disclosed Personal Data
+  - Observed Personal Data
+  - Disclosed Non-Personal Data
+  - Observed Non-Personal Data
+  link: https://dataventures.nz/
+  whatDataShared: Data Ventures is the commerical arm of Stats NZ, which functions
+    as a trusted intermediary that pulls datasets from various sectors for later re-distribution
+    to the platform's customers. The platform collects statistical data, government
+    data, and private sector data, such as that from telecommunications companies.
+  howDataShared: Data Ventures serves as a trusted intermediary that provides platform
+    for its customers to access the data that are trusted in their storage. For its
+    first project, for example, they are "working with confidentialised data-sets
+    from multiple companies, aggregating those to remove the ability to identify the
+    source and then providing snapshots of population density."
+  purpose: |-
+    From the website:
+    "For each product we bring [multiple datasets] together while making that data confidential, complete and ready to sell to our customers to help them make fully informed, data-driven decisions."
+- sys:
+    id: 4cRkRXCJw1LdAwrdpHKzUN
+  status: true
+  caseStudy: Telkomsel's Big Data for Indonesia's Tourism Statistics
+  sector:
+  - Economic Development
+  - Telecommunications
+  sharedBy:
+  - Telkomsel
+  sharedWith:
+  - Indonesian Ministry of Tourism
+  region: East Asia and Pacific
+  collaborativeType:
+  - Research Partnerships
+  dataType:
+  - Disclosed Personal Data
+  - Observed Personal Data
+  link: https://digiads.co.id/en/blog/news/kemenpar-apresiasi-telkomsel-msight/
+  whatDataShared: Telkomsel shared insights from its mobile positioning data – "captured
+    from among the 79 border posts scattered around 29 districts at border-crossing
+    locations" – with the Indonesian Ministry of Tourism. [(More)](https://www.indonesia.travel/gb/en/news/indonesia-tourist-arrivals-in-2016-reaches-12-023-million-goal-surges-15-54)
+  howDataShared: To unlock the value of its data for public purposes, "Telkomsel established
+    a partnership with Indonesian Ministry of Tourism which aims to help update tourism
+    data through MSIGHT, a big data service that can provide information and analysis
+    of daily behavioral data from Telkomsel subscribers." [(More)](https://digiads.co.id/en/blog/news/kemenpar-apresiasi-telkomsel-msight/)
+  purpose: The collabroation seeks to provide the Ministry of Tourism with new insights
+    into the aggregate movement patterns of domestic and foreign tourists toward enabling
+    more targeted service delivery. [(More)](https://digiads.co.id/en/blog/news/kemenpar-apresiasi-telkomsel-msight/)
+- sys:
+    id: 4SrYwiStiEiZ0driZl91hb
+  status: true
+  caseStudy: MIDATA
+  sector:
+  - Health
+  sharedBy:
+  - Users
+  sharedWith:
+  - MIDATA
+  region: Europe and Central Asia
+  collaborativeType:
+  - Trusted Intermediary
+  dataType:
+  - Disclosed Personal Data
+  - Observed Personal Data
+  link: https://midata.coop/
+  whatDataShared: |-
+    From the website:
+    - "MIDATA.coop enables citizens to securely store, manage and control access to their personal data by helping them to establish and own national/regional not-for-profit MIDATA cooperatives.
+    - "MIDATA’s initial focus will be on health related data since these are most sensitive and valuable for one’s personal health.
+    - "MIDATA cooperatives act as the fiduciaries of their members’ data. As MIDATA members, citizens can visualize and analyze their personal data. They can actively contribute to medical research and to clinical trials by providing access to sets of their personal data across cooperatives."
+  howDataShared: 'The MIDATA website describes the encryption and access control approach
+    for the initiative: "Data are multiply encrypted and only the members possess
+    the key to their data. Every data access is logged. Secure citizen-controlled
+    data access across different national cooperatives will be established to permit
+    global research projects and clinical trials."'
+  purpose: The purpose of this platform is to give individuals control over their
+    personal data while enabling them to also contribute to research that can advance
+    innovation in the health domain.
+- sys:
+    id: LCtlmnPuoJmyVItsmrJYA
+  status: true
+  caseStudy: SharedStreets
+  sector:
+  - Transportation
+  sharedBy:
+  - Multiple public and private institutions
+  sharedWith:
+  - Open Transport Partnership
+  region: North America
+  collaborativeType:
+  - Trusted Intermediary
+  dataType:
+  - Disclosed Personal Data
+  - Observed Personal Data
+  - Disclosed Non-Personal Data
+  - Observed Non-Personal Data
+  link: https://sharedstreets.io/pilots/
+  whatDataShared: The data that are shared through the ShareStreets platform include
+    city mobility and transportation data from companies and city governments that
+    are members of the National Association of City Transportation Officials (NACTO).
+  howDataShared: The data is shared to the SharedStreets platform according to a data
+    standards set by the organization. The purpose of these standards are to "convert
+    today’s ad hoc and disparate data transportation data from public and private
+    sector sources into a mutually readable, shared, global standard for the first
+    time, providing a universal language for digitally describing every aspect of
+    city streets, opening a new market to private sector innovators, and eliminating
+    of the need to manually “clean” and collate data sources, saving crucial public
+    funds." [(source)](https://sharedstreets.io/public/SharedStreets_Release.pdf)
+  purpose: SharedStreets is created by the Open Transport Partnership, a non-profit
+    organization that facilitates public-private partnership around transportation
+    data. It is a project that aims to support data sharing to inform policymaking,
+    through software, digital infrastructure, and governance models.
+- sys:
+    id: 7HKDgvhVNBqwlFHBXFKzdu
+  status: true
+  caseStudy: Industrial Data Space
+  sector:
+  - Health
+  - Economic Development
+  - Environment
+  - Education
+  - Agriculture
+  - Infrastructure
+  - Transportation
+  - Crisis Response
+  - Digital Society
+  - Telecommunications
+  - Criminal Justice
+  sharedBy:
+  - Various
+  sharedWith:
+  - Industrial Data Space
+  region: Europe and Central Asia
+  collaborativeType:
+  - Data Pooling
+  - Trusted Intermediary
+  dataType:
+  - Disclosed Personal Data
+  - Observed Personal Data
+  - Disclosed Non-Personal Data
+  - Observed Non-Personal Data
+  link: https://www.fraunhofer.de/en/research/lighthouse-projects-fraunhofer-initiatives/industrial-data-space.html#tabpanel-5
+  whatDataShared: |-
+    From its white paper:
+    "The Industrial Data Space initiative was launched in Germany at the end of 2014 by representatives from business, politics, and research. Meanwhile, it is an explicit goal of the initiative to take both the development and use of the platform to a European/global level. The Industrial Data Space comes as an initiative that is organized in two branches: a research project and a non-profit user association. The research project is funded by the German Federal Ministry of Education and Research (BMBF). It is of pre-competitive nature and aims at the development and pilot testing of a reference architecture model of the Industrial Data Space. The work of the research project is tightly connected with the activities of the user association named »Industrial Data Space e.V.«. The main goal of the user association is to identify, analyze and evaluate the requirements of user companies to be met by the Industrial Data Space. Furthermore, the user association contributes to the development of the reference architecture model and promotes its standardization."
+  howDataShared: |-
+    Data sharing through the platform must full the following standards:
+    - "Data sovereignty: It is always the data owner that specifies the terms and conditions of use of the data provided (terms and conditions can simply be »attached« to the respective data).
+    - "Decentral data management: Data management remains with the respective data owner, if desired.
+    - "Data economy: Data is viewed as an economic asset. It can be distinguished into three categories: private data, socalled »club data« (i.e. data belonging to a specific value creation chain, which is available to selected companies only), and public data (weather information, traffic information, geo data etc.).
+    - "Value creation: The Industrial Data Space facilitates the creation and use of smart services and digital business models.
+    - "Easy linkage of data: Linked-data concepts and common vocabularies facilitate the integration of data between participants.
+    - "Trust: All participants, data sources, and data services of the Industrial Data Space are certified against commonly defined rules.
+    - "Secure data supply chain: Data exchange is secure across the entire data supply chain, i.e. from data creation to data capture to data usage.
+    - "Data governance: Participants jointly decide on data management processes as well as on applicable rights and duties."
+  purpose: |-
+    From the white paper:
+    "The »Industrial Data Space« is a virtual data space using standards and common governance models to facilitate the secure exchange and easy linkage of data in business ecosystems. It thereby provides a basis for creating and using smart services and innovative business processes, while at the same time ensuring digital sovereignty of data owners."
+- sys:
+    id: rkMFm8WaQpKlD5hFpoqn7
+  status: true
+  caseStudy: Data and Analytics Facility for National Infrastructure (DAFNI)
+  sector:
+  - Health
+  - Environment
+  - Agriculture
+  - Infrastructure
+  - Transportation
+  - Digital Society
+  - Telecommunications
+  sharedBy:
+  - Multiple
+  sharedWith:
+  - DAFNI
+  region: Europe and Central Asia
+  collaborativeType:
+  - Trusted Intermediary
+  dataType:
+  - Disclosed Non-Personal Data
+  - Observed Non-Personal Data
+  link: https://www.dafni.ac.uk/
+  whatDataShared: "According to its website, the Data and Analytics Facility for National
+    Infrastructure (DAFNI) will provide researchers with: \n- \"a secure yet accessible
+    National Infrastructure Database\n- a new software platform to enable analysis,
+    modelling and simulation of national infrastructure systems; and\n- new remote
+    and local visualisation facilities to enable access to and interpretation of the
+    results by researchers and practitioners.\""
+  howDataShared: "The initiative features five key elements to unlock new datasets
+    and analysis opportunities: \n- National Infrastructure Database\n- National Infrastructure
+    Modelling Service\n- National Infrastructure Cloud Environment\n- National Infrastructure
+    Visualisation Suite\n- Security Service"
+  purpose: |-
+    From the website:
+    "DAFNI will become the National Platform to satisfy the computational needs in support of data analysis; infrastructure research; and strategic thinking for the UK’s long term planning and investment needs. The platform will support academic research that is aiming to provide the UK with a world leading infrastructure system that is more: efficient, reliable, resilient and affordable. It will achieve this by enabling the research community to conduct research that is able to generate new insights at a higher level of detail and accuracy than ever before."
+- sys:
+    id: 797v2rSpbC2Cb6tjsLZx2
+  status: true
+  caseStudy: The Weather Company Data Sharing
+  sector:
+  - Environment
+  - Agriculture
+  - Transportation
+  sharedBy:
+  - The Weather Company
+  sharedWith:
+  - Multiple
+  region: North America
+  collaborativeType:
+  - Intelligence Product
+  dataType:
+  - Disclosed Non-Personal Data
+  - Observed Non-Personal Data
+  link: http://reports.raeng.org.uk/datasharing/case-study-8-the-weather-company/
+  whatDataShared: Weather data collected by The Weather Company, including radar data,
+    consumer data generated through mobile devices, location and human data.
+  howDataShared: |-
+    The data is shared through a proprietary platform built using "open source software augmented with IBM governance products and internal components."
+
+    A report from the Royal Academy of Engineering (RAENG) in the UK describes the process for accessing relevant datasets:
+    "A two-way agreement is required, with obligations and permissions on both sides. The agreement covers the data lifecycle and quality. The quality of data must be appropriate for its use, and the agreement addresses the data that it is blended with and its timeliness. Insufficient data quality may cause a new venture to fail. Data checking is automated wherever beneficial. Sometimes the contract is an agreement to exchange data between parties and no money changes hands. Contracts have Service Level Agreements (both internal and external) and the company operates legally within those parameters."
+  purpose: |-
+    The purpose of this data collaboratives is to inform decision making in sectors where weather has an impact, such as aviation, agriculture, energy, finance, and retail. Report from RAENG provides some examples such as:
+    - "For example, in aviation, airlines use TWC services for planning flights - weather data allows airlines to better estimate how much fuel to load.
+    - In agriculture, farmers can better understand when crops are stressed.
+    - In energy and utilities, weather data is used in outage prediction and recovery operations, in order to reduce the cost of storms and equipment failure."
+- sys:
+    id: 6nX3VTqydPis9bH6ZRSsea
+  status: true
+  caseStudy: DBpedia
+  sector:
+  - Digital Society
+  region: Worldwide
+  collaborativeType:
+  - Trusted Intermediary
+  - API
+  dataType:
+  - Disclosed Non-Personal Data
+  - Observed Non-Personal Data
+  link: https://wiki.dbpedia.org/about
+  whatDataShared: 'From the website: "DBpedia is a crowd-sourced community effort
+    to extract structured content from the information created in various Wikimedia
+    projects. This structured information resembles an open knowledge graph (OKG)
+    which is available for everyone on the Web. A knowledge graph is a special kind
+    of database which stores knowledge in a machine-readable form and provides a means
+    for information to be collected, organised, shared, searched and utilised."'
+  howDataShared: 'From the website: "DBpedia data is served as Linked Data, which
+    is revolutionizing the way applications interact with the Web. One can navigate
+    this Web of facts with standard Web browsers, automated crawlers or pose complex
+    queries with SQL-like query languages (e.g. SPARQL)."'
+  purpose: |-
+    From the website:
+    "Knowledge bases are playing an increasingly important role in enhancing the intelligence of Web and enterprise search and in supporting information integration. Today, most knowledge bases cover only specific domains, are created by relatively small groups of knowledge engineers, and are very cost intensive to keep up-to-date as domains change. At the same time, Wikipedia has grown into one of the central knowledge sources of mankind, maintained by thousands of contributors."
+- sys:
+    id: 4T6HEkBuK9ukT2Lrp3aq77
+  status: true
+  caseStudy: Using Big Data to Combat Air Pollution in Brazil
+  sector:
+  - Health
+  - Environment
+  sharedBy:
+  - Telefonica
+  sharedWith:
+  - Municipality of Madrid in Sao Paulo
+  region: Latin America and the Caribbean
+  collaborativeType:
+  - Research Partnerships
+  dataType:
+  - Disclosed Personal Data
+  - Observed Personal Data
+  link: https://www.telefonica.com/en/web/public-policy/blog/article/-/blogs/using-big-data-to-combat-air-pollution-in-brazil
+  whatDataShared: 'Data provided through the project includes: "open data from existing
+    weather stations, air quality sensors and traffic sensors to map the air quality
+    in specific locations and estimate volume and flows of vehicles."'
+  howDataShared: 'The data was processed by Telefonica''s big data unit: LUCA, and
+    the insights from that analysis were provided to the municipality.  '
+  purpose: |-
+    From the blog post introducing the project:
+    "The goal of this initiative is to understand the links and relations between the mobility patterns of the population in São Paulo (about 12 million people) and Madrid, along with the quality of the air and the possible consequences in terms of public health."
+- sys:
+    id: 6lhMg15fDXXkE0UPnKC7bz
+  status: true
+  caseStudy: City Verve Data Portal
+  sector:
+  - Health
+  - Environment
+  - Infrastructure
+  - Transportation
+  - Telecommunications
+  region: Europe and Central Asia
+  collaborativeType:
+  - Trusted Intermediary
+  dataType:
+  - Disclosed Personal Data
+  - Observed Personal Data
+  - Disclosed Non-Personal Data
+  - Observed Non-Personal Data
+  link: https://portal.bt-hypercat.com/
+  whatDataShared: 'The City Verve data portal shares Internet of Things (IoT) data
+    of the city of Manchester in the United Kingdom. Information on street lights,
+    bus stops, and public wifi spots, are among the datasets provided through the
+    portal. '
+  howDataShared: The data is shared through the City Verve data portal, which in practice
+    "creates a secure 'catalogue' of data that can unite an almost infinite number
+    of applications in response to the city's evolving requirements."
+  purpose: The platform seeks to "build and deliver a smarter, more connected Manchester,
+    creating a city that uses technology to meet the complex needs of its people"
+    and "enable the intelligent collection, interpretation and use of data, coupled
+    with a flexibility to accommodate the growing and ever-changing needs of a living,
+    breathing city."
 events:
 - sys:
     id: uF3uaikYV2gWsckO8wYO2
@@ -7363,6 +7693,43 @@ resources:
   - Paper
   theme:
   - Risks and Challenges
+- sys:
+    id: 3X0aOO5wFWx8qQm8RA9j80
+  authors: Bianca Wylie, Sean McDonald
+  title: What Is a Data Trust?
+  publication: Center for International Governance Innovation
+  pubDate: !ruby/object:DateTime 2018-10-09 00:00:00.000000000 Z
+  url: https://www.cigionline.org/articles/what-data-trust
+  shortDescription: The authors propose a new concept called "Data Trust" to *"steward,
+    maintain and manage how data is used and shared — from who is allowed access to
+    it, and under what terms, to who gets to define the terms, and how."*
+  annotation: |-
+    - The authors posit that governments are looking to balance the interest of the public and private individuals surrounding the use of data, but the mechanism is yet to be developed.
+    - The authors propose 'data trust', a concept which repurposes the term 'fiduciary trust', which has been "used to govern and maintain shared resources such as public lands [and] pension funds."
+    - Further "[w]hen used for governance, data trusts can steward, maintain and manage how data is used and shared — from who is allowed access to it, and under what terms, to who gets to define the terms, and how. They can involve a number of approaches to solving a range of problems, creating different structures to experiment with governance models and solutions in an agile way."
+  type:
+  - Blog Post
+  theme:
+  - Data Responsibility
+  - Governance and Operations
+- sys:
+    id: 7C6QeBWOlMSLug4jEIneT3
+  authors: Claire Borsenberger, Mathilde Hoang, Denis Joram
+  title: 'Open-Data: A Solution When Data Constitutes an Essential Facility?'
+  publication: Springer
+  pubDate: !ruby/object:DateTime 2019-02-14 00:00:00.000000000 Z
+  url: https://link.springer.com/chapter/10.1007/978-3-030-02937-1_11
+  shortDescription: |-
+    This paper seeks to answer the following research questions:
+    - Is data an essential facility that should be opened?
+    - Towards a more general open (public and private) data environment and a "common European data space"?
+  annotation: |-
+    Abstract:
+    "Thanks to appropriate data algorithms, firms, especially those on-line, are able to extract detailed knowledge about consumers and markets. This raises the question of the essential facility character of data. Moreover, the features of digital markets lead to a concentration of this core input in the hands of few big “superstars” and arouse legitimate economic and societal concerns. In a more and more data-driven society, one could ask if data openness is a solution to deal with power derived from data concentration. We conclude that only a case-by-case approach should be followed. Mandatory open data policy should be conditioned on an ex-ante cost-benefit analysis proving that the benefits of disclosure exceed its costs."
+  type:
+  - Essay
+  theme:
+  - General
 projects:
 - sys:
     id: 4qXwV2Dbi8IOO8CO6uGCuK
