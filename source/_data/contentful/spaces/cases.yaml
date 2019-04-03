@@ -5402,6 +5402,127 @@ datacollaborative:
     and "enable the intelligent collection, interpretation and use of data, coupled
     with a flexibility to accommodate the growing and ever-changing needs of a living,
     breathing city."
+- sys:
+    id: 6dpCCq4E10cUCUwSMvjV4o
+  status: true
+  caseStudy: Taiwan Economic Society Analysis System
+  sector:
+  - Health
+  - Economic Development
+  - Environment
+  - Education
+  - Agriculture
+  - Infrastructure
+  - Transportation
+  - Crisis Response
+  - Digital Society
+  - Telecommunications
+  - Criminal Justice
+  sharedBy:
+  - Various Government Agencies
+  sharedWith:
+  - National Development Society (TIE)
+  region: East Asia and Pacific
+  collaborativeType:
+  - Data Pooling
+  - Trusted Intermediary
+  dataType:
+  - Disclosed Non-Personal Data
+  - Observed Non-Personal Data
+  link: https://colab.ngis.org.tw/lflt/index.html
+  whatDataShared: According to the website, "TESAS uses the Spatial Data Science and
+    Big Data to aggregate relevant statistics from the 12 major thematic statistics,
+    and graphically present the changes and differences in statistical data in the
+    timeline and space. With such visualization results, let local creative leaders
+    learn the current status and trends of local development."
+  howDataShared: "The National Development Society (TIE) created the Taiwan Economic
+    Society Analysis System (TESAS) to offer consolidated expertise, data, and related
+    tools from across institutions. The twelve thematic areas included on the system
+    are: \n- Population\n- Income\n- Economy and Industry\n- Traffic\n- Sightseeing\n-
+    Tourism\n- Land\n- Residential\n- Environmental\n- Education\n- Cultural\n- Social
+    Welfare\n- Medical"
+  purpose: The Taiwan Economic Society Analysis System was developed to promote local
+    economic development, cultural cohesion, and equitable urban development through
+    access to data, insights, and collaborative tools.
+- sys:
+    id: 48x4zLR6LyBTXCInaLOkBv
+  status: true
+  caseStudy: Taiwan's Presidential Hackathon
+  sector:
+  - Health
+  - Economic Development
+  - Environment
+  - Education
+  - Agriculture
+  - Infrastructure
+  - Transportation
+  - Crisis Response
+  - Digital Society
+  - Telecommunications
+  - Criminal Justice
+  sharedBy:
+  - Government of Taiwan
+  sharedWith:
+  - Hackathon Participants
+  region: East Asia and Pacific
+  collaborativeType:
+  - Prizes & Challenges
+  dataType:
+  - Disclosed Non-Personal Data
+  - Observed Non-Personal Data
+  link: https://presidential-hackathon.taiwan.gov.tw/Eng/
+  whatDataShared: 'The Taiwanese Presidential Hackathon encourages cross-sectoral
+    teams of participants to create new and innovative solutions to public challenges
+    leveraging open government datasets, as well as open source information drawn
+    from other sectors. Active topic areas as of mid-2019 include: Disaster Prevention
+    and Public Healthcare, Youth Employment and Development, Social Security Network
+    and Aging Society, Environment and Energy, Transport and Tourism. '
+  howDataShared: 'The government organizers provide participating teams with open
+    government datasets and some "protected" data that can be made accessible by request
+    to participants to inform their solution development. Participants are also encouraged
+    to integrate non-governmental data sources where useful. Submissions are judged
+    based on three central criteria: innovation, social influence, and feasibility. '
+  purpose: According to its website, the Presidential Hackathon "strives to accelerate
+    the optimization of public services and improve the effectiveness of government
+    services." Going forward, public officials will seek to collaborate with participants
+    to implement winning submissions.
+- sys:
+    id: KpoIg6MKP4s2Z3PITTIlx
+  status: true
+  caseStudy: GRI’s Sustainability Disclosure Database
+  sector:
+  - Health
+  - Economic Development
+  - Environment
+  - Education
+  - Agriculture
+  - Infrastructure
+  - Transportation
+  - Crisis Response
+  - Digital Society
+  - Telecommunications
+  - Criminal Justice
+  sharedBy:
+  - Global Reporting Initiative
+  sharedWith:
+  - Public
+  region: Worldwide
+  collaborativeType:
+  - Data Pooling
+  dataType:
+  - Disclosed Non-Personal Data
+  - Observed Non-Personal Data
+  link: http://database.globalreporting.org/about-this-site
+  whatDataShared: GRI built a data exchange platform where users have the opportunity
+    to look up various organizations or companies sustainability reports and companies
+    can create profile and upload their sustainability or related reports.
+  howDataShared: The data is shared on the online platform by companies who created
+    a profile, according to standards set by GRI. The submitted data is free for the
+    public to access.
+  purpose: According to GRI's website the purpose of this platform is to allow "organizations
+    to consider their impacts on a wide range of sustainability issues, enabling them
+    to be more transparent about the risks and opportunities they face and take smart
+    strategic decisions."
 events:
 - sys:
     id: uF3uaikYV2gWsckO8wYO2
