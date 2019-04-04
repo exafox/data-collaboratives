@@ -7851,6 +7851,277 @@ resources:
   - Essay
   theme:
   - General
+- sys:
+    id: 3Rs9SpVt26AZgzPhvleFh5
+  authors: Natalia Adler, Ciro Cattuto, Kyriaki Kalimeri, Daniela Paolotti, Michele
+    Tizzoni, Stefaan Verhulst, Elad Yom-Tov, Andrew Young
+  title: 'How Search Engine Data Enhance the Understanding of Determinants of Suicide
+    in India and Inform Prevention: Observational Study'
+  publication: Journal of Medical Internal Research
+  pubDate: !ruby/object:DateTime 2019-01-20 00:00:00.000000000 Z
+  url: https://www.jmir.org/2019/1/e10179/
+  shortDescription: '"As the product of a data collaborative, this paper leverages
+    private-sector search engine data toward gaining a fuller, more accurate picture
+    of the suicide issue among young people in India."'
+  annotation: |-
+    Abstract:
+
+    "Background: India is home to 20% of the world’s suicide deaths. Although statistics regarding suicide in India are distressingly high, data and cultural issues likely contribute to a widespread underreporting of the problem. Social stigma and only recent decriminalization of suicide are among the factors hampering official agencies’ collection and reporting of suicide rates.
+
+    "Objective: As the product of a data collaborative, this paper leverages private-sector search engine data toward gaining a fuller, more accurate picture of the suicide issue among young people in India. By combining official statistics on suicide with data generated through search queries, this paper seeks to: add an additional layer of information to more accurately represent the magnitude of the problem, determine whether search query data can serve as an effective proxy for factors contributing to suicide that are not represented in traditional datasets, and consider how data collaboratives built on search query data could inform future suicide prevention efforts in India and beyond.
+
+    "Methods: We combined official statistics on demographic information with data generated through search queries from Bing to gain insight into suicide rates per state in India as reported by the National Crimes Record Bureau of India. We extracted English language queries on “suicide,” “depression,” “hanging,” “pesticide,” and “poison”. We also collected data on demographic information at the state level in India, including urbanization, growth rate, sex ratio, internet penetration, and population. We modeled the suicide rate per state as a function of the queries on each of the 5 topics considered as linear independent variables. A second model was built by integrating the demographic information as additional linear independent variables.
+
+    "Results: Results of the first model fit (R2) when modeling the suicide rates from the fraction of queries in each of the 5 topics, as well as the fraction of all suicide methods, show a correlation of about 0.5. This increases significantly with the removal of 3 outliers and improves slightly when 5 outliers are removed. Results for the second model fit using both query and demographic data show that for all categories, if no outliers are removed, demographic data can model suicide rates better than query data. However, when 3 outliers are removed, query data about pesticides or poisons improves the model over using demographic data.
+
+    "Conclusions: In this work, we used search data and demographics to model suicide rates. In this way, search data serve as a proxy for unmeasured (hidden) factors corresponding to suicide rates. Moreover, our procedure for outlier rejection serves to single out states where the suicide rates have substantially different correlations with demographic factors and query rates."
+  type:
+  - Journal Article
+  theme:
+  - In Practice
+- sys:
+    id: 5spbXQzrO9hHCQE2ZM7L8O
+  authors: Kieron O'Hara
+  title: 'Data Trusts: Ethics, Architecture and Governance for Trustworthy Data Stewardship'
+  pubDate: !ruby/object:DateTime 2019-02-20 00:00:00.000000000 Z
+  url: https://www.researchgate.net/publication/331275252_Data_Trusts_Ethics_Architecture_and_Governance_for_Trustworthy_Data_Stewardship
+  shortDescription: '"This paper defends the following thesis: A data trust works
+    within the law to provide ethical, architectural and governance support for trustworthy
+    data processing."'
+  annotation: |-
+    Abstract:
+    "In their report on the development of the UK AI industry, Wendy Hall and Jérôme Pesenti recommend the establishment of data trusts, “proven and trusted frameworks and agreements” that will “ensure exchanges [of data] are secure and mutually beneficial” by promoting trust in the use of data for AI. This paper defends the following thesis: A data trust works within the law to provide ethical, architectural and governance support for trustworthy data processing. Data trusts are therefore both constraining and liberating. They constrain: they respect current law, so they cannot render currently illegal actions legal. They are intended to increase trust, and so they will typically act as further constraints on data processors, adding the constraints of trustworthiness to those of law. Yet they also liberate: if data processors are perceived as trustworthy, they will get improved access to data. The paper addresses the areas of: trust and trustworthiness; ethics; architecture; legal status."
+  type:
+  - Paper
+  theme:
+  - Governance and Operations
+- sys:
+    id: 2OiwOGavOQrf31HqB1O6RM
+  authors: Shannon Lefaivre, Brendan Behan, Anthony Vaccarino, Kenneth Evans, Moyez
+    Dharsee, Tom Gee, Costa Dafnas, Tom Mikkelsen, Elizabeth Theriault
+  title: 'Big Data Needs Big Governance: Best Practices From Brain-CODE, the Ontario-Brain
+    Institute’s Neuroinformatics Platform'
+  publication: Frontiers in Genetics
+  pubDate: !ruby/object:DateTime 2019-03-29 00:00:00.000000000 Z
+  url: https://www.frontiersin.org/articles/10.3389/fgene.2019.00191/full
+  shortDescription: '"The aim of this report is to highlight these best practices
+    and develop a key open resource which may be referenced during the development
+    of similar open science initiatives."'
+  annotation: |-
+    - The Ontario Brain Institute (OBI) developed Brain-CODE, which is a platform that "supports the capture, storage, federation, sharing, and analysis of different data types across several brain disorders."
+    - The platform is made possible by "a robust and scalable data governance structure which allows for the flexibility to advance scientific understanding, while protecting the privacy of research participants."
+    - This paper presents key of lessons learned from the implementation of this initiative.
+  type:
+  - Journal Article
+  theme:
+  - In Practice
+  - Governance and Operations
+- sys:
+    id: 5vGGnQeFQOfwsnBq2Hvm20
+  authors: André Corrêa d'Almeida, Caroline McHeffey, Nilda Mesa, Arnaud Sahuguet,
+    Stefaan G. Verhulst, Andrew Young, Andrew J. Zahuranec
+  title: The Circular City Research Journal Volume I
+  publication: New Lab
+  pubDate: !ruby/object:DateTime 2019-03-20 00:00:00.000000000 Z
+  url: https://newlab.com/wp-content/uploads/2019/03/for-posting-to-web.pdf
+  shortDescription: '"This inaugural edition of New Lab’s Research Journal (i) describes
+    the process of developing and launching New Lab’s The Circular City program, (ii)
+    introduces circular city data as the first exploration of this program, and (iii)
+    investigates and methodologically tests the value of circular data applied to
+    three urban challenges: economic development, mobility, and resilience."'
+  annotation: |-
+    From the introduction:
+    "Coming out of ten months of applied, participatory, and multidisciplinary research, this journal presents:
+
+    A. "One case study developed to document and explain how the program was conceived, designed, and implemented, with the goal of offering lessons for scalability at New Lab and replicability in other cities around the world. The key questions explored in the case study are:
+    - "What is The Circular City?
+    - "What is Circular City Data?
+    - "How might we build, scale-up, and replicate a circular city data program for smarter economic development, mobility, and resilience and sustainability?
+
+    B. "Three research papers developed to investigate three urban challenges:
+    - "What is the value of this program for economic development in New York City?
+    - "What is the value of this program for mobility in New York City?
+    - "What is the value of this program for resilience and sustainability in New York City?
+    - "What are the conditions of success for this value creation?
+    - "What are the risks and the corresponding mitigation strategies?"
+  type:
+  - Journal Article
+  theme:
+  - General
+  - Benefits
+  - Incentives
+  - Risks and Challenges
+  - In Practice
+- sys:
+    id: 5NbFlbc0WDiYSn6gJBuC1D
+  authors: Ron S. Jarmin
+  title: 'Evolving Measurement for an Evolving Economy: Thoughts on 21st Century US
+    Economic Statistics'
+  publication: Journal of Economic Perspectives
+  pubDate: !ruby/object:DateTime 2019-01-01 00:00:00.000000000 Z
+  url: https://www.aeaweb.org/articles?id=10.1257/jep.33.1.165
+  shortDescription: '"In this essay, [Jarmin] describe[s] some work underway that
+    hints at what 21st century official economic measurement will look like and offer
+    some preliminary comments on what is needed to get there."'
+  annotation: |-
+    - The author argues that the "system of federal economic statistics developed in the 20th century has served the country well, but the current methods for collecting and disseminating these data products are unsustainable. These statistics are heavily reliant on the great 20th century measurement innovation: sample surveys. Recently, however, response rates for both household and business surveys have declined, increasing costs and threatening quality."
+    - He further points out that existing "statistical measures, many developed decades ago, may also miss important aspects of our rapidly evolving economy; moreover, they may not be sufficiently accurate, timely, or granular to meet the increasingly complex needs of data users. Meanwhile, the rapid proliferation of online data and more powerful computation make privacy and confidentiality protections more challenging."
+    - He concludes that "current measurement programs are not keeping pace with the changing economy, and current methods for collecting and disseminating statistical information are not sustainable. A process is underway in which government statisticians will take greater advantage of the proliferation of new data sources that can be utilized for economic measurement, as well as new tools for processing, analyzing, and publishing improved economic statistics."
+  type:
+  - Journal Article
+  theme:
+  - Benefits
+- sys:
+    id: 1DUJnq0Lq1If6MxcrXQCgX
+  authors: Geoff Mulgan, Vincent Straub
+  title: The new ecosystem of trust
+  publication: Nesta
+  pubDate: !ruby/object:DateTime 2019-02-21 00:00:00.000000000 Z
+  url: https://www.nesta.org.uk/blog/new-ecosystem-trust/
+  shortDescription: '"Here we attempt to open up part of the debate on data governance;
+    suggesting how to address the twin goals of greater control for citizens, and
+    greater value for the public as a whole. We argue that there are a variety of
+    different solutions that need to be designed, and experimented with."'
+  annotation: |-
+    "This paper argues that new institutions—an ecosystem of trust—are needed to ensure that uses of data are trusted and trustworthy. It advocates the creation of different kinds of data trust to fill this gap. It argues:
+    - "That we need, but currently lack, institutions that are good at thinking through, discussing, and explaining the often complex trade-offs that need to be made about data.
+    - "That the task of creating trust is different in different fields. Overly generic solutions will be likely to fail.
+    - "That trusts need to be accountable—in some cases to individual members where there is a direct relationship with individuals giving consent, in other cases to the broader public.
+    - "That we should expect a variety of types of data trust to form—some sharing data; some managing synthetic data; some providing a research capability; some using commercial data and so on. The best analogy is finance which over time has developed a very wide range of types of institution and governance."
+  type:
+  - Essay
+  theme:
+  - Data Responsibility
+- sys:
+    id: CphnkAFzNxSwLtxwTYJiP
+  authors: A. Martinez, A. C. Rainie
+  title: 'Using Data Sharing Agreements as Tools of Indigenous Data Governance: Current
+    Uses and Future Options'
+  publication: American Geophysical Union
+  pubDate: !ruby/object:DateTime 2018-12-20 00:00:00.000000000 Z
+  url: http://adsabs.harvard.edu/abs/2018AGUFMPA43C1373M
+  shortDescription: '"The project described here reviewed publicly available data
+    sharing agreements that focus on research with Indigenous nations and communities
+    in the United States. [...] The results detail how Indigenous peoples currently
+    use data sharing agreements and potential areas of expansion for language to include
+    in data sharing agreements as Indigenous peoples address the research needs of
+    their communities and the protection of community and cultural data."'
+  annotation: |-
+    Abstract:
+    "Indigenous communities and scholars have been influencing a shift in participation and inclusion in academic and agency research over the past two decades. As a response, Indigenous peoples are increasingly asking research questions and developing their own studies rooted in their cultural values. They use the study results to rebuild their communities and to protect their lands. This process of Indigenous-driven research has led to partnering with academic institutions, establishing research review boards, and entering into data sharing agreements to protect environmental data, community information, and local and traditional knowledges.Data sharing agreements provide insight into how Indigenous nations are addressing the key areas of data collection, ownership, application, storage, and the potential for data reuse in the future. By understanding this mainstream data governance mechanism, how they have been applied, and how they have been used in the past, we aim to describe how Indigenous nations and communities negotiate data protection and control with researchers.
+
+    "The project described here reviewed publicly available data sharing agreements that focus on research with Indigenous nations and communities in the United States. We utilized qualitative analysis methods to identify specific areas of focus in the data sharing agreements, whether or not traditional or cultural values were included in the language of the data sharing agreements, and how the agreements defined data. The results detail how Indigenous peoples currently use data sharing agreements and potential areas of expansion for language to include in data sharing agreements as Indigenous peoples address the research needs of their communities and the protection of community and cultural data."
+  type:
+  - Journal Article
+  theme:
+  - In Practice
+  - Governance and Operations
+- sys:
+    id: 36bM7THJeYe2bNq95yedRU
+  authors: Deborah Mascalzoni, et al
+  title: Are Requirements to Deposit Data in Research Repositories Compatible With
+    the European Union's General Data Protection Regulation?
+  publication: Annals of Internal Medicine
+  pubDate: !ruby/object:DateTime 2019-02-12 00:00:00.000000000 Z
+  url: https://annals.org/aim/fullarticle/2725143/requirements-deposit-data-research-repositories-compatible-european-union-s-general
+  shortDescription: '"[D]ata deposition requirements and research repositories will
+    have to adapt to the legal and ethical landscape of the GDPR. Noncompliance with
+    the GDPR may incur administrative fines of up to €20 million, and the regulation
+    is enforced by data protection authorities in each EU nation."'
+  annotation: |-
+    - The authors point out that "health and genetic data are considered special categories of personal data and are subject to relatively stringent rules for processing."
+    - Furthermore, according to the GDPR, "personal data may be collected only for specific, explicit, and legitimate purposes. The GDPR considers further use of these data for scientific research purposes to be compatible with the original rationale for collection. Yet, it also recognizes the right of study participants to object to this use of their data, to withdraw consent if they wish, and to be informed of any data breaches. To exercise their rights, individuals must be informed about the processing of their data in the research repository. However, the way some repositories are set up might make it difficult for researchers to comply with the law. One such challenge centers on the oversight of data access."
+    - The authors propose that developing "solutions that support data deposition while ensuring legal compliance is necessary for research. Adopting the right solutions will lead to greater transparency and accountability in data sharing, as well as a more efficient and equitable scientific practice."
+  type:
+  - Essay
+  theme:
+  - Risks and Challenges
+  - Data Responsibility
+  - Governance and Operations
+- sys:
+    id: 5c7xkeKluEBSvGYhouB5SB
+  authors: Stefaan G. Verhulst
+  title: Leveraging and Sharing Data for Urban Flourishing
+  publication: The GovLab
+  pubDate: !ruby/object:DateTime 2019-02-12 00:00:00.000000000 Z
+  url: https://medium.com/data-stewards-network/leveraging-and-sharing-data-for-urban-flourishing-d6d48584443a
+  shortDescription: Testimony before New York City Council Committee on Technology
+    and the Commission on Public Information and Communication (COPIC).
+  annotation: |-
+    - In his testimony before NYC COPIC, Stefaan Verhulst pointed out that the challenges facing communities in the 21st century "need not only new solutions but also new methods for arriving at solutions."
+    - Verhulst argued for the potential use of data to address these problems, by posing four key questions: "First, why should NYC care about data and data sharing? Second, if you build a data-sharing framework, will they come? Third, how can we best engage the private sector when it comes to sharing and using their data? And fourth, is technology the main (or best) answer?"
+  type:
+  - Essay
+  theme:
+  - General
+- sys:
+    id: 2rJu7s6kUzWoN1FRYKOh0g
+  authors: Steve MacFeely
+  title: 'The Big (data) Bang: Opportunities and Challenges for Compiling SDG Indicators'
+  publication: Global Policy Volume
+  pubDate: !ruby/object:DateTime 2019-01-01 00:00:00.000000000 Z
+  url: https://onlinelibrary.wiley.com/doi/pdf/10.1111/1758-5899.12595
+  shortDescription: '"This paper examines the opportunities and challenges presented
+    by big data for compiling indicators to support Agenda 2030."'
+  annotation: |
+    - According to this paper, of "the 232 SDG indicators, only 93 are classified as Tier 1, meaning that the indicator is conceptually clear, has internationally established methodology and standards, and data are regularly compiled for at least 50 per cent of the countries. The remaining indicators are Tier 2 (72 indicators) meaning the indicator is conceptually clear but the data are not regularly produced by countries or Tier 3 (62 indicators), meaning that no internationally established methodology or standards are yet available."
+    - The author points out that the potential of big data has generated much excitement and argument, but it also has many legal, ethical, technical, and reputational risks.
+    - According to the author many "big data are proprietary, that is, data that are commercially or privately owned and not publicly available. Consequently, many big data are not currently accessible by NSOs, either because costs are prohibitive or proprietary ownership makes it impossible. For example, data generated from the use of credit cards, search engines, social media, mobile phones, and store loyalty cards are all proprietary and are often not accessible. In many cases there are also legal impediments to accessing big data. MacFeely and Barnat (2017) have argued that to futureproof statistical legislation, changes may be required to give NSOs or NSSs access to big data sources."
+    - Two challenges arise from this problem: one technical and one of perception. "The technical challenge arises from the availability of large, linkable datasets which make anonymization of individual data very difficult. ... The changing nature of perception is arguably a trickier problem. ... There appear to be inter-generational differences in opinion vis-a-vis privacy and confidentiality, where those ‘born digital’ (roughly those born since 1990) are less concerned about disclosing personal information than older generations (European Commission, 2011)."
+  type:
+  - Journal Article
+  theme:
+  - General
+  - Benefits
+- sys:
+    id: 1rY3cMEeTwBTI7TZKV4Mz6
+  authors: Daniel Kondor, Behrooz Hashemian, Yves-Alexandre de Montjoye, Carlo Ratti
+  title: Towards matching user mobility traces in large-scale datasets
+  publication: IEEE Transactions on Big Data
+  pubDate: !ruby/object:DateTime 2018-09-24 00:00:00.000000000 Z
+  url: https://ieeexplore.ieee.org/document/8470173
+  shortDescription: '"Extending previous work on reidentifiability of spatial data
+    and trajectory matching, we present the first large-scale analysis of user matchability
+    in real mobility datasets on realistic scales, i.e. among two datasets that consist
+    of several million people''s mobility traces, coming from a mobile network operator
+    and transportation smart card usage."'
+  annotation: |
+    From the abstract:
+    - "The problem of unicity and reidentifiability of records in large-scale databases has been studied in different contexts and approaches, with focus on preserving privacy or matching records from different data sources.
+    - "With an increasing number of service providers nowadays routinely collecting location traces of their users on unprecedented scales, there is a pronounced interest in the possibility of matching records and datasets based on spatial trajectories.
+    - "Extending previous work on reidentifiability of spatial data and trajectory matching, we present the first large-scale analysis of user matchability in real mobility datasets on realistic scales, i.e. among two datasets that consist of several million people's mobility traces, coming from a mobile network operator and transportation smart card usage.
+    - "We extract the relevant statistical properties which influence the matching process and analyze their impact on the matchability of users.
+    - "We show that for individuals with typical activity in the transportation system (those making 3-4 trips per day on average), a matching algorithm based on the co-occurrence of their activities is expected to achieve a 16.8% success only after a one-week long observation of their mobility traces, and over 55% after four weeks.
+    - "We show that the main determinant of matchability is the expected number of co-occurring records in the two datasets. Finally, we discuss different scenarios in terms of data collection frequency and give estimates of matchability over time.
+    - "We show that with higher frequency data collection becoming more common, we can expect much higher success rates in even shorter intervals."
+  type:
+  - Journal Article
+  theme:
+  - General
+  - Benefits
+- sys:
+    id: 13MAMBbqiOIkERhx9G4edX
+  authors: Yves-Alexandre de Montjoye, et al
+  title: On the privacy-conscientious use of mobile phone data
+  publication: Nature
+  pubDate: !ruby/object:DateTime 2018-12-11 00:00:00.000000000 Z
+  url: https://www.nature.com/articles/sdata2018286
+  shortDescription: '"The breadcrumbs we leave behind when using our mobile phones—who
+    somebody calls, for how long, and from where—contain unprecedented insights about
+    us and our societies. Researchers have compared the recent availability of large-scale
+    behavioral datasets, such as the ones generated by mobile phones, to the invention
+    of the microscope, giving rise to the new field of computational social science."'
+  annotation: |-
+    - According to the authors, mobile phone penetration rate is at 90% and the communications activity made possible with a mobile phone generates a large amount of data that is highly valuable especially in answering humanitarian questions. However, this benefit comes with some risks, most notably privacy.
+    - Anonymization has been used in many statistical projects to try to address this privacy issues, but the authors point out how recent studies have shown that "pseudonymization and standard de-identification are not sufficient to prevent uers from being re-identified in mobile phone data."
+    - The authors argue that these privacy concerns are "due to the failures of the traditional de-identification model and the lack of a modern and agreed upon framework for the privacy-conscientious use of mobile phone data by third-parties especially in the context of the EU General Data Protection Regulation (GDPR)."
+    - Thus, the authors propose four models for the privacy-conscientious use of mobile phone data, which they call 1) limited release, 2) pre-computed indicators and synthetic data, 3) remote access, and 4) question-and-answer.
+  type:
+  - Journal Article
+  theme:
+  - Risks and Challenges
+  - Data Responsibility
+  - Governance and Operations
 projects:
 - sys:
     id: 4qXwV2Dbi8IOO8CO6uGCuK
