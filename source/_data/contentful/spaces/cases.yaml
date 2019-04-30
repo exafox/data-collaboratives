@@ -90,7 +90,7 @@ datacollaborative:
   - Commercial Transactions
   dataSource:
   - Credit Cards
-  link: https://www.centrodeinnovacionbbva.com/en/innovachallenge/home
+  link: https://bbvaopen4u.com/en/actualidad/innova-challenge-big-data-highlights
   whatDataShared: Spanish regional bank BBVA shared anonymized credit card transactions
     data with participating developers in its Innova Challenge.
   howDataShared: 'Anyone over 18 years old was eligible to join BBVA''s Innova Challenge.
@@ -383,7 +383,7 @@ datacollaborative:
   - Registration Records
   dataSource:
   - Health System Registers
-  link: http://www.prnewswire.com/news-releases/convergehealth-by-deloitte-and-intermountain-healthcare-expand-real-world-evidence-collaboration-with-allergan-to-focus-on-womens-health-300122465.html
+  link: https://www2.deloitte.com/us/en/pages/consulting/articles/harnessing-analytics-for-womens-health.html
   whatDataShared: 'ConvergeHEALTH, a product from Deloitte, uses its OutcomesMiner
     analytics platform to generate real-world clinical insights based on patient data
     and has previously partnered with pharmaceutical company Allergan as part of a
@@ -509,39 +509,6 @@ datacollaborative:
     first official record of existing routes. This information facilitates civic engagement
     and feedback during the transit planning process to incorporate some of the matatu
     routes into formal bus routes offered by the city.
-- sys:
-    id: 2qlGaggRHCawi4aI6kwWWo
-  caseStudy: DMC International Imaging
-  sector:
-  - Agriculture
-  - Crisis Response
-  sharedBy:
-  - DMCii
-  sharedWith:
-  - Multiple
-  region: Worldwide
-  collaborativeType:
-  - Trusted Intermediary
-  dataType:
-  - Observed Personal Data
-  dataKind:
-  - Satellite and Aerial Imagery
-  link: http://www.dmcii.com/
-  whatDataShared: 'DMC International Imaging Ltd (DMCii) is a UK-based organization
-    that sells satellite imagery products and services, supplying both programmed
-    and archived optical satellite imagery from the multi-satellite Disaster Monitoring
-    Constellation (DMC) to customers in 100 countries around the globe.  '
-  howDataShared: DMCii sells its product to a variety of governmental and non-governmental
-    bodies. Its 22m multispectral UK-DMC2 data is available to download to existing
-    and new ground stations for immediate use to support projects and applications.
-    DMCii also offers services to retrieve, process, store and analyze all imagery.
-  purpose: Broadly, DMCii uses its data to assist in agriculture, forestry, emergency
-    & disasters, and land cover mapping. It has worked with the Group on Earth Observations
-    (GEO), a voluntary partnership of governments and organizations, to create JECAM,
-    a monitoring project to improve global agricultural systems. In 2009 it won a
-    €100,000 contract from the European Space Agency (ESA) to use coordinated multi-satellite
-    optical imagery for tropical forest monitoring in Indonesia. It is also used during
-    crisis events to help with disaster mapping and relief.
 - sys:
     id: 5z7ZPIVMOskAggMemMwaMu
   caseStudy: Enexis Open Data Agenda
@@ -1499,6 +1466,7 @@ datacollaborative:
 '
 - sys:
     id: 4HpBMLGAi4A8S0cocEI4Oo
+  status: true
   caseStudy: Predicting Consumer Confidence Using Social Media Data
   sector:
   - Economic Development
@@ -1508,7 +1476,8 @@ datacollaborative:
   - Statistics Netherlands
   region: Europe and Central Asia
   collaborativeType:
-  - Trusted Intermediary
+  - Intelligence Product
+  - Research Partnerships
   dataType:
   - Observed Personal Data
   dataKind:
@@ -1534,6 +1503,7 @@ datacollaborative:
     future and will be used more widely.”'
 - sys:
     id: 4AH9H1PsPYUOE2csAm8Kqa
+  status: true
   caseStudy: Proximus, Statistical Agency of Belgium, Eurostat
   sector:
   - Telecommunications
@@ -1570,6 +1540,7 @@ datacollaborative:
     point in real time to phenomena inaccessible until now."
 - sys:
     id: 2kPgXSVbIEGqEsyce2w2wC
+  status: true
   caseStudy: Real Impact Analytics' Data for Good Program
   sector:
   - Economic Development
@@ -1603,6 +1574,7 @@ datacollaborative:
     social dynamics involved in mobile money transfers.
 - sys:
     id: 1swP5xuDiAQ0UU4wMa62cc
+  status: true
   caseStudy: Sidewalk Labs
   sector:
   - Infrastructure
@@ -1617,7 +1589,7 @@ datacollaborative:
   - Observed Non-Personal Data
   dataKind:
   - Traffic Data
-  link: http://www.flowmobility.io
+  link: https://www.sidewalklabs.com/
   whatDataShared: The Alphabet company Sidewalk Lab's Flow initiative aims to work
     with cities' digitized data to "close the information gap between various sectors
     of government, their data and inventory, and the citizens that use it."
@@ -1668,6 +1640,7 @@ datacollaborative:
     problems. '
 - sys:
     id: 1xiwOYYr8kwAwOOyOQmK2m
+  status: true
   caseStudy: Strava Metro
   sector:
   - Infrastructure
@@ -1808,13 +1781,14 @@ datacollaborative:
     population mobility, displacement and impacted areas after the July 2016 earthquake.
 - sys:
     id: 1O0gbACHEU4Cq4yKmoGU0U
+  status: true
   caseStudy: Yelp Dataset Challenge
   sector:
   - Health
   sharedBy:
   - Yelp
   sharedWith:
-  - Academic researchers
+  - Challenge Participants
   region: Worldwide
   collaborativeType:
   - Prizes & Challenges
@@ -1843,6 +1817,7 @@ datacollaborative:
     Events, and much more.
 - sys:
     id: 1qHIuSTBp2oSCQmOksMiSS
+  status: true
   caseStudy: The Climate Corporation's Field View Products
   sector:
   - Environment
@@ -1862,8 +1837,8 @@ datacollaborative:
   collaborativeType:
   - Intelligence Product
   - Trusted Intermediary
-  - API
   dataType:
+  - Disclosed Non-Personal Data
   - Observed Non-Personal Data
   dataKind:
   - Weather Data
@@ -1885,6 +1860,7 @@ datacollaborative:
     practices.
 - sys:
     id: 3ZSkF3hpccYmuqWkICqkso
+  status: true
   caseStudy: TM Forum Open API
   sector:
   - Economic Development
@@ -1921,6 +1897,7 @@ datacollaborative:
     and operate complex innovative services for businesses.
 - sys:
     id: 52O4yN56lquguIoWcKeSES
+  status: true
   caseStudy: Tracking Malaria in Namibia with Cell Phone Data
   sector:
   - Health
@@ -1998,6 +1975,7 @@ datacollaborative:
     Human Atlas that analyzes social connections within communities.
 - sys:
     id: 4ngMDov5aMQ68MS6ym4qCI
+  status: true
   caseStudy: Twitter's Academic Data Grants
   sector:
   - Health
@@ -2033,6 +2011,7 @@ datacollaborative:
     historical tweets. '
 - sys:
     id: 5um3aeRJvO2a2Oqs8ocIGU
+  status: true
   caseStudy: Uber-City of Boston Partnership
   sector:
   - Infrastructure
@@ -2043,14 +2022,14 @@ datacollaborative:
   - Selected Partners
   region: North America
   collaborativeType:
-  - API
+  - Data Pooling
   dataType:
   - Observed Personal Data
   dataKind:
   - Commercial Transactions
   dataSource:
   - Customer records
-  link: http://blog.uber.com/city-data
+  link: https://www.uber.com/blog/boston/driving-solutions-to-build-smarter-cities/
   whatDataShared: 'Uber shares anonymized trip-level data by ZIP Code Tabulation Area
     (ZCTA), which is the U.S. Census’ geographical representation of zip codes with
     cities. This data includes timestamp including the date & time for the beginning
@@ -2071,7 +2050,8 @@ datacollaborative:
     was too broad to provide meaningful analysis.
 - sys:
     id: 3Z0QIYk9WgYoYi8aqQiWOs
-  caseStudy: Yelp LIVES score
+  status: true
+  caseStudy: Yelp Local Inspector Value-entry Specification (LIVES) Score
   sector:
   - Health
   sharedBy:
@@ -2102,7 +2082,8 @@ datacollaborative:
     through and view the inspection history of a local establishment.
 - sys:
     id: 2Z3ONykFY4oc8omqiyuIkw
-  caseStudy: Yelp Consumer Protection Initiative
+  status: true
+  caseStudy: Yelp's Consumer Protection Initiative
   sector:
   - Health
   sharedBy:
@@ -2163,20 +2144,20 @@ datacollaborative:
     economic growth and better inform business practices. '
 - sys:
     id: 3j1APBGWWQk2A6E2kssmM0
+  status: true
   caseStudy: UK-Brazil collaboration on leveraging crowdsourced and sensor data to
     support urban resilience
   sector:
   - Environment
   - Infrastructure
+  - Transportation
   sharedBy:
-  - Social media
   - Multiple
   sharedWith:
   - Researchers in UK and Brazil
   region: Europe and Central Asia
   collaborativeType:
   - Data Pooling
-  - Research Partnerships
   dataType:
   - Disclosed Personal Data
   - Observed Personal Data
@@ -2318,7 +2299,8 @@ datacollaborative:
     it can be more easily scrutinized.
 - sys:
     id: 683dHGHXxKckiKY4uMCQa8
-  caseStudy: AACR Project Genomics Evidence Neoplasia Information Exchange
+  status: true
+  caseStudy: AACR Project Genomics Evidence Neoplasia Information Exchange (GENIE)
   sector:
   - Health
   sharedBy:
@@ -2336,7 +2318,7 @@ datacollaborative:
   - Health Registration Data
   dataSource:
   - Genome and Illness Data
-  link: http://healthitanalytics.com/news/cancer-research-orgs-release-big-data-for-precision-medicine#sthash.EgUixR9h.dpuf
+  link: https://www.aacr.org/RESEARCH/RESEARCH/PAGES/AACR-PROJECT-GENIE.ASPX
   whatDataShared: 'As part of the Obama administration''s Precision Medicine Initiative,
     The American Association for Cancer Research (AACR) is releasing more than 19,000
     de-identified genomic records. This includes information on 59 major types of
@@ -2385,6 +2367,7 @@ datacollaborative:
     inform policy and public response to the field. '
 - sys:
     id: 4KwQ4k0V0IsecIIc8OySgI
+  status: true
   caseStudy: Singapore Data Discovery Challenge
   sector:
   - Infrastructure
@@ -2405,7 +2388,7 @@ datacollaborative:
   - Multiple
   dataSource:
   - Multiple
-  link: http://www.upsingapore.com/events/data-discovery-challenge/
+  link: https://upsingapore.com/events/2018/8/6/data-discovery-challenge
   whatDataShared: Participants in the Data Discovery Challenge are given access to
     useful datasets and resources such as capability building workshops and industry
     experts' advice from both the private and public sector.
@@ -2420,7 +2403,8 @@ datacollaborative:
     and interaction in Singapore. '
 - sys:
     id: GdRzxEkMGiWa20iCo8M4S
-  caseStudy: UN Global Pulse & DataSift
+  status: true
+  caseStudy: UN Global Pulse and DataSift
   sector:
   - Economic Development
   - Crisis Response
@@ -2430,13 +2414,13 @@ datacollaborative:
   - UN Global Pulse
   region: Worldwide
   collaborativeType:
-  - Trusted Intermediary
+  - Data Pooling
   dataType:
   - Observed Personal Data
   dataKind:
   - Social Network Data
   - Internet Usage
-  link: http://datasift.com/press-releases/UN-Global%20Pulse%20Partnership/
+  link: https://www.unglobalpulse.org/big-social-data
   whatDataShared: 'DataSift, a for-profit company that analyzes social media data,
     shares data from social media posts about global development and humanitarian
     issues with UN Global Pulse in order to track the wellbeing of individuals and
@@ -2503,6 +2487,7 @@ datacollaborative:
     secondary apps and publishing individualized maps.
 - sys:
     id: 2UtGJ5Hj2gyMCACSI4Gwe4
+  status: true
   caseStudy: OpenTraffic
   sector:
   - Transportation
@@ -2537,7 +2522,7 @@ datacollaborative:
     public to access high-quality traffic data.
 - sys:
     id: 2PGtR4vc0oymKi6CMSkWCo
-  caseStudy: Center for Big Data Statistics
+  caseStudy: The Netherland's Center for Big Data Statistics
   sector:
   - Health
   - Economic Development
@@ -2756,6 +2741,7 @@ datacollaborative:
     more data about women's banking activities.
 - sys:
     id: 7h6rr2pj1YO0EK8a06qSIy
+  status: true
   caseStudy: UNFPA and WorldPop
   sector:
   - Health
@@ -2778,7 +2764,7 @@ datacollaborative:
   - 'Satellite and Aerial Imagery '
   dataSource:
   - Geographical data
-  link: http://www.worldpop.org.uk/about_our_work/case_studies/
+  link: https://www.worldpop.org/case_studies/mapping_afg_pop
   whatDataShared: WorldPop uses census data combined with GIS data (collaborating
     with CIESIN in some instances) to create databases of population and country data.
     In its collaboration with UNFPA, high resolution satellite imagery is pooled with
@@ -2829,6 +2815,7 @@ datacollaborative:
     and public health policy.
 - sys:
     id: 5gWe6YSB4sSquMMwSuGcg2
+  status: true
   caseStudy: UNICEF and Facebook Ad Campaigns
   sector:
   - Health
@@ -2839,8 +2826,7 @@ datacollaborative:
   - UNICEF
   region: Latin America and the Caribbean
   collaborativeType:
-  - Intelligence Product
-  - Trusted Intermediary
+  - Data Pooling
   dataType:
   - Observed Personal Data
   dataKind:
@@ -2867,7 +2853,8 @@ datacollaborative:
     protect against Zika according to a Devex article (https://www.devex.com/news/how-facebook-statuses-informed-the-zika-response-in-brazil-89290).
 - sys:
     id: 4JyMSqj9u0qc6UCSUWUG6e
-  caseStudy: UN Global Pulse & Twitter
+  status: true
+  caseStudy: UN Global Pulse and Twitter
   sector:
   - Health
   - Economic Development
@@ -2878,7 +2865,7 @@ datacollaborative:
   - UN Global Pulse
   region: Worldwide
   collaborativeType:
-  - Trusted Intermediary
+  - Data Pooling
   dataType:
   - Observed Personal Data
   dataKind:
@@ -2902,6 +2889,7 @@ datacollaborative:
     food costs and better coordinate relief efforts.
 - sys:
     id: 21oOhfblTiyka0ISwsM4as
+  status: true
   caseStudy: UNICEF and Amadeus Zika Tracker
   sector:
   - Health
@@ -3055,13 +3043,14 @@ datacollaborative:
     thereby encouraging greater diversity in their workplaces and beyond.
 - sys:
     id: 30e30Ra2AMqMmESWKiY8Q6
+  status: true
   caseStudy: Uber Movement
   sector:
   - Transportation
   sharedBy:
   - Uber
   sharedWith:
-  - Local government agencies
+  - City Government Agencies
   region: Worldwide
   collaborativeType:
   - Data Pooling
@@ -3337,6 +3326,7 @@ datacollaborative:
     better understanding the disease and developing better treatments for patients.
 - sys:
     id: 2gUatesLmAEkAMIQGC6E4K
+  status: true
   caseStudy: Esri and Waze Open Data-Sharing for governments
   sector:
   - Infrastructure
@@ -3345,7 +3335,7 @@ datacollaborative:
   - Esri
   - Waze
   sharedWith:
-  - City governments
+  - City Governments
   region: Worldwide
   collaborativeType:
   - Intelligence Product
@@ -3479,7 +3469,8 @@ datacollaborative:
     accessible data source integral to creating data-driven public services.
 - sys:
     id: f3yTPg7f56UOmwMgYEGg6
-  caseStudy: Radiant Earth Imagery
+  status: true
+  caseStudy: 'Radiant Earth Imagery Open Geospatial Data '
   sector:
   - Health
   - Economic Development
@@ -3495,7 +3486,6 @@ datacollaborative:
   region: Worldwide
   collaborativeType:
   - Intelligence Product
-  - Data Pooling
   dataType:
   - Observed Non-Personal Data
   dataKind:
@@ -3666,7 +3656,7 @@ datacollaborative:
     of communitites to natural disaster. '
 - sys:
     id: 3LbYISIsfmiUsUEEagmO0e
-  status: false
+  status: true
   caseStudy: LA Tech Talent Pipeline
   sector:
   - Economic Development
@@ -3677,7 +3667,7 @@ datacollaborative:
   - City of Los Angeles
   region: North America
   collaborativeType:
-  - API
+  - Data Pooling
   dataType:
   - Disclosed Personal Data
   link: https://data.lacity.org/stories/s/LA-Tech-Talent-Pipeline/x899-9vc5
@@ -4665,40 +4655,6 @@ datacollaborative:
     of health care. As one of the first data sharing collaboratives to work with regional
     records, Sanford Health hopes to promote the value of real-life, timely health
     care data and use it to benefit our population.
-- sys:
-    id: 2Cv9HpLcFK4ES80gaKyIcA
-  status: true
-  caseStudy: NASDAQ Index Data Sharing
-  sector:
-  - Economic Development
-  sharedBy:
-  - NASDAQ
-  sharedWith:
-  - Subscribers
-  region: Worldwide
-  collaborativeType:
-  - Intelligence Product
-  dataType:
-  - Disclosed Personal Data
-  link: http://business.nasdaq.com/intel/indexes/index-data/faq/index.html
-  whatDataShared: 'There are two types of data that are shared by Nasdaq through their
-    subscription: Nasdaq Global Index Watch (GIW), Nasdaq’s Standard Delivery Service;
-    and Global Index FlexFile Delivery (GIFFD), Nasdaq’s Premium Delivery Service.
-    GIW is the standard direct source for index history and components accessed through
-    a web platform. GIFFD contains index weighting, advancecd corporate action, and
-    extensive additional data for Nasdaq indexes.'
-  howDataShared: 'The data is shared with clients who subscribe to the NASDAQ Global
-    Index Watch (GIW) or Global Index FlexFile Delivery (GIFFD). GIW subscribers can
-    access data directly through a simple web interface. Firms have the option to
-    retrieve raw data through a GIW web service. GIFFD delivers data to clients, offering
-    them different file format options. Additionally, a select group of data vendors
-    redistribute Nasdaq''s data through their own APIs. '
-  purpose: Nasdaq provides current and historical index data for the diverse suite
-    of Nasdaq Global Indexes, which covers all geographies and multiple asset classes.
-    This reliable and comprehensive data set helps investors value securities, evaluate
-    investments and track portfolios. The widespread distribution of our index data
-    promotes capital performance transparency for investors, asset managers and global
-    financial institutions.
 - sys:
     id: 4BYO8LA4MoMqwomEAU248G
   status: true
