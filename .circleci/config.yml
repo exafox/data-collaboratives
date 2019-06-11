@@ -13,8 +13,6 @@ jobs:
     steps:
     - checkout
     - run: mkdir -p $CIRCLE_ARTIFACTS $CIRCLE_TEST_REPORTS
-    - run:
-        working_directory: ~/GovLab/data-collaboratives
     - run: bundle install
     - run: bash automated_build.sh
     - restore_cache:
