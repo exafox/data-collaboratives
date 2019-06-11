@@ -24,9 +24,9 @@ jobs:
     - run: if [ -z "${NODE_ENV:-}" ]; then export NODE_ENV=test; fi
     - run: export PATH="~/GovLab/data-collaboratives/node_modules/.bin:$PATH"
     - run: npm install
+    - run: gulp deploy
     - run: echo -e "export RAILS_ENV=test\nexport RACK_ENV=test" >> $BASH_ENV
     - run: 'bundle check --path=vendor/bundle || bundle install --path=vendor/bundle --jobs=4 --retry=3 '
-    - run: 'gulp deploy'
     - save_cache:
         key: v1-dep-{{ .Branch }}-{{ epoch }}
         paths:
