@@ -23,6 +23,7 @@ jobs:
     - run: gem install bundler
     - run: if [ -z "${NODE_ENV:-}" ]; then export NODE_ENV=test; fi
     - run: export PATH="~/GovLab/data-collaboratives/node_modules/.bin:$PATH"
+    - run: git config --global user.name mocxd
     - run: npm install
     - run:
         working_directory: ~/GovLab/data-collaboratives
