@@ -9,7 +9,7 @@ jobs:
       CIRCLE_TEST_REPORTS: /tmp/circleci-test-results
       NOKOGIRI_USE_SYSTEM_LIBRARIES: true
     docker:
-    - image: circleci/ruby:2.5.1
+    - image: circleci/ruby:2.4.4
       command: /sbin/init
     steps:
     - checkout
