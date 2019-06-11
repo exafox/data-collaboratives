@@ -20,9 +20,6 @@ jobs:
         - v1-dep-{{ .Branch }}-
         - v1-dep-master-
         - v1-dep-
-    - add_ssh_keys:
-        fingerprints:
-            - "0b:6e:bc:13:c7:77:48:30:33:45:fd:0c:b9:c3:f5:72"
     - run: gem install bundler
     - run: if [ -z "${NODE_ENV:-}" ]; then export NODE_ENV=test; fi
     - run: export PATH="~/GovLab/data-collaboratives/node_modules/.bin:$PATH"
