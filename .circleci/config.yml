@@ -9,10 +9,17 @@ jobs:
       CIRCLE_TEST_REPORTS: /tmp/circleci-test-results
       NOKOGIRI_USE_SYSTEM_LIBRARIES: true
     docker:
-    - image: circleci/ruby:2.4.4
+    - image: circleci/build-image:ubuntu-14.04-XXL-upstart-1189-5614f37
+      command: /sbin/init
     steps:
     - checkout
     - run: mkdir -p $CIRCLE_ARTIFACTS $CIRCLE_TEST_REPORTS
+    - run:
+        working_directory: ~/GovLab/data-collaboratives
+        command: nvm install 6.10.3 && nvm alias default 6.10.3
+    - run:
+        name: Set Ruby Version
+        command:  echo "ruby-2.4.4" > ~/.ruby-version
     - run: bundle install
     - run: bash automated_build.sh
     - restore_cache:
