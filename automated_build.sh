@@ -17,8 +17,5 @@ cp -r $CWD/_site/* /tmp/build  #or $CWD/_site
 
 cd /tmp/build
 
-git config --global user.email "tek.denny@gmail.com"
-git config --global user.name "Denny Tek"
-
 git add .
 git commit -m "Automated Rebuild"
