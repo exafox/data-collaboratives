@@ -18,5 +18,5 @@ Contentful data is automatically updated with CircleCi, but it can also be pulle
 To deploy simply merge your branch to master. Once merged, CircleCi will build and push the changes to `gh-pages` automatically if all tests pass.
 
 #### Manual Deployment
-    bundle exec jekyll build
-    gulp push-gh-pages
+If there is a problem with the continuous integration, manual deployment can be handled by:
+    gulp deploy
