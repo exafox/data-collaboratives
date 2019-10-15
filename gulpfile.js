@@ -1,6 +1,6 @@
 var gulp            = require('gulp'),
     shell           = require('gulp-shell'),
-    ghPages         = require('gulp-gh-pages'),
+    ghPages         = require('gulp-gh-pages-gift'),
     imagemin        = require('gulp-imagemin'),
     cp              = require('child_process'),
     runSequence     = require('run-sequence').use(gulp);
@@ -35,5 +35,4 @@ gulp.task('push-gh-pages', function () {
     .pipe(ghPages({ force: true }));
 });
 
-gulp.task('deploy', gulp.series('image', 'cname', 'scripts', 'static', 'push-gh-master', 'push-gh-pages', function() {
-}));
+gulp.task('deploy', gulp.series('image', 'cname', 'scripts', 'static', 'push-gh-master', 'push-gh-pages'));
