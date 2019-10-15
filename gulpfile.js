@@ -21,11 +21,6 @@ gulp.task('cname', function() {
   .pipe(gulp.dest('_site'));
 });
 
-gulp.task('circleci', function () {
-  return gulp.src('./circle.yml')
-    .pipe(gulp.dest('_site'));
-});
-
 gulp.task('static', function() {
   return gulp.src('source/static/**/*')
   .pipe(gulp.dest('_site'));
@@ -40,5 +35,5 @@ gulp.task('push-gh-pages', function () {
     .pipe(ghPages({ force: true }));
 });
 
-gulp.task('deploy', gulp.series('image', 'cname', 'circleci', 'scripts', 'static', 'push-gh-master', 'push-gh-pages', function() {
-});
+gulp.task('deploy', gulp.series('image', 'cname', 'scripts', 'static', 'push-gh-master', 'push-gh-pages', function() {
+}));
