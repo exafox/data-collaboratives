@@ -94,6 +94,10 @@ select option {
     background-image: url("/images/bgs/dcfb.jpg");
     background-size: cover;
     padding-bottom: 0; }
+  .top-section--ep-bg {
+    background-image: url("/images/bgs/ep.jpg");
+    background-size: cover;
+    padding-bottom: 0; }
   .top-section--bg {
     background-image: url("/images/video/long-img.png");
     padding: 140px 0; }
