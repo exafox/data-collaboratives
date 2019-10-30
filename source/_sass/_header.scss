@@ -34,6 +34,10 @@
     background-size: cover;
     padding-bottom: 0;
   }
+  &__ep_width{
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+  }
   &--bg {
     background-image: url("/images/video/long-img.png");
     // background-position: center;
@@ -127,6 +131,7 @@
     color: white;
     // text-transform: none;
   }
+ 
   &__dcfb-sub-header {
     // color: darken($main-color, 10);
     // color: $main-color;
