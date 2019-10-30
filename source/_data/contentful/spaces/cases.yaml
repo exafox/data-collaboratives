@@ -1463,7 +1463,7 @@ datacollaborative:
     city planners to better manage traffic flows on the streets of Cebu City and Metro
     Manila.
 
-'
+    '
 - sys:
     id: 4HpBMLGAi4A8S0cocEI4Oo
   status: true
@@ -1810,7 +1810,7 @@ datacollaborative:
     is available via a file composed of a single object type, one json-object per
     line.
 
-'
+    '
   purpose: Participants are encouraged to use the Yelp dataset "in an innovative way
     and [to] break ground in research." This includes research in social trends, location
     mining and urban planning, Natural Language Processing (NLP), Changepoints and
@@ -3710,7 +3710,7 @@ datacollaborative:
     from credit bureau TransUnion, the U.S. Census Bureau, the Freddie Mac Primary
     Mortgage Market Survey, and the Bureau of Labor Statistics’ Employment Cost Index.
 
-'
+    '
   purpose: This collaboration allows Zillow to provide a more comprehensive picture
     of the housing market than their competitors. Their home price estimate index
     is able to reflect the changing conditions between time periods that home are
@@ -5692,7 +5692,7 @@ datacollaborative:
     data was "fully anonymized" and prepared in line with "legal data protection procedures
     and legislation."
 
-'
+    '
   purpose: The purpose of the collaborative is to "assess and quantify the patterns
     and nature of urban expansion over time, identify where people live and how dense
     the city is populated using satellite Earth Observation and electricity consumption
@@ -5759,7 +5759,7 @@ datacollaborative:
     on predicting various milestones of the influenza season—e.g., start, duration
     and peak—which would be the most useful to public health prevention efforts.
 
-'
+    '
   purpose: The model developed by the researchers at Johns Hopkins clearly demonstrates
     the promise and potential of the effective use of social media data to inform
     flu prediction. Their influenza model could predict the virus’s future activity
@@ -5793,12 +5793,12 @@ datacollaborative:
     and providers all around the country. The data is then cleaned and administered
     in a way that supports further analysis.
 
-'
+    '
   purpose: 'The data shared allows for better understanding of disease histories,
     treatments, and post-marketing surveillance, easier data access, and also facilitates
     an efficient data analysis process.
 
-'
+    '
 - sys:
     id: 3Wwq13coxbxKUIZjxsT3Ou
   status: false
@@ -5825,7 +5825,7 @@ datacollaborative:
     between May 5 and August 31, 2016, comprising 1.8 million posts, 13 million likes,
     1.6 million comments and over 850,000 shares.
 
-'
+    '
   purpose: "Data analysis by Facebook allowed UNICEF Brazil to tailor their social
     media ads to create a bigger impact and increase engagement on Zika prevention
     practices. \n"
@@ -5847,7 +5847,7 @@ datacollaborative:
     filtered tweets about vaccines and immunization for perception trends, such as
     religious issues and disease outbreaks.
 
-'
+    '
   howDataShared: "In collaboration with the WHO and UNICEF, Pulse Lab Jakarta extracted
     88,368 tweets, filtering based on keywords and phrases related to immunisation.
     \n"
@@ -5855,7 +5855,7 @@ datacollaborative:
     insights gained from social media for situation awareness and rapid response,
     particularly to address the spread of rumours and misinformation.
 
-'
+    '
 - sys:
     id: 1IRyEfo5DM6eo31HUIf5ed
   status: false
@@ -6935,7 +6935,7 @@ canvasSteps:
     steps in this canvas should help to make clear which of the following collaboration
     mechanisms is best-suited for the opportunity at hand.
 
-'
+    '
   questions: "Given the insights gained during previous steps, which data collaborative
     type is best suited to the problem at hand?  \n- __Trusted Intermediary__, where
     companies share data with a limited number of known partners. Companies generally
@@ -7434,7 +7434,7 @@ canvasPhases:
       steps in this canvas should help to make clear which of the following collaboration
       mechanisms is best-suited for the opportunity at hand.
 
-'
+      '
     questions: "Given the insights gained during previous steps, which data collaborative
       type is best suited to the problem at hand?  \n- __Trusted Intermediary__, where
       companies share data with a limited number of known partners. Companies generally
@@ -8033,7 +8033,7 @@ resources:
     enabling data sharing between industry and academia to uncover new insights to
     benefit the public good.
 
-'
+    '
   annotation: |-
     This paper discusses the concept of a “boundary organization” in relation to industry-academic partnerships driven by data. Boundary organizations perform mediated revealing, allowing firms to disclose their research problems to a broad audience of innovators and simultaneously minimize the risk that this information would be adversely used by competitors.
 
