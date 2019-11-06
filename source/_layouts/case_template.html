@@ -29,7 +29,7 @@ layout: default
     </hgroup>
     <div class="case-page__header--button"><a target="_blank" class="button" href="{{page.link}}">Go to website</a></div>
   </div>
-
+<!-- 
   <div class="page-section case-page--info">
     <div class="row align-center case-page--info--top">
       <div class="small-12 column medium-6 ">
@@ -45,17 +45,19 @@ layout: default
         {% endif %}
       </div>
     </div>
-  </div>
+  </div> -->
 
-  <div class="page-section case-page--purpose">
+  <div class="page-section case-page--info">
     <div class="row large-unstack">
-      <div class="column large-6">
+      <div class="column large-8">
         {% if page.purpose %}
-          <h4>Purpose of Data Shared</h4>
+          <h4>DESCRIPTION</h4>
+          <p>{{page.whatDataShared}}</p>
+          <p>{{ page.howDataShared }}</p>
           <p>{{ page.purpose }}</p>
         {% endif %}
       </div>
-      <div class="column large-6">
+      <div class="column large-4">
         {% if page.sharedBy %}
         <div class="share-panel">
           <h5>Shared by</h5>
