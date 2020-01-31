@@ -56,22 +56,22 @@ datacollaborative:
   dataSource:
   - Genomic Data
   link: https://www.nih.gov/research-training/accelerating-medicines-partnership-amp
-  whatDataShared: AMP partners focus on four diseases—Alzheimer's disease, type 2
-    diabetes mellitus, rheumatoid arthritis, and systemic lupus erythematosus--and
-    share genomic and molecular data to accelerate research into disease treatment.
-  howDataShared: All AMP partners have agreed to make the AMP data and analyzes publicly
-    accessible to the broad biomedical community through an online portal. AMP governs
-    their projects through steering committees for each of the three disease areas,
-    with representation from all partners. The steering committees are managed by
-    the Foundation of the National Institutes of Health (FNIH) under the direction
-    of an AMP Executive Committee comprised of representatives from the NIH, participating
-    industry leaders, the FDA, and non-profit organizations.
-  purpose: The AMP initiative combines public-private expertise and pooled data to
-    reduce the time and cost of developing biomarkers for disease treatment. The project
-    attempts to overcome fragmentation in the pharmaceutical industry and improve
-    innovation in drug therapy. By combining data the AMP portal can find new drug
-    targets and reduce wasteful repetition of testing found when companies work in
-    silos.
+  whatDataShared: "Managed through the Foundation for the NIH, the Accelerating Medicines
+    Partnership (AMP) \"brings high-level government, industry, and non-profit foundation
+    partners together to identify and validate the most promising biological targets
+    for therapeutics.\" These organizations focus on four diseases—Alzheimer's disease,
+    type 2 diabetes mellitus, rheumatoid arthritis, and systemic lupus erythematosusand.\n\nAll
+    AMP partners make the data and analyses they contribute publicly accessible to
+    the broad biomedical community through an online portal. An executive committee
+    of representatives from the NIH, participating industry leaders, the FDA, and
+    non-profit organizations oversees the organization. Individual projects are overseen
+    through steering committees for each of the disease areas, each committee containing
+    representation from all partners. \n\nThe AMP initiative combines public-private
+    expertise and pooled data to reduce the time and cost of developing biomarkers
+    for disease treatment. The project attempts to overcome fragmentation in the pharmaceutical
+    industry and improve innovation in drug therapy. By combining data the AMP portal
+    can find new drug targets and reduce wasteful repetition of testing found when
+    companies work in silos."
 - sys:
     id: 3az4tXngAUgOEGwY0gSyoK
   caseStudy: BBVA's Innova Challenge
@@ -243,128 +243,6 @@ datacollaborative:
     by research participants are used to maximum effect in the creation of health
     knowledge and understanding.
 - sys:
-    id: 1lRMBoDkG4eAAeQCS46yGy
-  caseStudy: Data City | Data Nation
-  sector:
-  - Infrastructure
-  sharedBy:
-  - Multiple
-  sharedWith:
-  - Public
-  region: Europe and Central Asia
-  collaborativeType:
-  - Prizes & Challenges
-  dataType:
-  - Disclosed Personal Data
-  - Observed Personal Data
-  - Disclosed Non-Personal Data
-  - Observed Non-Personal Data
-  dataKind:
-  - multiple
-  dataSource:
-  - multiple
-  link: http://www.dex.sg/data/mobility/#challenges
-  whatDataShared: 'Participants in the Data City | Data Nation ''Mobility'' challenge
-    can access data from more than 15 partnering companies and agencies from the private
-    and public sector, in addition to open-source data available on the Internet.
-    The companies include Ford, Dairy Farm, the National Environment Agency and the
-    Land Transport Authority among others. '
-  howDataShared: 'Each participating organization has a platform which lists all the
-    datasets available for download. APIs to access the data are available through
-    the site''s website once participants register for the challenge online.  '
-  purpose: By providing a financial incentive for winners who produce the most significant
-    insights possible through their data analysis, public and private institutions
-    are able to encourage greater learning on "how we move, what we do and their implications."
-    This knowledge can be used to improve infrastructure and transport policy, and
-    produce important insights into public mobility.
-- sys:
-    id: 2a8c4MWF8w6u22aimas6K
-  caseStudy: Data for Climate Action (D4CA)
-  sector:
-  - Environment
-  sharedBy:
-  - UN Global Pulse
-  - WEF
-  - UNICEF
-  - Ernst & Young
-  - UN Secretary-General's Climate Change Support Team
-  - Orange Telecom
-  - The World Bank
-  - Earth Institute
-  - Paris 21
-  - the UN Foundation
-  - The Renewable Energy Policy Network
-  sharedWith:
-  - Participating developers
-  region: Worldwide
-  collaborativeType:
-  - Trusted Intermediary
-  dataType:
-  - Disclosed Personal Data
-  - Observed Personal Data
-  - Disclosed Non-Personal Data
-  - Observed Non-Personal Data
-  dataKind:
-  - Multiple
-  dataSource:
-  - Multiple
-  link: http://www.unglobalpulse.org/data-for-climate-action-2015
-  whatDataShared: 'As part of the Data for Climate Action (D4CA) initiative, a variety
-    of companies have made their anonymized, aggregated datasets available. Examples
-    of particularly pertinent datasets include: 3-6 months of aggregated mobile activity
-    between antennas in specific provinces or regions, anonymized retail data before
-    and after a flood, aggregated transaction data from a bank from a time-period
-    surrounding a hurricane, and electricity usage data from a city''s transit system
-    during the months of a drought.'
-  howDataShared: The telecom company Orange, a San Francisco based satellite imaging
-    company, Planet Labs, and Schneider Electric plan to contribute data that include
-    mobile phone usage patterns, satellite imagery and energy consumption. The shared
-    data will hopefully lead to valuable insights on human behavior in the context
-    of climate change. In addition, technology companies SAP and Microsoft have pledged
-    to support the D4CA campaign by providing technical expertise and computing power.
-  purpose: The United Nations launched the climate-focused open innovation challenge
-    with a coalition of partners in 2015. The effort specifically targeted private
-    sector entities in order to provide participants with as much potentially useful
-    data as possible for developing new and innovative solutions to the challenges
-    of climate change.
-- sys:
-    id: 53IB1uOzKoOSUy0CGGGOCy
-  caseStudy: DataKind Labs Vision Zero
-  sector:
-  - Infrastructure
-  sharedBy:
-  - Multiple
-  sharedWith:
-  - Local Governments
-  region: North America
-  collaborativeType:
-  - Data Pooling
-  dataType:
-  - Observed Non-Personal Data
-  dataKind:
-  - Transportation Data
-  link: http://www.datakind.org/projects/creating-safer-streets-through-data-science/
-  whatDataShared: DataKind's Vision Zero project, in partnership with Microsoft and
-    municipal governments, launched in 3 cities-New York, New Orleans and Seattle-and
-    uses a combination of public and private data to provide insights about each city's
-    transportation. In New York, for example, DataKind accessed traffic and other
-    transportation data from the Department of Transportation, city- and state-level
-    open data, as well as other proprietary data. The datasets included information
-    on past crashes, roadway attributes (e.g. lanes, traffic signals, and sidewalks),
-    land use, demographic data, commuting patterns, parking violations and existing
-    safety intervention placements.
-  howDataShared: 'Microsoft''s Tech & Civic Engagement Group supports the Vision Zero
-    project analyzing transportation and traffic data, whereby DataKind Labs generates
-    insights to share with local decision makers to help prevent traffic related deaths
-    and injuries. Through a newly formed Datakind Labs project, Vision Zero hosted
-    a data drive in Seattle where volunteers (including some from Microsoft) assisted
-    in data collection and analysis.  '
-  purpose: 'The project aims to help local decision makers understand which engineering
-    and enforcement interventions will be most effective at addressing each city’s
-    local efforts to increase traffic safety. In New York the project helped map the
-    most heavily trafficked areas, allowing city officials to put in place better
-    policies to prevent future road accidents. '
-- sys:
     id: 3Lyg6TTYpqwkSgQOMou2aG
   caseStudy: Deloitte's ConvergeHEALTH, Allergan and Intermountain Healthcare analytics
   sector:
@@ -471,45 +349,6 @@ datacollaborative:
     that this will lower the friction to investigating these sites in more depth and
     broaden the scope of research happening within the academic community.
 - sys:
-    id: 7y2aFtAKROIiCGiCqygCcA
-  caseStudy: Digital Matatus
-  sector:
-  - Transportation
-  sharedBy:
-  - Multiple
-  sharedWith:
-  - Public
-  region: Sub-Saharan Africa
-  collaborativeType:
-  - API
-  - Research Partnerships
-  dataType:
-  - Observed Personal Data
-  dataKind:
-  - Tracking Data
-  dataSource:
-  - Mobile Phone Locations
-  link: http://dataimpacts.org/project/mapping-commuters-streamlines-transit/
-  whatDataShared: 'Private buses known as "matatus" are the primary mode of motorized
-    transport in Nairobi. In a collaborative effort called Digital Matatus, researchers
-    from Columbia University, the Massachusetts Institute of Technology and the University
-    of Nairobi used GPS tracking devices and smartphone data to create a digital map
-    of Nairobi’s matatu routes. '
-  howDataShared: University of Nairobi students geolocated stops along routes and
-    recorded important information such as which stops are formally recognized by
-    the city. This map and database is openly available through Global Transit Feed
-    Specification (GTFS) format. With this data Kenyan tech start-ups have developed
-    useful mobile applications for Nairobi’s citizens to suggest optimal routes, provide
-    warnings about unsafe areas near matatu stops, and allow users to hail matatus
-    by requesting pick-up at a specific location.
-  purpose: The Digital Matatus project helped passengers discover more efficient commuting
-    routes. The new dataset will also help regulate bus stop locations; the project
-    found that many buses stop erratically along the road to pick up passengers, with
-    detrimental effects on traffic. The data collected by this project is also the
-    first official record of existing routes. This information facilitates civic engagement
-    and feedback during the transit planning process to incorporate some of the matatu
-    routes into formal bus routes offered by the city.
-- sys:
     id: 5z7ZPIVMOskAggMemMwaMu
   caseStudy: Enexis Open Data Agenda
   sector:
@@ -615,41 +454,6 @@ datacollaborative:
     million food-insecure people live in counties where food costs are higher than
     the national average. This provides important insights into the cause and possible
     solutions to food insecurity in America.
-- sys:
-    id: 2CBRhQUC7CwIo8uy8CiuyM
-  caseStudy: Genomic Data Commons
-  sector:
-  - Health
-  sharedBy:
-  - Multiple
-  sharedWith:
-  - NIH
-  - University of Chicago
-  region: North America
-  collaborativeType:
-  - Research Partnerships
-  dataType:
-  - Disclosed Personal Data
-  dataKind:
-  - Health Data
-  dataSource:
-  - Genome Code
-  link: https://gdc.cancer.gov/
-  whatDataShared: 'The NCI''s Genomic Data Commons (GDC) contains NCI generated data
-    from a number of cancer genomic datasets including The Cancer Genome Atlas (TCGA)
-    and Therapeutically Applicable Research to Generate Effective Therapies (TARGET).
-    These datasets are harmonized so that the data can be directly compared. '
-  howDataShared: The GDC has developed a unified standards based data repository via
-    several resources. Using the repository users can not only download and retrieve
-    data but can also contribute data to the GDC and use the GDC bioinformatics pipelines
-    to process data. Resources are maintained in a secure data center which provides
-    user support and documentation.
-  purpose: The primary goal of the GDC is to provide the cancer research community
-    with a unified data repository supporting cancer genomic studies. The unified
-    repository will provide a cancer knowledge network that enables the identification
-    of low-frequency cancer drivers, assists in defining genomic determinants of response
-    to therapy, and informs the composition of clinical trial cohorts sharing targeted
-    genetic lesions.
 - sys:
     id: 18K7HS8zyeIi2OEIIQCoCa
   caseStudy: GlaxoSmithKline and Community Care of North Carolina Medicine Management
@@ -890,41 +694,6 @@ datacollaborative:
     potential spread and can be used to build a "map of parasite movements" and help
     better understand the spread of disease.
 - sys:
-    id: 3FuCM9Dv1mauUCo6W6QeUk
-  caseStudy: 'IBM Watson Health: Smarter Healthcare in Canada'
-  sector:
-  - Health
-  sharedBy:
-  - Various Canadian hospitals
-  sharedWith:
-  - IBM
-  region: North America
-  collaborativeType:
-  - Research Partnerships
-  dataType:
-  - Disclosed Personal Data
-  dataKind:
-  - Registration Records
-  link: http://www.ibm.com/smarterplanet/ca/en/healthcare_solutions/ideas/
-  whatDataShared: IBM launched the Smarter Solutions initiative as a way to introduce
-    technological innovation in Canada's healthcare system by accessing healthcare
-    data from participating hospitals. This information was then used to create computerized
-    systems to improve the efficiency and effectiveness of healthcare providers. Canada's
-    healthcare organizations have entered into a contract with IBM to provide this
-    service. Unlike many other data collaboratives these data sharing processes are
-    part of a commercial relationship.
-  howDataShared: 'IBM''s Smarter Solutions attempts to put in place what is called
-    "cognitive computing" - systems that try to understand, reason and learn while
-    interacting with humans. They are designed to ingest vast quantities of structured
-    and unstructured information - from numbers and text to audio, video, images,
-    sensory and other data - and to help physicians and researchers identify new patterns
-    and insights to accelerate discoveries, treatments and insights. '
-  purpose: New tools to analyze and glean the relevant information from this ocean
-    of data are helping practitioners, researchers and caregivers discover new healthcare
-    solutions and apply them in innovative ways. Cognitive-based systems that build
-    knowledge and learn can bridge the gap between vast amounts of data available
-    and its relationship to the questions that need to be asked.
-- sys:
     id: 19xY2t9bRCu2mYckouKo2S
   caseStudy: InBloom
   sector:
@@ -1071,40 +840,6 @@ datacollaborative:
     via a Clinic Network, Clinic Registry, Sample Repository, and the online patient/caregiver
     community, Glu. '
 - sys:
-    id: T6iGvLNiE0yIkkeimWyso
-  caseStudy: Mapping Snow Melting in the Sierra Nevada
-  sector:
-  - Environment
-  sharedBy:
-  - Intel
-  sharedWith:
-  - University of California
-  - Earth Database
-  region: North America
-  collaborativeType:
-  - Research Partnerships
-  dataType:
-  - Disclosed Non-Personal Data
-  dataKind:
-  - Satellite and Aerial Imagery
-  link: http://www.techrepublic.com/article/how-intel-is-using-iot-and-big-data-to-improve-food-and-water-security/
-  whatDataShared: Intel is working with the Earth Research Institute at the University
-    of California Santa Barbara (UCSB) to use satellite imagery and snow mapping technologies
-    to measure the snow range in the Sierra Nevada Mountains.
-  howDataShared: This research will enable governments and farmers to predict drought
-    conditions and plan accordingly to save water for the future when water supply
-    encounters issue. According to Vin Sharma, director of strategy and marketing
-    for Big Data Solutions at Intel, the initiative generates “about two terabytes
-    every 15 days, and the source files 75 gigabytes a day.” This data has the potential
-    to be recorded into a “queryable” database that can be used globally and by the
-    UCSB institute to inform agricultural practices worldwide by predicting future
-    water supply.
-  purpose: Intel and UCSB are using satellite imagery and snow mapping technologies
-    to measure the snow range in the Sierra Nevada Mountains. This will enable governments
-    and farmers to predict drought conditions and plan accordingly to save water for
-    the future when the water supply encounters issue. The project is still in an
-    ongoing phase, but Intel plans to provide database access to governments and scientists.
-- sys:
     id: 7wpgqKeKqWq2cuiicKgggw
   caseStudy: Measuring Poverty from Space
   sector:
@@ -1136,39 +871,6 @@ datacollaborative:
     through deep learning artificial intelligence." The project is aimed at providing
     "an important augmentation to census data in determining which areas are developing
     more slowly and whether localized interventions are effective."
-- sys:
-    id: g4oJjEEVSEOqgiS2qmS8s
-  caseStudy: Mobile Data for Food Security
-  sector:
-  - Health
-  sharedBy:
-  - Nielsen
-  sharedWith:
-  - Word Food Programme
-  region: Worldwide
-  collaborativeType:
-  - Research Partnerships
-  dataType:
-  - Disclosed Personal Data
-  dataKind:
-  - Registration Records
-  dataSource:
-  - Multiple
-  link: http://www.nielsen.com/us/en/insights/news/2015/moving-to-mobile-how-phones-are-revolutionizing-hunger-relief.html
-  whatDataShared: The Mobile Data for Food Security initiative is not a traditional
-    data collaborative, as Nielsen does not share data but rather shares data analysis
-    expertise. Nielsen advised the World Food Program on how to collect and analyze
-    data received via mobile phone surveys in a safe and comprehensive manner and
-    to ensure the data was valid compared with face-to-face interviews.
-  howDataShared: 'With help from Nielsen, WFP was able to use and adapt technology
-    to aid in their data collection strategies: "optimizing the techniques used for
-    collecting this information through SMS and interactive voice calls (both in deploying
-    this technology and determining who to reach out to) was essential to updating
-    WFP''s data collection. Nielsen also helped WFP interpret the data and validate
-    the quality of the various collection methods used, honing in on country-specific
-    best practices where needed."'
-  purpose: Data is collected by participants through a mobile phone survey that aims
-    to understand food insecurity in order to advise WFP's resource allocations.
 - sys:
     id: 6ftgmaCsvYMSuQEYOqkWia
   caseStudy: Mobile Data, Environmental Extremes and Population (MDEEP) Project
@@ -1265,105 +967,6 @@ datacollaborative:
     approximately $1.2 million by providing more affordable transportation using cell
     phone data to plan late night bus routes."
 - sys:
-    id: 2EqAnf0s9ukgG24O46IEIk
-  caseStudy: NetHope
-  sector:
-  - Economic Development
-  - Crisis Response
-  sharedBy:
-  - Multiple
-  sharedWith:
-  - Multiple
-  region: Worldwide
-  collaborativeType:
-  - Trusted Intermediary
-  link: http://nethope.org/our-approach/
-  whatDataShared: NetHope has a variety of projects that aim to provide cross-sectoral
-    innovations and technology with the goal of achieving developmental outcomes.
-    In one instance they collaborated with the private sector to map mobile phone
-    data in order to map the spread of Ebola outbreaks in West Africa.
-  howDataShared: NetHope acts as an intermediary for a number of not-for-profit organizations
-    looking to leverage technology to improve their work output. By becoming a partner
-    or member with NetHope, organizations work through the project design and development
-    phase; member engagement phase; and finally the funding and execution phase. NetHope
-    helps leverage their contacts and expertise to guide organizations in this process.
-  purpose: NetHope's collaboratives are supported by 4 main goals as listed on their
-    website. 1) Supporting practical innovation; 2) Simplifying and Streamlining Utilization
-    of Technology; 3) Building Organizational Capacity; 4) Encouraging Sector-Wide
-    Change.
-- sys:
-    id: 46z7JjwkisEIeKYGMS0Qu0
-  caseStudy: NIH Big Data to Knowledge (BD2K)
-  sector:
-  - Health
-  sharedBy:
-  - NIH
-  sharedWith:
-  - Academic researchers
-  region: North America
-  collaborativeType:
-  - Data Pooling
-  dataType:
-  - Observed Personal Data
-  dataKind:
-  - Medical Data
-  link: https://datascience.nih.gov/bd2k/about
-  whatDataShared: In November 2014 the National Institute of Health (NIH) launched
-    the Big Data to Knowledge (BD2K) initiative as a trans-NIH, community-enabled
-    endeavor towards maximizing the collective value of current and future biomedical
-    digital assets to better inform and protect human health.
-  howDataShared: 'The BD2K initiative encourages the broad use of biomedical digital
-    assets by making them discoverable, accessible and citable. In doing so, researchers
-    need to take into account complex security issues. As Vivien Bonazzi, programme
-    director in computational biology and bioinformatics at the National Human Genome
-    Research Institute, explains: "When a person consents to have his or her data
-    used in one way, researchers cannot suddenly change that use... In a big-data
-    age that uses the cloud in addition to local hardware, new technologies in encryption
-    and secure transmission will need to address such privacy concerns"'
-  purpose: As biomedical datasets become increasingly large, diverse and complex,
-    they tax conventional methods for sharing, managing and analyzing data. Additionally,
-    researchers’ abilities to capitalize on biomedical big data science-based approaches
-    are limited by poor data accessibility and interoperability, the lack of appropriate
-    tools, and insufficient training. The BD2K initiative acts as a trans-NIH, community-enabled
-    endeavor towards maximizing the collective value of current and future biomedical
-    digital assets to better inform and protect human health. The aims of the BD2K
-    initiative are to facilitate broad use of biomedical digital assets by making
-    them discoverable, accessible and citable; to conduct research and develop the
-    methods, software and tools needed to fully analyze biomedical big data; to enhance
-    training in the development and use of methods and tools necessary for biomedical
-    big data science; and to enable a data ecosystem that accelerates both basic and
-    translational discovery as part of a digital enterprise.
-- sys:
-    id: RuCZ31TkWGoooGmkI6EOi
-  caseStudy: NIH Precision Medicine Initiative
-  sector:
-  - Health
-  sharedBy:
-  - NIH
-  sharedWith:
-  - Academic researchers
-  region: North America
-  collaborativeType:
-  - Data Pooling
-  dataType:
-  - Disclosed Personal Data
-  dataKind:
-  - Registration Records
-  dataSource:
-  - Health System Registers
-  link: http://www.nih.gov/precisionmedicine/
-  whatDataShared: On January 20, 2015, President Obama announced the Precision Medicine
-    Initiative (PMI). The program will enroll participants from diverse backgrounds
-    to collect data, which will be shared with researchers working on a variety of
-    important health questions. The program focuses not just on disease but also on
-    preventative and lifestyle changes needed for a healthy life.
-  howDataShared: PMI's All of Us Research Program invites people from all across the
-    U.S. to contribute health information. This information will form the basis of
-    a dataset that researchers can analyze to identify better ways to prevent and
-    treat diseases.
-  purpose: PMI aims to be a participant-engaged, data-driven enterprise supporting
-    research to prolong health and treat disease.
-- sys:
     id: 6gMgsJZ984SqGMM0a00GMK
   caseStudy: Orange Telecom Data for Development Challenge (D4D)
   sector:
@@ -1398,72 +1001,6 @@ datacollaborative:
     phone data for electrification planning, analyzing how mobile phone access affects
     millet prices, and investigating how waterborne parasites spread through human
     movement.
-- sys:
-    id: 1RBo3XfgoYa4KYKQSISoia
-  caseStudy: PatientsLikeMe and Genentech Research Collaboration
-  sector:
-  - Health
-  sharedBy:
-  - PatientsLikeMe
-  sharedWith:
-  - Genentech Research
-  region: North America
-  collaborativeType:
-  - Research Partnerships
-  dataType:
-  - Disclosed Personal Data
-  dataKind:
-  - Crowdsourced Data
-  dataSource:
-  - Medical Data
-  link: http://news.patientslikeme.com/press-release/genentech-and-patientslikeme-enter-patient-centric-research-collaboration
-  whatDataShared: PatientsLikeMe is a global online patient network. Through this
-    data collaborative with Genentech, they aim to develop innovative ways of researching
-    patients’ real-world experiences with disease and treatment. The agreement is
-    the first broad research collaboration between PatientsLikeMe and a pharmaceutical
-    company and provides PatientsLikeMe the opportunity to expand its patient network
-    in oncology.
-  howDataShared: |-
-    Over the course of the five-year agreement, Genentech will tap into PatientsLikeMe’s Global Network Access, a service directly targeted at pharmaceutical companies that "delivers a range of data, research and tools." The service includes:
-    -- "Access to PatientsLikeMe’s network to enable cross-sectional research and broader discovery of patient insights.
-    -- Enhanced customized research services and capabilities.
-    -- Focused research projects to evaluate and develop new medical evidence, measures and standards of health.
-    -- Access to PatientsLikeMe’s clinical trial awareness tool, which allows patients to learn about clinical trials."
-  purpose: The data collaborative seeks to provide new insight into disease and treatments
-    informed by the real-world experiences of patients. It also provides PatientsLikeMe
-    the opportunity to expand its patient network in oncology.
-- sys:
-    id: 2uxjFYiEP2kYKwgSMwSYIq
-  caseStudy: Phillippines OpenTraffic Initiative
-  sector:
-  - Transportation
-  sharedBy:
-  - Grab
-  sharedWith:
-  - World Bank
-  - Cebu City
-  - Metro Manila
-  region: East Asia and Pacific
-  collaborativeType:
-  - Trusted Intermediary
-  dataType:
-  - Observed Non-Personal Data
-  dataKind:
-  - Traffic Data
-  link: http://www.worldbank.org/en/news/press-release/2016/04/05/philippines-real-time-data-can-improve-traffic-management-in
-  whatDataShared: 'Grab, a ride-hailing platform in Southeast Asia, and the World
-    Bank are developing free, open-source tools that translate Grab’s driver GPS data
-    into traffic statistics, including speeds, flows, and intersection delays. '
-  howDataShared: Grab's data will be shared with the World Bank to create an open-source
-    platform, OpenTraffic, for analyzing traffic speeds and flows, and DRIVER, for
-    identifying road incident blackspots and improving emergency response. Grab and
-    the World Bank plan to make OpenTraffic available to other Southeast Asian city
-    governments in the near future.
-  purpose: 'This real-time traffic data will assist traffic management agencies and
-    city planners to better manage traffic flows on the streets of Cebu City and Metro
-    Manila.
-
-    '
 - sys:
     id: 4HpBMLGAi4A8S0cocEI4Oo
   status: true
@@ -1710,42 +1247,6 @@ datacollaborative:
     innovative technological ideas in the field of big data in order to spur innovation
     in this sector and improves the lives of individuals, companies and communities.
 - sys:
-    id: 2WgWbXKr68kCIIQGkm8IWk
-  caseStudy: Telefonica Digital's Smart Steps
-  sector:
-  - Economic Development
-  - Infrastructure
-  - Digital Society
-  - Telecommunications
-  sharedBy:
-  - Telefonica Digital
-  sharedWith:
-  - Local government agencies
-  region: Latin America and the Caribbean
-  collaborativeType:
-  - Intelligence Product
-  dataType:
-  - Observed Personal Data
-  dataKind:
-  - Tracking Data
-  dataSource:
-  - Mobile Phone Locations
-  link: http://en.blogthinkbig.com/2012/10/09/big-data-will-power-the-digital-economy/
-  whatDataShared: Telefonica's Smart Steps is part of their Dynamic Insights data
-    analysis arm that uses "fully anonymised and aggregated mobile network data to
-    measure and compare the number of people visiting an area at any time."
-  howDataShared: 'Telefonica''s Dynamic Insights, of which Smart Steps is a part,
-    is a for-profit service offered to companies, local governments and other public
-    bodies. In this collaboration, Telefonica provides not just the data, but also
-    the products and services to analyze and act on the data. High-level demographic
-    information about people''s activities in a certain area can be made visible through
-    heat-maps provided by Telefonica''s Smart Steps team.  '
-  purpose: Telefónica’s Smart Steps product is an intelligence product enabling organizations
-    to use fully anonymized and aggregated mobile network data to measure and compare
-    the movements of crowds. It has generated deeper insights about the link between
-    human movement and the spread of infectious diseases and provided vital information
-    to local governments in designing policy and in their urban planning.
-- sys:
     id: 6q0c8HnxTiY0Qm82q4MIek
   caseStudy: Nepal's Telecom Data & Post-Earthquake Mobility
   sector:
@@ -1785,36 +1286,28 @@ datacollaborative:
   caseStudy: Yelp Dataset Challenge
   sector:
   - Health
+  - Agriculture/Food
+  - Economic Development
   sharedBy:
   - Yelp
   sharedWith:
   - Challenge Participants
-  region: Worldwide
+  region: North America
   collaborativeType:
   - Prizes & Challenges
-  dataType:
-  - Observed Personal Data
   dataKind:
   - Internet Usage
   dataSource:
   - Social Networks
   link: http://www.yelp.com/dataset_challenge
-  whatDataShared: Yelp shares global crowdsourced user data on restaurants across
-    cities (such as Phoenix, Madison and Edinburgh) in its Dataset Challenge for participating
-    researchers to build tools and provide research on urban trends and behavior.
-    Along with the usual content associated with Yelp's database (reviews, locations,
-    restaurant names), in Round 8 of the challenge Yelp has also included photos in
-    the dataset.
-  howDataShared: 'The dataset file is available on the website to the public for participating
-    researchers. Interested individuals must simply complete an online form. The data
-    is available via a file composed of a single object type, one json-object per
-    line.
-
-    '
-  purpose: Participants are encouraged to use the Yelp dataset "in an innovative way
-    and [to] break ground in research." This includes research in social trends, location
-    mining and urban planning, Natural Language Processing (NLP), Changepoints and
-    Events, and much more.
+  whatDataShared: The directory and review site Yelp shares global crowdsourced user
+    data on restaurants across cities (such as Phoenix, Madison, and Edinburgh) in
+    its Dataset Challenge for participating researchers to build tools and provide
+    research on urban trends and behavior. The Yelp dataset includes reviews, locations,
+    restaurant names, and photographs. Yelp provides a cash prize to participants
+    who use the data in a way that demonstrates technical depth, rigor, and relevance.
+    Through the Dataset Challenge website, Yelp also provides information on previous
+    challenge winners, compelling uses of the data, and areas for future research.
 - sys:
     id: 1qHIuSTBp2oSCQmOksMiSS
   status: true
@@ -2086,6 +1579,7 @@ datacollaborative:
   caseStudy: Yelp's Consumer Protection Initiative
   sector:
   - Health
+  - Agriculture/Food
   sharedBy:
   - ProPublica
   sharedWith:
@@ -2297,39 +1791,6 @@ datacollaborative:
     targeted this goal by hosting a Day of Action. Water rate data of 400 water utility
     companies was analyzed in order to standardize the information they publish so
     it can be more easily scrutinized.
-- sys:
-    id: 683dHGHXxKckiKY4uMCQa8
-  status: true
-  caseStudy: AACR Project Genomics Evidence Neoplasia Information Exchange (GENIE)
-  sector:
-  - Health
-  sharedBy:
-  - The American Association for Cancer Research (AACR)
-  sharedWith:
-  - Public
-  region: North America
-  collaborativeType:
-  - Data Pooling
-  - Trusted Intermediary
-  - Research Partnerships
-  dataType:
-  - Disclosed Personal Data
-  dataKind:
-  - Health Registration Data
-  dataSource:
-  - Genome and Illness Data
-  link: https://www.aacr.org/RESEARCH/RESEARCH/PAGES/AACR-PROJECT-GENIE.ASPX
-  whatDataShared: 'As part of the Obama administration''s Precision Medicine Initiative,
-    The American Association for Cancer Research (AACR) is releasing more than 19,000
-    de-identified genomic records. This includes information on 59 major types of
-    cancer, including breast, colorectal, and lung cancer. '
-  howDataShared: According to its website, "The genomic data and a limited amount
-    of linked clinical data for each patient can be accessed via the AACR website
-    or downloaded directly from Sage Bionetworks."
-  purpose: As part of the Precision Medicine initiative, the AACR's data initiative
-    aims to promote the sharing and exchange of big data in an open and cooperative
-    ecosystem, so as to accelerate healthcare research and spur the development of
-    new insights and innovative cancer treatment.
 - sys:
     id: 5xMqm9iGR24sQoSCKoakKS
   caseStudy: JP Morgan Chase Online Platform Economy Report
@@ -3077,45 +2538,6 @@ datacollaborative:
     current iteration, the tensions between maintaining privacy and supporting openness
     remain.
 - sys:
-    id: 1iv0zF9EpieoCUsUCc8ACA
-  caseStudy: TrafficJam Challenge
-  sector:
-  - Transportation
-  sharedBy:
-  - TrafficJam
-  - ThinkData Works
-  - City of Toronto
-  - Toronto Transit Commission (TTC)
-  sharedWith:
-  - Participating developers
-  region: North America
-  collaborativeType:
-  - Prizes & Challenges
-  dataType:
-  - Disclosed Personal Data
-  - Disclosed Non-Personal Data
-  - Observed Non-Personal Data
-  dataKind:
-  - Multiple
-  dataSource:
-  - Multiple
-  link: http://trafficjam.to
-  whatDataShared: A variety of private and public datasets were provided to participants
-    via the TrafficJam website. They also had access to private tools donated by partnering
-    companies. This included a Namara Catalogue of cleaned municipal, provincial and
-    private data; the City of Toronto's Open Data catalogue; the province of Ontario's
-    Open Data catalogue; IBM's Data Scientist workbench; TomTom's developer services;
-    and Inrix's traffic information delivery system.
-  howDataShared: |+
-    Since this collaborative did not directly access private data, but rather partnered with private and non-governmental organizations to support the challenge, data was not directly shared by corporations to the hosts of TrafficJam. Instead, participants primarily used open data platforms, which they could then combine to create their innovative projects. These data resources, along with further datasets provided by Think Data Works, were made available via the TrafficJam website (http://trafficjam.to/resources).
-
-
-  purpose: 'The goal of TrafficJam was to combine the skills and knowledge of "engaged
-    citizens, digital creatives and data detectives" to help improve Toronto''s traffic
-    and transportation issues through the innovative use of data and technology. By
-    presenting this goal as a prize-backed challenged, the aim was to spark the development
-    of data-driven solutions to Toronto''s commuting troubles. '
-- sys:
     id: 6ybytc7upyoa62SICWyAC
   caseStudy: Beeline Crowdsourced Bus Service
   sector:
@@ -3290,41 +2712,6 @@ datacollaborative:
     NHS, the collaborative aims to improve the quality and speed of patient diagnosis
     and to spur research in the medical field through machine learning techniques.
 - sys:
-    id: 4Nh2mah60woei2GyOSgm22
-  caseStudy: Myeloma Progression Predictor
-  sector:
-  - Health
-  sharedBy:
-  - The Multiple Myeloma Research Foundation
-  sharedWith:
-  - Topcoder
-  - Participating contestants
-  region: Worldwide
-  collaborativeType:
-  - Prizes & Challenges
-  - Research Partnerships
-  dataType:
-  - Disclosed Personal Data
-  dataKind:
-  - Health registry data
-  dataSource:
-  - Genomic Data
-  link: http://crowdsourcing.topcoder.com/myeloma_predictor
-  whatDataShared: Through the computer programming contest platform, TopCoder, the
-    Multiple Myeloma Research Foundation shared 3 values indicating the expression,
-    difference, and association to a mutation, for each of the 18,898 genes used as
-    part of the Myeloma Predictor challenge. This data represented a total of 640
-    patients.
-  howDataShared: 'By using the services provided by TopCoder, MMRF could better organize
-    and protect the data shared as part of this challenge. Data was accessed via the
-    MMRF research gateway once participating researchers were given credentials -
-    a process that took approximately 24 hours. Participants then downloaded this
-    data as csv files and submitted their algorithms and results via TopCoder. '
-  purpose: The Myeloma Progression Predictor challenge provides $20,000 in prizes
-    to participants that devise an algorithm predicting a progression of the disease
-    based on the genetic data provided by the MMRF. This will assist researchers in
-    better understanding the disease and developing better treatments for patients.
-- sys:
     id: 2gUatesLmAEkAMIQGC6E4K
   status: true
   caseStudy: Esri and Waze Open Data-Sharing for governments
@@ -3359,43 +2746,6 @@ datacollaborative:
     and road closure data with Waze.
   purpose: Global mapping company Esri is partnering with Waze to make it easier for
     governments to begin building intelligent transportation systems in their communities.
-- sys:
-    id: 4LFUJSQb1uiyOmGESuQWa8
-  caseStudy: MSSNG
-  sector:
-  - Health
-  sharedBy:
-  - MSSNG
-  - Autism Speaks
-  - Google
-  sharedWith:
-  - Participating researchers
-  region: Worldwide
-  collaborativeType:
-  - Intelligence Product
-  - Data Pooling
-  - Research Partnerships
-  dataType:
-  - Disclosed Personal Data
-  dataKind:
-  - Registration Records
-  dataSource:
-  - Health System Registers
-  - Genomic Data
-  link: https://www.mss.ng/
-  whatDataShared: The MSSNG database, available to interested researchers, includes
-    the whole genomes of over 10,000 individuals affected by autism. The sequenced
-    DNA comes from the Autism Genetic Research Exchange (AGRE) repository or from
-    other well-phenotyped cohorts entering into this study. The researchers at MSSNG
-    update the data as it comes through, providing data analysis and storage tools
-    to participants as well.
-  howDataShared: The MSSNG database is built and stored using Google's Cloud Platform
-    and Google Genomics. To gain access to the database researchers can access an
-    online portal or refer to the steps outlined on the MSSNG website. Researchers
-    are also directed to data sharing and research policies to guide their work and
-    maintain the integrity of the project.
-  purpose: With the help of the global research community, MSSNG aims to produce greater
-    insights into the causes and progression of autism throughout society.
 - sys:
     id: 4wAJGzGOhGu00G4GOe2yac
   caseStudy: Missing Maps
@@ -3467,42 +2817,6 @@ datacollaborative:
     big data to spur innovation. The Exchange, by creating a marketplace for data
     where data suppliers can meet the needs of data consumers, allows for a widely
     accessible data source integral to creating data-driven public services.
-- sys:
-    id: f3yTPg7f56UOmwMgYEGg6
-  status: true
-  caseStudy: 'Radiant Earth Imagery Open Geospatial Data '
-  sector:
-  - Health
-  - Economic Development
-  - Environment
-  - Education
-  - Agriculture
-  - Infrastructure
-  - Crisis Response
-  sharedBy:
-  - Radiant Earth
-  sharedWith:
-  - Public
-  region: Worldwide
-  collaborativeType:
-  - Intelligence Product
-  dataType:
-  - Observed Non-Personal Data
-  dataKind:
-  - GIS Data
-  dataSource:
-  - Mapping Data
-  - Mapping imagery
-  - Satellite Data
-  link: https://www.radiant.earth/
-  whatDataShared: Radiant Earth aims to make data from the world's satellites and
-    drones accessible to the public. This geospatial data will be easily available
-    to the public in a non-technical form.
-  howDataShared: Still under construction, the Radiant Earth platform aims to share
-    geospatial data in a way that non-specialists can find and understand.
-  purpose: The aim of Radiant Earth is to make satellite data more accessible to the
-    public in order to assist with a diversity of issues including land tenure, global
-    health, food security, and crisis response.
 - sys:
     id: 3rDivaoqPCeOsKSWeOuIQW
   caseStudy: Digital Dog
@@ -3717,46 +3031,6 @@ datacollaborative:
     bought and sold.This information is useful for sellers, buyers, and renters looking
     for a fair deal, as well as journalists, analysts, and academics.
 - sys:
-    id: 3dvWuy4jniyq6Kay0QEQ6w
-  status: false
-  caseStudy: Tackling Childhood Obesity in Scotland
-  sector:
-  - Health
-  sharedBy:
-  - Multiple
-  sharedWith:
-  - UNICEF
-  region: Europe and Central Asia
-  collaborativeType:
-  - Data Pooling
-  - Trusted Intermediary
-  dataType:
-  - Disclosed Personal Data
-  - Observed Personal Data
-  - Disclosed Non-Personal Data
-  - Observed Non-Personal Data
-  link: https://www.thedatalab.com/
-  whatDataShared: 'The Data Lab, a Scottish innovation center, has entered into a
-    partnership with UNICEF to establish a data collaboratives hub to fight childhood
-    obesity. They will use data from different sectors, like private companies, research
-    institutions, government agencies, and others. Data sets like the weight of children,
-    economic factors, diet, adverstising, and levels of exercise will be analyzed
-    to combat childhood obesity. '
-  howDataShared: 'The data will be shared through collaborations between various sectors,
-    The Data Lab, and UNICEF. Data will be pooled from multiple industries at the
-    start, but the data collaboratives hub will encourage other forms of engagement.
-    The results of the data pooling analysis will be shared with UNICEF so that they
-    can use the information to investigate childhood obesity in other parts of the
-    world. '
-  purpose: 'After launching a Data Collaboratives program with The Governance Lab,
-    UNICEF chose to continue promoting the innovative platform with a European data
-    innovation center. They recognized that solving the complex problems that face
-    children today will require access to data and expertise across the private and
-    public sectors. The current data on factors that influence childhood obesity is
-    not comprehensive enough, and tapping into data from data owners like online gaming
-    companies, school lunch suppliers, and television advertisers may provide a clearer
-    view of the factors that contribute to obesity, in Scotland and around the world. '
-- sys:
     id: 1zR3Sp54vKigW8iyQE0M4u
   status: true
   caseStudy: Air France-KLM Open Data Portal
@@ -3825,41 +3099,6 @@ datacollaborative:
     travel to other locations. This information is useful to understand the volume
     of tourism and foreign workers, and to tailor services and transport to them accordingly.
 - sys:
-    id: 780iBVQpTqaWMkImS4kOe8
-  status: false
-  caseStudy: Open Skills Research Hub
-  sector:
-  - Economic Development
-  sharedBy:
-  - University of Chicago
-  - U.S. Department of Labor
-  - National Labor Exchange
-  - CareerBuilder
-  sharedWith:
-  - Researchers
-  region: North America
-  collaborativeType:
-  - Data Pooling
-  - API
-  dataType:
-  - Disclosed Personal Data
-  - Observed Personal Data
-  - Disclosed Non-Personal Data
-  - Observed Non-Personal Data
-  link: http://dataatwork.org/data/research/
-  whatDataShared: 'The Open Skills Research Hub offers a collection of cleaned public
-    datasets pertaining to jobs and skills. These datasets exapnd upon existing data
-    from the Department of Labor''s O-NET data resources. '
-  howDataShared: 'The data is shared through the the Open Skills API, and datasets
-    produced by the Open Skills Project are available on the Research Hub. There are
-    two working groups that researchers may join: one which involves the contribution
-    of datasets and sitting on an advisory board to the cooperative, the other which
-    includes research on improving machine learning algorithms.'
-  purpose: The aim of the Open Skills Project and Open Skills Research Hub is to to
-    improve understanding of the labor market and reduce frictions in the workforce
-    data ecosystem by enabling a more granular common language of skills among industry,
-    academia, government, and nonprofit organizations.
-- sys:
     id: Ndj30c83eeIm0giyKe8QC
   caseStudy: Consumer Data Research Centre
   sector:
@@ -3908,49 +3147,6 @@ datacollaborative:
     the United Kingdom, to support innovation efforts of consumer-related organizations,
     and to drive economic growth. The CDRC also hopes to enrich the social science
     research through linking consumer data to a broader range of studies. '
-- sys:
-    id: 5gSIwFmRmMOSosOu6saECc
-  caseStudy: D4I - Data Challenge on Integration of Migrants in Cities
-  sector:
-  - Health
-  - Economic Development
-  - Education
-  - Transportation
-  sharedBy:
-  - European Commission
-  - National Statistical Institutes
-  sharedWith:
-  - Researchers
-  region: Europe and Central Asia
-  collaborativeType:
-  - Prizes & Challenges
-  dataType:
-  - Disclosed Non-Personal Data
-  - Observed Non-Personal Data
-  link: https://bluehub.jrc.ec.europa.eu/datachallenge/
-  whatDataShared: The European Commission's Data Challenge on Integration of Migrants
-    in Cities (D4I) provides data from a spatial disaggregation of statistics from
-    the 2011 Census from eight European Union National Statistical Institutes. Data
-    on residents' countries of origin have been provided from Spain, Germany, Italy,
-    France, Netherlands, Portugal, the United Kingdom, and Ireland. The original data
-    was spacially processed, and shows regions divided into uniform grids that show
-    concentrations of migrants in cells of 100 by 100 meters. Each country has a separate
-    data file available with the number of persons by origin in each grid cell. Data
-    is also available from a dedicated data visualization platform.
-  howDataShared: 'Data for the D4I Challenge is available worldwide to reseachers
-    affiliated with a research institution that works with migration, spatial demography,
-    social geography, urban sociology, economics, and political science. Eligible
-    researchers are required to submit a proposal with the scope, objectives and intended
-    use of the derived data. If selected, datasets are made available for download
-    and analysis. Findings will be published in EU policymaker workshops and online
-    in November 2018. '
-  purpose: 'Through the Data Challenge on Integration of Migrant in Cities, the European
-    Commission seeks to stimulate research on various aspects of migrant integration
-    at the local level, especially if the research results in policy recommendations
-    with European Union relevance. Through the offer of this census derived data,
-    there is potential to strenghthen existing qualitiative research around urban
-    diversity, spatial segregation, education, housing, access to public services,
-    income, and electoral outcomes. '
 - sys:
     id: 6VEsfEReyAEI8wuaukc0GE
   caseStudy: SoBigData Research Infrastructure
@@ -4025,31 +3221,6 @@ datacollaborative:
   purpose: The primary intended beneficiary of this collaboration is the Ministry
     of Health. The insights gathered from the data will help the government to address
     a diversity of pressing health issues in the country.
-- sys:
-    id: z0ygjaqOLACeMgqOsIoy4
-  status: true
-  caseStudy: Better Immunization Data (BID) Initiative
-  sector:
-  - Health
-  sharedBy:
-  - Health Facilities
-  sharedWith:
-  - Health Practitioners
-  region: Sub-Saharan Africa
-  collaborativeType:
-  - Data Pooling
-  dataType:
-  - Disclosed Personal Data
-  - Disclosed Non-Personal Data
-  link: http://bidinitiative.org/
-  whatDataShared: The BID Initiative started with a focus on immunization data, but
-    it is designed to be applicable and spread to other sectors such as nutrition,
-    maternal health, and so on.
-  howDataShared: The data shared through the collabroative was collected through an
-    electronic immunization registry. This registry contains supply chain information
-    data, such as vaccine stocks, number of children to receive immunization, etc.
-  purpose: The BID Initiative partners with national governments to provide immunization-related
-    data that can be used to improve health service delivery.
 - sys:
     id: 6Mohg1DbpKSeIaW8oUMI04
   status: true
@@ -4246,100 +3417,6 @@ datacollaborative:
     use of data for local decision-making and tracking progress toward the health-related
     Sustainable Development Goals (SDGs).
 - sys:
-    id: 21jWC245gkc8GMguCQQEIU
-  status: true
-  caseStudy: Data Collaboratives for Local Impact (DCLI)
-  sector:
-  - Health
-  - Economic Development
-  - Education
-  sharedBy:
-  - PEPFAR
-  - Tanzania Data Lab
-  - Data Zetu
-  sharedWith:
-  - Public
-  region: Sub-Saharan Africa
-  collaborativeType:
-  - Data Pooling
-  - Trusted Intermediary
-  dataType:
-  - Disclosed Personal Data
-  - Disclosed Non-Personal Data
-  link: https://www.mcc.gov/initiatives/initiative/mcc-pepfar-partnership
-  whatDataShared: The data that is shared are possessed by PEPFAR, Tanzania Data Lab,
-    and Data Zetu, such as PEPFAR's Sustainability Index Dashboards (SID) and Country
-    Operational Plans (COPs), private and public data collected by Tanzania Data Lab
-    and Data Zetu.
-  howDataShared: Data is shared with country-based partners who are selected through
-    an open contracting process to adapt projects to local needs, to increase capacity
-    of local partners, and to ensure sustainability.
-  purpose: DCLI seeks to improve the capacity of individuals, communities and organizations
-    to use data to solve problems relating to HIV/AIDS, global health, gender equality,
-    and economic growth.
-- sys:
-    id: 7ppOMx3khaCA22kCEoK4wY
-  status: true
-  caseStudy: 'AirNow: Open Platform for Air Quality Data'
-  sector:
-  - Environment
-  sharedBy:
-  - U.S. Environmental Protection Agency
-  sharedWith:
-  - Public
-  region: North America
-  collaborativeType:
-  - API
-  dataType:
-  - Disclosed Non-Personal Data
-  link: https://airnow.gov/
-  whatDataShared: AirNow was designed to provide the public with real-time air quality
-    observations, forecasts and health information that citizens can use to plan activities
-    such that exposure can be reduced. AirNow provides information about current Air
-    Quality Index (AQI) which tells you how clean or polluted your outdoor air is,
-    along with associated health effects that may be of concern. The AQI translates
-    air quality data into numbers and colors that help people understand when to take
-    action to protect their health.
-  howDataShared: |-
-    The public can access AQI info from the platforms below:
-    - At http://www.airnow.gov
-    - On Facebook and Twitter
-    - Through EnviroFlash email alerts
-    - With the free AirNow App for iPhones and Android
-    - With the customizable AirNow Widget
-  purpose: AirNow has developed a real-time air quality standard that is used by all
-    data submitters; for interoperability, an AirNow API provides service-based data
-    capabilities. Data is used daily by air quality forecasters and sometimes emergency
-    responders. It is also consulted for epidemiological studies.
-- sys:
-    id: 3s1yJKJYUoCmwIOoKCoEK4
-  status: true
-  caseStudy: Barcode of Life Data (BOLD) System
-  sector:
-  - Health
-  sharedBy:
-  - Centre for Biodiversity Genomics in Canada
-  sharedWith:
-  - Public
-  region: North America
-  collaborativeType:
-  - Data Pooling
-  - Trusted Intermediary
-  dataType:
-  - Disclosed Personal Data
-  - Disclosed Non-Personal Data
-  link: http://boldsystems.org/index.php
-  whatDataShared: 'The Barcode of Life Data Systems (BOLD) is an informatics workbench
-    aiding the acquisition, storage, analysis, and publication of DNA barcode records.
-    By assembling molecular, morphological, and distributional data, it bridges a
-    traditional bioinformatics chasm. '
-  howDataShared: BOLD is freely available to any researcher with interests in DNA
-    barcoding. By providing specialized services, it aids the assembly of records
-    that meet the standards needed to gain BARCODE designation in the global sequence
-    databases,
-  purpose: The purpose of BOLD is to "advance biodiversity science through DNA-based
-    species identification."
-- sys:
     id: ivPnhGp9FmMWCycweKsEG
   status: true
   caseStudy: Collaborative Study to Diminish Abuse on Twitter
@@ -4424,36 +3501,6 @@ datacollaborative:
     to understand the crime. The collaborative hopes to empower decision makers to
     intervene and help prevent human trafficking.
 - sys:
-    id: 6K2vYKZmDuM64CauYwIwuK
-  status: true
-  caseStudy: UNEP Live
-  sector:
-  - Environment
-  sharedBy:
-  - UNEP
-  sharedWith:
-  - Public
-  region: Worldwide
-  collaborativeType:
-  - Trusted Intermediary
-  dataType:
-  - Disclosed Non-Personal Data
-  - Observed Non-Personal Data
-  link: http://uneplive.unep.org/
-  whatDataShared: 'Environment Live makes global, regional and national data and assessments
-    available to UN Member States. It allows access to governance data, monitoring
-    technologies, citizen science data and more in order to keep the environment and
-    particular countries under review. '
-  howDataShared: Environment Live promotes open access to national data and therefore
-    works to make data available and accessible to the public based upon a country's
-    needs. Its online platform allows people to share data and knowledge to improve
-    the environment. Currently, more than 193 countries can be tracked on Environment
-    Live.
-  purpose: 'Environment Live supports global environmental policy by providing the
-    public with access to national data, as well as assessments on countries'' work
-    and progress. The platform is working to advance countries through public knowledge
-    in order to achieve the Goals of Agenda 2030 and Sustainable Development. '
-- sys:
     id: 4EKaKA0FfGCyiKEqoySyM8
   status: true
   caseStudy: 'Project 8: A Data Collaboration Platform For Sustainable Development'
@@ -4491,76 +3538,6 @@ datacollaborative:
     future that can handle the expected growth that lies ahead. Project 8 comes in
     to facilitate evidence-based policymaking that will support the 2030 Agenda.
 - sys:
-    id: 2C2ALH6XMgWEkU8uGme4Qu
-  status: true
-  caseStudy: Governance Data Alliance
-  sector:
-  - Economic Development
-  - Environment
-  - Education
-  sharedBy:
-  - Governance Data Alliance
-  sharedWith:
-  - Public
-  region: Worldwide
-  collaborativeType:
-  - Data Pooling
-  dataType:
-  - Disclosed Personal Data
-  - Disclosed Non-Personal Data
-  link: http://www.governancedata.org
-  whatDataShared: 'The Governance Data Alliance is made up of NGOs, governments, firms
-    and donors that pool governance data from a range of sources such as the Affordability
-    Drivers Index, Africa Integrity Indicators, Environmental Democracy Index, Freedom
-    on the Net, Women Civil Liberties Index, and many others. The alliance organizes
-    the data from all of its sources together to simplify data production and sharing
-    and to promote the use of data in advancing democratic reform on a global scale.   '
-  howDataShared: "The data is provided by leading governance data producers from across
-    the globe. The Governance Data Alliance takes this data and organizes it on its
-    website by country. Site visitors can select a country to see the history of governace
-    data available, compare two countries' data side by side, or view data by source.
-    \n"
-  purpose: 'The Governance Data Alliance is meant to bring leading data producers
-    together to increase the production of high-quality data, connect producers and
-    users, and increase the use of data in democratic governance reforms. The alliance
-    hopes its efforts can help make data production a more time- and cost-effective
-    process. '
-- sys:
-    id: 6HiAynZ6daEOKEEwMOiqK0
-  status: true
-  caseStudy: Chicago Data Collaborative
-  sector:
-  - Criminal Justice
-  sharedBy:
-  - Chicago Data Collaboratives
-  sharedWith:
-  - Members and Partners
-  region: North America
-  collaborativeType:
-  - Data Pooling
-  - Trusted Intermediary
-  dataType:
-  - Disclosed Personal Data
-  - Disclosed Non-Personal Data
-  link: https://chicagodatacollaborative.org/
-  whatDataShared: "Members of the Chicago Data Collaborative seek out data from public
-    agencies to help understand the criminal justice system. The collaborative has
-    already released population snapshots from the Cook County Jail, a central bond
-    court disposition audit, and bond court observation data. It also holds but has
-    not yet released data such as arrests in Chicago since 2014, Chicago Police Department
-    investigatory stops, State’s Attorney case-level data, and more. \n"
-  howDataShared: 'Data is collected from all accessible institutions in the Cook County
-    criminal justice system. Some of these data sources include the Chicago Police
-    Department, the Illinois State Police, the Office of the State''s Attorney, and
-    the Cook County Jail. The collaborative has links to its public data directly
-    on the website. Members and partners of the collaborative also have access to
-    more restricted data and can see new data before it is released to the public. '
-  purpose: "The Chicago Data Collaborative is meant to teach newsrooms, academics,
-    and nonprofit researchers more about the criminal justice system. These members
-    and partners seek out data from public agencies, organize it and combine it with
-    other data of its kind from different sources to make available to the public.
-    \n"
-- sys:
     id: 6NUZZTInIWG0WY8Yym8624
   status: true
   caseStudy: Our Brain Bank
@@ -4591,41 +3568,6 @@ datacollaborative:
     spot early signs of symptom changes, help drive new trials, and develop new insights
     into the quality of life and experiences of people living with GBM.
 - sys:
-    id: 1FnWWMAotKGec0soCI8sqs
-  status: true
-  caseStudy: National Neighborhood Indicators Partnership
-  sector:
-  - Infrastructure
-  sharedBy:
-  - Urban Institute and other local organizations
-  sharedWith:
-  - Public
-  region: North America
-  collaborativeType:
-  - Data Pooling
-  - Trusted Intermediary
-  dataType:
-  - Disclosed Personal Data
-  - Observed Personal Data
-  - Disclosed Non-Personal Data
-  link: https://www.neighborhoodindicators.org/about-nnip/nnip-concept
-  whatDataShared: The National Neighborhood Indicators Partnership (NNIP) is a partnership
-    between the Urban Institute and local organizations that provides people with
-    neighborhood data on education, health, housing, economic opportunity, and public
-    safety.
-  howDataShared: 'There is no one single dataset available that has the data that
-    all partners collect. Many partners do make some of their local data available
-    for download, when possible, on their own websites. NNIP as a partnership is working
-    on a “shared indicators” system to create a standard set of indicators that every
-    partner will strive to collect. Data for selected national datasets are available
-    through the Urban Institute National Data Repository. '
-  purpose: |-
-    According to their website, the NNIP serves to accomplish three main goals. They are:
-
-    1. Strengthen local capacity for data-driven decisionmaking.
-    2. Inform local and national policy based on lessons from local experience.
-    3. Build national support for community information systems.
-- sys:
     id: 6DG5v0z3gI6OkaIy6aGSQ6
   status: true
   caseStudy: Sanford Data Collaboratives
@@ -4655,143 +3597,6 @@ datacollaborative:
     of health care. As one of the first data sharing collaboratives to work with regional
     records, Sanford Health hopes to promote the value of real-life, timely health
     care data and use it to benefit our population.
-- sys:
-    id: 4BYO8LA4MoMqwomEAU248G
-  status: true
-  caseStudy: The application of Big Data for highway and waterway transport statistics
-  sector:
-  - Transportation
-  sharedBy:
-  - Not Specified
-  sharedWith:
-  - China - National Bureau of Statistics
-  region: East Asia and Pacific
-  collaborativeType:
-  - Research Partnerships
-  dataType:
-  - Disclosed Non-Personal Data
-  - Observed Non-Personal Data
-  link: https://unstats.un.org/bigdata/inventory/?selectID=2015028
-  whatDataShared: Road sensor data, ships identification data.
-  howDataShared: The data was directly shared by unspecified agencies with the National
-    Bureau of Statistics for use in this specific project only.
-  purpose: The data collaborative seeks to provide additional data related to transportation
-    to improve official statitics in China.
-- sys:
-    id: 3FEZlw7lFKIKsy6OM6eS06
-  status: true
-  caseStudy: Determining Consumer Price Index (CPI) with scanner data
-  sector:
-  - Economic Development
-  sharedBy:
-  - Retail companies
-  sharedWith:
-  - Statistics Agency Austria
-  region: Europe and Central Asia
-  collaborativeType:
-  - Research Partnerships
-  dataType:
-  - Disclosed Non-Personal Data
-  - Observed Non-Personal Data
-  link: https://unstats.un.org/bigdata/inventory/?selectID=2015008
-  whatDataShared: Product scanner data from retail companies.
-  howDataShared: A portion of data is commercially acquired from retail companies
-    for this specific project only.
-  purpose: This data collaborative provides the Austrian agency with additional insight
-    into retail pricing levels and trends across the country.
-- sys:
-    id: 2hQpyt6w2MkKyuq0IAYWKI
-  status: true
-  caseStudy: 'Crop survey by farmland: using satellite and aerial remote sensing to
-    help estimate agricultural statistics'
-  sector:
-  - Agriculture
-  sharedWith:
-  - China - National Bureau of Statistics
-  region: East Asia and Pacific
-  collaborativeType:
-  - Research Partnerships
-  dataType:
-  - Disclosed Non-Personal Data
-  - Observed Non-Personal Data
-  link: https://unstats.un.org/bigdata/inventory/?selectID=2015026
-  whatDataShared: 'Satellite or aerial imagery data.  '
-  howDataShared: A portion of all data is shared in a fixed time interval every year
-    to the statistics agency for a fee. The agency is described as having a "broader
-    access rights" to the data acquired.
-  purpose: The purpose of this project is to build "up the spatial sampling frame
-    by using the data from land use surveys and agricultural census. Then update the
-    sampling frame by satellite and aerial remote sensing." This information is then
-    used to "estimate the crop planting area and output every season."
-- sys:
-    id: 5iaoSW0aVquc8aaGc4OIAC
-  status: true
-  caseStudy: Credit card data for use in verifying retail sales
-  sector:
-  - Economic Development
-  sharedBy:
-  - UnionPay
-  sharedWith:
-  - China - National Bureau of Statistics
-  region: East Asia and Pacific
-  collaborativeType:
-  - Research Partnerships
-  dataType:
-  - Disclosed Personal Data
-  - Observed Personal Data
-  link: https://unstats.un.org/bigdata/inventory/?selectID=2015027
-  whatDataShared: 'Credit card transaction data.  '
-  howDataShared: A portion of data beginning from January 2014 was shared with the
-    agency who is described as having "broader access rights" to it.
-  purpose: The data was used to verify the growth trends of retail sales.
-- sys:
-    id: 2B1crZ4V9Cgyg6aIy2uOQI
-  status: true
-  caseStudy: Mobile positioning data for tourism statistics
-  sector:
-  - Economic Development
-  sharedBy:
-  - Unspecified mobile phone operators
-  sharedWith:
-  - Czech Republic - Statistical Office
-  region: Europe and Central Asia
-  collaborativeType:
-  - Research Partnerships
-  dataType:
-  - Disclosed Personal Data
-  - Observed Personal Data
-  link: https://unstats.un.org/bigdata/inventory/?selectID=2015030
-  whatDataShared: Mobile phone location data.
-  howDataShared: The data was shared with the statistics agency, with no cost, for
-    the purpose of this project only.
-  purpose: '"This pilot project aims at assessing the feasibility of using mobile
-    positioning data for generating statistics on inbound and domestic tourism flows
-    in the Czech Republic. The six localities have been selected where the records
-    from mobile operator (positioning data) will be compared with the number of visitors
-    gathered by face-to-face survey. The results will be used for setting the methodology
-    of the inbound (and domestic) tourism survey in the future."'
-- sys:
-    id: 3Wo9Toh9JeCE2UM8UsUAQa
-  caseStudy: 'Denmark: Using scanner data for compilation of CPI'
-  sector:
-  - Economic Development
-  sharedBy:
-  - Two major supermarket chains in Denmark
-  sharedWith:
-  - Statistics Denmark
-  region: Europe and Central Asia
-  collaborativeType:
-  - Research Partnerships
-  dataType:
-  - Disclosed Personal Data
-  - Observed Personal Data
-  link: https://unstats.un.org/bigdata/inventory/?selectID=2015031
-  whatDataShared: Supermarket transaction data from scanners.
-  howDataShared: All data from 2014/2015 was shared at no cost to the Danish statistical
-    agency for the use in this project only.
-  purpose: The purpose of this project is to test whether scanner data from the two
-    major supermarket chains in Denmark can be used in the production of the consumer
-    price index (CPI).
 - sys:
     id: 6bTk1prJSMgUYAsqGCEW0y
   status: true
@@ -4824,42 +3629,6 @@ datacollaborative:
   purpose: "Data are used to obtain bolster and inform official measures including:
     \n- Price statistics\n- Demographic and social statistics\n- Geo-spatial statistics\n-
     Labor statistics"
-- sys:
-    id: 7zpM8LpSYo2M6SsuGkkgey
-  status: true
-  caseStudy: 'Eurostat: The use of various types of big data for statistics'
-  sector:
-  - Economic Development
-  - Environment
-  - Infrastructure
-  - Transportation
-  - Telecommunications
-  sharedBy:
-  - Various unspecified private corporations
-  sharedWith:
-  - Eurostat
-  region: Europe and Central Asia
-  collaborativeType:
-  - Research Partnerships
-  dataType:
-  - Disclosed Personal Data
-  - Observed Personal Data
-  - Disclosed Non-Personal Data
-  - Observed Non-Personal Data
-  link: https://unstats.un.org/bigdata/inventory/?selectID=2015038
-  whatDataShared: "Data being shared through the collaborative include: \n- Call Detail
-    Records (CDRs)\n- Wikipedia page count\n- Google Trends data\n- Flight reservation\n-
-    Scanner data"
-  howDataShared: Portions or all data for a certain period of time was shared the
-    statistics agency with varying degree of access rights.
-  purpose: "The data shared was put to use toward a variety of objectives, including
-    to: \n- [Obtain population, mobility and urban statistics estimation and inferences](https://unstats.un.org/bigdata/inventory/?selectID=2015038);\n-
-    [Explore Wikipedia page view counts as a source for culture and tourism official
-    statistics](https://unstats.un.org/bigdata/inventory/?selectID=2015039);\n- [Obtain
-    demographic, social statistics, and labor statistics through Google Trends product](https://unstats.un.org/bigdata/inventory/?selectID=2015040);\n-
-    [Explore the potential of flight reservation systems data for official environmental,
-    tourism, and transportation statistics](https://unstats.un.org/bigdata/inventory/?selectID=2015041);\n-
-    [Obtain price statistics through scanner data](https://unstats.un.org/bigdata/inventory/?selectID=201410)."
 - sys:
     id: 4vciCe8DSwyYq2Ei6gOai4
   status: true
@@ -5098,36 +3867,6 @@ datacollaborative:
     into the aggregate movement patterns of domestic and foreign tourists toward enabling
     more targeted service delivery. [(More)](https://digiads.co.id/en/blog/news/kemenpar-apresiasi-telkomsel-msight/)
 - sys:
-    id: 4SrYwiStiEiZ0driZl91hb
-  status: true
-  caseStudy: MIDATA
-  sector:
-  - Health
-  sharedBy:
-  - Users
-  sharedWith:
-  - MIDATA
-  region: Europe and Central Asia
-  collaborativeType:
-  - Trusted Intermediary
-  dataType:
-  - Disclosed Personal Data
-  - Observed Personal Data
-  link: https://midata.coop/
-  whatDataShared: |-
-    From the website:
-    - "MIDATA.coop enables citizens to securely store, manage and control access to their personal data by helping them to establish and own national/regional not-for-profit MIDATA cooperatives.
-    - "MIDATA’s initial focus will be on health related data since these are most sensitive and valuable for one’s personal health.
-    - "MIDATA cooperatives act as the fiduciaries of their members’ data. As MIDATA members, citizens can visualize and analyze their personal data. They can actively contribute to medical research and to clinical trials by providing access to sets of their personal data across cooperatives."
-  howDataShared: 'The MIDATA website describes the encryption and access control approach
-    for the initiative: "Data are multiply encrypted and only the members possess
-    the key to their data. Every data access is logged. Secure citizen-controlled
-    data access across different national cooperatives will be established to permit
-    global research projects and clinical trials."'
-  purpose: The purpose of this platform is to give individuals control over their
-    personal data while enabling them to also contribute to research that can advance
-    innovation in the health domain.
-- sys:
     id: LCtlmnPuoJmyVItsmrJYA
   status: true
   caseStudy: SharedStreets
@@ -5358,127 +4097,6 @@ datacollaborative:
     and "enable the intelligent collection, interpretation and use of data, coupled
     with a flexibility to accommodate the growing and ever-changing needs of a living,
     breathing city."
-- sys:
-    id: 6dpCCq4E10cUCUwSMvjV4o
-  status: true
-  caseStudy: Taiwan Economic Society Analysis System
-  sector:
-  - Health
-  - Economic Development
-  - Environment
-  - Education
-  - Agriculture
-  - Infrastructure
-  - Transportation
-  - Crisis Response
-  - Digital Society
-  - Telecommunications
-  - Criminal Justice
-  sharedBy:
-  - Various Government Agencies
-  sharedWith:
-  - National Development Society (TIE)
-  region: East Asia and Pacific
-  collaborativeType:
-  - Data Pooling
-  - Trusted Intermediary
-  dataType:
-  - Disclosed Non-Personal Data
-  - Observed Non-Personal Data
-  link: https://colab.ngis.org.tw/lflt/index.html
-  whatDataShared: According to the website, "TESAS uses the Spatial Data Science and
-    Big Data to aggregate relevant statistics from the 12 major thematic statistics,
-    and graphically present the changes and differences in statistical data in the
-    timeline and space. With such visualization results, let local creative leaders
-    learn the current status and trends of local development."
-  howDataShared: "The National Development Society (TIE) created the Taiwan Economic
-    Society Analysis System (TESAS) to offer consolidated expertise, data, and related
-    tools from across institutions. The twelve thematic areas included on the system
-    are: \n- Population\n- Income\n- Economy and Industry\n- Traffic\n- Sightseeing\n-
-    Tourism\n- Land\n- Residential\n- Environmental\n- Education\n- Cultural\n- Social
-    Welfare\n- Medical"
-  purpose: The Taiwan Economic Society Analysis System was developed to promote local
-    economic development, cultural cohesion, and equitable urban development through
-    access to data, insights, and collaborative tools.
-- sys:
-    id: 48x4zLR6LyBTXCInaLOkBv
-  status: true
-  caseStudy: Taiwan's Presidential Hackathon
-  sector:
-  - Health
-  - Economic Development
-  - Environment
-  - Education
-  - Agriculture
-  - Infrastructure
-  - Transportation
-  - Crisis Response
-  - Digital Society
-  - Telecommunications
-  - Criminal Justice
-  sharedBy:
-  - Government of Taiwan
-  sharedWith:
-  - Hackathon Participants
-  region: East Asia and Pacific
-  collaborativeType:
-  - Prizes & Challenges
-  dataType:
-  - Disclosed Non-Personal Data
-  - Observed Non-Personal Data
-  link: https://presidential-hackathon.taiwan.gov.tw/Eng/
-  whatDataShared: 'The Taiwanese Presidential Hackathon encourages cross-sectoral
-    teams of participants to create new and innovative solutions to public challenges
-    leveraging open government datasets, as well as open source information drawn
-    from other sectors. Active topic areas as of mid-2019 include: Disaster Prevention
-    and Public Healthcare, Youth Employment and Development, Social Security Network
-    and Aging Society, Environment and Energy, Transport and Tourism. '
-  howDataShared: 'The government organizers provide participating teams with open
-    government datasets and some "protected" data that can be made accessible by request
-    to participants to inform their solution development. Participants are also encouraged
-    to integrate non-governmental data sources where useful. Submissions are judged
-    based on three central criteria: innovation, social influence, and feasibility. '
-  purpose: According to its website, the Presidential Hackathon "strives to accelerate
-    the optimization of public services and improve the effectiveness of government
-    services." Going forward, public officials will seek to collaborate with participants
-    to implement winning submissions.
-- sys:
-    id: KpoIg6MKP4s2Z3PITTIlx
-  status: true
-  caseStudy: GRI’s Sustainability Disclosure Database
-  sector:
-  - Health
-  - Economic Development
-  - Environment
-  - Education
-  - Agriculture
-  - Infrastructure
-  - Transportation
-  - Crisis Response
-  - Digital Society
-  - Telecommunications
-  - Criminal Justice
-  sharedBy:
-  - Global Reporting Initiative
-  sharedWith:
-  - Public
-  region: Worldwide
-  collaborativeType:
-  - Data Pooling
-  dataType:
-  - Disclosed Non-Personal Data
-  - Observed Non-Personal Data
-  link: http://database.globalreporting.org/about-this-site
-  whatDataShared: GRI built a data exchange platform where users have the opportunity
-    to look up various organizations or companies sustainability reports and companies
-    can create profile and upload their sustainability or related reports.
-  howDataShared: The data is shared on the online platform by companies who created
-    a profile, according to standards set by GRI. The submitted data is free for the
-    public to access.
-  purpose: According to GRI's website the purpose of this platform is to allow "organizations
-    to consider their impacts on a wide range of sustainability issues, enabling them
-    to be more transparent about the risks and opportunities they face and take smart
-    strategic decisions."
 - sys:
     id: 1OI5qkLyjxiQb1RubCeh1x
   status: true
@@ -5765,41 +4383,6 @@ datacollaborative:
     flu prediction. Their influenza model could predict the virus’s future activity
     one to two weeks before the CDC data alone with the same accuracy.
 - sys:
-    id: 18oeh2hhehYo6mCJGGuKBs
-  status: false
-  caseStudy: Explorys, an IBM Company
-  sector:
-  - Health
-  sharedBy:
-  - Multiple Healthcare Organizations
-  sharedWith:
-  - Multiple Healthcare Organizations
-  region: North America
-  collaborativeType:
-  - Intelligence Product
-  - Data Pooling
-  - Trusted Intermediary
-  dataType:
-  - Disclosed Personal Data
-  - Observed Personal Data
-  link: https://www.ibm.com/watson/health/explorys/healthcare-analytics/
-  whatDataShared: 'IBM Explorys offers healthcare providers and life science companies
-    “de-identified data that resides in a cloud-based, HIPAA (Health Insurance Portability
-    and Accountability Act)-enabled, highly secure platform.” This includes all types
-    of clinical/patient data from EHR (Electronic Health Record) systems. Explorys
-    also provides analytic tools to best study and understand this data. '
-  howDataShared: 'Data from ambulatory, inpatient, and post-acute care settings (specialty
-    centers, surgical, rehabilitation, etc.) is provided from patients, hospitals,
-    and providers all around the country. The data is then cleaned and administered
-    in a way that supports further analysis.
-
-    '
-  purpose: 'The data shared allows for better understanding of disease histories,
-    treatments, and post-marketing surveillance, easier data access, and also facilitates
-    an efficient data analysis process.
-
-    '
-- sys:
     id: 3Wwq13coxbxKUIZjxsT3Ou
   status: false
   caseStudy: Facebook Insights for Impact Zika
@@ -5924,31 +4507,6 @@ datacollaborative:
     this mechanism, the data will be accessible by policymakers and the public, which
     are expected to put more pressure on power companies to adopt an environmentally
     cleaner business practice.
-- sys:
-    id: 3O7X8etbH0Ku1BF19bzu10
-  status: true
-  caseStudy: Citiesense - Long Island City Partnership Engagement
-  sector:
-  - Infrastructure
-  sharedBy:
-  - Citiesense
-  sharedWith:
-  - Long Island City Partnership
-  region: North America
-  collaborativeType:
-  - Data Pooling
-  link: https://medium.com/citiesense/a-case-for-data-driven-city-planning-8cd7d9332a
-  whatDataShared: Through its online platform, Citiesense shares neighborhood data
-    including properties, streetscapes, and other public spaces, tracks different
-    indicators in a district, such as building permit applications and issue reports,
-    and visualizes relationships between a range of different datapoints on the same
-    map.
-  howDataShared: LICP purchased access to Citiesense's online platform, which provides
-    the data and insights mentioned previously.
-  purpose: Citiesense is a startup whose platform provides information on neighborhood
-    mobility, development, and resiliency . The Long Island City Partnership used
-    Citiesense to help it better understand market conditions, the social impact of
-    transient housing units, and to make better decisions on land use.
 - sys:
     id: 5xytZsme86PkFPA3O6PyQ8
   status: true
@@ -6149,53 +4707,6 @@ datacollaborative:
     engagement in order to build better customer experiences and address economic
     challenges with Capital One's APIs.
 - sys:
-    id: 7zPrtRGaR8VtL1hZReK5t3
-  status: true
-  caseStudy: The Cancer Genomic Clouds
-  sector:
-  - Health
-  sharedBy:
-  - National Cancer Institute (NCI)
-  sharedWith:
-  - Public
-  - Researchers
-  region: Worldwide
-  collaborativeType:
-  - Trusted Intermediary
-  - API
-  - Research Partnerships
-  dataType:
-  - Disclosed Personal Data
-  link: http://www.cancergenomicscloud.org/
-  whatDataShared: |-
-    The Cancer Genomic Cloud (CGC) is a cloud platform, powered by Seven Bridges, funder by the National Cancer Institute (NCI), which allows the sharing of and access to cancer genomics data. This platform is built on The Cancer Genomics Atlas (TCGA).
-
-    From the website:
-
-    There are two types of data shared in the platform:
-    1. Open Access
-    The Open Access tier includes information which is not unique to an individual.  This includes information such as:
-    - De-identified clinical and demographic data
-    - Gene expression data
-    - Copy number alterations in regions of the genome
-    - Epigenetic data
-    - Summaries of data across individuals
-
-    2. Controlled Access
-    The Controlled Access tier includes information which is unique to an individual.  This includes most raw data files, and some processed data such as:
-    - Primary sequencing data (BAM and FASTQ files) from DNA, RNA, miRNA or bisulfite sequencing studies
-    - Raw and processed SNP6 array data
-    - Raw and processed Exon array data
-    - Somatic and germline mutation calls for an individual (VCF and MAF files)
-  howDataShared: |-
-    From the website:
-
-    "Any researcher can access and use data within the Open Access tier (Open Data) as long as they agree to the data use restrictions and requirements outlined in the TCGA publication guidelines. Researchers requiring data from the Controlled Access tier (Controlled Data) for their studies need to obtain an approved Data Access Request through the Database of Genotypes and Phenotypes (dbGaP) and agree with all TCGA Data Use Certifications as well as the TCGA publication policy."
-  purpose: |-
-    From the website:
-
-    "The CGC grew out of a pressing need to analyze large cancer genomics datasets, primarily the Cancer Genome Atlas (TCGA). TCGA is one of the richest and most complete genomics datasets, composed of 33 different tumor types or subtypes with data from thousands of patients. Funded by $375 million in taxpayer dollars over the past decade, the project collected and analyzed samples at institutions across the U.S. Multiple samples from each patient were analyzed using multiple approaches including genome sequencing, RNA sequencing, microRNA sequencing, and more. TCGA data represents more than 2.5 petabytes of information and continues to grow as more samples are analyzed."
-- sys:
     id: 659kVNuhlZkwaKGbngCeLe
   status: true
   caseStudy: 'Austria Statistics: Obtaining CPI Using Web Crawlers'
@@ -6339,37 +4850,6 @@ datacollaborative:
     The Project Data Sphere initiative can help the cancer community unlock the potential
     of valuable data by generating new insights and opening up a new world of research
     possibilities."'
-- sys:
-    id: 3TVYNBDQQsIYE3G6yVTdKE
-  status: true
-  caseStudy: Alzheimer's Disease Neuroimaging Initiative (ADNI)
-  sector:
-  - Health
-  sharedBy:
-  - Alzheimer's Disease Neuroimaging Initiative
-  sharedWith:
-  - Authorized Researchers
-  region: Worldwide
-  collaborativeType:
-  - Trusted Intermediary
-  - Research Partnerships
-  dataType:
-  - Disclosed Personal Data
-  - Observed Personal Data
-  link: http://adni.loni.usc.edu/
-  whatDataShared: The data that is shared in the database include "imaging, clinical,
-    genomic, and biomarker data."
-  howDataShared: |-
-    "All ADNI data are shared without embargo through the LONI Image and Data Archive (IDA), a secure research data repository.
-
-    "The application process includes acceptance of the Data Use Agreement and submission of an online application form. The application must include the investigator's institutional affiliation and the proposed uses of the ADNI data. ADNI data may not be used for commercial products or redistributed in any way."
-  purpose: |-
-    "The Alzheimer's Disease Neuroimaging Initiative (ADNI) is a longitudinal multicenter study designed to develop clinical, imaging, genetic, and biochemical biomarkers for the early detection and tracking of Alzheimer's disease (AD). Since its launch more than a decade ago, the landmark public-private partnership has made major contributions to AD research, enabling the sharing of data between researchers around the world.
-
-    "Three overarching goals of the ADNI study are:
-    - "To detect AD at the earliest possible stage (pre-dementia) and identify ways to track the disease's progression with biomarkers.
-    - "To support advances in AD intervention, prevention, and treatment through the application of new diagnostic methods at the earliest possible stages (when intervention may be most effective).
-    - "To continually administer ADNI's innovative data-access policy, which provides all data without embargo to all scientists in the world."
 - sys:
     id: 3xALT5PDGlgGCHLbJJYkAY
   status: true
@@ -6624,35 +5104,51 @@ datacollaborative:
 
     "Our goal is to build the first Global Data Exchange, in order to facilitate cross border data flow and make data exchange accessible and secure for all economic stakeholders."
 - sys:
-    id: 5lElmOgXmJVWiCMhIcy91c
-  status: true
-  caseStudy: The Cancer Genome Atlas
+    id: 4AcFummwONhmFUY6CTqh7M
+  status: false
+  caseStudy: BBVA Urban Discovery
   sector:
-  - Health
+  - Economic Development
   sharedBy:
-  - Cancer Patients
+  - BBVA
   sharedWith:
-  - National Cancer Institute (NCI)
-  - National Human Genome Research Institute (NHGRI)
-  region: North America
+  - BBVA Data and Analytics Unit
+  region: Worldwide
   collaborativeType:
-  - Trusted Intermediary
-  - Research Partnerships
-  dataType:
-  - Disclosed Personal Data
-  link: https://cancergenome.nih.gov/abouttcga/overview
-  whatDataShared: The TCGA dataset has "2.5 petabytes of data describing tumor tissue
-    and matched normal tissues from more than 11,000 patients, is publically available
-    and has been used widely by the research community." The datasets are generated
-    by TCGA Research Network.
-  howDataShared: |-
-    From the website:
-    - "Cancer patients were asked to donate a portion of tumor tissue that has been removed as part of their cancer treatment along with a sample of normal tissue, usually blood. Tissue and fluid used for analysis are called biospecimens.
-    - "Biospecimen samples used for genomic research need to meet a stringent set of criteria so that the genetic material (DNA and RNA) removed from them can be used by advanced genomic analysis and sequencing technologies.
-    - "The TCGA Biospecimen Core Resource laboratory processed samples to ensure they met the TCGA biospecimen criteria and prepare them for analysis. Part of the process included coding the biospecimens to remove any information that might connect a sample with a patient's private information."
-  purpose: The purpose of sharing these datasets is to expand cancer research. According
-    to the website, these datasets have been used in at least a thousand studies of
-    cancer by independent researchers and the TCGA research network members.
+  - Intelligence Generation
+  link: https://www.bbvadata.com/urbandiscovery/
+  whatDataShared: 'Spanish banking group BBVA collaborated with CARTO, a company that
+    provides spatial intelligence data and tools, to generate insights about city
+    dynamics by analyzing credit card transaction data. The result of the analysis
+    is visualized as a map of population activity, which reveals patterns of economic
+    behaviors of city residents. These insights could inform urban planners or city
+    officials about the ways through which a neighborhood organizes itself, regardless
+    of the administrative boundaries set by the local government. The Urban Discovery
+    initiative has provided visualization and insights of three cities: Madrid; Barcelona;
+    and Mexico City.'
+- sys:
+    id: 3tBzuA9DEo3Si7wE3qiCSq
+  status: true
+  caseStudy: BBVA Urban Discovery (1)
+  sector:
+  - Economic Development
+  sharedBy:
+  - BBVA
+  sharedWith:
+  - BBVA Data and Analytics Unit
+  region: Worldwide
+  collaborativeType:
+  - Intelligence Generation
+  link: https://www.bbvadata.com/urbandiscovery/
+  whatDataShared: 'Spanish banking group BBVA collaborated with CARTO, a company that
+    provides spatial intelligence data and tools, to generate insights about city
+    dynamics by analyzing credit card transaction data. The result of the analysis
+    is visualized as a map of population activity, which reveals patterns of economic
+    behaviors of city residents. These insights could inform urban planners or city
+    officials about the ways through which a neighborhood organizes itself, regardless
+    of the administrative boundaries set by the local government. The Urban Discovery
+    initiative has provided visualization and insights of three cities: Madrid; Barcelona;
+    and Mexico City.'
 events:
 - sys:
     id: uF3uaikYV2gWsckO8wYO2
@@ -8381,22 +6877,6 @@ resources:
   - Data Responsibility
   - In Practice
 - sys:
-    id: 6MKf2l111S4O8AQqm4mWye
-  authors: " Iryna Susha, Marijn Janssen, Stefaan Verhulst"
-  title: Data collaboratives as “bazaars”? A review of coordination problems and mechanisms
-    to match demand for data with supply
-  publication: 'Transforming Government: People, Process and Policy, Vol. 11 Issue:
-    1'
-  pubDate: !ruby/object:DateTime 2017-01-01 00:00:00.000000000 Z
-  url: http://www.emeraldinsight.com/doi/abs/10.1108/TG-01-2017-0007
-  shortDescription: Focusses on the operational challenges on implementing Data Collaboratives.
-  type:
-  - Journal Article
-  theme:
-  - Risks and Challenges
-  - Operations
-  - In Practice
-- sys:
     id: 5EmGiq0n8k4SKQsygIcUUM
   authors: Freddy De Meersman, Gerdy Seynaeve, Marc Debusschere, Patrick Lusyne, Pieter
     Dewitte, Youri Baeyens, Albrecht Wirthmann, Christophe Demunter, Fernando Reis,
@@ -8494,21 +6974,6 @@ resources:
   - Benefits
   - Incentives
   - Risks and Challenges
-  - Data Responsibility
-  - In Practice
-- sys:
-    id: 6AHAoC4Y2k4GkUMOCawKOM
-  authors: Andrew Young, Stefaan Verhulst
-  title: How the Data That Internet Companies Collect Can Be Used for the Public Good
-  publication: Harvard Business Review
-  pubDate: !ruby/object:DateTime 2018-01-23 00:00:00.000000000 Z
-  url: https://hbr.org/2018/01/how-the-data-that-internet-companies-collect-can-be-used-for-the-public-good
-  shortDescription: An article describing lessons learned regarding data collaboratives
-    built on leveraging social media intelligence
-  type:
-  - Magazine Article
-  theme:
-  - Benefits
   - Data Responsibility
   - In Practice
 - sys:
@@ -8826,24 +7291,6 @@ resources:
   - Journal Article
   theme:
   - General
-- sys:
-    id: 6dg6g52CVUMyKI8kSgm0k2
-  authors: Daniel Kondor, Behrooz Hashemian, Yves-Alexandre de Montjoye, Carlo Ratti
-  title: Towards matching user mobility traces in large-scale datasets
-  publication: IEEE Transactions on Big Data
-  pubDate: !ruby/object:DateTime 2018-09-24 00:00:00.000000000 Z
-  url: https://ieeexplore.ieee.org/document/8470173/authors#authors
-  shortDescription: This paper presents "present the first large-scale analysis of
-    user matchability in real mobility datasets on realistic scales, i.e. among two
-    datasets that consist of several million people's mobility traces, coming from
-    a mobile network operator and transportation smart card usage."
-  annotation: |-
-    From the abstract:
-    "The problem of unicity and reidentifiability of records in large-scale databases has been studied in different contexts and approaches, with focus on preserving privacy or matching records from different data sources. With an increasing number of service providers nowadays routinely collecting location traces of their users on unprecedented scales, there is a pronounced interest in the possibility of matching records and datasets based on spatial trajectories. Extending previous work on reidentifiability of spatial data and trajectory matching, we present the first large-scale analysis of user matchability in real mobility datasets on realistic scales, i.e. among two datasets that consist of several million people's mobility traces, coming from a mobile network operator and transportation smart card usage. We extract the relevant statistical properties which influence the matching process and analyze their impact on the matchability of users. We show that for individuals with typical activity in the transportation system (those making 3-4 trips per day on average), a matching algorithm based on the co-occurrence of their activities is expected to achieve a 16.8% success only after a one-week long observation of their mobility traces, and over 55% after four weeks. We show that the main determinant of matchability is the expected number of co-occurring records in the two datasets. Finally, we discuss different scenarios in terms of data collection frequency and give estimates of matchability over time. We show that with higher frequency data collection becoming more common, we can expect much higher success rates in even shorter intervals."
-  type:
-  - Journal Article
-  theme:
-  - Benefits
 - sys:
     id: 110Ywr16QougUkqeeGaO80
   authors: Yves-Alexandre de Montjoye, et. al.
@@ -9230,29 +7677,6 @@ resources:
   - General
   - Benefits
 - sys:
-    id: 13MAMBbqiOIkERhx9G4edX
-  authors: Yves-Alexandre de Montjoye, et al
-  title: On the privacy-conscientious use of mobile phone data
-  publication: Nature
-  pubDate: !ruby/object:DateTime 2018-12-11 00:00:00.000000000 Z
-  url: https://www.nature.com/articles/sdata2018286
-  shortDescription: '"The breadcrumbs we leave behind when using our mobile phones—who
-    somebody calls, for how long, and from where—contain unprecedented insights about
-    us and our societies. Researchers have compared the recent availability of large-scale
-    behavioral datasets, such as the ones generated by mobile phones, to the invention
-    of the microscope, giving rise to the new field of computational social science."'
-  annotation: |-
-    - According to the authors, mobile phone penetration rate is at 90% and the communications activity made possible with a mobile phone generates a large amount of data that is highly valuable especially in answering humanitarian questions. However, this benefit comes with some risks, most notably privacy.
-    - Anonymization has been used in many statistical projects to try to address this privacy issues, but the authors point out how recent studies have shown that "pseudonymization and standard de-identification are not sufficient to prevent uers from being re-identified in mobile phone data."
-    - The authors argue that these privacy concerns are "due to the failures of the traditional de-identification model and the lack of a modern and agreed upon framework for the privacy-conscientious use of mobile phone data by third-parties especially in the context of the EU General Data Protection Regulation (GDPR)."
-    - Thus, the authors propose four models for the privacy-conscientious use of mobile phone data, which they call 1) limited release, 2) pre-computed indicators and synthetic data, 3) remote access, and 4) question-and-answer.
-  type:
-  - Journal Article
-  theme:
-  - Risks and Challenges
-  - Data Responsibility
-  - Governance and Operations
-- sys:
     id: 7Bxv1RJ8AE1cV9EQJjXCTB
   authors: GloPID-R
   title: Roadmap for Data Sharing in Public Health Emergencies
@@ -9294,6 +7718,32 @@ resources:
   - General
   - Incentives
   - Operations
+- sys:
+    id: 7dq8plY1Kn0E51sMV4QVb7
+  authors: OECD
+  title: 'Enhancing Access to and Sharing of Data: Reconciling Risks and Benefits
+    for Data Re-use across Societies'
+  publication: OECD Publishing
+  pubDate: !ruby/object:DateTime 2019-11-26 00:00:00.000000000 Z
+  url: https://www.oecd.org/sti/ieconomy/enhancing-access-to-and-sharing-of-data-276aaca8-en.htm
+  shortDescription: '"This report examines the opportunities of enhancing access to
+    and sharing of data (EASD) in the context of the growing importance of artificial
+    intelligence and the Internet of Things. It discusses how EASD can maximise the
+    social and economic value of data re-use and how the related risks and challenges
+    can be addressed. [...] It also provides examples of EASD approaches and policy
+    initiatives in OECD countries and partner economies."'
+  annotation: |-
+    The report argues that data sharing can "increase the value of data to the data holder, and even more so to secondary data users, with additional positive spill-over benefits for country economies and society at large."
+
+    However, several challenges need to be addressed so that the public can harness the benefit of data sharing. Such challenges such as balancing "the benefits of enhancing data "openness" with the risks, while considering legitimate private, national and public interests."
+
+    Examining over 200 policy initiatives across 37 countries, the report finds several trends, such as "few countries have policy initiatives to faciliate data sharing within the private sector."
+
+    Finally, the report proposes that policy makers employ several strategies involving contractual agreements, open data, data portability, and restricted data-sharing agreement to address the major challenges.
+  type:
+  - Report
+  theme:
+  - Risks and Challenges
 projects:
 - sys:
     id: 4qXwV2Dbi8IOO8CO6uGCuK
