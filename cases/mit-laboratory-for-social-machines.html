@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-    <meta property="og:title" content="MIT Laboratory for Social Machines (LSM)">
+    <meta property="og:title" content="MIT Laboratory for Social Machines">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="http://datacollaboratives.org/cases/mit-laboratory-for-social-machines-lsm.html">
+    <meta property="og:url" content="http://datacollaboratives.org/cases/mit-laboratory-for-social-machines.html">
     <meta property="og:image" content="http://datacollaboratives.org">
     <meta property="og:description" content="">
 
-    <title>MIT Laboratory for Social Machines (LSM)</title>
+    <title>MIT Laboratory for Social Machines</title>
 
     <link rel="stylesheet" href="/scripts/foundation.min.css">
     <link rel="stylesheet" href="/scripts/styleguide-v2.css">
@@ -67,9 +67,9 @@
 
     <div class="case-page">
 
-  <div class="top-section case-page__header case-page__header-education" style="background-image: url('/images/headers/education.jpg')">
+  <div class="top-section case-page__header case-page__header-social-inclusion" style="background-image: url('/images/headers/social-inclusion.jpg')">
     <hgroup>
-      <h1><span>MIT Laboratory for Social Machines (LSM)</span></h1>
+      <h1><span>MIT Laboratory for Social Machines</span></h1>
       <h2 id="data-filter-container">
         
           
@@ -81,11 +81,19 @@
             -->
             <span id="data-type" onmouseover="this.style.cursor='pointer';" class="observed-personal-data" ><a id="span-link" class="observed-personal-data" href="#">Observed Personal Data</a></span>
           
+            <!-- 
+            This needs a refactor. 
+            Why we have this JS to change cursor? 
+            Why the <a> inside the <span>? Thsi should be one single tag. 
+            I tried it, but it broke the JS, which is also not ideal, since we can have it work with native anchor tag behavior, and #values.
+            -->
+            <span id="data-type" onmouseover="this.style.cursor='pointer';" class="observed-non-personal-data" ><a id="span-link" class="observed-non-personal-data" href="#">Observed Non-Personal Data</a></span>
+          
         
 
         
           
-            <span onmouseover="this.style.cursor='pointer';" id="data-sector" class="education" ><a id="span-link"class="education" href="#">Education</a></span>
+            <span onmouseover="this.style.cursor='pointer';" id="data-sector" class="social-inclusion" ><a id="span-link"class="social-inclusion" href="#">Social Inclusion</a></span>
           
         
       </h2>
@@ -98,14 +106,12 @@
       <div class="small-12 column medium-6 ">
         
           <h4>The Data</h4>
-          <p>In October 2014 Twitter committed $10 million towards the creation of MIT Media Lab’s Laboratory for Social Machines (LSM), providing full access to its real-time public stream and entire archive of tweets. Today, MIT's LSM acquires data from a number of digital networks to provide insights and research into a number of fields.</p>
+          <p>In October 2014, Twitter supported the creation of the MIT Media Lab’s Laboratory for Social Machines through a financial donation of USD 10 million and a data donation of all real-time and historical tweets. Former Twitter Chief Media Scientist Deb Roy led the organization, which dedicated itself to mapping and analyzing social systems and to design tools to support the positive use of human networks.
+
+Considering this close relationship between the Laboratory and Twitter, the Media Lab subsequently developed [guidelines](https://socialmachines.media.mit.edu/139-2/) to distinguish between the interests of the social media platform and the academic institution. Though the organization's website claims it acquires data from several digital networks to provide insights and research into public policy issues, these relationships (and the data-sharing agreements that govern them) are not publicly shared.</p>
         
       </div>
       <div class="small-12 column medium-6 ">
-        
-          <h4>How the data was shared</h4>
-          <p>LSM was initially launched by former Twitter Chief Media Scientist Deb Roy, who consequently gained complete access to all tweets (real-time and historical) from Twitter. Considering this close relationship between LSM and Twitter, guidelines (https://socialmachines.media.mit.edu/139-2/) have subsequently been formed to separate the interests of the social media platform and the academic institution.
-Though other digital networks are mentioned in LSM's projects, the data sharing agreements between LSM and other social media platforms are unknown.</p>
         
       </div>
     </div>
@@ -114,12 +120,6 @@ Though other digital networks are mentioned in LSM's projects, the data sharing 
   <div class="page-section case-page--info">
     <div class="row large-unstack">
       <div class="column large-8">
-        
-          <h4>DESCRIPTION</h4>
-          <p>In October 2014 Twitter committed $10 million towards the creation of MIT Media Lab’s Laboratory for Social Machines (LSM), providing full access to its real-time public stream and entire archive of tweets. Today, MIT's LSM acquires data from a number of digital networks to provide insights and research into a number of fields.</p>
-          <p>LSM was initially launched by former Twitter Chief Media Scientist Deb Roy, who consequently gained complete access to all tweets (real-time and historical) from Twitter. Considering this close relationship between LSM and Twitter, guidelines (https://socialmachines.media.mit.edu/139-2/) have subsequently been formed to separate the interests of the social media platform and the academic institution.
-Though other digital networks are mentioned in LSM's projects, the data sharing agreements between LSM and other social media platforms are unknown.</p>
-          <p>Social Machines hosts a number of research projects that aim to map and analyze social systems and to design tools to support the positive use of human networks. This includes research in the fields of Journalism and Public Opinion, Responsive Governance and Human Development. Previous projects include the analysis of tweets from the 2016 presidential campaign to scrutinize public opinion; creating a digital literacy learning program informed by social network designs; and the Human Atlas that analyzes social connections within communities.</p>
         
       </div>
       <div class="column large-4">
@@ -157,8 +157,8 @@ Though other digital networks are mentioned in LSM's projects, the data sharing 
         <div class="share-panel">
           <h5>Shared with</h5>
           
-            <!-- <a href="#" class="share-panel__item">MIT Lab for Social Machines</a> -->
-            <span class="share-panel__item">MIT Lab for Social Machines</span>
+            <!-- <a href="#" class="share-panel__item">MIT Laboratory for Social Machines</a> -->
+            <span class="share-panel__item">MIT Laboratory for Social Machines</span>
           
         </div>
         
