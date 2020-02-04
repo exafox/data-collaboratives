@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-    <meta property="og:title" content="CIESIN &amp; Facebook: Open, Improved Settlement Data">
+    <meta property="og:title" content="Facebook Population Density Maps">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="http://datacollaboratives.org/cases/ciesin--facebook-open-improved-settlement-data.html">
+    <meta property="og:url" content="http://datacollaboratives.org/cases/facebook-population-density-maps.html">
     <meta property="og:image" content="http://datacollaboratives.org">
     <meta property="og:description" content="">
 
-    <title>CIESIN & Facebook: Open, Improved Settlement Data</title>
+    <title>Facebook Population Density Maps</title>
 
     <link rel="stylesheet" href="/scripts/foundation.min.css">
     <link rel="stylesheet" href="/scripts/styleguide-v2.css">
@@ -67,9 +67,9 @@
 
     <div class="case-page">
 
-  <div class="top-section case-page__header case-page__header-economic-development-infrastructure" style="background-image: url('/images/headers/economic-development.jpg')">
+  <div class="top-section case-page__header case-page__header-economic-development-environment-infrastructure-humanitarian" style="background-image: url('/images/headers/economic-development.jpg')">
     <hgroup>
-      <h1><span>CIESIN & Facebook: Open, Improved Settlement Data</span></h1>
+      <h1><span>Facebook Population Density Maps</span></h1>
       <h2 id="data-filter-container">
         
           
@@ -81,18 +81,30 @@
             -->
             <span id="data-type" onmouseover="this.style.cursor='pointer';" class="disclosed-non-personal-data" ><a id="span-link" class="disclosed-non-personal-data" href="#">Disclosed Non-Personal Data</a></span>
           
+            <!-- 
+            This needs a refactor. 
+            Why we have this JS to change cursor? 
+            Why the <a> inside the <span>? Thsi should be one single tag. 
+            I tried it, but it broke the JS, which is also not ideal, since we can have it work with native anchor tag behavior, and #values.
+            -->
+            <span id="data-type" onmouseover="this.style.cursor='pointer';" class="observed-non-personal-data" ><a id="span-link" class="observed-non-personal-data" href="#">Observed Non-Personal Data</a></span>
+          
         
 
         
           
             <span onmouseover="this.style.cursor='pointer';" id="data-sector" class="economic-development" ><a id="span-link"class="economic-development" href="#">Economic Development</a></span>
           
+            <span onmouseover="this.style.cursor='pointer';" id="data-sector" class="environment" ><a id="span-link"class="environment" href="#">Environment</a></span>
+          
             <span onmouseover="this.style.cursor='pointer';" id="data-sector" class="infrastructure" ><a id="span-link"class="infrastructure" href="#">Infrastructure</a></span>
+          
+            <span onmouseover="this.style.cursor='pointer';" id="data-sector" class="humanitarian" ><a id="span-link"class="humanitarian" href="#">Humanitarian</a></span>
           
         
       </h2>
     </hgroup>
-    <div class="case-page__header--button"><a target="_blank" class="button" href="http://blogs.ei.columbia.edu/2016/11/29/ciesin-teams-with-facebook-to-develop-open-improved-settlement-data/">Go to website</a></div>
+    <div class="case-page__header--button"><a target="_blank" class="button" href="https://dataforgood.fb.com/tools/population-density-maps/">Go to website</a></div>
   </div>
 <!-- 
   <div class="page-section case-page--info">
@@ -100,13 +112,13 @@
       <div class="small-12 column medium-6 ">
         
           <h4>The Data</h4>
-          <p>Facebook has developed and shared with CIESIN "state of the art computer visioning techniques" that can identify buildings from commercially available satellite images. This data once shared with CIESIN is combined with census data, which is also shared with Facebook to confirm results. The final outcome of this data pooling is High Resolution Settlement Layer data that provides information about rural settlement across the globe. </p>
+          <p>Facebook has developed and shared with CIESIN "state of the art computer visioning techniques" that can identify buildings from commercially available satellite images. This data once shared with CIESIN is combined with census data, which is also shared with Facebook to confirm results. The final outcome of this data pooling is the Population Density Maps (previously known as High Resolution Settlement Layer) data that provides information about settlements across the globe. </p>
         
       </div>
       <div class="small-12 column medium-6 ">
         
           <h4>How the data was shared</h4>
-          <p>The pooled data between CIESIN, Facebook and the World Bank mainly consists of government collected census data, available from CIESIN, and Facebook's commercially purchased satellite imagery data, with the partnership formally allowing the exchange of this data by both organizations. In November 2016 CIESIN made population data for 5 countries (Ghana, Haiti, Malawi, South Africa and Sri Lanka) publicly available via its website.</p>
+          <p>The pooled data between CIESIN, Facebook and the World Bank mainly consists of government collected census data, available from CIESIN, and Facebook's commercially purchased satellite imagery data, with the partnership formally allowing the exchange of this data by both organizations. To date, Facebook and CIESIN have made the datasets covering countries in Africa available via the Humanitarian Data Exchange website.</p>
         
       </div>
     </div>
@@ -117,8 +129,8 @@
       <div class="column large-8">
         
           <h4>DESCRIPTION</h4>
-          <p>Facebook has developed and shared with CIESIN "state of the art computer visioning techniques" that can identify buildings from commercially available satellite images. This data once shared with CIESIN is combined with census data, which is also shared with Facebook to confirm results. The final outcome of this data pooling is High Resolution Settlement Layer data that provides information about rural settlement across the globe. </p>
-          <p>The pooled data between CIESIN, Facebook and the World Bank mainly consists of government collected census data, available from CIESIN, and Facebook's commercially purchased satellite imagery data, with the partnership formally allowing the exchange of this data by both organizations. In November 2016 CIESIN made population data for 5 countries (Ghana, Haiti, Malawi, South Africa and Sri Lanka) publicly available via its website.</p>
+          <p>Facebook has developed and shared with CIESIN "state of the art computer visioning techniques" that can identify buildings from commercially available satellite images. This data once shared with CIESIN is combined with census data, which is also shared with Facebook to confirm results. The final outcome of this data pooling is the Population Density Maps (previously known as High Resolution Settlement Layer) data that provides information about settlements across the globe. </p>
+          <p>The pooled data between CIESIN, Facebook and the World Bank mainly consists of government collected census data, available from CIESIN, and Facebook's commercially purchased satellite imagery data, with the partnership formally allowing the exchange of this data by both organizations. To date, Facebook and CIESIN have made the datasets covering countries in Africa available via the Humanitarian Data Exchange website.</p>
           <p>The collaboration allows Facebook to obtain better rural settlement information in order to create technologies to improve connectivity in these regions. This feeds into CIESIN and World Bank's motivation to improve communications infrastructure, but the data will also be of use in research, crisis response and humanitarian planning.</p>
         
       </div>
@@ -139,8 +151,8 @@
             <!-- <a href="#" class="share-panel__item">CIESIN</a> -->
             <span class="share-panel__item">CIESIN</span>
           
-            <!-- <a href="#" class="share-panel__item">Public</a> -->
-            <span class="share-panel__item">Public</span>
+            <!-- <a href="#" class="share-panel__item">HDX</a> -->
+            <span class="share-panel__item">HDX</span>
           
         </div>
         
