@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-    <meta property="og:title" content="Johnson &amp; Johnson-Yale Open Data Access Project">
+    <meta property="og:title" content="Kaggle’s Data Competition Platform">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="http://datacollaboratives.org/cases/johnson--johnson-yale-open-data-access-project.html">
+    <meta property="og:url" content="http://datacollaboratives.org/cases/kaggles-data-competition-platform.html">
     <meta property="og:image" content="http://datacollaboratives.org">
     <meta property="og:description" content="">
 
-    <title>Johnson & Johnson-Yale Open Data Access Project</title>
+    <title>Kaggle's Data Competition Platform</title>
 
     <link rel="stylesheet" href="/scripts/foundation.min.css">
     <link rel="stylesheet" href="/scripts/styleguide-v2.css">
@@ -67,9 +67,9 @@
 
     <div class="case-page">
 
-  <div class="top-section case-page__header case-page__header-health" style="background-image: url('/images/headers/health.jpg')">
+  <div class="top-section case-page__header case-page__header-economic-development-environment-education-infrastructure-transportation-telecommunications-agriculture-food-security-public-safety-social-inclusion-humanitarian-health" style="background-image: url('/images/headers/economic-development.jpg')">
     <hgroup>
-      <h1><span>Johnson & Johnson-Yale Open Data Access Project</span></h1>
+      <h1><span>Kaggle's Data Competition Platform</span></h1>
       <h2 id="data-filter-container">
         
           
@@ -81,16 +81,60 @@
             -->
             <span id="data-type" onmouseover="this.style.cursor='pointer';" class="disclosed-personal-data" ><a id="span-link" class="disclosed-personal-data" href="#">Disclosed Personal Data</a></span>
           
+            <!-- 
+            This needs a refactor. 
+            Why we have this JS to change cursor? 
+            Why the <a> inside the <span>? Thsi should be one single tag. 
+            I tried it, but it broke the JS, which is also not ideal, since we can have it work with native anchor tag behavior, and #values.
+            -->
+            <span id="data-type" onmouseover="this.style.cursor='pointer';" class="observed-personal-data" ><a id="span-link" class="observed-personal-data" href="#">Observed Personal Data</a></span>
+          
+            <!-- 
+            This needs a refactor. 
+            Why we have this JS to change cursor? 
+            Why the <a> inside the <span>? Thsi should be one single tag. 
+            I tried it, but it broke the JS, which is also not ideal, since we can have it work with native anchor tag behavior, and #values.
+            -->
+            <span id="data-type" onmouseover="this.style.cursor='pointer';" class="disclosed-non-personal-data" ><a id="span-link" class="disclosed-non-personal-data" href="#">Disclosed Non-Personal Data</a></span>
+          
+            <!-- 
+            This needs a refactor. 
+            Why we have this JS to change cursor? 
+            Why the <a> inside the <span>? Thsi should be one single tag. 
+            I tried it, but it broke the JS, which is also not ideal, since we can have it work with native anchor tag behavior, and #values.
+            -->
+            <span id="data-type" onmouseover="this.style.cursor='pointer';" class="observed-non-personal-data" ><a id="span-link" class="observed-non-personal-data" href="#">Observed Non-Personal Data</a></span>
+          
         
 
         
+          
+            <span onmouseover="this.style.cursor='pointer';" id="data-sector" class="economic-development" ><a id="span-link"class="economic-development" href="#">Economic Development</a></span>
+          
+            <span onmouseover="this.style.cursor='pointer';" id="data-sector" class="environment" ><a id="span-link"class="environment" href="#">Environment</a></span>
+          
+            <span onmouseover="this.style.cursor='pointer';" id="data-sector" class="education" ><a id="span-link"class="education" href="#">Education</a></span>
+          
+            <span onmouseover="this.style.cursor='pointer';" id="data-sector" class="infrastructure" ><a id="span-link"class="infrastructure" href="#">Infrastructure</a></span>
+          
+            <span onmouseover="this.style.cursor='pointer';" id="data-sector" class="transportation" ><a id="span-link"class="transportation" href="#">Transportation</a></span>
+          
+            <span onmouseover="this.style.cursor='pointer';" id="data-sector" class="telecommunications" ><a id="span-link"class="telecommunications" href="#">Telecommunications</a></span>
+          
+            <span onmouseover="this.style.cursor='pointer';" id="data-sector" class="agriculture-food" ><a id="span-link"class="agriculture-food" href="#">Agriculture/Food</a></span>
+          
+            <span onmouseover="this.style.cursor='pointer';" id="data-sector" class="security-public-safety" ><a id="span-link"class="security-public-safety" href="#">Security/Public Safety</a></span>
+          
+            <span onmouseover="this.style.cursor='pointer';" id="data-sector" class="social-inclusion" ><a id="span-link"class="social-inclusion" href="#">Social Inclusion</a></span>
+          
+            <span onmouseover="this.style.cursor='pointer';" id="data-sector" class="humanitarian" ><a id="span-link"class="humanitarian" href="#">Humanitarian</a></span>
           
             <span onmouseover="this.style.cursor='pointer';" id="data-sector" class="health" ><a id="span-link"class="health" href="#">Health</a></span>
           
         
       </h2>
     </hgroup>
-    <div class="case-page__header--button"><a target="_blank" class="button" href="http://yoda.yale.edu/johnson-johnson">Go to website</a></div>
+    <div class="case-page__header--button"><a target="_blank" class="button" href="https://www.kaggle.com/">Go to website</a></div>
   </div>
 <!-- 
   <div class="page-section case-page--info">
@@ -98,13 +142,10 @@
       <div class="small-12 column medium-6 ">
         
           <h4>The Data</h4>
-          <p>The Yale School of Medicine’s Open Data Access (YODA) Project helps researchers and physicians to access anonymized clinical trial data from Janssen – Johnson & Johnson's pharmaceutical business wing.</p>
+          <p>The platform Kaggle hosts data-driven competitions by organizations such as Google Research and the mobility company Lyft. These competitions are open to public participation with data that can be downloaded from the website. Example projects look for innovative ways to help autonomous vehicles detect objects, improve the detection of actions in videos, and classify cloud structures from satellite images.</p>
         
       </div>
       <div class="small-12 column medium-6 ">
-        
-          <h4>How the data was shared</h4>
-          <p>In order to enter this Data Collaborative with YODA, data sharers like Johnson & Johnson must agree to hand over full jurisdiction of their clinical data to Yale. This allows researchers access to private clinical data while ensuring such data is shared responsibly.</p>
         
       </div>
     </div>
@@ -115,9 +156,9 @@
       <div class="column large-8">
         
           <h4>DESCRIPTION</h4>
-          <p>The Yale School of Medicine’s Open Data Access (YODA) Project helps researchers and physicians to access anonymized clinical trial data from Janssen – Johnson & Johnson's pharmaceutical business wing.</p>
-          <!-- <p>In order to enter this Data Collaborative with YODA, data sharers like Johnson & Johnson must agree to hand over full jurisdiction of their clinical data to Yale. This allows researchers access to private clinical data while ensuring such data is shared responsibly.</p>
-          <p>Johnson & Johnson's Janssen shares access to anonymized clinical trials data with the Yale Open Data Access Project, which serves as an independent body overseeing trials data requests from investigators and researchers. The purpose of YODA is to allow researchers access to important clinical data from Johnson & Johnson whilst ensuring the safety and privacy of this initiative.</p> -->
+          <p>The platform Kaggle hosts data-driven competitions by organizations such as Google Research and the mobility company Lyft. These competitions are open to public participation with data that can be downloaded from the website. Example projects look for innovative ways to help autonomous vehicles detect objects, improve the detection of actions in videos, and classify cloud structures from satellite images.</p>
+          <!-- <p></p>
+          <p></p> -->
         
       </div>
       <div class="column large-4">
@@ -125,8 +166,8 @@
         <div class="share-panel">
           <h5>Shared by</h5>
           
-            <!-- <a href="#" class="share-panel__item">Johnson & Johnson</a> -->
-            <span class="share-panel__item">Johnson & Johnson</span>
+            <!-- <a href="#" class="share-panel__item">Multiple</a> -->
+            <span class="share-panel__item">Multiple</span>
           
         </div>
         
@@ -134,11 +175,8 @@
         <div class="share-panel">
           <h5>Shared with</h5>
           
-            <!-- <a href="#" class="share-panel__item">Yale Open Data Access Project</a> -->
-            <span class="share-panel__item">Yale Open Data Access Project</span>
-          
-            <!-- <a href="#" class="share-panel__item">Yale School of Medicine</a> -->
-            <span class="share-panel__item">Yale School of Medicine</span>
+            <!-- <a href="#" class="share-panel__item">Kaggle</a> -->
+            <span class="share-panel__item">Kaggle</span>
           
         </div>
         
@@ -890,6 +928,14 @@
 
 
 
+
+  <style media="screen">
+    .case-page__header { height: 55vh;}
+    h2 {
+      padding-right: 8%;
+      padding-left: 8%;
+    }
+  </style>
 
 
 
