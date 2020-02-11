@@ -81,6 +81,14 @@
             -->
             <span id="data-type" onmouseover="this.style.cursor='pointer';" class="observed-personal-data" ><a id="span-link" class="observed-personal-data" href="#">Observed Personal Data</a></span>
           
+            <!-- 
+            This needs a refactor. 
+            Why we have this JS to change cursor? 
+            Why the <a> inside the <span>? Thsi should be one single tag. 
+            I tried it, but it broke the JS, which is also not ideal, since we can have it work with native anchor tag behavior, and #values.
+            -->
+            <span id="data-type" onmouseover="this.style.cursor='pointer';" class="observed-non-personal-data" ><a id="span-link" class="observed-non-personal-data" href="#">Observed Non-Personal Data</a></span>
+          
         
 
         
@@ -98,13 +106,12 @@
       <div class="small-12 column medium-6 ">
         
           <h4>The Data</h4>
-          <p>Several of Digital Dog's projects--for instance, "We Feel," "Classifying Concerning Tweets," and "The Ground Truth"--use social media data (primarily shared by Twitter) to guide their mental health research. Another project "Mobile Phones as Pervasive Devices" uses mobile sensing technology such as Bluetooth to track social interactions in order to identify suicidal or other at-risk behavior.</p>
+          <p>Digital Dog, an arm of the Australian NGO, Black Dog Institute, aims to research how technology can be used to solve mental health problems. Its projects use social media data (primarily shared by Twitter) for research. "Mobile Phones as Pervasive Devices" uses mobile sensing technology such as Bluetooth to track social interactions in order to identify suicidal or other at-risk behavior.
+
+Data sharing methods depend on the particular project. The mobile sensing tracker used an app during the clinical trial to support this research. The data sharing methods used to collect social media data are explained in more detail in the "We Feel" case found in the Data Collaboratives Explorer.</p>
         
       </div>
       <div class="small-12 column medium-6 ">
-        
-          <h4>How the data was shared</h4>
-          <p>Data sharing methods depend on the particular project. The mobile sensing tracker used an app during the clinical trial to support this research. The data sharing methods used to collect social media data are explained in more detail in the "We Feel" case found in the Data Collaboratives Explorer.</p>
         
       </div>
     </div>
@@ -115,9 +122,11 @@
       <div class="column large-8">
         
           <h4>DESCRIPTION</h4>
-          <p>Several of Digital Dog's projects--for instance, "We Feel," "Classifying Concerning Tweets," and "The Ground Truth"--use social media data (primarily shared by Twitter) to guide their mental health research. Another project "Mobile Phones as Pervasive Devices" uses mobile sensing technology such as Bluetooth to track social interactions in order to identify suicidal or other at-risk behavior.</p>
-          <!-- <p>Data sharing methods depend on the particular project. The mobile sensing tracker used an app during the clinical trial to support this research. The data sharing methods used to collect social media data are explained in more detail in the "We Feel" case found in the Data Collaboratives Explorer.</p>
-          <p>Digital Dog is an arm of the Australian NGO, Black Dog Institute, and aims to research how technology can be used to solve mental health problems.</p> -->
+          <p>Digital Dog, an arm of the Australian NGO, Black Dog Institute, aims to research how technology can be used to solve mental health problems. Its projects use social media data (primarily shared by Twitter) for research. "Mobile Phones as Pervasive Devices" uses mobile sensing technology such as Bluetooth to track social interactions in order to identify suicidal or other at-risk behavior.
+
+Data sharing methods depend on the particular project. The mobile sensing tracker used an app during the clinical trial to support this research. The data sharing methods used to collect social media data are explained in more detail in the "We Feel" case found in the Data Collaboratives Explorer.</p>
+          <!-- <p></p>
+          <p></p> -->
         
       </div>
       <div class="column large-4">
