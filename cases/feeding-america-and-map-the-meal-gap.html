@@ -67,35 +67,11 @@
 
     <div class="case-page">
 
-  <div class="top-section case-page__header case-page__header-health" style="background-image: url('/images/headers/health.jpg')">
+  <div class="top-section case-page__header case-page__header-health-agriculture-food" style="background-image: url('/images/headers/health.jpg')">
     <hgroup>
       <h1><span>Feeding America and Map the Meal Gap</span></h1>
       <h2 id="data-filter-container">
         
-          
-            <!-- 
-            This needs a refactor. 
-            Why we have this JS to change cursor? 
-            Why the <a> inside the <span>? Thsi should be one single tag. 
-            I tried it, but it broke the JS, which is also not ideal, since we can have it work with native anchor tag behavior, and #values.
-            -->
-            <span id="data-type" onmouseover="this.style.cursor='pointer';" class="disclosed-personal-data" ><a id="span-link" class="disclosed-personal-data" href="#">Disclosed Personal Data</a></span>
-          
-            <!-- 
-            This needs a refactor. 
-            Why we have this JS to change cursor? 
-            Why the <a> inside the <span>? Thsi should be one single tag. 
-            I tried it, but it broke the JS, which is also not ideal, since we can have it work with native anchor tag behavior, and #values.
-            -->
-            <span id="data-type" onmouseover="this.style.cursor='pointer';" class="observed-personal-data" ><a id="span-link" class="observed-personal-data" href="#">Observed Personal Data</a></span>
-          
-            <!-- 
-            This needs a refactor. 
-            Why we have this JS to change cursor? 
-            Why the <a> inside the <span>? Thsi should be one single tag. 
-            I tried it, but it broke the JS, which is also not ideal, since we can have it work with native anchor tag behavior, and #values.
-            -->
-            <span id="data-type" onmouseover="this.style.cursor='pointer';" class="disclosed-non-personal-data" ><a id="span-link" class="disclosed-non-personal-data" href="#">Disclosed Non-Personal Data</a></span>
           
             <!-- 
             This needs a refactor. 
@@ -111,6 +87,8 @@
           
             <span onmouseover="this.style.cursor='pointer';" id="data-sector" class="health" ><a id="span-link"class="health" href="#">Health</a></span>
           
+            <span onmouseover="this.style.cursor='pointer';" id="data-sector" class="agriculture-food" ><a id="span-link"class="agriculture-food" href="#">Agriculture/Food</a></span>
+          
         
       </h2>
     </hgroup>
@@ -122,13 +100,12 @@
       <div class="small-12 column medium-6 ">
         
           <h4>The Data</h4>
-          <p>This collaboration between Feeding America and Nielsen in 2014 collected and mapped data about food insecurity across America in an attempt to aid research and advocacy efforts. Nielsen obtained data estimates for food pricing through a multi-variable methodology that combined public data about income levels, employment rates and other socio-economic indicators at a county level. These results were used to build datasets on the Food Insecurity Rate, Food-Budget Shortfall, Cost-of-food Index and National Average Meal Cost. </p>
+          <p>This collaboration between Feeding America and Nielsen in 2014 collected and mapped data about food insecurity across America to aid research and advocacy efforts. Nielsen obtained data estimates for food pricing through a multi-variable methodology that combined public data about income levels, employment rates and other socio-economic indicators at a county level. The results became the basis of datasets on Food Insecurity Rate, Food-Budget Shortfall, Cost-of-food Index and National Average Meal Cost. Most significantly the study found that 26.4 million food-insecure people live in counties where food costs are higher than the national average. 
+
+This project is a continuation of previous workstreams. Since 2010, Nielsen has released food pricing information to Feeding America as part of its "Nielsen Cares" global social responsibility initiative to use data for social good. Feeding America shared this information with the public through their 2015 Map the Meal Gap Report, developed with the assistance of Nielsen volunteers.  </p>
         
       </div>
       <div class="small-12 column medium-6 ">
-        
-          <h4>How the data was shared</h4>
-          <p>Since 2010, Nielsen has released food pricing information to Feeding America as part of its "Nielsen Cares" global social responsibility initiative to use data for social good. Feeding America shared this information with the public through their 2015 Map the Meal Gap Report, developed with the assistance of Nielsen volunteers.  </p>
         
       </div>
     </div>
@@ -139,9 +116,11 @@
       <div class="column large-8">
         
           <h4>DESCRIPTION</h4>
-          <p>This collaboration between Feeding America and Nielsen in 2014 collected and mapped data about food insecurity across America in an attempt to aid research and advocacy efforts. Nielsen obtained data estimates for food pricing through a multi-variable methodology that combined public data about income levels, employment rates and other socio-economic indicators at a county level. These results were used to build datasets on the Food Insecurity Rate, Food-Budget Shortfall, Cost-of-food Index and National Average Meal Cost. </p>
-          <!-- <p>Since 2010, Nielsen has released food pricing information to Feeding America as part of its "Nielsen Cares" global social responsibility initiative to use data for social good. Feeding America shared this information with the public through their 2015 Map the Meal Gap Report, developed with the assistance of Nielsen volunteers.  </p>
-          <p>The Map the Meal project aims to track food insecurity in the U.S. to support activism and reform in this area. Most significantly the study found that 26.4 million food-insecure people live in counties where food costs are higher than the national average. This provides important insights into the cause and possible solutions to food insecurity in America.</p> -->
+          <p>This collaboration between Feeding America and Nielsen in 2014 collected and mapped data about food insecurity across America to aid research and advocacy efforts. Nielsen obtained data estimates for food pricing through a multi-variable methodology that combined public data about income levels, employment rates and other socio-economic indicators at a county level. The results became the basis of datasets on Food Insecurity Rate, Food-Budget Shortfall, Cost-of-food Index and National Average Meal Cost. Most significantly the study found that 26.4 million food-insecure people live in counties where food costs are higher than the national average. 
+
+This project is a continuation of previous workstreams. Since 2010, Nielsen has released food pricing information to Feeding America as part of its "Nielsen Cares" global social responsibility initiative to use data for social good. Feeding America shared this information with the public through their 2015 Map the Meal Gap Report, developed with the assistance of Nielsen volunteers.  </p>
+          <!-- <p></p>
+          <p></p> -->
         
       </div>
       <div class="column large-4">
@@ -911,14 +890,6 @@
 
 
 
-
-  <style media="screen">
-    .case-page__header { height: 55vh;}
-    h2 {
-      padding-right: 8%;
-      padding-left: 8%;
-    }
-  </style>
 
 
 
