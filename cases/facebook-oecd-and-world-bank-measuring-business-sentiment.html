@@ -81,6 +81,14 @@
             -->
             <span id="data-type" onmouseover="this.style.cursor='pointer';" class="observed-personal-data" ><a id="span-link" class="observed-personal-data" href="#">Observed Personal Data</a></span>
           
+            <!-- 
+            This needs a refactor. 
+            Why we have this JS to change cursor? 
+            Why the <a> inside the <span>? Thsi should be one single tag. 
+            I tried it, but it broke the JS, which is also not ideal, since we can have it work with native anchor tag behavior, and #values.
+            -->
+            <span id="data-type" onmouseover="this.style.cursor='pointer';" class="disclosed-personal-data" ><a id="span-link" class="disclosed-personal-data" href="#">Disclosed Personal Data</a></span>
+          
         
 
         
@@ -98,13 +106,12 @@
       <div class="small-12 column medium-6 ">
         
           <h4>The Data</h4>
-          <p>Facebook, World Bank and the OECD launched a new measure of business sentiment based on a "Future of Business Survey" questioning companies that use their Facebook pages to connect with customers. In cases where Facebook data could not be used, like in China, more traditional data collection methods were used.</p>
+          <p>Facebook, World Bank and the OECD launched a measure of business sentiment based on a "Future of Business Survey" questioning companies that use their Facebook pages to connect with customers. In cases where Facebook data could not be used, such as in China, researchers relied on more traditional data collection methods.
+
+According to The Wall Street Journal, the Future of Business Survey received responses to 15 queries from a total of 90,000 small and midsize firms across 22 countries. This initiative attempts to provide accurate and timely information about business sentiment across developed and developing countries to support economic growth and better inform business practices.</p>
         
       </div>
       <div class="small-12 column medium-6 ">
-        
-          <h4>How the data was shared</h4>
-          <p>According to The Wall Street Journal, in testing since February 2016, the Future of Business Survey received responses to 15 queries from a total of 90,000 small and midsize firms across 22 countries.</p>
         
       </div>
     </div>
@@ -115,9 +122,11 @@
       <div class="column large-8">
         
           <h4>DESCRIPTION</h4>
-          <p>Facebook, World Bank and the OECD launched a new measure of business sentiment based on a "Future of Business Survey" questioning companies that use their Facebook pages to connect with customers. In cases where Facebook data could not be used, like in China, more traditional data collection methods were used.</p>
-          <!-- <p>According to The Wall Street Journal, in testing since February 2016, the Future of Business Survey received responses to 15 queries from a total of 90,000 small and midsize firms across 22 countries.</p>
-          <p>This initiative attempts to provide accurate and timely information about business sentiment across developed and developing countries in order to support economic growth and better inform business practices. </p> -->
+          <p>Facebook, World Bank and the OECD launched a measure of business sentiment based on a "Future of Business Survey" questioning companies that use their Facebook pages to connect with customers. In cases where Facebook data could not be used, such as in China, researchers relied on more traditional data collection methods.
+
+According to The Wall Street Journal, the Future of Business Survey received responses to 15 queries from a total of 90,000 small and midsize firms across 22 countries. This initiative attempts to provide accurate and timely information about business sentiment across developed and developing countries to support economic growth and better inform business practices.</p>
+          <!-- <p></p>
+          <p></p> -->
         
       </div>
       <div class="column large-4">
