@@ -7,8 +7,8 @@
 
     <meta property="og:title" content="InBloom">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="http://localhost:4000/cases/inbloom.html">
-    <meta property="og:image" content="http://localhost:4000">
+    <meta property="og:url" content="http://datacollaboratives.org/cases/inbloom.html">
+    <meta property="og:image" content="http://datacollaboratives.org">
     <meta property="og:description" content="">
 
     <title>InBloom</title>
@@ -81,6 +81,14 @@
             -->
             <span id="data-type" onmouseover="this.style.cursor='pointer';" class="disclosed-personal-data" ><a id="span-link" class="disclosed-personal-data" href="#">Disclosed Personal Data</a></span>
           
+            <!-- 
+            This needs a refactor. 
+            Why we have this JS to change cursor? 
+            Why the <a> inside the <span>? Thsi should be one single tag. 
+            I tried it, but it broke the JS, which is also not ideal, since we can have it work with native anchor tag behavior, and #values.
+            -->
+            <span id="data-type" onmouseover="this.style.cursor='pointer';" class="observed-personal-data" ><a id="span-link" class="observed-personal-data" href="#">Observed Personal Data</a></span>
+          
         
 
         
@@ -98,13 +106,14 @@
       <div class="small-12 column medium-6 ">
         
           <h4>The Data</h4>
-          <p>Initiated in 2011 through $100 million in seed money from the Bill and Melinda Gates Foundation and the Carnegie Corporation of New York, inBloom aimed to store, clean and aggregate student data for states and districts.</p>
+          <p>Initiated in 2011 through $100 million in seed money from the Bill and Melinda Gates Foundation and the Carnegie Corporation of New York, inBloom was a nonprofit student data repository that made cleaned, standardized school and student data available to third parties. As envisioned, the service would help educators and their students by supporting the development of new softwares. 
+
+However, the repository faced intense scrutiny almost immediately after launch. The inBloom database included more than 400 different data fields about students that school administrators could fill in, but many of these fields, such as family relationships and enrollment changes, stuck many observers as overly personal. Many parents, who had not been previously consulted, objected to information about their children being transferred to a third-party vendor. The platform became seen as a dangerous encroachment into students' education with [some reports](https://datasociety.net/pubs/ecl/InBloom_feb_2017.pdf) describing it as "another example of rich tech elites projecting their values onto their communities with no contextual understanding."
+
+This backlash over privacy concerns led many partner school districts to back out of their agreements with the organization. inBloom ultimately ended its services in April 2014.</p>
         
       </div>
       <div class="small-12 column medium-6 ">
-        
-          <h4>How the data was shared</h4>
-          <p>InBloom was a nonprofit student data repository that made available standardized student and school data for creating approved third party applications and software designed for educators. It collected information from school districts' many databases and stored these in the cloud protected with high-level encryption. The inBloom database included more than 400 different data fields about students that school administrators could fill in. But, since some of the details seemed personal, like family relationships and enrollment changes, some parents objected saying that they did not want that kind of information about their children transferred to a third-party vendor. InBloom ultimately collapsed, for a variety of reason, but mainly because the data sharing agreements were seen as a dangerous encroachment into students' education. A 2017 article (https://points.datasociety.net/inblooms-collapse-undermined-personalized-learning-and-data-standards-efforts-199c5cccac01#.a69staljc) drawn from a detailed report about inBloom (https://datasociety.net/pubs/ecl/InBloom_feb_2017.pdf) suggested that "For many on the ground, inBloom was nothing more than another example of rich tech elites projecting their values onto their communities with no contextual understanding."</p>
         
       </div>
     </div>
@@ -115,9 +124,13 @@
       <div class="column large-8">
         
           <h4>DESCRIPTION</h4>
-          <p>Initiated in 2011 through $100 million in seed money from the Bill and Melinda Gates Foundation and the Carnegie Corporation of New York, inBloom aimed to store, clean and aggregate student data for states and districts.</p>
-          <!-- <p>InBloom was a nonprofit student data repository that made available standardized student and school data for creating approved third party applications and software designed for educators. It collected information from school districts' many databases and stored these in the cloud protected with high-level encryption. The inBloom database included more than 400 different data fields about students that school administrators could fill in. But, since some of the details seemed personal, like family relationships and enrollment changes, some parents objected saying that they did not want that kind of information about their children transferred to a third-party vendor. InBloom ultimately collapsed, for a variety of reason, but mainly because the data sharing agreements were seen as a dangerous encroachment into students' education. A 2017 article (https://points.datasociety.net/inblooms-collapse-undermined-personalized-learning-and-data-standards-efforts-199c5cccac01#.a69staljc) drawn from a detailed report about inBloom (https://datasociety.net/pubs/ecl/InBloom_feb_2017.pdf) suggested that "For many on the ground, inBloom was nothing more than another example of rich tech elites projecting their values onto their communities with no contextual understanding."</p>
-          <p>InBloom aimed to store, clean and aggregate student data for states and districts making data available and standardized for approved third party applications and software designed for educators. Backlash came from increased privacy concerns from parents and educators over the collection, use and storage of personally identifiable information on students, causing many partners to back out of initial agreements. InBloom began ending its services in April 2014.</p> -->
+          <p>Initiated in 2011 through $100 million in seed money from the Bill and Melinda Gates Foundation and the Carnegie Corporation of New York, inBloom was a nonprofit student data repository that made cleaned, standardized school and student data available to third parties. As envisioned, the service would help educators and their students by supporting the development of new softwares. 
+
+However, the repository faced intense scrutiny almost immediately after launch. The inBloom database included more than 400 different data fields about students that school administrators could fill in, but many of these fields, such as family relationships and enrollment changes, stuck many observers as overly personal. Many parents, who had not been previously consulted, objected to information about their children being transferred to a third-party vendor. The platform became seen as a dangerous encroachment into students' education with [some reports](https://datasociety.net/pubs/ecl/InBloom_feb_2017.pdf) describing it as "another example of rich tech elites projecting their values onto their communities with no contextual understanding."
+
+This backlash over privacy concerns led many partner school districts to back out of their agreements with the organization. inBloom ultimately ended its services in April 2014.</p>
+          <!-- <p></p>
+          <p></p> -->
         
       </div>
       <div class="column large-4">
