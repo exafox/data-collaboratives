@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-    <meta property="og:title" content="DrivenData’s Competition Platform">
+    <meta property="og:title" content="Tracking the Flu Using Tweets">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="http://datacollaboratives.org/cases/drivendatas-competition-platform.html">
-    <meta property="og:image" content="http://datacollaboratives.org">
+    <meta property="og:url" content="http://localhost:4000/cases/tracking-the-flu-using-tweets.html">
+    <meta property="og:image" content="http://localhost:4000">
     <meta property="og:description" content="">
 
-    <title>DrivenData's Competition Platform</title>
+    <title>Tracking the Flu Using Tweets</title>
 
     <link rel="stylesheet" href="/scripts/foundation.min.css">
     <link rel="stylesheet" href="/scripts/styleguide-v2.css">
@@ -67,40 +67,38 @@
 
     <div class="case-page">
 
-  <div class="top-section case-page__header case-page__header-health-economic-development-environment-education-infrastructure-transportation-telecommunications-agriculture-food-security-public-safety-social-inclusion-humanitarian" style="background-image: url('/images/headers/health.jpg')">
+  <div class="top-section case-page__header case-page__header-health" style="background-image: url('/images/headers/health.jpg')">
     <hgroup>
-      <h1><span>DrivenData's Competition Platform</span></h1>
+      <h1><span>Tracking the Flu Using Tweets</span></h1>
       <h2 id="data-filter-container">
+        
+          
+            <!-- 
+            This needs a refactor. 
+            Why we have this JS to change cursor? 
+            Why the <a> inside the <span>? Thsi should be one single tag. 
+            I tried it, but it broke the JS, which is also not ideal, since we can have it work with native anchor tag behavior, and #values.
+            -->
+            <span id="data-type" onmouseover="this.style.cursor='pointer';" class="observed-personal-data" ><a id="span-link" class="observed-personal-data" href="#">Observed Personal Data</a></span>
+          
+            <!-- 
+            This needs a refactor. 
+            Why we have this JS to change cursor? 
+            Why the <a> inside the <span>? Thsi should be one single tag. 
+            I tried it, but it broke the JS, which is also not ideal, since we can have it work with native anchor tag behavior, and #values.
+            -->
+            <span id="data-type" onmouseover="this.style.cursor='pointer';" class="observed-non-personal-data" ><a id="span-link" class="observed-non-personal-data" href="#">Observed Non-Personal Data</a></span>
+          
         
 
         
           
             <span onmouseover="this.style.cursor='pointer';" id="data-sector" class="health" ><a id="span-link"class="health" href="#">Health</a></span>
           
-            <span onmouseover="this.style.cursor='pointer';" id="data-sector" class="economic-development" ><a id="span-link"class="economic-development" href="#">Economic Development</a></span>
-          
-            <span onmouseover="this.style.cursor='pointer';" id="data-sector" class="environment" ><a id="span-link"class="environment" href="#">Environment</a></span>
-          
-            <span onmouseover="this.style.cursor='pointer';" id="data-sector" class="education" ><a id="span-link"class="education" href="#">Education</a></span>
-          
-            <span onmouseover="this.style.cursor='pointer';" id="data-sector" class="infrastructure" ><a id="span-link"class="infrastructure" href="#">Infrastructure</a></span>
-          
-            <span onmouseover="this.style.cursor='pointer';" id="data-sector" class="transportation" ><a id="span-link"class="transportation" href="#">Transportation</a></span>
-          
-            <span onmouseover="this.style.cursor='pointer';" id="data-sector" class="telecommunications" ><a id="span-link"class="telecommunications" href="#">Telecommunications</a></span>
-          
-            <span onmouseover="this.style.cursor='pointer';" id="data-sector" class="agriculture-food" ><a id="span-link"class="agriculture-food" href="#">Agriculture/Food</a></span>
-          
-            <span onmouseover="this.style.cursor='pointer';" id="data-sector" class="security-public-safety" ><a id="span-link"class="security-public-safety" href="#">Security/Public Safety</a></span>
-          
-            <span onmouseover="this.style.cursor='pointer';" id="data-sector" class="social-inclusion" ><a id="span-link"class="social-inclusion" href="#">Social Inclusion</a></span>
-          
-            <span onmouseover="this.style.cursor='pointer';" id="data-sector" class="humanitarian" ><a id="span-link"class="humanitarian" href="#">Humanitarian</a></span>
-          
         
       </h2>
     </hgroup>
-    <div class="case-page__header--button"><a target="_blank" class="button" href="https://www.drivendata.org/">Go to website</a></div>
+    <div class="case-page__header--button"><a target="_blank" class="button" href="http://datacollaboratives.org/static/files/social-media-data.pdf">Go to website</a></div>
   </div>
 <!-- 
   <div class="page-section case-page--info">
@@ -108,10 +106,15 @@
       <div class="small-12 column medium-6 ">
         
           <h4>The Data</h4>
-          <p>DrivenData, in collaboration with civil society or international organizations, hosts data competitions to develop tools that create public value, such as an earthquake damage model, heart disease predictor, and electricity use anomaly detector. Participants receive data from both public and private institutions, including the French energy corporation Schneider Electric, the US National Oceanic and Atmospheric Administration, and Cleveland Heart Disease Database.</p>
+          <p>In order to efficiently gather information about preventative measures and strains of a virus during flu season, Professor Dredze of Johns Hopkins was able to screen out useful tweets relating to the flu and use the open CDC (Centers for Disease Control and Prevention) data to create a predictive model that nowcasted flu conditions with a 29 percent increase in accuracy. 
+</p>
         
       </div>
       <div class="small-12 column medium-6 ">
+        
+          <h4>How the data was shared</h4>
+          <p>In 2013, the CDC, having taken notice of this increased interest in social media flu prediction, organized and hosted its first “Predict the Flu Season” challenge. This challenge focused the nine participating teams of researchers on predicting various milestones of the influenza season—e.g., start, duration and peak—which would be the most useful to public health prevention efforts.
+</p>
         
       </div>
     </div>
@@ -122,9 +125,11 @@
       <div class="column large-8">
         
           <h4>DESCRIPTION</h4>
-          <p>DrivenData, in collaboration with civil society or international organizations, hosts data competitions to develop tools that create public value, such as an earthquake damage model, heart disease predictor, and electricity use anomaly detector. Participants receive data from both public and private institutions, including the French energy corporation Schneider Electric, the US National Oceanic and Atmospheric Administration, and Cleveland Heart Disease Database.</p>
-          <!-- <p></p>
-          <p></p> -->
+          <p>In order to efficiently gather information about preventative measures and strains of a virus during flu season, Professor Dredze of Johns Hopkins was able to screen out useful tweets relating to the flu and use the open CDC (Centers for Disease Control and Prevention) data to create a predictive model that nowcasted flu conditions with a 29 percent increase in accuracy. 
+</p>
+          <!-- <p>In 2013, the CDC, having taken notice of this increased interest in social media flu prediction, organized and hosted its first “Predict the Flu Season” challenge. This challenge focused the nine participating teams of researchers on predicting various milestones of the influenza season—e.g., start, duration and peak—which would be the most useful to public health prevention efforts.
+</p>
+          <p>The model developed by the researchers at Johns Hopkins clearly demonstrates the promise and potential of the effective use of social media data to inform flu prediction. Their influenza model could predict the virus’s future activity one to two weeks before the CDC data alone with the same accuracy.</p> -->
         
       </div>
       <div class="column large-4">
@@ -132,8 +137,11 @@
         <div class="share-panel">
           <h5>Shared by</h5>
           
-            <!-- <a href="#" class="share-panel__item">Multiple</a> -->
-            <span class="share-panel__item">Multiple</span>
+            <!-- <a href="#" class="share-panel__item">Twitter</a> -->
+            <span class="share-panel__item">Twitter</span>
+          
+            <!-- <a href="#" class="share-panel__item">CDC</a> -->
+            <span class="share-panel__item">CDC</span>
           
         </div>
         
@@ -141,8 +149,8 @@
         <div class="share-panel">
           <h5>Shared with</h5>
           
-            <!-- <a href="#" class="share-panel__item">Competition Participants</a> -->
-            <span class="share-panel__item">Competition Participants</span>
+            <!-- <a href="#" class="share-panel__item">Multiple Researchers</a> -->
+            <span class="share-panel__item">Multiple Researchers</span>
           
         </div>
         

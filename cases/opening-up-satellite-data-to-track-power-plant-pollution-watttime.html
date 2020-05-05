@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"/>
     <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
-    <meta property="og:title" content="Orange Telecom Data for Development Challenge (D4D)">
+    <meta property="og:title" content="Opening up satellite data to track power plant pollution: WattTime">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="http://datacollaboratives.org/cases/orange-telecom-data-for-development-challenge-d4d.html">
-    <meta property="og:image" content="http://datacollaboratives.org">
+    <meta property="og:url" content="http://localhost:4000/cases/opening-up-satellite-data-to-track-power-plant-pollution-watttime.html">
+    <meta property="og:image" content="http://localhost:4000">
     <meta property="og:description" content="">
 
-    <title>Orange Telecom Data for Development Challenge (D4D)</title>
+    <title>Opening up satellite data to track power plant pollution: WattTime</title>
 
     <link rel="stylesheet" href="/scripts/foundation.min.css">
     <link rel="stylesheet" href="/scripts/styleguide-v2.css">
@@ -67,9 +67,9 @@
 
     <div class="case-page">
 
-  <div class="top-section case-page__header case-page__header-health-environment-infrastructure" style="background-image: url('/images/headers/health.jpg')">
+  <div class="top-section case-page__header case-page__header-environment" style="background-image: url('/images/headers/environment.jpg')">
     <hgroup>
-      <h1><span>Orange Telecom Data for Development Challenge (D4D)</span></h1>
+      <h1><span>Opening up satellite data to track power plant pollution: WattTime</span></h1>
       <h2 id="data-filter-container">
         
           
@@ -79,22 +79,26 @@
             Why the <a> inside the <span>? Thsi should be one single tag. 
             I tried it, but it broke the JS, which is also not ideal, since we can have it work with native anchor tag behavior, and #values.
             -->
-            <span id="data-type" onmouseover="this.style.cursor='pointer';" class="observed-personal-data" ><a id="span-link" class="observed-personal-data" href="#">Observed Personal Data</a></span>
+            <span id="data-type" onmouseover="this.style.cursor='pointer';" class="disclosed-non-personal-data" ><a id="span-link" class="disclosed-non-personal-data" href="#">Disclosed Non-Personal Data</a></span>
+          
+            <!-- 
+            This needs a refactor. 
+            Why we have this JS to change cursor? 
+            Why the <a> inside the <span>? Thsi should be one single tag. 
+            I tried it, but it broke the JS, which is also not ideal, since we can have it work with native anchor tag behavior, and #values.
+            -->
+            <span id="data-type" onmouseover="this.style.cursor='pointer';" class="observed-non-personal-data" ><a id="span-link" class="observed-non-personal-data" href="#">Observed Non-Personal Data</a></span>
           
         
 
         
           
-            <span onmouseover="this.style.cursor='pointer';" id="data-sector" class="health" ><a id="span-link"class="health" href="#">Health</a></span>
-          
             <span onmouseover="this.style.cursor='pointer';" id="data-sector" class="environment" ><a id="span-link"class="environment" href="#">Environment</a></span>
-          
-            <span onmouseover="this.style.cursor='pointer';" id="data-sector" class="infrastructure" ><a id="span-link"class="infrastructure" href="#">Infrastructure</a></span>
           
         
       </h2>
     </hgroup>
-    <div class="case-page__header--button"><a target="_blank" class="button" href="http://www.d4d.orange.com/en/Accueil">Go to website</a></div>
+    <div class="case-page__header--button"><a target="_blank" class="button" href="https://www.vox.com/energy-and-environment/2019/5/7/18530811/global-power-plants-real-time-pollution-data?_hsenc=p2ANqtz-9vZIvjxMlt_oaVcNbS3LpwoY26xce13Lt2YXkWM_bjZgWoPZGqRuNvU2ApzOHNGjOfg--wiYYD1PSniEg48NS4ThUFIw&_hsmi=72468246">Go to website</a></div>
   </div>
 <!-- 
   <div class="page-section case-page--info">
@@ -102,12 +106,13 @@
       <div class="small-12 column medium-6 ">
         
           <h4>The Data</h4>
-          <p>The D4D Challenge was an international competition in which Orange Telecom offered its anonymized data to researchers seeking to address development problems in the Ivory Coast and Senegal. Research teams could apply by sending in a research proposal. Orange then relied on a panel of outside experts representing academic, business, public, and civil society interests to review project proposals and flag those that posed substantial ethical risks under the previously agreed framework. 
-
-The thematic areas chosen for the D4D challenge were developed in consultation with various government ministries and international experts, who sought research results from the D4D Challenge to improve their policy and development outcomes. The winners of the D4D challenge in Senegal included researching the use of mobile phone data for electrification planning, analyzing how mobile phone access affects millet prices, and investigating how waterborne parasites spread through human movement.</p>
+          <p>This project will inovlve making government-administered satellite imagery data, e.g., from the European Union’s Copernicus network and the US Landsat network), as well as data from certain businesses like Digital GLobe.  as well as data from a few private companies that charge for their data (like Digital Globe). </p>
         
       </div>
       <div class="small-12 column medium-6 ">
+        
+          <h4>How the data was shared</h4>
+          <p>Data from a "variety of sensors operating at different wavelengths, including thermal infrared that can detect heat." Still in the planning stage, the information will be made broadly accessible to different types of users for scrutiny and analysis. </p>
         
       </div>
     </div>
@@ -118,11 +123,9 @@ The thematic areas chosen for the D4D challenge were developed in consultation w
       <div class="column large-8">
         
           <h4>DESCRIPTION</h4>
-          <p>The D4D Challenge was an international competition in which Orange Telecom offered its anonymized data to researchers seeking to address development problems in the Ivory Coast and Senegal. Research teams could apply by sending in a research proposal. Orange then relied on a panel of outside experts representing academic, business, public, and civil society interests to review project proposals and flag those that posed substantial ethical risks under the previously agreed framework. 
-
-The thematic areas chosen for the D4D challenge were developed in consultation with various government ministries and international experts, who sought research results from the D4D Challenge to improve their policy and development outcomes. The winners of the D4D challenge in Senegal included researching the use of mobile phone data for electrification planning, analyzing how mobile phone access affects millet prices, and investigating how waterborne parasites spread through human movement.</p>
-          <!-- <p></p>
-          <p></p> -->
+          <p>This project will inovlve making government-administered satellite imagery data, e.g., from the European Union’s Copernicus network and the US Landsat network), as well as data from certain businesses like Digital GLobe.  as well as data from a few private companies that charge for their data (like Digital Globe). </p>
+          <!-- <p>Data from a "variety of sensors operating at different wavelengths, including thermal infrared that can detect heat." Still in the planning stage, the information will be made broadly accessible to different types of users for scrutiny and analysis. </p>
+          <p>The purpose of this project is to enable greater transparency and public visibility of the amount of pollution that power plants are making. Monitoring and calculating emission data have been a challenge because many power companies are not transparent about the amount of pollution that they are generating. With this mechanism, the data will be accessible by policymakers and the public, which are expected to put more pressure on power companies to adopt an environmentally cleaner business practice.</p> -->
         
       </div>
       <div class="column large-4">
@@ -130,8 +133,8 @@ The thematic areas chosen for the D4D challenge were developed in consultation w
         <div class="share-panel">
           <h5>Shared by</h5>
           
-            <!-- <a href="#" class="share-panel__item">Orange Telecom</a> -->
-            <span class="share-panel__item">Orange Telecom</span>
+            <!-- <a href="#" class="share-panel__item">Multiple satellite operators</a> -->
+            <span class="share-panel__item">Multiple satellite operators</span>
           
         </div>
         
@@ -139,8 +142,8 @@ The thematic areas chosen for the D4D challenge were developed in consultation w
         <div class="share-panel">
           <h5>Shared with</h5>
           
-            <!-- <a href="#" class="share-panel__item">Academic researchers</a> -->
-            <span class="share-panel__item">Academic researchers</span>
+            <!-- <a href="#" class="share-panel__item">WattTime</a> -->
+            <span class="share-panel__item">WattTime</span>
           
         </div>
         
@@ -151,12 +154,12 @@ The thematic areas chosen for the D4D challenge were developed in consultation w
   <div class="page-section page-section--black regions">
     <div class="row align-center">
       <div class="large-8 column">
-        <h3>Region: Middle East and North Africa</h3>
+        <h3>Region: Worldwide</h3>
 
         
 
         
-          <div class="regions__map regions--north-africa">
+          <div class="regions__map regions--worldwide">
             <?xml version="1.0" encoding="utf-8"?>
 <!-- Generator: Adobe Illustrator 21.0.0, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
 <svg version="1.1"

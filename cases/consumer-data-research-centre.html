@@ -7,8 +7,8 @@
 
     <meta property="og:title" content="Consumer Data Research Centre">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="http://datacollaboratives.org/cases/consumer-data-research-centre.html">
-    <meta property="og:image" content="http://datacollaboratives.org">
+    <meta property="og:url" content="http://localhost:4000/cases/consumer-data-research-centre.html">
+    <meta property="og:image" content="http://localhost:4000">
     <meta property="og:description" content="">
 
     <title>Consumer Data Research Centre</title>
@@ -67,11 +67,19 @@
 
     <div class="case-page">
 
-  <div class="top-section case-page__header case-page__header-economic-development" style="background-image: url('/images/headers/economic-development.jpg')">
+  <div class="top-section case-page__header case-page__header-health-economic-development-environment-transportation-criminal-justice" style="background-image: url('/images/headers/health.jpg')">
     <hgroup>
       <h1><span>Consumer Data Research Centre</span></h1>
       <h2 id="data-filter-container">
         
+          
+            <!-- 
+            This needs a refactor. 
+            Why we have this JS to change cursor? 
+            Why the <a> inside the <span>? Thsi should be one single tag. 
+            I tried it, but it broke the JS, which is also not ideal, since we can have it work with native anchor tag behavior, and #values.
+            -->
+            <span id="data-type" onmouseover="this.style.cursor='pointer';" class="disclosed-personal-data" ><a id="span-link" class="disclosed-personal-data" href="#">Disclosed Personal Data</a></span>
           
             <!-- 
             This needs a refactor. 
@@ -101,7 +109,15 @@
 
         
           
+            <span onmouseover="this.style.cursor='pointer';" id="data-sector" class="health" ><a id="span-link"class="health" href="#">Health</a></span>
+          
             <span onmouseover="this.style.cursor='pointer';" id="data-sector" class="economic-development" ><a id="span-link"class="economic-development" href="#">Economic Development</a></span>
+          
+            <span onmouseover="this.style.cursor='pointer';" id="data-sector" class="environment" ><a id="span-link"class="environment" href="#">Environment</a></span>
+          
+            <span onmouseover="this.style.cursor='pointer';" id="data-sector" class="transportation" ><a id="span-link"class="transportation" href="#">Transportation</a></span>
+          
+            <span onmouseover="this.style.cursor='pointer';" id="data-sector" class="criminal-justice" ><a id="span-link"class="criminal-justice" href="#">Criminal Justice</a></span>
           
         
       </h2>
@@ -114,12 +130,13 @@
       <div class="small-12 column medium-6 ">
         
           <h4>The Data</h4>
-          <p>The Consumer Data Research Centre (CRDC) is a branch of the UK Economic and Social Research Council's Big Data Network. It collects data such as consumer loyalty and rewards program, and product turnover, from retail and service businesses and uses this data for a broad range of study and economic policy to support research that might improve governance and livelihoods. This information is available to researchers in criminology, health, transportation services, and other fields.
-
-Consumer data is classified by three levels of access. The first is available via an open data portal after registration. The second is a "Safeguarded" tier, which includes data with restricted access due to licensing conditions. To access it, researchers must submit proposals for use. The third, "Controlled," contains data with stringent access restrictions, as some of the data may be personally identifiable. Controlled data can only be accessed at secure facilities at the University College London or University of Liverpool after proposal approval by the Research Approvals Group, which includes representatitves from the UK Data Service, an independent academic representative, the Chair of the CDRC Advisory Board, a CDRC data scientist, and a data partner representative.</p>
+          <p>Data from various retail and service businesses based in the United Kingdom is shared with the Consumer Data Research Centre (CRDC), a branch of the UK Ecnonomic and Social Research Council's Big Data Network. Concsumer data includes: sales data from till receipts, loyalty card and reward scheme data, market research data, travel records, retail turnover by store or product category, and energy consumption meter data.</p>
         
       </div>
       <div class="small-12 column medium-6 ">
+        
+          <h4>How the data was shared</h4>
+          <p>Consumer data is available to researchers through three different levels of access on CDRC's website. The organization offers an open data portal through registration and download. The CRDC offers data through a "Safeguarded" tier, which includes data with restricted access due to licensing conditions. The third "Controlled" tier contains data with stringent access restrictions, as some of the data may be personally identifiable. In order to access Safeguarded CDRC data, researchers must submit proposals for the use of the data, while Controlled data can only be accessed at secure facilities at the University College London or University of Liverpool after proposal approval by the Research Approvals Group (RAG), which includes representatitves from the UK Data Service, an independent academic representative, the Chair of the CDRC Advisory Board, a  CDRC data scientist, and a data partner representative.</p>
         
       </div>
     </div>
@@ -130,11 +147,9 @@ Consumer data is classified by three levels of access. The first is available vi
       <div class="column large-8">
         
           <h4>DESCRIPTION</h4>
-          <p>The Consumer Data Research Centre (CRDC) is a branch of the UK Economic and Social Research Council's Big Data Network. It collects data such as consumer loyalty and rewards program, and product turnover, from retail and service businesses and uses this data for a broad range of study and economic policy to support research that might improve governance and livelihoods. This information is available to researchers in criminology, health, transportation services, and other fields.
-
-Consumer data is classified by three levels of access. The first is available via an open data portal after registration. The second is a "Safeguarded" tier, which includes data with restricted access due to licensing conditions. To access it, researchers must submit proposals for use. The third, "Controlled," contains data with stringent access restrictions, as some of the data may be personally identifiable. Controlled data can only be accessed at secure facilities at the University College London or University of Liverpool after proposal approval by the Research Approvals Group, which includes representatitves from the UK Data Service, an independent academic representative, the Chair of the CDRC Advisory Board, a CDRC data scientist, and a data partner representative.</p>
-          <!-- <p></p>
-          <p></p> -->
+          <p>Data from various retail and service businesses based in the United Kingdom is shared with the Consumer Data Research Centre (CRDC), a branch of the UK Ecnonomic and Social Research Council's Big Data Network. Concsumer data includes: sales data from till receipts, loyalty card and reward scheme data, market research data, travel records, retail turnover by store or product category, and energy consumption meter data.</p>
+          <!-- <p>Consumer data is available to researchers through three different levels of access on CDRC's website. The organization offers an open data portal through registration and download. The CRDC offers data through a "Safeguarded" tier, which includes data with restricted access due to licensing conditions. The third "Controlled" tier contains data with stringent access restrictions, as some of the data may be personally identifiable. In order to access Safeguarded CDRC data, researchers must submit proposals for the use of the data, while Controlled data can only be accessed at secure facilities at the University College London or University of Liverpool after proposal approval by the Research Approvals Group (RAG), which includes representatitves from the UK Data Service, an independent academic representative, the Chair of the CDRC Advisory Board, a  CDRC data scientist, and a data partner representative.</p>
+          <p>Consumer data is made available through the Consumer Data Research Centre in order to  ensure a sustainable future for consumer data research sharing in the United Kingdom, to support innovation efforts of consumer-related organizations, and to drive economic growth. The CDRC also hopes to enrich the social science research through linking consumer data to a broader range of studies. </p> -->
         
       </div>
       <div class="column large-4">
@@ -913,6 +928,14 @@ Consumer data is classified by three levels of access. The first is available vi
 
 
 
+
+  <style media="screen">
+    .case-page__header { height: 55vh;}
+    h2 {
+      padding-right: 8%;
+      padding-left: 8%;
+    }
+  </style>
 
 
 

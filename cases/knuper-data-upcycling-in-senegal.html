@@ -7,8 +7,8 @@
 
     <meta property="og:title" content="Knuper Data Upcycling in Senegal">
     <meta property="og:type" content="website">
-    <meta property="og:url" content="http://datacollaboratives.org/cases/knuper-data-upcycling-in-senegal.html">
-    <meta property="og:image" content="http://datacollaboratives.org">
+    <meta property="og:url" content="http://localhost:4000/cases/knuper-data-upcycling-in-senegal.html">
+    <meta property="og:image" content="http://localhost:4000">
     <meta property="og:description" content="">
 
     <title>Knuper Data Upcycling in Senegal</title>
@@ -79,6 +79,14 @@
             Why the <a> inside the <span>? Thsi should be one single tag. 
             I tried it, but it broke the JS, which is also not ideal, since we can have it work with native anchor tag behavior, and #values.
             -->
+            <span id="data-type" onmouseover="this.style.cursor='pointer';" class="disclosed-personal-data" ><a id="span-link" class="disclosed-personal-data" href="#">Disclosed Personal Data</a></span>
+          
+            <!-- 
+            This needs a refactor. 
+            Why we have this JS to change cursor? 
+            Why the <a> inside the <span>? Thsi should be one single tag. 
+            I tried it, but it broke the JS, which is also not ideal, since we can have it work with native anchor tag behavior, and #values.
+            -->
             <span id="data-type" onmouseover="this.style.cursor='pointer';" class="observed-personal-data" ><a id="span-link" class="observed-personal-data" href="#">Observed Personal Data</a></span>
           
         
@@ -98,12 +106,16 @@
       <div class="small-12 column medium-6 ">
         
           <h4>The Data</h4>
-          <p>In 2013, the data-driven international development company Knuper acquired call detail record (CDR) data from the telecommunications company Orange/Sonatel as part of its Data for Development Challenge. Using this data, Knuper conducted a study "determining the usability of CDRs to improve measurements of illiteracy in developing countries." 
+          <p>From the project description:
 
-The researchers expanded on [their methodology](https://rss.onlinelibrary.wiley.com/doi/full/10.1111/rssa.12305) in a paper subsequently published. In it, they describe how they used anonymized CDRs covering the year 2013. The dataset "is based on more than 9 million unique mobile phone numbers and represents a market share of around 60%. In particular, we had access to the tower‐to‐tower traffic of all 1666 mobile phone towers in Senegal."</p>
+"We used CDRs from Senegal in 2013, kindly provided by Orange/Sonatel as part of the Data for Development (D4D) Challenge survey data from the Demographic and Health Survey (DHS) in Senegal and a modified small area model."</p>
         
       </div>
       <div class="small-12 column medium-6 ">
+        
+          <h4>How the data was shared</h4>
+          <p>From the [paper](https://rss.onlinelibrary.wiley.com/doi/full/10.1111/rssa.12305):
+"The mobile phone data that are used in this paper consist of anonymized call detail records from the Senegalese telecommunication company Sonatel covering the year 2013. The data set is based on more than 9 million unique mobile phone numbers and represents a market share of around 60%. In particular, we had access to the tower‐to‐tower traffic of all 1666 mobile phone towers in Senegal. In what follows we discuss the practical implementation of the processing of the mobile phone data and present details regarding the construction of the mobile phone covariates."</p>
         
       </div>
     </div>
@@ -114,11 +126,12 @@ The researchers expanded on [their methodology](https://rss.onlinelibrary.wiley.
       <div class="column large-8">
         
           <h4>DESCRIPTION</h4>
-          <p>In 2013, the data-driven international development company Knuper acquired call detail record (CDR) data from the telecommunications company Orange/Sonatel as part of its Data for Development Challenge. Using this data, Knuper conducted a study "determining the usability of CDRs to improve measurements of illiteracy in developing countries." 
+          <p>From the project description:
 
-The researchers expanded on [their methodology](https://rss.onlinelibrary.wiley.com/doi/full/10.1111/rssa.12305) in a paper subsequently published. In it, they describe how they used anonymized CDRs covering the year 2013. The dataset "is based on more than 9 million unique mobile phone numbers and represents a market share of around 60%. In particular, we had access to the tower‐to‐tower traffic of all 1666 mobile phone towers in Senegal."</p>
-          <!-- <p></p>
-          <p></p> -->
+"We used CDRs from Senegal in 2013, kindly provided by Orange/Sonatel as part of the Data for Development (D4D) Challenge survey data from the Demographic and Health Survey (DHS) in Senegal and a modified small area model."</p>
+          <!-- <p>From the [paper](https://rss.onlinelibrary.wiley.com/doi/full/10.1111/rssa.12305):
+"The mobile phone data that are used in this paper consist of anonymized call detail records from the Senegalese telecommunication company Sonatel covering the year 2013. The data set is based on more than 9 million unique mobile phone numbers and represents a market share of around 60%. In particular, we had access to the tower‐to‐tower traffic of all 1666 mobile phone towers in Senegal. In what follows we discuss the practical implementation of the processing of the mobile phone data and present details regarding the construction of the mobile phone covariates."</p>
+          <p>The purpose of this collaboration is to unearth data on literacy in Senegal, as a step to support the achievement of one of the Sustainable Development Goals (SDGs).</p> -->
         
       </div>
       <div class="column large-4">
